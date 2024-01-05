@@ -14,7 +14,7 @@
 
 ### D2K Lab Semantics group
 
-* [ ] DOREMUS: https://github.com/DOREMUS-ANR/knowledge-base/tree/master/query-examples
+* [X] DOREMUS: https://github.com/DOREMUS-ANR/doremus-ontology, dowload from commit [1ab3e2c](https://github.com/DOREMUS-ANR/doremus-ontology/commit/1ab3e2cea98474081d80ce6de0718bd3dc60a1a9)
 * [ ] SILKNOW: https://github.com/silknow/converter/tree/master/competency_questions
 * [ ] Odeuropa: https://github.com/Odeuropa/ontology/tree/master/competency_questions
 * [ ] NORIA: https://github.com/Orange-OpenSource/noria-ontology/tree/master/cqs
