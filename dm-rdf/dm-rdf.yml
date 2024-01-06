@@ -37,7 +37,7 @@ ontologies:
       source-group: D2K Lab Semantics group
       dm-folder: NORIA-O
     - name: Polifonia
-      source: to-be-done, see https://github.com/polifonia-project/ontology-network/tree/main
+      source: https://github.com/polifonia-project/ontology-network/commit/7deab63cf628e76bee2a207bbe06c69371fb9c23
       source-group: Polifonia (https://polifonia-project.eu/)
       dm-folder: Polifonia
 

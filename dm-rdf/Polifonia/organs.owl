@@ -1,0 +1,787 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://w3id.org/polifonia/ontology/organs/"
+     xml:base="https://w3id.org/polifonia/ontology/organs/"
+     xmlns:organs="https://w3id.org/polifonia/ontology/organs/0.1/"
+     xmlns:dul="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:core="https://w3id.org/polifonia/ontology/core/0.1#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="https://w3id.org/polifonia/ontology/organs/">
+        <owl:versionIRI rdf:resource="https://w3id.org/polifonia/ontology/organs/1.0/"/>
+        <dc:creator xml:lang="en">Fiorela Ciroku</dc:creator>
+        <dc:license rdf:resource="https://creativecommons.org/licenses/by-sa/4.0/"/>
+        <terms:license rdf:resource="https://creativecommons.org/licenses/by-sa/4.0/"/>
+        <cc:license rdf:resource="https://creativecommons.org/licenses/by-sa/4.0/"/>
+        <rdfs:comment>The Organs ontology module of the Polifonia Ontology Network represents concepts and relationships that describe pipe organs.</rdfs:comment>
+        <rdfs:label>Organs Ontology</rdfs:label>
+        <dc:title xml:lang="en">Organs Ontology</dc:title>
+        <rdfs:description>The Organs ontology module of the Polifonia Ontology Network represents concepts and relationships that describe pipe organs.</rdfs:description>
+        <owl:versionInfo xml:lang="en">1.0</owl:versionInfo>
+        <terms:modified>"2023-02-10"^^xsd:date</terms:modified>
+        <terms:issued>"2023-02-10"^^xsd:date</terms:issued>
+        <vann:preferredNamespacePrefix>organs:</vann:preferredNamespacePrefix>
+        <vann:preferredNamespaceUri>https://w3id.org/polifonia/ontology/organs/</vann:preferredNamespaceUri>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://w3id.org/arco/ontology/core/definesTask -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/arco/ontology/core/definesTask">
+        <owl:inverseOf rdf:resource="https://w3id.org/arco/ontology/core/isTaskDefinedIn"/>
+        <rdfs:label xml:lang="en">defines task</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/arco/ontology/core/describes -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/arco/ontology/core/describes">
+        <owl:inverseOf rdf:resource="https://w3id.org/arco/ontology/core/isDescribedBy"/>
+        <rdfs:label xml:lang="en">described</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/arco/ontology/core/hasAgent -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/arco/ontology/core/hasAgent">
+        <owl:inverseOf rdf:resource="https://w3id.org/arco/ontology/core/isAgentOf"/>
+        <rdfs:label xml:lang="en">has agent</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/arco/ontology/core/hasPlace -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/arco/ontology/core/hasPlace">
+        <owl:inverseOf rdf:resource="https://w3id.org/arco/ontology/core/isPlaceOf"/>
+        <rdfs:label xml:lang="en">has place</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/arco/ontology/core/hasRole -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/arco/ontology/core/hasRole">
+        <owl:inverseOf rdf:resource="https://w3id.org/arco/ontology/core/isRoleOf"/>
+        <rdfs:label xml:lang="en">has role</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/arco/ontology/core/includesPart -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/arco/ontology/core/includesPart">
+        <owl:inverseOf rdf:resource="https://w3id.org/arco/ontology/core/isPartIncludedIn"/>
+        <rdfs:label xml:lang="en">includes part</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/arco/ontology/core/incudesWhole -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/arco/ontology/core/incudesWhole">
+        <owl:inverseOf rdf:resource="https://w3id.org/arco/ontology/core/isWholeIncludedIn"/>
+        <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label xml:lang="en">includes whole</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/arco/ontology/core/isAgentOf -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/arco/ontology/core/isAgentOf">
+        <rdfs:label xml:lang="en">is agent of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/arco/ontology/core/isDescribedBy -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/arco/ontology/core/isDescribedBy">
+        <rdfs:label xml:lang="en">is described by</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/arco/ontology/core/isPartIncludedIn -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/arco/ontology/core/isPartIncludedIn">
+        <rdfs:label xml:lang="en">is part included in</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/arco/ontology/core/isPlaceOf -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/arco/ontology/core/isPlaceOf">
+        <rdfs:label xml:lang="en">is place of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/arco/ontology/core/isRoleOf -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/arco/ontology/core/isRoleOf">
+        <rdfs:label xml:lang="en">is role of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/arco/ontology/core/isTaskDefinedIn -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/arco/ontology/core/isTaskDefinedIn">
+        <rdfs:label xml:lang="en">is task defined in</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/arco/ontology/core/isWholeIncludedIn -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/arco/ontology/core/isWholeIncludedIn">
+        <rdfs:label xml:lang="en">is whole included in</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/hasAgentRole -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/core/hasAgentRole">
+        <owl:inverseOf rdf:resource="https://w3id.org/polifonia/ontology/organs/isAgentRoleOf"/>
+        <rdfs:label>has agent role</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/hasPart -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/core/hasPart">
+        <owl:inverseOf rdf:resource="https://w3id.org/polifonia/ontology/organs/isPartOf"/>
+        <rdfs:label xml:lang="en">has part</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/hasTimeInterval -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/core/hasTimeInterval">
+        <owl:inverseOf rdf:resource="https://w3id.org/polifonia/ontology/organs/isTimeIntervalOf"/>
+        <rdfs:label>has time interval</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/organs/hasConsoleLocation -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/organs/hasConsoleLocation">
+        <owl:inverseOf rdf:resource="https://w3id.org/polifonia/ontology/organs/isConsoleLocationOf"/>
+        <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/organs/Action"/>
+        <rdfs:range rdf:resource="https://w3id.org/polifonia/ontology/organs/ConsoleLocation"/>
+        <rdfs:label xml:lang="en">has console location</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/organs/isAgentRoleOf -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/organs/isAgentRoleOf">
+        <rdfs:label>is agent role of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/organs/isConsoleLocationOf -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/organs/isConsoleLocationOf">
+        <rdfs:label xml:lang="en">is console location of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/organs/isPartOf -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/organs/isPartOf">
+        <rdfs:comment>is part of</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/organs/isTimeIntervalOf -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/organs/isTimeIntervalOf">
+        <rdfs:comment>is time interval of</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://w3id.org/arco/ontology/core/isCurrentParthood -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/arco/ontology/core/isCurrentParthood">
+        <rdfs:domain rdf:resource="https://w3id.org/arco/ontology/core/Parthood"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:label xml:lang="en">is current parthood</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/arco/ontology/core/isFirstProject -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/arco/ontology/core/isFirstProject">
+        <rdfs:domain rdf:resource="https://w3id.org/arco/ontology/core/Project"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:label xml:lang="en">is first project</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/arco/ontology/core/isLastProject -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/arco/ontology/core/isLastProject">
+        <rdfs:domain rdf:resource="https://w3id.org/arco/ontology/core/Project"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/arco/ontology/organs/hasOrganDictionaryID -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/arco/ontology/organs/hasOrganDictionaryID">
+        <rdfs:label xml:lang="en">has organ dictionary ID</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/organs/hasFootHight -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/polifonia/ontology/organs/hasFootHight">
+        <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/organs/DivisionStop"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+        <rdfs:label xml:lang="en">has foot hight</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/organs/hasNumberOfBellows -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/polifonia/ontology/organs/hasNumberOfBellows">
+        <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/organs/WindSystem"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:label xml:lang="en">has number of bellows</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/organs/hasPitch -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/polifonia/ontology/organs/hasPitch">
+        <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/organs/Organ"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/organs/hasRange -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/polifonia/ontology/organs/hasRange">
+        <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/organs/Keyboard"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+        <rdfs:label xml:lang="en">has range</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/organs/hasRank -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/polifonia/ontology/organs/hasRank">
+        <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/organs/Keyboard"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+        <rdfs:label xml:lang="en">has rank</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/organs/hasTuning -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/polifonia/ontology/organs/hasTuning">
+        <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/organs/Organ"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+        <rdfs:label xml:lang="en">has tuning</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/organs/hasWindPressure -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/polifonia/ontology/organs/hasWindPressure">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/polifonia/ontology/organs/Division"/>
+                    <rdf:Description rdf:about="https://w3id.org/polifonia/ontology/organs/Organ"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+        <rdfs:label xml:lang="en">has wind pressure</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/organs/organDictionaryID -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/polifonia/ontology/organs/organDictionaryID">
+        <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:label>organ dictionary ID</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://w3id.org/arco/ontology/core/Agent -->
+
+    <owl:Class rdf:about="https://w3id.org/arco/ontology/core/Agent">
+        <rdfs:label xml:lang="en">Agent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/arco/ontology/core/Parthood -->
+
+    <owl:Class rdf:about="https://w3id.org/arco/ontology/core/Parthood">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/arco/ontology/core/incudesWhole"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/organs/Organ"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/core/hasTimeInterval"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/core/TimeInterval"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">Parthood</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/arco/ontology/core/Place -->
+
+    <owl:Class rdf:about="https://w3id.org/arco/ontology/core/Place">
+        <rdfs:label xml:lang="en">Place</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/arco/ontology/core/Project -->
+
+    <owl:Class rdf:about="https://w3id.org/arco/ontology/core/Project">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/arco/ontology/core/definesTask"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/arco/ontology/core/Task"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/arco/ontology/core/hasPlace"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/arco/ontology/core/Place"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/core/hasAgentRole"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/core/AgentRole"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/core/hasTimeInterval"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/core/TimeInterval"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">Project</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/arco/ontology/core/Role -->
+
+    <owl:Class rdf:about="https://w3id.org/arco/ontology/core/Role">
+        <rdfs:label xml:lang="en">Agent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/arco/ontology/core/Task -->
+
+    <owl:Class rdf:about="https://w3id.org/arco/ontology/core/Task">
+        <rdfs:label xml:lang="en">Task</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/AgentRole -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/core/AgentRole">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/arco/ontology/core/hasAgent"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/arco/ontology/core/Agent"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/arco/ontology/core/hasRole"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/arco/ontology/core/Role"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">Agent role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/TimeInterval -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/core/TimeInterval">
+        <rdfs:label xml:lang="en">Time interval</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/organs/Action -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/organs/Action">
+        <owl:disjointWith rdf:resource="https://w3id.org/polifonia/ontology/organs/Case"/>
+        <rdfs:label xml:lang="en">Organ action</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/organs/Bellow -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/organs/Bellow">
+        <rdfs:label xml:lang="en">Organ Bellow</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/organs/BrustwerkCase -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/organs/BrustwerkCase">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/organs/CaseSegment"/>
+        <rdfs:label xml:lang="en">Brustwerk case</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/organs/Case -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/organs/Case">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/core/hasPart"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/organs/CaseSegment"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="https://w3id.org/polifonia/ontology/organs/Console"/>
+        <owl:disjointWith rdf:resource="https://w3id.org/polifonia/ontology/organs/Division"/>
+        <owl:disjointWith rdf:resource="https://w3id.org/polifonia/ontology/organs/Keyboard"/>
+        <owl:disjointWith rdf:resource="https://w3id.org/polifonia/ontology/organs/WindSystem"/>
+        <rdfs:label xml:lang="en">Organ case</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/organs/CaseSegment -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/organs/CaseSegment">
+        <rdfs:label xml:lang="en">Case segment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/organs/ChoirCase -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/organs/ChoirCase">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/organs/CaseSegment"/>
+        <rdfs:label xml:lang="en">Choir case</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/organs/Console -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/organs/Console">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/core/hasPart"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/organs/Keyboard"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/core/hasPart"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/organs/PlayingAids"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/core/hasPart"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/organs/StopKnob"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">Organ console</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/organs/ConsoleLocation -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/organs/ConsoleLocation">
+        <rdfs:label xml:lang="en">Console location (relative to the organ)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/organs/Division -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/organs/Division">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/core/hasPart"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/organs/DivisionStop"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">Organ division</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/organs/DivisionStop -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/organs/DivisionStop">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/core/hasPart"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/organs/StopRank"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">Division stop</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/organs/Keyboard -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/organs/Keyboard">
+        <rdfs:label xml:lang="en">Keyboard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/organs/MainCase -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/organs/MainCase">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/organs/CaseSegment"/>
+        <rdfs:label xml:lang="en">Main case</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/organs/ManualKeyboard -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/organs/ManualKeyboard">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/organs/Keyboard"/>
+        <rdfs:label xml:lang="en">Manual keyboard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/organs/OberwerkCase -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/organs/OberwerkCase">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/organs/CaseSegment"/>
+        <rdfs:label xml:lang="en">Oberwerk case</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/organs/Organ -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/organs/Organ">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/arco/ontology/core/includesPart"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/organs/Action"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/arco/ontology/core/includesPart"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/organs/Case"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/arco/ontology/core/includesPart"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/organs/Console"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/arco/ontology/core/includesPart"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/organs/Division"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/arco/ontology/core/includesPart"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/organs/WindSystem"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/arco/ontology/core/isDescribedBy"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/arco/ontology/core/Project"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">Organ</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/organs/PedalKeyboard -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/organs/PedalKeyboard">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/organs/Keyboard"/>
+        <rdfs:label xml:lang="en">Pedal keyboard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/organs/PedalTowerCase -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/organs/PedalTowerCase">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/organs/CaseSegment"/>
+        <rdfs:label xml:lang="en">Pedal tower case</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/organs/Pipe -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/organs/Pipe">
+        <rdfs:label xml:lang="en">Pipe</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/organs/PlayingAids -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/organs/PlayingAids">
+        <rdfs:label xml:lang="en">Console playing aids</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/organs/PositiveCase -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/organs/PositiveCase">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/organs/CaseSegment"/>
+        <rdfs:label xml:lang="en">Positive case</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/organs/StopKnob -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/organs/StopKnob">
+        <rdfs:label xml:lang="en">Console stop knob</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/organs/StopRank -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/organs/StopRank">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/core/hasPart"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/organs/Pipe"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">Stop rank</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/organs/WindChannel -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/organs/WindChannel">
+        <rdfs:label xml:lang="en">Wind channel</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/organs/WindSystem -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/organs/WindSystem">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/core/hasPart"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/organs/Bellow"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/core/hasPart"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/organs/WindChannel"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">Organ wind system</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

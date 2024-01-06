@@ -1,0 +1,201 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://w3id.org/polifonia/ontology/music-instrument/"
+     xml:base="https://w3id.org/polifonia/ontology/music-instrument/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:core="https://w3id.org/polifonia/ontology/core/"
+     xmlns:inst="https://w3id.org/polifonia/ontology/music-instrument/"
+     xmlns:opla="http://ontologydesignpatterns.org/opla/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:cc="http://creativecommons.org/ns#"
+     xmlns:vann="http://purl.org/vocab/vann/"
+     xmlns:catalogue="https://w3id.org/arco/ontology/catalogue/">
+    <owl:Ontology rdf:about="https://w3id.org/polifonia/ontology/music-instrument/">
+        <owl:versionIRI rdf:resource="https://w3id.org/polifonia/ontology/music-instrument/1.0/"/>
+        <owl:imports rdf:resource="https://w3id.org/arco/ontology/location/1.2"/>
+        <owl:imports rdf:resource="https://w3id.org/polifonia/ontology/core/1.0"/>
+        <owl:imports rdf:resource="https://w3id.org/polifonia/ontology/music-meta/1.0/"/>
+        <dc:creator xml:lang="en">Jacopo de Berardinis</dc:creator>
+        <dc:creator xml:lang="en">Valentina Carriero</dc:creator>
+        <dc:creator xml:lang="en">Valentina Presutti</dc:creator>
+        <dc:license rdf:resource="https://creativecommons.org/licenses/by-sa/4.0/"/>
+        <terms:license rdf:resource="https://creativecommons.org/licenses/by-sa/4.0/"/>
+        <cc:license rdf:resource="https://creativecommons.org/licenses/by-sa/4.0/"/>
+        <rdfs:comment xml:lang="en">This ontology describes musical instruments as mediums of performance and their technical properties. Given that numerous taxonomies of instruments into groups and families exist (e.g. Hornbostel-Sachs, MIMO, MusicBrainz) and finding common categorisations is an open problem, our module provides an abstraction capable to express arbitrary classifications.</rdfs:comment>
+        <rdfs:label xml:lang="en">Music Instrument Ontology</rdfs:label>
+        <dc:title xml:lang="en">Music Instrument Ontology</dc:title>
+        <dc:description xml:lang="en">This ontology describes musical instruments as mediums of performance and their technical properties. Given that numerous taxonomies of instruments into groups and families exist (e.g. Hornbostel-Sachs, MIMO, MusicBrainz) and finding common categorisations is an open problem, our module provides an abstraction capable to express arbitrary classifications.</dc:description>
+        <owl:versionInfo xml:lang="en">1.0</owl:versionInfo>
+        <terms:modified>"2023-05-19"^^xsd:date</terms:modified>
+        <terms:issued>"2023-04-12"^^xsd:date</terms:issued>
+        <vann:preferredNamespacePrefix>mi:</vann:preferredNamespacePrefix>
+        <vann:preferredNamespaceUri>https://w3id.org/polifonia/ontology/music-instrument/</vann:preferredNamespaceUri>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/instrument/hasBuilder -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/instrument/hasBuilder">
+        <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/instrument/InstrumentRealization"/>
+        <rdfs:range rdf:resource="https://w3id.org/polifonia/ontology/core/Agent"/>
+        <rdfs:comment xml:lang="en">The relation between an instrument realization and its builder.</rdfs:comment>
+        <rdfs:label xml:lang="en">has builder</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/instrument/wasBuiltAtTime -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/instrument/wasBuiltAtTime">
+        <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/instrument/InstrumentRealization"/>
+        <rdfs:range rdf:resource="https://w3id.org/polifonia/ontology/core/TimeInterval"/>
+        <rdfs:comment xml:lang="en">The relation between an instrument realization and the time interval it was built at.</rdfs:comment>
+        <rdfs:label xml:lang="en">was built at time</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/instrument/wasBuiltIn -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/instrument/wasBuiltIn">
+        <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/instrument/InstrumentRealization"/>
+        <rdfs:range rdf:resource="https://w3id.org/polifonia/ontology/core/Place"/>
+        <rdfs:comment xml:lang="en">The relation between an instrument realization and the place it was built in.</rdfs:comment>
+        <rdfs:label xml:lang="en">was built in</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/instrument/wasInventedAtTime -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/instrument/wasInventedAtTime">
+        <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/instrument/Instrument"/>
+        <rdfs:range rdf:resource="https://w3id.org/polifonia/ontology/core/TimeInterval"/>
+        <rdfs:comment xml:lang="en">The relation between an instrument, intended as an information object, and the time interval it was invented at.</rdfs:comment>
+        <rdfs:label xml:lang="en">was invented at time</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/instrument/wasInventedBy -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/instrument/wasInventedBy">
+        <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/instrument/Instrument"/>
+        <rdfs:range rdf:resource="https://w3id.org/polifonia/ontology/core/Agent"/>
+        <rdfs:comment xml:lang="en">The relation between an instrument as an information object and the agent which invented it.</rdfs:comment>
+        <rdfs:label xml:lang="en">was invented by</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/instrument/Instrument -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/instrument/Instrument">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/core/InformationObject"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/music-meta/MediumOfPerformance"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/instrument/wasInventedAtTime"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/core/TimeInterval"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/instrument/wasInventedBy"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/core/Agent"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/arco/ontology/core/hasPart"/>
+                <owl:allValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/instrument/InstrumentPart"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">An instrument intended as an information object (e.g. the guitar as an information object), regardless its physical realizations (e.g. the specific guitar at my place).</rdfs:comment>
+        <rdfs:label xml:lang="en">Instrument</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/instrument/InstrumentPart -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/instrument/InstrumentPart">
+        <rdfs:comment xml:lang="en">The part of an instrument.</rdfs:comment>
+        <rdfs:label xml:lang="en">Instrument part</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/instrument/InstrumentRealization -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/instrument/InstrumentRealization">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/core/InformationRealization"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/arco/ontology/location/hasTimeIndexedTypedLocation"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/arco/ontology/location/TimeIndexedTypedLocation"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/core/hasName"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/core/Name"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/core/realizes"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/instrument/Instrument"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/instrument/wasBuiltIn"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/core/Place"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">The physical realization of an instrument, intended as the information realization (e.g. the specific guitar at my place) and the information object (the guitar as an information object).</rdfs:comment>
+        <rdfs:label xml:lang="en">Instrument realization</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/instrument/Voice -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/instrument/Voice">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/music-meta/MediumOfPerformance"/>
+        <rdfs:label xml:lang="en">Voice</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
