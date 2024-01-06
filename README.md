@@ -2,6 +2,22 @@
 
 Repository for Large Language Models for Knowledge Engineering
 
+## Objectives
+
+Original idea:
+
+> How much LLM could co-contribute in the knowledge engineering process together with our usual methodology (competency questions, ontology re-use, authoring tests, etc.).
+
+Set of questions we could investigate:
+
+1. Could a LLM reverse engineer an ontology and find out what good competency questions could be derived?
+2. Could a LLM take as input the CQ and generate parts of the ontology?
+3. Could a LLM take as input the CQ and extend an existing ontology?
+4. Could a LLM take as input the CQ and generate abstract patterns?
+5. Could a LLM write an authoring test (a SPARQL query) given the ontology and the CQ?
+6. Given a dataset and an ontology, is an LLM able to generate an adequate set of RML rules for data ingestion?
+7. Could a LLM take as input the CQ and extend an existing ontology?
+
 ## Usage
 
 See the *Repository Structure* for navigating into this repository:
