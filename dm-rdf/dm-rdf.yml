@@ -1,0 +1,33 @@
+---
+ontologies:
+    - name: DemCare
+      source: https://github.com/CQ2SPARQLOWL/Dataset/commit/57a5bd2ab66c8a40041af6e20cb965bd69766496
+      source-group: CLaRO (https://github.com/mkeet/CLaRO)
+    - name: awo
+      source: https://github.com/CQ2SPARQLOWL/Dataset/commit/57a5bd2ab66c8a40041af6e20cb965bd69766496
+      source-group: CLaRO (https://github.com/mkeet/CLaRO)
+    - name: ontodt
+      source: https://github.com/CQ2SPARQLOWL/Dataset/commit/57a5bd2ab66c8a40041af6e20cb965bd69766496
+      source-group: CLaRO (https://github.com/mkeet/CLaRO)
+    - name: stuff
+      source: https://github.com/CQ2SPARQLOWL/Dataset/commit/57a5bd2ab66c8a40041af6e20cb965bd69766496
+      source-group: CLaRO (https://github.com/mkeet/CLaRO)
+    - name: swo
+      source: https://github.com/CQ2SPARQLOWL/Dataset/commit/57a5bd2ab66c8a40041af6e20cb965bd69766496
+      source-group: CLaRO (https://github.com/mkeet/CLaRO)
+    - name: DOREMUS
+      source: https://github.com/DOREMUS-ANR/doremus-ontology/commit/1ab3e2cea98474081d80ce6de0718bd3dc60a1a9
+      source-group: D2K Lab Semantics group
+    - name: SILKNOW
+      to-be-done: https://github.com/silknow/converter/tree/master/competency_questions
+      source-group: D2K Lab Semantics group
+    - name: Odeuropa
+      to-be-done: https://github.com/Odeuropa/ontology/tree/master/competency_questions
+      source-group: D2K Lab Semantics group
+    - name: NORIA-O
+      source: https://github.com/Orange-OpenSource/noria-ontology/commit/719974c63863480ab197eac319aabfaf50fa6112
+      source-group: D2K Lab Semantics group
+    - name: Polifonia
+      to-be-done: https://github.com/polifonia-project/ontology-network/tree/main
+      source-group: Polifonia (https://polifonia-project.eu/)
+
