@@ -1,6 +1,6 @@
 # llm4ke / references & related work
 
-We have an excellent legacy to start from:
+Group legacy to start from:
 
 * DOREMUS: https://github.com/DOREMUS-ANR/knowledge-base/tree/master/query-examples
 * SILKNOW: https://github.com/silknow/converter/tree/master/competency_questions
@@ -9,7 +9,7 @@ We have an excellent legacy to start from:
 
 ... each of these projects have competency questions nicely phrased with associated SPARQL queries!
 
-## Related work (20234-01-05)
+## Related work (2024-01-05)
 
 Method to find the below related work:
 
