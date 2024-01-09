@@ -1,0 +1,248 @@
+@prefix : <http://data.odeuropa.eu/ontology#> .
+@prefix od: <http://data.odeuropa.eu/ontology/> .
+@prefix crm: <http://erlangen-crm.org/current/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix crmsci: <http://www.ics.forth.gr/isl/CRMsci/> .
+
+<http://data.odeuropa.eu/ontology/> rdf:type owl:Ontology ;
+                                     owl:imports crm: ;
+                                     vann:preferredNamespaceUri "http://data.odeuropa.eu/ontology/" ;
+                                     dc:creator <http://data.odeuropa.eu/odeuropa>;
+                                     owl:versionInfo "0.2" .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://data.odeuropa.eu/ontology/F10_targeted
+od:F10_targeted rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf crm:P16_used_specific_object ;
+                rdfs:domain od:L16_Odorizing ;
+                rdfs:comment """This property associates an instance of L16 Odorizing with the thing to which the smell was applyed.
+
+Examples:
+* A woman uses a perfume on her body
+* A perfume was sprayed in the whole apartment"""@en .
+
+
+###  http://data.odeuropa.eu/ontology/F1_generated
+od:F1_generated rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf crm:P92_brought_into_existence ;
+                rdf:type owl:AsymmetricProperty ;
+                rdfs:domain od:L2_Stimulus_Generation ;
+                rdfs:range od:L1_Sensory_Stimulus ;
+                rdfs:comment "This property associates an instance of L2 Stimulus Generation with the L1 Sensory Stimulus which was created by the event."@en ;
+                owl:cardinality "1"^^xsd:nonNegativeInteger .
+
+
+###  http://data.odeuropa.eu/ontology/F2_perceived
+od:F2_perceived rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf crmsci:O8_observed ;
+                rdf:type owl:AsymmetricProperty ;
+                rdfs:domain od:L3_Sensory_Experience ;
+                rdfs:range od:L1_Sensory_Stimulus ;
+                rdfs:comment "This property associates an instance of L3 Sensory Experience with the L1 Sensory Stimulus which was experienced."@en ;
+                owl:cardinality "1"^^xsd:nonNegativeInteger .
+
+
+###  http://data.odeuropa.eu/ontology/F3_had_source
+od:F3_had_source rdf:type owl:ObjectProperty ;
+                 rdfs:subPropertyOf crm:P12_occurred_in_the_presence_of ;
+                 rdfs:domain od:L2_Stimulus_Generation ;
+                 rdfs:range crmsci:S10_Material_Substantial ;
+                 rdfs:comment """This property associates an instance of L2 Stimulus Generation with the S10 Material Substantial which generate the stimulus.
+
+Examples:
+* The played violin (stimulus: sound)
+* An ice-cream (stimulus: taste)
+* A perfumed candle (stimulus: smell)"""@en .
+
+
+###  http://data.odeuropa.eu/ontology/F4_had_carrier
+od:F4_had_carrier rdf:type owl:ObjectProperty ;
+                  rdfs:subPropertyOf crm:P12_occurred_in_the_presence_of ;
+                  rdfs:domain od:L2_Stimulus_Generation ;
+                  rdfs:range crmsci:S10_Material_Substantial ;
+                  rdfs:comment """This property associates an instance of L2 Stimulus Generation with the object that it is not directly emitting the stimulus, but rather carrying it.
+
+Examples:
+* A pipe (stimulus: smell of tobacco)
+* The bell tower (stimulus: sound of the bell)"""@en .
+
+
+###  http://data.odeuropa.eu/ontology/F5_involved_gesture
+od:F5_involved_gesture rdf:type owl:ObjectProperty ;
+                       rdfs:subPropertyOf crm:P9_consists_of ;
+                       rdfs:domain crm:E7_Activity ;
+                       rdfs:range od:L7_Gesture ;
+                       rdfs:comment """This property associates an instance of E7 Activity with an L7 Gesture happening contextually.
+
+Examples:
+* During the meeting, I was yawning all the time
+* When perceiving that smell, I had to cover my nose"""@en .
+
+
+###  http://data.odeuropa.eu/ontology/F6_evoked
+od:F6_evoked rdf:type owl:ObjectProperty ;
+             rdfs:subPropertyOf crm:P15_was_influenced_by ;
+             rdfs:domain od:L3_Sensory_Experience ;
+             rdfs:comment "This property associates an instance of L3 Sensory Experience with a (material or conceptual) entity which is evoked during the experience itself. This includes memories of people or situations, comparison to similar stimuli, references, etc."@en .
+
+
+###  http://data.odeuropa.eu/ontology/F7_has_species
+od:F7_has_species rdf:type owl:ObjectProperty ;
+                  rdfs:subPropertyOf crm:P137_exemplifies ;
+                  rdf:type owl:AsymmetricProperty ;
+                  rdfs:domain od:L6_Animal ;
+                  rdfs:range crm:E55_Type ;
+                  rdfs:comment "This property associates an instance of L6 Animal with its species, e.g. dog, cat, horse, etc."@en ;
+                  owl:cardinality "1"^^xsd:nonNegativeInteger .
+
+
+###  http://data.odeuropa.eu/ontology/F8_has_nose_quality
+od:F8_has_nose_quality rdf:type owl:ObjectProperty ;
+                       rdfs:domain crm:E39_Actor ;
+                       rdfs:range crm:E55_Type ;
+                       rdfs:comment """This property associates an instance of E39 Actor with a quality about their olfaction.
+
+Examples:
+* Subtle
+* Delicate
+* Good"""@en .
+
+
+###  http://data.odeuropa.eu/ontology/F9_involved_smell
+od:F9_involved_smell rdf:type owl:ObjectProperty ;
+                     rdfs:domain od:L16_Odorizing ;
+                     rdfs:range od:L11_Smell ;
+                     rdfs:comment "This property associates an instance of L16 Odorizing with the L11 Smell which has be used for the intended purpose."@en .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://data.odeuropa.eu/ontology/L11_Smell
+od:L11_Smell rdf:type owl:Class ;
+             rdfs:subClassOf od:L1_Sensory_Stimulus ;
+             rdfs:comment """This class comprises all olfactory stimuli, or smells, considered as unique and un-repeatable, possibly existing in a specific time and place, to not be confused with possible generalisation.
+
+Example:
+* The smell of a specific rose in my garden in a rainy day (and not the general smell of roses)"""@en .
+
+
+###  http://data.odeuropa.eu/ontology/L12_Smell_Emission
+od:L12_Smell_Emission rdf:type owl:Class ;
+                      rdfs:subClassOf od:L2_Stimulus_Generation ;
+                      rdfs:comment """This class comprises events in which a specific smell has been generated, either by human intervention or because of natural phenomena.
+
+Examples:
+* The eruption of Vesuvius in 79 d.C. emitted sulphuric smells (Pliny the Younger, Epistulae)
+* A perfumed candle is emitting good smell of lavender"""@en .
+
+
+###  http://data.odeuropa.eu/ontology/L13_Olfactory_Experience
+od:L13_Olfactory_Experience rdf:type owl:Class ;
+                            rdfs:subClassOf od:L3_Sensory_Experience ;
+                            rdfs:comment "This class comprises activities in which an actor (human or animal) is perceiving a smell"@en .
+
+
+###  http://data.odeuropa.eu/ontology/L14_Smell_Transformation
+od:L14_Smell_Transformation rdf:type owl:Class ;
+                            rdfs:subClassOf od:L4_Stimuli_Transformation ;
+                            rdfs:comment """This class comprises events in which a specific smell is transformed into a new one, which somehow differs from the original.
+
+Examples:
+* The smells of the fied fish is reduced in intensity by opening the window of the kitchen."""@en .
+
+
+###  http://data.odeuropa.eu/ontology/L15_Smell_Interaction
+od:L15_Smell_Interaction rdf:type owl:Class ;
+                         rdfs:subClassOf od:L14_Smell_Transformation ,
+                                         od:L5_Stimuli_Interaction ;
+                         rdfs:comment """This class comprises events in which two or more specific sensory stimuli interact and create a new combined stimulus, either by human intervention or because of natural phenomena. The different original stimuli are still distinctly existing.
+
+Examples:
+* By playing together, the sounds of each instrument of the orchestra are merged in the symphony
+* The smells coming from several dishes are combined in the smell of the kitchen environment"""@en .
+
+
+###  http://data.odeuropa.eu/ontology/L16_Odorizing
+od:L16_Odorizing rdf:type owl:Class ;
+                 rdfs:subClassOf crm:E7_Activity ;
+                 rdfs:comment """This class comprises actions involving intentionally using an odour for a specific purpose.
+
+Example:
+* A woman is putting perfume on her body as hygienic practice
+* A perfuming substance is used to cover bad smells in the house
+* A person likes to smell lavender because this makes her happy"""@en .
+
+
+###  http://data.odeuropa.eu/ontology/L1_Sensory_Stimulus
+od:L1_Sensory_Stimulus rdf:type owl:Class ;
+                       rdfs:subClassOf crm:E18_Physical_Thing ,
+                                       crmsci:S15_Observable_Entity ;
+                       rdfs:comment """This class comprises all kind of stimuli which can be perceived by senses, such as a specific image, smell, taste, sound, etc.
+The stimulus described by this class is unique and un-repeatable, possibly existing in a specific time and place, to not be confused with possible generalisation.
+
+Example:
+* The smell of a specific rose in my garden in a rainy day (and not the general smell of roses)
+* The sound of the bells of Notre Dame de Nice
+* The taste of the ice cream I have eaten in Palermo when I was a kid"""@en .
+
+
+###  http://data.odeuropa.eu/ontology/L2_Stimulus_Generation
+od:L2_Stimulus_Generation rdf:type owl:Class ;
+                          rdfs:subClassOf crm:E63_Beginning_of_Existence ;
+                          rdfs:comment """This class comprises events in which a specific sensory stimulus has been generated, either by human intervention or because of natural phenomena.
+
+Examples:
+* The violin playing produces a sound
+* The eruption of Vesuvius in 79 d.C. emitted sulphuric smells (Pliny the Younger, Epistulae)"""@en .
+
+
+###  http://data.odeuropa.eu/ontology/L3_Sensory_Experience
+od:L3_Sensory_Experience rdf:type owl:Class ;
+                         rdfs:subClassOf crmsci:S4_Observation ;
+                         rdfs:comment "This class comprises activities in which an actor (human or animal) is perceiving a stimulus, namely any action of viewing, smelling, listening, tasting, touching."@en .
+
+
+###  http://data.odeuropa.eu/ontology/L4_Stimuli_Transformation
+od:L4_Stimuli_Transformation rdf:type owl:Class ;
+                             rdfs:subClassOf crm:E81_Transformation ;
+                             rdfs:comment """This class comprises events in which a specific sensory stimuli is transformed into a new one, which somehow differs from the original.
+
+Examples:
+* The sound of the organ arrives to the perceived transformed by the echo of the church
+* The smells of the fied fish is reduced in intensity by opening the window of the kitchen."""@en .
+
+
+###  http://data.odeuropa.eu/ontology/L5_Stimuli_Interaction
+od:L5_Stimuli_Interaction rdf:type owl:Class ;
+                          rdfs:subClassOf od:L4_Stimuli_Transformation ;
+                          rdfs:comment """This class comprises events in which two or more specific sensory stimuli interact and create a new combined stimulus, either by human intervention or because of natural phenomena. The different original stimuli are still distinctly existing.
+
+Examples:
+* By playing together, the sounds of each instrument of the orchestra are merged in the symphony
+* The smells coming from several dishes are combined in the smell of the kitchen environment"""@en .
+
+
+###  http://data.odeuropa.eu/ontology/L6_Animal
+od:L6_Animal rdf:type owl:Class ;
+             rdfs:subClassOf crm:E39_Actor ;
+             rdfs:comment "This class comprises animals who live or are assumed to have lived. A person is not falling in this class, but rather in E21 Person."@en .
+
+
+###  http://data.odeuropa.eu/ontology/L7_Gesture
+od:L7_Gesture rdf:type owl:Class ;
+              rdfs:subClassOf crm:E7_Activity ;
+              rdfs:comment """This class comprises actions which are made of a single gesture.
+
+Example:
+* Yawning
+* Covering the nose"""@en .

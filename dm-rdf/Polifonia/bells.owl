@@ -1,0 +1,105 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://w3id.org/polifonia/ontology/bell/"
+     xml:base="https://w3id.org/polifonia/ontology/bell/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:l0="https://w3id.org/italia/onto/l0/"
+     xmlns:ns="http://www.w3.org/2006/vcard/ns#"
+     xmlns:CLV="https://w3id.org/italia/onto/CLV/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:ADMS="https://w3id.org/italia/onto/ADMS/"
+     xmlns:dcat="http://www.w3.org/ns/dcat#"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:opla="http://www.ontologydesignpatterns.org/opla/"
+     xmlns:prov="http://www.w3.org/ns/prov#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:opla1="http://ontologydesignpatterns.org/opla/"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:cc="http://creativecommons.org/ns#"
+     xmlns:vann="http://purl.org/vocab/vann/"
+     xmlns:catalogue="https://w3id.org/arco/ontology/catalogue/">
+     
+    <owl:Ontology rdf:about="https://w3id.org/polifonia/ontology/bell/">
+        <rdf:type rdf:resource="http://purl.org/vocab/vann/Vocabulary"/>
+        <owl:versionIRI rdf:resource="https://w3id.org/polifonia/ontology/bell/0.0.1"/>
+        <owl:imports rdf:resource="https://w3id.org/arco/ontology/arco/1.2"/>
+        <owl:imports rdf:resource="https://w3id.org/polifonia/ontology/core/0.1"/>
+        <rdfs:comment xml:lang="en">An ontology for modelling bells, bell towers and bell ringers. This ontology imports and extends ArCo ontology network (root module: https://w3id.org/arco/ontology/arco)</rdfs:comment>
+        <rdfs:label xml:lang="en">BELL ontology</rdfs:label>
+        <cc:licence rdf:resource="https://creativecommons.org/licenses/by-sa/4.0/"/>
+        <terms:license rdf:resource="https://creativecommons.org/licenses/by-sa/4.0/"/>
+        <terms:creator xml:lang="en">Valentina Carriero</terms:creator>
+        <terms:creator xml:lang="en">Elena Musumeci</terms:creator>
+        <terms:creator xml:lang="en">Fiorela Ciroku</terms:creator>
+        <terms:description xml:lang="en">An ontology for modelling bells, bell towers and bell ringers. This ontology imports and extends ArCo ontology network (root module: https://w3id.org/arco/ontology/arco)</terms:description>
+        <terms:issued xml:lang="en">20/07/2023</terms:issued>
+        <terms:modified xml:lang="en">28/07/2023</terms:modified>
+        <terms:rights rdf:resource="https://creativecommons.org/licenses/by-sa/4.0/"/>
+        <terms:title xml:lang="en">Music Representation Ontology</terms:title>
+        <vann:preferredNamespacePrefix>bells:</vann:preferredNamespacePrefix>
+        <vann:preferredNamespaceUri rdf:resource="https://w3id.org/polifonia/ontology/bells-ontology/"/>
+        <rdfs:isDefinedBy xml:lang="en">Polifonia Ontology Network</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Bells Ontology</rdfs:label>
+        <owl:versionInfo>0.0.1</owl:versionInfo>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/bell/Bell -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/bell/Bell">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/italia/onto/l0/Object"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/arco/ontology/core/isComponentOf"/>
+                <owl:allValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/bell/SetOfBells"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">This class represents a bell.</rdfs:comment>
+        <rdfs:label xml:lang="en">Bell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/bell/BellTower -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/bell/BellTower">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/core/PhysicalSite"/>
+        <rdfs:comment xml:lang="en">This class represents a bell tower, i.e. a vertical structure designed to house a bell or a set of bells, which may be part of a church.</rdfs:comment>
+        <rdfs:label xml:lang="en">Bell tower</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/bell/SetOfBells -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/bell/SetOfBells">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/italia/onto/l0/Object"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/arco/ontology/core/hasComponent"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/bell/Bell"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">This class represents a set of bells, i.e. bells that may be hung in a bell tower and that can be played together.</rdfs:comment>
+        <rdfs:label xml:lang="en">Set of bells</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

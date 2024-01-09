@@ -1,0 +1,43 @@
+---
+ontologies:
+    - name: DemCare
+      source: https://github.com/CQ2SPARQLOWL/Dataset/commit/57a5bd2ab66c8a40041af6e20cb965bd69766496
+      source-group: CLaRO (https://github.com/mkeet/CLaRO)
+      dm-folder: DemCare
+    - name: awo
+      source: https://github.com/CQ2SPARQLOWL/Dataset/commit/57a5bd2ab66c8a40041af6e20cb965bd69766496
+      source-group: CLaRO (https://github.com/mkeet/CLaRO)
+      dm-folder: awo
+    - name: ontodt
+      source: https://github.com/CQ2SPARQLOWL/Dataset/commit/57a5bd2ab66c8a40041af6e20cb965bd69766496
+      source-group: CLaRO (https://github.com/mkeet/CLaRO)
+      dm-folder: ontodt
+    - name: stuff
+      source: https://github.com/CQ2SPARQLOWL/Dataset/commit/57a5bd2ab66c8a40041af6e20cb965bd69766496
+      source-group: CLaRO (https://github.com/mkeet/CLaRO)
+      dm-folder: stuff
+    - name: swo
+      source: https://github.com/CQ2SPARQLOWL/Dataset/commit/57a5bd2ab66c8a40041af6e20cb965bd69766496
+      source-group: CLaRO (https://github.com/mkeet/CLaRO)
+      dm-folder: swo
+    - name: DOREMUS
+      source: https://github.com/DOREMUS-ANR/doremus-ontology/commit/1ab3e2cea98474081d80ce6de0718bd3dc60a1a9
+      source-group: D2K Lab Semantics group
+      dm-folder: DOREMUS
+    - name: SILKNOW
+      source: to-be-done, see https://github.com/silknow/converter/tree/master/competency_questions
+      source-group: D2K Lab Semantics group
+      dm-folder: SILKNOW
+    - name: Odeuropa
+      source: https://github.com/Odeuropa/ontology/commit/c80014121689993c67af9ca92b58aef85eaf1802
+      source-group: D2K Lab Semantics group
+      dm-folder: Odeuropa
+    - name: NORIA-O
+      source: https://github.com/Orange-OpenSource/noria-ontology/commit/719974c63863480ab197eac319aabfaf50fa6112
+      source-group: D2K Lab Semantics group
+      dm-folder: NORIA-O
+    - name: Polifonia
+      source: https://github.com/polifonia-project/ontology-network/commit/7deab63cf628e76bee2a207bbe06c69371fb9c23
+      source-group: Polifonia (https://polifonia-project.eu/)
+      dm-folder: Polifonia
+

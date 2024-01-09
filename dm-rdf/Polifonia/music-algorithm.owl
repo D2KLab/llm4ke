@@ -1,0 +1,111 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://w3id.org/polifonia/ontology/music-algorithm/"
+     xml:base="https://w3id.org/polifonia/ontology/music-algorithm/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:mr="https://w3id.org/polifonia/ontology/music-representation/"
+     xmlns:ns="http://www.w3.org/2003/06/sw-vocab-status/ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:algo="https://w3id.org/polifonia/ontology/algorithm-pattern/"
+     xmlns:onto="https://w3id.org/afo/onto/1.1#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:cc="http://creativecommons.org/ns#"
+     xmlns:vann="http://purl.org/vocab/vann/"
+     xmlns:cpannotationschema="http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#">
+    <owl:Ontology rdf:about="https://w3id.org/polifonia/ontology/music-algorithm/">
+        <owl:versionIRI rdf:resource="https://w3id.org/polifonia/ontology/music-algorithm/1.0/"/>
+        <owl:imports rdf:resource="https://w3id.org/polifonia/ontology/algorithm-pattern/"/>
+        <owl:imports rdf:resource="https://w3id.org/polifonia/ontology/music-representation/"/>
+        <dc:creator xml:lang="en">Jacopo de Berardinis</dc:creator>
+        <dc:creator xml:lang="en">Nicolas Lazzari</dc:creator>
+        <dc:creator xml:lang="en">Andrea Poltronieri</dc:creator>
+        <dc:license rdf:resource="https://creativecommons.org/licenses/by-sa/4.0/"/>
+        <terms:license rdf:resource="https://creativecommons.org/licenses/by-sa/4.0/"/>
+        <cc:license rdf:resource="https://creativecommons.org/licenses/by-sa/4.0/"/>
+        <rdfs:comment xml:lang="en">The Music Algorithm ontology describes information related to computational methods for music analysis and their output. It is based on the Algorithm Ontology Design Pattern.</rdfs:comment>
+        <rdfs:label xml:lang="en">Music Algorithm Ontology</rdfs:label>
+        <dc:title xml:lang="en">Music Algorithm Ontology</dc:title>
+        <dc:description xml:lang="en">The Music Algorithm ontology describes information related to computational methods for music analysis and their output. It is based on the Algorithm Ontology Design Pattern.</dc:description>
+        <owl:versionInfo xml:lang="en">1.0</owl:versionInfo>
+        <terms:modified>"2023-05-09"^^xsd:date</terms:modified>
+        <terms:issued>"2023-04-12"^^xsd:date</terms:issued>
+        <vann:preferredNamespacePrefix>ma:</vann:preferredNamespacePrefix>
+        <vann:preferredNamespaceUri>https://w3id.org/polifonia/ontology/music-algorithm/</vann:preferredNamespaceUri>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://w3id.org/afo/onto/1.1#Operation -->
+
+    <owl:Class rdf:about="https://w3id.org/afo/onto/1.1#Operation">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/algorithm-pattern/Algorithm"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/afo/onto/1.1#OperationSequence -->
+
+    <owl:Class rdf:about="https://w3id.org/afo/onto/1.1#OperationSequence">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/algorithm-pattern/Algorithm"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/afo/onto/1.1#Parameter -->
+
+    <owl:Class rdf:about="https://w3id.org/afo/onto/1.1#Parameter">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/algorithm-pattern/Parameter"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/algorithm-pattern/Agent -->
+
+    <rdf:Description rdf:about="https://w3id.org/polifonia/ontology/algorithm-pattern/Agent">
+        <owl:equivalentClass rdf:resource="https://w3id.org/polifonia/ontology/core/Agent"/>
+    </rdf:Description>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/algorithm-pattern/Output -->
+
+    <rdf:Description rdf:about="https://w3id.org/polifonia/ontology/algorithm-pattern/Output">
+        <owl:equivalentClass rdf:resource="https://w3id.org/polifonia/ontology/music-algorithm/ComputationalAnalysis"/>
+    </rdf:Description>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/Agent -->
+
+    <rdf:Description rdf:about="https://w3id.org/polifonia/ontology/core/Agent"/>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-algorithm/ComputationalAnalysis -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-algorithm/ComputationalAnalysis">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/music-representation/Analysis"/>
+        <rdfs:comment xml:lang="en">A computational analysis is the result of an analytical process carried by an algorithm.</rdfs:comment>
+        <rdfs:label xml:lang="en">Computational analysis</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

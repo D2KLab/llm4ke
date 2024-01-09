@@ -1,0 +1,1957 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://w3id.org/polifonia/ontology/core/"
+     xml:base="https://w3id.org/polifonia/ontology/core/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:terms="http://purl.org/dc/terms/">
+    <owl:Ontology rdf:about="https://w3id.org/polifonia/ontology/core/">
+        <dc:creator xml:lang="en">Andrea Poltronieri</dc:creator>
+        <dc:creator xml:lang="en">Jacopo de Berardinis</dc:creator>
+        <dc:creator xml:lang="en">Nicolas Lazzari</dc:creator>
+        <dc:creator xml:lang="en">Valentina Carriero</dc:creator>
+        <dc:creator xml:lang="en">Valentina Presutti</dc:creator>
+        <dc:license rdf:resource="https://creativecommons.org/licenses/by-sa/4.0/"/>
+        <terms:license rdf:resource="https://creativecommons.org/licenses/by-sa/4.0/"/>
+        <rdfs:comment xml:lang="en">The Core ontology models general-purpose concepts, relationships and ontology design patterns (e.g. place, time, classification, situation), which are orthogonal to the whole Polifonia ontology network. Indeed, it is imported and possibly specialised by the other ontology modules of the network.</rdfs:comment>
+        <rdfs:label xml:lang="en">Core Ontology</rdfs:label>
+        <rdfs:label xml:lang="en">Core ontology (Polifonia ontology network)</rdfs:label>
+        <owl:priorVersion xml:lang="en">1.0</owl:priorVersion>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/creator -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/license -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/license"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/license -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/classifies -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/core/classifies">
+        <owl:inverseOf rdf:resource="https://w3id.org/polifonia/ontology/core/isClassifiedBy"/>
+        <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/core/Concept"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:comment rdf:resource="http://www.ontologydesignpatterns.org/cp/owl/classification.owl"/>
+        <rdfs:comment xml:lang="en">A relation between a Concept and an Entity, e.g. the Role &apos;student&apos; classifies a Person &apos;John&apos;.</rdfs:comment>
+        <rdfs:label>classifies</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/defines -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/core/defines">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/polifonia/ontology/core/usesConcept"/>
+        <owl:inverseOf rdf:resource="https://w3id.org/polifonia/ontology/core/isDefinedIn"/>
+        <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/core/Description"/>
+        <rdfs:range rdf:resource="https://w3id.org/polifonia/ontology/core/Concept"/>
+        <rdfs:comment xml:lang="en">A relation between a Description and a Concept, e.g. a Workflow for a governmental Organization defines the Role &apos;officer&apos;, or &apos;the Italian Traffic Law defines the role Vehicle&apos;.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://www.ontologydesignpatterns.org/cp/owl/description.owl"/>
+        <rdfs:label xml:lang="en">defines</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/describes -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/core/describes">
+        <owl:inverseOf rdf:resource="https://w3id.org/polifonia/ontology/core/isDescribedBy"/>
+        <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/core/Description"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:comment xml:lang="en">The relation between a Description and an Entity : a Description gives a unity to a Collection of parts (the components), or constituents, by assigning a Role to each of them in the context of a whole Object (the system).
+A same Entity can be given different descriptions, for example, an old cradle can be given a unifying Description based on the original aesthetic design, the functionality it was built for, or a new aesthetic functionality in which it can be used as a flower pot.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://www.ontologydesignpatterns.org/cp/owl/descriptionandsituation.owl"/>
+        <rdfs:label xml:lang="en">describes</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/executesTask -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/core/executesTask">
+        <owl:inverseOf rdf:resource="https://w3id.org/polifonia/ontology/core/isExecutedTaskOf"/>
+        <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:range rdf:resource="https://w3id.org/polifonia/ontology/core/Task"/>
+        <rdfs:comment xml:lang="en">The relation between an entity and a task being executed.</rdfs:comment>
+        <rdfs:label xml:lang="en">executes task</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/hasAddress -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/core/hasAddress">
+        <owl:inverseOf rdf:resource="https://w3id.org/polifonia/ontology/core/isAddressOf"/>
+        <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/core/PhysicalSite"/>
+        <rdfs:range rdf:resource="https://w3id.org/polifonia/ontology/core/Address"/>
+        <rdfs:comment xml:lang="en">The relation between a physical site and an address.</rdfs:comment>
+        <rdfs:label xml:lang="en">has address</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/hasAddressComponent -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/core/hasAddressComponent">
+        <owl:inverseOf rdf:resource="https://w3id.org/polifonia/ontology/core/isAddressComponentOf"/>
+        <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/core/Address"/>
+        <rdfs:range rdf:resource="https://w3id.org/polifonia/ontology/core/AddressComponent"/>
+        <rdfs:comment xml:lang="en">The relation between an address and an address component.</rdfs:comment>
+        <rdfs:label xml:lang="en">has address component</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/hasAgent -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/core/hasAgent">
+        <owl:inverseOf rdf:resource="https://w3id.org/polifonia/ontology/core/isAgentOf"/>
+        <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:range rdf:resource="https://w3id.org/polifonia/ontology/core/Agent"/>
+        <rdfs:comment xml:lang="en">The relation between an entity and an agent.</rdfs:comment>
+        <rdfs:label xml:lang="en">has agent</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/hasAgentRole -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/core/hasAgentRole">
+        <owl:inverseOf rdf:resource="https://w3id.org/polifonia/ontology/core/isAgentRoleOf"/>
+        <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:range rdf:resource="https://w3id.org/polifonia/ontology/core/AgentRole"/>
+        <rdfs:comment xml:lang="en">The relation between an entity and an agent role.</rdfs:comment>
+        <rdfs:label xml:lang="en">has agent role</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/hasAlias -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/core/hasAlias">
+        <owl:inverseOf rdf:resource="https://w3id.org/polifonia/ontology/core/isAliasOf"/>
+        <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:range rdf:resource="https://w3id.org/polifonia/ontology/core/Alias"/>
+        <rdfs:comment xml:lang="en">The relation between an entity and an alias.</rdfs:comment>
+        <rdfs:label xml:lang="en">Has alias</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/hasBirthPlace -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/core/hasBirthPlace">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/polifonia/ontology/core/hasPlace"/>
+        <owl:inverseOf rdf:resource="https://w3id.org/polifonia/ontology/core/isBirthPlaceOf"/>
+        <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/core/Person"/>
+        <rdfs:range rdf:resource="https://w3id.org/polifonia/ontology/core/Place"/>
+        <rdfs:comment xml:lang="en">The relation between a person and her place of birth.</rdfs:comment>
+        <rdfs:label xml:lang="en">has birth place</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/hasCity -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/core/hasCity">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/polifonia/ontology/core/hasAddressComponent"/>
+        <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/core/Address"/>
+        <rdfs:range rdf:resource="https://w3id.org/polifonia/ontology/core/City"/>
+        <rdfs:comment xml:lang="en">The relation between an address and its city (that is an address component).</rdfs:comment>
+        <rdfs:label xml:lang="en">has city</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/hasCondition -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/core/hasCondition">
+        <owl:inverseOf rdf:resource="https://w3id.org/polifonia/ontology/core/isConditionOf"/>
+        <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/core/Explanation"/>
+        <rdfs:range rdf:resource="https://w3id.org/polifonia/ontology/core/Situation"/>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://w3id.org/polifonia/ontology/core/hasExplanandum"/>
+            <rdf:Description rdf:about="https://w3id.org/polifonia/ontology/core/hasSetting"/>
+        </owl:propertyChainAxiom>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://w3id.org/polifonia/ontology/core/hasExplanans"/>
+            <rdf:Description rdf:about="https://w3id.org/polifonia/ontology/core/hasSetting"/>
+        </owl:propertyChainAxiom>
+        <rdfs:comment xml:lang="en">contextualises an explanation</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://ontologydesignpatterns.org/wiki/Submissions:ExplanationODP"/>
+        <rdfs:label xml:lang="en">has condition</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/hasCountry -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/core/hasCountry">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/polifonia/ontology/core/hasAddressComponent"/>
+        <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/core/Address"/>
+        <rdfs:range rdf:resource="https://w3id.org/polifonia/ontology/core/Country"/>
+        <rdfs:comment xml:lang="en">The relation between an address and its country (that is an address component).</rdfs:comment>
+        <rdfs:label xml:lang="en">has country</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/hasDistrict -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/core/hasDistrict">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/polifonia/ontology/core/hasAddressComponent"/>
+        <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/core/Address"/>
+        <rdfs:range rdf:resource="https://w3id.org/polifonia/ontology/core/District"/>
+        <rdfs:comment xml:lang="en">The relation between an address and its district (that is an address component).</rdfs:comment>
+        <rdfs:label xml:lang="en">has district</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/hasEndMusicTimeIndex -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/core/hasEndMusicTimeIndex">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/polifonia/ontology/core/hasMusicTimeIndex"/>
+        <rdfs:label xml:lang="en">has end music time index</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/hasExplanandum -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/core/hasExplanandum">
+        <owl:inverseOf rdf:resource="https://w3id.org/polifonia/ontology/core/hasExplanans"/>
+        <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/core/Explanation"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:comment xml:lang="en">Relates the explanation to its posterior event</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://ontologydesignpatterns.org/wiki/Submissions:ExplanationODP"/>
+        <rdfs:label xml:lang="en">has explanandum</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/hasExplanans -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/core/hasExplanans">
+        <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/core/Explanation"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:comment xml:lang="en">relates an explanation to its antecedent event</rdfs:comment>
+        <rdfs:label rdf:resource="http://ontologydesignpatterns.org/wiki/Submissions:ExplanationODP"/>
+        <rdfs:label xml:lang="en">has explanans</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/hasLanguage -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/core/hasLanguage">
+        <owl:inverseOf rdf:resource="https://w3id.org/polifonia/ontology/core/isLanguageOf"/>
+        <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:range rdf:resource="https://w3id.org/polifonia/ontology/core/Language"/>
+        <rdfs:comment xml:lang="en">The relation between an entity and its language.</rdfs:comment>
+        <rdfs:label xml:lang="en">Has language</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/hasMember -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/core/hasMember">
+        <owl:inverseOf rdf:resource="https://w3id.org/polifonia/ontology/core/isMemberOf"/>
+        <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/core/Collection"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:comment xml:lang="en">The relation between a collection and a member of it.</rdfs:comment>
+        <rdfs:label xml:lang="en">Has member</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/hasMembershipStrength -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/core/hasMembershipStrength">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/core/CollectionMembership"/>
+        <rdfs:range rdf:resource="https://w3id.org/polifonia/ontology/core/CellectionMembershipStrength"/>
+        <rdfs:comment xml:lang="en">The relation between a collection membership and its strenght.</rdfs:comment>
+        <rdfs:label xml:lang="en">Has membership strength</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/hasMusicTimeDuration -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/core/hasMusicTimeDuration">
+        <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/core/MusicTimeInterval"/>
+        <rdfs:range rdf:resource="https://w3id.org/polifonia/ontology/core/MusicTimeDuration"/>
+        <rdfs:label xml:lang="en">has music time duration</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/hasMusicTimeIndex -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/core/hasMusicTimeIndex">
+        <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/core/MusicTimeInterval"/>
+        <rdfs:range rdf:resource="https://w3id.org/polifonia/ontology/core/MusicTimeIndexComponent"/>
+        <rdfs:label xml:lang="en">has music time index</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/hasMusicTimeIndexComponent -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/core/hasMusicTimeIndexComponent">
+        <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/core/MusicTimeIndex"/>
+        <rdfs:range rdf:resource="https://w3id.org/polifonia/ontology/core/MusicTimeIndexComponent"/>
+        <rdfs:label xml:lang="en">has music time index component</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/hasName -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/core/hasName">
+        <owl:inverseOf rdf:resource="https://w3id.org/polifonia/ontology/core/isNameOf"/>
+        <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:range rdf:resource="https://w3id.org/polifonia/ontology/core/Name"/>
+        <rdfs:comment xml:lang="en">The relation between an entity and its name.</rdfs:comment>
+        <rdfs:label xml:lang="en">has name</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/hasNickname -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/core/hasNickname">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/polifonia/ontology/core/hasName"/>
+        <owl:inverseOf rdf:resource="https://w3id.org/polifonia/ontology/core/isNicknameOf"/>
+        <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:range rdf:resource="https://w3id.org/polifonia/ontology/core/Name"/>
+        <rdfs:comment xml:lang="en">The relation between an entity and its nickname.</rdfs:comment>
+        <rdfs:label xml:lang="en">has nickname</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/hasPart -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/core/hasPart">
+        <owl:inverseOf rdf:resource="https://w3id.org/polifonia/ontology/core/isPartOf"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:comment xml:lang="en">A transitive relation expressing parthood between any entities, e.g. &apos;the human body has a brain as part&apos;. When specializing this pattern, take care of restricting the domain and range appropriately, since it could be counterintuitive to use this relation arbitrarily, e.g. between animals and planets. For an intransitive partof pattern, see &apos;componency&apos;.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://www.ontologydesignpatterns.org/cp/owl/partof.owl"/>
+        <rdfs:label xml:lang="en">has part</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/hasPlace -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/core/hasPlace">
+        <owl:inverseOf rdf:resource="https://w3id.org/polifonia/ontology/core/isPlaceOf"/>
+        <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:range rdf:resource="https://w3id.org/polifonia/ontology/core/Place"/>
+        <rdfs:comment xml:lang="en">The relation between an entity and its place.</rdfs:comment>
+        <rdfs:label xml:lang="en">has place</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/hasProvince -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/core/hasProvince">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/polifonia/ontology/core/hasAddressComponent"/>
+        <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/core/Address"/>
+        <rdfs:range rdf:resource="https://w3id.org/polifonia/ontology/core/Province"/>
+        <rdfs:comment xml:lang="en">The relation between an address and its province (that is an address component).</rdfs:comment>
+        <rdfs:label xml:lang="en">has province</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/hasRegion -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/core/hasRegion">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/polifonia/ontology/core/hasAddressComponent"/>
+        <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/core/Address"/>
+        <rdfs:range rdf:resource="https://w3id.org/polifonia/ontology/core/Region"/>
+        <rdfs:comment xml:lang="en">The relation between an address and its region (that is an address component).</rdfs:comment>
+        <rdfs:label xml:lang="en">has region</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/hasRole -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/core/hasRole">
+        <owl:inverseOf rdf:resource="https://w3id.org/polifonia/ontology/core/isRoleOf"/>
+        <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:range rdf:resource="https://w3id.org/polifonia/ontology/core/Role"/>
+        <rdfs:label xml:lang="en">has role</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/hasSetting -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/core/hasSetting">
+        <owl:inverseOf rdf:resource="https://w3id.org/polifonia/ontology/core/isSettingFor"/>
+        <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:range rdf:resource="https://w3id.org/polifonia/ontology/core/Situation"/>
+        <rdfs:comment>A relation between entities and situations, e.g. &apos;this morning I&apos;ve prepared my coffee with a new fantastic Arabica&apos; (i.e.: (an amount of) a new fantastic Arabica hasSetting the preparation of my coffee this morning).</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://www.ontologydesignpatterns.org/cp/owl/situation.owl"/>
+        <rdfs:label xml:lang="en">has setting</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/hasSource -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/core/hasSource">
+        <rdfs:label xml:lang="en">Has source</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/hasStartMusicTimeIndex -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/core/hasStartMusicTimeIndex">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/polifonia/ontology/core/hasMusicTimeIndex"/>
+        <rdfs:label xml:lang="en">has start music time index</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/hasStreet -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/core/hasStreet">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/polifonia/ontology/core/hasAddressComponent"/>
+        <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/core/Address"/>
+        <rdfs:range rdf:resource="https://w3id.org/polifonia/ontology/core/Street"/>
+        <rdfs:comment xml:lang="en">The relation between an address and its street (that is an address component).</rdfs:comment>
+        <rdfs:label xml:lang="en">has street</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/hasTimeIndexedName -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/core/hasTimeIndexedName">
+        <owl:inverseOf rdf:resource="https://w3id.org/polifonia/ontology/core/isTimeIndexedNameOf"/>
+        <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:range rdf:resource="https://w3id.org/polifonia/ontology/core/TimeIndexedName"/>
+        <rdfs:label xml:lang="en">has time indexed name</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/hasTimeInterval -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/core/hasTimeInterval">
+        <owl:inverseOf rdf:resource="https://w3id.org/polifonia/ontology/core/isTimeIntervalOf"/>
+        <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:range rdf:resource="https://w3id.org/polifonia/ontology/core/TimeInterval"/>
+        <rdfs:comment xml:lang="en">The relation between an entity and a time interval.</rdfs:comment>
+        <rdfs:label xml:lang="en">has time interval</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/hasTitle -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/core/hasTitle">
+        <owl:inverseOf rdf:resource="https://w3id.org/polifonia/ontology/core/isTitleOf"/>
+        <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:range rdf:resource="https://w3id.org/polifonia/ontology/core/Title"/>
+        <rdfs:comment xml:lang="en">The relation between an entity and its title.</rdfs:comment>
+        <rdfs:label xml:lang="en">has title</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/hasType -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/core/hasType">
+        <owl:inverseOf rdf:resource="https://w3id.org/polifonia/ontology/core/isTypeOf"/>
+        <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:range rdf:resource="https://w3id.org/polifonia/ontology/core/Type"/>
+        <rdfs:label xml:lang="en">has type</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/hasValueType -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/core/hasValueType">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/polifonia/ontology/core/MusicTimeDuration"/>
+                    <rdf:Description rdf:about="https://w3id.org/polifonia/ontology/core/MusicTimeIndexComponent"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="https://w3id.org/polifonia/ontology/core/MusicTimeValueType"/>
+        <rdfs:label xml:lang="en">hasValueType</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/includesName -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/core/includesName">
+        <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/core/TimeIndexedName"/>
+        <rdfs:range rdf:resource="https://w3id.org/polifonia/ontology/core/Name"/>
+        <rdfs:label xml:lang="en">includes name</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/involves -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/core/involves">
+        <rdfs:label xml:lang="en">Involves</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/involvesAgent -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/core/involvesAgent">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/polifonia/ontology/core/involves"/>
+        <rdfs:label xml:lang="en">Involves agent</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/involvesCollection -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/core/involvesCollection">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/polifonia/ontology/core/involves"/>
+        <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/core/CollectionMembership"/>
+        <rdfs:range rdf:resource="https://w3id.org/polifonia/ontology/core/Collection"/>
+        <rdfs:label xml:lang="en">Involves collection</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/involvesRole -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/core/involvesRole">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/polifonia/ontology/core/involves"/>
+        <rdfs:label xml:lang="en">Involves role</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/isAddressComponentOf -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/core/isAddressComponentOf">
+        <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/core/AddressComponent"/>
+        <rdfs:range rdf:resource="https://w3id.org/polifonia/ontology/core/Address"/>
+        <rdfs:comment xml:lang="en">The relation between an address component and an address it is component of.</rdfs:comment>
+        <rdfs:label xml:lang="en">is address component of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/isAddressOf -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/core/isAddressOf">
+        <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/core/Address"/>
+        <rdfs:range rdf:resource="https://w3id.org/polifonia/ontology/core/PhysicalSite"/>
+        <rdfs:comment xml:lang="en">The relation between an address and a physical site .</rdfs:comment>
+        <rdfs:label xml:lang="en">is address of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/isAgentOf -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/core/isAgentOf">
+        <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/core/Agent"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:comment xml:lang="en">The relation between an agent and an entity.</rdfs:comment>
+        <rdfs:label xml:lang="en">is agent of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/isAgentRoleOf -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/core/isAgentRoleOf">
+        <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/core/AgentRole"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:comment xml:lang="en">The relation between an agent role and an entity.</rdfs:comment>
+        <rdfs:label xml:lang="en">is agent role of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/isAliasOf -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/core/isAliasOf">
+        <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/core/Alias"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:comment xml:lang="en">The relation between an alias and an entity it is an alias of.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/isAnagramOf -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/core/isAnagramOf">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/core/Name"/>
+        <rdfs:range rdf:resource="https://w3id.org/polifonia/ontology/core/Name"/>
+        <rdfs:comment xml:lang="en">The relation between a name and the name it is an anagram of.</rdfs:comment>
+        <rdfs:label xml:lang="en">is anagram of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/isBasedOn -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/core/isBasedOn">
+        <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:comment xml:lang="en">The relation between an entity and another entity the first entity is based on.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://ontologydesignpatterns.org/wiki/Submissions:ExplanationODP"/>
+        <rdfs:label xml:lang="en">is based on</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/isBirthPlaceOf -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/core/isBirthPlaceOf">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/polifonia/ontology/core/isPlaceOf"/>
+        <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/core/Place"/>
+        <rdfs:range rdf:resource="https://w3id.org/polifonia/ontology/core/Person"/>
+        <rdfs:comment xml:lang="en">The relation between a place of birth and the person that was born at that place.</rdfs:comment>
+        <rdfs:label xml:lang="en">is birth place of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/isClassifiedBy -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/core/isClassifiedBy">
+        <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:range rdf:resource="https://w3id.org/polifonia/ontology/core/Concept"/>
+        <rdfs:comment xml:lang="en">A relation between a Concept and an Entity, e.g. &apos;John is considered a typical rude man&apos;; your last concert constitutes the achievement of a lifetime; &apos;20-year-old means she&apos;s mature enough&apos;.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://www.ontologydesignpatterns.org/cp/owl/classification.owl"/>
+        <rdfs:label xml:lang="en">is classified by</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/isConceptUsedIn -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/core/isConceptUsedIn">
+        <owl:inverseOf rdf:resource="https://w3id.org/polifonia/ontology/core/usesConcept"/>
+        <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/core/Concept"/>
+        <rdfs:range rdf:resource="https://w3id.org/polifonia/ontology/core/Description"/>
+        <rdfs:comment xml:lang="en">A more generic relation holding between a Description and a Concept. In order to be used, a Concept must be previously definedIn another Description</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://www.ontologydesignpatterns.org/cp/owl/description.owl"/>
+        <rdfs:label xml:lang="en">is concept used in</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/isConceptualizedBy -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/core/isConceptualizedBy">
+        <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/core/Explanation"/>
+        <rdfs:range rdf:resource="https://w3id.org/polifonia/ontology/core/Agent"/>
+        <rdfs:comment xml:lang="en">The relation between an explanation and the agent that has conceptualized it.</rdfs:comment>
+        <rdfs:label xml:lang="en">is conceptualized By</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://ontologydesignpatterns.org/wiki/Submissions:ExplanationODP"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/isConditionOf -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/core/isConditionOf">
+        <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/core/Situation"/>
+        <rdfs:range rdf:resource="https://w3id.org/polifonia/ontology/core/Explanation"/>
+        <rdfs:comment xml:lang="en">contextualises an explanation</rdfs:comment>
+        <rdfs:label xml:lang="en">is condition of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/isDefinedBy -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/core/isDefinedBy">
+        <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/core/Collection"/>
+        <rdfs:range rdf:resource="https://w3id.org/polifonia/ontology/core/CollectionConcept"/>
+        <rdfs:label xml:lang="en">is defined by</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/isDefinedIn -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/core/isDefinedIn">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/polifonia/ontology/core/isConceptUsedIn"/>
+        <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/core/Concept"/>
+        <rdfs:range rdf:resource="https://w3id.org/polifonia/ontology/core/Description"/>
+        <rdfs:comment rdf:resource="http://www.ontologydesignpatterns.org/cp/owl/description.owl"/>
+        <rdfs:comment xml:lang="en">A relation between a Description and a Concept, e.g. a Workflow for a governmental Organization defines the Role &apos;officer&apos;, or &apos;the Italian Traffic Law defines the role Vehicle&apos;.</rdfs:comment>
+        <rdfs:label xml:lang="en">is defined in</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/isDerivedFrom -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/core/isDerivedFrom">
+        <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:comment xml:lang="en">The relation between an entity and another entity it is derived from.</rdfs:comment>
+        <rdfs:label xml:lang="en">Is derived from</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/isDescribedBy -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/core/isDescribedBy">
+        <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:range rdf:resource="https://w3id.org/polifonia/ontology/core/Description"/>
+        <rdfs:comment>The relation between any Thing and a Description: a Description gives a unity to a Collection of parts (the components), or constituents, by assigning a Role to each of them in the context of a whole Object (the system).
+A same Thing can be given different descriptions, for example, an old cradle can be given a unifying Description based on the original aesthetic design, the functionality it was built for, or a new aesthetic functionality in which it can be used as a flower pot.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://www.ontologydesignpatterns.org/cp/owl/descriptionandsituation.owl"/>
+        <rdfs:label xml:lang="en">is described by</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/isExecutedTaskOf -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/core/isExecutedTaskOf">
+        <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/core/Task"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:comment xml:lang="en">The relation between a task being executed and an entity.</rdfs:comment>
+        <rdfs:label xml:lang="en">is executed task of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/isExplanationBasedOn -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/core/isExplanationBasedOn">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/polifonia/ontology/core/isBasedOn"/>
+        <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/core/Explanation"/>
+        <rdfs:range rdf:resource="https://w3id.org/polifonia/ontology/core/Theory"/>
+        <rdfs:comment xml:lang="en">If there exists a situation in which an explanation is contextualised (according to the object property hasCondition), then both the explanans and the explanan- dum do share this same situation, meaning that they are in the same context.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://ontologydesignpatterns.org/wiki/Submissions:ExplanationODP"/>
+        <rdfs:label>is explanation based on</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/isInvolvedIn -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/core/isInvolvedIn">
+        <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:range rdf:resource="https://w3id.org/polifonia/ontology/core/CollectionMembership"/>
+        <rdfs:comment xml:lang="en">The relation between an entity and a situation in which such entity is member of a collection.</rdfs:comment>
+        <rdfs:label xml:lang="en">Is involved in</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/isLanguageOf -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/core/isLanguageOf">
+        <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/core/Language"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label xml:lang="en">The relation between a lanuage and an entity it is the language of.</rdfs:label>
+        <rdfs:label xml:lang="en">is language of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/isMemberOf -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/core/isMemberOf">
+        <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:range rdf:resource="https://w3id.org/polifonia/ontology/core/Collection"/>
+        <rdfs:comment xml:lang="en">The relation between an entity and a collection that the entity is member of.</rdfs:comment>
+        <rdfs:label xml:lang="en">Is member of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/isNameOf -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/core/isNameOf">
+        <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/core/Name"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:comment xml:lang="en">The relation between a name and the entity it is a name of.</rdfs:comment>
+        <rdfs:label xml:lang="en">is name of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/isNicknameOf -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/core/isNicknameOf">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/polifonia/ontology/core/isNameOf"/>
+        <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/core/Name"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:comment xml:lang="en">The relation between a nickname and the entity it is a nickname of.</rdfs:comment>
+        <rdfs:label xml:lang="en">is nickname of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/isPartOf -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/core/isPartOf">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:comment xml:lang="en">A transitive relation expressing parthood between any entities, e.g. &apos;brain is a part of the human body&apos;. When specializing this pattern, take care of restricting the domain and range appropriately, since it could be counterintuitive to use this relation arbitrarily, e.g. between animals and planets. For an intransitive partof pattern, see &apos;componency&apos;.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://www.ontologydesignpatterns.org/cp/owl/partof.owl"/>
+        <rdfs:label xml:lang="en">is part of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/isPlaceOf -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/core/isPlaceOf">
+        <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/core/Place"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:comment xml:lang="en">The relation between a place and the entity it is a place of.</rdfs:comment>
+        <rdfs:label xml:lang="en">is place of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/isRealizedBy -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/core/isRealizedBy">
+        <owl:inverseOf rdf:resource="https://w3id.org/polifonia/ontology/core/realizes"/>
+        <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/core/InformationObject"/>
+        <rdfs:range rdf:resource="https://w3id.org/polifonia/ontology/core/InformationRealization"/>
+        <rdfs:comment xml:lang="en">A relation between an information object and its realization (an information realization).</rdfs:comment>
+        <rdfs:label xml:lang="en">is realized by</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/isRoleOf -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/core/isRoleOf">
+        <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/core/Role"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label xml:lang="en">is role of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/isSatisfiedBy -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/core/isSatisfiedBy">
+        <owl:inverseOf rdf:resource="https://w3id.org/polifonia/ontology/core/satisfies"/>
+        <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/core/Description"/>
+        <rdfs:range rdf:resource="https://w3id.org/polifonia/ontology/core/Situation"/>
+        <rdfs:comment>A relation between a Situation and a Description, e.g. the execution of a Plan satisfies that plan.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://www.ontologydesignpatterns.org/cp/owl/descriptionandsituation.owl"/>
+        <rdfs:label xml:lang="en">is satisfied by</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/isSettingFor -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/core/isSettingFor">
+        <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/core/Situation"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.ontologydesignpatterns.org/cp/owl/situation.owl"/>
+        <rdfs:label xml:lang="en">is setting for</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/isTimeIndexedNameOf -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/core/isTimeIndexedNameOf">
+        <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/core/TimeIndexedName"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label xml:lang="en">is time indexed name of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/isTimeIntervalOf -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/core/isTimeIntervalOf">
+        <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/core/TimeInterval"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label xml:lang="en">is time interval of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/isTitleOf -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/core/isTitleOf">
+        <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/core/Title"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:comment xml:lang="en">The relation between a title and the entity it is title of.</rdfs:comment>
+        <rdfs:label xml:lang="en">is title of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/isTypeOf -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/core/isTypeOf">
+        <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/core/Type"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label xml:lang="en">is type of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/isValidWithin -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/core/isValidWithin">
+        <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label xml:lang="en">is valid within</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/realizes -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/core/realizes">
+        <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/core/InformationRealization"/>
+        <rdfs:range rdf:resource="https://w3id.org/polifonia/ontology/core/InformationObject"/>
+        <rdfs:comment xml:lang="en">A relation between an information realization and an information object.</rdfs:comment>
+        <rdfs:label xml:lang="en">realizes</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/satisfies -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/core/satisfies">
+        <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/core/Situation"/>
+        <rdfs:range rdf:resource="https://w3id.org/polifonia/ontology/core/Description"/>
+        <rdfs:comment rdf:resource="http://www.ontologydesignpatterns.org/cp/owl/descriptionandsituation.owl"/>
+        <rdfs:comment xml:lang="en">A relation between a Situation and a Description, e.g. the execution of a Plan satisfies that plan.</rdfs:comment>
+        <rdfs:label xml:lang="en">satisfies</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/usesConcept -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/core/usesConcept">
+        <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/core/Description"/>
+        <rdfs:range rdf:resource="https://w3id.org/polifonia/ontology/core/Concept"/>
+        <rdfs:comment rdf:resource="http://www.ontologydesignpatterns.org/cp/owl/description.owl"/>
+        <rdfs:comment>A generic relation holding between a Description and a Concept. In order to be used, a Concept must be previously definedIn another Description. This last condition cannot be encoded for object properties in OWL.</rdfs:comment>
+        <rdfs:label>uses concept</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/activityEndDate -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/polifonia/ontology/core/activityEndDate">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/polifonia/ontology/core/endTime"/>
+        <rdfs:label xml:lang="en">activity end date</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/activityStartDate -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/polifonia/ontology/core/activityStartDate">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/polifonia/ontology/core/startTime"/>
+        <rdfs:label xml:lang="en">activity start date</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/endTime -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/polifonia/ontology/core/endTime">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/polifonia/ontology/core/time"/>
+        <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/core/TimeInterval"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+        <rdfs:comment xml:lang="en">The end time of a time interval.</rdfs:comment>
+        <rdfs:label xml:lang="en">end time</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/fullAddress -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/polifonia/ontology/core/fullAddress">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/core/Address"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+        <rdfs:label xml:lang="en">full address</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/name -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/polifonia/ontology/core/name">
+        <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+        <rdfs:label xml:lang="en">name</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/nickname -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/polifonia/ontology/core/nickname">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/polifonia/ontology/core/name"/>
+        <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+        <rdfs:label xml:lang="en">nickname</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/postcode -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/polifonia/ontology/core/postcode">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/core/Address"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+        <rdfs:label xml:lang="en">postcode</rdfs:label>
+        <rdfs:label xml:lang="en">zipcode</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/startTime -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/polifonia/ontology/core/startTime">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/polifonia/ontology/core/time"/>
+        <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/core/TimeInterval"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+        <rdfs:comment xml:lang="en">The start time of a time interval.</rdfs:comment>
+        <rdfs:label xml:lang="en">start time</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/streetNumber -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/polifonia/ontology/core/streetNumber">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/core/Address"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+        <rdfs:label xml:lang="en">street number</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/text -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/polifonia/ontology/core/text">
+        <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="en">text</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/time -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/polifonia/ontology/core/time">
+        <rdfs:label xml:lang="en">time</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/title -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/polifonia/ontology/core/title">
+        <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="en">title</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/value -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/polifonia/ontology/core/value">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/polifonia/ontology/core/MusicTimeDuration"/>
+                    <rdf:Description rdf:about="https://w3id.org/polifonia/ontology/core/MusicTimeIndexComponent"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+        <rdfs:comment xml:lang="en">value</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/Action -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/core/Action">
+        <rdfs:comment xml:lang="en">A situation with at least one agent that is participant in it, and that executes a specific task that may be defined in a plan, workflow, project, etc.</rdfs:comment>
+        <rdfs:label xml:lang="en">Action</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/Address -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/core/Address">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/core/GeographicalFeature"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/core/hasAddressComponent"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/core/AddressComponent"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/core/postcode"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/core/streetNumber"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">Address</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/AddressComponent -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/core/AddressComponent">
+        <rdfs:label xml:lang="en">Address component</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/Agent -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/core/Agent">
+        <rdfs:comment xml:lang="en">Any agentive Object, either physical (e.g. a person, a robot), or social (e.g. a corporation, an institution, a community)</rdfs:comment>
+        <rdfs:label xml:lang="en">Agent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/AgentRole -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/core/AgentRole">
+        <rdfs:comment xml:lang="en">The situation of an agent having a role.</rdfs:comment>
+        <rdfs:label xml:lang="en">Agent role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/Alias -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/core/Alias">
+        <rdfs:label xml:lang="en">Alias</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/CellectionMembershipStrength -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/core/CellectionMembershipStrength">
+        <rdfs:label xml:lang="en">Collection Membership Strength</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/City -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/core/City">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/core/GeographicalFeature"/>
+        <rdfs:label xml:lang="en">City</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/Collection -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/core/Collection">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/core/hasMember"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/core/hasPart"/>
+                <owl:allValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/core/Collection"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/core/isDefinedBy"/>
+                <owl:allValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/core/CollectionConcept"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">A collection of any entities: e.g. groups, repositories, communities, etc., intended as any container for entities that share one or more common properties.</rdfs:comment>
+        <rdfs:label xml:lang="en">Collection</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/CollectionConcept -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/core/CollectionConcept">
+        <rdfs:comment xml:lang="en">The concept that holds together the members of a collection.</rdfs:comment>
+        <rdfs:label xml:lang="en">Collection Concept</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/CollectionMembership -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/core/CollectionMembership">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/core/hasMembershipStrength"/>
+                <owl:allValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/core/CellectionMembershipStrength"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/core/involvesCollection"/>
+                <owl:allValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/core/Collection"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">The membership of an individual in a collection, which allows to describe attributes of such membership (e.g. Membership Strength).</rdfs:comment>
+        <rdfs:label xml:lang="en">Collection Membership</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/Concept -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/core/Concept">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/core/isConceptUsedIn"/>
+                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/core/isDefinedIn"/>
+                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="https://w3id.org/polifonia/ontology/core/Description"/>
+        <owl:disjointWith rdf:resource="https://w3id.org/polifonia/ontology/core/Situation"/>
+        <rdfs:comment xml:lang="en">A concept is a Social Object. 
+The classifies relation relates concepts to entities at some time, but time can only be expressed in the alternative pattern: timeindexedclassification.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://www.ontologydesignpatterns.org/cp/owl/classification.owl"/>
+        <rdfs:label xml:lang="en">Concept</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/Country -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/core/Country">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/core/GeographicalFeature"/>
+        <rdfs:label xml:lang="en">Country</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/Description -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/core/Description">
+        <owl:disjointWith rdf:resource="https://w3id.org/polifonia/ontology/core/Situation"/>
+        <rdfs:comment rdf:resource="http://www.ontologydesignpatterns.org/cp/owl/description.owl"/>
+        <rdfs:comment xml:lang="en">A Description represents a conceptualization. It can be thought also as a &apos;descriptive context&apos; that defines concepts in order to see a &apos;relational context&apos; out of a set of data or observations. For example, a Plan is a description of some actions to be executed by agents in a certain way, with certain parameters; a Diagnosis is a description that provides an interpretation to a set of observed entities, etc.
+A Description typically defines at least one Concept, for example the &apos;preparing a coffee&apos; Description could define concepts such as &apos;Heater&apos;, &apos;AmountOfWater&apos;, &apos;CoffeeMix&apos;, etc.
+With respect to other patterns, descriptions are &apos;abstractions&apos; of situations (cf. the &apos;situation&apos; pattern), and in some complex use cases (e.g. matching executions to plan models), the two patterns can be composed (see the descriptionsituation pattern).</rdfs:comment>
+        <rdfs:label xml:lang="en">Description</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/District -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/core/District">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/core/GeographicalFeature"/>
+        <rdfs:label xml:lang="en">District</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/Event -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/core/Event">
+        <rdfs:comment>Any physical, social, or mental process, event, or state.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://www.ontologydesignpatterns.org/cp/owl/participation.owl"/>
+        <rdfs:label xml:lang="en">Event</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/Explanation -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/core/Explanation">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/core/hasCondition"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/core/Situation"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/core/hasExplanandum"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/core/hasExplanans"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">Class explanation defined as &quot;when X happens, then, due to a given set of circumstances C, Y will occur because of a given law L&quot;. 
+In order to be complete, an explanation needs at least one antecedent event (explanans), a posterior event (a posterior event) and has to happen in a context that relates the two events (the context), governed by a law (theory). </rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://ontologydesignpatterns.org/wiki/Submissions:ExplanationODP"/>
+        <rdfs:label xml:lang="en">Explanation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/GeographicalFeature -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/core/GeographicalFeature">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/core/SpatialObject"/>
+        <rdfs:label xml:lang="en">Geographical feature</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/InformationObject -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/core/InformationObject">
+        <rdfs:comment xml:lang="en">A piece of information, such as a musical composition, a text, a word, a picture, independently from how it is concretely and phisically realized.</rdfs:comment>
+        <rdfs:label xml:lang="en">Information object</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/InformationRealization -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/core/InformationRealization">
+        <rdfs:comment xml:lang="en">A concrete and physical realization of an information object.</rdfs:comment>
+        <rdfs:label xml:lang="en">Information realization</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/Language -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/core/Language">
+        <rdfs:label xml:lang="en">Language</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/MusicDataset -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/core/MusicDataset">
+        <rdfs:label xml:lang="en">Music Dataset</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/MusicTimeDuration -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/core/MusicTimeDuration">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/core/hasValueType"/>
+                <owl:allValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/core/MusicTimeValueType"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/core/hasValueType"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="https://w3id.org/polifonia/ontology/core/MusicTimeValueType"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/core/value"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/core/value"/>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">Music Time Duration</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/MusicTimeIndex -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/core/MusicTimeIndex">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/core/hasMusicTimeIndexComponent"/>
+                <owl:allValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/core/MusicTimeIndexComponent"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/core/hasMusicTimeIndexComponent"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="https://w3id.org/polifonia/ontology/core/MusicTimeIndexComponent"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">Music Time Index</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/MusicTimeIndexComponent -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/core/MusicTimeIndexComponent">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/core/hasValueType"/>
+                <owl:allValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/core/MusicTimeValueType"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/core/hasValueType"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="https://w3id.org/polifonia/ontology/core/MusicTimeValueType"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/core/value"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/core/value"/>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">Music Time Index Component</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/MusicTimeInterval -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/core/MusicTimeInterval">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/core/hasMusicTimeDuration"/>
+                <owl:allValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/core/MusicTimeDuration"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/core/hasMusicTimeIndex"/>
+                <owl:allValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/core/MusicTimeIndex"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/core/hasMusicTimeDuration"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="https://w3id.org/polifonia/ontology/core/MusicTimeDuration"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/core/hasMusicTimeIndex"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="https://w3id.org/polifonia/ontology/core/MusicTimeIndex"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">Music Time Interval</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/MusicTimeValueType -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/core/MusicTimeValueType">
+        <rdfs:label xml:lang="en">Music Time Value Type</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/Name -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/core/Name">
+        <rdfs:label xml:lang="en">Name</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/Organization -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/core/Organization">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/core/Agent"/>
+        <rdfs:comment xml:lang="en">An internally structured, conventionally created social agent, needing a specific role and agent that plays it, in order to act.</rdfs:comment>
+        <rdfs:label xml:lang="en">Organization</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/Person -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/core/Person">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/core/Agent"/>
+        <rdfs:label xml:lang="en">Person</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/PhysicalSite -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/core/PhysicalSite">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/core/GeographicalFeature"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/core/hasAddress"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/core/Address"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">This class represents a physical site, that is an area, a structure (e.g. a building) or a group of structures where something was, is or will be located. It is a physical site that situates something.</rdfs:comment>
+        <rdfs:label xml:lang="en">Physical site</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/Place -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/core/Place">
+        <rdfs:comment xml:lang="en">Anything that is intended as a location for something else, e.g. geographical places, spatial objects.</rdfs:comment>
+        <rdfs:label xml:lang="en">Place</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/Province -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/core/Province">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/core/GeographicalFeature"/>
+        <rdfs:label xml:lang="en">Province</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/Reference -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/core/Reference">
+        <rdfs:label xml:lang="en">Reference</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/Region -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/core/Region">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/core/GeographicalFeature"/>
+        <rdfs:label xml:lang="en">Region</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/Role -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/core/Role">
+        <rdfs:comment xml:lang="en">A concept that classifies an object.</rdfs:comment>
+        <rdfs:label xml:lang="en">Role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/Situation -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/core/Situation">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/core/isSettingFor"/>
+                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/core/satisfies"/>
+                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">Any entity that typically flows in time, either in the physical or social world  Examples include athmospheric phenomena, concerts, travels, institutional processes, etc. It also represents a relational context created by an observer on the basis of a frame.</rdfs:comment>
+        <rdfs:label xml:lang="en">Situation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/Source -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/core/Source">
+        <rdfs:label xml:lang="en">Source</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/SpatialObject -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/core/SpatialObject">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/core/Place"/>
+        <rdfs:label xml:lang="en">Spatial object</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/Street -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/core/Street">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/core/GeographicalFeature"/>
+        <rdfs:label xml:lang="en">Street</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/Task -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/core/Task">
+        <rdfs:comment xml:lang="en">A task that classifies an action to be executed.</rdfs:comment>
+        <rdfs:label xml:lang="en">Task</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/Theory -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/core/Theory">
+        <rdfs:comment xml:lang="en">The theory that has the binding force or effect on some events under analysis.
+From Dolce: &quot;A theory is a description that represents a set of assumptions for describing something, usually general. Scientific, philosophical, and common-sense theories can be included here&quot;</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl"/>
+        <rdfs:label xml:lang="en">Theory</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/TimeIndexedName -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/core/TimeIndexedName">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/core/Situation"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/core/hasTimeInterval"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/core/TimeInterval"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/core/includesName"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/core/Name"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/core/isTimeIndexedNameOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/core/isValidWithin"/>
+                <owl:allValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/core/Organization"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">The situation of an entity having a name valid during a specific time interval.</rdfs:label>
+        <rdfs:label xml:lang="en">Time indexed name</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/TimeIndexedRole -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/core/TimeIndexedRole">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/core/Situation"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/core/hasAgent"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/core/Agent"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/core/hasRole"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/core/Role"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/core/hasTimeInterval"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/core/TimeInterval"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">The situation of an entity having a role at a specific time interval.</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/TimeIndexedSituation -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/core/TimeIndexedSituation">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/core/Situation"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/core/hasAgent"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/core/Agent"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/core/hasTimeInterval"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/core/TimeInterval"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/core/hasPlace"/>
+                <owl:allValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/core/Place"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">A situation with a clearly defined time extension.</rdfs:comment>
+        <rdfs:label xml:lang="en">Time indexed situation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/TimeInterval -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/core/TimeInterval">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/core/time"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/core/endTime"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/core/startTime"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">A time interval.</rdfs:comment>
+        <rdfs:label xml:lang="en">Time interval</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/Title -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/core/Title">
+        <rdfs:comment xml:lang="en">The title of an entity.</rdfs:comment>
+        <rdfs:label xml:lang="en">Title</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/Type -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/core/Type">
+        <rdfs:comment xml:lang="en">The concept of a type.</rdfs:comment>
+        <rdfs:label xml:lang="en">Type</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/Beats -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/core/Beats">
+        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/core/MusicTimeValueType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/End -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/core/End">
+        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/core/MusicTimeIndex"/>
+        <rdfs:comment>Refers to the end of a musical piece.</rdfs:comment>
+        <rdfs:label>End</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/Hours -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/core/Hours">
+        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/core/MusicTimeValueType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/Measures -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/core/Measures">
+        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/core/MusicTimeValueType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/Milliseconds -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/core/Milliseconds">
+        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/core/MusicTimeValueType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/Minutes -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/core/Minutes">
+        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/core/MusicTimeValueType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/Seconds -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/core/Seconds">
+        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/core/MusicTimeValueType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/Start -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/core/Start">
+        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/core/MusicTimeIndex"/>
+        <rdfs:comment>Refers to the start of a musical piece.</rdfs:comment>
+        <rdfs:label>Start</rdfs:label>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi -->
+
