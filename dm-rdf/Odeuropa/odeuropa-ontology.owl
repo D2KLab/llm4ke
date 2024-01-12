@@ -1,4 +1,5 @@
 @prefix : <http://data.odeuropa.eu/ontology#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix od: <http://data.odeuropa.eu/ontology/> .
 @prefix crm: <http://erlangen-crm.org/current/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
