@@ -8,8 +8,8 @@ from pathlib import Path
 
 from LocalTemplate import LocalTemplate
 
-def run(task, input):
-    llm = Ollama(model="llama2")
+def run(task, input, llm_model):
+    llm = Ollama(model=llm_model)
 
     os.makedirs('temp', exist_ok=True)
 
@@ -42,5 +42,6 @@ if __name__ == '__main__':
                         description='Experiment about LLMs on Knowledge Graphs')
     parser.add_argument('task', choices='generate_cqs')
     parser.add_argument('-i', '--input', help='Input ontology', default='./dm-rdf/Odeuropa/odeuropa-ontology.owl')
+    parser.add_argument( '--llm', help='LLM to use', default='llama2')
     args = parser.parse_args()
-    run(args.task, args.input)
+    run(args.task, args.input, args.llm)
