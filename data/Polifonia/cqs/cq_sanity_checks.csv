@@ -1,0 +1,491 @@
+persona,story,id,cq,issues
+Brendan,1_FindTraditionalMusic,CQ1,What tunes have similar geographic origin as tune X?,pass
+Brendan,1_FindTraditionalMusic,CQ2,"What tunes are similar to tune X, given similarity measure Y?",pass
+Brendan,1_FindTraditionalMusic,CQ3,"Given a set of tunes, from which collections are these tunes?",pass
+Brendan,1_FindTraditionalMusic,CQ4,"Given a set of tunes, what tunes are from collection X?",pass
+Brendan,1_FindTraditionalMusic,CQ5,What are the metadata for collection X?,pass
+Laurent,1_MusicArchives,CQ1,"Can I search for a musical content by applying filters (genre, historical period ...)?",pass
+Laurent,1_MusicArchives,CQ2,What types of resources can I find?,pass
+Laurent,1_MusicArchives,CQ3,Is the music resource X complete or incomplete?,pass
+Laurent,1_MusicArchives,CQ4,Is a dataset attached to resource X?,pass
+Laurent,1_MusicArchives,CQ5,Can I add resources as a user?,pass
+Laurent,1_MusicArchives,CQ6,How can I share what I find on the site?,pass
+Andrea,1_Serendipity,CQ1,Can I find interesting materials without applying filters?,pass
+Andrea,1_Serendipity,CQ2,What types of resources can I find?,pass
+Andrea,1_Serendipity,CQ3,Is there a way of visualizing all the materials connected to my interests?,pass
+Andrea,1_Serendipity,CQ4,Can I keep getting suggestions in real time?,pass
+Andrea,1_Serendipity,CQ5,How can I share what I find on the site?,pass
+Andrea,1_Serendipity,CQ6,How I personalize my navigation experience without knowing the filtering criteria or the materials' characteristics?,pass
+Paul,1_OrganComparison,CQ1,Which are all organs at location X?,pass
+Paul,1_OrganComparison,CQ2,Which are all organs in city X?,pass
+Paul,1_OrganComparison,CQ3,"Which are all organs near to geographic coordinates x, y?",pass
+Paul,1_OrganComparison,CQ4,Which are all organs that have stop X?,pass
+Paul,1_OrganComparison,CQ5,Which are all organs with playing aid X?,pass
+Paul,1_OrganComparison,CQ6,Which are all organs with more than X stops?,pass
+Paul,1_OrganComparison,CQ7,Which are all organs with more than X keyboards?,pass
+Paul,1_OrganComparison,CQ8,Which are all organs with manual range starting lower than X?,pass
+Paul,1_OrganComparison,CQ9,Which are all organs with manual range ending higher than X?,pass
+Paul,1_OrganComparison,CQ10,Which are all organs with pedal range starting lower than X?,pass
+Paul,1_OrganComparison,CQ11,Which are all organs with pedal range ending higher than X?,pass
+Paul,1_OrganComparison,CQ12,Which are all organs with wind system type X?,pass
+Paul,1_OrganComparison,CQ13,Which are all organs with temperament X?,pass
+Paul,1_OrganComparison,CQ14,Which are all organs with year of construction after X?,pass
+Paul,1_OrganComparison,CQ15,Which are all organs with year of construction before X?,pass
+Paul,1_OrganComparison,CQ16,Which are all organs built by organ builder X?,pass
+Paul,1_OrganComparison,CQ17,Which are all organs which has been maintained or restored by builder X?,pass
+Paul,1_OrganComparison,CQ18,Which are all organs that are linked to person X?,pass
+Paul,1_OrganComparison,CQ19,Which are all organs with more than X bellows?,pass
+Paul,1_OrganComparison,CQ20,Which are all organs with pitch heigher than X Hz?,pass
+Paul,1_OrganComparison,CQ21,Which are all organs with wind pressure higher than X mm?,pass
+Paul,1_OrganComparison,CQ22,Which are all organs with wind pressure lower than X mm?,pass
+Paul,1_OrganComparison,CQ23,Which are all organs with key action type X?,pass
+Paul,1_OrganComparison,CQ24,Which are all organs with stop action type X?,pass
+Paul,1_OrganComparison,CQ25,Which are all organs with pitch lower than X Hz?,pass
+Paul,1_OrganComparison,CQ26,Which are all organs with console location X?,pass
+Paul,1_OrganComparison,CQ27,Which are all organs based on search term X?,pass
+Paul,1_OrganComparison,CQ28,Who was the builder of organ X?,pass
+Paul,1_OrganComparison,CQ29,What is the current location of organ X?,pass
+Paul,1_OrganComparison,CQ30,What were previous locations of organ X?,pass
+Paul,1_OrganComparison,CQ31,When have changes been made to organ X?,pass
+Paul,1_OrganComparison,CQ32,What changes have been made to organ X?,pass
+Paul,1_OrganComparison,CQ33,Why was change X made to organ Y?,pass
+Paul,1_OrganComparison,CQ34,What is the current disposition of organ X?,pass
+Paul,1_OrganComparison,CQ35,What is the composition of stop X in organ Y?,pass
+Paul,1_OrganComparison,CQ36,Of which material is stop X made?,pass
+Paul,1_OrganComparison,CQ37,Of which material is the case of organ X made?,pass
+Paul,1_OrganComparison,CQ38,Which materials have been used to build organ X?,pass
+Paul,1_OrganComparison,CQ39,What historic dispositions are known for organ X?,pass
+Paul,1_OrganComparison,CQ40,What is the source for historic disposition X of organ Y?,pass
+Paul,1_OrganComparison,CQ41,What is the current pitch of organ X?,pass
+Paul,1_OrganComparison,CQ42,What is the current temperature of organ X?,pass
+Paul,1_OrganComparison,CQ43,What is the current console location of organ X?,pass
+Paul,1_OrganComparison,CQ44,What is the current wind system type of organ X?,pass
+Paul,1_OrganComparison,CQ45,What is the current wind pressure of organ X?,pass
+Paul,1_OrganComparison,CQ46,What are the characteristics of the case of organ X?,pass
+Paul,1_OrganComparison,CQ47,What are decorative elements of the case of organ X?,pass
+Paul,1_OrganComparison,CQ48,What are inscriptions on the case of organ X?,pass
+Paul,1_OrganComparison,CQ49,What are the dispositions of all organs made by organ builder X?,pass
+Paul,1_OrganComparison,CQ50,What are the sources for fact X?,pass
+Paul,1_OrganComparison,CQ51,"Given organ X, what organs are similar according to similarity measure Y?",pass
+Paul,1_OrganComparison,CQ52,What literature exists about organ X?,pass
+Paul,1_OrganComparison,CQ53,What literature exists about organ builder X?,pass
+Paul,1_OrganComparison,CQ54,What sources are available regarding the sound of organ X?,pass
+Paul,1_OrganComparison,CQ55,Does organ X stil exist?,pass
+Paul,1_OrganComparison,CQ56,When was organ X deconstructed?,pass
+Paul,1_OrganComparison,CQ57,Why was organ X deconstructed?,pass
+Paul,1_OrganComparison,CQ58,Which parts of deconstructed organ X are still in existence?,pass
+Paul,1_OrganComparison,CQ59,Where are parts of deconstructed organ X currently located?,pass
+Paul,1_OrganComparison,CQ60,Which components of organ X have been reused from other (earlier) organs?,pass
+Paul,1_OrganComparison,CQ61,What is the origin of component X of organ Y?,pass
+Paul,1_OrganComparison,CQ62,Which are all organs that have components made by organ builder X?,pass
+Paul,2_ResourceReliability,CQ42,What are the sources for fact X?,pass
+Anna,1_HearingMusic,CQ1,What is the rhythm of the bassline?,pass
+Anna,1_HearingMusic,CQ2,What is the rhythm of the electronic drum kit?,pass
+Carolina,1_SourcesCrossAnalysis,CQ1,Where was the musical composition X performed? *(musical performance)*,pass
+Carolina,1_SourcesCrossAnalysis,CQ2,In which buildings was musical composition X performed? *(musical performance)*,pass
+Carolina,1_SourcesCrossAnalysis,CQ3,Where was the musical composition X performed for the first time? *(musical performance)*,pass
+Carolina,1_SourcesCrossAnalysis,CQ4,In which buildings was musical composition X performed for the first time? *(musical performance)*,pass
+Carolina,1_SourcesCrossAnalysis,CQ5,"Which performers (musicians, singers) have performed musical composition X? *(musical performance)*",pass
+Carolina,1_SourcesCrossAnalysis,CQ6,"Which performers (musicians, singers) have performed musical composition X for the first time? *(musical performance)*",pass
+Carolina,1_SourcesCrossAnalysis,CQ7,In which scores is there evidence of musical composition X? *(evidence)*,pass
+Carolina,1_SourcesCrossAnalysis,CQ8,In which historical documents is there evidence of musical composition X? *(evidence)*,pass
+Carolina,1_SourcesCrossAnalysis,CQ9,In which bibliographic references is there evidence of musical composition X? *(evidence)*,pass
+Carolina,1_SourcesCrossAnalysis,CQ10,In which historical documents is there evidence of reception of musical composition X? *(evidence)*,pass
+Carolina,1_SourcesCrossAnalysis,CQ11,In which bibliographic references is there evidence of reception of musical composition X? *(evidence)*,pass
+Carolina,1_SourcesCrossAnalysis,CQ12,Which is the medium of performance of musical composition X? *(musical composition)*,pass
+Carolina,1_SourcesCrossAnalysis,CQ13,Which was the first medium of performance of musical composition X? *(musical composition)*,pass
+Carolina,1_SourcesCrossAnalysis,CQ14,Which instruments are involved in musical composition X? *(musical composition)*,pass
+Carolina,1_SourcesCrossAnalysis,CQ15,Which voices are involved in musical composition X? *(musical composition)*,pass
+Carolina,1_SourcesCrossAnalysis,CQ16,In which tonality was written the musical composition X for the first time? *(musical composition)*,pass
+Carolina,1_SourcesCrossAnalysis,CQ17,Which is/are the composer(s) of the musical composition X? *(musical composition)*,pass
+Carolina,1_SourcesCrossAnalysis,CQ18,Who has spoken about the musical composition X? *(reception of musical composition)*,pass
+Carolina,1_SourcesCrossAnalysis,CQ19,Who has spoken about the musical performance X? *(reception of musical performance)*,pass
+Carolina,1_SourcesCrossAnalysis,CQ20,How was the musical composition X received? *(reception of musical composition)*,pass
+Carolina,1_SourcesCrossAnalysis,CQ21,How was the performance of musical composition X received? *(reception of musical performance)*,pass
+Carolina,1_SourcesCrossAnalysis,CQ22,When was a musical composition performed? *(musical performance)*,pass
+Keith,1_MusicConnections,CQ1,Can we find relations between different artists and music?,pass
+Keith,1_MusicConnections,CQ2,Can we find music which has a non-obvious relation to some other music?,pass
+Keith,1_MusicConnections,CQ3,"Can we visualize the relations between different media, different music etc?",pass
+Jorge,1_OrganizeMyLibrary,CQ1,"Is there a digital space to represent and describe the concept of ""Opus"", and store digital scores related to an opus ?",pass
+Jorge,1_OrganizeMyLibrary,CQ2,"Is my collections and subcollections organisation based on clear concepts (e.g., genre, composer, period...) to gather Opuses ?",['hard']
+Jorge,1_OrganizeMyLibrary,CQ3,"Am I able to nagivate, search and visualize  my collections and opus ?",pass
+Jorge,1_OrganizeMyLibrary,CQ4,"Can I examine *features* extracted from  digital scores  (e.g., tonality, when relevant, number of parts, etc.) ?",pass
+Jorge,1_OrganizeMyLibrary,CQ5,"Identify the dimensions and/or features that are relevant to support an on-the-fly reorganization of the digital library, whenever the standard organization does not meet the user's expectations","['incomplete', 'hard']"
+Jorge,1_OrganizeMyLibrary,CQ6,"Can I progressively explore the content of my library, adding criteria to refine large results ?",pass
+Jorge,3_DynamicExploration,CQ1,What are the most relevant dimensions to classify on the fly a result set ?,pass
+Jorge,3_DynamicExploration,CQ2,What features can be extracted on the fly from a score content to partition in a meaning ful way a score collection?,pass
+Jorge,4_LinkToSources,CQ1,Can I link digital sources to an Opus ?,pass
+Jorge,4_LinkToSources,CQ2,"Can I refer to *fragments* of a scoree, eg., the first 10 measures, or part B of a movement ?",pass
+Jorge,4_LinkToSources,CQ3,"Can I link fragments of sources and fragments of scores, such as for instance a measure in an Opus with a part of a reecording ?",['hard']
+Jorge,2_FindSimilarScores,CQ1,Can I susesimilarity criterias based on metadata and features of musical works ?,pass
+Jorge,2_FindSimilarScores,CQ2,"Am I proposed  the most relevant criterias, or combination of criterias,  to expand an initial search ?",pass
+William,1_EuropeanFolkMusic,CQ1,In which collections/datasets does song X occur?,pass
+William,1_EuropeanFolkMusic,CQ2,In which countries does song X occur?,pass
+William,1_EuropeanFolkMusic,CQ3,Which compositions match with William's thematic focus for the exhibition?,pass
+William,1_EuropeanFolkMusic,CQ4,Which composers and performers are related to these compositions?',pass
+William,1_EuropeanFolkMusic,CQ5,In which historical documents is composer X mentioned?,pass
+William,1_EuropeanFolkMusic,CQ6,Under which titles is this song known? (multi-language),pass
+William,1_EuropeanFolkMusic,CQ7,"What are the relations between the relevant countries, compositions, composers and performers in the various collections?",['hard']
+William,1_EuropeanFolkMusic,CQ8,"How have the relations between the relevant countries, compositions, composers and performers in the various collections changed over time?",['hard']
+William,1_EuropeanFolkMusic,CQ9,How many search results are there per time period?,pass
+William,1_EuropeanFolkMusic,CQ10,How many search results are there per genre?,pass
+William,1_EuropeanFolkMusic,CQ11,What is the relevant metadata for music collections and what do the different fields mean?,pass
+William,1_EuropeanFolkMusic,CQ12,"Inspect the degree to which metadata fields have been filled across the collections, see trends and gaps?",pass
+Ortenz,1_MusicAndChildhood,CQ1,"CQ1. What is the difference between the ‘official’ perception of the role of music and how music is experienced?
+
+ *",['complex']
+Ortenz,1_MusicAndChildhood,CQ1,"CQ1.1 What are the aspects that characterize an official source? E.g. context of production, creator’s role, relation between the source and political or national events
+ *",['hard']
+Ortenz,1_MusicAndChildhood,CQ1,"CQ1.2 What are the official sources? What are the sources produced by ordinary people?
+ *",['to-split']
+Ortenz,1_MusicAndChildhood,CQ1,"CQ1.3 What are the aspects that characterize the source at hand as trustworthy? E.g. context of production, creator’s occupation
+ *",['hard']
+Ortenz,1_MusicAndChildhood,CQ1,"CQ1.4 What are the goals of the source?
+ *",pass
+Ortenz,1_MusicAndChildhood,CQ1,CQ1.5 What is the emotional response of music listeners/authors in both types of sources?,pass
+Ortenz,1_MusicAndChildhood,CQ2,"CQ2. How is music used to teach children about identity and heritage?
+
+ *",['complex']
+Ortenz,1_MusicAndChildhood,CQ2,"CQ2.1 In which source there is evidence of children as target audience and music as subject?  
+ *",pass
+Ortenz,1_MusicAndChildhood,CQ2,"CQ2.2 What are the subjects of the source?  
+ *",pass
+Ortenz,1_MusicAndChildhood,CQ2,"CQ2.3 What are the subjects that are related to national identity?
+ *",pass
+Ortenz,1_MusicAndChildhood,CQ2,"CQ2.4 What are the subjects that are related to national heritage?
+ *",pass
+Ortenz,1_MusicAndChildhood,CQ2,"CQ2.5 When was the source produced?
+ *",pass
+Ortenz,1_MusicAndChildhood,CQ2,"CQ2.6 Where was the source produced?
+ *",pass
+Ortenz,1_MusicAndChildhood,CQ2,"CQ2.7 Who produced the source?
+ *",pass
+Ortenz,1_MusicAndChildhood,CQ2,"CQ2.8 What type of source is it? E.g. Literary text, painting
+ *",pass
+Ortenz,1_MusicAndChildhood,CQ2,"CQ2.9 What is the context of production of the source? E.g. academic, official source, personal or primary source, commission to an artist
+ *",['hard']
+Ortenz,1_MusicAndChildhood,CQ2,"CQ2.10 Are there related events connected to the production of the source? E.g. national fests, war period, political or historical events
+ *",['hard']
+Ortenz,1_MusicAndChildhood,CQ2,"CQ2.11 What is context of usage of the source? E.g. propaganda, personal account, review of an event, teaching
+ *",pass
+Ortenz,1_MusicAndChildhood,CQ2,CQ2.12 How subjects/goals/contexts of usage change over time?,pass
+Ortenz,1_MusicAndChildhood,CQ3,"CQ3. What is the adult perception of the role of music in children’s education?
+
+ *",['complex']
+Ortenz,1_MusicAndChildhood,CQ3,"CQ3.1 What is the goal of the official sources?
+ *",pass
+Ortenz,1_MusicAndChildhood,CQ3,CQ3.2 To what extent are music subjects relevant (among the others) in official sources targeted to children?,pass
+Ortenz,2_MusicalSocialNetwork,CQ1,"What places did muciain Z visited in her career?
+
+* Where did she perform?
+* Where did she live?","['to-split', 'complex']"
+Ortenz,2_MusicalSocialNetwork,CQ2,"Did musician X and performer Y ever met? Where, when, and why?",['to-split']
+Ortenz,2_MusicalSocialNetwork,CQ3,"In what context the meeting happend? 
+
+* What is the nature of the event? 
+* Was it a celebration, a festival, a private event?
+* Was it a religious or a secolar event?
+* Who paid to support the event?","['to-split', 'complex', 'hard']"
+Ortenz,2_MusicalSocialNetwork,CQ4,"What is the provenance of the event attendees? What and how they happened to be there?
+
+* Did they travel to reach the place?
+* Where they invited? Was the meeting accidental?","['to-split', 'complex', 'hard']"
+Ortenz,2_MusicalSocialNetwork,CQ5,How can we characterize the relation among the participants?,pass
+Mark,1_FolkMusic,CQ1,Is a composer known for composition X?,pass
+Mark,1_FolkMusic,CQ2,What is the name of the composer specified in the source of this composition?,pass
+Mark,1_FolkMusic,CQ3,What is the similarity between compositions X and Y given similarity measure Z?,pass
+Mark,1_FolkMusic,CQ4,Which tunes are similar to tune X given similarity measure Y?,pass
+Mark,1_FolkMusic,CQ5,Who (which source) attributed composition X to composer Y?,pass
+Mark,1_FolkMusic,CQ6,Which are all known concordances (same composition/tune in another source)?,pass
+Mark,1_FolkMusic,CQ7,Which concordances of composition X have a composer name associated?,pass
+Mark,1_FolkMusic,CQ8,What is the geographic origin of source X?,pass
+Mark,1_FolkMusic,CQ9,Who were the owners of (manuscript) source X?,pass
+Mark,1_FolkMusic,CQ10,Who was/were the scribe(s) of (manuscript) source X?,pass
+Mark,1_FolkMusic,CQ11,What was the repertoire of scribe X (i.e. all compostions written down by X)?,pass
+Mark,1_FolkMusic,CQ12,Who was the publisher of (printed) source X?,pass
+Mark,1_FolkMusic,CQ13,What is publication year of printed source X?,pass
+Mark,1_FolkMusic,CQ14,Which are all compositions that are in source X?,pass
+Mark,1_FolkMusic,CQ15,What is current location of source X?,pass
+Mark,1_FolkMusic,CQ16,Where to find a digital scan of source X (url)?,pass
+Mark,1_FolkMusic,CQ17,What is the title of composition X in source Y?,pass
+Mark,1_FolkMusic,CQ18,What is the tune indication of composition X in source Y?,pass
+Mark,1_FolkMusic,CQ19,On what page (or folio) is composition X in source Y?,pass
+Mark,1_FolkMusic,CQ20,What is the serial number of composition X in source Y?,pass
+Mark,1_FolkMusic,CQ21,What printed source shares content with manuscript X?,pass
+Mark,1_FolkMusic,CQ22,What is the language of the lyrics of tune X?,pass
+Mark,1_FolkMusic,CQ23,Has composition X been identified as variant in a tune family?,pass
+Mark,1_FolkMusic,CQ24,Which tune family does composition X belong to?,pass
+Mark,1_FolkMusic,CQ25,Who assigned composition X to tune family Y?,pass
+Mark,1_FolkMusic,CQ26,With what level of confidence is composition X a variant in tune family Y?,pass
+Mark,1_FolkMusic,CQ27,What are all compositions in tune family X?,pass
+Mark,1_FolkMusic,CQ28,What are the similarities / differences of all compositions in tune family X according to measure Y?,pass
+Mark,1_FolkMusic,CQ29,"To what tune families is tune family X related, given similarity measure Y?",pass
+Mark,1_FolkMusic,CQ30,What are alternative titles for composition X?,pass
+Mark,1_FolkMusic,CQ31,What are the differences / similarities between two corpora of compositions concerning features Y1..Yn?,pass
+Mark,1_FolkMusic,CQ32,What are longitudinal differences / similarities within a corpus concerning features Y1..Yn?,pass
+Mark,1_FolkMusic,CQ33,What are the differences / similarities between two corpora of compositions concerning occurrences of patterns?,pass
+Mark,1_FolkMusic,CQ34,What are longitudinal differences / similarities within a corpus concerning occurrences of patterns?,pass
+Mark,1_FolkMusic,CQ35,What patterns do the compositions in corpus X share?,pass
+Mark,1_FolkMusic,CQ36,"What patterns are overrepresented in corpus X compared to corpus Y?
+
+## Resources
+
+Mark works with:
+
+RISM index of musical sources, composers etc https://opac.rism.info/main-menu-/kachelmenu with the ability to search on names and music
+
+NEUMA, a digital library of musical scores http://neuma.huma-num.fr/home/presentation 
+
+ABC notation database http://abcnotation.com/ 
+
+Database of Dutch tunes http://www.liederenban.nl and http://www.liederebank.nl/mtc
+
+Early American Secular Music and its European sources http://www.cdss.org/elibrary/Easmes/Index.htm
+
+Mark’s work could be helped by:
+
+Connection to other databases, so that he could automatically query a range of databases
+
+## Remarks
+
+Requirements for UI:
+- visualize changes in musical style over time, e.g. transition from modal to tonal (evolution curves - see Weiss et al. 2018 ‘Investigating style evolution of Western classical music: A computational approach’) - with zooming
+- visualize interconnections, e.g. of tunes which share melodic patterns or geographical origin.
+- vizualize the circulation of certain repertoires (e.g. Italian opera).
+
+Previous set of CQs. These are quite abstract, but not yet all covered by the set of CQs in the section above.","['complex', 'hard']"
+Mark,1_FolkMusic,CQ1,"Can we identify a tune (e.g. from an oral tradition) in our collection with music in another documented collection, e.g. RISM, NEUMA, ABC","['incomplete', 'hard']"
+Mark,1_FolkMusic,CQ2,Can we trace the origin of a melody (composer)?,pass
+Mark,1_FolkMusic,CQ2,"Can we compare music from different collections, e.g. from different countries to show connections/influences between musical styles?",['hard']
+Mark,1_FolkMusic,CQ3,"Can we compare music longitudinally, e.g. to see evolution of tonality and transition from modal to tonal? Working either at manuscript of collection level.",['hard']
+Mark,1_FolkMusic,CQ4,"Can we visualize changes in musical style over time, e.g. transition from modal to tonal (evolution curves - see Weiss et al. 2018 ‘Investigating style evolution of Western classical music: A computational approach’) - with zooming","['incomplete', 'hard']"
+Mark,1_FolkMusic,CQ5,"Can we visualize interconnections, e.g. of tunes which share melodic patterns or geographical origin?",pass
+Mark,1_FolkMusic,CQ6,Can we link repertoires by scribes?,pass
+Mark,1_FolkMusic,CQ7,Do 'national' repertoires have specific characteristics in terms of frequent patterns?,pass
+Mark,1_FolkMusic,CQ8,How does translation (of lyrics) affect variation in the melody?,pass
+Mark,1_FolkMusic,CQ9,Which aspects of melody vary and which remain stable in the process of transmission and adaptation?,pass
+Mark,1_FolkMusic,CQ10,"How did certain repertoires (e.g., Italian opera) circulate?",pass
+Mark,1_FolkMusic,CQ11,What are the connections between printed sources and manuscripts? (manuscripts could be copies of printed sources,pass
+Sophia,1_MusiciansAndTheirEnvironment,CQ1,"CQ1. What was the composer’s network (patrons, institutions …)?
+
+ * What is the “intellectual framework” of a musician? which explains why certain music was played and how it was played
+ * What is the time relationship between different musicians, e.g. who was working at the same time?
+ * What relationships exist between institutions, e.g. employment of the same musicians; and between people and institutions, e.g. between a number of composers and a printer?","['to-split', 'complex', 'hard']"
+Sophia,1_MusiciansAndTheirEnvironment,CQ2,"CQ2. What relationships exist between different sources of information, e.g. payslips and accounts?",pass
+Sophia,2_OriginsAndForm,CQ1,"CQ1. What parallels are there between the composition of music and the use of language, e.g. in the use of rhetorical delivery?
+
+  * What rhetorical strategies are used in a piece of music?","['to-split', 'complex', 'hard']"
+Sophia,2_OriginsAndForm,CQ2,"CQ2. Why was a piece of music written to be evocative of something, e.g. the call of a cuckoo?
+
+ * What does music evoke?","['to-split', 'complex', 'hard']"
+Sophia,2_OriginsAndForm,CQ3,CQ3. What different motifs exist in a piece of music?,pass
+Sophia,2_OriginsAndForm,CQ4,"CQ4. What relationships exist in a multi-line piece of music, i.e. over time and between the lines?",pass
+Sophia,2_OriginsAndForm,CQ5,"CQ5. In early written music, what is left of the preceding unwritten tradition?
+
+ * What are the sources the musician used?
+ * What sources, musicians, traditions influenced the musician?","['to-split', 'complex', 'hard']"
+Sophia,2_OriginsAndForm,CQ6,"CQ6. How does the corpus of a composer compare with that of other composers, particularly those writing at the same time?
+
+ * What are the similarities? motifs, harmony, texts","['to-split', 'complex', 'hard']"
+Sophia,2_OriginsAndForm,CQ7,"CQ7. Can we use a statistical comparison, or a particular ‘thumbprint’ in the music, to identify the composer of a piece of music?",['hard']
+Sophia,2_OriginsAndForm,CQ8,"CQ8. When a musical structure, e.g. a motif, is found in two composers, is one copied from the other, or do they come out of a previous tradition?",['hard']
+Sophia,3_Reorchestration,CQ1,What are the instruments that play the musical piece?,pass
+Sophia,3_Reorchestration,CQ2,In which group does the instrument belong to?,pass
+Sophia,3_Reorchestration,CQ3,In which family does the instrument belong to?,pass
+Sophia,3_Reorchestration,CQ4,Which is the timbre of the instrument?,pass
+Sophia,3_Reorchestration,CQ5,Which is the range of pitches available on the instrument?,pass
+Sophia,3_Reorchestration,CQ6,Which is the dynamic range of the instrument?,pass
+Sophia,3_Reorchestration,CQ7,Which is the notation convention of the instrument?,pass
+Sophia,3_Reorchestration,CQ8,With which genre is the instrument related to? (To be considered),pass
+Sophia,3_Reorchestration,CQ9,In what genre of music the instrument was used?,pass
+Sophia,3_Reorchestration,CQ10,In what combinations of instruments the instrument was used?,pass
+Sophia,3_Reorchestration,CQ11,What are the differences between ancient and modern version of the same instrument?,pass
+Sonia,2_ShuffleMode,CQ1,"What is the connection between two musical pieces?
+-",pass
+Sonia,2_ShuffleMode,CQ2,"Is a musical piece connected to another musical piece by historical event?
+-",pass
+Sonia,2_ShuffleMode,CQ3,"Which feature is selected to create the shuffle?
+-",pass
+Sonia,2_ShuffleMode,CQ4,"What are the types of features that are used to create shuffles?
+-",pass
+Sonia,2_ShuffleMode,CQ5,"Which is the immediate previous/next musical piece?
+-",pass
+Sonia,2_ShuffleMode,CQ6,Is a musical piece connected to another musical piece by common people?,pass
+Sonia,1_ExplorationMode,CQ1,"What is the musical piece that the persona selects?
+-",pass
+Sonia,1_ExplorationMode,CQ2,"With which image/textual information/multimedia/musical piece is the selected musical piece connected to inside/outside the playlist?
+-",['hard']
+Sonia,1_ExplorationMode,CQ3,"Which is the melodic pattern of the musical piece?
+-",pass
+Sonia,1_ExplorationMode,CQ4,"In which other musical pieces does the melodic pattern appear?
+-",pass
+Sonia,1_ExplorationMode,CQ5,"Who is/are the composer(s)/musician(s) of the musical piece?
+-",pass
+Sonia,1_ExplorationMode,CQ6,"What information is available for the composer(s)/musician(s)?
+-",pass
+Sonia,1_ExplorationMode,CQ7,"When/Where was the musical piece recorded?
+-",pass
+Sonia,1_ExplorationMode,CQ8,"Has another musical piece ""the user likes"" been recorded in the same venue?
+-",pass
+Sonia,1_ExplorationMode,CQ9,"Are there excerpts of the lyrics available for a musical piece? If yes, which are they?
+-",['to-split']
+Sonia,1_ExplorationMode,CQ10,"Is the excerpt of the lyric featured in other musical pieces?
+-",pass
+Sonia,1_ExplorationMode,CQ11,"Which is the source of the excerpt of the lyrics?
+-",pass
+Sonia,1_ExplorationMode,CQ12,"Is there a person mentioned in the excerpt of the lyrics? If yes, what background information is available for him/her?",['to-split']
+Keoma,1_RestorationAndSoundPractices,CQ1,"Where is the building?
+-",pass
+Keoma,1_RestorationAndSoundPractices,CQ2,"When (what year) was the building built?
+-",pass
+Keoma,1_RestorationAndSoundPractices,CQ3,"In which context is the building located (urban, periurban...)? 
+-",pass
+Keoma,1_RestorationAndSoundPractices,CQ4,"Are there bells in a church?
+-",pass
+Keoma,1_RestorationAndSoundPractices,CQ5,"Which is the mounting system of the bell?
+-",pass
+Keoma,1_RestorationAndSoundPractices,CQ6,"Which is the material of the bell?
+-",pass
+Keoma,1_RestorationAndSoundPractices,CQ7,"By whom (by which foundry) were they cast?
+-",pass
+Keoma,1_RestorationAndSoundPractices,CQ8,"In which year were they cast?
+-",pass
+Keoma,1_RestorationAndSoundPractices,CQ9,"Which is the nominal/fundamental note of the bell?
+-",pass
+Keoma,1_RestorationAndSoundPractices,CQ10,"Which is the extension of the whole set of bells in a bell tower?
+-",pass
+Keoma,1_RestorationAndSoundPractices,CQ11,"Which is the weight of the bell?
+-",pass
+Keoma,1_RestorationAndSoundPractices,CQ12,"Which are the measures of the bell?
+-",pass
+Keoma,1_RestorationAndSoundPractices,CQ13,"What kind of execution techniques are possible to perform according to a specific mounting system?
+-",pass
+Keoma,1_RestorationAndSoundPractices,CQ14,"Can a set of bells be played electrically, manually, or both?
+-",pass
+Keoma,1_RestorationAndSoundPractices,CQ15,"How/Using which tools is the set of bells played, when played manually?
+-",pass
+Keoma,1_RestorationAndSoundPractices,CQ16,"Where is the church/bell tower?
+-",pass
+Keoma,1_RestorationAndSoundPractices,CQ17,"How many bells are in the church?
+-",pass
+Keoma,1_RestorationAndSoundPractices,CQ18,"Which is the mouth diameter of the bell?
+-",pass
+Keoma,1_RestorationAndSoundPractices,CQ19,"Which is the sound bow of the bell?
+-",pass
+Keoma,1_RestorationAndSoundPractices,CQ20,"Using which execution technique(s) is the set of bells played, when played manually?
+
+**old**",['complex']
+Keoma,1_RestorationAndSoundPractices,CQ2,What kind of repertoire is traditionally performed in that specific location?,pass
+Keoma,1_RestorationAndSoundPractices,CQ3,What is the dating that accompanies this repertoire?,pass
+Keoma,1_RestorationAndSoundPractices,CQ4,Is it a repertoire performed in the contemporary world?,pass
+Keoma,1_RestorationAndSoundPractices,CQ5,Is it a repertoire in that place currently performed by hand or by electric means?,pass
+Keoma,1_RestorationAndSoundPractices,CQ6,How many people are generally employed for the performance of these sound practices?,pass
+Keoma,1_RestorationAndSoundPractices,CQ7,"Are there significant variations in the frequencies between the manually produced sound and the electric sound, such as to have repercussions on the soundscape?",['hard']
+Keoma,1_RestorationAndSoundPractices,CQ8,Are there historical evidences of the presence of that sound in the surrounding area?,pass
+Frank,1_OrganKnowledge,CQ1,What does the organ look like?,pass
+Frank,1_OrganKnowledge,CQ2,Which organs are built in a similar style?,pass
+Frank,1_OrganKnowledge,CQ3,What is the concert agenda for organ X?,pass
+Frank,1_OrganKnowledge,CQ4,Where to find audio/video resources featuring organ X?,pass
+Frank,1_OrganKnowledge,CQ5,Where to find audio/video resources featuring organist X?,pass
+Frank,1_OrganKnowledge,CQ6,What is the address of the owner/maintainer of organ X?,pass
+Sethus,2_CreateRelevantCorpus,CQ1,"Search operations should be expressed on either raw-level features (eg melodic lines) or higher-level features (eg modes, cadences, triad patterns, etc.). The systm should retrieve efficiently all sources that match the search pattern, and identifiy pattern occurrences","['incomplete', 'hard']"
+Sethus,2_CreateRelevantCorpus,CQ2,A subset can be hierarchically refined based on criteria independant from on another and independant from the initial search pattern. The user can navigate in this hierarchy and refine the search.,"['incomplete', 'hard']"
+Sethus,2_CreateRelevantCorpus,CQ3,"At each step, the result set takes the form of a subcorpus organized according to rich relationships, and enriched with user annotations","['incomplete', 'hard']"
+Sethus,2_CreateRelevantCorpus,CQ4,"A result set can be stored (in intention, not in extension) as a Relevant Corpus, and its definition can be revised at any moment","['incomplete', 'hard']"
+Sethus,2_CreateRelevantCorpus,CQ5,navigating through a Relevant Corpus is based on anotation and search patterns,['incomplete']
+Sethus,1_ConflictingTheoreticalInterpretations,CQ1,"To which modes Vide homo has been assigned to in Tonalities? Leonhard, Bernhard, Harold, Siegfried, Frans and Alexander relate the motet to the tonus peregrinus. Robert, however, considers the work to be written in the mixolydian mode.",['hard']
+Sethus,1_ConflictingTheoreticalInterpretations,CQ2,"Are the criteria on which these interpretations are based true in the score and, if so, to what extent? 
+   - What are the cadence points in the work? 
+   - What are the part’s ranges?  Do they correspond to modal octaves? 
+   - What is the final of the bassus? 
+   - What is the last chord? 
+   - Are there any melodic patterns related to modality? 
+   - To what diatonic environment does the work belong to? 
+   - What are the part’s clefs and keys? 
+   - Are the theoretical models on which these criteria are based – for example the Zarlinian cadential scheme ^1-^3-^5 – in line with this work? 
+   - What is the tension between the expected theoretical criteria and their actual realisation in the work?","['to-split', 'complex', 'hard']"
+Sethus,1_ConflictingTheoreticalInterpretations,CQ3,"Can one assume that the modal ambiguity evidenced by the analytical interpretations is intended? Harold sees, for example, the use of modes in Lagrime as a religious symbol. Alexander suggests that Tansillo's texts set to music by Lassus can be read as an examination of conscience, advocated by post-Tridentine spirituality. Can these hypotheses be substantiated on the basis of Polifonia's analytical and heritage knowledge? 
+   - Where does the work appear within the cycle? 
+   - What do we know about this cycle and its place in Lassus' output? 
+   - Which poetic text is set to music? 
+   - Has this poetic text been set to music before?","['to-split', 'complex', 'hard']"
+Sethus,1_ConflictingTheoreticalInterpretations,CQ4,"Apart from Lasso’s possible exegetical intentions, what does this work tell us about the status of the modes at this moment in the history of composition? 
+   - Is the modal ambiguity observed here frequent in Lasso’s output? 
+   - Do other works come close, in terms of their inner properties, to what is observed here? 
+   - Is the ambiguity observed here specific to particular groups of works?","['to-split', 'complex', 'hard']"
+Sethus,3_ConflictingAnalyticalAnnotations,CQ1,"To which modes Vide homo has been assigned to in Tonalities? Leonhard, Bernhard, Harold, Siegfried, Frans and Alexander relate the motet to the tonus peregrinus. Robert, however, considers the work to be written in the mixolydian mode.",['hard']
+Sethus,3_ConflictingAnalyticalAnnotations,CQ2,"Are the criteria on which these interpretations are based true in the score and, if so, to what extent?",pass
+Sethus,3_ConflictingAnalyticalAnnotations,CQ3,What are the cadence points in the work?,pass
+Sethus,3_ConflictingAnalyticalAnnotations,CQ4,What are the part’s ranges?  Do they correspond to modal octaves?,['to-split']
+Sethus,3_ConflictingAnalyticalAnnotations,CQ5,What is the final of the bassus?,pass
+Sethus,3_ConflictingAnalyticalAnnotations,CQ6,What is the last chord?,pass
+Sethus,3_ConflictingAnalyticalAnnotations,CQ7,Are there any melodic patterns related to modality?,pass
+Sethus,3_ConflictingAnalyticalAnnotations,CQ8,To what diatonic environment does the work belong to?,pass
+Sethus,3_ConflictingAnalyticalAnnotations,CQ9,What are the part’s clefs and keys?,pass
+Sethus,3_ConflictingAnalyticalAnnotations,CQ10,Are the theoretical models on which these criteria are based – for example the Zarlinian cadential scheme ^1-^3-^5 – in line with this work?,['hard']
+Sethus,3_ConflictingAnalyticalAnnotations,CQ11,"What is the tension between the expected theoretical criteria and their actual realisation in the work?
+
+[Metadata section]","['complex', 'hard']"
+Sethus,3_ConflictingAnalyticalAnnotations,CQ12,To what corpus does this work belong?,pass
+Sethus,3_ConflictingAnalyticalAnnotations,CQ13,What is the name of the corpus?,pass
+Sethus,3_ConflictingAnalyticalAnnotations,CQ14,What is the pseudonyme of the composer for X?,pass
+Sethus,3_ConflictingAnalyticalAnnotations,CQ15,What is the birthdate of the composer?,pass
+Sethus,3_ConflictingAnalyticalAnnotations,CQ16,What is the date of death of the composer?,pass
+Sethus,3_ConflictingAnalyticalAnnotations,CQ17,To what genre does the composition belong?,pass
+Sethus,3_ConflictingAnalyticalAnnotations,CQ18,To what collection does of the composition belong?,pass
+Sethus,3_ConflictingAnalyticalAnnotations,CQ19,"If this is the case, to what larger work does the composition belong?",pass
+Sethus,3_ConflictingAnalyticalAnnotations,CQ20,"If this is the case, in what other work(s) is the compositions quoted?",pass
+Sethus,3_ConflictingAnalyticalAnnotations,CQ21,Does the composition contain any quotation from other composition(s)?,pass
+Sethus,3_ConflictingAnalyticalAnnotations,CQ22,What is the origin of the composition?,pass
+Sethus,3_ConflictingAnalyticalAnnotations,CQ23,"If available online, what is the URL of the composition?",pass
+Sethus,3_ConflictingAnalyticalAnnotations,CQ24,"In the case of a manuscript/printed source, where is it housed?",pass
+Sethus,3_ConflictingAnalyticalAnnotations,CQ25,Who is the scientific editor of the composition?,pass
+Sethus,3_ConflictingAnalyticalAnnotations,CQ26,"If any, what is the license of the transcription?",pass
+Sethus,3_ConflictingAnalyticalAnnotations,CQ27,What is the year of publication of the music printed source?,pass
+Sethus,3_ConflictingAnalyticalAnnotations,CQ28,Where was the music printed source published?,pass
+Sethus,3_ConflictingAnalyticalAnnotations,CQ29,What is the editor of the music printed source?,pass
+Sethus,3_ConflictingAnalyticalAnnotations,CQ30,In what electronic format is the composition available?,pass
+Sethus,3_ConflictingAnalyticalAnnotations,CQ31,What is the license of the final reused/modified electronic format of the score?,pass
+Valeriana,1_DiscourseAnalysis,CQ1,What was Wagner's first performance in Bologna? On what date?,['to-split']
+Valeriana,1_DiscourseAnalysis,CQ2,What was Verdi's first performance in Bologna? On what date?,['to-split']
+Valeriana,1_DiscourseAnalysis,CQ3,Who were the public figures who participated in event X (or Y)?,pass
+Valeriana,1_DiscourseAnalysis,CQ4,Who were the musicians who participated in event X (or Y)?,pass
+Valeriana,1_DiscourseAnalysis,CQ5,Who talked about event X (or Y)?,pass
+Valeriana,1_DiscourseAnalysis,CQ6,In which works is event X recounted/traced?,pass
+Valeriana,1_DiscourseAnalysis,CQ7,What were the critical reactions to event X (or Y)? Are them positives?,['to-split']
+Valeriana,2_Terminology,CQ1,CQ1)what are the meanings of the word 'vocality' in Italian (x)?,pass
+Valeriana,2_Terminology,CQ2,CQ2)What are the meanings of the word 'vocality' in French (y)?,pass
+Valeriana,2_Terminology,CQ3,CQ3) What are the meanings of the word 'vocality' in German (z)?,pass
+Valeriana,2_Terminology,CQ4,CQ4) What are the meanings of the word 'vocality' in Spanish (h)?,pass
+Valeriana,2_Terminology,CQ5,CQ5)How do the words x and y change over time?,pass
+Valeriana,2_Terminology,CQ6,"CQ6)What contexts are the word x, y, z, h related to?",pass
+Valeriana,2_Terminology,CQ7,CQ7) How do these contexts change over time?,pass
+Amy,1_OrganTrends,CQ1,"What are geographically distinct features of organs from region X? (e.g., in what differ 17th century Southern German organs from 17th century Spanish organs?).","['to-split', 'hard']"
+David,1_MusicHistorian,CQ1,What music was being played?,pass
+David,1_MusicHistorian,CQ2,Who was listening to the music?,pass
+David,1_MusicHistorian,CQ3,How did the instruments used change over time?,pass
+David,1_MusicHistorian,CQ4,What was source of money – e.g. for instruments?,pass
+David,1_MusicHistorian,CQ5,Where were the musicians coming from?,pass
+David,1_MusicHistorian,CQ6,Who were teaching the musicians?,pass
+David,1_MusicHistorian,CQ7,Where were the places (in which they played)?,pass
+David,1_MusicHistorian,CQ8,How were instruments sold?,pass
+David,1_MusicHistorian,CQ9,What was the sales pitch?,pass
+David,1_MusicHistorian,CQ10,How does the world of brass bands connect with that of elite music?,pass
+David,1_MusicHistorian,CQ11,"What did people ‘make of’, how  did they react to, e.g. music?",pass
+David,1_MusicHistorian,CQ12,"Who was the author of a piece of music?
+e.g. can we identify it by its incipit?",['to-split']
+David,1_MusicHistorian,CQ13,What was the country of origin of a piece of music?,pass
+David,1_MusicHistorian,CQ14,"What is the cause of a change, e.g. increasing number of concerts over time?",pass
+Ralph,1_WordsAndMusic,CQ1,Who is the poet (librettist) associated with a text?,pass
+Ralph,1_WordsAndMusic,CQ2,What is the emotion represented by a portion of text (~140 categories)?,pass
+Ralph,1_WordsAndMusic,CQ3,"How do libretto and music relate, e.g. in describing an emotion?",pass
+Ralph,1_WordsAndMusic,CQ4,"How does the presentation (text and music) of a work, e.g. an operatic aria, change over time, and depending on the artist?",['hard']
+Ralph,1_WordsAndMusic,CQ5,"How have the music and libretto been influenced by the historical, e.g. social, political and cultural, environment?",pass
+Ralph,1_WordsAndMusic,CQ6,How can one describe and classify a scenario?,pass
+Patrizia,1_IdentificationOfIntangibleElements,CQ1,Where is the Bell Tower?,pass
+Patrizia,1_IdentificationOfIntangibleElements,CQ2,What kind of execution characterizes that bell tower?,pass
+Patrizia,1_IdentificationOfIntangibleElements,CQ3,Are there formalized collective actors who carry out sound practices?,pass
+Patrizia,1_IdentificationOfIntangibleElements,CQ4,Are there formalized transmission methods that characterize the acquisition of skills related to the bell practice?,pass
+Patrizia,1_IdentificationOfIntangibleElements,CQ5,Which age groups do the transmission practices involve?,pass
+Patrizia,1_IdentificationOfIntangibleElements,CQ6,Do transmission practices involve both men and women?,pass
+Patrizia,1_IdentificationOfIntangibleElements,CQ7,Do transmission practices include the organization of public events?,pass

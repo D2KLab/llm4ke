@@ -1,0 +1,139 @@
+persona,story,id,cq,issues
+Jorge,1_OrganizeMyLibrary,CQ2,"Is my collections and subcollections organisation based on clear concepts (e.g., genre, composer, period...) to gather Opuses ?",['hard']
+Jorge,1_OrganizeMyLibrary,CQ5,"Identify the dimensions and/or features that are relevant to support an on-the-fly reorganization of the digital library, whenever the standard organization does not meet the user's expectations","['incomplete', 'hard']"
+Jorge,4_LinkToSources,CQ3,"Can I link fragments of sources and fragments of scores, such as for instance a measure in an Opus with a part of a reecording ?",['hard']
+William,1_EuropeanFolkMusic,CQ7,"What are the relations between the relevant countries, compositions, composers and performers in the various collections?",['hard']
+William,1_EuropeanFolkMusic,CQ8,"How have the relations between the relevant countries, compositions, composers and performers in the various collections changed over time?",['hard']
+Ortenz,1_MusicAndChildhood,CQ1,"CQ1. What is the difference between the ‘official’ perception of the role of music and how music is experienced?
+
+ *",['complex']
+Ortenz,1_MusicAndChildhood,CQ1,"CQ1.1 What are the aspects that characterize an official source? E.g. context of production, creator’s role, relation between the source and political or national events
+ *",['hard']
+Ortenz,1_MusicAndChildhood,CQ1,"CQ1.2 What are the official sources? What are the sources produced by ordinary people?
+ *",['to-split']
+Ortenz,1_MusicAndChildhood,CQ1,"CQ1.3 What are the aspects that characterize the source at hand as trustworthy? E.g. context of production, creator’s occupation
+ *",['hard']
+Ortenz,1_MusicAndChildhood,CQ2,"CQ2. How is music used to teach children about identity and heritage?
+
+ *",['complex']
+Ortenz,1_MusicAndChildhood,CQ2,"CQ2.9 What is the context of production of the source? E.g. academic, official source, personal or primary source, commission to an artist
+ *",['hard']
+Ortenz,1_MusicAndChildhood,CQ2,"CQ2.10 Are there related events connected to the production of the source? E.g. national fests, war period, political or historical events
+ *",['hard']
+Ortenz,1_MusicAndChildhood,CQ3,"CQ3. What is the adult perception of the role of music in children’s education?
+
+ *",['complex']
+Ortenz,2_MusicalSocialNetwork,CQ1,"What places did muciain Z visited in her career?
+
+* Where did she perform?
+* Where did she live?","['to-split', 'complex']"
+Ortenz,2_MusicalSocialNetwork,CQ2,"Did musician X and performer Y ever met? Where, when, and why?",['to-split']
+Ortenz,2_MusicalSocialNetwork,CQ3,"In what context the meeting happend? 
+
+* What is the nature of the event? 
+* Was it a celebration, a festival, a private event?
+* Was it a religious or a secolar event?
+* Who paid to support the event?","['to-split', 'complex', 'hard']"
+Ortenz,2_MusicalSocialNetwork,CQ4,"What is the provenance of the event attendees? What and how they happened to be there?
+
+* Did they travel to reach the place?
+* Where they invited? Was the meeting accidental?","['to-split', 'complex', 'hard']"
+Mark,1_FolkMusic,CQ36,"What patterns are overrepresented in corpus X compared to corpus Y?
+
+## Resources
+
+Mark works with:
+
+RISM index of musical sources, composers etc https://opac.rism.info/main-menu-/kachelmenu with the ability to search on names and music
+
+NEUMA, a digital library of musical scores http://neuma.huma-num.fr/home/presentation 
+
+ABC notation database http://abcnotation.com/ 
+
+Database of Dutch tunes http://www.liederenban.nl and http://www.liederebank.nl/mtc
+
+Early American Secular Music and its European sources http://www.cdss.org/elibrary/Easmes/Index.htm
+
+Mark’s work could be helped by:
+
+Connection to other databases, so that he could automatically query a range of databases
+
+## Remarks
+
+Requirements for UI:
+- visualize changes in musical style over time, e.g. transition from modal to tonal (evolution curves - see Weiss et al. 2018 ‘Investigating style evolution of Western classical music: A computational approach’) - with zooming
+- visualize interconnections, e.g. of tunes which share melodic patterns or geographical origin.
+- vizualize the circulation of certain repertoires (e.g. Italian opera).
+
+Previous set of CQs. These are quite abstract, but not yet all covered by the set of CQs in the section above.","['complex', 'hard']"
+Mark,1_FolkMusic,CQ1,"Can we identify a tune (e.g. from an oral tradition) in our collection with music in another documented collection, e.g. RISM, NEUMA, ABC","['incomplete', 'hard']"
+Mark,1_FolkMusic,CQ2,"Can we compare music from different collections, e.g. from different countries to show connections/influences between musical styles?",['hard']
+Mark,1_FolkMusic,CQ3,"Can we compare music longitudinally, e.g. to see evolution of tonality and transition from modal to tonal? Working either at manuscript of collection level.",['hard']
+Mark,1_FolkMusic,CQ4,"Can we visualize changes in musical style over time, e.g. transition from modal to tonal (evolution curves - see Weiss et al. 2018 ‘Investigating style evolution of Western classical music: A computational approach’) - with zooming","['incomplete', 'hard']"
+Sophia,1_MusiciansAndTheirEnvironment,CQ1,"CQ1. What was the composer’s network (patrons, institutions …)?
+
+ * What is the “intellectual framework” of a musician? which explains why certain music was played and how it was played
+ * What is the time relationship between different musicians, e.g. who was working at the same time?
+ * What relationships exist between institutions, e.g. employment of the same musicians; and between people and institutions, e.g. between a number of composers and a printer?","['to-split', 'complex', 'hard']"
+Sophia,2_OriginsAndForm,CQ1,"CQ1. What parallels are there between the composition of music and the use of language, e.g. in the use of rhetorical delivery?
+
+  * What rhetorical strategies are used in a piece of music?","['to-split', 'complex', 'hard']"
+Sophia,2_OriginsAndForm,CQ2,"CQ2. Why was a piece of music written to be evocative of something, e.g. the call of a cuckoo?
+
+ * What does music evoke?","['to-split', 'complex', 'hard']"
+Sophia,2_OriginsAndForm,CQ5,"CQ5. In early written music, what is left of the preceding unwritten tradition?
+
+ * What are the sources the musician used?
+ * What sources, musicians, traditions influenced the musician?","['to-split', 'complex', 'hard']"
+Sophia,2_OriginsAndForm,CQ6,"CQ6. How does the corpus of a composer compare with that of other composers, particularly those writing at the same time?
+
+ * What are the similarities? motifs, harmony, texts","['to-split', 'complex', 'hard']"
+Sophia,2_OriginsAndForm,CQ7,"CQ7. Can we use a statistical comparison, or a particular ‘thumbprint’ in the music, to identify the composer of a piece of music?",['hard']
+Sophia,2_OriginsAndForm,CQ8,"CQ8. When a musical structure, e.g. a motif, is found in two composers, is one copied from the other, or do they come out of a previous tradition?",['hard']
+Sonia,1_ExplorationMode,CQ2,"With which image/textual information/multimedia/musical piece is the selected musical piece connected to inside/outside the playlist?
+-",['hard']
+Sonia,1_ExplorationMode,CQ9,"Are there excerpts of the lyrics available for a musical piece? If yes, which are they?
+-",['to-split']
+Sonia,1_ExplorationMode,CQ12,"Is there a person mentioned in the excerpt of the lyrics? If yes, what background information is available for him/her?",['to-split']
+Keoma,1_RestorationAndSoundPractices,CQ20,"Using which execution technique(s) is the set of bells played, when played manually?
+
+**old**",['complex']
+Keoma,1_RestorationAndSoundPractices,CQ7,"Are there significant variations in the frequencies between the manually produced sound and the electric sound, such as to have repercussions on the soundscape?",['hard']
+Sethus,2_CreateRelevantCorpus,CQ1,"Search operations should be expressed on either raw-level features (eg melodic lines) or higher-level features (eg modes, cadences, triad patterns, etc.). The systm should retrieve efficiently all sources that match the search pattern, and identifiy pattern occurrences","['incomplete', 'hard']"
+Sethus,2_CreateRelevantCorpus,CQ2,A subset can be hierarchically refined based on criteria independant from on another and independant from the initial search pattern. The user can navigate in this hierarchy and refine the search.,"['incomplete', 'hard']"
+Sethus,2_CreateRelevantCorpus,CQ3,"At each step, the result set takes the form of a subcorpus organized according to rich relationships, and enriched with user annotations","['incomplete', 'hard']"
+Sethus,2_CreateRelevantCorpus,CQ4,"A result set can be stored (in intention, not in extension) as a Relevant Corpus, and its definition can be revised at any moment","['incomplete', 'hard']"
+Sethus,2_CreateRelevantCorpus,CQ5,navigating through a Relevant Corpus is based on anotation and search patterns,['incomplete']
+Sethus,1_ConflictingTheoreticalInterpretations,CQ1,"To which modes Vide homo has been assigned to in Tonalities? Leonhard, Bernhard, Harold, Siegfried, Frans and Alexander relate the motet to the tonus peregrinus. Robert, however, considers the work to be written in the mixolydian mode.",['hard']
+Sethus,1_ConflictingTheoreticalInterpretations,CQ2,"Are the criteria on which these interpretations are based true in the score and, if so, to what extent? 
+   - What are the cadence points in the work? 
+   - What are the part’s ranges?  Do they correspond to modal octaves? 
+   - What is the final of the bassus? 
+   - What is the last chord? 
+   - Are there any melodic patterns related to modality? 
+   - To what diatonic environment does the work belong to? 
+   - What are the part’s clefs and keys? 
+   - Are the theoretical models on which these criteria are based – for example the Zarlinian cadential scheme ^1-^3-^5 – in line with this work? 
+   - What is the tension between the expected theoretical criteria and their actual realisation in the work?","['to-split', 'complex', 'hard']"
+Sethus,1_ConflictingTheoreticalInterpretations,CQ3,"Can one assume that the modal ambiguity evidenced by the analytical interpretations is intended? Harold sees, for example, the use of modes in Lagrime as a religious symbol. Alexander suggests that Tansillo's texts set to music by Lassus can be read as an examination of conscience, advocated by post-Tridentine spirituality. Can these hypotheses be substantiated on the basis of Polifonia's analytical and heritage knowledge? 
+   - Where does the work appear within the cycle? 
+   - What do we know about this cycle and its place in Lassus' output? 
+   - Which poetic text is set to music? 
+   - Has this poetic text been set to music before?","['to-split', 'complex', 'hard']"
+Sethus,1_ConflictingTheoreticalInterpretations,CQ4,"Apart from Lasso’s possible exegetical intentions, what does this work tell us about the status of the modes at this moment in the history of composition? 
+   - Is the modal ambiguity observed here frequent in Lasso’s output? 
+   - Do other works come close, in terms of their inner properties, to what is observed here? 
+   - Is the ambiguity observed here specific to particular groups of works?","['to-split', 'complex', 'hard']"
+Sethus,3_ConflictingAnalyticalAnnotations,CQ1,"To which modes Vide homo has been assigned to in Tonalities? Leonhard, Bernhard, Harold, Siegfried, Frans and Alexander relate the motet to the tonus peregrinus. Robert, however, considers the work to be written in the mixolydian mode.",['hard']
+Sethus,3_ConflictingAnalyticalAnnotations,CQ4,What are the part’s ranges?  Do they correspond to modal octaves?,['to-split']
+Sethus,3_ConflictingAnalyticalAnnotations,CQ10,Are the theoretical models on which these criteria are based – for example the Zarlinian cadential scheme ^1-^3-^5 – in line with this work?,['hard']
+Sethus,3_ConflictingAnalyticalAnnotations,CQ11,"What is the tension between the expected theoretical criteria and their actual realisation in the work?
+
+[Metadata section]","['complex', 'hard']"
+Valeriana,1_DiscourseAnalysis,CQ1,What was Wagner's first performance in Bologna? On what date?,['to-split']
+Valeriana,1_DiscourseAnalysis,CQ2,What was Verdi's first performance in Bologna? On what date?,['to-split']
+Valeriana,1_DiscourseAnalysis,CQ7,What were the critical reactions to event X (or Y)? Are them positives?,['to-split']
+Amy,1_OrganTrends,CQ1,"What are geographically distinct features of organs from region X? (e.g., in what differ 17th century Southern German organs from 17th century Spanish organs?).","['to-split', 'hard']"
+David,1_MusicHistorian,CQ12,"Who was the author of a piece of music?
+e.g. can we identify it by its incipit?",['to-split']
+Ralph,1_WordsAndMusic,CQ4,"How does the presentation (text and music) of a work, e.g. an operatic aria, change over time, and depending on the artist?",['hard']
