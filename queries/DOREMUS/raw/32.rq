@@ -1,0 +1,21 @@
+PREFIX mus: <http://data.doremus.org/ontology#>
+PREFIX ecrm: <http://erlangen-crm.org/current/>
+PREFIX efrbroo: <http://erlangen-crm.org/efrbroo/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+
+# [en] Give me all the works for which the title of the Performed Expression is different from the title of the work
+# [fr] Donne-moi toutes les oeuvres pour lesquelles le titre de l’Expression Performée est différent du titre de l’oeuvre
+
+SELECT DISTINCT ?performance, SAMPLE(?perfTitle) AS ?perfTitle, SAMPLE(?expTitle) AS ?expTitle, ?expression
+WHERE {
+  ?performance a mus:M43_Performed_Expression ;
+    mus:U54_is_performed_expression_of ?expression ;
+    rdfs:label ?perfTitle .
+
+  ?expression a efrbroo:F22_Self-Contained_Expression ;
+    rdfs:label ?expTitle .
+
+  FILTER NOT EXISTS {
+    ?performance mus:U54_is_performed_expression_of / rdfs:label ?perfTitle .
+  }
+} LIMIT 100

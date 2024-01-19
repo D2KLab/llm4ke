@@ -1,0 +1,21 @@
+PREFIX mus: <http://data.doremus.org/ontology#>
+PREFIX ecrm: <http://erlangen-crm.org/current/>
+PREFIX efrbroo: <http://erlangen-crm.org/efrbroo/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+
+# [en] Give me all the works interpreted on at least one mop different from the casting of the work
+# [fr] Donne-moi toutes les oeuvres interprétées sur au moins un mop différent du casting de l’oeuvre
+
+SELECT DISTINCT ?expression, ?performance, ?mop, group_concat(DISTINCT ?mopWork, ", ") AS ?mopWork
+WHERE {
+  ?performance a mus:M42_Performed_Expression_Creation ;
+    efrbroo:R17_created / mus:U54_is_performed_expression_of ?expression ;
+    ecrm:P9_consists_of / mus:U1_used_medium_of_performance ?mop .
+
+  ?expression a efrbroo:F22_Self-Contained_Expression ;
+        mus:U13_has_casting / mus:U23_has_casting_detail / mus:U2_foresees_use_of_medium_of_performance ?mopWork .
+
+  FILTER NOT EXISTS {
+    ?expression mus:U13_has_casting / mus:U23_has_casting_detail / mus:U2_foresees_use_of_medium_of_performance / skos:exactMatch* ?mop .
+  }
+} LIMIT 300
