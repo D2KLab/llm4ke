@@ -24,4 +24,20 @@ ontologies:
 - Polifonia
   - is a network of ontologies => potential need to merge them into a single file.
   - Where are the queries shared?
-- SILKNOW looks more like KG rather than an ontology => what should we download? 
+- SILKNOW looks more like KG rather than an ontology => what should we download?
+
+## Competency questions (CQs)
+
+For each ontology, we provide a `./<ProjectName>/cqs/cqs.yml` file for standard representation of the CQs based on the original set of competency questions brought with the ontology implementation.
+
+The canonical structure of this file is as follows:
+
+```yaml
+---
+ontology:
+  name: <ProjectName>
+  cqs:
+    - question: <CQ>
+      ID: <CQId>
+      group: <CQGroup>
+```

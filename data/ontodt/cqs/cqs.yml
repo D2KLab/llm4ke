@@ -1,0 +1,7 @@
+---
+ontology:
+  name: <ProjectName>
+  cqs:
+    - question: <CQ>
+      ID: <CQId>
+      group: <CQGroup>
