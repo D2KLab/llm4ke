@@ -1,0 +1,16 @@
+prefix crmdig: <http://www.ics.forth.gr/isl/CRMext/CRMdig.rdfs/>
+prefix crmsci: <http://www.ics.forth.gr/isl/CRMsci/>
+SELECT DISTINCT ?object ?actor ?label ?title ?collection
+WHERE {graph ?collection {
+
+      values ?label { "Jean Revel" }
+         optional {?object ecrm:P102_has_title ?title }
+    ?object a ecrm:E22_Man-Made_Object .
+    ?production ecrm:P108_has_produced ?object .
+    ?production ecrm:P9_consists_of ?activity .
+    ?activity ecrm:P14_carried_out_by ?actor.
+    ?actor a ecrm:E39_Actor .
+    ?actor rdfs:label ?label .
+    
+
+}}

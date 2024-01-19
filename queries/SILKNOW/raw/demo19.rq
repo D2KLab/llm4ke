@@ -1,0 +1,46 @@
+All objects with Cotton from Italy (18th century). 
+
+
+ 
+SELECT distinct  ?title  group_concat(distinct ?material;separator="|") as ?materials  group_concat(distinct ?location;separator="|") as ?locations ?time ?collection ?object 
+WHERE { graph ?collection {
+
+     ?dig a crmdig:D1_Digital_Object . }
+      
+     ?dig  ecrm:P129_is_about ?prd .
+     optional { ?dig ecrm:P129_is_about ?type }
+     ?prd ecrm:P108_has_produced ?object .
+ 
+     optional {?object ecrm:P102_has_title ?title }
+
+{ ?prd ecrm:P8_took_place_on_or_within ?l
+     { SELECT ?l SAMPLE(?loc) as ?place
+          WHERE { ?l geonames:countryCode ?loc}
+       } . FILTER(isIRI(?l))
+           ?l geonames:countryCode "IT"  }
+ ?prd ecrm:P8_took_place_on_or_within ?x .
+  ?x ecrm:P1_is_identified_by ?location
+
+
+        {?prd ecrm:P126_employed <http://data.silknow.org/vocabulary/488> .}
+     { ?prd ecrm:P126_employed ?x
+       { SELECT ?x SAMPLE(?lab) as ?material
+         WHERE { ?x skos:prefLabel ?lab . FILTER (lang(?lab) = "en")}
+       } . FILTER(isIRI(?x)) }
+     UNION
+     { ?prd ecrm:P126_employed ?material .
+       FILTER (isIRI(?material) = false)
+      }
+     
+
+
+?prd ecrm:P4_has_time-span ?t .
+?t ecrm:P78_is_identified_by ?time.
+
+
+FILTER (contains(str(?time), "18th") || contains(str(?time), "1700s") || contains(str(?time), "segle 18") || contains(str(?time), "1750s"))
+        
+
+}
+GROUP BY ?collection ?object  ?title ?time
+

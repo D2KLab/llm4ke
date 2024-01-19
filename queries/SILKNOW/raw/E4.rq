@@ -1,0 +1,22 @@
+prefix crmdig: <http://www.ics.forth.gr/isl/CRMext/CRMdig.rdfs/>
+prefix crmsci: <http://www.ics.forth.gr/isl/CRMsci/>
+SELECT DISTINCT ?object ?actor ?label ?title ?collection
+WHERE {graph ?collection {
+     values ?actor { <http://data.silknow.org/actor/fc74669f-81ea-35a6-8f26-839923f857ff> }
+
+    ?object a ecrm:E22_Man-Made_Object .
+         optional {?object ecrm:P102_has_title ?title }
+    ?production ecrm:P108_has_produced ?object .
+    ?production ecrm:P9_consists_of ?activity .
+    ?activity ecrm:P14_carried_out_by ?actor .
+    ?actor rdfs:label ?label .
+
+    
+    
+
+    
+
+
+
+
+} }

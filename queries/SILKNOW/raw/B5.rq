@@ -1,0 +1,9 @@
+SELECT distinct  ?collection ?object 
+WHERE { graph ?collection{
+     ?prod ecrm:P108_has_produced ?object .
+ 
+     optional {?object ecrm:P102_has_title ?title }
+
+     ?prod ecrm:P4_has_time-span <http://data.silknow.org/timespan/1815> .
+
+}} 

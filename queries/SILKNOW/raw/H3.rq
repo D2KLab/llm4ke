@@ -1,0 +1,24 @@
+prefix crmdig: <http://www.ics.forth.gr/isl/CRMext/CRMdig.rdfs/>
+prefix crmsci: <http://www.ics.forth.gr/isl/CRMsci/>
+SELECT DISTINCT ?object ?title ?collection ?visual_item
+WHERE {graph ?collection { ?object ecrm:P65_shows_visual_item <http://data.silknow.org/vocabulary/743>  }
+
+
+
+    optional {?object ecrm:P102_has_title ?title}
+    ?object a ecrm:E22_Man-Made_Object .
+    ?production ecrm:P108_has_produced ?object .
+
+    
+    
+
+      ?object ecrm:P65_shows_visual_item ?vitem .
+      ?vitem  skos:prefLabel ?visual_item . 
+
+      FILTER(lang(?visual_item) = "en")
+      FILTER(?vitem = <http://data.silknow.org/vocabulary/743>) 
+
+    
+    
+
+}

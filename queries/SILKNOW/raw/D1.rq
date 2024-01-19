@@ -1,0 +1,17 @@
+SELECT distinct  ?title ?collection  ?object ?material
+WHERE { graph ?collection {
+
+     ?prd ecrm:P108_has_produced ?object .
+     ?object a ecrm:E22_Man-Made_Object .
+ 
+     ?prd ecrm:P126_employed ?material .
+     
+      
+ optional {?object ecrm:P102_has_title ?title }
+
+        {?prd ecrm:P126_employed <http://data.silknow.org/vocabulary/628> . }
+        UNION
+        {?prd ecrm:P126_employed <http://data.silknow.org/vocabulary/368> .}
+ 
+       
+}}

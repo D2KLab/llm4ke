@@ -1,0 +1,16 @@
+SELECT distinct ?title  ?collection ?object 
+WHERE { graph ?collection{
+
+     ?prod ecrm:P108_has_produced ?object .
+     ?object a ecrm:E22_Man-Made_Object .
+ 
+ optional {?object ecrm:P102_has_title ?title }
+
+?prod ecrm:P4_has_time-span ?t .
+?t ecrm:P86_falls_within <http://vocab.getty.edu/aat/300404510> .
+
+   
+
+     
+     
+}}

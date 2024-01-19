@@ -1,0 +1,25 @@
+prefix silk:   <http://data.silknow.org/ontology/>
+SELECT distinct  ?place ?title ?assignment ?description  ?collection  ?object
+WHERE { graph ?collection {          <http://data.silknow.org/vocabulary/facet/religious_attire> skos:member ?assignment . }
+
+{    ?prd ecrm:P108_has_produced ?object .
+      ?object a ecrm:E22_Man-Made_Object . }
+
+     ?prd ecrm:P108_has_produced ?object .
+ 
+     optional {?object ecrm:P102_has_title ?title }
+     optional {?object ecrm:P3_has_note ?description }
+
+    { ?prd ecrm:P8_took_place_on_or_within ?location FILTER(isIRI(?location))
+     ?location geonames:name ?place .
+     ?location geonames:countryCode "ES"  }
+    
+
+
+        ?type ecrm:P41_classified ?object .
+         ?type silk:L4 ?assignment .
+
+
+        
+
+}

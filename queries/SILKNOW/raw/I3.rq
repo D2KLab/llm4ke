@@ -1,0 +1,30 @@
+prefix silk:   <http://data.silknow.org/ontology/>
+SELECT distinct ?assignment ?title  ?description  ?collection  ?object
+WHERE { graph ?collection {
+
+{
+  
+      ?prod ecrm:P108_has_produced ?obj .
+      ?object a ecrm:E22_Man-Made_Object . }
+ 
+     optional {?object ecrm:P102_has_title ?title }
+     optional {?object ecrm:P3_has_note ?description }
+
+
+
+        ?prod ecrm:P126_employed <http://data.silknow.org/vocabulary/649> .
+        ?prod ecrm:P126_employed <http://data.silknow.org/vocabulary/441> .
+
+        
+
+        {
+        values ?assignment { <http://data.silknow.org/category/1> } 
+        ?type ecrm:P41_classified ?object .
+         ?type silk:L1 ?assignment}
+
+
+     
+        
+        
+
+}}

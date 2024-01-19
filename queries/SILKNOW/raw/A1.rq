@@ -1,0 +1,17 @@
+SELECT distinct  ?title ?collection ?object
+WHERE { graph ?collection {
+      ?s a ecrm:E12_Production .
+      ?s ecrm:P108_has_produced ?object.
+    
+ optional {?object ecrm:P102_has_title ?title }
+
+
+ { ?s ecrm:P8_took_place_on_or_within ?location FILTER(isIRI(?location))
+
+    ?location geonames:countryCode "ES"  }
+    
+
+
+
+}
+}

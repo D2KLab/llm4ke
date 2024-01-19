@@ -1,0 +1,27 @@
+prefix silk:   <http://data.silknow.org/ontology/>
+SELECT distinct  ?title ?assignment ?description  ?collection  ?object
+WHERE { graph ?collection {
+
+     ?dig a crmdig:D1_Digital_Object .
+      
+     ?dig  ecrm:P129_is_about ?prd .
+     ?prd ecrm:P108_has_produced ?object .
+ 
+     optional {?object ecrm:P102_has_title ?title }
+     optional {?object ecrm:P3_has_note ?description }
+
+        
+        
+
+
+
+        {?object ecrm:P102_has_title ?title .FILTER contains(str(?title), "scarf")}
+         UNION
+        {?type ecrm:P41_classified ?object .
+         ?type silk:L1 ?assignment .FILTER contains(str(?assignment), "scarf")}
+
+     
+        
+        
+
+}}

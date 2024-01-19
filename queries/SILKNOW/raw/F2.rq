@@ -1,0 +1,28 @@
+prefix crmdig: <http://www.ics.forth.gr/isl/CRMext/CRMdig.rdfs/>
+prefix crmsci: <http://www.ics.forth.gr/isl/CRMsci/>
+SELECT DISTINCT ?object ?actor ?label ?title ?collection
+WHERE {graph ?collection {
+      values ?label { "Philippe de la Salle" }
+
+    ?object a ecrm:E22_Man-Made_Object .
+         optional {?object ecrm:P102_has_title ?title }
+    ?production ecrm:P108_has_produced ?object .
+    ?production ecrm:P9_consists_of ?activity .
+    ?activity ecrm:P14_carried_out_by ?actor.
+    ?actor a ecrm:E39_Actor .
+    ?actor rdfs:label ?label .
+    
+    ?prododuction ecrm:P4_has_time-span ?ts .
+    ?ts skos:prefLabel ?time ;
+                time:hasEnd / time:inXSDDate ?end ;
+                time:hasBeginning / time:inXSDDate ?start .
+
+
+  FILTER ( ?start >= "1799"^^xsd:gYear AND ?end <= "1804"^^xsd:gYear )
+    
+    
+
+
+
+
+} }

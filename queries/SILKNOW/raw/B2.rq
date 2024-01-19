@@ -1,0 +1,27 @@
+SELECT distinct ?title  ?collection ?object ?visual_item
+WHERE { graph ?collection{
+
+     ?prod ecrm:P108_has_produced ?object .
+     ?object a ecrm:E22_Man-Made_Object .
+ 
+ optional {?object ecrm:P102_has_title ?title }
+
+?prod ecrm:P4_has_time-span ?t .
+?t ecrm:P86_falls_within <http://vocab.getty.edu/aat/300404510> .
+
+   
+         {?type ecrm:P41_classified ?object .
+         ?type silk:L1 ?assignment .
+         ?type_group skos:member ?assignment . FILTER contains(str(?type_group), "fabric")}
+
+{?object ecrm:P65_shows_visual_item ?vitem .
+?vitem  skos:prefLabel ?visual_item FILTER(lang(str(?visual_item)) = "en")}
+union
+{?object ecrm:P65_shows_visual_item ?vitem .
+?vitem  ecrm:P3_has_note ?visual_item} 
+     
+     
+}}
+
+
+ 

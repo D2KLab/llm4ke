@@ -1,0 +1,37 @@
+All Chasubles OR items made of Damasco or both from 17th century Italy
+
+SELECT distinct ?title ?time group_concat(distinct ?location;separator="|") as ?locations ?collection ?object
+WHERE { graph ?collection {
+
+     ?dig a crmdig:D1_Digital_Object . }
+      
+     ?dig  ecrm:P129_is_about ?prd .
+
+     ?prd ecrm:P108_has_produced ?object .
+ 
+
+{ ?prd ecrm:P8_took_place_on_or_within ?l
+     { SELECT ?l SAMPLE(?loc) as ?place
+          WHERE { ?l geonames:countryCode ?loc}
+       } . FILTER(isIRI(?l))
+           ?l geonames:countryCode "IT"  }
+
+ ?prd ecrm:P8_took_place_on_or_within ?x .
+  ?x ecrm:P1_is_identified_by ?location
+
+     optional   {?object ecrm:P3_has_note ?description .}
+
+     optional   {?object ecrm:P102_has_title ?title . }
+     
+    { ?prd ecrm:P4_has_time-span ?t . }
+     {?t ecrm:P78_is_identified_by ?time. }
+
+
+   FILTER (contains(str(?time), "1600") || contains(str(?time), "XVII"))
+
+
+
+     
+FILTER (contains(str(?description), "damas") || contains(str(?title), "chasuble"))
+}
+GROUP BY ?collection ?object ?time ?title

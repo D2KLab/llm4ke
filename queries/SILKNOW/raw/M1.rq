@@ -1,0 +1,30 @@
+prefix silk:   <http://data.silknow.org/ontology/>
+SELECT distinct  ?title ?assignment ?description  ?collection  ?object
+WHERE { graph ?collection {
+
+{
+
+     ?object a ecrm:E22_Man-Made_Object .
+     ?prod ecrm:P108_has_produced ?object . }
+ 
+     optional {?object ecrm:P102_has_title ?title }
+     optional {?object ecrm:P3_has_note ?description }
+
+
+     ?prod ecrm:P4_has_time-span ?t .
+     ?t ecrm:P86_falls_within <http://vocab.getty.edu/aat/300404513> .
+
+
+
+
+
+
+        {?object ecrm:P102_has_title ?title .FILTER contains(str(?title), "dress")}
+         UNION
+        {?type ecrm:P41_classified ?object .
+         ?type silk:L1 ?assignment .FILTER contains(str(?assignment), "dress")}
+
+        
+
+
+}}

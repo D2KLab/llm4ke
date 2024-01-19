@@ -1,0 +1,8 @@
+SELECT distinct ?object ?title
+WHERE {
+GRAPH <http://data.silknow.org/graph/mtmad>{
+ 
+         ?object a ecrm:E22_Man-Made_Object .
+  optional {?object ecrm:P102_has_title ?title }
+}
+}
