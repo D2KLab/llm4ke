@@ -24,7 +24,12 @@ See the *Repository Structure* for navigating into this repository:
 
 ```
 llm4ke
-├───dm-rdf <Reference data models & ...>
+├───data <Reference data models with their related components>
+│   └─[DataModelName]
+│     ├─dm <data model implementation>
+│     ├─rq <set of queries>
+│     └─...
+├───src <Processing pipeline code>
 └───...
 ```
 
