@@ -25,7 +25,7 @@ queries:
       source-group: D2K Lab Semantics group
       rq-folder: DOREMUS
     - name: SILKNOW
-      source: to-be-done, see https://github.com/silknow/converter/tree/master/competency_questions
+      source: https://github.com/silknow/converter/commit/48d2cbdf0f18df9d8473d2b4d285bc8f71acdcb2
       source-group: D2K Lab Semantics group
       rq-folder: SILKNOW
     - name: Odeuropa
