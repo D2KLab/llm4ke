@@ -1,0 +1,16 @@
+PREFIX od:    <http://data.odeuropa.eu/ontology/>
+PREFIX crm:   <http://erlangen-crm.org/current/>
+PREFIX time:  <http://www.w3.org/2006/time#>
+
+# Which kind of smell is more likely to trigger [childhood] memories?
+
+SELECT ?source, COUNT(DISTINCT ?experience)
+WHERE {
+  ?emission od:F3_had_source / crm:P137_exemplifies ?source;
+            od:F1_generated ?smell .
+
+  ?experience od:F2_perceived ?smell;
+                      od:F6_evoked "childhood"@en .
+}
+GROUP BY ?source
+ORDER BY DESC(COUNT(DISTINCT ?experience))

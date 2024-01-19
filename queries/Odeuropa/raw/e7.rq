@@ -1,0 +1,36 @@
+PREFIX od:    <http://data.odeuropa.eu/ontology/>
+PREFIX crm:   <http://erlangen-crm.org/current/>
+PREFIX time:  <http://www.w3.org/2006/time#>
+PREFIX reo:   <https://read-it.acc.hum.uu.nl/ontology#>
+
+# Which practice changed the smells it produced over time?
+
+SELECT ?practice ?adjective ?time ?adjective2 ?time2
+WHERE {
+  ?assignment a crm:E13_Attribute_Assignment;
+          crm:P141_assigned ?adjective;
+          crm:P140_assigned_attribute_to ?smell .
+
+  ?emission od:F3_had_source / crm:P137_exemplifies ?source ;
+                    od:F1_generated ?smell ;
+                    crm:P10_falls_within / crm:P2_has_type ?practice .
+
+  ?experience od:F2_perceived ?smell ;
+              time:hasTime / time:inXSDDate ?time .
+
+
+  ?experience2 od:F2_perceived ?smell2 ;
+              time:hasTime / time:inXSDDate ?time2 .
+
+  ?emission2 od:F3_had_source / crm:P137_exemplifies ?source ;
+                    od:F1_generated ?smell2 ;
+                    crm:P10_falls_within / crm:P2_has_type ?practice.
+
+  ?assignment2 a crm:E13_Attribute_Assignment;
+          crm:P141_assigned ?adjective2;
+          crm:P140_assigned_attribute_to ?smell2 .
+
+
+  BIND( year(?time2)-year(?time) as ?dist)
+  FILTER ( ?dist >= 100 ) #distance of at least 1 century
+}

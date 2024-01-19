@@ -1,0 +1,21 @@
+PREFIX od:    <http://data.odeuropa.eu/ontology/>
+PREFIX crm:   <http://erlangen-crm.org/current/>
+PREFIX time:  <http://www.w3.org/2006/time#>
+PREFIX reo:   <https://read-it.acc.hum.uu.nl/ontology#>
+
+# Which portrayal of a smell [pomander, tobacco] changed [disappeared/faded/developed] over time?
+
+SELECT DISTINCT ?source ?century COUNT(DISTINCT ?work)
+WHERE {
+  ?work a crm:crm:E36_Visual_Item ;
+      schema:dateCreated / time:hasBeginning ?time ;
+      crm:P138_represents ?source .
+
+  ?emission od:F1_generated ?smell ;
+      od:F3_had_source | od:F4_had_carrier ?source .
+
+  BIND(SUBSTR(?time, 0, 2) AS ?century)
+
+}
+GROUP BY ?source ?century
+ORDER BY DESC(COUNT(DISTINCT ?work))

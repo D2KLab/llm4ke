@@ -1,0 +1,14 @@
+PREFIX od:    <http://data.odeuropa.eu/ontology/>
+PREFIX crm:   <http://erlangen-crm.org/current/>
+PREFIX time:  <http://www.w3.org/2006/time#>
+PREFIX reo:   <https://read-it.acc.hum.uu.nl/ontology#>
+
+# Which practice can reduce a smell intensity?
+
+SELECT ?technique
+WHERE {
+
+  ?transformation a od:L14_Smell_Transformation ;
+        crm:P33_used_specific_technique ?technique ;
+        crm:P2_has_type "decrease" .
+}

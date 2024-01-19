@@ -29,7 +29,7 @@ queries:
       source-group: D2K Lab Semantics group
       rq-folder: SILKNOW
     - name: Odeuropa
-      source: 
+      source: https://github.com/Odeuropa/ontology/commit/c80014121689993c67af9ca92b58aef85eaf1802
       source-group: D2K Lab Semantics group
       rq-folder: Odeuropa
     - name: NORIA-O

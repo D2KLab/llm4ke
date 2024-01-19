@@ -1,0 +1,12 @@
+PREFIX od:    <http://data.odeuropa.eu/ontology/>
+PREFIX crm:   <http://erlangen-crm.org/current/>
+PREFIX time:  <http://www.w3.org/2006/time#>
+PREFIX reo:   <https://read-it.acc.hum.uu.nl/ontology#>
+
+# Which smells are associated with [specific place e.g. the Amsterdam stock exchange]?
+SELECT ?source
+WHERE {
+   ?emission a od:L12_Smell_Emission ;
+             od:F3_had_source ?source ;
+             crm:P8_took_place_at "Amsterdam stock exchange" .
+}

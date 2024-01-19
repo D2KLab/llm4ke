@@ -1,0 +1,28 @@
+PREFIX od:    <http://data.odeuropa.eu/ontology/>
+PREFIX crm:   <http://erlangen-crm.org/current/>
+PREFIX time:  <http://www.w3.org/2006/time#>
+PREFIX reo:   <https://read-it.acc.hum.uu.nl/ontology#>
+PREFIX wd:    <http://www.wikidata.org/entity/>
+PREFIX wdt:   <http://www.wikidata.org/prop/direct/>
+
+# Which kind of event produced an increment of smell experiences?
+# In other words: in which (historical) event the smell experiences were more than normal
+
+SELECT ?event COUNT(DISTINCT ?experience) as ?ct
+WHERE {
+  ?emission a od:L12_Smell_Emission ;
+    crm:P10_falls_within ?event .
+  ?experience od:F2_perceived ?smell.
+
+  SELECT AVG(?ct) as ?avct {
+    SELECT ?event COUNT(DISTINCT ?experience) as ?ct
+    WHERE {
+      ?emission a od:L12_Smell_Emission ;
+        crm:P10_falls_within ?event .
+      ?experience od:F2_perceived ?smell.
+    } GROUP BY ?event
+  }
+}
+GROUP BY ?event
+HAVING (COUNT(DISTINCT ?experience) > ?avct)
+LIMIT 40

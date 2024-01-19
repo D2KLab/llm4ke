@@ -1,0 +1,23 @@
+PREFIX od:    <http://data.odeuropa.eu/ontology/>
+PREFIX crm:   <http://erlangen-crm.org/current/>
+PREFIX time:  <http://www.w3.org/2006/time#>
+PREFIX reo:   <https://read-it.acc.hum.uu.nl/ontology#>
+PREFIX foaf:  <http://xmlns.com/foaf/0.1/>
+
+# Which adjectives are used to describe figurative smells?
+
+SELECT DISTINCT ?adjective
+WHERE {
+  [] crm:E13_Attribute_Assignment;
+          crm:P141_assigned ?adjective ;
+          crm:P140_assigned_attribute_to ?smell .
+
+  ?emission a od:L12_Smell_Emission ;
+            od:F3_had_source / crm:P137_exemplifies ?source ;
+            od:F1_generated ?smell .
+
+  ?text a crm:E33_Linguistic_Object ;
+      crm:P67_refers_to ?smell .
+
+  ?source skos:inSchema <http://example.org/emotions> #to replace with a proper vocabulary
+}

@@ -1,0 +1,23 @@
+PREFIX od:    <http://data.odeuropa.eu/ontology/>
+PREFIX crm:   <http://erlangen-crm.org/current/>
+PREFIX time:  <http://www.w3.org/2006/time#>
+PREFIX reo:   <https://read-it.acc.hum.uu.nl/ontology#>
+
+# In which kind of places was possible to perceive both [floreal smells] a [woody smell]?
+
+SELECT DISTINCT ?placeType
+WHERE {
+  [] crm:E13_Attribute_Assignment;
+          crm:P141_assigned <http://data.odeuropa.eu/vocabulary/drom/floral> ;
+          crm:P140_assigned_attribute_to ?smell .
+
+  ?experience od:F2_perceived ?smell;
+             crm:P8_took_place_at / crm:_P137_exemplifies ?placeType .
+
+ [] crm:E13_Attribute_Assignment;
+         crm:P141_assigned <http://data.odeuropa.eu/vocabulary/drom/woody> ;
+         crm:P140_assigned_attribute_to ?smell2 .
+
+ ?experience2 od:F2_perceived ?smell2;
+            crm:P8_took_place_at / crm:_P137_exemplifies ?placeType .
+}

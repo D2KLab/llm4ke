@@ -1,0 +1,26 @@
+PREFIX od:    <http://data.odeuropa.eu/ontology/>
+PREFIX crm:   <http://erlangen-crm.org/current/>
+PREFIX time:  <http://www.w3.org/2006/time#>
+
+# What are the most frequent smell sources in London in the 18th century?
+
+SELECT ?source (COUNT(DISTINCT ?experience) as ?count)
+WHERE {
+  ?emission od:F3_had_source / crm:P137_exemplifies ?source ;
+            od:F1_generated ?smell .
+
+  ?experience od:F2_perceived ?smell;
+            time:hasTime / time:inXSDDate ?time.
+
+  FILTER ( ?time >= "1701"^^xsd:gYear && ?time <= "1800"^^xsd:gYear )
+
+  {
+    ?emission crm:P8_took_place_at ?place .
+  } UNION {
+    ?emission crm:P8_took_place_at / crm:P89_falls_within* ?place .
+  }
+
+  ?place rdfs:label "London".
+}
+GROUP BY ?source
+ORDER BY DESC(COUNT(DISTINCT ?emission))

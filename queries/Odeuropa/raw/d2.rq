@@ -1,0 +1,21 @@
+PREFIX od:    <http://data.odeuropa.eu/ontology/>
+PREFIX crm:   <http://erlangen-crm.org/current/>
+PREFIX time:  <http://www.w3.org/2006/time#>
+PREFIX reo:  <https://read-it.acc.hum.uu.nl/ontology#>
+
+# What was the dominant/average hedonic tone of smell descriptions in [period] and/or [place]?
+SELECT ?adjective COUNT(DISTINCT ?experience)
+WHERE {
+  ?assignment a crm:E13_Attribute_Assignment;
+          crm:P2_has_type "hedonic";
+          crm:P141_assigned ?adjective;
+          crm:P140_assigned_attribute_to ?smell .
+
+
+  ?experience od:F2_perceived ?smell ;
+              time:hasTime / time:inXSDDate ?time;
+              crm:P8_took_place_at ?place .
+
+  FILTER ( ?time >= "1701"^^xsd:gYear AND ?time <= "1800"^^xsd:gYear )
+  VALUES ?place {"France"}
+}

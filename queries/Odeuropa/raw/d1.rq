@@ -1,0 +1,27 @@
+PREFIX od:    <http://data.odeuropa.eu/ontology/>
+PREFIX crm:   <http://erlangen-crm.org/current/>
+PREFIX time:  <http://www.w3.org/2006/time#>
+PREFIX reo:  <https://read-it.acc.hum.uu.nl/ontology#>
+
+# What feelings were associated with [a particular smell] in [parts of Europe] at [a given time]?
+
+SELECT ?feeling
+WHERE {
+  ?emission od:F3_had_source / crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/olfactory-objects/138> ; #rose
+            od:F1_generated ?smell .
+
+  ?experience od:F2_perceived ?smell ;
+              time:hasTime / time:inXSDDate ?time .
+
+  ?feeling reo:readP27_is_triggered_by ?experience
+
+  {
+    ?emission crm:P8_took_place_at ?place .
+  } UNION {
+    ?emission crm:P8_took_place_at / crm:P89_falls_within* ?place .
+  }
+
+  FILTER ( ?time >= "1701"^^xsd:gYear AND ?time <= "1800"^^xsd:gYear )
+  VALUES ?place {"France"}
+
+}

@@ -1,0 +1,16 @@
+PREFIX od:    <http://data.odeuropa.eu/ontology/>
+PREFIX crm:   <http://erlangen-crm.org/current/>
+PREFIX time:  <http://www.w3.org/2006/time#>
+
+# Which smells are associated with hygiene? [perfume, filth]
+
+SELECT ?source
+WHERE {
+  ?emission od:F3_had_source / crm:P137_exemplifies ?source ;
+            od:F1_generated ?smell .
+            crm:P10_falls_within / crm:P2_has_type ?practice .
+
+  ?practice crm:P2_has_type ?type
+
+  VALUES ?type {"hygiene"}
+}

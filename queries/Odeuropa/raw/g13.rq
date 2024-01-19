@@ -1,0 +1,17 @@
+PREFIX od:    <http://data.odeuropa.eu/ontology/>
+PREFIX crm:   <http://erlangen-crm.org/current/>
+PREFIX time:  <http://www.w3.org/2006/time#>
+PREFIX reo:   <https://read-it.acc.hum.uu.nl/ontology#>
+
+# Which paintings show [pleasant, unpleasant] smells?
+
+SELECT DISTINCT ?work ?title
+WHERE {
+  [] crm:E13_Attribute_Assignment;
+          crm:P141_assigned "pleasant" ;
+          crm:P140_assigned_attribute_to ?smell .
+
+  ?work a crm:E36_Visual_Item ;
+      schema:name ?title;
+      crm:P67_refers_to ?smell .
+}

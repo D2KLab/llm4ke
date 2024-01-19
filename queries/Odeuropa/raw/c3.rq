@@ -1,0 +1,17 @@
+PREFIX od:    <http://data.odeuropa.eu/ontology/>
+PREFIX crm:   <http://erlangen-crm.org/current/>
+PREFIX time:  <http://www.w3.org/2006/time#>
+PREFIX reo:  <https://read-it.acc.hum.uu.nl/ontology#>
+
+# What are [smells, e.g. floral scents] mostly associated with?
+
+SELECT ?association
+WHERE {
+  ?assignment a crm:E13_Attribute_Assignment;
+          crm:P2_has_type "charachter";
+          crm:P141_assigned "floral";
+          crm:P140_assigned_attribute_to ?smell .
+
+  ?experience od:F2_perceived ?smell;
+              od:evoked ?association .
+}

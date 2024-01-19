@@ -1,0 +1,18 @@
+PREFIX od:    <http://data.odeuropa.eu/ontology/>
+PREFIX crm:   <http://erlangen-crm.org/current/>
+PREFIX time:  <http://www.w3.org/2006/time#>
+PREFIX reo:  <https://read-it.acc.hum.uu.nl/ontology#>
+
+# What are the smelling gestures that are more connected with [smell type, e.g. putrid]?
+
+SELECT ?adjective DESC(COUNT(DISTINCT ?experience))
+WHERE {
+  ?assignment a crm:E13_Attribute_Assignment;
+          crm:P141_assigned "putrid"@en;
+          crm:P17_was_motivated_by ?experience.
+
+  ?experience a od:L13_Olfactory_Experience;
+          od:F5_involved_gesture ?gesture .
+}
+GROUP BY ?adjective
+ORDER BY DESC(COUNT(DISTINCT ?experience))

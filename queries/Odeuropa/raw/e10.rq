@@ -1,0 +1,17 @@
+PREFIX od:    <http://data.odeuropa.eu/ontology/>
+PREFIX crm:   <http://erlangen-crm.org/current/>
+PREFIX time:  <http://www.w3.org/2006/time#>
+PREFIX reo:   <https://read-it.acc.hum.uu.nl/ontology#>
+
+# What was a protective [health] scent in X period?
+
+SELECT ?source ?type
+WHERE {
+  ?emission od:F3_had_source / crm:P137_exemplifies ?source ;
+            od:F1_generated ?smell .
+
+  ?odorizing od:F9_involved_smell ?smell;
+        crm:P21_had_general_purpose ?type .
+
+  VALUES ?type {"medicine" "profilaction"}
+}

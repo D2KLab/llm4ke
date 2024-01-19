@@ -1,0 +1,24 @@
+PREFIX od:    <http://data.odeuropa.eu/ontology/>
+PREFIX crm:   <http://erlangen-crm.org/current/>
+PREFIX time:  <http://www.w3.org/2006/time#>
+PREFIX reo:  <https://read-it.acc.hum.uu.nl/ontology#>
+
+# What are the odours most associated with [an ethnic group such Ashkenazi Jews]?
+
+SELECT ?source COUNT(DISTINCT ?experience)
+WHERE {
+  ?emission od:F3_had_source / crm:P137_exemplifies ?source ;
+            od:F1_generated ?smell .
+
+  {
+    ?production crm:P108_has_produced ?source ;
+            crm:P14_carried_out_by ?actor .
+  } UNION {
+    ?source crm:P51_has_former_or_current_owner ?actor
+  }
+
+  ?actor reo:readP25_is_member_of "Ashkenazi Jews".
+
+}
+GROUP BY ?source
+ORDER BY DESC(COUNT(DISTINCT ?emission))

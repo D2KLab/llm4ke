@@ -1,0 +1,33 @@
+PREFIX od:    <http://data.odeuropa.eu/ontology/>
+PREFIX crm:   <http://erlangen-crm.org/current/>
+PREFIX time:  <http://www.w3.org/2006/time#>
+PREFIX reo:   <https://read-it.acc.hum.uu.nl/ontology#>
+
+# Where were the practices that produced/reduced smell located [city/countryside/underground]?
+
+SELECT ?technique ?place ?type
+WHERE {
+ {
+   ?event a od:L14_Smell_Transformation ;
+        crm:P2_has_type "decrease" .
+
+        crm:P33_used_specific_technique ?technique .
+ } UNION {
+   ?event a od:L12_Smell_Emission ;
+             od:F3_had_source ?source ;
+             od:F1_generated ?smell .
+
+   ?action crm:P108_has_produced ?source .
+     crm:P33_used_specific_technique ?technique .
+ }
+
+ ?event crm:P8_took_place_at ?place .
+
+
+ { ?place crm:_P137_exemplifies ?type
+ } UNION {
+   ?place crm:P89_falls_within / crm:_P137_exemplifies ?type
+ } UNION {
+   ?place crm:_P137_exemplifies / skos:broader ?type
+ }
+}

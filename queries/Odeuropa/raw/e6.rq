@@ -1,0 +1,17 @@
+PREFIX od:    <http://data.odeuropa.eu/ontology/>
+PREFIX crm:   <http://erlangen-crm.org/current/>
+PREFIX time:  <http://www.w3.org/2006/time#>
+PREFIX reo:   <https://read-it.acc.hum.uu.nl/ontology#>
+
+# What smells produced what kinds of practices?
+
+SELECT ?source ?practice
+WHERE {
+
+  ?transformation a od:L14_Smell_Transformation ;
+        crm:P33_used_specific_technique ?practice
+        crm:P124_transformed ?smell .
+
+  ?emission od:F3_had_source ?source ;
+            od:F1_generated ?smell .
+}

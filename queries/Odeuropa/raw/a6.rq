@@ -1,0 +1,37 @@
+PREFIX od:    <http://data.odeuropa.eu/ontology/>
+PREFIX crm:   <http://erlangen-crm.org/current/>
+PREFIX time:  <http://www.w3.org/2006/time#>
+PREFIX wd:    <http://www.wikidata.org/entity/>
+PREFIX wdt:   <http://www.wikidata.org/prop/direct/>
+
+# What are the new odours that appeared during [historical process e.g industrial revolution]?
+
+SELECT ?source MIN(?time)
+WHERE {
+  # Data from industrial revolution in WikiData (federated query?)
+  wd:Q2269 wdt:P580 ?start;
+    wdt:P582 ?end.
+
+  # I retrieve all new odours in the chosen period
+  ?emission od:F3_had_source / crm:P137_exemplifies ?source;
+            od:F1_generated ?smell .
+
+  ?experience od:F2_perceived ?smell;
+            time:hasTime / time:inXSDDate ?time.
+
+  FILTER ( ?time >= ?start^^xsd:gYear AND ?time <= ?end^^xsd:gYear )
+
+
+  # These odours should not be in the following query
+  FILTER NOT EXISTS {
+    # I retrieve all odours before the chosen period
+    ?emission2 od:F3_had_source / crm:P137_exemplifies ?source;
+              od:F1_generated ?smell2 .
+
+    ?experience2 od:F2_perceived ?smell2;
+              time:hasTime / time:inXSDDate ?time2.
+
+    FILTER ( ?time2 < ?start^^xsd:gYear )
+  }
+}
+GROUP BY ?odour

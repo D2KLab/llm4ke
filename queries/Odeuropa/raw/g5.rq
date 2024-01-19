@@ -1,0 +1,30 @@
+PREFIX od:    <http://data.odeuropa.eu/ontology/>
+PREFIX crm:   <http://erlangen-crm.org/current/>
+PREFIX time:  <http://www.w3.org/2006/time#>
+PREFIX reo:   <https://read-it.acc.hum.uu.nl/ontology#>
+PREFIX ma:    <http://www.w3.org/ns/ma-ont#>
+PREFIX oa:    <https://www.w3.org/ns/oa#>
+
+# In which part of an image [foreground, middleground, background] are smells portrayed?
+
+SELECT DISTINCT ?foreground COUNT(DISTINCT ?work)
+WHERE {
+  ?emission a od:L12_Smell_Emission ;
+            od:F1_generated ?smell ;
+            od:F3_had_source ?source .
+
+  ?work a crm:E36_Visual_Item ;
+      ma:frameWidth ?mw;  ma:frameHeight ?mh ;
+      crm:P67_refers_to ?smell ;
+      ma:hasFragment ?frag .
+
+  ?frag ma:frameWidth ?w;  ma:frameHeight ?h .
+  ?annotation oa:hasTarget ?frag ;
+              oa:hasBody ?source .
+
+  BIND (?mw*?mh AS ?mdim)
+  BIND (?w*?h AS ?dim)
+  BIND ((?dim / ?mdim)  > 0.5 ) as ?foreground # foreground = taking more than half picture
+}
+GROUP BY ?foreground
+ORDER BY DESC(COUNT(DISTINCT ?work))

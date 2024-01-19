@@ -1,0 +1,29 @@
+PREFIX od:    <http://data.odeuropa.eu/ontology/>
+PREFIX crm:   <http://erlangen-crm.org/current/>
+PREFIX time:  <http://www.w3.org/2006/time#>
+PREFIX reo:  <https://read-it.acc.hum.uu.nl/ontology#>
+
+# Which smells are normally accompanied with [other senses perceptions, e.g. taste]?
+
+SELECT ?source COUNT(DISTINCT ?experience)
+WHERE {
+  ?experience a od:L13_Olfactory_Experience ;
+          od:F2_perceived ?smell;
+
+  ?emission od:F3_had_source / crm:P137_exemplifies ?source;
+          od:F1_generated ?smell .
+
+
+
+  ?experience2 a od:L3_Sensory_Experience ;
+    crm:P2_has_type ?type
+
+  { ?experience crm:P132_overlaps_with ?experience2 }
+  UNION {  ?experience2 crm:P132_overlaps_with ?experience  }
+
+ VALUES ?type { "taste" }
+}
+GROUP BY ?source
+ORDER BY COUNT(DISTINCT ?experience)
+
+# Note: we are not collecting this information in the KG yet

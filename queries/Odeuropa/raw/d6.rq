@@ -1,0 +1,22 @@
+PREFIX od:    <http://data.odeuropa.eu/ontology/>
+PREFIX crm:   <http://erlangen-crm.org/current/>
+PREFIX time:  <http://www.w3.org/2006/time#>
+PREFIX reo:  <https://read-it.acc.hum.uu.nl/ontology#>
+
+# Which smells remember of past people or past places (commemoration)?
+
+SELECT ?source ?memory
+WHERE {
+  ?emission od:F3_had_source / crm:P137_exemplifies ?source ;
+            od:F1_generated ?smell .
+
+  ?experience od:F2_perceived ?smell ;
+              od:evoked ?memory .
+
+  ?experience crm:P117_occurs_during ?condition .
+  ?condition a crm:E3_Condition_State;
+        crm:P2_has_type ?state .
+  ?memory crm:P44_has_condition ?condition.
+
+  VALUES ?state {"death", "lost"}
+}

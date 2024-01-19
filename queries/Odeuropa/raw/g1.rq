@@ -1,0 +1,25 @@
+PREFIX od:    <http://data.odeuropa.eu/ontology/>
+PREFIX crm:   <http://erlangen-crm.org/current/>
+PREFIX time:  <http://www.w3.org/2006/time#>
+PREFIX reo:   <https://read-it.acc.hum.uu.nl/ontology#>
+PREFIX schema:   <http://schema.org/>
+
+# What are the adjectives used for [smell, e.g. lemon aroma] in the 15th century?
+
+SELECT DISTINCT ?adjective
+WHERE {
+
+  ?emission a od:L12_Smell_Emission ;
+            od:F3_had_source / crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/olfactory-objects/335> ; #lemon
+            od:F1_generated ?smell .
+
+  [] a crm:E13_Attribute_Assignment;
+          crm:P141_assigned ?adjective ;
+          crm:P140_assigned_attribute_to ?smell .
+
+  ?text a crm:E33_Linguistic_Object ;
+      schema:dateCreated / time:hasBeginning  ?time ;
+      crm:P67_refers_to ?smell .
+
+  FILTER ( ?time >= "1401"^^xsd:gYear && ?time <= "1500"^^xsd:gYear )
+}

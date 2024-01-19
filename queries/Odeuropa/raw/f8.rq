@@ -1,0 +1,19 @@
+PREFIX od:    <http://data.odeuropa.eu/ontology/>
+PREFIX crm:   <http://erlangen-crm.org/current/>
+PREFIX time:  <http://www.w3.org/2006/time#>
+PREFIX reo:   <https://read-it.acc.hum.uu.nl/ontology#>
+PREFIX wd:    <http://www.wikidata.org/entity/>
+PREFIX wdt:   <http://www.wikidata.org/prop/direct/>
+
+# Which smell was possible to perceive during a [general event, e.g. a war]?
+
+SELECT DISTINCT ?source
+WHERE {
+  # Data from wars in WikiData (federated query?)
+  { ?war wdt:P31 wd:Q198. }
+  UNION { ?war wdt:P31/wdt:P279 wd:Q198. }
+
+  ?emission a od:L12_Smell_Emission ;
+            od:F3_had_source / crm:P137_exemplifies ?source ;
+            crm:P10_falls_within ?war .
+}

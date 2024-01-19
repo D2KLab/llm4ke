@@ -1,0 +1,15 @@
+PREFIX od:    <http://data.odeuropa.eu/ontology/>
+PREFIX crm:   <http://erlangen-crm.org/current/>
+PREFIX time:  <http://www.w3.org/2006/time#>
+PREFIX reo:   <https://read-it.acc.hum.uu.nl/ontology#>
+
+# In which kind of places was possible to perceive [smell source, e.g. incense]?
+
+SELECT DISTINCT ?placeType
+WHERE {
+   ?emission a od:L12_Smell_Emission ;
+             od:F3_had_source ?source ;
+             crm:P8_took_place_at / crm:_P137_exemplifies ?placeType .
+
+   VALUES ?source { <http://data.odeuropa.eu/vocabulary/olfactory-objects/269> } #incense
+}

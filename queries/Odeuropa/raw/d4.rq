@@ -1,0 +1,17 @@
+PREFIX od:    <http://data.odeuropa.eu/ontology/>
+PREFIX crm:   <http://erlangen-crm.org/current/>
+PREFIX time:  <http://www.w3.org/2006/time#>
+PREFIX reo:  <https://read-it.acc.hum.uu.nl/ontology#>
+
+# What sorts of scents were produced to create a certain emotion [pleasure]?
+SELECT ?profession ?source COUNT(DISTINCT ?experience)
+WHERE {
+  ?production crm:P108_has_produced ?source.
+  
+  ?emission od:F3_had_source / crm:P137_exemplifies ?source ;
+            od:F1_generated ?smell .
+
+  ?experience od:F2_perceived ?smell .
+
+  ?feeling reo:readP27_is_triggered_by ?experience
+}

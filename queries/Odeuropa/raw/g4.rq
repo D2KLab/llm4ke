@@ -1,0 +1,24 @@
+PREFIX od:    <http://data.odeuropa.eu/ontology/>
+PREFIX crm:   <http://erlangen-crm.org/current/>
+PREFIX time:  <http://www.w3.org/2006/time#>
+PREFIX reo:   <https://read-it.acc.hum.uu.nl/ontology#>
+
+# Which part of the place [town, countryside, maket] is portrayed with the most smell?
+
+SELECT DISTINCT ?work COUNT(DISTINCT ?emission)
+WHERE {
+  ?emission a od:L12_Smell_Emission ;
+            od:F1_generated ?smell ;
+            crm:P8_took_place_at ?place .
+
+  ?place crm:_P137_exemplifies ?placeType .
+
+  ?place crm:P10_falls_within ?place2.
+
+  ?place2 crm:_P137_exemplifies [] . #ensure that place2 is not a country
+
+  ?work a crm:E36_Visual_Item ;
+      crm:P67_refers_to ?smell .
+}
+GROUP BY ?work
+ORDER BY DESC(COUNT(DISTINCT ?emission))

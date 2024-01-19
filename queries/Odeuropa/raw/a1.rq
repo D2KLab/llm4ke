@@ -1,0 +1,17 @@
+PREFIX od: <http://data.odeuropa.eu/ontology/>
+PREFIX crm: <http://erlangen-crm.org/current/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+
+# What smell sources have the highest number of documentation in the past?
+
+SELECT ?source ?label (COUNT(DISTINCT ?experience) as ?count)
+WHERE {
+  ?emission od:F3_had_source / crm:P137_exemplifies ?source;
+            od:F1_generated ?smell .
+
+  ?experience od:F2_perceived ?smell.
+  ?source skos:prefLabel ?label
+  FILTER (lang(?label) = 'en')
+}
+GROUP BY ?source ?label
+ORDER BY DESC(COUNT(DISTINCT ?experience))

@@ -1,0 +1,5 @@
+PREFIX od:    <http://data.odeuropa.eu/ontology/>
+PREFIX crm:   <http://erlangen-crm.org/current/>
+PREFIX time:  <http://www.w3.org/2006/time#>
+
+# Which smells were perceived during [recurrent part of day, e.g.  morning]?

@@ -1,0 +1,22 @@
+PREFIX od:    <http://data.odeuropa.eu/ontology/>
+PREFIX crm:   <http://erlangen-crm.org/current/>
+PREFIX time:  <http://www.w3.org/2006/time#>
+PREFIX reo:   <https://read-it.acc.hum.uu.nl/ontology#>
+
+# Which kind of reactions to smells are possible to find in [Dutch] paintings of [18th century]?
+
+SELECT DISTINCT ?gesture
+WHERE {
+  ?experience a od:L13_Olfactory_Experience;
+          od:F2_perceived ?smell ;
+          od:F5_involved_gesture ?gesture .
+
+  ?work a crm:crm:E36_Visual_Item ;
+      schema:author ?author ,
+      schema:dateCreated / time:hasBeginning ?time ;
+      crm:P67_refers_to ?smell .
+
+  ?author foaf:nationality "Netherlands"
+
+  FILTER ( ?time >= "1701"^^xsd:gYear AND ?time <= "1800"^^xsd:gYear )
+}

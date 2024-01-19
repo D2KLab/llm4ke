@@ -1,0 +1,24 @@
+PREFIX od:    <http://data.odeuropa.eu/ontology/>
+PREFIX crm:   <http://erlangen-crm.org/current/>
+PREFIX time:  <http://www.w3.org/2006/time#>
+
+# Which smells were perceived during [recurrent part of year, e.g. spring]?
+
+SELECT ?odour COUNT(distinct ?experience)
+WHERE {
+  # we rely on the EDTF format https://www.loc.gov/standards/datetime/
+
+  ?emission od:F3_had_source / crm:P137_exemplifies ?source;
+            od:F1_generated ?smell .
+
+  ?experience od:F2_perceived ?smell;
+            time:hasTime ?timeEnt.
+
+  ?timeEnt rdfs:label ?edtf;
+            time:inXSDDate ?time.
+
+  FILTER ( regex(str(?edtf), ".{4}-21.*", "i") # 21 = spring
+                 || (month(?time) >= 4 AND month(?time) <= 6) )
+}
+GROUP BY ?odour
+ORDER BY DESC(COUNT(distinct ?experience))

@@ -1,0 +1,23 @@
+PREFIX od:    <http://data.odeuropa.eu/ontology/>
+PREFIX crm:   <http://erlangen-crm.org/current/>
+PREFIX time:  <http://www.w3.org/2006/time#>
+PREFIX reo:   <https://read-it.acc.hum.uu.nl/ontology#>
+
+# Which smells are associated with [general place e.g. schools, churches, docks, ships]?
+
+SELECT ?source
+WHERE {
+   ?emission a od:L12_Smell_Emission ;
+             od:F3_had_source ?source ;
+             crm:P8_took_place_at ?place .
+
+ {
+   ?place crm:_P137_exemplifies ?type
+ } UNION {
+   ?place crm:P89_falls_within / crm:_P137_exemplifies ?type
+ } UNION {
+   ?place crm:_P137_exemplifies / skos:broader ?type
+ }
+
+   ?place crm:_P137_exemplifies <http://data.odeuropa.eu/vocabulary/fragrant-spaces/35> # church
+}

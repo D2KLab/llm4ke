@@ -1,0 +1,25 @@
+PREFIX od:    <http://data.odeuropa.eu/ontology/>
+PREFIX crm:   <http://erlangen-crm.org/current/>
+PREFIX time:  <http://www.w3.org/2006/time#>
+PREFIX reo:  <https://read-it.acc.hum.uu.nl/ontology#>
+
+# What odours [disgusted OR pleased] [social marker e.g gender, race, nationality, age] Europeans?
+SELECT ?profession ?source COUNT(DISTINCT ?experience)
+WHERE {
+  ?assignment a crm:E13_Attribute_Assignment;
+          crm:P2_has_type "hedonic";
+          crm:P141_assigned "disgusting";
+          crm:P140_assigned_attribute_to ?smell .
+
+  ?emission od:F3_had_source / crm:P137_exemplifies ?source ;
+            od:F1_generated ?smell .
+
+  ?experience od:F2_perceived ?smell ;
+      crm:P14_carried_out_by ?actor.
+
+  ?actor reo:readP1_has_occupation ?profession .
+  # ?actor reo:readP25_is_member_of ?ethnicGroup .
+  # ?actor foaf:age ?age .
+  # ?actor foaf:gender ?gender .
+
+} GROUP BY ?profession ?source

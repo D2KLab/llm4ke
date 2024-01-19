@@ -1,0 +1,31 @@
+PREFIX od:    <http://data.odeuropa.eu/ontology/>
+PREFIX crm:   <http://erlangen-crm.org/current/>
+PREFIX time:  <http://www.w3.org/2006/time#>
+
+# Which smells with more than [threshold, e.g 100] occurrences in [time, 18th century] did disappear afterwards?
+
+SELECT ?source, COUNT(DISTINCT ?experience)
+WHERE {
+  ?emission od:F3_had_source / crm:P137_exemplifies ?source;
+            od:F1_generated ?smell .
+
+  ?experience od:F2_perceived ?smell;
+            time:hasTime / time:inXSDDate ?time.
+
+  FILTER ( ?time >= "1701"^^xsd:gYear AND ?time <= "1800"^^xsd:gYear )
+
+  # These odours should not be in the following query
+  FILTER NOT EXISTS {
+    # I retrieve all odours before the chosen period
+    ?emission2 od:F3_had_source / crm:P137_exemplifies ?source;
+              od:F1_generated ?smell2 .
+
+    ?experience2 od:F2_perceived ?smell2;
+              time:hasTime / time:inXSDDate ?time2.
+
+    FILTER ( ?time2 > "1800"^^xsd:gYear )
+  }
+
+}
+GROUP BY ?source
+HAVING (COUNT(DISTINCT ?experience > 100))

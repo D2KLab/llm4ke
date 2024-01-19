@@ -1,0 +1,19 @@
+PREFIX od:    <http://data.odeuropa.eu/ontology/>
+PREFIX crm:   <http://erlangen-crm.org/current/>
+PREFIX time:  <http://www.w3.org/2006/time#>
+
+# Was [smell 1, e.g. muck] perceived as more [adjective, e.g. disgusting] than [smell 2, e.g. smog]?
+
+# Note: This query is used to extract the correct adjectives, which needs to be
+# then compared, e.g. using embedding strategies
+
+SELECT ?adjective
+WHERE {
+  ?emission od:F3_had_source / crm:P137_exemplifies ?source;
+            od:F1_generated ?smell .
+
+  ?assignment a crm:E13_Attribute_Assignment;
+          crm:P2_has_type "hedonic";
+          crm:P141_assigned ?adjective;
+          crm:P140_assigned_attribute_to ?smell .
+}
