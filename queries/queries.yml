@@ -33,7 +33,7 @@ queries:
       source-group: D2K Lab Semantics group
       rq-folder: Odeuropa
     - name: NORIA-O
-      source: 
+      source: https://github.com/Orange-OpenSource/noria-ontology/commit/40706bafcb9da86a3de2554d90986c2c90c2341c
       source-group: D2K Lab Semantics group
       rq-folder: NORIA-O
     - name: Polifonia
