@@ -1,7 +1,32 @@
 ---
 ontology:
-  name: <ProjectName>
+  name: awo
   cqs:
-    - question: <CQ>
-      ID: <CQId>
-      group: <CQGroup>
+    - ID: awo_1
+      question: "Which animal eats which other animal?"
+    - ID: awo_2
+      question: "Is [this animal] a herbivore?"
+    - ID: awo_3
+      question: "Which plant parts does [this omnivorous or herbivorourus animal] eat?"
+    - ID: awo_4
+      question: "Does a lion eat plants or plant parts?"
+    - ID: awo_5
+      question: "Is there an animal that does not drink water?"
+    - ID: awo_6
+      question: "Which plants eat animals?"
+    - ID: awo_7
+      question: "Which animals eat [these animals]?"
+    - ID: awo_8
+      question: "Which animals are the predators of [these animals]?"
+    - ID: awo_9
+      question: "Are there [these animals] in [this country]?"
+    - ID: awo_10
+      question: "Which country do I have to visit to see [these animals]?"
+    - ID: awo_11
+      question: "In what kind of habitat do [this animal] live?"
+    - ID: awo_12
+      question: "Which animals are endangered?"
+    - ID: awo_13
+      question: "Do [this animal] and [this animal] live in the same habitat?"
+    - ID: awo_14
+      question: "Are there animals that are carnivore but still eat some plants or parts of plants?"

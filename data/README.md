@@ -37,7 +37,7 @@ The canonical structure of this file is as follows:
 ontology:
   name: <ProjectName>
   cqs:
-    - question: <CQ>
-      ID: <CQId>
-      group: <CQGroup>
+    - ID: <CQId>
+      question: <CQ>
+      [group: <CQGroup>]
 ```
