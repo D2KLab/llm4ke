@@ -1,0 +1,43 @@
+---
+queries:
+    - name: DemCare
+      source: 
+      source-group: CLaRO (https://github.com/mkeet/CLaRO)
+      rq-folder: DemCare
+    - name: awo
+      source: 
+      source-group: CLaRO (https://github.com/mkeet/CLaRO)
+      rq-folder: awo
+    - name: ontodt
+      source: 
+      source-group: CLaRO (https://github.com/mkeet/CLaRO)
+      rq-folder: ontodt
+    - name: stuff
+      source: 
+      source-group: CLaRO (https://github.com/mkeet/CLaRO)
+      rq-folder: stuff
+    - name: swo
+      source: 
+      source-group: CLaRO (https://github.com/mkeet/CLaRO)
+      rq-folder: swo
+    - name: DOREMUS
+      source: https://github.com/DOREMUS-ANR/knowledge-base/commit/def723889bb8eae5d7bde6a3119994b362181b35
+      source-group: D2K Lab Semantics group
+      rq-folder: DOREMUS
+    - name: SILKNOW
+      source: to-be-done, see https://github.com/silknow/converter/tree/master/competency_questions
+      source-group: D2K Lab Semantics group
+      rq-folder: SILKNOW
+    - name: Odeuropa
+      source: 
+      source-group: D2K Lab Semantics group
+      rq-folder: Odeuropa
+    - name: NORIA-O
+      source: 
+      source-group: D2K Lab Semantics group
+      rq-folder: NORIA-O
+    - name: Polifonia
+      source: 
+      source-group: Polifonia (https://polifonia-project.eu/)
+      rq-folder: Polifonia
+
