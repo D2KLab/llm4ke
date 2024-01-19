@@ -17,7 +17,7 @@ queries:
       source-group: CLaRO (https://github.com/mkeet/CLaRO)
       rq-folder: stuff
     - name: swo
-      source: 
+      source: https://github.com/CQ2SPARQLOWL/Dataset/commit/57a5bd2ab66c8a40041af6e20cb965bd69766496
       source-group: CLaRO (https://github.com/mkeet/CLaRO)
       rq-folder: swo
     - name: DOREMUS
