@@ -1,7 +1,133 @@
 ---
 ontology:
-  name: <ProjectName>
+  name: noria-o
   cqs:
-    - question: <CQ>
-      ID: <CQId>
-      group: <CQGroup>
+    - ID: noria_01
+      question: Which entity (resource/application/site) is concerned by a given incident?
+      rq:
+        - at_troubleTicket_relatedResource.sparql
+        - at_troubleTicket_relatedService.sparql
+        - at_troubleTicket_relatedParty.sparql
+        - at_troubleTicket_relatedSite.sparql
+
+    - ID: noria_02
+      question: What assets are shared by a given asset chain?
+      rq:
+        - at_service_sharedResource.sparql
+
+    - ID: noria_03
+      question: What logs are coming from a specified resource ?
+      rq:
+        - at_log_from_resource.sparql
+
+    - ID: noria_03
+      question: Which metrics are coming from a specified resource ?
+      rq:
+        - at_metric_from_resource.sparql
+
+    - ID: noria_05
+      question: To which event family does this log correspond and is this event normal or abnormal?
+      rq:
+        - at_event_type.sparql
+
+    - ID: noria_06
+      question: What events are associated with a given event?
+      rq:
+        - at_event_associatedEvent.sparql
+
+    - ID: noria_07
+      question: Which agents/activity/resource caused the event under analysis?
+      rq:
+        - at_event_associatedEvent.sparql
+        - at_event_relatedResource.sparql
+        - at_event_relatedParty.sparql
+
+    - ID: noria_08
+      question: What are the fields of the log?
+      rq:
+      - at_field_log.sparql
+
+    - ID: noria_09
+      question: Is there any pattern in a given set of logs/alarms?
+      rq:
+        - at_probableCause_anomaly.sparql
+
+    - ID: noria_10
+      question: What interventions were carried out on this resource that could have caused the incident?
+      rq:
+        - at_resource_relatedChange.sparql
+        - at_resource_relatedTroubleTicket.sparql
+
+    - ID: noria_11
+      question: What was the root cause of the incident?
+      rq:
+        - at_event_associatedTroubleTicket.sparql
+
+    - ID: noria_12
+      question: Which sequence of events led to the incident?
+      rq:
+        - at_event_associatedTroubleTicket.sparql
+
+    - ID: noria_13
+      question: On which resource did this sequence of events take place and in which order?
+      rq:
+        - at_resource_associatedEvent.sparql
+
+    - ID: noria_14
+      question: What past incidents are similar to a given incident?
+      rq:
+        - at_event_associatedTroubleTicket.sparql
+
+    - ID: noria_15
+      question: What operation plan (automations, operating procedures, etc.) could help us solve the incident?
+      rq:
+        - at_correctiveAction_troubleTicket.sparql
+
+    - ID: noria_16
+      question: What corrective actions have been carried out so far for a given incident (who, what, where)?
+      rq:
+        - at_correctiveAction_incident.sparql
+
+    - ID: noria_17
+      question: What is the list of actions taken that led to the resolution of the incident?
+      rq:
+        - at_correctiveAction_mitigated.sparql
+
+    - ID: noria_18
+      question: Given all the corrective actions carried out so far for the incident, what assumptions covered the actions taken?
+      rq:
+        - at_correctiveAction_assumption.sparql
+
+    - ID: noria_19
+      question: What has been the effect of the corrective actions taken so far for the incident?
+      rq:
+        - at_correctiveAction_effect.sparql
+
+    - ID: noria_20
+      question: Given all the corrective actions carried out so far for the incident, what possible actions could we still take?
+      rq:
+        - at_correctiveAction_effect.sparql
+
+    - ID: noria_21
+      question: What is the summary of this incident and its resolution?
+      rq:
+        - at_event_associatedSummary.sparql
+
+    - ID: noria_22
+      question: Which agents were involved in the resolution of the incident?
+      rq:
+        - at_troubleTicket_relatedParty.sparql
+  
+    - ID: noria_23
+      question: What is the financial cost of this incident if it occurs?
+
+    - ID: noria_24
+      question: How long before this incident is resolved?
+
+    - ID: noria_25
+      question: What are the vulnerabilities and the associated risk levels of this infrastructure ?
+      rq:
+        - at_risk_infrastructure.sparql
+
+    - ID: noria_26
+      question: What is the most likely sequence of actions that would cause this infrastructure to fail?
