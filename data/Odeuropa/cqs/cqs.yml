@@ -1,7 +1,380 @@
 ---
 ontology:
-  name: <ProjectName>
+  name: Odeuropa
   cqs:
-    - question: <CQ>
-      ID: <CQId>
-      group: <CQGroup>
+    - ID: <CQId>
+      question: What smell sources have the highest number of documentation in the past?
+      group: A. Smells - What smells were significant in the past?
+      rq:
+        - a1.rq
+    - ID: <CQId>
+      question: What smell source have the highest number of documentation in [time, e.g. 18th centuries]?
+      group: A. Smells - What smells were significant in the past?
+      rq:
+        - a2.rq
+    - ID: <CQId>
+      question: What are the most frequent smell sources in London in the 18th century?
+      group: A. Smells - What smells were significant in the past?
+      rq:
+        - a3.rq
+    - ID: <CQId>
+      question: When a [specific odour] started to be mentioned in text?
+      group: A. Smells - What smells were significant in the past?
+      rq:
+        - a4.rq
+    - ID: <CQId>
+      question: What are the new odours that appeared during [specific period e.g 1800-1850]?
+      group: A. Smells - What smells were significant in the past?
+      rq:
+        - a5.rq
+    - ID: <CQId>
+      question: What are the new odours that appeared during [historical process e.g industrial revolution]?
+      group: A. Smells - What smells were significant in the past?
+      rq:
+        - a6.rq
+    - ID: <CQId>
+      question: Which smells were perceived during [recurrent part of year, e.g. spring]?
+      group: A. Smells - What smells were significant in the past?
+      rq:
+        - a7.rq
+    - ID: <CQId>
+      question: Which smells were perceived during [recurrent part of day, e.g.  morning]?
+      group: A. Smells - What smells were significant in the past?
+      rq:
+        - a8.rq
+    - ID: <CQId>
+      question: Was [smell 1, e.g. muck] perceived as more [adjective, e.g. disgusting] than [smell 2, e.g. smog]?
+      group: A. Smells - What smells were significant in the past?
+      rq:
+        - a9.rq
+    - ID: <CQId>
+      question: Which kind of smell is more likely to trigger [childhood] memories?
+      group: A. Smells - What smells were significant in the past?
+      rq:
+        - a10.rq
+    - ID: <CQId>
+      question: Which smells with more than [threshold, e.g 100] occurrences in [time, 18th century] did disappear afterwards?
+      group: A. Smells - What smells were significant in the past?
+      rq:
+        - a11.rq
+
+    - ID: <CQId>
+      question: Which professions are more present in smelling experience descriptions?
+      group: B. Noses and Gestures - How did people use their noses in the past and what types of smell expertise or experience can we find?
+      rq:
+        - b1.rq
+    - ID: <CQId>
+      question: Which adjectives were used by [profession, e.g. medical practitioners] in describing smells?
+      group: B. Noses and Gestures - How did people use their noses in the past and what types of smell expertise or experience can we find?
+      rq:
+        - b2.rq
+    - ID: <CQId>
+      question: Which smells did people from [urban areas; rural areas; countries] describe most often?
+      group: B. Noses and Gestures - How did people use their noses in the past and what types of smell expertise or experience can we find?
+      rq:
+        - b3.rq
+    - ID: <CQId>
+      question: Which smells are normally accompanied with [other senses perceptions, e.g. taste]?
+      group: B. Noses and Gestures - How did people use their noses in the past and what types of smell expertise or experience can we find?
+      rq:
+        - b4.rq
+    - ID: <CQId>
+      question: What are the smelling gestures that are more connected with [smell type, e.g. putrid]?
+      group: B. Noses and Gestures - How did people use their noses in the past and what types of smell expertise or experience can we find?
+      rq:
+        - b6.rq
+    - ID: <CQId>
+      question: Which smelling gestures have been more described in [profession, e.g. tea-merchants]' experiences?
+      group: B. Noses and Gestures - How did people use their noses in the past and what types of smell expertise or experience can we find?
+      rq:
+        - b7.rq
+  
+    - ID: <CQId>
+      question: What are the odours most associated with [an ethnic group such Ashkenazi Jews]?
+      group: C. Identities - What meaning did smells have and how did they communicate identities or stereotypes? (e.g the use of garlic to stereotype groups such Ashkenazi Jews; floral scents and femininity)
+      rq:
+        - c1.rq
+    - ID: <CQId>
+      question: Which flavours are associated with [topic, e.g. femininity] in [Asia]?
+      group: C. Identities - What meaning did smells have and how did they communicate identities or stereotypes? (e.g the use of garlic to stereotype groups such Ashkenazi Jews; floral scents and femininity)
+      rq:
+        - c2.rq
+    - ID: <CQId>
+      question: What are [smells, e.g. floral scents] mostly associated with?
+      group: C. Identities - What meaning did smells have and how did they communicate identities or stereotypes? (e.g the use of garlic to stereotype groups such Ashkenazi Jews; floral scents and femininity)
+      rq:
+        - c3.rq
+    - ID: <CQId>
+      question: Which scents were linked to the idea of heaven in X period?
+      group: C. Identities - What meaning did smells have and how did they communicate identities or stereotypes? (e.g the use of garlic to stereotype groups such Ashkenazi Jews; floral scents and femininity)
+      rq:
+        - c4.rq
+    - ID: <CQId>
+      question: What was an erotic scent in X period?
+      group: C. Identities - What meaning did smells have and how did they communicate identities or stereotypes? (e.g the use of garlic to stereotype groups such Ashkenazi Jews; floral scents and femininity)
+      rq:
+        - c5.rq
+    - ID: <CQId>
+      question: What was the scent of cleanliness in X period?
+      group: C. Identities - What meaning did smells have and how did they communicate identities or stereotypes? (e.g the use of garlic to stereotype groups such Ashkenazi Jews; floral scents and femininity)
+      rq:
+        - c7.rq
+  
+    - ID: <CQId>
+      question: What feelings were associated with [a particular smell] in [parts of Europe] at [a given time]?
+      group: D. Emotions - What feelings were associated with smells in parts of Europe at different times?
+      rq:
+        - d1.rq
+    - ID: <CQId>
+      question: What was the dominant/average hedonic tone of smell descriptions in [period] and/or [place]?
+      group: D. Emotions - What feelings were associated with smells in parts of Europe at different times?
+      rq:
+        - d2.rq
+    - ID: <CQId>
+      question: What odours [disgusted OR pleased] [social marker e.g gender, race, nationality, age] Europeans?
+      group: D. Emotions - What feelings were associated with smells in parts of Europe at different times?
+      rq:
+        - d3.rq
+    - ID: <CQId>
+      question: What sorts of scents were produced to create a certain emotion [pleasure]?
+      group: D. Emotions - What feelings were associated with smells in parts of Europe at different times?
+      rq:
+        - d4.rq
+    - ID: <CQId>
+      question: Which smell triggers memories of [childhood]?
+      group: D. Emotions - What feelings were associated with smells in parts of Europe at different times?
+      rq:
+        - d5.rq
+    - ID: <CQId>
+      question: Which smells remember of past people or past places (commemoration)?
+      group: D. Emotions - What feelings were associated with smells in parts of Europe at different times?
+      rq:
+        - d6.rq
+  
+    - ID: <CQId>
+      question: Which types of practices produce a bad smell?
+      group: E. Practices - What kinds of practices produced smells?
+      rq:
+        - e11.rq
+    - ID: <CQId>
+      question: Which types of practices produce [smell, e.g. sweet]?
+      group: E. Practices - What kinds of practices produced smells?
+      rq:
+        - e12.rq
+    - ID: <CQId>
+      question: What types of cooking produce a bad smell?
+      group: E. Practices - What kinds of practices produced smells?
+      rq:
+        - e1.rq
+    - ID: <CQId>
+      question: What types of cooking are producing [smell, e.g. sweet]?
+      group: E. Practices - What kinds of practices produced smells?
+      rq:
+        - e2.rq
+    - ID: <CQId>
+      question: Which practice can increment a smell intensity?
+      group: E. Practices - What kinds of practices produced smells?
+      rq:
+        - e3.rq
+    - ID: <CQId>
+      question: Which practice can reduce a smell intensity?
+      group: E. Practices - What kinds of practices produced smells?
+      rq:
+        - e4.rq
+    - ID: <CQId>
+      question: Which practice can modify an existing smell?
+      group: E. Practices - What kinds of practices produced smells?
+      rq:
+        - e5.rq
+    - ID: <CQId>
+      question: What smells produced what kinds of practices?
+      group: E. Practices - What kinds of practices produced smells?
+      rq:
+        - e6.rq
+    - ID: <CQId>
+      question: Which practice changed the smells it produced over time?
+      group: E. Practices - What kinds of practices produced smells?
+      rq:
+        - e7.rq
+    - ID: <CQId>
+      question: Who were the people associated with the practices that produced/reduced smell?
+      group: E. Practices - What kinds of practices produced smells?
+      rq:
+        - e8.rq
+    - ID: <CQId>
+      question: Where were the practices that produced/reduced smell located [city/countryside/underground]?
+      group: E. Practices - What kinds of practices produced smells?
+      rq:
+        - e9.rq
+    - ID: <CQId>
+      question: What was a protective [health] scent in X period?
+      group: E. Practices - What kinds of practices produced smells?
+      rq:
+        - e10.rq
+    - ID: <CQId>
+      question: Which smells are associated with hygiene? [perfume, filth]
+      group: E. Practices - What kinds of practices produced smells?
+      rq:
+        - e13.rq
+
+    - ID: <CQId>
+      question: Which smells are associated with [general place e.g. schools, churches, docks, ships]?
+      group: F. Sites and contexts - Which communities, institutions, or spaces were associated with particular smells?
+      rq:
+        - f1.rq
+    - ID: <CQId>
+      question: Which smells are associated with [specific place e.g. the Amsterdam stock exchange]?
+      group: F. Sites and contexts - Which communities, institutions, or spaces were associated with particular smells?
+      rq:
+        - f2.rq
+    - ID: <CQId>
+      question: Which smells are associated with [a city e.g. London]?
+      group: F. Sites and contexts - Which communities, institutions, or spaces were associated with particular smells?
+      rq:
+        - f3.rq
+    - ID: <CQId>
+      question: Which smells are associated with [a region OR country e.g Sussex OR France]?
+      group: F. Sites and contexts - Which communities, institutions, or spaces were associated with particular smells?
+      rq:
+        - f4.rq
+    - ID: <CQId>
+      question: In which kind of places was possible to perceive [smell source, e.g. incense]?
+      group: F. Sites and contexts - Which communities, institutions, or spaces were associated with particular smells?
+      rq:
+        - f5.rq
+    - ID: <CQId>
+      question: In which kind of places was possible to perceive [smell, e.g. floreal]?
+      group: F. Sites and contexts - Which communities, institutions, or spaces were associated with particular smells?
+      rq:
+        - f6.rq
+    - ID: <CQId>
+      question: In which kind of places was possible to perceive both [floreal smells] a [woody smell]?
+      group: F. Sites and contexts - Which communities, institutions, or spaces were associated with particular smells?
+      rq:
+        - f7.rq
+    - ID: <CQId>
+      question: Which smell was possible to perceive during a [general event, e.g. a war]?
+      group: F. Sites and contexts - Which communities, institutions, or spaces were associated with particular smells?
+      rq:
+        - f8.rq
+    - ID: <CQId>
+      question: Which smell was possible to perceive during the [specific event, e.g. Crimean War]?
+      group: F. Sites and contexts - Which communities, institutions, or spaces were associated with particular smells?
+      rq:
+        - f9.rq
+    - ID: <CQId>
+      question: Which kind of event produced an increment of smell experiences?
+      group: F. Sites and contexts - Which communities, institutions, or spaces were associated with particular smells?
+      rq:
+        - f10.rq
+    - ID: <CQId>
+      question: Which kind of event produced a reduction of smell experiences?
+      group: F. Sites and contexts - Which communities, institutions, or spaces were associated with particular smells?
+      rq:
+        - f11.rq
+
+    - ID: <CQId>
+      question: What are the adjectives used for [smell, e.g. orange aroma] in the 15th century?
+      group: G. Texts and images - How smells are represented in texts and images?
+      rq:
+        - g1.rq
+    - ID: <CQId>
+      question: Which painter was portraying more [smell, e.g. smoky]?
+      group: G. Texts and images - How smells are represented in texts and images?
+      rq:
+        - g2.rq
+    - ID: <CQId>
+      question: Which country was portraying more [smell, e.g. smoky]?
+      group: G. Texts and images - How smells are represented in texts and images?
+      rq:
+        - g3.rq
+    - ID: <CQId>
+      question: Which part of the place [town, countryside, maket] is portrayed with the most smell?
+      group: G. Texts and images - How smells are represented in texts and images?
+      rq:
+        - g4.rq
+    - ID: <CQId>
+      question: In which part of an image [foreground, middleground, background] are smells portrayed?
+      group: G. Texts and images - How smells are represented in texts and images?
+      rq:
+        - g5.rq
+    - ID: <CQId>
+      question: Which time [century, decade] was portraying more smell?
+      group: G. Texts and images - How smells are represented in texts and images?
+      rq:
+        - g6.rq
+    - ID: <CQId>
+      question: Which portrayal of a smell [pomander, tobacco] changed [disappeared/faded/developed] over time?
+      group: G. Texts and images - How smells are represented in texts and images?
+      rq:
+        - g7.rq
+    - ID: <CQId>
+      question: In which text we can find [smell, e.g. citrus]?
+      group: G. Texts and images - How smells are represented in texts and images?
+      rq:
+        - g8.rq
+    - ID: <CQId>
+      question: What scents are associated with [genre of text]?
+      group: G. Texts and images - How smells are represented in texts and images?
+      rq:
+        - g9.rq
+    - ID: <CQId>
+      question: What scents are associated with [period of text]?
+      group: G. Texts and images - How smells are represented in texts and images?
+      rq:
+        - g10.rq
+    - ID: <CQId>
+      question: What scents do [named, country of origin, male/female] authors describe most?
+      group: G. Texts and images - How smells are represented in texts and images?
+      rq:
+        - g11.rq
+    - ID: <CQId>
+      question: In which paintings is [smell, e.g. citrus] present?
+      group: G. Texts and images - How smells are represented in texts and images?
+      rq:
+        - g12.rq
+    - ID: <CQId>
+      question: Which paintings show [pleasant, unpleasant] smells?
+      group: G. Texts and images - How smells are represented in texts and images?
+      rq:
+        - g13.rq
+    - ID: <CQId>
+      question: Which kind of reactions to smells are possible to find in [Dutch] paintings of [18th century]?
+      group: G. Texts and images - How smells are represented in texts and images?
+      rq:
+        - g14.rq
+    - ID: <CQId>
+      question: What sort of people react to smells in paintings?
+      group: G. Texts and images - How smells are represented in texts and images?
+      rq:
+        - g15.rq
+    - ID: <CQId>
+      question: Which smells are possible to find in paintings of the [Rijksmuseum]?
+      group: G. Texts and images - How smells are represented in texts and images?
+      rq:
+        - g16.rq
+    - ID: <CQId>
+      question: Which smells are possible to find in paintings whose subject is [field work]?
+      group: G. Texts and images - How smells are represented in texts and images?
+      rq:
+        - g17.rq
+    - ID: <CQId>
+      question: Which smells are frequently present in paintings but not in texts?
+      group: G. Texts and images - How smells are represented in texts and images?
+      rq:
+        - g18.rq
+    - ID: <CQId>
+      question: Which smells are frequently present in texts but not in paintings?
+      group: G. Texts and images - How smells are represented in texts and images?
+      rq:
+        - g19.rq
+    - ID: <CQId>
+      question: Which sources that are not objects (e.g. emotions, virtues) are described in text as emitting odours (figurative smells)?
+      group: G. Texts and images - How smells are represented in texts and images?
+      rq:
+        - g20.rq
+    - ID: <CQId>
+      question: Which adjectives are used to describe figurative smells?
+      group: G. Texts and images - How smells are represented in texts and images?
+      rq:
+        - g21.rq
