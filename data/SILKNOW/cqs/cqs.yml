@@ -1,7 +1,365 @@
 ---
 ontology:
-  name: <ProjectName>
+  name: SILKNOW
   cqs:
-    - question: <CQ>
-      ID: <CQId>
-      group: <CQGroup>
+    - ID: <CQId>
+      question: Which items were produced in Spain?
+      group: A. Location
+      rq:
+        - A1.rq
+  
+    - ID: <CQId>
+      question: Where were Mudejar-style fabrics produced?
+      group: A. Location
+
+    - ID: <CQId>
+      question: Where was the production center called Tiraz?
+      group: A. Location
+
+    - ID: <CQId>
+      question: What was la Fabrique Lyonnaise ?
+      group: A. Location
+
+    - ID: <CQId>
+      question: Which items have been produced in Italy and are now preserved in France?
+      group: A. Location
+
+    - ID: <CQId>
+      question: Give me all the items that are preserved in the Musée des Tissus de Lyon
+      group: A. Location
+      rq:
+        - A6.rq
+  
+    - ID: <CQId>
+      question: What Valencian fabrics are located in the Spanish royal collections?
+      group: A. Location
+
+    - ID: <CQId>
+      question: In which museums and collections around the world are Spanish textiles?
+      group: A. Location
+      rq:
+        - A8.rq
+  
+    - ID: <CQId>
+      question: Give me a list of textile factories in a Florence
+      group: A. Location
+
+    - ID: <CQId>
+      question: Which items were produced during the 16th century?
+      group: B. Time
+      rq:
+        - B1.rq
+  
+    - ID: <CQId>
+      question: What are the common decorative elements in 16th century fabrics? (0 results)
+      group: B. Time
+      rq:
+        - B2.rq
+  
+    - ID: <CQId>
+      question: Which fabric became popular in Italy in the fifteenth century?
+      group: B. Time
+
+    - ID: <CQId>
+      question: What kinds of fabrics / weaving techniques / designs were most frequent in 18th-century France? Please give me a list of the top 5 (or 10, 15…) occurrences in a particular field.
+      group: B. Time
+
+    - ID: <CQId>
+      question: Which items have been produced in 1815?
+      group: B. Time
+      rq:
+        - B5.rq
+  
+    - ID: <CQId>
+      question: What are the most common decorative motifs in the Hispanic Middle Ages?
+      group: B. Time
+
+    - ID: <CQId>
+      question: Which items were produced in France during the 18th century?
+      group: C. Time and location
+      rq:
+        - C1.rq
+  
+    - ID: <CQId>
+      question: Give me all the items that have been produced after 1750 in France.
+      group: C. Time and location
+
+    - ID: <CQId>
+      question: Give me all the items that are preserved in the Musée des Tissus de Lyon, and that have been produced between 1650 and 1750.
+      group: C. Time and location
+
+    - ID: <CQId>
+      question: Who (person, institution ...) was the main textile French producer during the XVII?
+      group: C. Time and location
+
+    - ID: <CQId>
+      question: Which items were produced with silk and silver?
+      group: D. Materials
+      rq:
+        - D1.rq
+  
+    - ID: <CQId>
+      question: When does the "a pizzo" design become popular?
+      group: D. Materials
+
+    - ID: <CQId>
+      question: When does the "bizarre" design become popular?
+      group: D. Materials
+
+    - ID: <CQId>
+      question: What is the Blonda?
+      group: D. Materials
+
+    - ID: <CQId>
+      question: What is the Buratto?
+      group: D. Materials
+
+    - ID: <CQId>
+      question: Where does the name of the Batista fabric come from?
+      group: D. Materials
+
+    - ID: <CQId>
+      question: Give me the objects that involve at most silk, silver and wool
+      group: D. Materials
+      rq:
+        - D7.rq
+  
+    - ID: <CQId>
+      question: Give me the objects that involve silk, silver and wool, except those that involve gold. (Same results as the question above.)
+      group: D. Materials
+      rq:
+        - D8.rq
+
+    - ID: <CQId>
+      question: Which items have been created by Philippe de la Salle ?
+      group: E. Artists
+      rq:
+        - E1.rq
+  
+    - ID: <CQId>
+      question: Give me all the information you have on Philippe de la Salle!
+      group: E. Artists
+
+    - ID: <CQId>
+      question: Give me all the items inspired by a work of Giambologna
+      group: E. Artists
+
+    - ID: <CQId>
+      question: Give me all the items designed by François Boucher
+      group: E. Artists
+      rq:
+        - E4.rq
+  
+    - ID: <CQId>
+      question: Give me all the items designed by Italian artists
+      group: E. Artists
+
+    - ID: <CQId>
+      question: Are there items designed by French artists in the 17th century?
+      group: E. Artists
+
+    - ID: <CQId>
+      question: Give all the items for which the designer has been influenced by Philippe de la Salle
+      group: E. Artists
+
+    - ID: <CQId>
+      question: Who were the printers or engravers that produced graph paper for making mise-en-cartes?
+      group: E. Artists
+      rq:
+        - E8.rq
+
+    - ID: <CQId>
+      question: Give me all the items designed by François Boucher in the 18th century
+      group: F. Artists and time
+      rq:
+        - F1.rq
+  
+    - ID: <CQId>
+      question: Give me all the items created by Philippe de la Salle in the last 5 years of his life.
+      group: F. Artists and time
+      rq:
+        - F2.rq
+  
+    - ID: <CQId>
+      question: Give me a list of designers from Valencia during the 19th century
+      group: F. Artists and time
+
+    - ID: <CQId>
+      question: Give me all the designers who were born in England
+      group: G. Artists and location
+  
+    - ID: <CQId>
+      question: Give me all the designers who were trained in Italy
+      group: G. Artists and location
+
+    - ID: <CQId>
+      question: Give me all the designers who were trained in Italy and in France
+      group: G. Artists and location
+
+    - ID: <CQId>
+      question: Who is the Revel style name after?
+      group: H. Style
+      rq:
+        - H1.rq
+  
+    - ID: <CQId>
+      question: Give me all the items that have been influenced by oriental fashion.
+      group: H. Style
+
+    - ID: <CQId>
+      question: Give me all the items with flowers on them.
+      group: H. Style
+      rq:
+        - H3.rq
+  
+    - ID: <CQId>
+      question: Give me all the items with hearts and flowers on them
+      group: H. Style
+
+    - ID: <CQId>
+      question: Give me all the items with purple
+      group: H. Style
+
+    - ID: <CQId>
+      question: Who was the introducer of the realistic style in textiles?
+      group: H. Style
+
+    - ID: <CQId>
+      question: Give me examples of textile designs that appear in paintings.
+      group: H. Style
+
+    - ID: <CQId>
+      question: Give me all the scarves
+      group: I. Type of items
+      rq:
+        - I1.rq
+  
+    - ID: <CQId>
+      question: Give me all the dresses that have been worn with a petticoat
+      group: I. Type of items
+      rq:
+        - I2.rq
+  
+    - ID: <CQId>
+      question: Give examples of textiles that conserve both the fabric and the mise-en-carte
+      group: I. Type of items
+      rq:
+        - I3.rq
+
+    - ID: <CQId>
+      question: When do the first mise-en-carte appeared?
+      group: I. Type of items
+
+    - ID: <CQId>
+      question: Give me all the ribbons with cotton
+      group: J. Type of items and materials
+      rq:
+        - J1.rq
+
+    - ID: <CQId>
+      question: Give me all the dresses with silk, cotton and gold
+      group: J. Type of items and materials
+      rq:
+        - J2.rq
+
+    - ID: <CQId>
+      question: Give me all the scarves with cotton and with hearts on them
+      group: K. Type of items, materials and style
+  
+    - ID: <CQId>
+      question: Give me examples of imitations or revivals of textiles during the 18th century
+      group: K. Type of items, materials and style
+
+    - ID: <CQId>
+      question: Give me the religious clothing produced in Spain
+      group: L. Types of items and location
+      rq:
+        - L1.rq
+  
+    - ID: <CQId>
+      question: What textiles belonged to the collector Mariano Fortuny?
+      group: L. Types of items and location
+
+    - ID: <CQId>
+      question: Give me all the dresses produced during the Victorian era
+      group: M. Type of items and time
+      rq:
+        - M1.rq
+
+    - ID: <CQId>
+      question: Give me all the clothes produced in Spain during the Renaissance.
+      group: N. Type of items, time and location
+  
+    - ID: <CQId>
+      question: Give me all the scarves that have been produced in England between 1800 and 1850.
+      group: N. Type of items, time and location
+      rq:
+        - N2.rq
+  
+    - ID: <CQId>
+      question: Give me all the ribbon involving silver and produced in Italy during the Renaissance .
+      group: O. Type of items, time, location and material
+  
+    - ID: <CQId>
+      question: Give me those ornamental motifs from classical antiquity that appear in fabrics, mises-en-carte and designs ... Organized by chronology, location, place of origin ...
+      group: O. Type of items, time, location and material
+
+    - ID: <CQId>
+      question: ¿Cuáles son los motivos decorativos más habituales en la Edad Media hispánica?*
+      group: P. Questions in Spanish
+  
+    - ID: <CQId>
+      question: ¿Qué tejidos valencianos hay en las colecciones reales españolas?
+      group: P. Questions in Spanish
+
+    - ID: <CQId>
+      question: ¿Qué tejidos españoles hay en diferentes museos y colecciones?
+      group: P. Questions in Spanish
+
+    - ID: <CQId>
+      question: Dame ejemplos de piezas en los que se conserva tejido y puesta en carta.
+      group: P. Questions in Spanish
+
+    - ID: <CQId>
+      question: Dime todos los tejidos que pertenecieron al coleccionista Mariano Fortuny (provenance)
+      group: P. Questions in Spanish
+
+    - ID: <CQId>
+      question: Dime motivos ornamentales de la antigüedad clásica que aparecen en tejidos, puestas en carta, diseños… Organizados por cronología, ubicación, lugar de origen...
+      group: P. Questions in Spanish
+
+    - ID: <CQId>
+      question: ¿Quién fue el introductor del estilo realista en tejidos?
+      group: P. Questions in Spanish
+
+    - ID: <CQId>
+      question: ¿Quién (persona, institución…) es el principal productor francés de tejidos en el XVII?
+      group: P. Questions in Spanish
+
+    - ID: <CQId>
+      question: ¿Cuándo aparecen los espolinados?
+      group: P. Questions in Spanish
+
+    - ID: <CQId>
+      question: ¿Cuándo aparecieron las primeras puestas en carta sobre papel milimetrado impreso?
+      group: P. Questions in Spanish
+
+    - ID: <CQId>
+      question: ¿Qué impresores o grabadores produjeron papel milimetrado para puestas en carta?
+      group: P. Questions in Spanish
+
+    - ID: <CQId>
+      question: Dame una lista de talleres o fábricas textiles de una ciudad.
+      group: P. Questions in Spanish
+
+    - ID: <CQId>
+      question: Dime una lista de diseñadores de una ciudad o región durante un periodo.
+      group: P. Questions in Spanish
+
+    - ID: <CQId>
+      question: Dame ejemplos de diseños textiles que aparecen en pinturas.
+      group: P. Questions in Spanish
+
+    - ID: <CQId>
+      question: Dame ejemplos de imitaciones, revivals, copias, falsificaciones, … (copias de modelos antiguos hechas mucho tiempo después)
+      group: P. Questions in Spanish
