@@ -44,8 +44,8 @@ ontology:
 
 * We extract parts of the original `CQs only Dataset.csv` file related to each ontology
 * From the resulting parts, we map the columns to the above YAML structure as follows:
-  * ID => ID
-  * CQ => question
+  * `ID` => `ID`
+  * `CQ` => `question`
 
 For example, for *ontodt*:
 
@@ -112,7 +112,7 @@ ontology:
   * `Question` => `question`
   * `Evaluation.query` => `rq`
 
-#### For *[Polifonia](./Polifonia)*:
+#### For *[Polifonia](./Polifonia)*
 
 * We process the *cq_sanity_checks.csv* file by extrzacting parts of the document conform to CSV syntax.
 * For each row, we map the columns as follows:
