@@ -40,4 +40,7 @@ ontology:
     - ID: <CQId>
       question: <CQ>
       [group: <CQGroup>]
+      [rq:
+        - <QueryFileName>.rq]
+    
 ```

@@ -1,7 +1,341 @@
 ---
 ontology:
-  name: <ProjectName>
+  name: DOREMUS
   cqs:
-    - question: <CQ>
-      ID: <CQId>
-      group: <CQGroup>
+    - ID: <CQId>
+      question: On the MLA mailing list, one asked the following question "A professor at my university asked me today if I could find any music for flute and TWO bassoons – an interesting combo, to be sure"
+      group: A. In the Wild
+      rq:
+        - mla.rq
+    - ID: <CQId>
+      question: Which works have been composed by Mozart ?
+      group: B. Works and Expressions
+      rq:
+        - 1.rq
+  
+    - ID: <CQId>
+      question: Which works have been composed in 1836 ?
+      group: B. Works and Expressions
+      rq:
+        - 2.rq
+  
+    - ID: <CQId>
+      question: Which works have been written for string quartet?
+      group: B. Works and Expressions
+      rq:
+        - 3.rq
+  
+    - ID: <CQId>
+      question: What works are linked to a particular work and what type of link connect them?
+      group: B. Works and Expressions
+      rq:
+        - 4.rq
+  
+    - ID: <CQId>
+      question: Retrieve all the works that have been written by German composers between 1800 and 1850 and performed at the Royal Albert Hall
+      group: B. Works and Expressions
+      rq:
+        - 5.rq
+  
+    - ID: <CQId>
+      question: Give me the flute sonatas that last less than or equal to 15 minutes
+      group: B. Works and Expressions
+      rq:
+        - 39.rq
+  
+    - ID: <CQId>
+      question: Give me all the sonatas for piano and violin whose duration is between 20 and 30 minutes
+      group: B. Works and Expressions
+      rq:
+        - 40.rq
+  
+    - ID: <CQId>
+      question: Give me the works written for oboe and orchestra after the 1900
+      group: B. Works and Expressions
+      rq:
+        - 7.rq
+  
+    - ID: <CQId>
+      question: Give me the works written for violin, clarinet and piano (strictly)
+      group: B. Works and Expressions
+      rq:
+        - 8.rq
+  
+    - ID: <CQId>
+      question: Give me the works of chamber music that involves at least violin, clarinet and piano
+      group: B. Works and Expressions
+      rq:
+        - 9.rq
+  
+    - ID: <CQId>
+      question: Give me the works of chamber music that involves at most violin, clarinet and piano
+      group: B. Works and Expressions
+      rq:
+        - 10.rq
+  
+    - ID: <CQId>
+      question: Give me the works of chamber music that involves at most violin, clarinet and piano, except from the sonatas for violin and piano and clarinet and piano
+      group: B. Works and Expressions
+      rq:
+        - 11.rq
+  
+    - ID: <CQId>
+      question: Give me all the melodies written on French texts for average voice between 1870 and 1913.
+      group: B. Works and Expressions
+      rq:
+        - 12.rq
+  
+    - ID: <CQId>
+      question: Give me all the slow movements of chamber music that foresee at least one cello
+      group: B. Works and Expressions
+      rq:
+        - 13.rq
+  
+    - ID: <CQId>
+      question: Give me all the sacred vocal music for choir written in England since 1945
+      group: B. Works and Expressions
+      rq:
+        - 14.rq
+  
+    - ID: <CQId>
+      question: Give me all the operas of which the composer is also the librettist
+      group: B. Works and Expressions
+      rq:
+        - 33.rq
+  
+    - ID: <CQId>
+      question: Give me all works for which there are alternate castings with different interpreters (e.g. keyboard & orch / cello, oboe & orch)
+      group: B. Works and Expressions
+      rq:
+        - 19.rq
+  
+    - ID: <CQId>
+      question: Give me all the works for which there are alternative castings with a different number of instruments (e.g. 2 pianos or 4 hands piano)
+      group: B. Works and Expressions
+      rq:
+        - 20.rq
+  
+    - ID: <CQId>
+      question: Give me a list of melodies of 20th century about gastronomy
+      group: B. Works and Expressions
+      rq:
+        - 21.rq
+  
+    - ID: <CQId>
+      question: Give me a list of works of chamber music composed in the 19th century by Scandinavian composers
+      group: B. Works and Expressions
+      rq:
+        - 22.rq
+  
+    - ID: <CQId>
+      question: Give me the list of the works of which at least one of the dedicatees is also a performer of the work
+      group: B. Works and Expressions
+      rq:
+        - 23.rq
+  
+    - ID: <CQId>
+      question: Give me the list of the reductions of works of Wagner realized in the 20th century
+      group: B. Works and Expressions
+      rq:
+        - 31) - [results (no data)](http://data.doremus.org/sparql?default-graph-uri=&query=PREFIX+mus%3A+%3Chttp%3A%2F%2Fdata.doremus.org%2Fontology%23%3E%0D%0APREFIX+ecrm%3A+%3Chttp%3A%2F%2Ferlangen-crm.org%2Fcurrent%2F%3E%0D%0APREFIX+efrbroo%3A+%3Chttp%3A%2F%2Ferlangen-crm.org%2Fefrbroo%2F%3E%0D%0APREFIX+skos%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2004%2F02%2Fskos%2Fcore%23%3E%0D%0A%0D%0A%23+%5Ben%5D+Give+me+the+list+of+the+reductions+of+works+of+Wagner+realized+in+the+20th+century%0D%0A%23+%5Bfr%5D+Donne+moi+la+liste+des+r%C3%A9ductions+d%E2%80%99oeuvres+de+Wagner+r%C3%A9alis%C3%A9es+au+XX%C3%A8me+si%C3%A8cle%0D%0A%0D%0ASELECT+DISTINCT+%3FcompositionDate%2C+%3FreductionExpression+AS+%3Freduction%2C+SAMPLE%28%3FreductionTitle%29+AS+%3Ftitle%2C+%3Fexpression+AS+%3Foriginal%0D%0AWHERE+%7B%0D%0A++%3Freduction+mus%3AU47_has_derivation_type+%3Chttp%3A%2F%2Fdata.doremus.org%2Fvocabulary%2Fderivation%2Freduction%3E+%3B%0D%0A++++++++mus%3AU38_has_descriptive_expression+%3FreductionExpression%3B%0D%0A++++++++efrbroo%3AR2_is_derivative_of+%2F+mus%3AU38_has_descriptive_expression+%3Fexpression+.%0D%0A%0D%0A++%3FexpCreation+efrbroo%3AR17_created+%3Fexpression+%3B%0D%0A++++++efrbroo%3AR17_created+%2F+rdfs%3Alabel+%3FexpressionTitle+%3B%0D%0A++++++ecrm%3AP9_consists_of+%2F+ecrm%3AP14_carried_out_by+%3Chttp%3A%2F%2Fdata.doremus.org%2Fartist%2F34943da5-d068-3ada-bd4d-3db0c66c8a7d%3E+.%0D%0A%0D%0A++%3FreductionExpression+rdfs%3Alabel+%3FreductionTitle+.%0D%0A++%3FredCreation+efrbroo%3AR17_created+%3FreductionExpression+%3B%0D%0A++++++ecrm%3AP4_has_time-span+%2F+time%3AhasEnd+%2F+time%3AinXSDDate+%3FcompositionDate+.%0D%0A%0D%0A++FILTER+%28+%3FcompositionDate+%3E%3D+%221900%22%5E%5Exsd%3AgYear+AND+%3FcompositionDate+%3C+%222000%22%5E%5Exsd%3AgYear+%29%0D%0A%7D+ORDER+BY+%3FcompositionDate%0D%0A&format=text%2Fhtml&timeout=0&debug=on)
+  
+    - ID: <CQId>
+      question: Give me the list of all symphonies that include 5 movements
+      group: B. Works and Expressions
+      rq:
+        - 24.rq
+  
+    - ID: <CQId>
+      question: Give me the list of works composed by Mozart in the last 5 years of his life
+      group: B. Works and Expressions
+      rq:
+        - 25.rq
+  
+    - ID: <CQId>
+      question: Give me a cycle of melodies whose author of text is the same for each melody
+      group: B. Works and Expressions
+      rq:
+        - 34.rq
+  
+  
+    - ID: <CQId>
+      question: Give me a list of works composed between 1860 and 1880, for small formation (maximum 6 instrumentalists) including 1 piano
+      group: B. Works and Expressions
+      rq:
+        - 27.rq
+  
+    - ID: <CQId>
+      question: Give me the list of works of J.S. Bach between BWV 30 and BWV 70
+      group: B. Works and Expressions
+      rq:
+        - 28.rq
+  
+    - ID: <CQId>
+      question: Give me all the works for piano connected to other musical works
+      group: B. Works and Expressions
+      rq:
+        - 29.rq
+  
+    - ID: <CQId>
+      question: Give me all works for piano based on works of Schubert
+      group: B. Works and Expressions
+      rq:
+        - 35.rq
+  
+    - ID: <CQId>
+      question: Give me all the works related to an extra-musical artistic field
+      group: B. Works and Expressions
+
+    - ID: <CQId>
+      question: Give me all the works related to popular music
+      group: B. Works and Expressions
+      rq:
+        - 36.rq
+  
+    - ID: <CQId>
+      question: Retrieve the works by artists that have been mutually lovers
+      group: C. Artists
+
+  
+    - ID: <CQId>
+      question: Give me the name and the birth date of artists that played the oboe
+      group: C. Artists
+      rq:
+        - 6.rq
+  
+    - ID: <CQId>
+      question: Give me the list of musicians of the Radio France Philharmonic Orchestra having a chamber music activity in concerts organized by Radio France
+      group: C. Artists
+
+    - ID: <CQId>
+      question: Give me all the works with an alternative distribution
+      group: D. Performances
+  
+    - ID: <CQId>
+      question: Give me all the performances in which a composer interprets his or her works
+      group: D. Performances
+      rq:
+        - 15.rq
+    
+    - ID: <CQId>
+      question: Give me all the performances in which a composer directs one of his works
+      group: D. Performances
+      rq:
+        - 16.rq
+  
+    - ID: <CQId>
+      question: Give me the list of concerts of the Orchestre National de France in which the conductor is also instrumental soloist (in the same concert)
+      group: D. Performances
+      rq:
+        - 17.rq
+  
+    - ID: <CQId>
+      question: Give me the list of concerts given at the Philharmonie de Paris in which the orchestra is directed by the solo violin
+      group: D. Performances
+      rq:
+        - 18.rq
+  
+    - ID: <CQId>
+      question: Give me the list of concerts performed at the Abbaye aux Dames de Saintes outside the festival period of Saintes
+      group: D. Performances
+      rq:
+        - 37.rq
+  
+    - ID: <CQId>
+      question: Give me the list of the works that were created where they were composed
+      group: D. Performances
+      rq:
+        - 26.rq
+  
+    - ID: <CQId>
+      question: Give me all the works for which the title of the Performed Expression is different from the title of the work
+      group: D. Performances
+      rq:
+        - 32.rq
+  
+    - ID: <CQId>
+      question: Give me all the works interpreted on at least one mop different from the casting of the work
+      group: D. Performances
+      rq:
+        - 30.rq
+  
+    - ID: <CQId>
+      question: Give me the artists that have been recorded more than 10 times by Radio France
+      group: E. Recordings
+      rq:
+        - 38.rq
+  
+    - ID: <CQId>
+      question: Give me the list of the choristers of the Collegium Vocale who participated in at least three radio recordings of the choir in 2012
+      group: E. Recordings
+      rq:
+        - 41.rq
+  
+    - ID: <CQId>
+      question: Give me the name of the vocal soloist most recorded by Radio France in 2014
+      group: E. Recordings
+      rq:
+        - 42.rq
+  
+    - ID: <CQId>
+      question: Give me the list of all the concerts recorded by Radio France at the Cité de la Musique between 1995 and 2014
+      group: E. Recordings
+      rq:
+        - 43.rq
+  
+    - ID: <CQId>
+      question: Give me the list of concerts recorded by Radio France at the auditorium of the Cité de la Musique in which were used one or several French harpsichords of the 17th century belonging to the Musée de la Musique
+      group: E. Recordings
+
+  
+    - ID: <CQId>
+      question: Give me the list of the recordings made in 2014 by Harmonia Mundi with French musical ensembles, using at least one Urtext score
+      group: E. Recordings
+      rq:
+        - 44.rq
+  
+    - ID: <CQId>
+      question: Give me all the registration free of rights
+      group: E. Recordings
+  
+    - ID: <CQId>
+      question: Give me the cutting of all the recordings of Don Giovanni by Mozart
+      group: E. Recordings
+      rq:
+        - 45.rq
+  
+    - ID: <CQId>
+      question: Give me all the recordings of the _Catalogue Aria_ (isolated air or in a recording of the opera)
+      group: E. Recordings
+      rq:
+        - 46.rq
+  
+    - ID: <CQId>
+      question: Among concerts and CDs, which works are often played after < other work > ?
+      group: F. Publications
+      rq:
+        - 47.rq
+  
+    - ID: <CQId>
+      question: Give me pairs of recorded tracks that are composed with the same key
+      group: F. Publications
+      rq:
+        - 48.rq
+  
+    - ID: <CQId>
+      question: Give me the list of the latest releases of DGG (Deutsche Grammophon Gesellschaft) in chamber music for strings
+      group: F. Publications
+      rq:
+        - 49.rq
+  
+    - ID: <CQId>
+      question: Give me all the recordings of opera aria whose library has at least one score
+      group: F. Publications
+      rq:
+        - 50.rq
+  
+    - ID: <CQId>
+      question: Give me all the recordings of opera aria whose library has no score
+      group: F. Publications
+      rq:
+        - 51.rq
