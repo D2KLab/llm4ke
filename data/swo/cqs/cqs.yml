@@ -4,177 +4,349 @@ ontology:
   cqs:
     - ID: swo_01
       question: What is the algorithm used to process [this data]?
+      rq:
+        - swo01.rq
+
     - ID: swo_02
       question: What are the alternatives to [this software]?
+      rq:
+        - swo02.rq
+
     - ID: swo_03
       question: What other alternatives to [this software] are there?
+      rq:
+        - swo03.rq
+
     - ID: swo_04
       question: Which of the named and published "algorithms" does [this tool] use?
+      rq:
+        - swo04.rq
+
     - ID: swo_05
       question: Are there any modification to [the algorithm] [the tool] uses?
+
     - ID: swo_06
       question: Does [this software] provide XML editing?
+
     - ID: swo_07
       question: What type of software is [it]?
+      rq:
+        - swo07.rq
+
     - ID: swo_08
       question: What software can perform [task x]?
+      rq:
+        - swo08.rq
+
     - ID: swo_09
       question: Is [it] appropriate software for [my task]?
+      rq:
+        - swo09.rq
+
     - ID: swo_10
       question: What are the primary inputs and outputs [of this software]?
+      rq:
+        - swo10.rq
+
     - ID: swo_11
       question: Which visualisation software is there for [this data] and what will it cost?
+      rq:
+        - swo11.rq
+
     - ID: swo_12
       question: What software works best with [my dataset]?
+
     - ID: swo_13
       question: Does [it] render a gif?
+
     - ID: swo_14
       question: Which software tool created [this data]?
+      rq:
+        - swo14.rq
+
     - ID: swo_15
       question: What software can I use [my data] with to support [my task]?
+      rq:
+        - swo15.rq
+
     - ID: swo_16
       question: What are the input and output formats for [this software]?
+      rq:
+        - swo16.rq
+
     - ID: swo_17
       question: "What data from [person x] is analysed with [tool y], [version z]?"
+
     - ID: swo_18
       question: What software can read a .cel file?
+      rq:
+        - swo18.rq
+
     - ID: swo_19
       question: What are the export options for [this software]?
+      rq:
+        - swo19.rq
+
     - ID: swo_20
       question: What is the valid input for [this software]?
+      rq:
+        - swo20.rq
+
     - ID: swo_21
       question: "Can [this software] export from its proprietary data format to an open format such as csv, txt?"
+      rq:
+        - swo21.rq
+
     - ID: swo_22
       question: Can [software A] work with data that are output from [software B]?
+      rq:
+        - swo22.rq
+
     - ID: swo_23
       question: To what extent does [the software] support appropriate open standards?
+
     - ID: swo_24
       question: Is [this software] compatible with [it]?
+
     - ID: swo_25
       question: "What open source, maintained software can I use to process [these] in [this format]?"
+      rq:
+        - swo25.rq
+
     - ID: swo_26
       question: Is the output format of [it] proprietary?
+      rq:
+        - swo26.rq
+
     - ID: swo_27
       question: Can I render [it] if the software supplier goes out of business?
+
     - ID: swo_28
       question: "Given [input x], what are the data exports for [this version] of [x]?"
+
     - ID: swo_29
       question: Where can I get [the software]?
+      rq:
+        - swo29.rq
+
     - ID: swo_30
       question: Is there a mailing list for [it]?
+
     - ID: swo_31
       question: How do I get help with [it]?
+      rq:
+        - swo31.rq
+
     - ID: swo_32
       question: How can I get problems with [it] fixed?
+
     - ID: swo_33
       question: Are there any active forums discussing [its] use?
+
     - ID: swo_34
       question: Where do I get updates for [this software]?
+
     - ID: swo_35
       question: Who developed [it]?
+      rq:
+        - swo35.rq
+
     - ID: swo_36
       question: What is the homepage of [the software]?
+      rq:
+        - swo36.rq
+
     - ID: swo_37
       question: Can we collaborate with developers of [software x]?
+
     - ID: swo_38
       question: Where can I buy [it] from?
+
     - ID: swo_39
       question: Which URL can I get [it] from?
+      rq:
+        - swo39.rq
+
     - ID: swo_40
       question: Which is the fastest software to read [this data]?
+
     - ID: swo_41
       question: Does [this software] meet the ISO-4 standard?
+
     - ID: swo_42
       question: Do I know anyone who has used [this software] or processed [this type of data]?
+
     - ID: swo_43
       question: How and where has [this software] been used successfully in the past?
+
     - ID: swo_44
       question: How long has [this software] been around?
+      rq:
+        - swo44.rq
+
     - ID: swo_45
       question: How actively developed is [it]?
+      rq:
+        - swo45.rq
+
     - ID: swo_46
       question: What do others say about [the software] quality?
+
     - ID: swo_47
       question: How reliable is [it]?
+
     - ID: swo_48
       question: What software is better for [task x] given [restriction y]?
+
     - ID: swo_49
       question: Who are the potential users of [software we develop]?
+
     - ID: swo_50
       question: Who else has used [tool x] today?
+
     - ID: swo_51
       question: How popular is [it]?
+
     - ID: swo_52
       question: How many settings do I need to know to rerun [this analysis]?
+
     - ID: swo_53
       question: Is [this software] available as a web service?
+      rq:
+        - swo53.rq
+
     - ID: swo_54
       question: What is the version of [this software]?
+      rq:
+        - swo54.rq
+
     - ID: swo_55
       question: What new features are in [this version] of [it]?
+
     - ID: swo_56
       question: What are the differences between versions of [it]?
+
     - ID: swo_57
       question: When was the 1.0 version of [it] released?
+      rq:
+        - swo57.rq
+
     - ID: swo_58
       question: Is [this software] open source development? Is there a community development?
+      rq:
+        - swo58.rq
+
     - ID: swo_59
       question: "What license does [it] have, and what is its permissiveness?"
+      rq:
+        - swo59.rq
+
     - ID: swo_60
       question: Is [it] open source or not?
+      rq:
+        - swo60.rq
+
     - ID: swo_61
       question: At what point did the license type of [it] change?
+
     - ID: swo_62
       question: Who owns the copyright for [it]?
+      rq:
+        - swo62.rq
+
     - ID: swo_63
       question: What is the licensing history of [it]?
+
     - ID: swo_64
       question: How many licenses do we need to run [it] productively?
+
     - ID: swo_65
       question: Is [it] FOSS?
+      rq:
+        - swo65.rq
+
     - ID: swo_66
       question: Do I need a password to use [it]?
+
     - ID: swo_67
       question: Is [it] free or not?
+      rq:
+        - swo67.rq
+
     - ID: swo_68
       question: What level of expertise is required to use [it]?
+
     - ID: swo_69
       question: Are there any usage examples for [it]?
+
     - ID: swo_70
       question: Is there any documentation for [it] and where can I find it?
+      rq:
+        - swo70.rq
+
     - ID: swo_71
       question: Does [it] have a tutorial?
+
     - ID: swo_72
       question: Where is the documentation of [it]?
+      rq:
+        - swo72.rq
+
     - ID: swo_73
       question: Where's the documentation of [it]?
+      rq:
+        - swo73.rq
+
     - ID: swo_74
       question: How well documented is [the software] for developers?
+
     - ID: swo_75
       question: How do I cite [the software]?
+
     - ID: swo_76
       question: Is there a publication with [it]?
+      rq:
+        - swo76.rq
+
     - ID: swo_77
       question: Is [it] scriptable?
+
     - ID: swo_78
       question: Is [it] extensible?
+      rq:
+        - swo78.rq
+
     - ID: swo_79
       question: How can I extend [the software] to include a new function?
+
     - ID: swo_80
       question: Can I use some components of [the software] for my software?
+
     - ID: swo_81
       question: What hardware do I need to run [this software]?
+
     - ID: swo_82
       question: What graphics card does [this software] require?
+
     - ID: swo_83
       question: In what language was [it] implemented?
+      rq:
+        - swo83.rq
+
     - ID: swo_84
       question: What platform does [the software] run on?
+
     - ID: swo_85
       question: Can I install [this] on a university computer?
+
     - ID: swo_86
       question: What compiler do I need to compile source code on [platform x]?
+
     - ID: swo_87
       question: Does [it] work on 64 bit windows?
+
     - ID: swo_88
       question: Do I need a license key to use [it]?
+      rq:
+        - swo88.rq
+
