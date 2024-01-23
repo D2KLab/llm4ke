@@ -4,20 +4,32 @@ ontology:
   cqs:
     - ID: awo_1
       question: Which animal eats which other animal?
+      rq:
+        - awo_1.rq
     - ID: awo_2
       question: Is [this animal] a herbivore?
+      rq:
+        - awo_2.rq
     - ID: awo_3
       question: Which plant parts does [this omnivorous or herbivorourus animal] eat?
     - ID: awo_4
       question: Does a lion eat plants or plant parts?
+      rq:
+        - awo_4.rq
     - ID: awo_5
       question: Is there an animal that does not drink water?
     - ID: awo_6
       question: Which plants eat animals?
+      rq:
+        - awo_6.rq
     - ID: awo_7
       question: Which animals eat [these animals]?
+      rq:
+        - awo_7.rq
     - ID: awo_8
       question: Which animals are the predators of [these animals]?
+      rq:
+        - awo_8.rq
     - ID: awo_9
       question: Are there [these animals] in [this country]?
     - ID: awo_10
@@ -30,3 +42,5 @@ ontology:
       question: Do [this animal] and [this animal] live in the same habitat?
     - ID: awo_14
       question: Are there animals that are carnivore but still eat some plants or parts of plants?
+      rq:
+        - awo_14.rq
