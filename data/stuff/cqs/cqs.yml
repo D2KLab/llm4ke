@@ -4,23 +4,51 @@ ontology:
   cqs:
     - ID: stuff_01
       question: Is [this stuff] a pure or a mixed stuff?
+      rq:
+        - stuff_01.rq
+
     - ID: stuff_02
       question: What is the difference between [this colloid] and [this colloid]?
+
     - ID: stuff_03
       question: In which phases are the stuffs in [this colloid]?
+      rq:
+        - stuff_03.rq
+
     - ID: stuff_04
       question: Can a solution be a pure stuff?
+      rq:
+        - stuff_04.rq
+
     - ID: stuff_05
       question: Which kind of stuff are [these stuffs]?
+      rq:
+        - stuff_05.rq
+
     - ID: stuff_06
       question: Are solutions never emulsions?
+      rq:
+        - stuff_06.rq
+
     - ID: stuff_07
       question: Which stuffs have as part exactly two substuffs?
+      rq:
+        - stuff_07.rq
+
     - ID: stuff_08
       question: What distinguishes structured from unstructured stuff?
+
     - ID: stuff_09
       question: What kind of colloid is [this colloid stuff]?
+      rq:
+        - stuff_09.rq
+
     - ID: stuff_10
       question: What kind of homogeneous mixture is [this colloid stuff]?
+      rq:
+        - stuff_10.rq
+
     - ID: stuff_11
       question: Where do I categorise bulk like [this bulk]?
+      rq:
+        - stuff_11.rq
