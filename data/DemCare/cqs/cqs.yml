@@ -4,215 +4,441 @@ ontology:
   cqs:
     - ID: demcare_1
       question: What are the protocol parts?
+
     - ID: demcare_2
       question: What types of data are collected during medical and clinical consultation?
+
     - ID: demcare_3
       question: What types of demographic data are collected?
+      rq:
+        - DemCare_CQ_3.rq
+
     - ID: demcare_4
       question: What is the gender information?
+      rq:
+        - DemCare_CQ_4.rq
+
     - ID: demcare_5
       question: What are the main types of education level?
+
     - ID: demcare_6
       question: What are the main types of laterality?
+      rq:
+        - DemCare_CQ_6.rq
+
     - ID: demcare_7
       question: What types of clinical data are collected?
+      rq:
+        - DemCare_CQ_7.rq
+
     - ID: demcare_8
       question: What are the types of diagnosis?
+      rq:
+        - DemCare_CQ_8.rq
+
     - ID: demcare_9
       question: What types of cognitive abilities assessment data are collected?
+      rq:
+        - DemCare_CQ_9.rq
+
     - ID: demcare_10
       question: What data are collected for MMSE
+
     - ID: demcare_11
       question: What data are collected for FAB
+
     - ID: demcare_12
       question: What data are collected for the trail making test?
+
     - ID: demcare_13
       question: What data are collected for the short cognitive battery test?
+
     - ID: demcare_14
       question: What data are collected for the free and cued selective reminding test?
+
     - ID: demcare_15
       question: What types of neuropsychiatric/mood assessment data are collected?
+      rq:
+        - DemCare_CQ_15.rq
+
     - ID: demcare_16
       question: What data are collected for NPI?
+
     - ID: demcare_17
       question: What data are collected for DSM-IV criteria?
+
     - ID: demcare_18
       question: What data are collected for AI and diagnostic criteria for apathy?
+
     - ID: demcare_19
       question: What types of motricity abilities assessment data are collected?
+      rq:
+        - DemCare_CQ_19.rq
+
     - ID: demcare_20
       question: What data are collected for UPDRS?
+
     - ID: demcare_21
       question: What types of autonomy assessment data are collected?
+      rq:
+        - DemCare_CQ_21.rq
+
     - ID: demcare_22
       question: What types of steps does ecological assessment consist of?
+
     - ID: demcare_23
       question: What are the types of directed tasks?
+      rq:
+        - DemCare_CQ_23.rq
+
     - ID: demcare_24
       question: Which are the physical directed tasks?
+
     - ID: demcare_25
       question: Which are the vocal directed tasks?
+
     - ID: demcare_26
       question: What is the nature of a directed task?
+
     - ID: demcare_27
       question: Which directed tasks are mono tasks?
+
     - ID: demcare_28
       question: Which directed tasks are dual tasks?
+
     - ID: demcare_29
       question: Which are the tasks of the semi-directed step?
+      rq:
+        - DemCare_CQ_29.rq
+
     - ID: demcare_30
       question: What are the types of tasks in the discussion with clinician step?
+      rq:
+        - DemCare_CQ_30.rq
+
     - ID: demcare_31
       question: Which are the directed discussion tasks?
+      rq:
+        - DemCare_CQ_31.rq
+
     - ID: demcare_32
       question: Which are the free discussion tasks?
+      rq:
+        - DemCare_CQ_32.rq
+
     - ID: demcare_33
       question: What is assessed in the walking task?
+      rq:
+        - DemCare_CQ_33.rq
+
     - ID: demcare_34
       question: What is assessed in the counting backwards task?
+      rq:
+        - DemCare_CQ_34.rq
+
     - ID: demcare_35
       question: What is assessed in the walking and counting backwards task?
+      rq:
+        - DemCare_CQ_35.rq
+
     - ID: demcare_36
       question: What is assessed in the sentence repeating task?
+      rq:
+        - DemCare_CQ_36.rq
+
     - ID: demcare_37
       question: What is assessed in the articulation control task?
+      rq:
+        - DemCare_CQ_37.rq
+
     - ID: demcare_38
       question: What is assessed in the tasks of the semi-directed protocol step?
+      rq:
+        - DemCare_CQ_38.rq
+
     - ID: demcare_39
       question: What is assessed in the tasks of the discussion with clinician step?
+      rq:
+        - DemCare_CQ_39.rq
+
     - ID: demcare_40
       question: What data are measured for gait assessment?
+      rq:
+        - DemCare_CQ_40.rq
+
     - ID: demcare_41
       question: What data are measured for dynamic balance?
+
     - ID: demcare_42
       question: What data are measured for step length?
+
     - ID: demcare_43
       question: What data are measured for walking speed?
+
     - ID: demcare_44
       question: What data are measured for walking speed instantaneous?
+
     - ID: demcare_45
       question: What data are measured for stopping displacement?
+
     - ID: demcare_46
       question: What data are measured for latency?
+
     - ID: demcare_47
       question: What data are measured for stress?
+      rq:
+        - DemCare_CQ_47.rq
+
     - ID: demcare_48
       question: What data are measured for cognitive and neuromuscular assessment?
+
     - ID: demcare_49
       question: What data are measured for affective state assessment?
+
     - ID: demcare_50
       question: What data are measured for interaction assessment?
+      rq:
+        - DemCare_CQ_50.rq
+
     - ID: demcare_51
       question: What data are measured for neuromuscular impairment in speech production mechanism?
+
     - ID: demcare_52
       question: What data are measured for cognitive abilities assessment?
+      rq:
+        - DemCare_CQ_52.rq
+
     - ID: demcare_53
       question: What data are measured for organizational efficiency assessment?
+      rq:
+        - DemCare_CQ_53.rq
+
     - ID: demcare_54
       question: What data are measured for functional abilities assessment?
+      rq:
+        - DemCare_CQ_54.rq
+
     - ID: demcare_55
       question: What functional areas are of clinical relevance for the home and nursing home environments?
+
     - ID: demcare_56
       question: How are the statistics and identified problematic situations about the monitored functional areas reported to the clinician?
+
     - ID: demcare_57
       question: What types of questionnaires are administered for self-assessment?
+      rq:
+        - DemCare_CQ_57.rq
+
     - ID: demcare_58
       question: What activities (situations) are of clinical interest with respect to sleep?
+      rq:
+        - DemCare_CQ_58.rq
+
     - ID: demcare_59
       question: What information is of clinical interest regarding night sleep?
+      rq:
+        - DemCare_CQ_59.rq
+
     - ID: demcare_60
       question: What information is of clinical interest regarding a nap?
+      rq:
+        - DemCare_CQ_60.rq
+
     - ID: demcare_61
       question: What information is of clinical interest regarding an awakening?
+
     - ID: demcare_62
       question: What information is of clinical interest regarding a bed exit?
+      rq:
+        - DemCare_CQ_62.rq
+
     - ID: demcare_63
       question: What information if of clinical interest regarding a night bathroom visit?
+      rq:
+        - DemCare_CQ_63.rq
+
     - ID: demcare_64
       question: What information is clinically relevant for sleep assessment?
+      rq:
+        - DemCare_CQ_64.rq
+
     - ID: demcare_65
       question: What sleep-related situations indicate a problem or possibly problematic behaviour that needs to be highlighted to the clinician?
+      rq:
+        - DemCare_CQ_65.rq
+
     - ID: demcare_66
       question: What activities (situations) are of clinical interest with respect to ADLs?
+
     - ID: demcare_67
       question: What information is of clinical interest regarding food and drink preparation?
+      rq:
+        - DemCare_CQ_67.rq
+
     - ID: demcare_68
       question: What information is of clinical interest regarding food and drink consumption?
+      rq:
+        - DemCare_CQ_68.rq
+
     - ID: demcare_69
       question: What information is of clinical interest regarding housekeeping?
+
     - ID: demcare_70
       question: What information is of clinical interest regarding personal hygiene?
+
     - ID: demcare_71
       question: What food and drink preparation-related situations indicate a problem or possibly problematic behaviour that needs to be highlighted to the clinician?
+
     - ID: demcare_72
       question: What food and drink consumption-related situations indicate a problem or possibly problematic behaviour that needs to be highlighted to the clinician?
+      rq:
+        - DemCare_CQ_72.rq
+
     - ID: demcare_73
       question: What housekeeping-related situations indicate a problem or possibly problematic behaviour that needs to be highlighted to the clinician?
+
     - ID: demcare_74
       question: What personal hygiene-related situations indicate a problem or possibly problematic behaviour that needs to be highlighted to the clinician?
+
     - ID: demcare_75
       question: What activities (situations) are of clinical interest with respect to social interaction?
+      rq:
+        - DemCare_CQ_75.rq
+
     - ID: demcare_76
       question: What information is clinically relevant for social interaction assessment?
+      rq:
+        - DemCare_CQ_76.rq
+
     - ID: demcare_77
       question: What social interaction related situations indicate a problem or possibly problematic behaviour that needs to be highlighted to the clinician?
+      rq:
+        - DemCare_CQ_77.rq
+
     - ID: demcare_78
       question: What activities (situations) are of clinical interest with respect to physical activity?
+      rq:
+        - DemCare_CQ_78.rq
+
     - ID: demcare_79
       question: What information is clinically relevant for walking?
+
     - ID: demcare_80
       question: What information is clinically relevant for dedicated physical activities (i.e. exercises)?
+      rq:
+        - DemCare_CQ_80.rq
+
     - ID: demcare_81
       question: What information is clinically relevant for physical activity assessment?
+
     - ID: demcare_82
       question: What physical activity related situations indicate a problem or possibly problematic behaviour that needs to be highlighted to the clinician?
+      rq:
+        - DemCare_CQ_82.rq
+
     - ID: demcare_83
       question: What are the main types of entities?
+      rq:
+        - DemCare_CQ_83.rq
+
     - ID: demcare_84
       question: What are the main categories a person may belong to?
+      rq:
+        - DemCare_CQ_84.rq
+
     - ID: demcare_85
       question: What are the main types of objects?
+      rq:
+        - DemCare_CQ_85.rq
+
     - ID: demcare_86
       question: What are the main categories of places?
+
     - ID: demcare_87
       question: What are the types of indoor place?
+      rq:
+        - DemCare_CQ_87.rq
+
     - ID: demcare_88
       question: What are the main types of events?
+      rq:
+        - DemCare_CQ_88.rq
+
     - ID: demcare_89
       question: What are the main types of information describing an event?
+      rq:
+        - DemCare_CQ_89.rq
+
     - ID: demcare_90
       question: What are the main categories of events?
+      rq:
+        - DemCare_CQ_90.rq
+
     - ID: demcare_91
       question: What activities are detected?
+
     - ID: demcare_92
       question: What states are detected?
+
     - ID: demcare_93
       question: What object related events are detected?
+
     - ID: demcare_94
       question: What ambient measurements are detected?
+
     - ID: demcare_95
       question: What physiological measurements are detected?
+
     - ID: demcare_96
       question: What activities are inferred?
+
     - ID: demcare_97
       question:  What are the main types of data considered?
+
     - ID: demcare_98
       question: What are the main types of data an observation may refer to?
+      rq:
+        - DemCare_CQ_98.rq
+
     - ID: demcare_99
       question: What types of descriptive information are relevant to an observation?
+      rq:
+        - DemCare_CQ_99.rq
+
     - ID: demcare_100
       question: What are the main types of data a report may refer to?
+      rq:
+        - DemCare_CQ_100.rq
+
     - ID: demcare_101
       question: What types of descriptive information are relevant to a report?
+      rq:
+        - DemCare_CQ_101.rq
+
     - ID: demcare_102
       question: What are the main types of data an interpretation result may refer to?
+
     - ID: demcare_103
       question: What types of descriptive information are relevant to a result?
+      rq:
+        - DemCare_CQ_103.rq
+
     - ID: demcare_104
       question: What are the main types of sensors?
+      rq:
+        - DemCare_CQ_104.rq
+
     - ID: demcare_105
       question: What are the possible types of wearable sensors?
+      rq:
+        - DemCare_CQ_105.rq
+
     - ID: demcare_106
       question: What are the possible types of fixed sensors?
+      rq:
+        - DemCare_CQ_106.rq
+
     - ID: demcare_107
       question: What are the possible types processing components?
+      rq:
+        - DemCare_CQ_107.rq
