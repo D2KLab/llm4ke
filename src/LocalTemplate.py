@@ -5,10 +5,12 @@ from langchain_community.graphs import RdfGraph
 from langchain_core.prompts.prompt import PromptTemplate
 
 
-class LocalTemplate():
-    def __init__(self, body, input):
+class LocalTemplate:
+    input = None
+
+    def __init__(self, body, _input):
         self.body = body
-        self.input = input
+        self.input = _input
 
     def get(self):
         # print(self.body)
@@ -20,12 +22,6 @@ class LocalTemplate():
 
         body = t_config['Body']
         for k, v in t_config.get('Import', {}).items():
-            # g = RdfGraph(
-            #     source_file=v,
-            #     standard="rdf",
-            #     local_copy=os.path.join('temp', k),
-            # )
-
-            body = body.replace('{%s}' % k, Path(v).read_text()) #g.get_schema)
+            body = body.replace('{%s}' % k, Path(v).read_text())
 
         return LocalTemplate(body, t_config['Input'])

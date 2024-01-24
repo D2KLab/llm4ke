@@ -38,7 +38,7 @@ The pipeline uses [LangChain](https://www.langchain.com/), and in particular [Ol
 * Install Ollama from its [website](https://ollama.ai/download).
 * Install requirements `pip install -r requirements.txt`
 * Download the desidered LLM `ollama pull llama2` ([full list of available LLMs](https://ollama.ai/library))
-* Run it with ` python src/main.py generate_cqs -i ./dm-rdf/Odeuropa/odeuropa-ontology.owl --llm llama2`
+* Run it with `python src/main.py generate_cqs -i ./data/Odeuropa/dm/odeuropa-ontology.owl --llm llama2`
 
 ## Copyright
 
