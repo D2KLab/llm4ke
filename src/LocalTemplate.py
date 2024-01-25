@@ -1,8 +1,6 @@
-import os
-import yaml
 from pathlib import Path
-from langchain_community.graphs import RdfGraph
-from langchain_core.prompts.prompt import PromptTemplate
+
+import yaml
 
 
 class LocalTemplate:

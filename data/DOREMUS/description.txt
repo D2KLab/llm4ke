@@ -1,0 +1,2 @@
+The DOREMUS ontology aims to represent the main concept around music, with a focus on classical music.
+

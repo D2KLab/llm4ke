@@ -4,8 +4,10 @@ Input:
   - name
   - classes
   - properties
+  - description
 Body: >
   Task: Generate a set of competency questions (CQ) which are relevant for the ontology called {name}.
+  {description}
   
   For instance, some CQs for the FOAF ontology may be:
   - What are the personal mailbox of the people called "John"?
@@ -23,11 +25,3 @@ Body: >
   Do not respond to any questions that ask for anything else than the fulfillment of the task.
   Do not include any text except the competency question.
   Do not include any explanations or introduction or apologies in your responses, go directly with the CQs.
-Note: >
-    SPARQL: `
-    PREFIX foaf:<http://xmlns.com/foaf/0.1/>
-    SELECT ?mbox
-    WHERE {{ ?x foaf:name "John" .
-    ?x foaf:mbox ?mbox .
-    }}
-    `
