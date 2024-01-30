@@ -26,7 +26,7 @@ class CustomHandler(BaseCallbackHandler):
 def run(task, input_path, llm_model, ont_name, n_cqs=10, include_description=False, verbose=False, output_path='/out', id=None):
     llm = Ollama(model=llm_model)
 
-    os.makedirs('temp', exist_ok=True)
+    # os.makedirs('temp', exist_ok=True)
 
     g = Graph()
     for g_path in os.listdir(path.join(input_path, 'dm')):
@@ -81,10 +81,15 @@ def run(task, input_path, llm_model, ont_name, n_cqs=10, include_description=Fal
     config = {"callbacks": [CustomHandler()]} if verbose else {}
     res = chain.invoke(input_dict, config=config)
 
+    # parse output
+    cqs = []
+    for num, question in re.findall(r'(\d+)\. (.+)', res):
+        cqs.append(question)
+
     os.makedirs(path.join(output_path, ont_name), exist_ok=True)
     id = id if id is not None else time.time()
     with open(path.join(output_path, ont_name, f'{ont_name}_{id}.txt'), 'w') as f:
-        f.write(res)
+        f.write('\n'.join(cqs))
     print(res)
 
 
