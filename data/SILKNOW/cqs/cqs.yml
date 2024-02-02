@@ -7,7 +7,7 @@ ontology:
       group: A. Location
       rq:
         - A1.rq
-  
+
     - ID: <CQId>
       question: Where were Mudejar-style fabrics produced?
       group: A. Location
@@ -29,7 +29,7 @@ ontology:
       group: A. Location
       rq:
         - A6.rq
-  
+
     - ID: <CQId>
       question: What Valencian fabrics are located in the Spanish royal collections?
       group: A. Location
@@ -39,7 +39,7 @@ ontology:
       group: A. Location
       rq:
         - A8.rq
-  
+
     - ID: <CQId>
       question: Give me a list of textile factories in a Florence
       group: A. Location
@@ -49,13 +49,13 @@ ontology:
       group: B. Time
       rq:
         - B1.rq
-  
+
     - ID: <CQId>
       question: What are the common decorative elements in 16th century fabrics? (0 results)
       group: B. Time
       rq:
         - B2.rq
-  
+
     - ID: <CQId>
       question: Which fabric became popular in Italy in the fifteenth century?
       group: B. Time
@@ -69,7 +69,7 @@ ontology:
       group: B. Time
       rq:
         - B5.rq
-  
+
     - ID: <CQId>
       question: What are the most common decorative motifs in the Hispanic Middle Ages?
       group: B. Time
@@ -79,7 +79,7 @@ ontology:
       group: C. Time and location
       rq:
         - C1.rq
-  
+
     - ID: <CQId>
       question: Give me all the items that have been produced after 1750 in France.
       group: C. Time and location
@@ -97,7 +97,7 @@ ontology:
       group: D. Materials
       rq:
         - D1.rq
-  
+
     - ID: <CQId>
       question: When does the "a pizzo" design become popular?
       group: D. Materials
@@ -123,7 +123,7 @@ ontology:
       group: D. Materials
       rq:
         - D7.rq
-  
+
     - ID: <CQId>
       question: Give me the objects that involve silk, silver and wool, except those that involve gold. (Same results as the question above.)
       group: D. Materials
@@ -135,7 +135,7 @@ ontology:
       group: E. Artists
       rq:
         - E1.rq
-  
+
     - ID: <CQId>
       question: Give me all the information you have on Philippe de la Salle!
       group: E. Artists
@@ -149,7 +149,7 @@ ontology:
       group: E. Artists
       rq:
         - E4.rq
-  
+
     - ID: <CQId>
       question: Give me all the items designed by Italian artists
       group: E. Artists
@@ -173,13 +173,13 @@ ontology:
       group: F. Artists and time
       rq:
         - F1.rq
-  
+
     - ID: <CQId>
       question: Give me all the items created by Philippe de la Salle in the last 5 years of his life.
       group: F. Artists and time
       rq:
         - F2.rq
-  
+
     - ID: <CQId>
       question: Give me a list of designers from Valencia during the 19th century
       group: F. Artists and time
@@ -187,7 +187,7 @@ ontology:
     - ID: <CQId>
       question: Give me all the designers who were born in England
       group: G. Artists and location
-  
+
     - ID: <CQId>
       question: Give me all the designers who were trained in Italy
       group: G. Artists and location
@@ -201,7 +201,7 @@ ontology:
       group: H. Style
       rq:
         - H1.rq
-  
+
     - ID: <CQId>
       question: Give me all the items that have been influenced by oriental fashion.
       group: H. Style
@@ -211,7 +211,7 @@ ontology:
       group: H. Style
       rq:
         - H3.rq
-  
+
     - ID: <CQId>
       question: Give me all the items with hearts and flowers on them
       group: H. Style
@@ -233,13 +233,13 @@ ontology:
       group: I. Type of items
       rq:
         - I1.rq
-  
+
     - ID: <CQId>
       question: Give me all the dresses that have been worn with a petticoat
       group: I. Type of items
       rq:
         - I2.rq
-  
+
     - ID: <CQId>
       question: Give examples of textiles that conserve both the fabric and the mise-en-carte
       group: I. Type of items
@@ -265,7 +265,7 @@ ontology:
     - ID: <CQId>
       question: Give me all the scarves with cotton and with hearts on them
       group: K. Type of items, materials and style
-  
+
     - ID: <CQId>
       question: Give me examples of imitations or revivals of textiles during the 18th century
       group: K. Type of items, materials and style
@@ -275,7 +275,7 @@ ontology:
       group: L. Types of items and location
       rq:
         - L1.rq
-  
+
     - ID: <CQId>
       question: What textiles belonged to the collector Mariano Fortuny?
       group: L. Types of items and location
@@ -289,17 +289,17 @@ ontology:
     - ID: <CQId>
       question: Give me all the clothes produced in Spain during the Renaissance.
       group: N. Type of items, time and location
-  
+
     - ID: <CQId>
       question: Give me all the scarves that have been produced in England between 1800 and 1850.
       group: N. Type of items, time and location
       rq:
         - N2.rq
-  
+
     - ID: <CQId>
       question: Give me all the ribbon involving silver and produced in Italy during the Renaissance .
       group: O. Type of items, time, location and material
-  
+
     - ID: <CQId>
       question: Give me those ornamental motifs from classical antiquity that appear in fabrics, mises-en-carte and designs ... Organized by chronology, location, place of origin ...
       group: O. Type of items, time, location and material
@@ -307,7 +307,7 @@ ontology:
     - ID: <CQId>
       question: ¿Cuáles son los motivos decorativos más habituales en la Edad Media hispánica?*
       group: P. Questions in Spanish
-  
+
     - ID: <CQId>
       question: ¿Qué tejidos valencianos hay en las colecciones reales españolas?
       group: P. Questions in Spanish

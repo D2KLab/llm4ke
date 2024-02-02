@@ -393,7 +393,7 @@ ontology:
       question: What activities are inferred?
 
     - ID: demcare_97
-      question:  What are the main types of data considered?
+      question: What are the main types of data considered?
 
     - ID: demcare_98
       question: What are the main types of data an observation may refer to?

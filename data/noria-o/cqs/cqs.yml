@@ -45,7 +45,7 @@ ontology:
     - ID: noria_08
       question: What are the fields of the log?
       rq:
-      - at_field_log.sparql
+        - at_field_log.sparql
 
     - ID: noria_09
       question: Is there any pattern in a given set of logs/alarms?
@@ -117,7 +117,7 @@ ontology:
       question: Which agents were involved in the resolution of the incident?
       rq:
         - at_troubleTicket_relatedParty.sparql
-  
+
     - ID: noria_23
       question: What is the financial cost of this incident if it occurs?
 

@@ -1,5 +1,6 @@
-from os import path
 from argparse import ArgumentParser
+from os import path
+
 import yaml
 from sentence_transformers import SentenceTransformer, util
 

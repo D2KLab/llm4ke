@@ -88,7 +88,7 @@ ontology:
       group: B. Noses and Gestures - How did people use their noses in the past and what types of smell expertise or experience can we find?
       rq:
         - b7.rq
-  
+
     - ID: <CQId>
       question: What are the odours most associated with [an ethnic group such Ashkenazi Jews]?
       group: C. Identities - What meaning did smells have and how did they communicate identities or stereotypes? (e.g the use of garlic to stereotype groups such Ashkenazi Jews; floral scents and femininity)
@@ -119,7 +119,7 @@ ontology:
       group: C. Identities - What meaning did smells have and how did they communicate identities or stereotypes? (e.g the use of garlic to stereotype groups such Ashkenazi Jews; floral scents and femininity)
       rq:
         - c7.rq
-  
+
     - ID: <CQId>
       question: What feelings were associated with [a particular smell] in [parts of Europe] at [a given time]?
       group: D. Emotions - What feelings were associated with smells in parts of Europe at different times?
@@ -150,7 +150,7 @@ ontology:
       group: D. Emotions - What feelings were associated with smells in parts of Europe at different times?
       rq:
         - d6.rq
-  
+
     - ID: <CQId>
       question: Which types of practices produce a bad smell?
       group: E. Practices - What kinds of practices produced smells?

@@ -2,7 +2,8 @@
 
 This folder contains an implementation of the ontologies that are the focus of the research project.
 It is intended to be used as a reference for experimentation.
-Additionally, it includes a set of competency questions (CQs) and evaluation queries (SPARQL queries) that are related to these ontologies.
+Additionally, it includes a set of competency questions (CQs) and evaluation queries (SPARQL queries) that are related
+to these ontologies.
 
 The file [dm-rdf.yml](dm-rdf.yml) lists the ontologies and their respective origins.
 The canonical structure of this file is as follows:
@@ -22,7 +23,8 @@ ontologies:
 
 ## Competency questions (CQs)
 
-For each ontology, we provide a `./<ProjectName>/cqs/cqs.yml` file for standard representation of the CQs based on the original set of competency questions brought with the ontology implementation.
+For each ontology, we provide a `./<ProjectName>/cqs/cqs.yml` file for standard representation of the CQs based on the
+original set of competency questions brought with the ontology implementation.
 
 The canonical structure of this file is as follows:
 
@@ -44,8 +46,8 @@ ontology:
 
 * We extract parts of the original `CQs only Dataset.csv` file related to each ontology
 * From the resulting parts, we map the columns to the above YAML structure as follows:
-  * `ID` => `ID`
-  * `CQ` => `question`
+    * `ID` => `ID`
+    * `CQ` => `question`
 
 For example, for *ontodt*:
 
@@ -82,9 +84,10 @@ ontology:
 
 * We parse the content of the ontologies' companion *README.md* file where CQs are listed
 * For each competency question, we map the data as follows:
-  * `**[<language>]** <question>` => `question`. For questions were two or more translations are available, we select the *en* version of the competency question. 
-  * `[query](./<query_file_name>.rq)` => `rq`
-  * `## <question group>` => `group`
+    * `**[<language>]** <question>` => `question`. For questions were two or more translations are available, we select
+      the *en* version of the competency question.
+    * `[query](./<query_file_name>.rq)` => `rq`
+    * `## <question group>` => `group`
 
 For example, for *SILKNOW*:
 
@@ -109,16 +112,17 @@ ontology:
 #### For *[noria-o](./noria-o)*
 
 * We filter and rename keys of the original YAML file with the competency questions:
-  * `Question` => `question`
-  * `Evaluation.query` => `rq`
+    * `Question` => `question`
+    * `Evaluation.query` => `rq`
 
 #### For *[Polifonia](./Polifonia)*
 
 * We process the *cq_sanity_checks.csv* file by extrzacting parts of the document conform to CSV syntax.
 * For each row, we map the columns as follows:
-  * `persona,story,id` => `ID`
-  * `cq` => `question`. For questions with the `to-split` tag (*issues* column), we concatenate all questions in a single `question` key.
-  * Inner comments => `group`
+    * `persona,story,id` => `ID`
+    * `cq` => `question`. For questions with the `to-split` tag (*issues* column), we concatenate all questions in a
+      single `question` key.
+    * Inner comments => `group`
 
 For example:
 
@@ -143,8 +147,10 @@ ontology:
 
 ## Remarks
 
-- The [CLaRO](https://github.com/mkeet/CLaRO) ontology set required adding [shared/time.owl](shared%2Ftime.owl) as several CLaRO ontologies are referencing it. Download from commit [57a5bd2](https://github.com/CQ2SPARQLOWL/Dataset/commit/57a5bd2ab66c8a40041af6e20cb965bd69766496).
+- The [CLaRO](https://github.com/mkeet/CLaRO) ontology set required adding [shared/time.owl](shared%2Ftime.owl) as
+  several CLaRO ontologies are referencing it. Download from
+  commit [57a5bd2](https://github.com/CQ2SPARQLOWL/Dataset/commit/57a5bd2ab66c8a40041af6e20cb965bd69766496).
 - Polifonia
-  - is a network of ontologies => potential need to merge them into a single file.
-  - Where are the queries shared?
+    - is a network of ontologies => potential need to merge them into a single file.
+    - Where are the queries shared?
 - SILKNOW looks more like KG rather than an ontology => what should we download?
