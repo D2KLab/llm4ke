@@ -153,10 +153,12 @@ def run(task, input_path, llm_model, ont_name, n_cqs=10, include_description=Fal
 
 
 if __name__ == '__main__':
+    available_tasks = [x.replace('.yml', '') for x in os.listdir('./src/prompt_templates/')]
+
     parser = ArgumentParser(
         prog='LLM4ke',
         description='Experiment about LLMs on Knowledge Graphs')
-    parser.add_argument('task', choices=['all_classes', 'all_classes+properties', 'logic'])
+    parser.add_argument('task', choices=available_tasks)
     parser.add_argument('-i', '--input', help='Input folder', default='./data/Odeuropa/')
     parser.add_argument('-o', '--output', help='Output folder', default='./out/')
     parser.add_argument('--use-huggingface', action='store_true', help='Use Hugging Face model instead of Ollama')
