@@ -48,13 +48,3 @@ def run(input_path, prediction_path):
     return precision
 
 
-if __name__ == '__main__':
-    parser = ArgumentParser(
-        prog='LLM4ke',
-        description='Experiment about LLMs on Knowledge Graphs')
-    parser.add_argument('-i', '--input', help='Input folder', default='./data/Odeuropa/')
-    parser.add_argument('-p', '--predictions', help='Prediction file',
-                        default='./out/Odeuropa/Odeuropa_1706193495.994226.txt')
-
-    args = parser.parse_args()
-    run(args.input, args.predictions)
