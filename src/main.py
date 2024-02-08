@@ -20,6 +20,9 @@ os.environ["HUGGINGFACE_HUB_CACHE"] = "/data/huggingface/"
 from transformers import AutoTokenizer, AutoModelForCausalLM
 def simplify(uri):
     return re.split(r'[#/]', uri)[-1].replace('_', ' ')
+def select_in_batches(lst, batch_size=5):
+    for i in range(0, len(lst), batch_size):
+        yield lst[i:i+batch_size]
 
 
 class CustomHandler(BaseCallbackHandler):
@@ -27,36 +30,36 @@ class CustomHandler(BaseCallbackHandler):
         formatted_prompts = "\n".join(prompts)
         print(f"********** Prompt **************\n{formatted_prompts}\n********** End Prompt **************")
 
-tmp_prompt='''Generate a set of competency questions (CQ) which are relevant for the ontology called Odeuropa. The Odeuropa ontology represents odours and their experiences from a Cultural Heritage perspective. 
-            The Odeuropa ontology has the following classes: 
-            1.The smell
-            2.Smell_Emission
-            3.Olfactory_Experience, 
-            4.Smell_Transformation
-            5.Smell_Interaction
-            6.L16_Odorizing
-            7.Sensory_Stimulus
-            8.Stimulus_Generation
-            9.Sensory_Experience
-            10. Stimuli_Transformation
-            11.Stimuli_Interaction
-            12.Animal
-            13.Gesture
-            Please generate 10 CQs.
-            Note: Be as concise as possible. Do not respond to any questions that ask for anything else than the fulfillment of the task. Do not include any text except the competency question. '''
+
 def run_with_huggingface(input, model_name,task):
-        print('input',input)
+        request = 'Generate a set of competency questions (CQ) which are relevant for the ontology called'
+        indications = ' Note: Be as concise as possible. Do not respond to any questions that ask for anything else than the fulfillment of the task. Do not include any text except the competency question. Give very simple CQs. Do not give multiple CQS in one CQs'
+
         tokenizer = AutoTokenizer.from_pretrained(model_name)
         model = AutoModelForCausalLM.from_pretrained(model_name, device_map='sequential', load_in_8bit=True,
                                                      use_safetensors=True)
+        results=''
+        classes=input['classes'].split('\n-')
+        for class_set in  select_in_batches(classes):
+            cls='\n-'.join([str(elm) for elm in class_set])
 
-        inputs = tokenizer(tmp_prompt, return_tensors="pt").to('cuda')
+            template = f'''<|system|> 
+            
+    
+            {request + input['name'] + ',' + input ['description'] + ',' + cls+ ',' + indications}</s>
+            <|assistant|> '''
+            print('template',template)
 
-        outputs = model.generate(**inputs, max_new_tokens=300, do_sample=True)
-        result = tokenizer.decode(outputs[0], skip_special_tokens=True)
-        print('I have got the results')
 
-        return result
+            inputs = tokenizer([template], return_tensors="pt").to('cuda')
+
+            outputs = model.generate(**inputs, max_new_tokens=300, do_sample=True)
+            result = tokenizer.decode(outputs[0], skip_special_tokens=True)
+            results +=result
+
+
+
+        return results
 
 
 
@@ -89,6 +92,7 @@ def run(task, input_path, llm_model, ont_name, n_cqs=10, include_description=Fal
     }
 
 
+
     print(f'The {ont_name} ontology has {len(cls)} classes and {len(props)} properties')
 
     schema = []
@@ -112,18 +116,11 @@ def run(task, input_path, llm_model, ont_name, n_cqs=10, include_description=Fal
         input_dict[x] = ont_input[x]
 
     sparql_prompt = PromptTemplate(
-        input_variables=["prompt"] + PROMPT_TEMPLATE.input, template=PROMPT_TEMPLATE.get().format(n=input_dict['n'], name=input_dict['name'], schema=ont_input['schema'], description=input_dict['description'])
+        input_variables=["prompt"] + PROMPT_TEMPLATE.input, template=PROMPT_TEMPLATE.get()
     )
-
-
-
-    # # Filling the template
-    # filled_template = PROMPT_TEMPLATE.get().format(n=input_dict['n'], name=input_dict['name'], classes=input_dict['classes'], description=input_dict['description'])
-    # print(sparql_prompt)
     if use_huggingface:
 
-        res=run_with_huggingface(sparql_prompt, llm_model,task)
-        print('output results from the Model ')
+        res=run_with_huggingface(input_dict, llm_model,task)
         print(res)
 
 
