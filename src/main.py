@@ -20,7 +20,7 @@ os.environ["HUGGINGFACE_HUB_CACHE"] = "/data/huggingface/"
 from transformers import AutoTokenizer, AutoModelForCausalLM
 def simplify(uri):
     return re.split(r'[#/]', uri)[-1].replace('_', ' ')
-def select_in_batches(lst, batch_size=5):
+def select_in_batches(lst, batch_size=20):
     for i in range(0, len(lst), batch_size):
         yield lst[i:i+batch_size]
 
@@ -40,13 +40,21 @@ def run_with_huggingface(input, model_name,task):
                                                      use_safetensors=True)
         results=''
         classes=input['classes'].split('\n-')
+        print(classes)
+        examples='''-Which works have been composed by Mozart ?
+         - Retrieve all the works that have been written by German composers between 1800 and 1850 and performed at the Royal Albert Hall
+         -Give me the flute sonatas that last less than or equal to 15 minutes '''
+        examples_od='''-What smell sources have the highest number of documentation in the past?
+        -What are the most frequent smell sources in London in the 18th century?
+        -Which scents were linked to the idea of heaven in X period?'''
+
         for class_set in  select_in_batches(classes):
             cls='\n-'.join([str(elm) for elm in class_set])
 
             template = f'''<|system|> 
             
     
-            {request + input['name'] + ',' + input ['description'] + ',' + cls+ ',' + indications}</s>
+            {request + input['name'] + ',' + input ['description'] + ',' + cls+ ',' + indications + 'For example' + examples}</s>
             <|assistant|> '''
             print('template',template)
 
@@ -139,8 +147,20 @@ def run(task, input_path, llm_model, ont_name, n_cqs=10, include_description=Fal
 
     # parse output
     cqs = []
-    for num, question in re.findall(r'(\d+)\. (.+)', res):
-        cqs.append(question)
+    # for num, question in re.findall(r'(\d+)\. (.+)', res):
+    #
+    #     cqs.append(question)
+    patterns = [r'(\d+)\. (.+)[?.]', r'\s*-\s*(.*?)[?.]']
+    cqs = []
+
+    for pattern in patterns:
+        matches = re.findall(pattern, res)
+        if matches:
+            for match in matches:
+                if pattern == patterns[0]:
+                    cqs.append(match[1])
+                else:
+                    cqs.append(match)
 
     os.makedirs(path.join(output_path, ont_name), exist_ok=True)
     id = id if id is not None else time.time()
@@ -172,7 +192,7 @@ if __name__ == '__main__':
     if args.use_huggingface:
         # User wants to use Hugging Face model
         # Provide a list of available Hugging Face models as options
-        huggingface_models=["yunconglong/Truthful_DPO_TomGrc_FusionNet_7Bx2_MoE_13B"]  # Add your model names here
+        huggingface_models=["yunconglong/Truthful_DPO_TomGrc_FusionNet_7Bx2_MoE_13B","fblgit/UNA-TheBeagle-7b-v1","bhavinjawade/SOLAR-10B-OrcaDPO-Jawade","HuggingFaceH4/zephyr-7b-beta"]  # Add your model names here
         print("Available Hugging Face models:")
         for i, model_name in enumerate(huggingface_models, start=1):
             print(f"{i}. {model_name}")
