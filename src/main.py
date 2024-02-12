@@ -169,9 +169,10 @@ if __name__ == '__main__':
     parser.add_argument('--local_llm', action='store_true', help='If True, use Ollama instead of Hugging Face')
     parser.add_argument('--llm', help='LLM to use', default='llama2', choices=available_llms)
     parser.add_argument('--name', help='Name of the ontology', required=True)
-    parser.add_argument('-n', '--n_cqs', help='Number of competency questions to get in output', default=10)
+    parser.add_argument('-n', '--n_cqs', help='Number of competency questions to get in output',
+                        type=int, default=10)
     parser.add_argument('-x', '--n_examples', help='Number of example competency questions to provide in input',
-                        default=0)
+                        type=int, default=0)
     parser.add_argument('--include_description', help='Include the content of description.txt in the prompt',
                         default=False, action='store_true')
     parser.add_argument('--verbose', help='Print the full prompt',

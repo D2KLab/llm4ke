@@ -5,19 +5,19 @@ Input:
   - classes
   - properties
   - description
+  - examples
 Body: >
   Task: Generate a set of competency questions (CQ) which are relevant for the ontology called {name}.
   {description}
   
-  For instance, some CQs for the FOAF ontology may be:
-  - What are the personal mailbox of the people called "John"?
-  - How many people are known by "Mary"?
-  
   The {name} ontology has the following set of classes:
+    
   - {classes}
-  
   and the following set of properties:
+  
   - {properties}
+  
+  {examples}
   
   Please generate {n} CQs.
   
