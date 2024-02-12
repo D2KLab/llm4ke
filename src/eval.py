@@ -12,10 +12,11 @@ SIMILARITY_THRESHOLD = 0.3  # TODO TO BE CHANGED
 def run(input_path, prediction_path):
     with open(path.join(input_path, 'cqs', 'cqs.yml')) as f:
         ground_truth = yaml.safe_load(f)
+    cqs = [c['question'] for c in ground_truth['ontology']['cqs']]
+
     with open(prediction_path) as f:
         predictions = f.readlines()
 
-    cqs = [c['question'] for c in ground_truth['ontology']['cqs']]
     # Compute embeddings
     gt_embeddings = model.encode(cqs, convert_to_tensor=True)
     pred_embeddings = model.encode(predictions, convert_to_tensor=True)

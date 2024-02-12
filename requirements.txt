@@ -1,6 +1,8 @@
 langchain
 langchain_community
-pyyaml
-rdflib
-argparse
+pyyaml~=6.0.1
+rdflib~=7.0.0
+argparse~=1.4.0
 sentence_transformers
+openai~=1.7.0
+transformers~=4.37.2

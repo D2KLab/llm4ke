@@ -5,24 +5,38 @@ from argparse import ArgumentParser
 from os import path
 from pathlib import Path
 
+import yaml
+from langchain.llms.huggingface_pipeline import HuggingFacePipeline
 from langchain_community.llms import Ollama
 from langchain_core.callbacks.base import BaseCallbackHandler
 from langchain_core.output_parsers import StrOutputParser
 from langchain_core.prompts.prompt import PromptTemplate
 from rdflib import Graph, RDF, RDFS, OWL
+from transformers import AutoTokenizer, AutoModelForCausalLM, pipeline
+
 from LocalTemplate import LocalTemplate
-import os
-import re
+
 os.environ["CUDA_VISIBLE_DEVICES"] = "3,2"  # Specify the GPU id
 os.environ["HUGGINGFACE_HUB_CACHE"] = "/data/huggingface/"
+
+
 # device = "cuda"
 
-from transformers import AutoTokenizer, AutoModelForCausalLM
+
 def simplify(uri):
     return re.split(r'[#/]', uri)[-1].replace('_', ' ')
+
+
+def flatten(matrix):
+    flat_list = []
+    for row in matrix:
+        flat_list.extend(row)
+    return flat_list
+
+
 def select_in_batches(lst, batch_size=20):
     for i in range(0, len(lst), batch_size):
-        yield lst[i:i+batch_size]
+        yield lst[i:i + batch_size]
 
 
 class CustomHandler(BaseCallbackHandler):
@@ -31,51 +45,16 @@ class CustomHandler(BaseCallbackHandler):
         print(f"********** Prompt **************\n{formatted_prompts}\n********** End Prompt **************")
 
 
-def run_with_huggingface(input, model_name,task):
-        request = 'Generate a set of competency questions (CQ) which are relevant for the ontology called'
-        indications = ' Note: Be as concise as possible. Do not respond to any questions that ask for anything else than the fulfillment of the task. Do not include any text except the competency question. Give very simple CQs. Do not give multiple CQS in one CQs'
-
-        tokenizer = AutoTokenizer.from_pretrained(model_name)
-        model = AutoModelForCausalLM.from_pretrained(model_name, device_map='sequential', load_in_8bit=True,
-                                                     use_safetensors=True)
-        results=''
-        classes=input['classes'].split('\n-')
-        print(classes)
-        examples='''-Which works have been composed by Mozart ?
-         - Retrieve all the works that have been written by German composers between 1800 and 1850 and performed at the Royal Albert Hall
-         -Give me the flute sonatas that last less than or equal to 15 minutes '''
-        examples_od='''-What smell sources have the highest number of documentation in the past?
-        -What are the most frequent smell sources in London in the 18th century?
-        -Which scents were linked to the idea of heaven in X period?'''
-
-        for class_set in  select_in_batches(classes):
-            cls='\n-'.join([str(elm) for elm in class_set])
-
-            template = f'''<|system|> 
-            
-    
-            {request + input['name'] + ',' + input ['description'] + ',' + cls+ ',' + indications + 'For example' + examples}</s>
-            <|assistant|> '''
-            print('template',template)
+def select_props_by_class(schema, cl):
+    return [p for s, p, o in schema if cl in [s, o]]
 
 
-            inputs = tokenizer([template], return_tensors="pt").to('cuda')
-
-            outputs = model.generate(**inputs, max_new_tokens=300, do_sample=True)
-            result = tokenizer.decode(outputs[0], skip_special_tokens=True)
-            results +=result
+def select_schema_by_class(schema, cl):
+    return [(s, p, o) for s, p, o in schema if cl in [s, o]]
 
 
-
-        return results
-
-
-
-def run(task, input_path, llm_model, ont_name, n_cqs=10, include_description=False, verbose=False, output_path='/out', id=None, use_huggingface=False):
-
-
-    # os.makedirs('temp', exist_ok=True)
-
+def run(task, input_path, llm_model, ont_name, n_cqs=10, include_description=False, verbose=False, output_path='/out',
+        id=None, local_llm=False, n_examples=0):
     g = Graph()
     for g_path in os.listdir(path.join(input_path, 'dm')):
         if not g_path.split('.')[-1] in ['rdf', 'ttl', 'owl']:
@@ -85,24 +64,10 @@ def run(task, input_path, llm_model, ont_name, n_cqs=10, include_description=Fal
     cls = [s for s, p, o in g.triples((None, RDF.type, OWL.Class))]
     props = ([s for s, p, o in g.triples((None, RDF.type, OWL.ObjectProperty))] +
              [s for s, p, o in g.triples((None, RDF.type, OWL.DatatypeProperty))])
-    # print(cls)
-    # print(props)
-
 
     description = Path(path.join(input_path, 'description.txt')).read_text() if include_description else ''
 
-    ont_input = {
-        'name': ont_name,
-        'description': description,
-        'n': n_cqs,
-        'classes': '\n- '.join([simplify(s) for s in cls]),
-        'properties': '\n- '.join([simplify(s) for s in props])
-    }
-
-
-
     print(f'The {ont_name} ontology has {len(cls)} classes and {len(props)} properties')
-
     schema = []
     for p in props:
         domain = g.value(p, RDFS.domain, None)
@@ -110,57 +75,72 @@ def run(task, input_path, llm_model, ont_name, n_cqs=10, include_description=Fal
 
         if domain is not None:
             if range is not None:
-                schema.append((domain, p, range))
+                schema.append((simplify(domain), simplify(p), simplify(range)))
             else:
-                schema.append((domain, p, 'literal'))
-
-    ont_input['schema'] = '\n- '.join([f'({simplify(s)}, {simplify(p)}, {simplify(o)})' for s, p, o in schema])
-
+                schema.append((simplify(domain), simplify(p), 'literal'))
 
     PROMPT_TEMPLATE = LocalTemplate.load(f'./src/prompt_templates/{task}.yml')
 
-    input_dict = {}
-    for x in PROMPT_TEMPLATE.input:
-        input_dict[x] = ont_input[x]
+    classes_batches = [[simplify(elm) for elm in class_set] for class_set in select_in_batches(cls)]
+    property_batches = [flatten([select_props_by_class(schema, cl) for cl in batch]) for batch in classes_batches]
+    schema_batches = [flatten([select_schema_by_class(schema, cl) for cl in batch]) for batch in classes_batches]
 
-    sparql_prompt = PromptTemplate(
-        input_variables=["prompt"] + PROMPT_TEMPLATE.input, template=PROMPT_TEMPLATE.get()
-    )
-    if use_huggingface:
+    examples = ''
+    if n_examples > 0:
+        with open(path.join(input_path, 'cqs', 'cqs.yml')) as f:
+            ground_truth = yaml.safe_load(f)
+        cqs = [c['question'] for c in ground_truth['ontology']['cqs']]
+        examples = 'For example:' + '\n -'.join(cqs[n_examples])
 
-        res=run_with_huggingface(input_dict, llm_model,task)
-        print(res)
-
-
-    else:
-        llm = Ollama(model=llm_model)
-        output_parser = StrOutputParser()
-
-        chain = sparql_prompt | llm | output_parser
-
+    input_batches = []
+    for c_batch, p_batch, s_batch in zip(classes_batches, property_batches, schema_batches):
+        ont_input = {
+            'name': ont_name,
+            'description': description,
+            'n': n_cqs,
+            'classes': '\n- '.join([simplify(s) for s in c_batch]),
+            'properties': '\n- '.join([simplify(s) for s in p_batch]),
+            'schema': '\n- '.join([f'({simplify(s)}, {simplify(p)}, {simplify(o)})' for s, p, o in s_batch]),
+            'examples': examples
+        }
         input_dict = {}
         for x in PROMPT_TEMPLATE.input:
             input_dict[x] = ont_input[x]
+        input_batches.append(input_dict)
 
-        config = {"callbacks": [CustomHandler()]} if verbose else {}
-        res = chain.invoke(input_dict, config=config)
+    if local_llm or available_llms[llm_model] == 'local':
+        llm = Ollama(model=llm_model)
+    else:
+        tokenizer = AutoTokenizer.from_pretrained(llm_model)
+        model = AutoModelForCausalLM.from_pretrained(llm_model, device_map='sequential',
+                                                     load_in_8bit=False, use_safetensors=True)
+
+        pipe = pipeline("text-generation", model=model, tokenizer=tokenizer, max_new_tokens=512)
+
+        llm = HuggingFacePipeline(pipeline=pipe)
+
+    output_parser = StrOutputParser()
+    prompt = PromptTemplate(
+        input_variables=["prompt"] + PROMPT_TEMPLATE.input, template=PROMPT_TEMPLATE.get()
+    )
+    chain = prompt | llm | output_parser
+
+    config = {"callbacks": [CustomHandler()]} if verbose else {}
+    res = chain.batch(input_batches, config=config)
 
     # parse output
-    cqs = []
-    # for num, question in re.findall(r'(\d+)\. (.+)', res):
-    #
-    #     cqs.append(question)
     patterns = [r'(\d+)\. (.+)[?.]', r'\s*-\s*(.*?)[?.]']
     cqs = []
 
-    for pattern in patterns:
-        matches = re.findall(pattern, res)
-        if matches:
-            for match in matches:
-                if pattern == patterns[0]:
-                    cqs.append(match[1])
-                else:
-                    cqs.append(match)
+    for batch in res:
+        for pattern in patterns:
+            matches = re.findall(pattern, batch)
+            if matches:
+                for match in matches:
+                    if pattern == patterns[0]:
+                        cqs.append(match[1])
+                    else:
+                        cqs.append(match)
 
     os.makedirs(path.join(output_path, ont_name), exist_ok=True)
     id = id if id is not None else time.time()
@@ -171,6 +151,14 @@ def run(task, input_path, llm_model, ont_name, n_cqs=10, include_description=Fal
 
 if __name__ == '__main__':
     available_tasks = [x.replace('.yml', '') for x in os.listdir('./src/prompt_templates/')]
+    available_llms = {
+        "dpo": "yunconglong/Truthful_DPO_TomGrc_FusionNet_7Bx2_MoE_13B",
+        "una": "fblgit/UNA-TheBeagle-7b-v1",
+        "solar": "bhavinjawade/SOLAR-10B-OrcaDPO-Jawade",
+        "zephyr": "HuggingFaceH4/zephyr-7b-beta",
+        "llama2": "local",
+        "mistral": "local"
+    }
 
     parser = ArgumentParser(
         prog='LLM4ke',
@@ -178,10 +166,12 @@ if __name__ == '__main__':
     parser.add_argument('task', choices=available_tasks)
     parser.add_argument('-i', '--input', help='Input folder', default='./data/Odeuropa/')
     parser.add_argument('-o', '--output', help='Output folder', default='./out/')
-    parser.add_argument('--use-huggingface', action='store_true', help='Use Hugging Face model instead of Ollama')
-    parser.add_argument('--llm', help='LLM to use', default='llama2')
+    parser.add_argument('--local_llm', action='store_true', help='If True, use Ollama instead of Hugging Face')
+    parser.add_argument('--llm', help='LLM to use', default='llama2', choices=available_llms)
     parser.add_argument('--name', help='Name of the ontology', required=True)
     parser.add_argument('-n', '--n_cqs', help='Number of competency questions to get in output', default=10)
+    parser.add_argument('-x', '--n_examples', help='Number of example competency questions to provide in input',
+                        default=0)
     parser.add_argument('--include_description', help='Include the content of description.txt in the prompt',
                         default=False, action='store_true')
     parser.add_argument('--verbose', help='Print the full prompt',
@@ -189,18 +179,11 @@ if __name__ == '__main__':
     parser.add_argument('--id', help='Id for naming the output file. If absent, it will be a timestamp')
 
     args = parser.parse_args()
-    if args.use_huggingface:
-        # User wants to use Hugging Face model
-        # Provide a list of available Hugging Face models as options
-        huggingface_models=["yunconglong/Truthful_DPO_TomGrc_FusionNet_7Bx2_MoE_13B","fblgit/UNA-TheBeagle-7b-v1","bhavinjawade/SOLAR-10B-OrcaDPO-Jawade","HuggingFaceH4/zephyr-7b-beta"]  # Add your model names here
-        print("Available Hugging Face models:")
-        for i, model_name in enumerate(huggingface_models, start=1):
-            print(f"{i}. {model_name}")
-        model_choice = int(input("Enter the number of the model you want to use: "))
-        chosen_model = huggingface_models[model_choice - 1]
-        run(args.task, args.input, chosen_model, args.name, args.n_cqs, args.include_description, args.verbose, args.output,
-            args.id,use_huggingface=True)
-    else:
-        run(args.task, args.input, args.llm, args.name, args.n_cqs, args.include_description, args.verbose, args.output, args.id,use_huggingface=False)
+    _llm = args.llm
+    if not args.local_llm:
+        selected = available_llms[_llm]
+        if selected != "local":
+            _llm = selected
 
-
+    run(args.task, args.input, _llm, args.name, args.n_cqs, args.include_description, args.verbose, args.output,
+        args.id, args.local_llm, args.n_examples)
