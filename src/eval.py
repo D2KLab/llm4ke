@@ -41,6 +41,7 @@ def run(input_path, prediction_path):
             # ))
         # print(f'{i} - {j} => {pair["score"]}')
 
+
     print(true_positive)
     precision = len(set(true_positive)) / len(predictions)
     print(str(precision * 100) + '%')

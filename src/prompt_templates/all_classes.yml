@@ -13,7 +13,7 @@ Body: >
   
   - {classes}
 
-  {examples}
+  For example {examples}
   
   Please generate {n} CQs.
   

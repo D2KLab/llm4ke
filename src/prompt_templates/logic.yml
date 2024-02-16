@@ -13,7 +13,7 @@ Body: >
   
   - {schema}
   
-  {examples}
+  For example: {examples}
   
   Please generate {n} CQs.
   

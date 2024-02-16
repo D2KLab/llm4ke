@@ -17,7 +17,7 @@ Body: >
   
   - {properties}
   
-  {examples}
+ For example:  {examples}
   
   Please generate {n} CQs.
   
