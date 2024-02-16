@@ -19,6 +19,15 @@ from LocalTemplate import LocalTemplate
 os.environ["CUDA_VISIBLE_DEVICES"] = "3,2"  # Specify the GPU id
 os.environ["HUGGINGFACE_HUB_CACHE"] = "/data/huggingface/"
 
+available_llms = {
+    "dpo": "yunconglong/Truthful_DPO_TomGrc_FusionNet_7Bx2_MoE_13B",
+    "una": "fblgit/UNA-TheBeagle-7b-v1",
+    "solar": "bhavinjawade/SOLAR-10B-OrcaDPO-Jawade",
+    "zephyr": "HuggingFaceH4/zephyr-7b-beta",
+    "llama2": "local",
+    "mistral": "local"
+}
+
 
 # device = "cuda"
 
@@ -109,11 +118,14 @@ def run(task, input_path, llm_model, ont_name, n_cqs=10, include_description=Fal
         input_batches.append(input_dict)
 
     if local_llm or available_llms[llm_model] == 'local':
+
         llm = Ollama(model=llm_model)
     else:
-        tokenizer = AutoTokenizer.from_pretrained(llm_model)
-        model = AutoModelForCausalLM.from_pretrained(llm_model, device_map='sequential',
-                                                     load_in_8bit=False, use_safetensors=True)
+        tokenizer = AutoTokenizer.from_pretrained(available_llms[llm_model])
+
+        model = AutoModelForCausalLM.from_pretrained(available_llms[llm_model], device_map='sequential',
+                                                     load_in_8bit=True,
+                                                     use_safetensors=True)
 
         pipe = pipeline("text-generation", model=model, tokenizer=tokenizer, max_new_tokens=512)
 
@@ -151,14 +163,6 @@ def run(task, input_path, llm_model, ont_name, n_cqs=10, include_description=Fal
 
 if __name__ == '__main__':
     available_tasks = [x.replace('.yml', '') for x in os.listdir('./src/prompt_templates/')]
-    available_llms = {
-        "dpo": "yunconglong/Truthful_DPO_TomGrc_FusionNet_7Bx2_MoE_13B",
-        "una": "fblgit/UNA-TheBeagle-7b-v1",
-        "solar": "bhavinjawade/SOLAR-10B-OrcaDPO-Jawade",
-        "zephyr": "HuggingFaceH4/zephyr-7b-beta",
-        "llama2": "local",
-        "mistral": "local"
-    }
 
     parser = ArgumentParser(
         prog='LLM4ke',
@@ -182,7 +186,7 @@ if __name__ == '__main__':
     args = parser.parse_args()
     _llm = args.llm
     if not args.local_llm:
-        selected = available_llms[_llm]
+        selected = _llm
         if selected != "local":
             _llm = selected
 

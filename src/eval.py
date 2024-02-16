@@ -1,4 +1,3 @@
-from argparse import ArgumentParser
 from os import path
 
 import yaml
@@ -47,5 +46,3 @@ def run(input_path, prediction_path):
     print(str(precision * 100) + '%')
 
     return precision
-
-

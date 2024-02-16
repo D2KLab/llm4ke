@@ -11,7 +11,7 @@ Body: >
   {description}
   
   The {name} ontology has the following set of classes:
-    
+  
   - {classes}
   and the following set of properties:
   
