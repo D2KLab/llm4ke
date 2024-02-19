@@ -1,0 +1,528 @@
+What links Creation or Performance Mode with U90 in DOREMUS ontology
+How is E1 CRM Entity associated with foreseen vocal or instrumental technique in DOREMUS
+In what manner does M10 Catalogue Name relate to the statement having U40 property in DOREMUS
+What are the involved entities when describing the connection between M50 Creation or Performance Mode and U90 in DOREMUS ontology
+How does DOREMUS categorize the relationship between a catalogue statement (M1) and its name assignment (U40)
+Explain the relationship between foreseen vocal or instrumental technique (U96) and the generic E1 CRM Entity in DOREMUS ontology
+In the DOREMUS ontology context, what are the properties of the connection between M10 Catalogue Name and U40 has catalogue name
+What are the key entities in understanding the association between E1 CRM Entity and U96 foresees vocal or instrumental technique in DOREMUS
+How does DOREMUS ontology represent the relationship between M1 Catalogue Statement and its property U40 having a catalogue name, in terms of involved entities and properties
+In the DOREMUS ontology, what are the specific entities and their roles in expressing the relationship between U90 and M50 in the context of Creation or Performance Mode
+In the context of DOREMUS ontology, how is the relationship between an Individual Performance and its associated Medium of Performance established
+How does the DOREMUS ontology represent the planning of a specific Medium of Performance in a Design or Procedure
+When linking a Publication Expression to a Label Name in DOREMUS, what aspect is being referred to by the 'was issued under label name' predicate
+In the Self-Contained Expression class of DOREMUS ontology, how are cast-related details represented through the 'has cast statement' property
+How is the parallel cast statement related to a Self-Contained Expression in DOREMUS ontology via the 'has parallel cast statement' property
+For a Self-Contained Expression in DOREMUS, what distinguishes the 'has title statement' property from the 'has parallel title statement' property in terms of title representation
+In the DOREMUS ontology, how is the relationship between a Self-Contained Expression and its associated Medium of Performance different from that of an Individual Performance
+How does the DOREMUS ontology model the connection between a Design or Procedure and its foreseen use of a Medium of Performance
+When examining a Publication Expression in DOREMUS ontology, what does the 'was issued under label name' relation signify in terms of its label association
+In the context of DOREMUS ontology, how do the properties 'has cast statement' and 'has parallel cast statement' in Self-Contained Expression differ in their representation of cast-related details
+Contained Expression class of DOREMUS ontology, how are cast-related details represented through the 'has cast statement' property
+Contained Expression in DOREMUS ontology via the 'has parallel cast statement' property
+Contained Expression in DOREMUS, what distinguishes the 'has title statement' property from the 'has parallel title statement' property in terms of title representation
+Contained Expression and its associated Medium of Performance different from that of an Individual Performance
+Contained Expression differ in their representation of cast-related details
+What relates a self-contained expression to its title and responsibility statement in DOREMUS
+How does DOREMUS categorize parallel responsibility statements in a publication expression
+In DOREMUS ontology, what connects a publication expression to its edition statements
+What concept links a self-contained expression with its dedication statement in DOREMUS
+What are the two types of edition statements in a publication expression within DOREMUS
+How is the title and responsibility combination represented in a general expression according to DOREMUS
+In DOREMUS ontology, what are the three types of edition statement-related concepts in a publication expression
+What distinguishes a self-contained expression's responsibility statement from a parallel one in a publication expression within DOREMUS
+How does DOREMUS categorize additional edition statements and their parallel counterparts in a publication expression
+What are the key components of a general expression's representation in terms of title and responsibility in DOREMUS
+contained expression to its title and responsibility statement in DOREMUS
+contained expression with its dedication statement in DOREMUS
+related concepts in a publication expression
+contained expression's responsibility statement from a parallel one in a publication expression within DOREMUS
+What are the key relationships within DOREMUS ontology related to a Publication Expression's distribution statement
+How are Series Statement and Main Series Statement connected in the DOREMUS ontology when referring to a Publication Expression
+What aspects of a Publication Expression's music format are modeled in the DOREMUS ontology
+In the context of DOREMUS ontology, how is the relationship between a Publication Expression and Multipart Monograph Statement established
+What entities in the DOREMUS ontology are associated with the title proper of a series or sub-series in a Publication Expression
+How are parallel music formats related to a Publication Expression in the DOREMUS ontology
+In the DOREMUS ontology, what are the primary elements that describe a Publication Expression's relation to a music series
+What are the distinct music format-related properties of a Publication Expression in the DOREMUS ontology
+How does the DOREMUS ontology differentiate between the title proper of a series and a sub-series in a Publication Expression
+What are the fundamental components in the DOREMUS ontology that model the distribution aspects of a Publication Expression
+series in a Publication Expression
+related properties of a Publication Expression in the DOREMUS ontology
+series in a Publication Expression
+What links a Publication Expression with its Title Proper of Multipart Monograph
+Which class in DOREMUS should have a specified Media Type for a Manifestation Product Type
+What connects a Manifestation Singleton to its Media Type
+What class in the ontology is related to a Carrier Type for a Manifestation Product Type
+How does the M16 Maintenance relate to a Physical Man-Made Thing in terms of maintenance
+In what context does the M16 Maintenance connect to a Man-Made Object for tuning
+Which class in DOREMUS is the parent for both Manifestation Product Type and Manifestation Singleton
+What are the two properties in the ontology that a Manifestation Product Type and a Manifestation Singleton have in common, regarding their media and carrier types
+What entity in DOREMUS is the common superclass for both E24 Physical Man-Made Thing and E22 Man-Made Object in relation to maintenance and tuning
+What are the two main aspects of a Manifestation in the DOREMUS ontology, as described by its Product Type and Singleton classes
+Made Thing in terms of maintenance
+Made Object for tuning
+Made Thing and E22 Man-Made Object in relation to maintenance and tuning
+What is the relationship between CLU197 binding and M170 Binding in DOREMUS ontology
+How does U198 connect to M171 Container in the DOREMUS ontology
+What kind of association exists between U214's colour content and M172 Colour Content in DOREMUS
+In DOREMUS ontology, what is the nature of the connection between CLU217 and M173 Playing Speed
+What is the role of manifestation singleton U197 in terms of its binding in the DOREMUS ontology
+How does the self-contained expression U214 interact with M172 Colour Content in the DOREMUS context
+In the DOREMUS ontology, what is the relationship between manifestation product type CLU198 and its container M171 Container
+What is the nature of the association between manifestation singleton U217 and its playing speed M173 Playing Speed in DOREMUS ontology
+How does the DOREMUS ontology depict the connection between CLU198's container and M171 Container
+What kind of relationship is established between F3 Manifestation Product Type CLU217 and M173 Playing Speed in the DOREMUS ontology
+contained expression U214 interact with M172 Colour Content in the DOREMUS context
+What links Self-Contained Expression with Music Format through U229
+Which categorization connects CRM Entity with Categorization
+In the context of Self-Contained Expression, what entities are associated with Catalogue Statement via U16
+What property connects Catalogue Statement to Catalogue Name under U40
+What type of data does Catalogue Statement have related through U41
+How does DOREMUS represent the relationship between a musical piece and its categorization scheme
+What common element links Self-Contained Expression with Catalogue Statement through U16
+Which element in DOREMUS ontology represents the unique identifier for a Catalogue Statement
+How does DOREMUS model the association between a music format and a Self-Contained Expression
+What are the two key properties in DOREMUS connecting Catalogue Statement with Catalogue Name and Catalogue Number
+Contained Expression with Music Format through U229
+Contained Expression, what entities are associated with Catalogue Statement via U16
+Contained Expression with Catalogue Statement through U16
+Contained Expression
+How is self-contained expression related to music group formation in DOREMUS ontology
+What are the connections between self-contained expression and harmonic structure
+In the context of DOREMUS, how does self-contained expression associate with the concept of form
+What are the key elements of casting detail in relation to M6 Casting
+How are member casting details and medium of performance section linked within casting detail
+In the DOREMUS ontology, what quantitative aspects of casting detail are modeled, and for what entities
+How does the positiveInteger attribute in casting detail relate to the quantity of mop? (This might be an error in the given schema, as'mop' is unrelated to music
+What is the connection between casting detail and actors' quantity in DOREMUS ontology
+In the given schema, how is U30 and U48 associated with M23 Casting Detail
+What are the main elements of the M23 Casting Detail class in DOREMUS ontology? (This consolidates multiple aspects in a single question, but it's a valid attempt to summarize
+contained expression related to music group formation in DOREMUS ontology
+contained expression and harmonic structure
+contained expression associate with the concept of form
+What is the connection between a foreseen activity, performance plan, and putting into effect a program
+How does the concept of a foreseen performer status in a performance relate to the performer role in DOREMUS
+What medium of performance could be associated with an individual performance in DOREMUS
+In the context of editing, what techniques are used for equalization and noise reduction
+What types of recording equipment are relevant for both mastering and mixing processes in DOREMUS
+How does the editing action in DOREMUS contribute to the creation of a self-contained expression
+How do the entities character and performed character relate within the individual performance schema
+What is the relationship between the ontology classes M25 Foreseen Activity, U77 foresees performing plan, and F25 Performance Plan
+In the DOREMUS ontology, how are the concepts of M26 Foreseen Performance, U82 has foreseen performer status, and M49 Performer Status interlinked
+What are the key elements in the DOREMUS schema that represent the editing process
+contained expression
+What relations exist between Opus Statement and its attributes in DOREMUS ontology
+How are Character, Ambitus, and Set of Characters interlinked in DOREMUS
+What connections in DOREMUS ontology represent an artistic work's functional aspects
+Which classes in DOREMUS have direct associations with string attributes
+How do Design or Procedure and Activity-related classes in DOREMUS anticipate functional roles
+What are the key elements in DOREMUS ontology that describe a self-contained musical expression
+In what ways does DOREMUS model WoO numbers and their subdivisions
+How are actor functions and responsibilities represented in DOREMUS ontology
+What relationships in DOREMUS connect musical expressions to their associated characters
+How does the DOREMUS ontology capture the pitch range of a musical character's ambitus
+related classes in DOREMUS anticipate functional roles
+contained musical expression
+What relationships does a Persistent Item in DOREMUS have with Awards
+How is a Self-Contained Expression in DOREMUS associated with Music Scales
+In what manner does a Self-Contained Expression in DOREMUS involve Rhythmic Patterns
+What entities in DOREMUS are connected to Awards through the property has award
+Which elements in DOREMUS link Self-Contained Expressions to Music Scales using the property has scale
+What property in DOREMUS connects Rhythmic Patterns to Self-Contained Expressions
+How do Persistent Items in DOREMUS relate to the concept of receiving an award
+What ontology class in DOREMUS is associated with a scale through the property has scale, in the context of Self-Contained Expressions
+In the DOREMUS ontology, what property links Rhythmic Patterns to the class F22 Self-Contained Expression
+What are the DOREMUS entities that can be described by having an associated award via the has award property, in the context of E77 Persistent Items
+Contained Expression in DOREMUS associated with Music Scales
+Contained Expression in DOREMUS involve Rhythmic Patterns
+Contained Expressions to Music Scales using the property has scale
+Contained Expressions
+Contained Expressions
+Contained Expression
+How is the historical context related to an Activity in DOREMUS ontology
+In what manner does a Self-Contained Expression in DOREMUS engage with cultural context
+What connects a Geographical Context to a performed Expression Creation in the DOREMUS model
+How are religious contexts associated with Self-Contained Expressions in DOREMUS
+What is the relationship between an Activity's occurrence in a context and the M40 Context class in DOREMUS
+In the DOREMUS ontology, how does a Self-Contained Expression's metronome indication relate to M41 Metronome Indication
+How do the contextual aspects of a performed Expression Creation's cast detail in DOREMUS differ from other Activity or Self-Contained Expression contexts
+What are the commonalities in representing context for both Activity and Self-Contained Expression in DOREMUS ontology
+How is the occurrence of an Activity in a specific type of context (e.g., historical) distinguished from its general context association in DOREMUS
+In the DOREMUS model, how do the contextual associations of a Self-Contained Expression (e.g., cultural) differ from the contexts in which an Activity takes place
+Contained Expression in DOREMUS engage with cultural context
+Contained Expressions in DOREMUS
+Contained Expression's metronome indication relate to M41 Metronome Indication
+Contained Expression contexts
+Contained Expression in DOREMUS ontology
+Contained Expression (e
+What is the relationship between a Set of Tracks and a Performed Expression in DOREMUS ontology
+How does a Publication Expression connect to a Performed Expression
+What ontological class connects a Self-Contained Expression to a Performed Expression
+What are the two involved classes in the relation of a Set of Tracks being a partial or full recording of a Performed Expression
+In what manner does a F24 Publication Expression incorporate a M43 Performed Expression
+What is the role of a performed expression in the context of a self-contained expression in DOREMUS ontology
+How is a performed expression linked to a set of tracks in the DOREMUS ontology
+What is the connection between a F24 Publication Expression and a M46 Set of Tracks in the DOREMUS ontology
+What are the three interconnected classes in the context of a performed expression in DOREMUS ontology
+What is the relationship between a M46 Set of Tracks and a M43 Performed Expression through U51 in DOREMUS ontology
+Contained Expression to a Performed Expression
+contained expression in DOREMUS ontology
+What connects Foreseen Performance with Performer Status
+How is the relationship between a Key in DOREMUS ontology and its relative key established
+What links a Self-Contained Expression to its key representation
+What mode foresees creation or performance in the DOREMUS ontology
+Which editing process in DOREMUS ontology involves mastering equipment
+In what aspect do closely related keys in DOREMUS ontology's Key class differ from parallel or relative keys
+What are the two types of objects used in the editing process in the DOREMUS ontology, and for what purposes
+How is the connection between a Performance and its performer status described in the DOREMUS ontology
+What is the common class for U82 has foreseen performer status and U81 had performer status in the DOREMUS ontology
+What are the fundamental differences in the relationships between U83 has relative key, U84 has parallel key, and U85 has closely related key in the Key class of DOREMUS ontology
+Contained Expression to its key representation
+What editing skill involves applying equalization technique
+Which technique reduces unwanted noise in the editing process
+In the context of expression creation, what spatialization method is used
+What event attribute describes the performance conditions
+How is the application of an equalization technique linked to editing task
+What is the relation between noise reduction technique and editing process
+What skill incorporates sound spatialization technique during expression creation
+How can the term 'M55' be interpreted within the DOREMUS ontology context
+What common aspect connects U191, M52, and M29 in the ontology
+What role does the 'M53' represent in the editing domain
+How is a programming work related to a specific program in DOREMUS
+What connects an activity to a program in the ontology
+What anticipatory action links to a program as a work type in DOREMUS
+How does a self-contained expression associate with a genre in the context of DOREMUS
+What work category has a connection to the work type 'Program' in the ontology
+In DOREMUS, what is the relationship between putting an activity into effect and a program
+How does a foreseen activity in DOREMUS relate to a program as a work type
+What genre concept links to the 'has genre' property in the DOREMUS ontology
+In the DOREMUS ontology, how is a work's type related to a program
+What is the relationship between a musical expression and its genre in the context of DOREMUS
+contained expression associate with a genre in the context of DOREMUS
+What is the relation between Hierarchical Level and its associated work in DOREMUS ontology
+How is Casting detailed within the Self-Contained Expression context in DOREMUS
+What ontological connection exists between Casting Detail and Casting in DOREMUS
+In DOREMUS ontology, what connects Tempo with Self-Contained Expression
+What derivation aspect links Propositional Object and its derivation type in DOREMUS
+How does the DOREMUS ontology categorize the hierarchical level of a specific work
+What are the constituent parts of the Self-Contained Expression's casting framework in DOREMUS
+In the context of DOREMUS ontology, how is tempo associated with a Self-Contained Expression
+What role does Derivation Type play in the context of Propositional Object in DOREMUS
+How does the DOREMUS ontology distinguish between different levels of works in terms of their hierarchical organization
+Contained Expression context in DOREMUS
+Contained Expression
+Contained Expression's casting framework in DOREMUS
+Contained Expression
+What characters, in a DOREMUS context, have a connection to a specific ambitus through individual performances
+How is an actor related to a character in the DOREMUS ontology when considering a designed production
+What links the foreseen performing characters in a design or procedure to a set of characters in DOREMUS
+Which CRM Entity assigns attributes to a physical man-made thing, related to a DOREMUS E24 entity through production
+How are fictional characters within a character hierarchically connected in DOREMUS
+What CRM Entity plays a role in associating a character with an actor through attribute assignment in a DOREMUS context
+In what way do individual performances in DOREMUS relate to the ambitus of a character, and how to a character's foreseen portrayal in a design or procedure
+How do E12 Productions in DOREMUS link to physical man-made things, and what role do CRM Entities play in this connection
+How are characters in DOREMUS organized when considering a set of characters and their interrelationships
+What CRM Entity connects a character in DOREMUS with its related fictional members through attribute assignment
+made thing, related to a DOREMUS E24 entity through production
+made things, and what role do CRM Entities play in this connection
+How is the relationship between a Physical Man-Made Thing and its associated Design or Procedure established in DOREMUS ontology
+What connects a Legal Object with its related Right in the DOREMUS ontology
+In what way does a Manifestation Product Type and its associated Dimensions interact in the DOREMUS ontology
+How are Maintenance activities related to a Physical Man-Made Thing in the DOREMUS ontology
+What links a Production process to a Physical Man-Made Thing in the DOREMUS ontology
+In the DOREMUS ontology, how do Symbolic Objects and their carriers (Physical Man-Made Things) interrelate
+How are Part Removal actions and a Physical Man-Made Thing associated in the DOREMUS ontology
+In the DOREMUS ontology, how is the connection between Part Addition and a Physical Man-Made Thing established
+What is the role of Modification in the relationship between a Physical Man-Made Thing and its modifier in the DOREMUS ontology
+In the context of DOREMUS ontology, how are Visual Items and the Physical Man-Made Things that show them interconnected
+Made Thing and its associated Design or Procedure established in DOREMUS ontology
+Made Thing in the DOREMUS ontology
+Made Thing in the DOREMUS ontology
+Made Things) interrelate
+Made Thing associated in the DOREMUS ontology
+Made Thing established
+Made Thing and its modifier in the DOREMUS ontology
+Made Things that show them interconnected
+What are the primary types associated with CRM entities in DOREMUS ontology
+How are manifestation product types in DOREMUS related to nomen usage statements
+In what contexts do name use activities in DOREMUS occur, and what types do they generally pertain to
+How is the assignment of types in DOREMUS connected to type creation
+What is the relationship between man-made things in DOREMUS and the types intended for them
+How do general techniques in DOREMUS ontology link to activity types
+In what ways do E55 Types in DOREMUS relate to general uses of things, and what are the reverse connections
+How are narrower and broader terms defined within the E55 Type hierarchy in DOREMUS
+What is the connection between events in DOREMUS and the purposes of associated activities
+How do conceptual objects in DOREMUS ontology relate to creations, and what role do legal objects and rights play in this context
+made things in DOREMUS and the types intended for them
+How is an E74 Group related to its former/current members via E39 Actor
+In what contexts (M40) can an E7 Activity occur, and how is this connection established with U46/U56/U57/U60/U61
+How do E29 Design or Procedure and E55 Type relate to E7 Activity through P33 and P32, respectively
+Explain the connection between E7 Activity and E5 Event through P20 and P20i
+How is an E71 Man-Made Thing associated with an E7 Activity, and what are the roles of P19 and P19i
+Describe the relationship between E7 Activity and E1 CRM Entity through P15, P15i, and P17
+In the DOREMUS ontology, elaborate on the interactions between E89 Propositional Object and E1 CRM Entity, using P67, P129, and P129i
+How are E84 Information Carrier and E89 Propositional Object linked through F33 Reproduction Event, R29, and R30
+Discuss the continuity aspect of E7 Activity via P134 and P134i
+Explain the association between E7 Activity and E55 Type through P21 and P21i, and its relevance to general/specific purposes
+Made Thing associated with an E7 Activity, and what are the roles of P19 and P19i
+What links a Nomen Use Statement with its literal content Nomen
+For an Identifier Assignment, which entity is the result of its assignment
+What connects an Individual Work to its Self-Contained Expression realization
+How does a Complex Work relate to its member F1 Work
+In the context of Representative Expression Assignment, what entity is the recipient of the assigned expression
+What class represents the Symbolic Object in an Identifier
+What relationship describes the connection between a Self-Contained Expression and its descriptive expression in a Complex Work
+What role does F35 Nomen Use Statement play in stating a nomen for F12 Nomen
+Which class serves as the base for F13 Identifier's assigned Symbolic Object
+What links a Nomen with its assigned status as a nomen in F35 Nomen Use Statement
+Contained Expression realization
+Contained Expression and its descriptive expression in a Complex Work
+What work type relates to a Design or Procedure in DOREMUS ontology
+How are Publication Works associated with a Realisation in the context of DOREMUS
+What hierarchical level connects to a Work in the DOREMUS schema
+Which Complex Work component is related to a specific Work in DOREMUS ontology
+What are the relationships between Work Conceptions and a Work in DOREMUS
+How is a Self-Contained Expression linked to a Work in the DOREMUS ontology
+In DOREMUS, what are the logical successors of a Work
+What denotes a derivative relationship with a Work in the DOREMUS ontology
+How is a Realisation connected to a Work in the context of DOREMUS's Publication Event
+What represents a Work in terms of a Self-Contained Expression in DOREMUS
+Contained Expression linked to a Work in the DOREMUS ontology
+Contained Expression in DOREMUS
+How is the relationship between a Self-Contained Expression and its associated Performance Plan established in DOREMUS ontology
+What are the key relationships between Recording Event and Recording Work in the DOREMUS ontology
+In the context of DOREMUS ontology, how are Performed Expressions linked to Self-Contained Expressions
+What are the primary relationships between Complex Work and its descriptive Self-Contained Expressions in the DOREMUS schema
+How are Expression Creation instances related to a specific Self-Contained Expression in the DOREMUS ontology
+In the DOREMUS ontology, what are the main connections between Publication Expression and its associated Label Name
+What are the primary relationships between a Work and its representative Self-Contained Expression in the DOREMUS schema
+How are Expression Fragments associated with Expressions in the DOREMUS ontology
+In the DOREMUS ontology, what are the key relationships between Individual Work and its associated Self-Contained Expression
+How are Music Formats described in relation to Publication Expressions within the DOREMUS schema
+Contained Expression and its associated Performance Plan established in DOREMUS ontology
+Contained Expressions
+Contained Expressions in the DOREMUS schema
+Contained Expression in the DOREMUS ontology
+Contained Expression in the DOREMUS schema
+Contained Expression
+How is a foreseen activity related to its performance plan in DOREMUS ontology
+What connects a performance work to a specific realization within a performance plan
+What technique often involves in expression creation within DOREMUS
+How does an actor's involvement occur in the context of an expression creation
+What are the relationships between a recording event, a recording work, and a temporal entity in DOREMUS
+How is sound spatialization technique utilized within the work conception process in DOREMUS
+What responsibilities, if any, are associated with an expression creation in DOREMUS
+In what ways does a recording event in DOREMUS interact with physical things
+How is a self-contained expression linked to its creation process in DOREMUS
+What are the key stages in the lifecycle of a manifestation singleton in DOREMUS
+contained expression linked to its creation process in DOREMUS
+How is the relationship between an expression's title and its responsible party represented in DOREMUS
+What connects an expression's duration with its dimensional aspect
+In what way does DOREMUS model a derivative expression in relation to its source
+How are fragmented expressions linked to their original counterparts
+What links an expression creation event to the expression it generated
+How does DOREMUS represent the relationship between a manifestation singleton and the expression it represents
+What represents the connection between a manifestation product type and the carriers it is associated with
+How is an expression's component related to a self-contained expression in DOREMUS
+What links a propositional object to its princeps publication event in DOREMUS ontology
+How are historical performances in DOREMUS associated with their respective performance plans
+contained expression in DOREMUS
+Explain the relationship between F35 Nomen Use Statement, F34 KOS, and their respective validity periods
+How do script conversions (F36) and nomen use statements (F35) interconnect within the DOREMUS ontology
+Describe the connection between F35 Nomen Use Statement, E74 Group, and their intended purposes
+In the context of DOREMUS, elaborate on the association between F3 Manifestation Product Type, E56 Language, and nomen forms (E55)
+What is the role of F34 KOS in defining nomen use statements (F35) and their relationships with other entities in the ontology
+How do manifestation product types (F3) and their properties (CLP104, CLP105) relate to rights and actors in the DOREMUS model
+Explain the interlinking of F3 Manifestation Product Type, E54 Dimension, and their respective properties in the DOREMUS ontology
+Detail the relationship between F35 Nomen Use Statement, E1 CRM Entity, and their referencing mechanisms in the DOREMUS model
+Describe the hierarchical structure and connections of F3 Manifestation Product Type, F24 Publication Expression, and F32 Carrier Production Event in the DOREMUS ontology
+Elucidate the significance of F41 Representative Manifestation Assignment in the context of F2 Expression and F3 Manifestation Product Type within the DOREMUS model
+Explain the relationship between Identifier Assignment (F40), assigned entity (E1 CRM Entity), and Bibliographic Agency in context of DOREMUS ontology
+How does the concept of Identifier Rule (F43) connect with Identifier Assignment (F40) in DOREMUS ontology
+Describe the role of Bibliographic Agency (F44) in Representative Manifestation Assignment (F41) within DOREMUS ontology
+In DOREMUS ontology, what is the association between Representative Expression Assignment (F42), Complex Work (F15), and Expression (F2)
+How does the assigned Manifestation Product Type (F3) and Singleton (F4) interrelate in Representative Manifestation Assignment (F41) within DOREMUS
+In the context of DOREMUS ontology, elaborate on the relationship between CRM Entity (E1), Identifier (F13), and Identifier Assignment (F40)
+Explain the connection between Expression (F2) and Representative Expression Assignment (F42) in DOREMUS ontology when considering Bibliographic Agency (F44)
+In the DOREMUS ontology, how does the assigned Expression (F2) in Representative Manifestation Assignment (F41) relate to the Manifestation Product Type (F3) and Singleton (F4)
+Describe the relationship between Identifier Assignment (F40), Identifier (F13), and Identifier Rule (F43) in DOREMUS ontology
+In the context of DOREMUS ontology, elaborate on the connection between Representative Manifestation Assignment (F41), Bibliographic Agency (F44), and Expression (F2)
+What links a manifestation singleton with its associated container in DOREMUS
+How is the binding relation established between a manifestation singleton and its binding in the ontology
+In what manner does DOREMUS represent the connection between a manifestation singleton and its carrier type
+What class relates a manifestation singleton to its media type within the DOREMUS ontology
+How does DOREMUS model the association between a manifestation singleton and its playing speed
+In the context of DOREMUS ontology, what class connects a manifestation singleton with its number of tape tracks
+Describe the relationship between an expression creation and the resulting manifestation singleton in DOREMUS
+What role does the representative manifestation singleton play in representing an expression within the DOREMUS schema
+How are pursuits in DOREMUS related to CRM entities through language usage
+In the DOREMUS ontology, what are the key components of a name use activity's context and membership association
+What links an F5 Item to a specific instance of F3 Manifestation Product Type through R7
+Which relation connects an F5 Item with a sample of F3 Product Type
+How is an F5 Item related to a certain manifestation of a F3 Product Type in DOREMUS ontology
+What role does relation R7 play in connecting an F5 Item to a particular F3 Manifestation Product Type
+In DOREMUS ontology, what association ties an F5 Item to a given example of F3 Product Type
+How does the DOREMUS ontology represent the connection between an F5 Item and a specific manifestation of a F3 Product Type
+Which relation signifies the association between an F5 Item and a certain manifestation of a F3 Product Type in DOREMUS
+What relationship is used in DOREMUS ontology to link an F5 Item to a certain instance of F3 Manifestation Product Type
+How does the DOREMUS model depict the relationship between an F5 Item and a given F3 Product Type manifestation
+In the context of DOREMUS ontology, what relation establishes a link between an F5 Item and a specific F3 Manifestation Product Type
+How is an actor related to their offspring via birth events in DOREMUS
+What connections exist between actors and their roles in film expressions
+How might an actor's legal rights be represented in the ontology
+In what ways are physical objects linked to actors in DOREMUS
+How are physical objects and places interconnected in the ontology
+Describe the relationships between actors and events in the DOREMUS ontology
+How are acquisitions and transfers of custody related to physical objects in the ontology
+What are the significant aspects of a physical object's condition in DOREMUS
+How are physical objects and sections in a place connected in the ontology
+Explain the relevance of destruction events in the context of physical objects in DOREMUS
+How is a CLP45 manifestation product-type related to its material components in DOREMUS ontology
+In what context does the DOREMUS ontology connect a design or procedure with a specific material
+How does the DOREMUS ontology represent the association between a physical thing and its constituent materials
+What links the presence of a material in a design or procedure with the respective spacetime volume
+How are physical objects' current and permanent locations associated with places in DOREMUS ontology
+In what manner does the DOREMUS ontology describe the spatial projection of a spacetime volume
+How are actor residences related to specific places in the DOREMUS ontology
+How does the DOREMUS ontology model the connection between a place and a historical event that took place there
+In what way does the DOREMUS ontology represent the relationship between a physical thing and the place it occupies
+How are place identifiers and their corresponding entities linked in the DOREMUS ontology
+type related to its material components in DOREMUS ontology
+How is a Symbolic Object related to another Symbolic Object in DOREMUS
+What connects a Physical Thing to a Symbolic Object
+What links a Symbolic Object to a Physical Man-Made Thing in carrying context
+How does an Identifier consist of a Symbolic Object
+When a Symbolic Object is used in an Identifier Assignment, what ontology element is involved
+How does an Information Object incorporate a Symbolic Object
+In the context of forming part of another Symbolic Object, what relation exists in DOREMUS
+What role do Contact Points play in connecting Actors and contact points
+How are Actors associated with specific Contact Points in DOREMUS
+What relationship links Place Appellations to Places in the ontology
+Made Thing in carrying context
+How can an E1 CRM Entity be related to an E7 Activity through P15
+What connects an E13 Attribute Assignment to an E1 CRM Entity via P141
+In what way does an E1 CRM Entity influence an E5 Event through U50
+How does an E17 Type Assignment classify an E1 CRM Entity using P41
+What links an E36 Visual Item to an E1 CRM Entity through P138
+How might an E32 Authority Document document an E1 CRM Entity with relation P71
+How can an E83 Type Creation be based on an E1 CRM Entity using P136
+In what manner does an E55 Type act as a type for an E1 CRM Entity with property P2i
+How does an E1 CRM Entity's existence relate to an E63 Beginning of Existence through P92
+How can an E77 Persistent Item be the subject of an E1 CRM Entity via P129i
+What objects exhibit similar features in DOREMUS ontology
+Which activities make use of a specific DOREMUS thing
+What are the dimensions of a given DOREMUS object
+What general use does a DOREMUS type have in relation to a thing
+What physical locations are associated with a DOREMUS object's current or permanent state
+In what physical features are certain DOREMUS objects found
+How are temporal entities related in terms of time in DOREMUS ontology
+What physical objects have been moved in a DOREMUS context, and by what action
+How is the recording event linked to a temporal entity in DOREMUS
+What aspects of a DOREMUS object's structure are quantified in terms of parts
+What Transformation resulted in an E77 Persistent Item
+Which E86 Leaving separated an E39 Actor from a specific E74 Group
+What E66 Formation was formed from an E74 Group
+Which E77 Persistent Item was taken out of existence by an E64 End of Existence
+What Transformation transformed an E77 Persistent Item, and what was the initial item
+What E63 Beginning of Existence brought an E77 Persistent Item into existence, and what was the resulting item
+In what E74 Group did a member leave due to an E86 Leaving event, and who was the actor leaving
+What Transformation led to the current state of a specific E77 Persistent Item, and what was the initial item
+Which E77 Persistent Item was formed as a result of an E66 Formation process, and what was the formation about
+What E86 Leaving event, involving a separation literal, occurred in a particular E74 Group, and which E39 Actor was the one leaving
+What physical feature is found on which specific physical object via P56i relation
+Which physical object bears a particular physical feature through P56 relation
+What section definition identifies a specific physical thing according to P58 relation
+For a given physical thing, what section definition does it have in terms of P58 relation
+What identifier was assigned to an entity by a certain identifier assignment process (P37)
+Which preferred literal identifier is defined by a specific E42 Identifier via P48i relation
+Who or what (E15 Identifier Assignment) was responsible for assigning a certain identifier (P37) in DOREMUS ontology
+In case of a deassigned identifier in DOREMUS ontology, who or what (E15 Identifier Assignment) was involved in the deassignment process (P38i)
+What is the relation between identifier assignment processes and identifiers in DOREMUS ontology, as described by P37 and P38
+How are physical features and physical objects connected in DOREMUS ontology through P56i and P56 relations
+What links a physical man-made thing with a modification it underwent
+How is the employed material in a modification related to that modification
+In what way are a man-made thing's title and its intended entity connected
+How is the intended use of a man-made thing related to the activity it was made for
+When examining a man-made thing's properties, what strings might represent its system requirements
+What aspect of a man-made thing's composition is stored as a string
+What technical features of a man-made thing are described using strings
+In the context of DOREMUS ontology, how might a groove characteristic be represented
+For a man-made thing, how is its tape configuration denoted as a string
+What events in DOREMUS might result in a group's dissolution
+made thing with a modification it underwent
+made thing's title and its intended entity connected
+made thing related to the activity it was made for
+made thing's properties, what strings might represent its system requirements
+made thing's composition is stored as a string
+made thing are described using strings
+made thing, how is its tape configuration denoted as a string
+What conceptual object is associated with an E10 Transfer of Custody through its appellation
+Which physical thing underwent a transfer of custody related to time span described by an E39 Activity
+How is the temporal entity related to the time-span in a F34 Knowledge Organization System
+What design or procedure (E29) anticipates a specific time-span (E52) in the context of a legal process
+In what manner does a literal entity interact with the minimum duration of a time-span in an E10 Transfer of Custody
+How does an E52 Time-Span in a DOREMUS ontology connect with an E92 Spacetime Volume
+What temporal entity's presence is associated with a particular time-span in an E93 Presence assertion
+How can a maximum duration of a time-span in an E52 Time-Span be related to a literal event
+What is the relationship between a time-span in an E10 Transfer of Custody and its beginning qualified by a literal statement
+How does an E52 Time-Span in a DOREMUS ontology interrelate with another time-span in terms of containment or temporal inclusion
+span in a F34 Knowledge Organization System
+span (E52) in the context of a legal process
+span in an E10 Transfer of Custody
+Span in a DOREMUS ontology connect with an E92 Spacetime Volume
+span in an E93 Presence assertion
+span in an E52 Time-Span be related to a literal event
+span in an E10 Transfer of Custody and its beginning qualified by a literal statement
+Span in a DOREMUS ontology interrelate with another time-span in terms of containment or temporal inclusion
+made thing connected to a visual item in DOREMUS
+made object
+made object
+What physical object has what specific condition state as identified by a certain condition assessment
+Which actor joined a particular group through a joining event
+What man-made entity had a part addition, and what was the nature of the augmentation
+What curator is associated with a specific collection during their curation activity
+Which authority document lists a certain CRM entity
+What physical thing's condition is a combination of multiple condition states
+What physical man-made object was the result of a part addition, and when was it identified as in that condition
+Which joining event led to a group gaining a new member, and who was the new addition
+What collection currently or formerly has a specific actor as its curator
+What are the relationships between a condition state, a condition assessment identifying it, and a physical thing having that state
+made entity had a part addition, and what was the nature of the augmentation
+made object was the result of a part addition, and when was it identified as in that condition
+What is the relationship between a presence in DOREMUS ontology and the associated place and spacetime volume
+How does the time-span connect with a presence in the DOREMUS ontology
+In what context is the curation activity related to a collection in DOREMUS
+What is the connection between maintenance activity and a man-made object in the ontology
+How does the design or procedure concept in DOREMUS foresee the use of a man-made object
+What are the parent entities in DOREMUS ontology for a birth event, in terms of mother and father
+How is an individual's birth event in DOREMUS connected to their life entry
+What is the role of a place in the presence occurrence in DOREMUS ontology
+How is a collection linked to a curation activity through their properties in DOREMUS
+In the context of DOREMUS ontology, how is a person's birth connected to their parents
+span connect with a presence in the DOREMUS ontology
+made object in the ontology
+made object
+What connects a self-contained expression to its associated title in DOREMUS
+How does DOREMUS represent a parallel title for a self-contained expression
+What links a man-made thing to its title in the ontology
+In the context of DOREMUS measurements, what entities are measured and what are the observed dimensions
+When measuring an entity in DOREMUS, who or what is responsible for the observation
+How are condition assessments in DOREMUS associated with a physical thing and a specific condition state
+What role does type creation play in establishing a type within DOREMUS
+What is the connection between a CRM entity and a type creation in DOREMUS
+How does DOREMUS represent the identification of a condition state in an assessment process
+What entities in DOREMUS are concerned with physical things and their condition assessments
+contained expression to its associated title in DOREMUS
+contained expression
+made thing to its title in the ontology
+What links a measurement unit with its associated dimension in DOREMUS
+Which event connects a physical object with its destruction in the ontology
+How does an identifier assignment relate to an appellation in DOREMUS
+What are the roles of E15 Identifier Assignment regarding assigned and deassigned identifiers
+What are the inverse properties of the relations between E58 Measurement Unit and E54 Dimension
+In DOREMUS, what connects a symbolic object to an identifier assignment
+What are the two opposite actions related to identifiers in E15 Identifier Assignment
+How are the destruction events and physical things associated in the ontology
+What are the direct relations of E41 Appellation in the context of E15 Identifier Assignment
+What are the primary subjects and their relationships in the given schema related to symbolic objects and identifier assignments
