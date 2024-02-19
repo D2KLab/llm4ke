@@ -1,0 +1,109 @@
+What categorizes a Maintenance instance within DOREMUS ontology
+How is the Media Type associated with a Publication Expression Fragment
+What property connects a Casting Detail to a Music Group Formation
+In what context does the Playing Speed property apply in DOREMUS ontology
+What class represents the concept of a musical publication's physical container
+How is the Music Format related to a Title Proper of Multipart Monograph
+What aspect of a Multipart Monograph's realization is described by the has title proper of multipart monograph property
+What property in DOREMUS ontology relates a Catalogue Statement to a Catalogue Name
+How is the property U197, having binding, associated with the class Binding
+In what manner does the property U217, having playing speed, connect to the class Playing Speed
+How is an individual classical performance related to its foreseen counterpart in DOREMUS ontology
+Which property connects a classical music piece with its associated award in DOREMUS
+How are actor responsibilities in classical music performances represented in DOREMUS ontology
+How are rhythmic patterns associated with a classical music context in DOREMUS
+How is the editing process of a classical music piece modeled in DOREMUS ontology
+In DOREMUS, how are the lowest and highest pitches of a musical ambitus represented
+How are historical contexts related to classical music performances in the DOREMUS ontology
+How does DOREMUS represent the connection between a classical music scale and its associated musical piece
+How are character assignments in classical music performances represented in DOREMUS ontology
+In DOREMUS ontology, how are the different stages of a classical music performance's life-cycle (e.g., editing, performance) connected through planning
+cycle (e
+What properties describe the relationship between a performed expression and a performed work in DOREMUS ontology
+How are vocal or instrumental techniques associated with a program in the DOREMUS ontology
+Which classes in DOREMUS represent aspects related to recording equipment and techniques
+What properties in DOREMUS model the connection between a work and its intended audience
+How are key relationships represented in the DOREMUS ontology for a performed work
+In what ways does the DOREMUS ontology represent the concept of creation or performance mode
+How are WoO Number and WoO Subnumber classes related to the performed work class in DOREMUS
+What classes in DOREMUS focus on the performer's status, both past and future
+How are genre and work type represented as properties in the DOREMUS ontology
+In the DOREMUS ontology, what classes and properties are relevant to the spatialization of sound during a performance or recording
+How is the hierarchical level associated with a musical work in DOREMUS ontology
+What is the relation between a casting detail and its respective casting in the DOREMUS context
+How are linguistic appellations used to represent musical entities in DOREMUS
+In DOREMUS ontology, how do tempo properties influence the musical performance interpretation
+How do derivation types in DOREMUS categorize the origin of a musical piece or concept
+When examining characters in DOREMUS, how are performed and foreseen characters differentiated
+In the context of DOREMUS ontology, how do production relationships connect various musical elements
+How do legal objects in DOREMUS, such as rights or intellectual property, impact the musical domain
+In DOREMUS ontology, how do physical properties, like dimensions or materials, affect musical artifacts
+How do event-based relationships, such as creation or performance occurrences, contribute to the DOREMUS understanding of musical evolution
+based relationships, such as creation or performance occurrences, contribute to the DOREMUS understanding of musical evolution
+How does the property P151i relate to the classes F10 Person and F20 Performance Work in DOREMUS ontology
+What is the significance of property U60 in the context of DOREMUS ontology's class representation
+How do the properties R16, P134, and P134i interconnect in the DOREMUS ontology regarding the class F14 Individual Work
+In the DOREMUS ontology, how do the classes E74 Group and F11 Corporate Body differ in relation to property R62
+How do properties P144, P146, and P144joined with impact the class F15 Complex Work in DOREMUS ontology
+In the DOREMUS ontology, how do properties P107, P107i, and P148i interrelate when considering the classes F10 Person and F14 Individual Work
+How do properties R39, R30, and R31 in the DOREMUS ontology influence the relationships between the classes F14 Individual Work and F22 Self-Contained Expression
+In the DOREMUS ontology, how do properties P15, P16, and P16i contribute to the understanding of the class F12 Nomen in relation to other classes
+How do properties P148, R66, and P67i reflect the connections between the classes F14 Individual Work and F24 Publication Work in the DOREMUS ontology
+In the DOREMUS ontology, how do properties R29, R31, and U70 impact the relationships between the classes F14 Individual Work and F21 Recording Work
+Contained Expression
+What properties indicate a musical work's realization in DOREMUS ontology
+Which class represents the concept of a performance plan in DOREMUS
+How are Expression and Manifestation Product Type related in DOREMUS through properties
+What class signifies the connection between an actor and a created expression in DOREMUS
+Which DOREMUS property denotes the use of historical instruments in a performance or recording
+What class represents bibliographic agencies in the DOREMUS ontology
+How are Identifier Assignment and Representative Manifestation Assignment linked in DOREMUS through properties
+In DOREMUS ontology, what property indicates a responsibility detail in a reproduction event
+What property connects a recording event to its associated work conception in the DOREMUS ontology
+How is the class Script Conversion related to musical expressions in DOREMUS
+How is the DOREMUS ontology connected to the concept of classical music representation through its classes and properties
+In what ways do the properties in DOREMUS, such as U210 or P152, relate to the description of physical or conceptual objects, and their associations
+How do the classes F4 Manifestation Singleton, F51 Pursuit, and F52 Name Use Activity in DOREMUS differ in their representation of music-related entities and activities
+What is the significance of properties like R18, R42, and R53 in establishing relationships and contexts within the DOREMUS ontology
+How do the classes E20 Biological Object, E18 Physical Thing, and E28 Conceptual Object in DOREMUS differ in their representation of entities in the music domain, and how are they linked to other classes
+In the context of DOREMUS ontology, how do properties like P51, P50, and P49 reflect ownership, custody, and care of music-related artifacts and events
+How do the classes E39 Actor, E82 Actor Appellation, and U26 relate to individuals and their roles in the music domain, and how are they connected to other classes in DOREMUS
+In what ways do properties such as P107, P105, and P109 in DOREMUS represent memberships, rights, and curatorial roles in music-related organizations and events
+How do properties like P14, P152i, and P157 in DOREMUS illustrate participation, parentage, and spatial context in the realm of music
+In the DOREMUS ontology, how do properties like P13, P53, and P74 depict the life-cycle, locations, and residences of music-related entities, and their associated events
+related entities and activities
+related artifacts and events
+related organizations and events
+cycle, locations, and residences of music-related entities, and their associated events
+How is a musical artwork in DOREMUS ontology related to its performing version through property R66
+Which property in DOREMUS connects a musical piece with the physical objects it utilizes (e.g., instruments, sheet music)
+How are two time-related events in DOREMUS classified when they overlap in time (P118) or meet in time (P119)
+In DOREMUS ontology, how is the formation of a musical entity (e.g., ensemble) represented through properties P92, P95, and P145
+Which property in DOREMUS signifies the influence of one musical work on another (P15)
+How does DOREMUS categorize a musical piece in terms of its type (P2) and its assigned attribute (P140)
+How are spatial and temporal aspects of a musical event in DOREMUS connected through properties P7, P8, P70, and P71
+In DOREMUS ontology, how are the dimensions of a musical instrument described using properties P43 and P43i
+How are the beginning and end stages of a musical entity's existence represented in DOREMUS through properties P66, P92, P93, and their inverse counterparts
+In the context of DOREMUS, how is the transformation of a musical piece or performer depicted through properties P124, P123, P124i, and P123i
+related events in DOREMUS classified when they overlap in time (P118) or meet in time (P119)
+Which section definition classifies a specific musical segment in a DOREMUS context
+How is a preferred identifier assigned to a man-made musical feature in the ontology
+What property connects a composer's intended use of an instrument to its actual use in a classical performance
+In what way does the DOREMUS ontology represent the historical transfer of a musical score's ownership
+How are the temporal constraints of a musical event described in the ontology
+Which property links a visual item, such as a musical score's notation, to its representation in the ontology
+How are the material properties of a musical instrument represented in the DOREMUS ontology
+How is the death of a significant classical musician related to a specific place in the ontology
+What property illustrates the removal of a musical component, such as an instrument part, in the DOREMUS context
+How does the ontology model the linguistic aspect of a musical score's annotations, such as performance instructions
+made musical feature in the ontology
+Which musical collections have been curated by a specific individual within DOREMUS ontology
+What classical music objects, in the ontology, have undergone a part addition or joining process
+Which classical compositions, in the ontology, have a particular tuning history (U39)
+How are classical musicians linked through their birth relationships (P96, P97, P98) in the DOREMUS ontology
+Which classical music authorities, in the ontology, have published key documents (E32) related to specific musical objects
+Which classical music objects, in the ontology, have been imaged (E38) and how are these images associated
+How are classical music objects in the ontology, related through their presence (P166, P167)
+Which musical activities, in the ontology, are associated with a particular measurement (P39, P40) and how are these measurements contextualized
+How are classical music objects in the ontology connected through their title assignments (U167, U168, P102, P103) and curation processes (P147)
+In the DOREMUS ontology, how are musical objects, in terms of their creation (P135, P136) and destruction (P13, P131), interconnected

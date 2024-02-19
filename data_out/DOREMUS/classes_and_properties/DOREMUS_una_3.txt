@@ -1,0 +1,110 @@
+Which compositions have a specific catalog number or opus number in the DOREMUS ontology
+Which works belong to a particular label name or series in the DOREMUS ontology
+Which performances use a specific medium of performance in the DOREMUS ontology
+Which compositions have a dedicated statement or statement of responsibility in the DOREMUS ontology
+What editions of works are available in the DOREMUS ontology
+Which music formats are represented in the DOREMUS ontology
+What is the relationship between titles and statements of responsibility in the DOREMUS ontology
+How are multipart monographs represented in the DOREMUS ontology
+What information is provided about the use of vocal or instrumental techniques in the DOREMUS ontology
+Which catalog names, numbers, or opus numbers are associated with specific performances in the DOREMUS ontology
+Which musical pieces have associated binding, container, and media type in the DOREMUS ontology
+What are the common music formats in the DOREMUS ontology
+Which works have specific harmonic structures in the DOREMUS ontology
+What are the different playing speeds found in the DOREMUS ontology
+What are the various maintenance types in the DOREMUS ontology
+Which musical pieces have been categorized under a certain classification in the DOREMUS ontology
+What are the distinct forms of musical compositions in the DOREMUS ontology
+What are the possible carrier types in the DOREMUS ontology
+What are the content types found in the DOREMUS ontology
+Which musical works have been associated with a specific color content in the DOREMUS ontology
+Which performances have been assigned an award from the DOREMUS ontology perspective
+Which compositions have a specific rhythmic pattern or scale associated with them
+What contexts have been assigned to certain performances or compositions in the DOREMUS ontology
+Which editing processes have been applied to specific performances or compositions
+What foreseen activities or performances involve a particular set of characters or actor responsibilities
+Which opus statements are associated with specific order numbers or contexts
+What ambitus ranges have been assigned to certain performances or compositions
+Which character roles have been assigned to performers in specific foreseen performances
+What award assignments or representative publication assignments are linked to specific compositions or performances
+Which techniques have been used in the mastering or mixing processes of certain performances or compositions
+Which performed works have employed specific recording equipment techniques and equalization methods
+What are the common genre classifications for performed expressions in the DOREMUS ontology
+Which performed expressions have been realized in particular performance conditions
+What vocal or instrumental techniques have been used in performed works of a specific genre
+Which performed works have been associated with a particular key or key relationships
+What creation or performance modes have been foreseen for specific performed expressions
+Which performed works have been assigned descriptive expressions
+What noise reduction techniques have been applied to specific recordings
+Which performed works are part of a set of tracks or programming works
+What performer statuses have been attributed to musicians in the context of a performed work
+What classical pieces have specific hierarchical levels
+Which castings are associated with certain classical music performances
+What linguistic appellations are used for classical music compositions
+What tempo types are commonly found in classical music
+What derivation types are present in classical music works
+Which characters are featured in classical music pieces
+What controlled access points are relevant for classical music
+What objects have undergone production processes in classical music
+What designs or procedures are related to classical music creation
+What legal bodies or information objects are associated with classical music
+Which classical works belong to the group performed by a specific ensemble consisting of a flute and two bassoons
+What are the historical contexts of classical music works created in 1836
+What are the primary responsibilities of individuals involved in the creation or performance of a specific classical work
+What are the key characteristics of a classical work with a specific descriptive expression
+What are the original titles of classical works that have been assigned a uniform title
+What are the hierarchical levels of different types of classical works
+What are the casting and tempo specifications of a particular classical work
+What are the publication statements of classical works with specific music formats
+What are the contexts and religious, cultural, or geographical aspects of classical music works
+What are the representative expressions of classical works that have been realised in a specific form
+Which performances involve a specific classical music work
+What recording events are associated with a particular performance
+Which expression creations resulted in a specific recording
+What manifestation products are related to a specific performance plan
+Which identifier assignments are linked to a particular publication event
+What bibliographic agencies are responsible for assigning representative manifestations
+Which carrier productions are related to a specific reproduction event
+What nomen uses statements are associated with a script conversion
+Which family members are involved in the creation of a particular expression
+What historical instruments were used in a specific performance
+What classical pieces involve the use of flute and two bassoons
+Which compositions were created in 1836
+What actors have been associated with the DOREMUS ontology's main concept of classical music
+What physical objects have been utilized as information carriers for classical music
+What places have been significant in the context of classical music
+Which persons have been involved in the creation or performance of classical music
+What languages have been used in the context of classical music
+What events have occurred in the context of classical music
+What concepts are related to the main idea of classical music in the DOREMUS ontology
+What objects have been produced or used for the representation of classical music
+Which musical pieces belong to the classical genre and feature flute and two bassoons as instruments
+What are the notable compositions created in the 1836 time period
+What are the significant locations associated with the DOREMUS ontology
+What are the typical subjects of classical music performances
+Which awards have been given to classical music compositions
+What are the specific objects used in classical music performances
+What are the notable techniques in classical music vocal and instrumental performances
+What are the types of documents related to the DOREMUS ontology
+What are the transformations that have occurred in the history of classical music
+What are the general uses of musical instruments in classical music
+Which classical pieces have specific section definitions
+What are the common identifiers for classical music works
+Which classical music sites have significant physical features
+What are the notable modifications made to classical music pieces
+What are the common place names associated with classical music
+What are the significant acquisitions of classical music works
+What languages are commonly used in classical music conceptual objects
+What visual items are associated with classical music
+What death events are related to classical music composers
+What time spans are associated with classical music performances
+Which musical pieces belong to the DOREMUS collection and involve the combination of flute and two bassoons
+What classical compositions were created in 1836
+Which curators have been associated with a specific classical music collection
+What objects have undergone a part addition or joining process in the context of classical music
+What are the standard measurement units used in classical music
+Which classical music authorities have published documentation on specific works
+What classical music images are available for reference
+What are the notable condition states of classical music pieces
+Which classical music pieces have gained or lost members through joining processes
+What are the common title formats for classical music works

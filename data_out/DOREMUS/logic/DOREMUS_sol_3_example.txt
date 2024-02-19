@@ -1,0 +1,85 @@
+contained expressions
+contained classical music expressions
+Contained Expression in classical music history
+contained expressions in DOREMUS ontology
+contained expressions in the DOREMUS ontology
+Can you identify the F1 Works related to classical music focused on the clarinet instrument
+How are the M62 Hierarchical Levels utilized in organizing musical compositions
+Can you provide an example of a casting detail (M23 Casting Detail) for an opera production
+How does the tempo (M8 Tempo) affect the interpretation of a musical piece
+Can you explain the concept of derivation type (M9 Derivation Type) in relation to E89 Propositional Objects
+How do the characters (F38 Character) interact within a M28 Individual Performance
+What is the significance of ambitus (M30 Ambitus) in defining vocal ranges for performers
+Can you describe the relationship between a set of characters (M33 Set of Characters) and the characters they foresee (U34 foresees character)
+How do E29 Design or Procedures relate to E1 CRM Entities through the association of R57 and R58
+Can you explain the connection between E12 Production, E24 Physical Man-Made Thing, and P108 has produced
+Made Thing, and P108 has produced
+Which groups were formed during the time span of E66 Formation and P95i was formed by
+Which leaving events (E86 Leaving) resulted in the loss of members from specific groups (E74 Group) through P146 separated from
+Which events (E5 Event) were intended purposes for specific activities (E7 Activity) using P20i was purpose of
+Can you identify design or procedure techniques (E29 Design or Procedure) used by activities (E7 Activity) through P33i was used by
+Which information carriers (E84 Information Carrier) have reproductions (F33 Reproduction Event) that were reproduced by (R39) a specific actor (E39 Actor)
+Which propositional objects (E89 Propositional Object) have components (E89 Propositional Object) through P148 has component
+Which nomen use statements (F35 Nomen Use Statement) have content (literal) through F35 Nomen Use Statement R37 states as nomen F12 Nomen
+Which identifier assignments (F40 Identifier Assignment) resulted in identifiers (F13 Identifier) consisting of symbolic objects (E90 Symbolic Object) using R50 assigned to
+Which complex works (F15 Complex Work) have self-contained expressions (F22 Self-Contained Expression) as their descriptive expressions (U38 has descriptive expression)
+Which performance plans (F20 Performance Work) have realizations (F29 Recording Event) that created realizations of recording works (R23 created a realisation of F19 Publication Work)
+contained expressions (F22 Self-Contained Expression) as their descriptive expressions (U38 has descriptive expression)
+Can DOREMUS provide information about specific composers associated with classical music
+How can DOREMUS help identify performances of a particular work
+Can DOREMUS represent the concept of sound spatialization techniques used in musical compositions
+How does DOREMUS handle the relationship between compositions and their intended performers or actors
+How does DOREMUS model the creation and citation of self-contained expressions in classical music
+Can DOREMUS represent the relationship between a work conception and its final realization
+How does DOREMUS handle temporal entities related to recording events
+Can DOREMUS illustrate the connection between expressions and their representative manifestation assignments
+How does DOREMUS handle the concept of validity periods for KOS (Knowledge Organization System) in the context of classical music
+How does DOREMUS represent the relationship between nomen use statements, scripts, and themas in classical music notation
+contained expressions in classical music
+Which composers have created works specifically for the combination of flute and two bassoons
+Can you identify the manifestations of works composed by Mozart
+Which manifestations of musical compositions were created in the year 1836
+Which manifestation singletons are associated with classical music ontology
+Which container entities hold the manifestations of classical music compositions
+How are binding relationships established between manifestations and their Binding entities in DOREMUS
+Can you list the main material types used in classical music manifestations
+How are carrier types assigned to manifestations in DOREMUS
+Which dimensions are used to represent pagination in manifestations of classical music compositions
+How are playing speed manifestation singletons represented in DOREMUS ontology
+Can you identify compositions attributed to a specific composer like Mozart within the DOREMUS ontology
+How can we locate musical works created in a specific year, such as 1836, using the DOREMUS ontology
+How are Symbolic Objects related to classical music concepts in the DOREMUS ontology
+Can you explain the relationship between Physical Thing and Symbolic Object in terms of carrying or being carried by in DOREMUS
+How does the DOREMUS ontology represent Identifiers and their components, including E90 Symbolic Object
+Can you describe the usage of E18 Physical Thing and E90 Symbolic Object in the context of E15 Identifier Assignment in DOREMUS
+How does the DOREMUS ontology incorporate Information Objects with Symbolic Objects
+Can you explain the hierarchical structure between E90 Symbolic Object and E90 Symbolic Object in the context of E106 is composed of in DOREMUS
+How does the DOREMUS ontology represent the connection between Contact Point, Actor, and E51 Contact Point
+Can you describe the relationship between Place Appellation, Place, and Place Identifier Assignment in DOREMUS
+How are Physical Features and Physical Objects related in DOREMUS ontology
+Explain the relationship between Section Definition and Physical Thing
+What is the purpose of Identifier Assignment and Identifier in DOREMUS
+Can you describe the connection between Identifier Assignment, Identifier, and preferred identifier
+How are Modification and Physical Man-Made Thing linked in this ontology
+How does Title relate to Man-Made Thing
+Can you explain the relationship between Man-Made Thing and Intention (Type)
+How does Man-Made Thing connect with Activity through P19
+What are the string properties associated with Man-Made Thing in DOREMUS
+How does Conceptual Object Appellation identify Conceptual Object in this ontology
+Made Thing linked in this ontology
+Made Thing
+Made Thing and Intention (Type)
+Made Thing connect with Activity through P19
+Made Thing in DOREMUS
+How can we represent the concept of a classical music composer within the DOREMUS ontology
+How do we model the relationship between a specific time-span and a musical performance in DOREMUS
+How does the concept of a musical piece relate to the E22 Man-Made Object class in DOREMUS
+How are musical instruments represented and connected to compositions in DOREMUS
+How do we capture the condition assessment and maintenance activities for a musical instrument in DOREMUS
+How are musical collections and their curators modeled in DOREMUS
+Can you explain how the DOREMUS ontology represents the concept of a musical composition's title
+How are the dimensions of a musical instrument modeled and measured in DOREMUS
+How do we represent the creation and destruction of a musical composition within DOREMUS
+How are identifiers assigned and used for musical compositions and performers in the DOREMUS ontology
+span and a musical performance in DOREMUS
+Made Object class in DOREMUS

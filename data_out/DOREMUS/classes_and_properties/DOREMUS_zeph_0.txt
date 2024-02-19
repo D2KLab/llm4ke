@@ -1,0 +1,111 @@
+Given the class M154 Label Name, generate a CQ for the property U169 was issued under label name
+Given the class M155 Cast Statement, generate a CQ for the property U174 has cast statement
+Given the class M156 Title Statement, generate a CQ for the property U170 has title statement
+Given the class M157 Statement of Responsibility, generate a CQ for the property U172 has statement of responsibility relating to title
+Given the class M158 Title and Statement of Responsibility, generate a CQ for the property U220 has title and statement of responsibility
+Given the class M159 Edition Statement, generate a CQ for the property U176 has edition statement
+Given the class M160 Distribution Statement, generate a CQ for the property U184 has distribution statement
+Given the class M161 Distribution Statement, generate a CQ for the property U2 was foresees use of medium of performance for distribution
+Given the class M162 Series Statement, generate a CQ for the property U188 has series statement
+Given the class M163 Music Format Statement, generate a CQ for the property U182 has music format statement
+M166 Title Proper of Multipart Monograph: What is the title of a multipart monograph
+M167 Publication Expression Fragment: What is a publication expression fragment
+M168 Media Type: What is the media type of a musical work
+M169 Carrier Type: What is the carrier type of a musical work
+M170 Binding: How is a musical work bound
+M171 Container: What is the container of a musical work
+M172 Colour Content: Does a musical work have colour content
+M173 Playing Speed: What is the playing speed of a musical work
+M174 Content Type: What is the content type of a musical work
+M175 Music Format: What is the music format of a musical work
+How does an individual performance differ from a foreseen individual performance in the DOREMUS ontology
+What is the relationship between a foreseen performance and a foreseen activity in the DOREMUS ontology
+How is the lowest pitch of an ambitus represented in the DOREMUS ontology
+What is the difference between a foreseen character and a performed character in the DOREMUS ontology
+How is the context of a performance represented in the DOREMUS ontology
+What is the relationship between a foreseen function and a function in the DOREMUS ontology
+How is the highest pitch of an ambitus represented in the DOREMUS ontology
+What is the difference between a foreseen responsibility and a responsibility in the DOREMUS ontology
+How is the religious context of a performance represented in the DOREMUS ontology
+What is the relationship between a foreseen award and an award in the DOREMUS ontology
+How does the DOREMUS ontology represent the relationship between a performed expression and a performed work
+How does the DOREMUS ontology represent the relationship between a performed expression and a set of tracks
+How does the DOREMUS ontology represent the relationship between a performed expression and a WoO number
+How does the DOREMUS ontology represent the relationship between a performed expression and a WoO subnumber
+How does the DOREMUS ontology represent the relationship between a performed expression and a performer status
+How does the DOREMUS ontology represent the relationship between a performed expression and a key
+How does the DOREMUS ontology represent the relationship between a performed expression and a creation or performance mode
+How does the DOREMUS ontology represent the relationship between a performed expression and an intended audience
+How does the DOREMUS ontology represent the relationship between a performed expression and a work type
+How does the DOREMUS ontology represent the relationship between a performed expression and a genre
+How does the DOREMUS ontology represent the tempo of a musical piece
+How does the DOREMUS ontology represent the linguistic appellation of a musical piece
+How does the DOREMUS ontology represent the casting of a musical piece
+How does the DOREMUS ontology represent the hierarchical level of a musical piece
+How does the DOREMUS ontology represent the derivation type of a musical piece
+How does the DOREMUS ontology represent the character of a musical piece
+How does the DOREMUS ontology represent the performing character of a musical piece
+How does the DOREMUS ontology represent the fictional member of a musical piece
+How does the DOREMUS ontology represent the production of a musical piece
+How does the DOREMUS ontology represent the legal object of a musical piece
+How does the DOREMUS ontology represent the concept of a musical group formation
+How does the DOREMUS ontology represent the concept of a musical work being performed
+How does the DOREMUS ontology represent the concept of a musical work being recorded
+How does the DOREMUS ontology represent the concept of a musical work being published
+How does the DOREMUS ontology represent the concept of a musical work being influenced by another musical work
+How does the DOREMUS ontology represent the concept of a musical work being used by another musical work
+How does the DOREMUS ontology represent the concept of a musical work being created by a specific person or corporate body
+How does the DOREMUS ontology represent the concept of a musical work being a component of another musical work
+How does the DOREMUS ontology represent the concept of a musical work being a derivative of another musical work
+How does the DOREMUS ontology represent the concept of a musical work being a realization of another musical work
+How does the DOREMUS ontology represent the relationship between a performance and a recording event
+How does the DOREMUS ontology represent the creation of a work conception
+How does the DOREMUS ontology represent the relationship between a performance and a carrier production event
+How does the DOREMUS ontology represent the relationship between a recording event and a reproduction event
+How does the DOREMUS ontology represent the relationship between a performance and a publication event
+How does the DOREMUS ontology represent the relationship between a work conception and a script conversion
+How does the DOREMUS ontology represent the relationship between a performance and a nomen use statement
+How does the DOREMUS ontology represent the relationship between a recording event and a representative expression assignment
+How does the DOREMUS ontology represent the relationship between a performance and a representative manifestation assignment
+How does the DOREMUS ontology represent the relationship between a performance and a carrier provided by
+How does the DOREMUS ontology represent the concept of a musical composition, and what properties and classes are involved in this representation
+How does the DOREMUS ontology represent the relationship between a musical composition and its performers, and what properties and classes are involved in this representation
+How does the DOREMUS ontology represent the relationship between a musical composition and its recording, and what properties and classes are involved in this representation
+How does the DOREMUS ontology represent the relationship between a musical composition and its performers' interpretation, and what properties and classes are involved in this representation
+How does the DOREMUS ontology represent the relationship between a musical composition and its performers' performance, and what properties and classes are involved in this representation
+How does the DOREMUS ontology represent the relationship between a musical composition and its performers' interpretation and its performers' performance, and what properties and classes are involved in this representation
+How does the DOREMUS ontology represent the relationship between a musical composition and its performers' interpretation and its recording, and what properties and classes are involved in this representation
+How does the DOREMUS ontology represent the relationship between a musical composition and its performers' performance and its recording, and what properties and classes are involved in this representation
+How does the DOREMUS ontology represent the relationship between a musical composition and its performers' interpretation and its performers' performance and its recording, and what properties and classes are involved in this representation
+How does the DOREMUS ontology represent the relationship between a musical composition and its performers' interpretation and its performers' performance and its recording and its performers, and what properties and classes are involved in this representation
+How does the DOREMUS ontology represent the concept of a musical piece, and what properties and classes are used to describe it
+How is the location of a musical performance represented in the DOREMUS ontology, and what classes and properties are involved
+How is the composer of a musical piece represented in the DOREMUS ontology, and what classes and properties are involved
+How is the performer of a musical piece represented in the DOREMUS ontology, and what classes and properties are involved
+How is the duration of a musical performance represented in the DOREMUS ontology, and what classes and properties are involved
+How is the genre of a musical piece represented in the DOREMUS ontology, and what classes and properties are involved
+How is the instrument used in a musical performance represented in the DOREMUS ontology, and what classes and properties are involved
+How is the style of a musical piece represented in the DOREMUS ontology, and what classes and properties are involved
+How is the language used in a musical performance represented in the DOREMUS ontology, and what classes and properties are involved
+How is the theme of a musical piece represented in the DOREMUS ontology, and what classes and properties are involved
+How does the DOREMUS ontology represent the physical features of a musical piece
+How does the DOREMUS ontology represent the preferred identifier of a musical piece
+How does the DOREMUS ontology represent the section definitions of a musical piece
+How does the DOREMUS ontology represent the time-span of a musical piece
+How does the DOREMUS ontology represent the language of a musical piece
+How does the DOREMUS ontology represent the translation of a musical piece
+How does the DOREMUS ontology represent the death of a musical piece
+How does the DOREMUS ontology represent the removal of a musical piece
+How does the DOREMUS ontology represent the diminished state of a musical piece
+How does the DOREMUS ontology represent the system requirements of a musical piece
+span of a musical piece
+How does the condition of a musical piece change over time
+Who identifies a musical piece
+What parts are added to a musical piece
+Who augments a musical piece
+Who gains a member in a musical piece
+Who joins a musical piece
+Who curates a musical piece
+Who lists a musical piece
+Who has a presence in a musical piece
+Who destroys a musical piece

@@ -1,0 +1,10 @@
+What is the relationship between a Smell Emission and an Olfactory Experience in the Odeuropa ontology
+How does a Smell Transformation affect a Smell in the Odeuropa ontology
+What is the difference between a Smell and a Sensory Stimulus in the Odeuropa ontology
+How does a Gesture interact with an Odorizing in the Odeuropa ontology
+What is the relationship between a Smell and a Smell Interaction in the Odeuropa ontology
+How does a Smell Emission generate a Smell in the Odeuropa ontology
+What is the difference between a Smell and a Smell Emission in the Odeuropa ontology
+How does a Smell Interaction affect a Smell in the Odeuropa ontology
+What is the relationship between a Smell and a Smell Emission in the Odeuropa ontology
+How does a Smell Emission interact with a Smell in the Odeuropa ontology

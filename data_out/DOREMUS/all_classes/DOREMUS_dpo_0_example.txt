@@ -1,0 +1,118 @@
+What classes represent cataloguing aspects in DOREMUS ontology
+How are Opus-related concepts structured in DOREMUS ontology
+Which classes in DOREMUS ontology deal with music performance mediums
+How are music publication details modelled in DOREMUS ontology
+How are series statements and their titles represented in DOREMUS ontology
+What classes in DOREMUS ontology focus on music distribution aspects
+How are music formats and multipart monographs described in DOREMUS ontology
+In DOREMUS ontology, how are musical work statements, such as dedications and titles, organized
+What classes in DOREMUS ontology are related to music labels and their statements
+How are complex musical cataloguing structures, such as multiple parts, modelled in DOREMUS ontology
+related concepts structured in DOREMUS ontology
+What distinguishes M166 from other classes in DOREMUS ontology
+How is M170 related to preservation of musical artifacts in DOREMUS
+What category does M19 represent in the context of DOREMUS ontology
+How do M21 and M22 classes in DOREMUS contribute to understanding a musical composition
+In DOREMUS ontology, what role does M20 play in representing musical collaborations
+How do M175 and M174 in DOREMUS differ in terms of musical content representation
+What aspect of a musical piece does M23 specifically address in the DOREMUS ontology
+How do classes M168, M169, and M171 in DOREMUS relate to the physical medium of musical works
+What connection exists between M172 and the visual aspect of musical scores in DOREMUS ontology
+How do M16 Maintenance and M17 Controlled Access Point Creator in DOREMUS contribute to the longevity of musical resources
+What distinguishes a Foreseen Individual Performance from a regular Individual Performance in DOREMUS ontology
+How is the Ambitus class related to musical notations within DOREMUS
+In DOREMUS, what is the connection between Actor Function, Actor Responsibility, and Set of Characters
+What role does the Order Number class play in organizing the Opus Statements within the DOREMUS ontology
+How does the Metronome Indication class in DOREMUS assist in defining the tempo of a musical piece
+In the context of DOREMUS ontology, how do Awards and Award Assignments differ
+What is the significance of the Representative Publication Assignment class in relation to the Opus Statements
+How does the Derivation Type Assignment class in DOREMUS categorize different types of musical adaptations or transformations
+What is the purpose of the Context class within the DOREMUS ontology when describing a musical piece
+In relation to the DOREMUS ontology, how do Rhythmic Patterns and Music Scales contribute to the overall structure of a musical composition
+What distinguishes a Performed Expression from a Descriptive Expression Assignment in DOREMUS ontology
+How is the Set of Tracks related to the Performed Work in the DOREMUS ontology
+What role does the WoO Number play in the DOREMUS ontology's representation of classical music
+In DOREMUS ontology, what are the key differences between M50 Creation or Performance Mode and M55 Condition of Performance
+How does the Type Of Recording Equipment class in DOREMUS ontology contribute to the overall music representation
+What are the connections between Vocal or Instrumental Technique (M57) and the other classes in DOREMUS ontology
+In what way does the Programming Work (M58) class in DOREMUS differ from a Performed Work (M44)
+How does the Genre (M5) class in DOREMUS ontology help in categorizing classical music
+What is the relevance of the Intended Audience (M60) class in the DOREMUS ontology
+In the context of DOREMUS ontology, what are the main differences between Work Type (M61) and Genre (M5)
+What is the relationship between M8 Tempo and E54 Dimension in the context of DOREMUS ontology
+How does M62 Hierarchical Level categorize classical music pieces within DOREMUS
+In DOREMUS, how are F38 Character and M7 Linguistic Appellation interconnected
+What distinguishes E12 Production from E65 Creation in the DOREMUS ontology
+How does the classification of SymmetricObjectProperty in DOREMUS differ from other properties
+What role does E55 Type play in organizing the classes of DOREMUS ontology
+In the context of DOREMUS, how do E24 Physical Man-Made Thing and E29 Design or Procedure interrelate in musical instruments
+How does the legal aspect of E72 Legal Object and E73 Information Object differ in DOREMUS ontology
+What is the significance of M9 Derivation Type in understanding musical compositions within DOREMUS
+How do E13 Attribute Assignment and E30 Right relate to the intellectual property aspect in DOREMUS ontology
+Made Thing and E29 Design or Procedure interrelate in musical instruments
+What type of entity represents a collective of musicians in DOREMUS
+Which class in DOREMUS represents an action or event related to music
+What class signifies a physical medium, such as a CD or sheet music, in the ontology
+How is a unique artistic creation, such as a symphony, represented in DOREMUS
+What class in DOREMUS represents a larger work, comprising multiple individual works, like a musical suite
+In DOREMUS, what class represents a work that is a collection of different works, such as an anthology of musical pieces
+How are serial compositions, like a set of variations, represented in the ontology
+What class in DOREMUS represents a published version of a musical work, such as a printed score
+In the context of DOREMUS, what class represents a specific manifestation of a musical work, such as a performance or a recording
+How are small fragments of musical expressions, like a solo in an orchestral piece, represented in the ontology
+What links Performance (F31) with its related Work Conception (F27) in DOREMUS ontology
+How is Recording Event (F29) distinguished from a Performance (F31) in the context of DOREMUS
+What class represents the process of assigning identifiers in the DOREMUS ontology
+How does the ontology differentiate between a Manifestation Product Type (F3) and a Work Conception (F27)
+In DOREMUS, what is the relationship between Expression Creation (F28) and Expression (F2)
+What role does the KOS class (F34) play in the DOREMUS ontology structure
+How is a Publication Event (F30) related to a Work Conception (F27) in the DOREMUS context
+What is the connection between Family (F39) and the broader DOREMUS ontology, focusing on music
+How does the ontology categorize Carrier Production Event (F32) in relation to Recording (F26)
+What distinguishes Script Conversion (F36) from Expression Creation (F28) in the DOREMUS ontology
+What is the relationship between F51 Pursuit and E39 Actor in DOREMUS ontology
+How does F52 Name Use Activity connect with E41 Appellation
+In what way does F53 Material Copy associate with E57 Material
+What kind of association exists between F54 Utilised Information Carrier and E53 Place
+How do F6 Concept and E28 Conceptual Object interlink in DOREMUS ontology
+What role does F7 Object play when linked to E18 Physical Thing
+How is the connection established between F8 Event and E92 Spacetime Volume in DOREMUS ontology
+What is the relevance of F9 Place in relation to E53 Place class
+In what manner does E21 Person intersect with E39 Actor in DOREMUS ontology
+How does the DOREMUS ontology differentiate between F4 Manifestation Singleton and F5 Item
+What is the relationship between a classical music score (E90) and a concert venue (E45/E51)
+How does a musical composition's creation date (E2) relate to its composer's lifespan (E63/E66)
+In what context do the classes E81 and E86 represent transformative events in the DOREMUS ontology
+How do the classes E44 and E49 contribute to the geographical and temporal context of a musical piece within DOREMUS
+What role do documents (E31) play in capturing historical information about musical works in the DOREMUS ontology
+How do the classes E77 and E70 differentiate between a unique musical performance (E9 Move) and the concept of music in general (Thing) in DOREMUS
+In what manner do the classes E19 and E1 CRM Entity interlink when representing physical objects and entities in the classical music domain
+How do the temporal entities E2 and E49 in DOREMUS help establish the historical context and chronology of musical works
+What is the significance of the classes E17 and E63-E66 in illustrating the categorization and lifespan of musical entities in DOREMUS
+How do the spatial coordinates (E47) and address (E45/E51) classes in DOREMUS contribute to the geographical context of musical events and entities
+E66 in illustrating the categorization and lifespan of musical entities in DOREMUS
+What musical era is associated with an E52 Time-Span related to a significant composer's life
+How does the E46 Section Definition in a classical music score differentiate instrumental parts
+In the context of DOREMUS ontology, how might E33 Linguistic Objects and E36 Visual Items be interconnected with musical notations
+What historical event or circumstance might be linked to an E8 Acquisition or E68 Dissolution involving a musical institution
+How can E11 Modification relate to the evolution of musical instruments in the DOREMUS ontology
+In what way do E27 Site and E71 Man-Made Thing classes in DOREMUS pertain to a concert venue's architectural features
+How might E42 Identifier be used to differentiate between various compositions or performances of the same musical work
+How can E34 Inscription and E37 Mark contribute to the historical understanding of a musical manuscript or score
+In the context of DOREMUS ontology, how might E10 Transfer of Custody be relevant to the preservation of a significant musical artifact
+How do E25 Man-Made Feature and E26 Physical Feature in DOREMUS ontology differ in their representation of a natural acoustic environment modified for musical performances
+Span related to a significant composer's life
+Made Thing classes in DOREMUS pertain to a concert venue's architectural features
+Made Feature and E26 Physical Feature in DOREMUS ontology differ in their representation of a natural acoustic environment modified for musical performances
+What type of condition assessment relates to classical music artifacts in DOREMUS
+How are musical part additions in classical compositions modeled within DOREMUS
+Which class represents the act of curating classical music collections in the ontology
+In DOREMUS, how is the concept of a musical work's title represented
+What class denotes the physical destruction of a classical music piece in the ontology
+How are classical music authorities' documents described in DOREMUS
+In the context of DOREMUS, how is the presence of a performer during a classical concert captured
+What class represents the creation of a new musical genre or style in the ontology
+How are date-related aspects of classical music works represented in DOREMUS
+In the DOREMUS ontology, how are man-made objects, such as musical instruments, modeled
+related aspects of classical music works represented in DOREMUS
+made objects, such as musical instruments, modeled

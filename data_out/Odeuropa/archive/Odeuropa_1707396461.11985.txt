@@ -1,0 +1,5 @@
+How are historical odor experiences and their associated events modeled within the Odeuropa ontology regarding related facets of Cultural Heritage?
+What is the relationship between stimulus generation (L2) and olfactory experience (L13) in the context of odor-centric cultural artifacts in Odeuropa?
+Does the Odeuropa ontology involve or pertain to animal interactions in relation to stimuli or smell experiences, and if so, how?
+How do L16 Odorizing actions influence the overall model of sensory experiences in the Odeuropa cultural heritage perspective?
+In the context of Odeuropa, are specific types of stimuli transformations (L4) related to the perception and documentation of smell, and if so, how and at which levels in the ontology?

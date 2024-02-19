@@ -1,0 +1,87 @@
+Who are the composers of the pieces represented in the DOREMUS ontology
+What works were written by Mozart
+Which works fall under the category of "symphonies"
+What are the compositions that have a duration of less than or equal to 15 minutes
+Who are the performers in the pieces included in the DOREMUS ontology
+Which pieces were produced in a specific location
+What works were composed during a specific time period
+Which pieces were cast for a specific instrument or group of instruments
+What works have a specific linguistic appellation (title or name)
+Which classical music composers are represented in the DOREMUS ontology? CQ: E75(?x) e36:VisualItem(?vi), E33:LinguisticObject(?lo), E48:PlaceName(?pn) e25:ManMadeFeature(?mmf) e68:Dissolution(?diz) e10:TransferOfCustody(?tof) e8:Acquisition(?acq) e69:Death(?dth). E52:TimeSpan(?ts) e37:Mark(?mrk) e80:PartRemoval(?prmr) e46:SectionDefinition(?sdef) e42:Identifier(?id) e26:PhysicalFeature(?pf) e11:Modification(?mod) e27:Site(?sit) e34:Inscription(?ins) ?x rdfs:subClassOf dbr:Composer . RDFCS(?rdfs) ?rdfs dbr:Class , wd:Q1943569 Mozart . ?ym Mozart ?yp Mozart , ?x Mozart . ?x ?ym ?yp . FILTER(
+M165 Title Proper of Series, Note: Be as concise as possible
+Which works have been composed by Mozart 
+Composing (C1) - Can you list the works that have been composed by Mozart
+Performance (C2) - Which classical music pieces have been performed at the Royal Albert Hall
+Classification (C3) - Which works fall under the category of flute sonatas
+Time constraint (C4) - Which flute sonatas have a duration of less than or equal to 15 minutes
+Origin (C5) - Which classical music pieces were composed by German composers between 1800 and 1850
+Organization (C6) - How are classical music works catalogued, such as through opus number, catalogue name, or label name
+Publication (C7) - Which classical music works have been published and how can I locate their publication information
+Distribution (C8) - Where can I find classical music works, and what distribution channels are available to me
+Series (C9) - Are there any classical music works that belong to a particular series, and if so, how can I identify them
+Format (C10) - What formats are available for classical music works, such as sheet music, CD, or digital download
+M24 Track, Note: Be as concise as possible
+Which works have been composed by Mozart 
+M42 Performed Expression Creation, Note: Be as concise as possible
+Which works have been composed by Mozart 
+M61 Work Type, Note: Be as concise as possible
+Which works have been composed by Mozart 
+M5: Which programming works follow a program, have a intended audience of concertgoers, and fall under the symphony genre
+E73 Information Object, Note: Be as concise as possible
+Which works have been composed by Mozart 
+F24 Publication Expression, Note: Be as concise as possible
+Which works have been composed by Mozart 
+How does a Performance Work relate to a Self-Contained Expression in the context of DOREMUS
+Which Individual Works are considered Complex Works in DOREMUS
+Which Corporate Bodies are involved in the creation or publication of Serial Works within DOREMUS
+What is the relation between a Container Work and the component Aggregation Works in DOREMUS
+How does an Expression Fragment differ from a Self-Contained Expression in DOREMUS
+Which identifiers are relevant for Nomen in DOREMUS
+How does a Publication Expression relate to a Serial Work in DOREMUS
+Which composers contributed to the creation of Complex Works within DOREMUS between 1800 and 1850
+What is the duration requirement for flute sonatas that fall under the category of Expression Fragments in DOREMUS
+How does DOREMUS classify works that have been performed at the Royal Albert Hall
+F44 Bibliographic Agency, Note: Be as concise as possible
+Which works have been composed by Mozart 
+F27 (Work Conception): How is a musical work conceived by its composer
+F28 (Expression Creation): How is a musical expression created based on a musical work
+F31 (Performance): How is a musical performance executed by a performer
+F32 (Carrier Production Event): How is a physical or digital carrier produced for a musical work or expression
+F33 (Reproduction Event): How is a musical work or expression reproduced for consumption or distribution
+F36 (Script Conversion): How is a musical composition or performance converted into a different format or medium
+F40 (Identifier Assignment): How is a unique identifier assigned to a musical work or expression
+F41 (Representative Manifestation Assignment): How is a primary version or recording designated as the authorized version of a musical work or expression
+F42 (Representative Expression Assignment): How is a primary performance or interpretation designated as the authorized representation of a musical work or expression
+F43 (Identifier Rule): What guidelines govern the assignment of identifiers for musical works and expressions
+F34 (KOS): How does the subject classification framework categorize musical works, expressions, and performances
+E41 Appellation, Note: Be as concise as possible
+Which works have been composed by Mozart 
+What is the specific instance of a musical work that can be listened to or performed
+How do we identify a particular performance or recording of a musical composition
+What activities are involved in the creation, promotion, and marketing of musical works
+How do musicians pursue their passion for creating music
+How do performers and organizations apply names or titles to musical compositions for identification purposes
+In what contexts are musical works identified by specific names or titles
+How are musical compositions reproduced or copied in various forms of material, such as sheet music or recordings
+What methods are used to accurately reproduce musical works in different materials
+In what ways do musical works utilize various forms of information carriers, such as vinyl, CDs, or digital formats, for distribution and consumption
+What types of technology are commonly used to distribute musical works in different formats
+What specific objects or items are associated with musical compositions, such as orchestral scores, sheet music, or recording equipment
+E66 Formation, Note: Be as concise as possible
+Which works have been composed by Mozart 
+How is a musical notation represented in DOREMUS ontology
+Give me all the symbolic objects that correspond to the sheet music of Beethoven's 9th Symphony
+Which symbolic objects represent the chord progression of the song "Moon River"
+How are the performance venues described in DOREMUS ontology
+List the addresses of the concert halls where Mahler's symphonies have been premiered
+Which address corresponds to the Carnegie Hall in New York City
+How are the communication details of music institutions and organizations represented in DOREMUS ontology
+Retrieve all the contact points of the Vienna Philharmonic Orchestra
+Which contact point leads to the email address of the London Symphony Orchestra's director
+How are the geographic locations associated with music pieces and events represented in DOREMUS ontology
+Provide all the place appellations of Salzburg, Austria, where Mozart was born and grew up
+E56 Language, Note: Be as concise as possible
+Which works have been composed by Mozart 
+E15 Identifier Assignment, Note: Be as concise as possible
+Which works have been composed by Mozart 
+made objects

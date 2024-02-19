@@ -1,0 +1,11 @@
+Stimuli_Transformation
+How does Smell_Transformation relate to Olfactory_Experience within Odeuropa?
+Which classes in Odeuropa are associated with changes in smells or how they're perceived?
+Elaborate a scenario of Odorizing's collaboration with Gesture in affecting a human's Sensory_Experience.
+How does L16_Odorizing contrast with common Sensory_Stimulus in the context of Odeuropa taxonomy?
+Describe a possible interaction between Smell_Interaction and Stimuli_Interaction in relation to Cultural Heritage preservation.
+What entities in Odeuropa can partake in Smell_Emission, and how might this relate to the Animal class?
+How, within the Odeuropa ontology, could an exhibition present a combination of various classes (e.g., Smell_Experience, Odeuropa artifact) to create an immersive sensory experience?
+Under what circumstances would an individual's Olfactory_Experience and Stimulus_Generation crossover in the Odeuropa domain?
+Which classes, in context of Odeuropa, may be associated in portraying the multisensory facets of Cultural Heritage?
+Which classes underline the transformation, alter

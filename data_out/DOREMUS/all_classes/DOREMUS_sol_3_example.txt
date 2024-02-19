@@ -1,0 +1,13 @@
+How are M62 Hierarchical Levels organized within the DOREMUS ontology
+Can you explain the relationship between M6 Casting and musical performances
+How are M7 Linguistic Appellations used to describe different aspects of classical music
+How are M8 Tempo values represented and classified in DOREMUS
+Can you elaborate on the purpose of M9 Derivation Type in the context of music representation
+What roles do F38 Characters play in classical music compositions
+How do F50 Controlled Access Points facilitate navigation within the DOREMUS ontology
+Can you describe the nature of SymmetricObjectProperties in relation to music concepts
+How does the E12 Production class represent the creation process of musical works
+How do E13 Attribute Assignments contribute to the description of musical elements within DOREMUS
+contained expressions (F22 Self-Contained Expression), expression fragments (F23 Expression Fragment), and publication expressions (F24 Publication Expression)
+spans associated with musical events or performances
+Made Object'

@@ -1,0 +1,10 @@
+How are "Odorizing" events related to specific "Involved Smell" instances in the Odeuropa ontology?
+CQ2: What is the significance of the "Targeted" relationship between "Odorizing" and "Literal" entities in this context?
+CQ3: Can you explain the connection between "Odorizing", "Involved Smell", and "Smell" in terms of the ontology structure?
+CQ4: How does the "Stimulus Generation" concept relate to the generation and perception of "Sensory Stimuli" in Odeuropa?
+CQ5: What are the roles of "Material Substantial" in the "Generated" and "Had Source" relationships within "Stimulus Generation"?
+CQ6: How does the perception of "Sensory Stimuli" in "Sensory Experience" lead to the evocation of certain outcomes?
+CQ7: How does the "Has Species" relationship between "Animal" and "Type" contribute to understanding odour experiences in cultural heritage?
+CQ8: Can you describe the role of "Gesture" in relation to "Involved Gesture" and "Activity" in the Odeuropa ontology?
+CQ9: How does the representation of odours in Odeuropa connect with the broader concept of cultural heritage preservation and interpretation?
+CQ10: Can you elaborate on the significance of capturing odour experiences within the framework of cultural heritage ontologies like Odeuropa?

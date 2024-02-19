@@ -1,0 +1,50 @@
+Which performed expressions of M44 Performed Work have been realized in M55 Condition of Performance concert hall
+Which performed expressions of M44 Performed Work have been realized in M55 Condition of Performance open air
+Which performed expressions of M44 Performed Work have been realized in M55 Condition of Performance studio
+Which performed expressions of M44 Performed Work have been realized in M55 Condition of Performance festival
+Which performed expressions of M44 Performed Work have been realized in M55 Condition of Performance theatre
+Which performed expressions of M44 Performed Work have been realized in M55 Condition of Performance church
+Which performed expressions of M44 Performed Work have been realized in M55 Condition of Performance radio
+Which performed expressions of M44 Performed Work have been realized in M55 Condition of Performance television
+Which performed expressions of M44 Performed Work have been realized in M55 Condition of Performance cinema
+Which performed expressions of M44 Performed Work have been realized in M55 Condition of Performance unknown
+Which works have been composed by Mozart and have a tempo of Andante
+Which works have been composed in 1836 and have a duration of less than 5 minutes
+Which works have been composed for the SymmetricObjectProperty "Symphony" and have a cast of at least 50 performers
+Which works have been composed for the SymmetricObjectProperty "Symphony" and have a tempo of Allegro
+Which works have been composed for the SymmetricObjectProperty "Symphony" and have a duration of more than 1 hour
+Which works have been composed for the SymmetricObjectProperty "Symphony" and have a cast of less than 10 performers
+Which works have been composed for the SymmetricObjectProperty "Symphony" and have a tempo of Andante
+Which works have been composed for the SymmetricObjectProperty "Symphony" and have a duration of less than 30 minutes
+Which works have been composed for the SymmetricObjectProperty "Symphony" and have a cast of exactly 50 performers
+Which works have been composed for the SymmetricObjectProperty "Symphony" and have a tempo of Allegro
+Which works have been composed by Mozart and have been performed by a flute and two bassoons ensemble
+Which works have been composed in 1836 and have been performed by a flute and two bassoons ensemble
+Which works have been composed by Mozart and have been recorded by a flute and two bassoons ensemble
+Which works have been composed in 1836 and have been recorded by a flute and two bassoons ensemble
+Which works have been composed by Mozart and have been performed by a flute and two bassoons ensemble in the year 1836
+Which works have been composed by Mozart and have been performed by a flute and two bassoons ensemble in a religious context
+Which works have been composed by Mozart and have been performed by a flute and two bassoons ensemble in a cultural context
+Which works have been composed by Mozart and have been performed by a flute and two bassoons ensemble in a geographical context
+Which works have been composed by Mozart and have been performed by a flute and two bassoons ensemble in a historical context
+Which works have been composed by Mozart and have been performed by a flute and two bassoons ensemble in a specific location, such as a concert hall or a church
+Which works have been created by Mozart
+Which works have been created in 1836
+Which works have been performed by a flute and two bassoons ensemble
+Which works have been recorded by a flute and two bassoons ensemble
+Which works have been reproduced by a flute and two bassoons ensemble
+Which works have been produced by a flute and two bassoons ensemble
+Which works have been warranted by a flute and two bassoons ensemble
+Which works have been intended for a flute and two bassoons ensemble
+Which works have been used as source material by a flute and two bassoons ensemble
+Which works have been cited by a flute and two bassoons ensemble
+Which works have been composed by Mozart and are for flute and two bassoons
+Which works have been composed in 1836 and are for flute and two bassoons
+Which works have been composed by Mozart and have been recorded
+Which works have been composed in 1836 and have been recorded
+Which works have been composed by Mozart and have been performed in the year 2000
+Which works have been composed in 1836 and have been performed in the year 2000
+Which works have been composed by Mozart and have been published in the year 2000
+Which works have been composed in 1836 and have been published in the year 2000
+Which works have been composed by Mozart and have been awarded a prize in the year 2000
+Which works have been composed in 1836 and have been awarded a prize in the year 2000

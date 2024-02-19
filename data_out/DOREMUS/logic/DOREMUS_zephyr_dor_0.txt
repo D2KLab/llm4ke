@@ -1,0 +1,146 @@
+How does the U90 foresees creation or performance mode relate to the DOREMUS ontology
+What is the relationship between U96 foresees vocal or instrumental technique and the E1 CRM Entity in the DOREMUS ontology
+How does the M1 Catalogue Statement relate to the U40 has catalogue name in the DOREMUS ontology
+What is the connection between M28 Individual Performance and the U1 used medium of performance in the DOREMUS ontology
+How does the U2 foresees use of medium of performance relate to the E29 Design or Procedure in the DOREMUS ontology
+What is the connection between F24 Publication Expression and the U169 was issued under label name in the DOREMUS ontology
+How does the U174 has cast statement relate to the F22 Self-Contained Expression in the DOREMUS ontology
+What is the relationship between F22 Self-Contained Expression and the U175 has parallel cast statement in the DOREMUS ontology
+How does the U170 has title statement relate to the F22 Self-Contained Expression in the DOREMUS ontology
+What is the connection between F22 Self-Contained Expression and the U171 has parallel title statement in the DOREMUS ontology
+Contained Expression in the DOREMUS ontology
+Contained Expression and the U175 has parallel cast statement in the DOREMUS ontology
+Contained Expression in the DOREMUS ontology
+Contained Expression and the U171 has parallel title statement in the DOREMUS ontology
+How does the playing speed of a self-contained expression (F22) impact its manifestation (F4)
+What is the carrier type (F3) of a manifestation product type (F3)
+What is the media type (F3) of a manifestation product type (F3)
+What is the binding (F3) of a manifestation product type (F3)
+What is the container (F3) of a manifestation product type (F3)
+What is the colour content (F3) of a self-contained expression (F22)
+What is the music format (F3) of a self-contained expression (F22)
+What is the catalogue name (M1) of a catalogue statement (M1)
+What is the catalogue number (M1) of a catalogue statement (M1)
+What is the form (F3) of a self-contained expression (F22)
+contained expression (F22) impact its manifestation (F4)
+contained expression (F22)
+contained expression (F22)
+contained expression (F22)
+How does the foreseen activity of editing involve the use of equalization techniques, noise reduction techniques, and specific types of recording equipment for mastering and mixing
+What is the ambitus of a character in a self-contained expression, and how does it relate to the lowest and highest pitches
+What is the responsibility of an actor in an activity, and how does it relate to the foreseen responsibility in a design or procedure
+How does a set of characters in a self-contained expression relate to the foreseen characters in a character
+What is the context of a self-contained expression, and how does it relate to the context of an activity
+How does a religious context in a self-contained expression relate to the religious context of an activity
+How does a cultural context in a self-contained expression relate to the cultural context of an activity
+How does a geographical context in a self-contained expression relate to the geographical context of an activity
+How does a historical context in a self-contained expression relate to the historical context of an activity
+What is the metronome indication in a self-contained expression, and how does it relate to the metronome indication in a performed expression creation
+contained expression, and how does it relate to the lowest and highest pitches
+contained expression relate to the foreseen characters in a character
+contained expression, and how does it relate to the context of an activity
+contained expression relate to the religious context of an activity
+contained expression relate to the cultural context of an activity
+contained expression relate to the geographical context of an activity
+contained expression relate to the historical context of an activity
+contained expression, and how does it relate to the metronome indication in a performed expression creation
+How does the DOREMUS ontology represent the relationship between a set of tracks and a performed expression
+How does the DOREMUS ontology represent the relationship between a performed expression and a self-contained expression
+How does the DOREMUS ontology represent the relationship between a publication expression and a performed expression
+How does the DOREMUS ontology represent the relationship between a set of tracks and a performed expression
+How does the DOREMUS ontology represent the relationship between a performance and a performer status
+How does the DOREMUS ontology represent the relationship between a foreseen performance and a performer status
+How does the DOREMUS ontology represent the relationship between a self-contained expression and a key
+How does the DOREMUS ontology represent the relationship between a key and a relative key
+How does the DOREMUS ontology represent the relationship between a key and a parallel key
+How does the DOREMUS ontology represent the relationship between a key and a closely related key
+contained expression
+contained expression and a key
+How does the casting of a self-contained expression in DOREMUS ontology relate to its hierarchical level and tempo
+How does the fictional membership of a character in DOREMUS ontology relate to the character it is based on and the actor who portrays it
+How does the maintenance of a physical man-made thing in DOREMUS ontology relate to the thing it maintains and the time span it is maintained
+How does the modification of a physical man-made thing in DOREMUS ontology relate to the thing it modifies and the time span it is modified
+How does the use of a specific object in DOREMUS ontology relate to the design or procedure that foresees it and the time span it is used
+How does the pagination, number of tape tracks, and duration of a manifestation product type in DOREMUS ontology relate to the dimension it should have and the time span it has
+How does the type of a manifestation product type in DOREMUS ontology relate to the nomen form it has and the kind of context it occurs in
+How does the exemplification of a CRM entity in DOREMUS ontology relate to the type it exemplifies and the time span it exemplifies
+How does the use of a general technique in DOREMUS ontology relate to the activity it has and the time span it is used
+How does the narrower term and broader term of a type in DOREMUS ontology relate to the typical wholes and parts it defines
+contained expression in DOREMUS ontology relate to its hierarchical level and tempo
+made thing in DOREMUS ontology relate to the thing it maintains and the time span it is maintained
+made thing in DOREMUS ontology relate to the thing it modifies and the time span it is modified
+What is the relationship between a F22 Self-Contained Expression and its F24 Publication Expression(es)
+How is a F22 Self-Contained Expression related to its F1 Work(s)
+What is the connection between a F22 Self-Contained Expression and its F28 Expression Creation(s)
+How is a F22 Self-Contained Expression related to its F15 Complex Work(s)
+What is the relationship between a F22 Self-Contained Expression and its F20 Performance Work(s)
+How is a F22 Self-Contained Expression related to its F21 Recording Work(s)
+What is the connection between a F22 Self-Contained Expression and its F29 Recording Event(s)
+How is a F22 Self-Contained Expression related to its F30 Publication Event(s)
+What is the relationship between a F22 Self-Contained Expression and its F35 Nomen Use Statement(s)
+How is a F22 Self-Contained Expression related to its F33 Reproduction Event(s)
+Contained Expression and its F24 Publication Expression(es)
+Contained Expression related to its F1 Work(s)
+Contained Expression and its F28 Expression Creation(s)
+Contained Expression related to its F15 Complex Work(s)
+Contained Expression and its F20 Performance Work(s)
+Contained Expression related to its F21 Recording Work(s)
+Contained Expression and its F29 Recording Event(s)
+Contained Expression related to its F30 Publication Event(s)
+Contained Expression and its F35 Nomen Use Statement(s)
+Contained Expression related to its F33 Reproduction Event(s)
+How does the DOREMUS ontology model the relationship between a performance work, a performance plan, and a performance
+How is a recording work related to a recording event and a recording
+How does the DOREMUS ontology represent the creation of an expression and its relationship with a work, a manifestation, and a manifestation singleton
+How is a self-contained expression related to a recording event, a performance, and a performance work
+How does the DOREMUS ontology model the relationship between a publication work, a publication event, and a publication expression
+How is a historical instrument used in a performance, and how is it represented in the DOREMUS ontology
+How does the DOREMUS ontology model the production of a carrier and its relationship with a manifestation product type and a publication expression
+How is a reproduction event related to an information carrier and a manifestation product type in the DOREMUS ontology
+How does the DOREMUS ontology represent the validity period, nomen, and nomen language of a nomen use statement
+How is a binding, media type, and carrier type represented in the DOREMUS ontology for a manifestation product type
+contained expression related to a recording event, a performance, and a performance work
+What is the material that the physical thing with ID 123456 consists of
+Which actor played the role based on the character with ID 789
+Which legal object does the actor with ID 101 have a right on
+Which collection does the actor with ID 102 currently or formerly curate
+Which group does the actor with ID 103 currently or formerly belong to
+Which place does the physical thing with ID 12345 have a former or current location
+Which place does the physical thing with ID 12345 have a former or current keeper
+Which place does the physical thing with ID 12345 have a current or former residence
+Which place does the physical thing with ID 12345 have a current or former contact point
+Which place does the physical thing with ID 12345 have a current or former reference space
+How does the DOREMUS ontology represent a symbolic object that is composed of another symbolic object
+How does the DOREMUS ontology represent a physical thing that carries a symbolic object
+How does the DOREMUS ontology represent a symbolic object that is carried by a physical man-made thing
+How does the DOREMUS ontology represent an identifier that consists of a symbolic object
+How does the DOREMUS ontology represent a symbolic object that was used in an identifier assignment
+How does the DOREMUS ontology represent an information object that incorporates a symbolic object
+How does the DOREMUS ontology represent a symbolic object that forms part of another symbolic object
+How does the DOREMUS ontology represent a contact point that provides access to an actor
+How does the DOREMUS ontology represent an actor that has a contact point
+How does the DOREMUS ontology represent a place that is identified by a place appellation
+made thing
+How does the physical feature of a musical instrument relate to the section definition of that instrument, and how is this connection represented in the DOREMUS ontology
+How is the preferred identifier of a musical work related to the deassigned identifiers of that work, and how is this connection represented in the DOREMUS ontology
+How is the modification of a musical instrument related to the materials used in that modification, and how is this connection represented in the DOREMUS ontology
+How is the intended use of a musical instrument related to the intended use of the group to which it belongs, and how is this connection represented in the DOREMUS ontology
+How is the composition of materials used in a musical instrument related to the technical features of that instrument, and how is this connection represented in the DOREMUS ontology
+How is the groove characteristics of a musical instrument related to the tape configuration used in that instrument, and how is this connection represented in the DOREMUS ontology
+How is the subtitle of a musical work related to the variant title of that work, and how is this connection represented in the DOREMUS ontology
+How is the dissolution of a musical group related to the dissolution of the group to which it belonged, and how is this connection represented in the DOREMUS ontology
+How is the acquisition of a musical work related to the transfer of ownership of the physical thing representing that work, and how is this connection represented in the DOREMUS ontology
+How is the conceptual object appellation of a musical work related to the conceptual object to which it belongs, and how is this connection represented in the DOREMUS ontology
+How does the condition of a physical thing change over time, and what factors contribute to these changes
+How are parts added to man-made things, and what is the relationship between the added parts and the original object
+How are groups formed, and what entities become members of these groups
+How are curated collections managed, and what roles do actors and curation activities play in this process
+How are entities listed in authority documents, and what is the relationship between these entities and the documents
+How are places associated with presences, and what is the relationship between these places and the spacetime volumes that contain them
+How are time-spans associated with presences, and what is the relationship between these time-spans and the spacetime volumes that contain them
+How are expressions titled, and what is the relationship between these titles and the man-made things they describe
+How are measurements made, and what entities are involved in this process
+How are types created, and what roles do entities and type creation processes play in this process
+made things, and what is the relationship between the added parts and the original object
+spans associated with presences, and what is the relationship between these time-spans and the spacetime volumes that contain them
+made things they describe

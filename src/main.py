@@ -99,7 +99,7 @@ def run(task, input_path, llm_model, ont_name, n_cqs=10, include_description=Fal
         with open(path.join(input_path, 'cqs', 'cqs.yml')) as f:
             ground_truth = yaml.safe_load(f)
         cqs = [c['question'] for c in ground_truth['ontology']['cqs']]
-        
+
         examples = 'For example:' + '\n -'.join(cqs[:n_examples])
 
     input_batches = []

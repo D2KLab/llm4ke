@@ -1,0 +1,26 @@
+How is a historic olfactory experience in Odeuropa represented and connected to associated cultural artifacts or contexts?
+How are smells in Odeuropa categorized when representing their sources and transformations?
+How are interactions between human perceptions and preserved odours (from artworks to historical sites) documented using Odeuropa ontology concepts?
+In describing historic smell emitters in Odeuropa, how is the cultural influence factored into the ontological schema?
+What are key properties of Odeuropa’s formalism in handling temporal characteristics of registered odors?
+In Odeuropa, how is the preservation or conservation status of materials related to their potential aromas incorporated in ontological terms?
+What strategies in Odeuropa accommodate the inherent subjectivity and variability in human responses related to smell experiences of historic artifacts?
+How does Odeuropa treat the complexity of abstract or imaginary scents in historic sources, from literary works or artistic representations, in the ontological classification?
+In representing changes over time of odour perceptions and cultural associations, how granular is the temporal resolution in Odeuropa's ontology?
+What considerations are made in Odeuropa ontology when capturing cross-cultural smell experiences in divergent historical contexts and periods?<|system|> 
+How is odor linked with cultural heritage experiences in Odeuropa?
+How is stimulus generation specific to the olfactory domain within the ontology?
+Define the concept of sensory experience in context to Odeuropa ontology.
+Within Odeuropa ontology, characterize the stimuli transformation process.
+Explain L16 'Odorizing' from an ontological perspective in Odeuropa.|<|system|> 
+How is the perception of odors during a historical period related to relevant cultural practices in Odeuropa?
+In context to Odeuropa ontology, wherein do animal-associated olfactory experiences reside?
+What relation represents gestural acts and their connection with fragrance experiences in Odeuropa?
+Within Odeuropa, how do human interactions with the documented olfactory environment impact historical narratives?
+For the category of 'L6', what are equivalent alternatives in the Odeuropa classification system?
+What are the key differences in cataloguing olfactory experiences when contrasting the early with later historical periods, as considered in Odeuropa?
+As relevant to Odeuropa, how do the nuances of odor experiences in artistic masterpieces and literary sources intertwine in documenting cultural heritage?
+In depicting historical smellscapes, how do architectural descriptions and fragrance encounters interact in the Odeuropa framework?
+What are the fundamental aspects of odor experiences among various social hierarchies, as represented in Odeuropa?
+How do religious practices influence or co-occur with perceptions of aromas in the Odeuropa ontology?
+In Odeuropa, how might the collection process of documenting historical olfactory encounters

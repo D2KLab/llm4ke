@@ -1,0 +1,11 @@
+Stimuli_Transformation
+What is the connection between an Olfactory_Experience and a specific Sensory_Stimulus?
+What classes interact in a Smell_Interaction event within the Odeuropa ontology?
+To which Animal class may a Smell_Emission in Odeuropa be related and why?
+How is a Smell_Transformation different from a Stimulus_Generation ontologically?
+In the context of Odeuropa, distinguish between Gesture and Smell_Emission.
+What role do L16_Odorizing objects play in the OdEuropa ontology?
+Describe a scenario in which a Sensory_Experience is part of Cultural Heritage but not based on a visual aspect.
+What class linkage occurs in the transition of a Sensory_Stimulus to a Sensory_Experience in Odeuropa?
+How is an Olfactory_Experience distinct from Sensory_Experience in general terms within Odeuropa?
+What category of interaction encompasses the combined experience between Smell_Emission, Odorant reception, and subsequent cognitive interpretation in Odeuropa?

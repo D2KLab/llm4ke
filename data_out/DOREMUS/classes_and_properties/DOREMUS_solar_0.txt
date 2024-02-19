@@ -1,0 +1,64 @@
+How should an individual demonstrate knowledge of organizing and managing M166 Title Proper of Multipart Monographs
+Can you explain the significance of understanding properties related to M167 Publication Expression Fragments and how it can be assessed
+How would you evaluate someone's comprehension of M168 Media Type and its relation to CLU206 and U206
+How can we assess an individual's understanding of M169 Carrier Type and its impact on CLU207 and U207
+How would you measure expertise in M16 Maintenance and its association with U39 and its 'has tuned' property
+Can you describe a method to evaluate competence in M170 Binding and its relevance to CLU197 and U197
+How can we gauge an individual's proficiency in M171 Container and its relation to CLU198 and U198
+How would you assess an individual's understanding of M172 Colour Content and its application in U214
+How can we evaluate an individual's knowledge of M173 Playing Speed and its significance in U217
+How would you test an individual's comprehension of M175 Music Format and its connection to U229 in the DOREMUS ontology
+How is the relationship between the classes M8 Tempo and U14 has tempo in representing musical pace
+Can you explain the significance of the properties U13 has casting and U23 has casting detail in defining roles and character assignments
+How does the M7 Linguistic Appellation class relate to the properties R57 is based on and R58 has fictional member in terms of naming conventions and fictional entities
+How do the classes E12 Production and E65 Creation represent the process of creating musical compositions
+Can you describe the usage of the properties P108 has produced and P108i was produced by in establishing production relationships between compositions and entities
+How does the E55 Type class and the property P2 has type categorize and distinguish different types of musical works
+Can you elaborate on the relationship between the classes U26 has maintained and E29 Design or Procedure in maintaining and updating musical compositions
+How do the properties P110 augmented and P110i was augmented by contribute to understanding the augmentation of musical elements
+Can you explain the role of the classes E40 Legal Body and P105 right held by in representing legal ownership and rights in the context of classical music
+How do the classes F50 Controlled Access Point and U195 has order or location indication facilitate access and organization of musical resources
+How can an individual identify the relationship between classes F14 (Individual Work) and R50 (assigned to) in the DOREMUS ontology
+Can you explain the significance of properties P107 (has current or former member) and P146 (separated from) in the context of the DOREMUS ontology
+How do classes F11 (Corporate Body) and R62 (was used for membership in) contribute to representing musical groups in the DOREMUS ontology
+Can you describe the use of properties P151 (participated in) and P151i (was formed from) in relation to musical performances
+How do classes F21 (Recording Work) and U55 (incorporates performed expression) interact to represent the relationship between recorded music and live performances in DOREMUS
+Can you explain the role of properties P125 (used object of type) and P125i (was type of object used in) in describing the instruments used in musical compositions
+How do classes U12 (has genre) and U20 (has music group formation) help categorize and describe different types of classical music in DOREMUS
+Can you elaborate on the relationship between properties U13 (has casting) and U33 (has set of characters) in representing the roles and performers in an opera within DOREMUS
+How do classes U16 (catalogue statement) and U167 (has title proper) contribute to uniquely identifying and describing classical music compositions in DOREMUS
+Can you describe the use of properties U52 (has context) and U66 (has historical context) in representing the historical background and influences on classical music compositions within DOREMUS
+Which property represents the creation of an expression in DOREMUS ontology
+How is a performance related to a performance plan in the DOREMUS ontology
+Can you identify the class that represents the concept of a recording event
+What property indicates the realization of a work through a performance in DOREMUS
+How is a nomen use statement specified in the ontology
+What class represents the concept of a manifestation product type
+Which property links a recording to the creation of a realization
+How is the creation of a realization of a work represented in DOREMUS
+Can you name the property used to indicate the assignment of an identifier
+How is the concept of intended audience represented in the DOREMUS ontology
+Can you explain the relationship between the classes F53 Material Copy and U206 has media type in the context of DOREMUS ontology
+How does the property U197 has binding connect the classes E21 Manifestation Singleton and F54 Utilised Information Carrier within DOREMUS
+Can you describe the significance of the property P107 has current or former member in relation to the classes E39 Actor and E100 Group in DOREMUS
+How does the property P76i provides access to link the classes F7 Object and E57 Material in the DOREMUS ontology
+Can you elaborate on the relationship between the classes F6 Concept and P131i identifies in the context of DOREMUS
+How does the property P105 right held by connect the classes E92 Spacetime Volume and E18 Physical Thing in DOREMUS
+Can you explain the relationship between the classes F52 Name Use Activity and R64 used name in the context of DOREMUS
+How does the property P152i is parent of connect the classes E28 Conceptual Object and E20 Biological Object within DOREMUS
+Can you describe the role of the property P59i is located on or within in connecting the classes F9 Place and E53 Place in DOREMUS
+How does the property P167i was place of relate the classes F7 Object and F9 Place in the DOREMUS ontology
+How are symbols represented in the DOREMUS ontology (E90 Symbolic Object)
+How do E4 Periods relate to temporal entities (E2 Temporal Entity) and time appellations (E49 Time Appellation)
+Can you explain the relationship between documents (E31 Document) and their classification (P41 classified)
+How does the concept of spatial coordinates (E47 Spatial Coordinates) relate to addresses (E90 Symbolic Object) and contact points (E51 Contact Point)
+How are musical compositions (E90 Symbolic Object) structured using the composition property (R9 consists of)
+How do transformation events (E81 Transformation) affect the type assignment (E17 Type Assignment) of musical pieces
+Can you describe the relationship between places (E70 Thing) and their appellations (E44 Place Appellation, E49 Time Appellation)
+How do moves (E22 Move) and locations (E70 Thing) influence the existence of musical items (E77 Persistent Item) in DOREMUS
+How are musical techniques (U96 foresees vocal or instrumental technique) attributed to performers or compositions (P140 assigned attribute to, P141 assigned)
+How does the DOREMUS ontology represent the relationship between musical works, their performances (R66 included performed version of), and their documentation (P70 documents, P70i is documented in)
+Made Feature and P56i is found on
+Made Thing
+Made Object)
+Made Object)

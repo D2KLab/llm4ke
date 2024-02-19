@@ -1,0 +1,10 @@
+What is the relationship between the odorizing process and the involved smell in the Odeuropa ontology
+How is the targeted odorizing process represented in the Odeuropa ontology
+What is the relationship between the odorizing process and the smell in the Odeuropa ontology
+How is the stimulus generation process represented in the Odeuropa ontology
+What is the relationship between the sensory experience and the sensory stimulus in the Odeuropa ontology
+How is the source of the stimulus generation process represented in the Odeuropa ontology
+How is the carrier of the stimulus generation process represented in the Odeuropa ontology
+What is the relationship between the sensory experience and the evoked sensation in the Odeuropa ontology
+How is the animal represented in the Odeuropa ontology
+How is the involved gesture represented in the Odeuropa ontology during an activity

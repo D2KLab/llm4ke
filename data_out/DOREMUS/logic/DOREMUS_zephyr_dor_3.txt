@@ -1,0 +1,156 @@
+Which works have been composed by Mozart and performed in the creation mode
+Which works have been composed by Mozart and performed using the vocal technique
+Which works have been composed by Mozart and published under a specific label name
+Which works have been composed by Mozart and have a specific cast statement
+Which works have been composed by Mozart and have a specific title statement
+Which works have been composed by Mozart and have a specific edition statement
+Which works have been composed by Mozart and have a specific dedication statement
+Which works have been composed by Mozart and have a specific publication statement
+Which works have been composed by Mozart and have a specific distribution statement
+Which works have been composed by Mozart and have a specific series statement
+Which manifestations have a playing speed of 33 rpm
+Which expressions have a music format of CD
+Which manifestations have a container of a cardboard box
+Which expressions have a colour content of red
+Which manifestations have a binding of hardcover
+Which expressions have a catalogue name of "Complete Works"
+Which expressions have a catalogue number of "M100"
+Which expressions have a music group formation of "The Rolling Stones"
+Which expressions have a harmonic structure of "Minor key"
+Which expressions have a form of "Symphony"
+Which works have been composed by Mozart and have a set of characters that include a flute and two bassoons
+Which works have been composed by Mozart and have a religious context
+Which works have been composed by Mozart and have a cultural context
+Which works have been composed by Mozart and have a geographical context
+Which works have been composed by Mozart and have a historical context
+Which works have been composed by Mozart and have a metronome indication
+Which works have been composed by Mozart and have a WoO number
+Which works have been composed by Mozart and have a WoO subnumber
+Which works have been composed by Mozart and have a context that includes a university setting
+Which works have been composed by Mozart and have a character with an ambitus ranging from C4 to C6
+Which works have been composed by Mozart and have a genre of chamber music
+Which works have been composed in 1836 and have a work type of symphony
+Which works have been composed by Mozart and have a key of C major
+Which works have been composed by Mozart and have a closely related key of G major
+Which works have been composed by Mozart and have a parallel key of F major
+Which works have been composed by Mozart and have a relative key of A major
+Which works have been composed by Mozart and have been performed by a flute and two bassoons
+Which works have been composed by Mozart and have been recorded using a mixing technique of compression
+Which works have been composed by Mozart and have been edited using an equalization technique of boosting
+Which works have been composed by Mozart and have been performed under the condition of a concert hall
+Which works have been composed by Mozart
+Which works have been composed in 1836
+Which works have been performed by a flute and two bassoons
+Which works have been performed in 1836
+Which works have been performed by Mozart
+Which works have been performed by a flute and two bassoons in 1836
+Which works have been performed by Mozart in 1836
+Which works have been performed by a flute and two bassoons
+Which works have been performed by Mozart and have a duration of 10 minutes
+Which works have been performed by a flute and two bassoons and have a duration of 10 minutes
+Which works have been composed by Mozart
+Which works have been composed in 1836
+Which works are members of the group "The Rolling Stones"
+Which works have lost members from the group "The Rolling Stones"
+Which works have gained members from the group "The Rolling Stones"
+Which works have been formed by "The Rolling Stones"
+Which works have been dissolved by "The Rolling Stones"
+Which works have been joined by "The Rolling Stones"
+Which works have been separated from "The Rolling Stones"
+Which works have participated in the formation of "The Rolling Stones"
+Which self-contained expressions have been realised in a performance work
+Which self-contained expressions have been realised in a recording work
+Which self-contained expressions have been realised in a publication work
+Which self-contained expressions have been realised in a complex work
+Which self-contained expressions have been realised in a realisation of an information carrier
+Which self-contained expressions have been reproduced in an information carrier
+Which self-contained expressions have been produced in a carrier production event
+Which self-contained expressions have been used as source material in a carrier production event
+Which self-contained expressions have been utilised in an information carrier
+Which self-contained expressions have been cited in a self-contained expression
+Which works have been performed in a performance work
+Which works have been performed in a performance plan
+Which works have been performed in a performance event
+Which works have been performed in a performance expression
+Which works have been performed in a publication expression
+Which works have been performed in a realisation of an information carrier
+Which works have been performed in a reproduction event
+Which works have been performed in a reproduction event of an information carrier
+contained expressions have been realised in a performance work
+contained expressions have been realised in a recording work
+contained expressions have been realised in a publication work
+contained expressions have been realised in a complex work
+contained expressions have been realised in a realisation of an information carrier
+contained expressions have been reproduced in an information carrier
+contained expressions have been produced in a carrier production event
+contained expressions have been used as source material in a carrier production event
+contained expressions have been utilised in an information carrier
+contained expressions have been cited in a self-contained expression
+Which works have been composed by Mozart and have been recorded by the Berlin Philharmonic Orchestra in 1995
+Which works have been composed by Mozart and have been performed by the Vienna Philharmonic Orchestra in 2000
+Which works have been composed by Mozart and have been published in 1800
+Which works have been composed by Mozart and have been premiered in Vienna in 1787
+Which works have been composed by Mozart and have been recorded by the London Symphony Orchestra in 1985
+Which works have been composed by Mozart and have been performed by the New York Philharmonic Orchestra in 1990
+Which works have been composed by Mozart and have been published in London in 1820
+Which works have been composed by Mozart and have been premiered in Salzburg in 1781
+Which works have been composed by Mozart and have been recorded by the Chicago Symphony Orchestra in 1998
+Which works have been composed by Mozart and have been performed by the Boston Symphony Orchestra in 1995
+Which works have been composed by Mozart
+Which works have been composed in 1836
+Which works have been composed for flute and two bassoons
+Which works have been composed for flute and bassoon
+Which works have been composed for two bassoons
+Which works have been composed for bassoon
+Which works have been composed for flute
+Which works have been composed for flute and orchestra
+Which works have been composed for orchestra
+Which works have been composed for bassoon and orchestra
+Which works have been composed by Mozart
+Which works have been composed in 1836
+Which works have been composed for flute and two bassoons
+Which works have been composed for flute and bassoon
+Which works have been composed for two bassoons
+Which works have been composed for bassoon
+Which works have been composed for flute
+Which works have been composed for flute and orchestra
+Which works have been composed for orchestra
+Which works have been composed for bassoon and orchestra
+Which works have been composed by Mozart
+Which works have been composed in 1836
+Which works have been composed for flute and two bassoons
+Which works have been composed for flute and bassoon
+Which works have been composed for two bassoons
+Which works have been composed for flute and bassoon in 1836
+Which works have been composed for flute and two bassoons by Mozart
+Which works have been composed for two bassoons by Mozart
+Which works have been composed for flute and bassoon in 1836 by Mozart
+Which works have been composed for flute and two bassoons in 1836
+Which physical features are found on the physical object called "Stradivarius violin, 1716, ex-Soldat"
+Which physical objects bear the physical feature called "gold plating"
+Which physical sections are defined for the physical thing called "Eiffel Tower"
+Which identifiers have been assigned to the physical man-made thing called "Statue of Liberty"
+Which identifiers have been deassigned from the physical man-made thing called "Taj Mahal"
+Which modifications have been made to the physical man-made thing called "Eiffel Tower"
+Which materials have been employed in the modification of the physical man-made thing called "Statue of Liberty"
+Which titles have been intended for the physical man-made thing called "Eiffel Tower"
+Which intended uses have been associated with the physical man-made thing called "Statue of Liberty"
+Which system requirements have been specified for the physical man-made thing called "Eiffel Tower"
+Soldat"
+made thing called "Statue of Liberty"
+made thing called "Taj Mahal"
+made thing called "Eiffel Tower"
+made thing called "Statue of Liberty"
+made thing called "Eiffel Tower"
+made thing called "Statue of Liberty"
+made thing called "Eiffel Tower"
+Which works have been composed by Mozart and are suitable for performance by a flute and two bassoons
+Which works have been composed in 1836 and are suitable for performance by a flute and two bassoons
+Which works have been composed by Mozart and have been identified as being in a condition of deterioration
+Which works have been composed in 1836 and have been identified as being in a condition of deterioration
+Which works have been composed by Mozart and have been augmented with additional parts for bassoons
+Which works have been composed in 1836 and have been augmented with additional parts for bassoons
+Which works have been composed by Mozart and have been listed in an authority document
+Which works have been composed in 1836 and have been listed in an authority document
+Which works have been composed by Mozart and have been curated by a specific group
+Which works have been composed in 1836 and have been curated by a specific group

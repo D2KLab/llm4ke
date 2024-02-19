@@ -1,0 +1,111 @@
+What is the M157 Statement of Responsibility for a specific piece of music
+What is the M158 Title and Statement of Responsibility for a specific piece of music
+What is the M159 Edition Statement for a specific piece of music
+What is the M160 Publication Statement for a specific piece of music
+What is the M161 Distribution Statement for a specific piece of music
+What is the M162 Series Statement for a specific piece of music
+What is the M163 Music Format Statement for a specific piece of music
+What is the M164 Multipart Monograph Statement for a specific piece of music
+What is the M165 Title Proper of Series for a specific piece of music
+What is the M155 Cast Statement for a specific piece of music
+Given the class M166 Title Proper of Multipart Monograph, generate a CQ that tests the competency of an individual to correctly identify the title of a multipart monograph
+Given the class M167 Publication Expression Fragment, generate a CQ that tests the competency of an individual to correctly identify a fragment of a publication expression
+Given the class M168 Media Type, generate a CQ that tests the competency of an individual to correctly identify the media type of a musical work
+Given the class M169 Carrier Type, generate a CQ that tests the competency of an individual to correctly identify the carrier type of a musical work
+Given the class M170 Binding, generate a CQ that tests the competency of an individual to correctly identify the binding of a musical work
+Given the class M171 Container, generate a CQ that tests the competency of an individual to correctly identify the container of a musical work
+Given the class M172 Colour Content, generate a CQ that tests the competency of an individual to correctly identify the colour content of a musical work
+Given the class M173 Playing Speed, generate a CQ that tests the competency of an individual to correctly identify the playing speed of a musical work
+Given the class M174 Content Type, generate a CQ that tests the competency of an individual to correctly identify the content type of a musical work
+Given the class M175 Music Format, generate a CQ that tests the competency of an individual to correctly identify the music format of a musical work
+What is the relationship between a Foreseen Performance and a Foreseen Activity
+How is a Foreseen Individual Performance related to an Individual Performance
+What is the connection between Editing and an Opus Statement
+How is a Music Scale related to a Derivation Type Assignment
+What is the connection between a Representative Publication Assignment and an Award
+How is a Context related to a Metronome Indication
+What is the relationship between a Performed Expression Creation and a Rhythmic Pattern
+How is a Set of Characters related to an Award Assignment
+What is the connection between a M25 Foreseen Activity and a M26 Foreseen Performance
+How is a M37 Music Scale related to a M38 Rhythmic Pattern
+Given the class M57 Vocal or Instrumental Technique, provide an example of a CQ that assesses a person's understanding of this class
+Given the class M58 Programming Work, provide an example of a CQ that assesses a person's understanding of this class
+Given the class M59 Program, provide an example of a CQ that assesses a person's understanding of this class
+Given the class M60 Intended Audience, provide an example of a CQ that assesses a person's understanding of this class
+Given the class M61 Work Type, provide an example of a CQ that assesses a person's understanding of this class
+Given the class M43 Performed Expression, provide an example of a CQ that assesses a person's understanding of this class
+Given the class M44 Performed Work, provide an example of a CQ that assesses a person's understanding of this class
+Given the class M45 Descriptive Expression Assignment, provide an example of a CQ that assesses a person's understanding of this class
+Given the class M46 Set of Tracks, provide an example of a CQ that assesses a person's understanding of this class
+Given the class M47 WoO Number, provide an example of a CQ that assesses a person's understanding of this class
+What is the hierarchical level of a musical piece
+What is the casting of a musical piece
+What is the linguistic appellation of a musical piece
+What is the tempo of a musical piece
+What is the derivation type of a musical piece
+What is the character of a musical piece
+What is the controlled access point of a musical piece
+What is the symmetric object property of a musical piece
+What is the production of a musical piece
+What is the legal object of a musical piece
+What type of work is a self-contained expression
+What type of work is a performance work
+What type of work is a serial work
+What type of work is a publication expression
+What type of work is a complex work
+What type of work is a recording work
+What type of work is an expression fragment
+What type of work is a nomen
+What type of work is a propositional object
+What type of work is a corporate body
+contained expression
+What is the relationship between a Recording Event and a Work Conception
+How is a Publication Event related to a Manifestation Product Type
+What is the connection between a Carrier Production Event and a Recording Event
+How is a Script Conversion related to an Expression
+What is the connection between a Family and a Work Conception
+How is a Nomen Use Statement related to a KOS
+What is the relationship between a Performance and a Recording Event
+How is a Representative Manifestation Assignment related to a Manifestation Product Type
+What is the connection between a Representative Expression Assignment and an Expression
+How is a Bibliographic Agency related to a Identifier Assignment
+What is the relationship between a F51 Pursuit and an E21 Person
+How is a F52 Name Use Activity related to an E21 Person and an E82 Actor Appellation
+What is the connection between a F53 Material Copy and an E57 Material
+How is a F54 Utilised Information Carrier associated with an E57 Material and an E21 Person
+What is the relationship between a F5 Item and an E53 Place
+How is a F6 Concept related to an E53 Place and an E21 Person
+What is the connection between a F7 Object and an E53 Place
+How is a F8 Event related to an E53 Place and an E21 Person
+What is the relationship between a F9 Place and an E53 Place
+How is an E21 Person associated with an E53 Place and an E82 Actor Appellation
+What is the type of a musical score represented in the DOREMUS ontology
+How is a musical score related to a place where it was composed
+How is a musical score related to a time period in which it was composed
+How is a musical score related to a composer who created it
+How is a musical score related to a performer who played it
+How is a musical score related to a location where it was performed
+How is a musical score related to a musical piece that it represents
+How is a musical score related to a musical genre to which it belongs
+How is a musical score related to a musical instrument that is used to play it
+How is a musical score related to a musical notation that is used to write it
+What is the physical feature of a classical music piece that distinguishes it from other genres
+How is a classical music piece identified and classified within the DOREMUS ontology
+Where is a classical music piece typically performed
+How does a classical music piece change over time
+What is the name of a specific classical music piece
+How is a classical music piece transferred from one owner to another
+What is the time span of a classical music piece
+What is the inscription or marking on a classical music piece that provides information about its identity
+What is the linguistic object associated with a classical music piece that provides information about its meaning or interpretation
+What is the visual item associated with a classical music piece that provides information about its appearance or presentation
+What type of condition assessment is required for a classical music piece that has been destroyed
+How should a classical music piece be curated when it is part of a collection
+What is the appropriate measurement unit for measuring the duration of a classical music piece
+What is the title of a classical music piece that was created through a joining process
+What is the appropriate condition state for a classical music piece that has been preserved for a long time
+How should a classical music piece be identified when it is part of a collection
+What is the appropriate measurement unit for measuring the tempo of a classical music piece
+What is the appropriate condition assessment for a classical music piece that has been preserved for a long time
+How should a classical music piece be curated when it is part of an authority document
+What is the appropriate condition state for a classical music piece that has been preserved for a long time and is part of a collection

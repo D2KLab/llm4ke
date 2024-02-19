@@ -1,0 +1,228 @@
+Which classical compositions have a specific medium of performance as chamber ensemble, considering Mozart's works
+Which opus numbers in DOREMUS ontology belong to the year 1836, excluding non-classical music
+How are catalogued classical music pieces in DOREMUS differentiated by their label names
+Which instrumental techniques in DOREMUS are predominantly associated with Mozart's compositions
+What cast and parallel cast statements can be found in DOREMUS related to specific opera performances
+How do title and parallel title statements in DOREMUS help in identifying classical music pieces
+In what manner do DOREMUS's Opus and Opus Subnumber properties relate to the chronological order of a composer's work
+How do DOREMUS's Catalogue Name and Catalogue Number properties aid in organizing classical music pieces
+What medium of performances, in the context of DOREMUS ontology, are typically associated with classical instrumental music
+How do the properties U90 and U96 in DOREMUS differentiate between the creation or performance modes and the vocal or instrumental techniques in classical music
+classical music
+What classes in DOREMUS represent different types of musical responsibility statements
+How are parallel title and statement of responsibility related in the ontology
+Which property connects a title to its edition statement
+What property links a music piece to its dedication statement
+In DOREMUS, how are multiple edition statements represented
+What class represents a collection of music in a series
+How are main series statements distinguished from other series statements in the ontology
+What property connects a music format with its parallel format
+How are multipart monographs described in the DOREMUS ontology
+What property links a title in a series with its title proper
+Which media types are associated with classical music publications
+What carrier types are suitable for storing classical music content
+How is the binding property relevant to classical music scores
+What maintenance practices are essential for preserving classical music artifacts
+Are there any restrictions on color usage in classical music sheet representations
+How might playing speed be a significant aspect in classical music performance
+What is the relationship between the properties 'has title proper of multipart monograph' and classical music compositions
+How do 'publication expression fragment' and classical music relate
+In the context of DOREMUS ontology, what distinguishes 'content type' from other properties
+What role do 'container' properties play in organizing classical music materials
+Which music formats are associated with distinct classical compositions within DOREMUS
+How are controlled access point creators linked to their respective classical music works
+In what categorizations is DOREMUS particularly interested in classifying classical music pieces
+How do catalogue statements contribute to the identification of specific classical music works
+How are music group formations related to the ensemble performances in classical music
+What harmonic structures are commonly found in classical music pieces as per DOREMUS ontology
+How is the formal structure of a classical music piece represented within DOREMUS
+In what manner are casting details relevant to the performance of classical music in the ontology
+How do medium of performance sections influence the interpretation of classical music in DOREMUS
+In what ways does DOREMUS foresee the involvement of musicians or actors in classical music contexts
+What foreseen performances involve a specific individual's classical music performance
+Which opus statements are associated with a given composer's work in DOREMUS
+How are actor responsibilities and functions distributed in a classical music performance
+What editing processes are applied to a classical music piece in the ontology
+In what ambitus do certain classical music performances take place, considering the lowest and highest pitch
+What medium of performance is commonly used in classical music, as per DOREMUS
+How are characters assigned in a classical music performance, as described by the set of characters property
+What techniques, such as equalization or noise reduction, are used in mastering or mixing classical music in the ontology
+How are WoO numbers and subnumbers related to a composer's work in DOREMUS
+What is the relationship between foreseen activities, individual performances, and the editing process in classical music according to the ontology
+Which musical scales are associated with specific classical compositions in DOREMUS
+How are rhythmic patterns in classical music linked to their respective contexts in the ontology
+What types of contexts (historical, religious, cultural, geographical) are relevant for classical music pieces in DOREMUS
+Which awards in the DOREMUS ontology are related to classical music compositions
+How are representative publications in classical music connected to the DOREMUS ontology
+In what ways are derivation types assigned to classical music pieces in the ontology
+What is the significance of the property 'order number' in the DOREMUS ontology
+How do performed expressions in classical music relate to the creation aspect in the ontology
+How is the metronome indication property used in the context of classical music in DOREMUS
+In the DOREMUS ontology, how are music scales and rhythmic patterns interconnected within classical music compositions
+Which performed works feature a specific expression assigned by a music critic within DOREMUS ontology
+How are performed expressions related to the set of tracks in classical music context within DOREMUS
+What is the connection between WoO Number and WoO Subnumber in representing classical music compositions in DOREMUS
+How do performer statuses, such as U81 and U82, influence the interpretation of a performed work in DOREMUS ontology
+In DOREMUS ontology, how do creation or performance modes, like U90, impact the recording process and equipment (M51)
+How do key relationships (U11, U81-85) in DOREMUS influence the interpretation of a classical music piece's tonality
+In what way does the property U51, as a partial or full recording connection, contribute to the DOREMUS representation of classical music
+How do descriptive expression assignments (M45) in DOREMUS ontology contribute to the understanding of a performed work's artistic intent
+What role do objects of type (U218, U219) play in the mastering and mixing processes in DOREMUS context
+In the context of DOREMUS ontology, how do performed expressions (M43) and their incorporation into a set of tracks (M46) impact the overall listening experience of a classical music piece
+85) in DOREMUS influence the interpretation of a classical music piece's tonality
+Which equalization techniques are associated with a specific classical music recording
+What noise reduction methods have been applied in a particular classical performance
+In what spatialization techniques has a specific classical concert employed
+What performance conditions influenced a particular classical music rendition
+What vocal or instrumental techniques are characteristic of a given classical work
+How are programming works related to a specific classical music production
+What programs or tools are used in the realization of a classical music project
+What genre does a particular classical piece belong to, and what is its intended audience
+What work type is a specific classical composition categorized as
+How are the properties of genre and work type interconnected in the context of classical music
+Which classical compositions have a specific casting of flute and two bassoons
+What linguistic appellations are associated with a particular tempo in classical music
+How are characters in classical music performances foreseen in relation to the DOREMUS ontology
+Which production houses have been involved in creating works with a specific derivation type in classical music
+What symphonies or operas in the DOREMUS ontology have a hierarchical level of M62
+In what manner are fictional characters in classical music related to the controlled access points in the ontology
+How are tempo properties assigned to classical music compositions in the DOREMUS ontology
+What is the connection between a character's ambitus in a classical music performance and the U28 property in the ontology
+How do the casting details in classical music, as represented by the U23 property, relate to the M6 Casting class in the ontology
+In the context of the DOREMUS ontology, how are attribute assignments related to the E13 Attribute Assignment class in classical music productions
+Which musical compositions follow a specific structure of having a flute and two bassoons as primary instruments
+Which classical music pieces are associated with a particular legal body, such as a copyright holder
+How do the dimensions of a specific musical instrument, like a violin, impact its performance in a classical piece
+What general techniques or designs in classical music have been used by a renowned composer, such as Beethoven
+How do the durations of different musical performances, like an opera or a symphony, influence the overall experience of a classical concert
+In the context of classical music, how do the types of musical notations, such as sheet music or scores, affect the understanding and interpretation of a composition
+What legal rules or rights, such as copyrights, are associated with the performance or distribution of a specific classical music piece
+How do the various types of musical objects, like a conductor's baton or a piano keyboard, contribute to the creation process of a classical composition
+In the realm of classical music, how do the responsibilities of a conductor, a composer, or a performer, impact the overall outcome of a musical piece
+How do the specific objects, such as a particular piano or a specific violin, used in a classical performance, affect the sound and interpretation of a musical work
+Which classical musicians or ensembles have been associated with specific E74 groups
+How have historical events (U56-U57-U60-U61) impacted the creation or performance of classical music works
+What general techniques (P32) or specific techniques (P33) have been used in the development of complex works (F15) in the DOREMUS ontology
+How have classical music works (F14) been influenced by various cultural contexts (U60) or geographical contexts (U61)
+What information carriers (E84) or propositional objects (E89) have been used to document or disseminate classical music knowledge in the DOREMUS ontology
+How have corporate bodies (F11) or persons (F10) in classical music history been involved in the formation or dissolution of groups (E74) or works (F14)
+In what ways have classical music works (F14) or performances been motivated (P17) by religious contexts (U57) or historical contexts (U56)
+How have specific objects (P16) or techniques (P33) been used in the execution of classical music activities (E7) by musicians or ensembles
+What are the relationships between classical music works (F14) and their original titles (U70), uniform titles (U71), or title notes (U72)
+How have classical music works (F14) or performances been influenced by other works (P15) or by the intentions of their creators (P20)
+U57-U60-U61) impacted the creation or performance of classical music works
+Which DOREMUS works have a dominant classical music genre
+What performance works are associated with a specific F16 Container Work
+How do hierarchical levels (U54) of different expression types in DOREMUS ontology vary
+What key signatures (U11) are commonly associated with works in the major scale (U25)
+What historical contexts (U66) are often related to Baroque era compositions in DOREMUS
+How do casting choices (U13) in opera performances influence the overall expression
+What are the common music formats (U229) in recording works (F21)
+How do tempo markings (U14) in a piece of music impact its overall character
+In what ways do religious contexts (U63) in sacred music differ from secular music in DOREMUS
+How do issuing rules (R11) for different publication works (F19) in DOREMUS vary
+Which performances foresee realizations of works in the DOREMUS ontology
+What recordings are associated with a specific performance in the ontology
+Which expressions are created during the work conception phase
+Which expressions are related to a particular realization in DOREMUS
+What events in the ontology involve the production of carrier reproductions
+How are citations made in relation to expressions within the DOREMUS framework
+In what ways can a work in the ontology be realized through various performances
+What properties are associated with the spatialization of sound in recorded events
+How are actors connected to the creation of expressions in classical music context
+What relationships exist between different manifestations of a work in the DOREMUS ontology
+Which classical music family members often have a representative manifestation in a score format
+What identifier rule is commonly used for assigning unique identifiers to classical music compositions
+In the context of DOREMUS ontology, what is the relationship between a nomen statement and its specified thematic content
+How is the playing speed of a classical music recording typically represented in the DOREMUS ontology
+What property in DOREMUS ontology aids in identifying the intended audience of a classical music piece
+For a classical music manuscript, how is the nomen language typically described in the DOREMUS ontology
+In the DOREMUS ontology, how are related use statements associated with a classical music nomen statement
+What property in DOREMUS ontology is used to represent the duration of a classical music performance
+How are representative expression assignments related to the manifestation product type in the DOREMUS ontology
+In the context of DOREMUS ontology, how are script conversion processes associated with classical music resources
+Which musical pieces fall under the category of F51 Pursuit in DOREMUS ontology
+What activities in DOREMUS involve F52 Name Use and relate to classical music
+In what contexts (F8 Event) does the utilization of F53 Material Copy in classical music occur
+What manifestations (F4 Manifestation Singleton) are warranted by a specific concept (F6 Concept) in DOREMUS ontology
+How are classical music events (F8 Event) associated with places (F9 Place) in DOREMUS ontology
+Which carrier types (F54 Utilised Information Carrier) are commonly used in classical music, as per DOREMUS
+What are the typical subjects (R59) of classical music events (F8 Event) in the DOREMUS ontology
+How do assigned languages (R60) influence classical music pieces (F7 Object) in DOREMUS ontology
+In what ways do classical music compositions (F7 Object) serve as examples (R7) in the DOREMUS ontology
+How do classical music events (F8 Event) in DOREMUS relate to membership in specific contexts (R62)
+Which classical musicians had a parent-child relationship within the DOREMUS ontology
+Which historical figures, in the context of DOREMUS, had a significant impact on the development of classical music institutions
+What notable compositions, in the DOREMUS realm, were created for a specific actor or performer
+Which classical musicians, in DOREMUS, had a notable change in their ownership or custody throughout their careers
+How did certain places, in the DOREMUS ontology, influence the creation or performance of classical music
+Which classical music pieces, in the DOREMUS domain, have been inspired by or foresee a particular actor's role or persona
+What significant events, in the context of DOREMUS, took place in specific spacetime volumes related to classical music
+How did certain physical or conceptual objects, in the DOREMUS ontology, contribute to the preservation or accessibility of classical music
+Which classical compositions, in the DOREMUS realm, have been associated with specific appellations or titles that hold particular rights or legal implications
+How did the geographical locations, within the DOREMUS ontology, impact the evolution of classical music styles and genres
+child relationship within the DOREMUS ontology
+Which musical pieces are associated with specific flute and two bassoon ensembles in DOREMUS
+What composers in the ontology primarily focus on classical music genre
+Which historical periods in DOREMUS have significant contributions to classical music development
+What musical instruments are categorized under E90 Symbolic Object in the ontology
+Which addresses, contact points, or places in DOREMUS are related to prominent classical music venues or institutions
+How are musical documents, such as scores, represented in the DOREMUS ontology
+In what ways do vocal or instrumental techniques, as U96 foresees, influence classical music performances in the ontology
+How are musical pieces in DOREMUS attributed with assigned attributes (P140, P141) and their respective assigners (P141i, P144i)
+What relationships, such as P106, P128, or R8, represent the composition or performance aspects of classical music in the ontology
+How are musical styles, genres, or types (P2, U19) classified or categorized within the DOREMUS ontology
+Which classical compositions exhibit common features with E9 instances related to Mozart's work
+Which physical artifacts, specifically in DOREMUS ontology, were used in creating E9 instances from the 19th century
+What temporal entities, in the context of DOREMUS, are associated with significant transformations in classical music history
+Which classical music pieces, in the DOREMUS ontology, have a direct relation to instances of E66 and E63
+Which physical objects, in DOREMUS, have undergone leaving or formation processes, and are related to classical music performances
+How do the time-spans of various E9 instances in DOREMUS, particularly in the realm of classical music, interrelate in terms of overlaps, meets, and occurrences
+Which physical objects, in the DOREMUS ontology, have been brought into existence or taken out of existence in relation to specific classical music events
+How do the beginning and end stages of various E9 instances, in the context of DOREMUS' classical music focus, relate to instances of separation, transformation, and formation
+In the DOREMUS ontology, what physical objects, associated with classical music, have experienced changes in their number of parts or current locations
+Which classical music compositions, in the DOREMUS ontology, have notable recorded instances, and how do their temporal relationships with other E9 instances unfold
+spans of various E9 instances in DOREMUS, particularly in the realm of classical music, interrelate in terms of overlaps, meets, and occurrences
+Which classical compositions have specific instrumentation involving a flute and two bassoons
+Which Mozart compositions fall under the E8 Acquisition class due to changes in ownership
+What section definitions (E46) are associated with musical pieces in DOREMUS ontology
+Which physical features (E26) in the DOREMUS ontology are related to musical instruments or performance venues
+What identifier systems (E42) are commonly used in the context of classical music within DOREMUS
+In what sites (E27) or locations have significant classical music events or venues been documented in DOREMUS
+What modifications (E11) in classical music history, as represented in DOREMUS, have led to notable changes in composition style or performance practice
+How are system requirements (U194) or material compositions (U211, U212) related to classical music artifacts in DOREMUS
+What groove characteristics (U215) or tape configurations (U216) are relevant to classical music recordings in the DOREMUS ontology
+In what ways have classical music titles, such as subtitles (U67) or variant titles (U68), evolved within the DOREMUS ontology
+Which classical compositions are associated with specific linguistic objects in DOREMUS
+How are temporal projections related to time-spans in classical music pieces within the ontology
+Which visual items in DOREMUS are linked to classical music representations
+What languages are predominantly associated with classical music concepts in the ontology
+How is the custody of classical music artifacts described in DOREMUS
+In DOREMUS, how are death instances related to classical music composers or performers
+What printing or manufacture statements are present in DOREMUS related to classical music scores
+How are translations of classical music titles or descriptions represented in the ontology
+In the context of DOREMUS, how are part removals or diminishments of musical works documented
+How are classical music pieces connected to specific time-spans in DOREMUS
+spans in classical music pieces within the ontology
+spans in DOREMUS
+Which classical compositions are associated with specific E67 Birth instances of renowned musicians
+Which collections (E78) in DOREMUS primarily focus on a particular composer's (E22) work
+What curation activities (E87) involve adding (P111) or augmenting (P110) parts (E79) to musical pieces (E22)
+Which classical music objects (E22) have undergone a joining (E85) process, and what were the involved instances
+What images (E38) in DOREMUS are related to specific musical pieces (E22) or their creators (E67 Birth)
+How are condition states (E3) of musical pieces (E22) in DOREMUS represented through properties (P44i, P44)
+Which authority documents (E32) in DOREMUS provide identification (P35) for particular musical pieces (E22)
+What presence (E93) aspects in DOREMUS are associated with musical performances (E22) or their creators (E67 Birth)
+Which musical pieces (E22) in DOREMUS have undergone a change in their presence (P166i) at a specific time-span (P164i)
+How do listed instances (P71i) in DOREMUS relate to the curation activities (P147) of a particular musical collection (E78)
+span (P164i)
+Which classical compositions hold E35 Title with creators linked to Mozart
+Which E35 Title works in DOREMUS have E50 Date in 1836
+What E83 Type Creation connects with a specific E35 Title in a two bassoons and flute arrangement
+Which E15 Identifier Assignment is associated with a unique E35 Title in a Mozart composition
+Which E16 Measurement occurred during the process of creating a classical piece with E35 Title
+Which E14 Condition Assessment was made on a specific E35 Title in the context of DOREMUS
+What E58 Measurement Unit is commonly used in evaluating classical music's E16 Measurement
+Which E6 Destruction event is related to a significant E35 Title in classical music history
+What E35 Title works in DOREMUS have been P39 measured by a specific individual
+Which E35 Title pieces in the ontology have undergone P37 assigned identification processes

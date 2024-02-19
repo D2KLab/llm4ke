@@ -1,0 +1,10 @@
+How is a historical olfactory experience related to its corresponding stimulus generation process
+What are the key differences between smell emission and odorizing actions in the context of cultural heritage
+How do animal behaviors or gestures influence the perception of historical odors
+How do odor transformations in the past impact the interpretation of olfactory experiences today
+What role does the interaction between historical smells and their recipients play in understanding cultural heritage
+How is the sensory experience of smells in cultural heritage contexts related to the broader category of sensory stimuli
+What factors contribute to the complexity of stimuli transformations in historical odor perception
+How do the classes L11 Smell, L12 Smell Emission, and L13 Olfactory Experience interrelate within the Odeuropa ontology
+What are the distinctions between olfactory experiences, sensory experiences, and general stimuli interactions in the Odeuropa ontology
+How do the classes L4 Stimuli Transformation, L5 Stimuli Interaction, and L15 Smell Interaction interconnect in the historical odor perception framework of Odeuropa

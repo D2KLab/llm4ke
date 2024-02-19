@@ -1,0 +1,59 @@
+What composers belong to DOREMUS ontology's classical music domain
+Which musical artforms and eras are primarily represented
+How are individual compositions classified in this ontology (genre, instrumentation, complexity)
+What events mark a musical composition's lifecycle (creation, performance, preservation)
+Who or what conducts the authorities, assessments, and curations related to these musical works
+How are musical objects, such as scores and instruments, associated or related within DOREMUS
+Which measuring metrics and scales are utilized to describe aspects of these musical pieces
+Can the ontology represent works of non-traditional or multidisciplinary nature, and how
+How does the DOREMUS ontology consider regional, cultural, historical changes regarding music
+How do the ontologies' entities, such as authorities, images, and performances, interact and link musical concepts
+
+What are the key musical forms in classical pieces represented in DOREMUS ontology?
+How are composers associated with their opus numbers in the DOREMUS realm?
+What denotes specific classical music performances in the ontology?
+How are distinct types of media carriers described in DOREMUS ontology?
+In what manner are ensemble groups modeled within DOREMUS?
+How does the ontology categorize pieces based on harmonic structures?
+In the context of DOREMUS, how are editions of a controlled access point identified?
+How is the notion of musical format handled within DOREMUS ontology?
+How is the casting detail concept distinguished in the classical music arena within DOREMUS?
+What methodologies in DOREMUS represent diverse track or note lengths in a cohesive manner?<|system|> 
+How is a performed music expression linked to original compositions in DOREMUS ontology?
+To what type of genre does M5 specifically refer in the DOREMUS schema?
+What category represents musical programs in the DOREMUS ontology?
+Within the DOREMUS ontology, what distinction relates to the presence of text or vocals in instrumental works, labeled M57?
+In what way do WoO numbering (M47) and subnumbering (M48) attribute classical music compositions in DOREMUS?
+How should a recording device technique, as categorised in M51, be described in the context of the DOREMUS model?
+What role does condition of performance (M55) portray in DOREMUS ontology while representing a musical occurrence?
+How is 'programming work' (M58) differentiated from a normal musical composition in DOREMUS?
+In examining the DOREMUS ontology, what aspect, labelled M61, addresses an anticipated musical audience's identity?
+In the context of DOREMUS ontology, how does M50 signify the manner of music origination or presentation? 
+Which composers primarily concentrate on classical music in the DOREMUS ontology?
+Provide notable performances associated with a specific representative manifestation.
+Obtain expressions within the realm of classical music, created after a particular representative expression assignment.
+Enlist the carrier products of a specific manuscript realization event.
+What expressions, composed by a specific family member, were turned into public notoriety?
+Identify relevant identifier system rule for a given composer's work conception within classical music.
+Retrieve alternative nomenclatures for a specific musical piece, as described in the nomen use statement.
+Which performance events of a particular work resulted in well-known recordings?
+Describe notable steps in the script conversion before reaching a final version of a work in classical music context.
+Outline historical development of a music piece, starting from initial work conception to its present-day interpretation and performance. 
+What musical concepts belong to classical domain?
+Which musical compositions are linked to specific performers (E39 Actor)?
+Is there an association between a music score (E18 Physical Thing) and a particular instrument (E41 Appellation)?
+Can a manifestation (F4 Singleton) in DOREMUS correspond to a live performance event (E8 F9 Combination)?
+What kind of musical artefacts are E57 Material artifacts in DOREMUS ontology?
+Are there biographical connections (E21 Person) between well-known composers and renowned musicians?
+Which places/venues (E39, E53) often host classical music performances in DOREMUS ontology?
+Are there any distinct musical genres represented within DOREMUS aside from classical music?
+Can the DOREMUS ontology assist in locating classical music works written in specific time periods (E92 Spacetime Volume)?
+How does DOREMUS differentiate between published and unpublished music compositions (F54 Utilised Information Carrier)?
+In what way does DOREMUS model famous music pieces or artists' notable work (F51 Pursuit)? 
+Which composers are related to classical music within DOREMUS?
+List notable classical music works in the ontology.
+What musical instruments have a central role in classical music as described by DOREMUS?
+Identify significant classical music eras in the ontology.
+Mention classical venues and concert halls in the DOREMUS ontology.
+Which classical compositions are associated with Vienna in the ontology?
+Which conductors have major collaborations with famous classical orchestras in DOREMUS? 

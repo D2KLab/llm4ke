@@ -1,0 +1,10 @@
+Stimuli_Transformation, Example: The sound of the organ arrives to the perceived transformed by the echo of the church
+How is a specific Olfactory_Experience related to a particular The_Smell instance in Odeuropa?
+What are underlying aspects of Smell_Transformation that might contrast from Smell_Emission concerning smell intensity alteration?
+How does the class L16_Odorizing differ from Sensory_Stimulus in presenting odor as a cultural practice versus a natural experience?
+In which way could Olfactory_Experience and Sensory_Experience overlap in the Odeuropa ontology?
+What might be the main differences between Animal- and Gesture-influenced Smell_Interactions?
+How are Stimulus_Generation events, such as a violin playing, related to Sensory_Stimuli in the context of Odeuropa?
+In what scenarios Sensory_Stimuli in Odeuropa undergo a combined influence of Stimuli_Transformation and Stimuli_Interaction, and how would it be represented?
+What roles do distinct instances of The_Smell, Smell_Emission or Sensory_Stimulus, play as subject or object, or neither, within Smell_Interaction?
+What is the essence of categorizing situations as Olfactory_Experience in Odeuropa opposed to classifying them

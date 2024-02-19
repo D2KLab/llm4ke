@@ -1,0 +1,10 @@
+How are specific odors associated with cultural heritage artifacts or events within the Odeuropa ontology?
+CQ2: Can the Odeuropa ontology accurately represent the range of human olfactory experiences throughout history?
+CQ3: How do the relationships between odorizing activities, involved smells, and targeted entities function within the ontology?
+CQ4: How does the ontology model the perception of smells by different species in cultural heritage contexts?
+CQ5: Can the Odeuropa ontology effectively capture the connections between material substances and odor generation?
+CQ6: How are gestures related to odorizing activities in the Odeuropa ontology?
+CQ7: What methods are used to analyze and compare the documentation of different smells across various cultural heritage sites and time periods?
+CQ8: How does the ontology handle the classification of smells and their associations with specific cultural heritage events or objects?
+CQ9: Can the Odeuropa ontology facilitate the exploration of cultural heritage through the lens of historical olfactory experiences?
+CQ10: How can the Odeuropa ontology assist in identifying and understanding the cultural significance of recurring or unique odors in historical contexts?

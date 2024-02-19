@@ -1,0 +1,96 @@
+Contained Expression' in the DOREMUS ontology
+Contained Expression'
+Contained Expression' in DOREMUS
+Contained Expression' in DOREMUS
+Contained Expression and its relevance to classical music
+Contained Expressions
+Contained Expression in classical music
+Contained Expression in DOREMUS
+Contained Expression within DOREMUS
+Contained Expression in DOREMUS
+Contained Expression in DOREMUS
+Contained Expression, and a Partial or Full Recording in DOREMUS ontology
+Contained Expressions and Works respectively
+What relationship represents the hierarchical level of a Work in DOREMUS ontology
+How is a Self-Contained Expression linked to its casting in the DOREMUS ontology
+What detail is captured in the Casting Detail class in relation to Casting
+How is Tempo associated with a Self-Contained Expression in DOREMUS
+What type of derivation is represented by the relationship between E12 Production and E13 Attribute Assignment
+How does an Individual Performance relate to a foreseen character in DOREMUS
+How is Character's ambitus connected to itself in the DOREMUS ontology
+What class represents a set of characters that foresees characters in DOREMUS
+How is an Actor based on a Character in DOREMUS
+How is a Physical Man-Made Thing modified in the DOREMUS ontology
+Contained Expression linked to its casting in the DOREMUS ontology
+Contained Expression in DOREMUS
+Made Thing modified in the DOREMUS ontology
+What relationship represents the concept of a group having a current or former member in DOREMUS ontology
+How is a group's membership lost in the DOREMUS ontology
+What relationship represents the formation of a group in DOREMUS
+How is a group dissolved in the DOREMUS ontology
+What relationship represents the participation of an actor in a formation event in DOREMUS
+How does the DOREMUS ontology represent the function of an activity
+What relationship shows the responsibility of an actor in DOREMUS
+How does DOREMUS represent the context in which an activity occurs
+In DOREMUS, how is a reproduction event related to an information carrier
+What relationship represents the logical succession of works in DOREMUS
+How does the concept of Sound Spatialization Technique relate to the creation of an Expression (F28 Expression Creation) in DOREMUS ontology
+What is the significance of the relationship between a Foreseen Activity (M25 Foreseen Activity), U77 foresees performing plan, and a Performance Plan (F25 Performance Plan) in DOREMUS
+How does the creation of a Recording Event (F29 Recording Event) result in a Recording (F26 Recording) in the DOREMUS ontology
+Describe the relationship between a Work Conception (F27 Work Conception), U225 has responsibility detail, and string in DOREMUS
+How does the DOREMUS ontology represent the relationship between a Recording Event (F29 Recording Event), a Temporal Entity (E2 Temporal Entity), and a Realisation of a Recording Work (R22 created a realisation of)
+Explain the connection between a Title and Statement of Responsibility (M158 Title and Statement of Responsibility), a Dimension (E54 Dimension), and the Expression (F2 Expression) in DOREMUS
+How does the DOREMUS ontology represent the concept of a Derivative Expression (F2 Expression) and its relationship with another Expression (R17 created)
+Describe the relationship between a Publication Event (F30 Publication Event), its Realisation of a Publication Work (R23 created a realisation of), and the resulting Publication Expression (F24 Publication Expression)
+How does the concept of a Premiere (E89 Propositional Object) relate to a Performance (F31 Performance) in DOREMUS
+How does the DOREMUS ontology represent the creation of a Utilised Information Carrier (F54 Utilised Information Carrier) through a Carrier Production Event (F32 Carrier Production Event)
+How should a competent user ensure the correct representation of a relationship between F4 Manifestation Singleton and M171 Container in DOREMUS ontology
+Can you explain the significance of the relationship between F4 Manifestation Singleton and U207 has playing speed in the context of classical music
+How should a user handle the relationship between F28 Expression Creation and R18 created in terms of representing music manifestation
+Can you describe the role of R42 is representative manifestation singleton for in the context of F2 Expression and music representation
+How should a user model the relationship between F51 Pursuit and E56 Language in DOREMUS ontology
+Can you explain the relevance of the relationship between F35 Nomen Use Statement and R32 is warranted by in representing music-related naming activities
+How should a user handle the relationship between F52 Name Use Activity and E55 Type when representing music-related contexts
+Can you describe the significance of the relationship between F52 Name Use Activity and E74 Group in the context of classical music
+How should a user model the relationship between F3 Manifestation Product Type and CLP105 right held by in representing music-related rights
+Can you explain the relationship between E89 Propositional Object and U21 is about actor in the context of classical music representation
+related naming activities
+related contexts
+related rights
+How do the relationships between E90 Symbolic Object and E18 Physical Thing contribute to understanding music concepts in DOREMUS ontology
+Can you explain the significance of the connection between F13 Identifier and E90 Symbolic Object in representing musical symbols
+How do the associations between E1 CRM Entity and E55 Type relate to categorizing and classifying musical elements in DOREMUS
+Can you elaborate on the role of E31 Document in capturing the documentation and preservation of musical works within DOREMUS
+How do the relationships between E1 CRM Entity and E39 Actor represent the involvement of musicians and performers in musical events
+How do the connections between E53 Place and F40 Identifier Assignment contribute to identifying and referencing specific locations related to music in DOREMUS
+Can you discuss the significance of the association between E1 CRM Entity and E89 Propositional Object in representing musical concepts and ideas
+How do the relationships between E1 CRM Entity and E32 Authority Document facilitate the referencing and standardization of musical terminology in DOREMUS
+Can you explain the importance of E36 Visual Item and E1 CRM Entity in representing visual aspects of music, such as sheet music or artwork
+How do the connections between E7 Activity and E1 CRM Entity illustrate the motivations and influences on musical events and practices in DOREMUS
+How are physical features represented in relation to physical objects within the DOREMUS ontology
+What relationship connects physical objects to their section definitions
+How are identifiers assigned and preferred within the DOREMUS ontology
+Describe the relationship between modifications and physical man-made things in DOREMUS
+How are materials employed during modifications in the context of DOREMUS
+Explain the connection between titles and man-made things in the DOREMUS ontology
+How are intentions and man-made things represented in DOREMUS
+Describe the relationship between man-made things and their intended uses
+What properties within DOREMUS allow for representing system requirements, material composition, and technical features of man-made things
+How are subtitles, variant titles, and dissolution of groups handled in the DOREMUS ontology
+made things in DOREMUS
+made things in the DOREMUS ontology
+made things represented in DOREMUS
+made things and their intended uses
+made things
+How are Condition States (E3) related to Physical Things (E18) in the DOREMUS ontology
+What is the significance of the relationship between Condition Assessments (E14) and Condition States (E3) in representing music concepts
+Can you explain the usage of the P5i forms part of relationship in the context of DOREMUS
+How does the DOREMUS ontology represent the condition of a Physical Thing (E18)
+Can you describe the role of Part Addition (E79) in the context of Physical Man-Made Things (E24) in DOREMUS
+How does the concept of Joining (E85) contribute to the representation of Groups (E74) in the DOREMUS ontology
+Can you explain the relationship between Curation Activities (E87), Collections (E78), and Actors (E39) in DOREMUS
+How does the DOREMUS ontology represent the listing of entities in Authority Documents (E32)
+How does the presence of entities (E93) relate to Places (E53) and Spacetime Volumes (E92) in the context of classical music
+Can you elaborate on the usage of the U167 has title proper relationship in the context of Self-Contained Expressions (F22) in DOREMUS
+Made Things (E24) in DOREMUS
+Contained Expressions (F22) in DOREMUS

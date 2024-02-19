@@ -1,0 +1,11 @@
+Stimuli_Transformation
+How are Smell_Emissions related to Olfactory_Experiences within Odeuropa?
+Can an Animal or Gesture indirectly contribute to Stimulus_Generation within the context of Odeuropa?
+How do Sensory_Stimuli in Sensory_Experiences evolve through Stimuli_Transformation in the Odeuropa ontology?
+In what manner does Smell_Transformation in Odeuropa influence Olfactory_Experiences?
+What connections, if present, exist between the classes L16_Odorizing and Smell_Interaction in the Odeuropa model?
+How may different classes of the Odeuropa ontology (excluding Smell_Emission) collectively facilitate a holistic understanding of odour experiences within a cultural heritage context?
+Do all described processes involving The_Smell in Odeuropa touch upon elements of Sensory_Experience?
+If a particular Stimulus_Generation class represents a smell in historical documentation, where in the Odeuropa structure would that be best represented?
+Can a specific Smell in the "The Smell" class be directly associated with a corresponding Emission source in Smell_Emission class in Odeuropa?
+What roles do classes like Gesture and

@@ -1,0 +1,130 @@
+What creation or performance mode is associated with a given U90
+Which vocal or instrumental technique is related to an entity in the DOREMUS ontology
+What medium of performance is used in a specific M14 instance of an individual performance
+What design or procedure involves the use of a certain medium of performance in the DOREMUS ontology
+What label name is associated with a publication expression's issue in the context of M154
+What cast statement is related to a self-contained expression's M155 in the DOREMUS ontology
+What title statement is connected to a self-contained expression's M156 in the context of F22
+What statement of responsibility is linked to a title in a self-contained expression's M157, considering parallel statements
+What edition statement is associated with a publication expression's M159 in the DOREMUS ontology
+What music format statement is related to a publication expression's M163 in the context of F24
+contained expression's M155 in the DOREMUS ontology
+contained expression's M156 in the context of F22
+contained expression's M157, considering parallel statements
+What media types are associated with DOREMUS manifestations
+What carrier types are associated with DOREMUS manifestations
+What bindings are used for DOREMUS manifestations
+What containers are used for DOREMUS manifestations
+What colour content is present in DOREMUS self-contained expressions
+What playing speeds are associated with DOREMUS manifestations
+What music formats are used for DOREMUS self-contained expressions
+What categorizations are applied to DOREMUS entities
+What catalogue statements are present in DOREMUS self-contained expressions
+What music group formations are present in DOREMUS self-contained expressions
+contained expressions
+contained expressions
+contained expressions
+contained expressions
+What actor functions are associated with a specific foreseen activity in the context of DOREMUS ontology
+How does the ambitus of a character in DOREMUS affect the pitch range of its performance
+What editing techniques are used in the process of mastering and mixing within the DOREMUS ontology
+What contextual factors influence the performance of a self-contained expression in the DOREMUS ontology
+How are opus statements related to the numbering system in the DOREMUS ontology
+What is the relationship between a set of characters and the characters themselves in a self-contained expression within DOREMUS
+How are awards associated with persistent items in the DOREMUS ontology
+What rhythmic patterns and music scales are commonly found in self-contained expressions within the DOREMUS ontology
+How do the historical, religious, cultural, and geographical contexts impact the performance of a self-contained expression in the DOREMUS ontology
+What information is provided by the metronome indication in a self-contained expression within the DOREMUS ontology
+contained expression in the DOREMUS ontology
+contained expression within DOREMUS
+contained expressions within the DOREMUS ontology
+contained expression in the DOREMUS ontology
+contained expression within the DOREMUS ontology
+What keys are related to a specific performance's key through relative, parallel, closely related, or has key concepts
+What editing techniques were used in the context of mastering or mixing for a particular recording
+What equalization and noise reduction techniques were applied in the editing process of a specific recording
+What sound spatialization techniques were used in the creation or performance of a particular expression
+What performance conditions were present during a specific event
+What programming works are associated with a specific program
+What genre does a particular self-contained expression belong to
+What work types are associated with a specific work
+What creation or performance modes are foreseen for a particular performance or editing process
+What type of recording equipment was used in the editing process of a specific recording
+contained expression belong to
+What types of hierarchical levels exist in the context of musical works
+How are self-contained expressions related to tempo in the DOREMUS ontology
+What are the different types of casting details and how are they associated with self-contained expressions
+How are characters in the DOREMUS ontology related to ambits and fictional members
+What is the connection between physical man-made things and the production of works in the DOREMUS ontology
+How are visual items depicted in the context of physical man-made things in the DOREMUS ontology
+What are the various functions associated with designs or procedures in the DOREMUS ontology and how are they related to specific objects, actors, places, and time spans
+How are dimensions associated with manifestation product types, singletons, and expressions in the DOREMUS ontology
+What are the types of measurements and their units in the DOREMUS ontology
+How are types related to entities, activities, and things in the DOREMUS ontology
+contained expressions related to tempo in the DOREMUS ontology
+contained expressions
+made things and the production of works in the DOREMUS ontology
+made things in the DOREMUS ontology
+Which musical groups have formed or joined a specific classical ensemble in the DOREMUS ontology
+What are the main contexts in which classical music works have been performed or created in the DOREMUS ontology
+What are the primary types of works represented in the DOREMUS ontology
+Which musical editions have been made for specific classical works in the DOREMUS ontology
+What are the significant publication events related to classical music works in the DOREMUS ontology
+Which musical performances have been realized in the DOREMUS ontology
+What are the notable music formats used in the DOREMUS ontology
+Which classical music works have been dedicated to specific individuals or entities in the DOREMUS ontology
+What are the main music scales used in classical music works in the DOREMUS ontology
+Which classical music works have been influenced by specific historical events or cultural contexts in the DOREMUS ontology
+What types of performances are planned in a foreseen activity related to classical music
+How are classical music performances realized in a recording event
+What are the key elements of a self-contained expression in classical music context
+How are classical music works represented in a publication event
+What are the significant aspects of a manifestation product type in classical music
+How are nomen use statements related to the classification of classical music entities
+What are the essential characteristics of a manifestation singleton in classical music
+How are classical music expressions associated with their representative manifestations
+What are the main responsibilities of a bibliographic agency in the context of classical music
+How are classical music expressions connected to their carriers and manifestation product types
+contained expression in classical music context
+What types of manifestations are related to classical music through the schema of DOREMUS ontology
+How are musical expressions connected to manifestation singletons in the DOREMUS ontology
+What are the different types of carriers and information media associated with manifestation singletons in the DOREMUS ontology
+How are actors related to manifestation singletons in the context of the DOREMUS ontology
+What are the relationships between physical things and places in the DOREMUS ontology
+How are conceptual objects related to manifestation product types in the DOREMUS ontology
+What are the temporal and spatial aspects of spacetime volumes in the DOREMUS ontology
+How are places identified and named in the DOREMUS ontology
+What are the connections between actors and their residences in the DOREMUS ontology
+How are names and appellations used in the context of the DOREMUS ontology
+What types of symbolic objects are associated with musical pieces in the DOREMUS ontology
+Which physical objects or places are commonly associated with the performance of classical music in the DOREMUS ontology
+What are the typical actors involved in the creation and preservation of classical music pieces in the DOREMUS ontology
+How are musical pieces in the DOREMUS ontology related to time spans or temporal entities
+What are the common dimensions or physical features of musical instruments in the DOREMUS ontology
+How are musical pieces in the DOREMUS ontology connected to authority documents or catalogues
+What types of transformations or changes can be observed in the lifecycle of a musical piece in the DOREMUS ontology
+How are awards or recognitions related to the existence of musical pieces in the DOREMUS ontology
+What are the possible movements or relocations of musical pieces or artifacts in the DOREMUS ontology
+How are musical pieces in the DOREMUS ontology linked to other entities through symbolic objects or documents
+What physical features can be found on a specific musical object
+What type of identifier is preferred for a musical work, and how is it assigned
+What is the purpose of a section definition in the context of music, and how is it related to a physical thing
+How are modifications made to a musical object, and what materials are typically used in these modifications
+What are the intended uses of a musical object, and how are they related to the activities it was designed for
+What system requirements, material composition, and technical features can be found in the description of a musical object
+How are the ownership of musical objects transferred, and what information is provided about the previous and new owners
+How are conceptual objects related to musical works, and how are their appellations identified
+What time spans are associated with musical works, and how are they related to the presence of these works
+How are linguistic objects related to the representation of musical entities, and what languages are typically used in these representations
+What types of conditions can be assessed for a physical thing in the DOREMUS ontology
+How are part additions related to physical things in the ontology
+What is the connection between groups and joining in the DOREMUS ontology
+How are collections and curation activities related in the ontology
+What role does maintenance play in relation to man-made objects in the DOREMUS ontology
+How are births and persons connected in the ontology
+What is the relationship between self-contained expressions, titles, and man-made things in the DOREMUS ontology
+How are measurements related to entities in the ontology
+What is the connection between condition assessments and condition states in the DOREMUS ontology
+How are dimensions and measurement units related in the ontology
+made objects in the DOREMUS ontology
+contained expressions, titles, and man-made things in the DOREMUS ontology

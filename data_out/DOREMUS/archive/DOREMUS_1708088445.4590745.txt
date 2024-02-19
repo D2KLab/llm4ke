@@ -1,0 +1,83 @@
+What is the M15 Statement of Responsibility for the musical piece "Symphony No. 9 in D minor, Op. 125" by Ludwig van Beethoven
+What is the M161 Distribution Statement for the musical piece "Piano Sonata No. 14 in C-sharp minor, Moonlight Sonata, D. 715" by Ludwig van Beethoven
+What is the M158 Title and Statement of Responsibility for the musical piece "Violin Concerto in D major, Op. 61" by Pyotr Ilyich Tchaikovsky
+What is the M155 Cast Statement for the musical piece "The Four Seasons, Op. 8" by Antonio Vivaldi
+What is the M156 Title Statement for the musical piece "Cello Suite No. 1 in G major, BWV 1007" by Johann Sebastian Bach
+What is the M162 Series Statement for the musical piece "The Nutcracker, Op. 71a" by Pyotr Ilyich Tchaikovsky
+What is the M163 Music Format Statement for the musical piece "Piano Sonata No. 17 in D minor, Op. 31 No. 2 'Das Neue Klavier'" by Ludwig van Beethoven
+What is the M164 Multipart Monograph Statement for the musical piece "The Rite of Spring, Op. 20" by Igor Stravinsky
+What is the M159 Edition Statement for the musical piece "Piano Sonata No. 11 in A major, Hob. XVI:50" by Franz Joseph Haydn
+What is the M160 Publication Statement for the musical piece "Symphony No. 5 in C minor, Op. 67" by Ludwig van Beethoven
+sharp minor, Moonlight Sonata, D
+M166 Title Proper of Multipart Monograph: What is the title of a multi-part musical composition
+M167 Publication Expression Fragment: What is a portion of a musical publication
+M168 Media Type: What type of material is used to produce a musical composition
+M169 Carrier Type: What is the physical object that carries a musical composition
+M170 Binding: How is a musical composition bound together
+M171 Container: What is the outer covering of a musical composition
+M172 Colour Content: What is the color of a musical composition
+M173 Playing Speed: What is the speed at which a musical composition is played
+M174 Content Type: What type of content is included in a musical composition
+M175 Music Format: What is the format in which a musical composition is presented
+part musical composition
+Given the class M34 Award Assignment, generate a CQ that tests the competency of an individual in understanding the relationship between an award and its assignment
+Given the class M35 Representative Publication Assignment, generate a CQ that tests the competency of an individual in understanding the relationship between a publication and its assignment
+Given the class M36 Award, generate a CQ that tests the competency of an individual in understanding the characteristics of an award
+Given the class M37 Music Scale, generate a CQ that tests the competency of an individual in understanding the characteristics of a music scale
+Given the class M38 Rhythmic Pattern, generate a CQ that tests the competency of an individual in understanding the characteristics of a rhythmic pattern
+Given the class M39 Derivation Type Assignment, generate a CQ that tests the competency of an individual in understanding the relationship between a derivation type and its assignment
+Given the class M40 Context, generate a CQ that tests the competency of an individual in understanding the characteristics of a context
+Given the class M41 Metronome Indication, generate a CQ that tests the competency of an individual in understanding the characteristics of a metronome indication
+Given the class M42 Performed Expression Creation, generate a CQ that tests the competency of an individual in understanding the characteristics of a performed expression
+Given the class M32 Actor Responsibility, generate a CQ that tests the competency of an individual in understanding the relationship between an actor and their responsibility
+Given the DOREMUS ontology, how would you describe the relationship between a Performed Work and a Descriptive Expression Assignment
+What is the difference between a Performer Status and a Vocal or Instrumental Technique in the context of the DOREMUS ontology
+How does the Intended Audience class in the DOREMUS ontology differ from the Work Type class
+Can you explain the distinction between a Set of Tracks and a Program in the DOREMUS ontology
+How does the Creation or Performance Mode class in the DOREMUS ontology relate to the Equalization Technique and Noise Reduction Technique classes
+What is the relationship between the Condition of Performance class and the Sound Spatialization Technique class in the DOREMUS ontology
+How does the Genre class in the DOREMUS ontology differ from the Work Type class
+Can you explain the difference between a WoO Number and a WoO Subnumber in the context of the DOREMUS ontology
+How does the Programming Work class in the DOREMUS ontology relate to the Intended Audience class
+Can you describe the relationship between the Key class and the Vocal or Instrumental Technique class in the DOREMUS ontology
+What is the type of work that is represented by the class F14 Individual Work in the DOREMUS ontology
+What is the type of work that is represented by the class F15 Complex Work in the DOREMUS ontology
+What is the type of work that is represented by the class F16 Container Work in the DOREMUS ontology
+What is the type of work that is represented by the class F17 Aggregation Work in the DOREMUS ontology
+What is the type of work that is represented by the class F18 Serial Work in the DOREMUS ontology
+What is the type of work that is represented by the class F19 Publication Work in the DOREMUS ontology
+What is the type of work that is represented by the class F20 Performance Work in the DOREMUS ontology
+What is the type of work that is represented by the class F21 Recording Work in the DOREMUS ontology
+What is the type of work that is represented by the class F22 Self-Contained Expression in the DOREMUS ontology
+What is the type of work that is represented by the class F23 Expression Fragment in the DOREMUS ontology
+Contained Expression in the DOREMUS ontology
+What is the relationship between a Recording Event and a Work Conception in the DOREMUS ontology
+How is a Publication Event related to a Manifestation Product Type in the DOREMUS ontology
+What is the connection between a Carrier Production Event and a Recording Event in the DOREMUS ontology
+How is a Script Conversion related to an Expression in the DOREMUS ontology
+What is the connection between a Family and a Work Conception in the DOREMUS ontology
+How is a Nomen Use Statement related to a KOS in the DOREMUS ontology
+What is the relationship between a Representative Manifestation Assignment and a Manifestation Product Type in the DOREMUS ontology
+How is a Representative Expression Assignment related to an Expression in the DOREMUS ontology
+What is the connection between a Bibliographic Agency and a Recording Event in the DOREMUS ontology
+How is a Performance related to a Performance Plan in the DOREMUS ontology
+What type of entity is a musical score
+What is the name of a specific location where a musical performance takes place
+What is the name given to a specific time period during which a musical piece was created
+What is the name given to a specific time period during which a musical piece was performed
+What is the name given to a specific location where a musical piece was created
+What is the name given to a specific location where a musical piece was performed
+What is the name given to a specific musical piece
+What is the name given to a specific musical instrument
+What is the name given to a specific musical performance
+What is the name given to a specific musical composition
+What type of measurement is associated with a classical music piece
+What is the condition assessment of a classical music piece
+What is the birth date of a classical music piece
+What is the title of a classical music piece
+What is the measurement unit used to measure a classical music piece
+What is the destruction date of a classical music piece
+What is the identifier assignment of a classical music piece
+What is the joining of two classical music pieces
+What is the condition state of a classical music piece
+What is the part addition of a classical music piece

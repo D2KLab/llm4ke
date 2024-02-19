@@ -1,0 +1,24 @@
+Series'
+Can you identify specific F14 Individual Works associated with Person F10 Mozart
+Which F18 Serial Works were created during the year 1836 (U60 occurred in cultural context: 1836)
+How can we determine if a Work F20 Performance or F21 Recording has used a specific F13 Identifier (U31 had function)
+How can we represent the relationship between a Group E74 and its current or former members using P107
+Can you explain the usage of P151i participated in in the context of representing Work participation
+How do we model the formation and dissolution of a Corporate Body F11 using P95i was formed by and P99i was dissolved by
+How can we represent the relationship between a Work F2 and its intended audience using R39 is intended for
+Can you describe the application of properties such as U12 has genre and U15 has history to represent the characteristics of a Work F2
+How do we model the relationship between a Work F2 and its specific technique using P33i was used by and P33 used specific technique
+How can we represent the contextual information of a Work F2 using properties such as U60 occurred in cultural context, U61 occurred in geographical context, and U65 has geographical context
+How can we identify manifestations related to the pursuit of classical music
+Can you explain the process of assigning appellations to composers or performers in DOREMUS
+How are name uses and activities represented in the ontology for classical music
+Which properties should be used to describe the relationship between a musical work and its container or medium
+How are concepts, objects, events, and places organized and linked within DOREMUS
+Can you describe the properties used to represent the relationship between a musical work and its creator or performer
+How are temporal and spatial projections modeled for musical events in DOREMUS
+Can you explain the properties used to represent the connection between a musical work and its location or residence throughout history
+How are relationships between musical works and their sources or bases modeled in DOREMUS
+Can you discuss the properties used to represent the connection between a musical work and its performers or actors
+Span class and related properties
+span of, and related properties
+Made Thing class

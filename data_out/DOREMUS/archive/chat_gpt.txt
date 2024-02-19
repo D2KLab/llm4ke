@@ -1,0 +1,10 @@
+1. What is the catalogue name of a musical work?
+2. What is the catalogue number of a musical work?
+3. What is the opus number of a musical work?
+4. What is the opus subnumber of a musical work?
+5. What is the medium of performance of a musical work?
+6. What is the label name associated with a musical work?
+7. What is the cast statement of a musical work?
+8. What is the title statement of a musical work?
+9. Who is responsible for a statement related to a musical work?
+10. What is the edition statement of a musical work?

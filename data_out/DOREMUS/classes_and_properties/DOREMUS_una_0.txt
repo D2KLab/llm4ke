@@ -1,0 +1,115 @@
+What is the connection between an Opus Number and its associated work in the DOREMUS ontology
+How is the Medium Of Performance related to a musical piece in the DOREMUS ontology
+What information does the Catalogue Name provide in the context of the DOREMUS ontology
+How does the Statement of Responsibility relate to a title in the DOREMUS ontology
+What is the significance of the Label Name in the context of the DOREMUS ontology
+How does the Edition Statement differ from the Statement of Responsibility in the DOREMUS ontology
+What is the role of the Cast Statement in the DOREMUS ontology
+How does the Series Statement connect with the musical pieces in the DOREMUS ontology
+What is the relationship between the Title Proper of Series and the main series in the DOREMUS ontology
+How does the Music Format Statement describe the format of a musical performance in the DOREMUS ontology
+What is the media type associated with a specific music expression
+Which carrier type is used for a particular music expression
+What maintenance has been performed on a music expression
+What binding is used for a music container
+What playing speed is used for a specific track
+What music format is used for a specific music expression
+Which catalogued entity is categorized as a specific type
+What catalogue statement is associated with a music expression
+What music group formation is present in a composition
+What harmonic structure is present in a musical piece
+What opus statement is associated with a specific work in the DOREMUS ontology
+What is the order number of a foreseen performance in the DOREMUS ontology
+Which award is assigned to a particular individual performance in the DOREMUS ontology
+What context does a performed expression creation have in the DOREMUS ontology
+What rhythmic pattern is used in a specific musical piece within the DOREMUS ontology
+What set of characters is associated with a certain function in the DOREMUS ontology
+What is the ambitus range of a particular individual performance in the DOREMUS ontology
+Which editing process is related to a specific opus statement in the DOREMUS ontology
+What historical context does a musical performance have in the DOREMUS ontology
+What responsibility does an actor have in a foreseen performance within the DOREMUS ontology
+What is the performed expression associated with a specific performed work
+Which descriptive expression assignment is related to a set of tracks
+How does the key of a work relate to its relative, parallel, or closely related keys
+What creation or performance mode is foreseen for a particular performance
+Which recording equipment was used for a specific mastering or mixing process
+What equalization technique was applied to a recording
+What noise reduction technique was used in a recording
+Which sound spatialization technique was employed in a recording
+What performance conditions were present during a specific performance
+What genre and work type are associated with a performed work
+What is the hierarchical level of a given musical work in the DOREMUS ontology
+What casting is associated with a specific musical performance
+What linguistic appellation is used for a particular musical piece
+What tempo is assigned to a specific musical performance
+What derivation type does a musical work belong to
+Which character is performed in a given musical performance
+What controlled access point is relevant for a musical work
+What dimension or attribute is assigned to a musical piece or performance
+What event or creation is related to a musical work or performance
+What legal object or right is associated with a musical work or performance
+What is the intended purpose of an Individual Work in the context of DOREMUS ontology
+What is the relationship between a Group and its current or former members in the DOREMUS ontology
+How can a Performance Work be related to a specific context in the DOREMUS ontology
+What is the connection between a Person and their involvement in a Corporate Body in the DOREMUS ontology
+How can a Work be categorized based on its work type in the DOREMUS ontology
+What is the significance of a geographical context in the DOREMUS ontology
+How can a Realisation be created from another Realisation in the DOREMUS ontology
+What is the role of a title statement in the DOREMUS ontology
+How can a performed expression be incorporated into another expression in the DOREMUS ontology
+What is the relationship between a publication expression and its associated publication statement in the DOREMUS ontology
+What performance plans foresee a specific performance
+Which works have been realized in a particular recording event
+What expressions are performed in a certain performance
+What manifestation products types are assigned to representative manifestations
+Which identifier assignment rules are used for a specific identifier
+What representative expressions are assigned to a manifestation
+What script conversions are used in a nomen statement
+What families are associated with a particular manifestation product
+What duration does a performance or recording have
+What historical instruments were used in a specific performance
+What actors are associated with the manifestations of a specific pursuit in the DOREMUS ontology
+Which physical things or conceptual objects have been created for a particular person in the context of classical music
+What places or spaces have been used as the location for the creation of classical music works
+Which actors have been assigned to a particular concept or object in the DOREMUS ontology
+What languages were used in the context of classical music works represented in the ontology
+What material copies or information carriers have been used to represent classical music works in the DOREMUS ontology
+Which places or events have been associated with the occurrence of a specific classical music event or context
+What biological objects, actors, or physical things have been involved in the creation or production of classical music works in the DOREMUS ontology
+What memberships or curatorships have been associated with a particular classical music concept or object in the ontology
+Which names or appellations have been used to identify or describe classical music works in the DOREMUS ontology
+Which musical symbols are associated with the DOREMUS ontology
+What types of locations are relevant for the DOREMUS ontology
+What documents are related to the DOREMUS ontology
+How are musical techniques categorized in the DOREMUS ontology
+What transformations are significant in the context of the DOREMUS ontology
+What temporal entities are relevant for the DOREMUS ontology
+How are musical compositions structured in the DOREMUS ontology
+What types of objects or materials are used in the context of the DOREMUS ontology
+How are musical performances or events related to the DOREMUS ontology
+What properties or attributes are assigned to musical entities in the DOREMUS ontology
+What language is associated with a specific music piece in the DOREMUS ontology
+What is the intended use of a particular musical composition in the DOREMUS ontology
+What section definitions are present in the DOREMUS ontology for a specific musical work
+What physical features or man-made features are related to a music venue in the DOREMUS ontology
+What time-span does a specific musical performance have in the DOREMUS ontology
+What identifier is preferred for a particular musical piece in the DOREMUS ontology
+What modifications have been made to a musical instrument in the DOREMUS ontology
+What acquisition or dissolution events have occurred in the DOREMUS ontology for a specific musical work
+What inscriptions or marks are present on a musical score in the DOREMUS ontology
+What system requirements or technical features are associated with a musical recording in the DOREMUS ontology
+made features are related to a music venue in the DOREMUS ontology
+span does a specific musical performance have in the DOREMUS ontology
+Which collections have a specific title or parallel title associated with them in the DOREMUS ontology
+What objects were created or augmented as part of a curation activity in the DOREMUS ontology
+Which authority documents are linked to the identification of man-made objects in the DOREMUS ontology
+What birth events are recorded in the DOREMUS ontology, and are they related to musicians or composers
+Which measurement units are used to describe properties of man-made objects in the DOREMUS ontology
+What curators have been associated with specific collections in the DOREMUS ontology
+Which objects have undergone a destruction event in the DOREMUS ontology, and what were the circumstances of their destruction
+What types of part additions or joining events are documented in the DOREMUS ontology
+Which objects have been listed in a collection or catalog in the DOREMUS ontology, and what is the significance of these listings
+How are condition states and assessments related to man-made objects in the DOREMUS ontology
+made objects in the DOREMUS ontology
+made objects in the DOREMUS ontology
+made objects in the DOREMUS ontology
