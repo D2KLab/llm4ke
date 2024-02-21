@@ -22,18 +22,38 @@ import yaml
 # === Functions ===============================================================
 
 class LocalTemplate:
+    """
+    A class for handling prompting templates
+    """
+
     input = None
 
     def __init__(self, body, _input):
+        """
+        Class constructor
+        :param body: the template as a string
+        :param _input: the set of parameters of the template
+        """
         self.body = body
         self.input = _input
 
+    def __str__(self):
+        return "Template body = {0}".format(self.body)
+
     def get(self):
-        # print(self.body)
+        """
+        Get the template body
+        :return: template body as a string
+        """
         return self.body
 
     @classmethod
     def load(self, input_path):
+        """
+        Load a template from a file and make a LocalTemplate instance with it.
+        :param input_path: file path to a YAML template
+        :return: a LocalTemplate instance
+        """
         t_config = yaml.safe_load(Path(input_path).read_text())
 
         body = t_config['Body']
