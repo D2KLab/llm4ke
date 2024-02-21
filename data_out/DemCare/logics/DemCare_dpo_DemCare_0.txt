@@ -1,0 +1,580 @@
+What are the main domain entities in DemCare
+Which classes in DemCare represent medical professionals
+What are the subclasses of MedicalCondition in DemCare
+What relationships are defined between Patient and MedicalProfessional in DemCare
+What are the key attributes of MedicalFacility in DemCare
+How is the progress of a MedicalTreatment monitored in DemCare
+What classes in DemCare model medical equipment
+What are the superclasses of MedicalProcedure in DemCare
+How are medications represented in DemCare
+What are the relationships between MedicalCondition and Symptom in DemCare
+What are the main domain entities in DemCare
+Which classes in DemCare represent medical professionals
+What are the subclasses of MedicalCondition in DemCare
+What relationships are defined between Patient and MedicalProfessional in DemCare
+What are the key attributes of MedicalFacility in DemCare
+How is the progress of a MedicalTreatment monitored in DemCare
+What classes in DemCare model medical equipment
+What are the superclasses of MedicalProcedure in DemCare
+How are medications represented in DemCare
+What are the relationships between MedicalCondition and Symptom in DemCare
+What are the main domain entities in DemCare
+Which classes in DemCare represent medical professionals
+What are the subclasses of MedicalCondition in DemCare
+What relationships are defined between Patient and MedicalProfessional in DemCare
+What are the key attributes of MedicalFacility in DemCare
+How is the progress of a MedicalTreatment monitored in DemCare
+What classes in DemCare model medical equipment
+What are the superclasses of MedicalProcedure in DemCare
+How are medications represented in DemCare
+What are the relationships between MedicalCondition and Symptom in DemCare
+What are the main domain entities in DemCare
+Which classes in DemCare represent medical professionals
+What are the subclasses of MedicalCondition in DemCare
+What relationships are defined between Patient and MedicalProfessional in DemCare
+What are the key attributes of MedicalFacility in DemCare
+How is the progress of a MedicalTreatment monitored in DemCare
+What classes in DemCare model medical equipment
+What are the superclasses of MedicalProcedure in DemCare
+How are medications represented in DemCare
+What are the relationships between MedicalCondition and Symptom in DemCare
+What are the main domain entities in DemCare
+Which classes in DemCare represent medical professionals
+What are the subclasses of MedicalCondition in DemCare
+What relationships are defined between Patient and MedicalProfessional in DemCare
+What are the key attributes of MedicalFacility in DemCare
+How is the progress of a MedicalTreatment monitored in DemCare
+What classes in DemCare model medical equipment
+What are the superclasses of MedicalProcedure in DemCare
+How are medications represented in DemCare
+What are the relationships between MedicalCondition and Symptom in DemCare
+What are the main domain entities in DemCare
+Which classes in DemCare represent medical professionals
+What are the subclasses of MedicalCondition in DemCare
+What relationships are defined between Patient and MedicalProfessional in DemCare
+What are the key attributes of MedicalFacility in DemCare
+How is the progress of a MedicalTreatment monitored in DemCare
+What classes in DemCare model medical equipment
+What are the superclasses of MedicalProcedure in DemCare
+How are medications represented in DemCare
+What are the relationships between MedicalCondition and Symptom in DemCare
+What are the main domain entities in DemCare
+Which classes in DemCare represent medical professionals
+What are the subclasses of MedicalCondition in DemCare
+What relationships are defined between Patient and MedicalProfessional in DemCare
+What are the key attributes of MedicalFacility in DemCare
+How is the progress of a MedicalTreatment monitored in DemCare
+What classes in DemCare model medical equipment
+What are the superclasses of MedicalProcedure in DemCare
+How are medications represented in DemCare
+What are the relationships between MedicalCondition and Symptom in DemCare
+What are the main domain entities in DemCare
+Which classes in DemCare represent medical professionals
+What are the subclasses of MedicalCondition in DemCare
+What relationships are defined between Patient and MedicalProfessional in DemCare
+What are the key attributes of MedicalFacility in DemCare
+How is the progress of a MedicalTreatment monitored in DemCare
+What classes in DemCare model medical equipment
+What are the superclasses of MedicalProcedure in DemCare
+How are medications represented in DemCare
+What are the relationships between MedicalCondition and Symptom in DemCare
+What are the main domain entities in DemCare
+Which classes in DemCare represent medical professionals
+What are the subclasses of MedicalCondition in DemCare
+What relationships are defined between Patient and MedicalProfessional in DemCare
+What are the key attributes of MedicalFacility in DemCare
+How is the progress of a MedicalTreatment monitored in DemCare
+What classes in DemCare model medical equipment
+What are the superclasses of MedicalProcedure in DemCare
+How are medications represented in DemCare
+What are the relationships between MedicalCondition and Symptom in DemCare
+What are the main domain entities in DemCare
+Which classes in DemCare represent medical professionals
+What are the subclasses of MedicalCondition in DemCare
+What relationships are defined between Patient and MedicalProfessional in DemCare
+What are the key attributes of MedicalFacility in DemCare
+How is the progress of a MedicalTreatment monitored in DemCare
+What classes in DemCare model medical equipment
+What are the superclasses of MedicalProcedure in DemCare
+How are medications represented in DemCare
+What are the relationships between MedicalCondition and Symptom in DemCare
+What are the main domain entities in DemCare
+Which classes in DemCare represent medical professionals
+What are the subclasses of MedicalCondition in DemCare
+What relationships are defined between Patient and MedicalProfessional in DemCare
+What are the key attributes of MedicalFacility in DemCare
+How is the progress of a MedicalTreatment monitored in DemCare
+What classes in DemCare model medical equipment
+What are the superclasses of MedicalProcedure in DemCare
+How are medications represented in DemCare
+What are the relationships between MedicalCondition and Symptom in DemCare
+What are the main domain entities in DemCare
+Which classes in DemCare represent medical professionals
+What are the subclasses of MedicalCondition in DemCare
+What relationships are defined between Patient and MedicalProfessional in DemCare
+What are the key attributes of MedicalFacility in DemCare
+How is the progress of a MedicalTreatment monitored in DemCare
+What classes in DemCare model medical equipment
+What are the superclasses of MedicalProcedure in DemCare
+How are medications represented in DemCare
+What are the relationships between MedicalCondition and Symptom in DemCare
+What are the main domain entities in DemCare
+Which classes in DemCare represent medical professionals
+What are the subclasses of MedicalCondition in DemCare
+What relationships are defined between Patient and MedicalProfessional in DemCare
+What are the key attributes of MedicalFacility in DemCare
+How is the progress of a MedicalTreatment monitored in DemCare
+What classes in DemCare model medical equipment
+What are the superclasses of MedicalProcedure in DemCare
+How are medications represented in DemCare
+What are the relationships between MedicalCondition and Symptom in DemCare
+What are the main domain entities in DemCare
+Which classes in DemCare represent medical professionals
+What are the subclasses of MedicalCondition in DemCare
+What relationships are defined between Patient and MedicalProfessional in DemCare
+What are the key attributes of MedicalFacility in DemCare
+How is the progress of a MedicalTreatment monitored in DemCare
+What classes in DemCare model medical equipment
+What are the superclasses of MedicalProcedure in DemCare
+How are medications represented in DemCare
+What are the relationships between MedicalCondition and Symptom in DemCare
+What are the main domain entities in DemCare
+Which classes in DemCare represent medical professionals
+What are the subclasses of MedicalCondition in DemCare
+What relationships are defined between Patient and MedicalProfessional in DemCare
+What are the key attributes of MedicalFacility in DemCare
+How is the progress of a MedicalTreatment monitored in DemCare
+What classes in DemCare model medical equipment
+What are the superclasses of MedicalProcedure in DemCare
+How are medications represented in DemCare
+What are the relationships between MedicalCondition and Symptom in DemCare
+What are the main domain entities in DemCare
+Which classes in DemCare represent medical professionals
+What are the subclasses of MedicalCondition in DemCare
+What relationships are defined between Patient and MedicalProfessional in DemCare
+What are the key attributes of MedicalFacility in DemCare
+How is the progress of a MedicalTreatment monitored in DemCare
+What classes in DemCare model medical equipment
+What are the superclasses of MedicalProcedure in DemCare
+How are medications represented in DemCare
+What are the relationships between MedicalCondition and Symptom in DemCare
+What are the main domain entities in DemCare
+Which classes in DemCare represent medical professionals
+What are the subclasses of MedicalCondition in DemCare
+What relationships are defined between Patient and MedicalProfessional in DemCare
+What are the key attributes of MedicalFacility in DemCare
+How is the progress of a MedicalTreatment monitored in DemCare
+What classes in DemCare model medical equipment
+What are the superclasses of MedicalProcedure in DemCare
+How are medications represented in DemCare
+What are the relationships between MedicalCondition and Symptom in DemCare
+What are the main domain entities in DemCare
+Which classes in DemCare represent medical professionals
+What are the subclasses of MedicalCondition in DemCare
+What relationships are defined between Patient and MedicalProfessional in DemCare
+What are the key attributes of MedicalFacility in DemCare
+How is the progress of a MedicalTreatment monitored in DemCare
+What classes in DemCare model medical equipment
+What are the superclasses of MedicalProcedure in DemCare
+How are medications represented in DemCare
+What are the relationships between MedicalCondition and Symptom in DemCare
+What are the main domain entities in DemCare
+Which classes in DemCare represent medical professionals
+What are the subclasses of MedicalCondition in DemCare
+What relationships are defined between Patient and MedicalProfessional in DemCare
+What are the key attributes of MedicalFacility in DemCare
+How is the progress of a MedicalTreatment monitored in DemCare
+What classes in DemCare model medical equipment
+What are the superclasses of MedicalProcedure in DemCare
+How are medications represented in DemCare
+What are the relationships between MedicalCondition and Symptom in DemCare
+What are the main domain entities in DemCare
+Which classes in DemCare represent medical professionals
+What are the subclasses of MedicalCondition in DemCare
+What relationships are defined between Patient and MedicalProfessional in DemCare
+What are the key attributes of MedicalFacility in DemCare
+How is the progress of a MedicalTreatment monitored in DemCare
+What classes in DemCare model medical equipment
+What are the superclasses of MedicalProcedure in DemCare
+How are medications represented in DemCare
+What are the relationships between MedicalCondition and Symptom in DemCare
+Does an Event in DemCare have a designated highlight attribute
+How is the boolean highlight represented within an Event in DemCare
+Can an Event in DemCare be without a highlight attribute
+Is the highlight attribute in DemCare's Event mandatory or optional
+What data type is associated with the highlight attribute in DemCare's Event
+How many attributes, excluding highlight, does the Event class in DemCare have
+Can the highlight attribute in DemCare's Event be altered after its creation
+What is the nature of the highlight attribute in DemCare's Event classification
+In DemCare ontology, what domain does the boolean highlight attribute of Event belong to
+Is the presence of a boolean highlight in an Event indicative of its significance in DemCare
+What are the main domain entities in DemCare
+Which classes in DemCare represent medical professionals
+What are the subclasses of MedicalCondition in DemCare
+What relationships are defined between Patient and MedicalProfessional in DemCare
+What are the key attributes of MedicalFacility in DemCare
+How is the progress of a MedicalTreatment monitored in DemCare
+What classes in DemCare model medical equipment
+What are the superclasses of MedicalProcedure in DemCare
+How are medications represented in DemCare
+What are the relationships between MedicalCondition and Symptom in DemCare
+What aspect of DemCare ontology represents eating duration
+In which component of DemCare ontology is the eating location stored
+What data type is associated with eating duration in DemCare ontology
+What are the two main properties of EatingSummary in DemCare ontology
+How is eating location represented in the DemCare ontology schema
+What type of data is used to describe eating location in DemCare ontology
+In the context of DemCare ontology, what class holds eating duration information
+What are the properties of interest in EatingSummary for capturing meal details in DemCare ontology
+In the DemCare ontology model, what data type is used for eating location description
+What are the distinct features of EatingSummary in the DemCare ontology related to meal characteristics
+What are the main domain entities in DemCare
+Which classes in DemCare represent medical professionals
+What are the subclasses of MedicalCondition in DemCare
+What relationships are defined between Patient and MedicalProfessional in DemCare
+What are the key attributes of MedicalFacility in DemCare
+How is the progress of a MedicalTreatment monitored in DemCare
+What classes in DemCare model medical equipment
+What are the superclasses of MedicalProcedure in DemCare
+How are medications represented in DemCare
+What are the relationships between MedicalCondition and Symptom in DemCare
+What are the main domain entities in DemCare
+Which classes in DemCare represent medical professionals
+What are the subclasses of MedicalCondition in DemCare
+What relationships are defined between Patient and MedicalProfessional in DemCare
+What are the key attributes of MedicalFacility in DemCare
+How is the progress of a MedicalTreatment monitored in DemCare
+What classes in DemCare model medical equipment
+What are the superclasses of MedicalProcedure in DemCare
+How are medications represented in DemCare
+What are the relationships between MedicalCondition and Symptom in DemCare
+What are the main domain entities in DemCare
+Which classes in DemCare represent medical professionals
+What are the subclasses of MedicalCondition in DemCare
+What relationships are defined between Patient and MedicalProfessional in DemCare
+What are the key attributes of MedicalFacility in DemCare
+How is the progress of a MedicalTreatment monitored in DemCare
+What classes in DemCare model medical equipment
+What are the superclasses of MedicalProcedure in DemCare
+How are medications represented in DemCare
+What are the relationships between MedicalCondition and Symptom in DemCare
+What are the main domain entities in DemCare
+Which classes in DemCare represent medical professionals
+What are the subclasses of MedicalCondition in DemCare
+What relationships are defined between Patient and MedicalProfessional in DemCare
+What are the key attributes of MedicalFacility in DemCare
+How is the progress of a MedicalTreatment monitored in DemCare
+What classes in DemCare model medical equipment
+What are the superclasses of MedicalProcedure in DemCare
+How are medications represented in DemCare
+What are the relationships between MedicalCondition and Symptom in DemCare
+What are the main domain entities in DemCare
+Which classes in DemCare represent medical professionals
+What are the subclasses of MedicalCondition in DemCare
+What relationships are defined between Patient and MedicalProfessional in DemCare
+What are the key attributes of MedicalFacility in DemCare
+How is the progress of a MedicalTreatment monitored in DemCare
+What classes in DemCare model medical equipment
+What are the superclasses of MedicalProcedure in DemCare
+How are medications represented in DemCare
+What are the relationships between MedicalCondition and Symptom in DemCare
+What are the main domain entities in DemCare
+Which classes in DemCare represent medical professionals
+What are the subclasses of MedicalCondition in DemCare
+What relationships are defined between Patient and MedicalProfessional in DemCare
+What are the key attributes of MedicalFacility in DemCare
+How is the progress of a MedicalTreatment monitored in DemCare
+What classes in DemCare model medical equipment
+What are the superclasses of MedicalProcedure in DemCare
+How are medications represented in DemCare
+What are the relationships between MedicalCondition and Symptom in DemCare
+What are the main domain entities in DemCare
+Which classes in DemCare represent medical professionals
+What are the subclasses of MedicalCondition in DemCare
+What relationships are defined between Patient and MedicalProfessional in DemCare
+What are the key attributes of MedicalFacility in DemCare
+How is the progress of a MedicalTreatment monitored in DemCare
+What classes in DemCare model medical equipment
+What are the superclasses of MedicalProcedure in DemCare
+How are medications represented in DemCare
+What are the relationships between MedicalCondition and Symptom in DemCare
+What are the main domain entities in DemCare
+Which classes in DemCare represent medical professionals
+What are the subclasses of MedicalCondition in DemCare
+What relationships are defined between Patient and MedicalProfessional in DemCare
+What are the key attributes of MedicalFacility in DemCare
+How is the progress of a MedicalTreatment monitored in DemCare
+What classes in DemCare model medical equipment
+What are the superclasses of MedicalProcedure in DemCare
+How are medications represented in DemCare
+What are the relationships between MedicalCondition and Symptom in DemCare
+What are the main domain entities in DemCare
+Which classes in DemCare represent medical professionals
+What are the subclasses of MedicalCondition in DemCare
+What relationships are defined between Patient and MedicalProfessional in DemCare
+What are the key attributes of MedicalFacility in DemCare
+How is the progress of a MedicalTreatment monitored in DemCare
+What classes in DemCare model medical equipment
+What are the superclasses of MedicalProcedure in DemCare
+How are medications represented in DemCare
+What are the relationships between MedicalCondition and Symptom in DemCare
+What are the main domain entities in DemCare
+Which classes in DemCare represent medical professionals
+What are the subclasses of MedicalCondition in DemCare
+What relationships are defined between Patient and MedicalProfessional in DemCare
+What are the key attributes of MedicalFacility in DemCare
+How is the progress of a MedicalTreatment monitored in DemCare
+What classes in DemCare model medical equipment
+What are the superclasses of MedicalProcedure in DemCare
+How are medications represented in DemCare
+What are the relationships between MedicalCondition and Symptom in DemCare
+What are the main domain entities in DemCare
+Which classes in DemCare represent medical professionals
+What are the subclasses of MedicalCondition in DemCare
+What relationships are defined between Patient and MedicalProfessional in DemCare
+What are the key attributes of MedicalFacility in DemCare
+How is the progress of a MedicalTreatment monitored in DemCare
+What classes in DemCare model medical equipment
+What are the superclasses of MedicalProcedure in DemCare
+How are medications represented in DemCare
+What are the relationships between MedicalCondition and Symptom in DemCare
+What are the main domain entities in DemCare
+Which classes in DemCare represent medical professionals
+What are the subclasses of MedicalCondition in DemCare
+What relationships are defined between Patient and MedicalProfessional in DemCare
+What are the key attributes of MedicalFacility in DemCare
+How is the progress of a MedicalTreatment monitored in DemCare
+What classes in DemCare model medical equipment
+What are the superclasses of MedicalProcedure in DemCare
+How are medications represented in DemCare
+What are the relationships between MedicalCondition and Symptom in DemCare
+What are the main domain entities in DemCare
+Which classes in DemCare represent medical professionals
+What are the subclasses of MedicalCondition in DemCare
+What relationships are defined between Patient and MedicalProfessional in DemCare
+What are the key attributes of MedicalFacility in DemCare
+How is the progress of a MedicalTreatment monitored in DemCare
+What classes in DemCare model medical equipment
+What are the superclasses of MedicalProcedure in DemCare
+How are medications represented in DemCare
+What are the relationships between MedicalCondition and Symptom in DemCare
+What are the main domain entities in DemCare
+Which classes in DemCare represent medical professionals
+What are the subclasses of MedicalCondition in DemCare
+What relationships are defined between Patient and MedicalProfessional in DemCare
+What are the key attributes of MedicalFacility in DemCare
+How is the progress of a MedicalTreatment monitored in DemCare
+What classes in DemCare model medical equipment
+What are the superclasses of MedicalProcedure in DemCare
+How are medications represented in DemCare
+What are the relationships between MedicalCondition and Symptom in DemCare
+What are the main domain entities in DemCare
+Which classes in DemCare represent medical professionals
+What are the subclasses of MedicalCondition in DemCare
+What relationships are defined between Patient and MedicalProfessional in DemCare
+What are the key attributes of MedicalFacility in DemCare
+How is the progress of a MedicalTreatment monitored in DemCare
+What classes in DemCare model medical equipment
+What are the superclasses of MedicalProcedure in DemCare
+How are medications represented in DemCare
+What are the relationships between MedicalCondition and Symptom in DemCare
+What are the main domain entities in DemCare
+Which classes in DemCare represent medical professionals
+What are the subclasses of MedicalCondition in DemCare
+What relationships are defined between Patient and MedicalProfessional in DemCare
+What are the key attributes of MedicalFacility in DemCare
+How is the progress of a MedicalTreatment monitored in DemCare
+What classes in DemCare model medical equipment
+What are the superclasses of MedicalProcedure in DemCare
+How are medications represented in DemCare
+What are the relationships between MedicalCondition and Symptom in DemCare
+What are the main domain entities in DemCare
+Which classes in DemCare represent medical professionals
+What are the subclasses of MedicalCondition in DemCare
+What relationships are defined between Patient and MedicalProfessional in DemCare
+What are the key attributes of MedicalFacility in DemCare
+How is the progress of a MedicalTreatment monitored in DemCare
+What classes in DemCare model medical equipment
+What are the superclasses of MedicalProcedure in DemCare
+How are medications represented in DemCare
+What are the relationships between MedicalCondition and Symptom in DemCare
+What are the main domain entities in DemCare
+Which classes in DemCare represent medical professionals
+What are the subclasses of MedicalCondition in DemCare
+What relationships are defined between Patient and MedicalProfessional in DemCare
+What are the key attributes of MedicalFacility in DemCare
+How is the progress of a MedicalTreatment monitored in DemCare
+What classes in DemCare model medical equipment
+What are the superclasses of MedicalProcedure in DemCare
+How are medications represented in DemCare
+What are the relationships between MedicalCondition and Symptom in DemCare
+What are the main domain entities in DemCare
+Which classes in DemCare represent medical professionals
+What are the subclasses of MedicalCondition in DemCare
+What relationships are defined between Patient and MedicalProfessional in DemCare
+What are the key attributes of MedicalFacility in DemCare
+How is the progress of a MedicalTreatment monitored in DemCare
+What classes in DemCare model medical equipment
+What are the superclasses of MedicalProcedure in DemCare
+How are medications represented in DemCare
+What are the relationships between MedicalCondition and Symptom in DemCare
+What are the main domain entities in DemCare
+Which classes in DemCare represent medical professionals
+What are the subclasses of MedicalCondition in DemCare
+What relationships are defined between Patient and MedicalProfessional in DemCare
+What are the key attributes of MedicalFacility in DemCare
+How is the progress of a MedicalTreatment monitored in DemCare
+What classes in DemCare model medical equipment
+What are the superclasses of MedicalProcedure in DemCare
+How are medications represented in DemCare
+What are the relationships between MedicalCondition and Symptom in DemCare
+What are the main domain entities in DemCare
+Which classes in DemCare represent medical professionals
+What are the subclasses of MedicalCondition in DemCare
+What relationships are defined between Patient and MedicalProfessional in DemCare
+What are the key attributes of MedicalFacility in DemCare
+How is the progress of a MedicalTreatment monitored in DemCare
+What classes in DemCare model medical equipment
+What are the superclasses of MedicalProcedure in DemCare
+How are medications represented in DemCare
+What are the relationships between MedicalCondition and Symptom in DemCare
+What are the main domain entities in DemCare
+Which classes in DemCare represent medical professionals
+What are the subclasses of MedicalCondition in DemCare
+What relationships are defined between Patient and MedicalProfessional in DemCare
+What are the key attributes of MedicalFacility in DemCare
+How is the progress of a MedicalTreatment monitored in DemCare
+What classes in DemCare model medical equipment
+What are the superclasses of MedicalProcedure in DemCare
+How are medications represented in DemCare
+What are the relationships between MedicalCondition and Symptom in DemCare
+What are the main domain entities in DemCare
+Which classes in DemCare represent medical professionals
+What are the subclasses of MedicalCondition in DemCare
+What relationships are defined between Patient and MedicalProfessional in DemCare
+What are the key attributes of MedicalFacility in DemCare
+How is the progress of a MedicalTreatment monitored in DemCare
+What classes in DemCare model medical equipment
+What are the superclasses of MedicalProcedure in DemCare
+How are medications represented in DemCare
+What are the relationships between MedicalCondition and Symptom in DemCare
+What are the main domain entities in DemCare
+Which classes in DemCare represent medical professionals
+What are the subclasses of MedicalCondition in DemCare
+What relationships are defined between Patient and MedicalProfessional in DemCare
+What are the key attributes of MedicalFacility in DemCare
+How is the progress of a MedicalTreatment monitored in DemCare
+What classes in DemCare model medical equipment
+What are the superclasses of MedicalProcedure in DemCare
+How are medications represented in DemCare
+What are the relationships between MedicalCondition and Symptom in DemCare
+What are the main domain entities in DemCare
+Which classes in DemCare represent medical professionals
+What are the subclasses of MedicalCondition in DemCare
+What relationships are defined between Patient and MedicalProfessional in DemCare
+What are the key attributes of MedicalFacility in DemCare
+How is the progress of a MedicalTreatment monitored in DemCare
+What classes in DemCare model medical equipment
+What are the superclasses of MedicalProcedure in DemCare
+How are medications represented in DemCare
+What are the relationships between MedicalCondition and Symptom in DemCare
+What are the main domain entities in DemCare
+Which classes in DemCare represent medical professionals
+What are the subclasses of MedicalCondition in DemCare
+What relationships are defined between Patient and MedicalProfessional in DemCare
+What are the key attributes of MedicalFacility in DemCare
+How is the progress of a MedicalTreatment monitored in DemCare
+What classes in DemCare model medical equipment
+What are the superclasses of MedicalProcedure in DemCare
+How are medications represented in DemCare
+What are the relationships between MedicalCondition and Symptom in DemCare
+What are the main domain entities in DemCare
+Which classes in DemCare represent medical professionals
+What are the subclasses of MedicalCondition in DemCare
+What relationships are defined between Patient and MedicalProfessional in DemCare
+What are the key attributes of MedicalFacility in DemCare
+How is the progress of a MedicalTreatment monitored in DemCare
+What classes in DemCare model medical equipment
+What are the superclasses of MedicalProcedure in DemCare
+How are medications represented in DemCare
+What are the relationships between MedicalCondition and Symptom in DemCare
+What are the main domain entities in DemCare
+Which classes in DemCare represent medical professionals
+What are the subclasses of MedicalCondition in DemCare
+What relationships are defined between Patient and MedicalProfessional in DemCare
+What are the key attributes of MedicalFacility in DemCare
+How is the progress of a MedicalTreatment monitored in DemCare
+What classes in DemCare model medical equipment
+What are the superclasses of MedicalProcedure in DemCare
+How are medications represented in DemCare
+What are the relationships between MedicalCondition and Symptom in DemCare
+What are the main domain entities in DemCare
+Which classes in DemCare represent medical professionals
+What are the subclasses of MedicalCondition in DemCare
+What relationships are defined between Patient and MedicalProfessional in DemCare
+What are the key attributes of MedicalFacility in DemCare
+How is the progress of a MedicalTreatment monitored in DemCare
+What classes in DemCare model medical equipment
+What are the superclasses of MedicalProcedure in DemCare
+How are medications represented in DemCare
+What are the relationships between MedicalCondition and Symptom in DemCare
+What are the main domain entities in DemCare
+Which classes in DemCare represent medical professionals
+What are the subclasses of MedicalCondition in DemCare
+What relationships are defined between Patient and MedicalProfessional in DemCare
+What are the key attributes of MedicalFacility in DemCare
+How is the progress of a MedicalTreatment monitored in DemCare
+What classes in DemCare model medical equipment
+What are the superclasses of MedicalProcedure in DemCare
+How are medications represented in DemCare
+What are the relationships between MedicalCondition and Symptom in DemCare
+What are the main domain entities in DemCare
+Which classes in DemCare represent medical professionals
+What are the subclasses of MedicalCondition in DemCare
+What relationships are defined between Patient and MedicalProfessional in DemCare
+What are the key attributes of MedicalFacility in DemCare
+How is the progress of a MedicalTreatment monitored in DemCare
+What classes in DemCare model medical equipment
+What are the superclasses of MedicalProcedure in DemCare
+How are medications represented in DemCare
+What are the relationships between MedicalCondition and Symptom in DemCare
+What are the main domain entities in DemCare
+Which classes in DemCare represent medical professionals
+What are the subclasses of MedicalCondition in DemCare
+What relationships are defined between Patient and MedicalProfessional in DemCare
+What are the key attributes of MedicalFacility in DemCare
+How is the progress of a MedicalTreatment monitored in DemCare
+What classes in DemCare model medical equipment
+What are the superclasses of MedicalProcedure in DemCare
+How are medications represented in DemCare
+What are the relationships between MedicalCondition and Symptom in DemCare
+What are the main domain entities in DemCare
+Which classes in DemCare represent medical professionals
+What are the subclasses of MedicalCondition in DemCare
+What relationships are defined between Patient and MedicalProfessional in DemCare
+What are the key attributes of MedicalFacility in DemCare
+How is the progress of a MedicalTreatment monitored in DemCare
+What classes in DemCare model medical equipment
+What are the superclasses of MedicalProcedure in DemCare
+How are medications represented in DemCare
+What are the relationships between MedicalCondition and Symptom in DemCare
+What are the main domain entities in DemCare
+Which classes in DemCare represent medical professionals
+What are the subclasses of MedicalCondition in DemCare
+What relationships are defined between Patient and MedicalProfessional in DemCare
+What are the key attributes of MedicalFacility in DemCare
+How is the progress of a MedicalTreatment monitored in DemCare
+What classes in DemCare model medical equipment
+What are the superclasses of MedicalProcedure in DemCare
+How are medications represented in DemCare
+What are the relationships between MedicalCondition and Symptom in DemCare
+What are the main domain entities in DemCare
+Which classes in DemCare represent medical professionals
+What are the subclasses of MedicalCondition in DemCare
+What relationships are defined between Patient and MedicalProfessional in DemCare
+What are the key attributes of MedicalFacility in DemCare
+How is the progress of a MedicalTreatment monitored in DemCare
+What classes in DemCare model medical equipment
+What are the superclasses of MedicalProcedure in DemCare
+How are medications represented in DemCare
+What are the relationships between MedicalCondition and Symptom in DemCare
