@@ -1,3 +1,19 @@
+#  Copyright 2024. EURECOM
+#
+#  Licensed under the Apache License, Version 2.0 (the "License");
+#  you may not use this file except in compliance with the License.
+#  You may obtain a copy of the License at
+#
+#  http://www.apache.org/licenses/LICENSE-2.0
+#
+#  Unless required by applicable law or agreed to in writing, software
+#  distributed under the License is distributed on an "AS IS" BASIS,
+#  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+#  See the License for the specific language governing permissions and
+#  limitations under the License.
+
+# === Import ==================================================================
+
 import os
 import re
 import time
@@ -16,6 +32,8 @@ from transformers import AutoTokenizer, AutoModelForCausalLM, pipeline
 
 from LocalTemplate import LocalTemplate
 
+# === Init ====================================================================
+
 os.environ["CUDA_VISIBLE_DEVICES"] = "3,2"  # Specify the GPU id
 os.environ["HUGGINGFACE_HUB_CACHE"] = "/data/huggingface/"
 
@@ -28,9 +46,10 @@ available_llms = {
     "mistral": "local"
 }
 
-
 # device = "cuda"
 
+
+# === Functions ===============================================================
 
 def simplify(uri):
     return re.split(r'[#/]', uri)[-1].replace('_', ' ')
@@ -62,8 +81,25 @@ def select_schema_by_class(schema, cl):
     return [(s, p, o) for s, p, o in schema if cl in [s, o]]
 
 
-def run(task, input_path, llm_model, ont_name, n_cqs=10, include_description=False, verbose=False, output_path='/out',
-        id=None, local_llm=False, n_examples=0):
+def run(task, input_path, llm_model, ont_name,
+        n_cqs=10, include_description=False, verbose=False, output_path='/out',
+        id=None, local_llm=False, n_examples=0
+        ):
+    """Processing entry point
+
+    :param task:
+    :param input_path:
+    :param llm_model:
+    :param ont_name:
+    :param n_cqs:
+    :param include_description:
+    :param verbose:
+    :param output_path:
+    :param id:
+    :param local_llm:
+    :param n_examples:
+    :return:
+    """
     g = Graph()
     for g_path in os.listdir(path.join(input_path, 'dm')):
         if not g_path.split('.')[-1] in ['rdf', 'ttl', 'owl']:
@@ -119,16 +155,23 @@ def run(task, input_path, llm_model, ont_name, n_cqs=10, include_description=Fal
         input_batches.append(input_dict)
 
     if local_llm or available_llms[llm_model] == 'local':
-
         llm = Ollama(model=llm_model)
     else:
         tokenizer = AutoTokenizer.from_pretrained(available_llms[llm_model])
 
-        model = AutoModelForCausalLM.from_pretrained(available_llms[llm_model], device_map='sequential',
-                                                     load_in_8bit=True,
-                                                     use_safetensors=True)
+        model = AutoModelForCausalLM.from_pretrained(
+            available_llms[llm_model],
+            device_map='sequential',
+            load_in_8bit=True,
+            use_safetensors=True
+        )
 
-        pipe = pipeline("text-generation", model=model, tokenizer=tokenizer, max_new_tokens=512)
+        pipe = pipeline(
+            "text-generation",
+            model=model,
+            tokenizer=tokenizer,
+            max_new_tokens=512
+        )
 
         llm = HuggingFacePipeline(pipeline=pipe)
 
@@ -160,11 +203,16 @@ def run(task, input_path, llm_model, ont_name, n_cqs=10, include_description=Fal
     with open(path.join(output_path, ont_name, f'{ont_name}_{id}.txt'), 'w') as f:
         f.write('\n'.join(cqs))
     print(res)
+    return True, res
 
+
+# === Main ====================================================================
 
 if __name__ == '__main__':
+    # Get tasks from prompt templates
     available_tasks = [x.replace('.yml', '') for x in os.listdir('./src/prompt_templates/')]
 
+    # Define argument parser
     parser = ArgumentParser(
         prog='LLM4ke',
         description='Experiment about LLMs on Knowledge Graphs')
@@ -184,6 +232,7 @@ if __name__ == '__main__':
                         default=False, action='store_true')
     parser.add_argument('--id', help='Id for naming the output file. If absent, it will be a timestamp')
 
+    # Instanciate argument parser
     args = parser.parse_args()
     _llm = args.llm
     if not args.local_llm:
@@ -191,5 +240,6 @@ if __name__ == '__main__':
         if selected != "local":
             _llm = selected
 
+    # Call the processing function
     run(args.task, args.input, _llm, args.name, args.n_cqs, args.include_description, args.verbose, args.output,
         args.id, args.local_llm, args.n_examples)

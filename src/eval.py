@@ -1,12 +1,33 @@
+#  Copyright 2024. EURECOM
+#
+#  Licensed under the Apache License, Version 2.0 (the "License");
+#  you may not use this file except in compliance with the License.
+#  You may obtain a copy of the License at
+#
+#  http://www.apache.org/licenses/LICENSE-2.0
+#
+#  Unless required by applicable law or agreed to in writing, software
+#  distributed under the License is distributed on an "AS IS" BASIS,
+#  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+#  See the License for the specific language governing permissions and
+#  limitations under the License.
+
+# === Import ==================================================================
+
 from os import path
 
 import yaml
 from sentence_transformers import SentenceTransformer, util
 
+
+# === Init ====================================================================
+
 model = SentenceTransformer("all-MiniLM-L6-v2")
 
 SIMILARITY_THRESHOLD = 0.3  # TODO TO BE CHANGED
 
+
+# === Functions ===============================================================
 
 def run(input_path, prediction_path):
     with open(path.join(input_path, 'cqs', 'cqs.yml')) as f:
@@ -40,7 +61,6 @@ def run(input_path, prediction_path):
             #     cqs[i], predictions[j], pair["score"]
             # ))
         # print(f'{i} - {j} => {pair["score"]}')
-
 
     print(true_positive)
     precision = len(set(true_positive)) / len(predictions)
