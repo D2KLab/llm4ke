@@ -100,7 +100,7 @@ def run(task, input_path, llm_model, ont_name,
         n_cqs=10, include_description=False, verbose=False, output_path='/out',
         id=None, local_llm=False, n_examples=0
         ):
-    """Processing entry point
+    """Processing entry point: load the ontology, the prompting template, then call the LLM and save the results.
 
     :param task:
     :param input_path:
@@ -212,7 +212,7 @@ def run(task, input_path, llm_model, ont_name,
     chain = prompt | llm | output_parser
 
     # Call LLM
-    logging.info("PROMPT:CALL_LLM:%s", 'START')
+    logging.info("PROMPT:CALL_LLM:%s:engine=%s", 'START', llm)
     config = {"callbacks": [CustomHandler()]} if verbose else {}
     res = chain.batch(input_batches, config=config)
     logging.info("PROMPT:CALL_LLM:%s:res=%s", 'DONE', res)
@@ -269,7 +269,8 @@ if __name__ == '__main__':
         '-i',
         '--input',
         help='Input folder',
-        default='./data/Odeuropa/'
+        required=True
+        # default='./data/Odeuropa/'
     )
 
     parser.add_argument(
