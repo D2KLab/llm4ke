@@ -37,10 +37,24 @@ llm4ke
 The pipeline uses [LangChain](https://www.langchain.com/), and in particular [Ollama](https://ollama.ai/).
 
 * Install Ollama from its [website](https://ollama.ai/download).
-* Install requirements `pip install -r requirements.txt`
-* Download the desidered LLM `ollama pull llama2` ([full list of available LLMs](https://ollama.ai/library))
-* Run it with `python src/main.py all_classes -i ./data/Odeuropa/ --llm llama2`
-    * See the full list of available parameters with `python src/main.py --help`
+* Install requirements
+  ```shell
+  pip install -r requirements.txt
+  ```
+* Download the desidered LLM ([full list of available LLMs](https://ollama.ai/library))
+  ```shell
+  ollama pull llama2
+  ```
+* Run the pipeline to generate Competency Questions for a given ontology
+  ```shell
+  # Canonical form:
+  # python src/main.py <task> --name <OntologyName> --input <OntologyFolder> --llm <ModelName>
+  
+  # Basic example for the Odeuropa ontology:
+  python src/main.py all_classes --name Odeuropa --input ./data/Odeuropa/ --llm llama2
+  ```
+  Then browse the results in the `out/Odeuropa/` directory.
+  You can get the full list of available parameters with `python src/main.py --help`
 
 ## Copyright
 
@@ -53,5 +67,6 @@ Copyright (c) 2023, EURECOM. All rights reserved.
 ## Maintainer
 
 * [Raphaël TRONCY](mailto:raphael.troncy@eurecom.fr)
+* [Youssra REBBOUD](mailto:Youssra.Rebboud@eurecom.fr)
 * [Pasquale LISENA](mailto:pasquale.lisena@eurecom.fr)
 * [Lionel TAILHARDAT](mailto:lionel.tailhardat@orange.com)
