@@ -47,6 +47,7 @@ available_llms = {
     "mistral": "local"
 }
 
+
 # device = "cuda"
 
 # ----------------------------------------------------------------------------
@@ -68,6 +69,13 @@ def simplify(uri):
     :return: a simpler URI as a string
     """
     return re.split(r'[#/]', uri)[-1].replace('_', ' ')
+
+
+def flatten(matrix):
+    flat_list = []
+    for row in matrix:
+        flat_list.extend(row)
+    return flat_list
 
 
 def select_in_batches(lst, batch_size=20):
@@ -211,7 +219,7 @@ def run(task, input_path, llm_model, ont_name,
     logging.info("PROMPT:CALL_LLM:%s:res=%s", 'DONE', res)
 
     # Parse output to extract Competency Questions
-    patterns = [r'(\d+)\. (.+)[?.]', r'\s*-\s*(.*?)[?.]']
+    patterns = [r'(\d+)\. (.+)[?.]', r'\s*-\s*(.*?)[?.]', r'CQ\d+: (.+?)(?=\n\nCQ\d+|$)']
     cqs = []
 
     for batch in res:
