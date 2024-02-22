@@ -1,0 +1,581 @@
+Which main classes are represented in the DemCare ontology
+How are relationships between patients and healthcare providers modeled in DemCare
+Can DemCare distinguish between different types of medical procedures
+How does DemCare handle the representation of medications and their administration
+Can DemCare track and model disease progression and symptoms
+How does DemCare represent and differentiate various types of medical devices
+Can DemCare capture and organize information about healthcare facilities and their services
+How does DemCare handle the representation of medical records and their privacy
+Can DemCare model and track health insurance policies and claims
+How does DemCare handle the representation of medical research and clinical trials
+Which main classes are represented in the DemCare ontology
+How are relationships between patients and healthcare providers modeled in DemCare
+Can DemCare distinguish between different types of medical procedures
+How does DemCare handle the representation of medications and their administration
+Can DemCare track and model disease progression and symptoms
+How does DemCare represent and differentiate various types of medical devices
+Can DemCare capture and organize information about healthcare facilities and their services
+How does DemCare handle the representation of medical records and their privacy
+Can DemCare model and track health insurance policies and claims
+How does DemCare handle the representation of medical research and clinical trials
+Which main classes are represented in the DemCare ontology
+How are relationships between patients and healthcare providers modeled in DemCare
+Can DemCare distinguish between different types of medical procedures
+How does DemCare handle the representation of medications and their administration
+Can DemCare track and model disease progression and symptoms
+How does DemCare represent and differentiate various types of medical devices
+Can DemCare capture and organize information about healthcare facilities and their services
+How does DemCare handle the representation of medical records and their privacy
+Can DemCare model and track health insurance policies and claims
+How does DemCare handle the representation of medical research and clinical trials
+Which main classes are represented in the DemCare ontology
+How are relationships between patients and healthcare providers modeled in DemCare
+Can DemCare distinguish between different types of medical procedures
+How does DemCare handle the representation of medications and their administration
+Can DemCare track and model disease progression and symptoms
+How does DemCare represent and differentiate various types of medical devices
+Can DemCare capture and organize information about healthcare facilities and their services
+How does DemCare handle the representation of medical records and their privacy
+Can DemCare model and track health insurance policies and claims
+How does DemCare handle the representation of medical research and clinical trials
+Which main classes are represented in the DemCare ontology
+How are relationships between patients and healthcare providers modeled in DemCare
+Can DemCare distinguish between different types of medical procedures
+How does DemCare handle the representation of medications and their administration
+Can DemCare track and model disease progression and symptoms
+How does DemCare represent and differentiate various types of medical devices
+Can DemCare capture and organize information about healthcare facilities and their services
+How does DemCare handle the representation of medical records and their privacy
+Can DemCare model and track health insurance policies and claims
+How does DemCare handle the representation of medical research and clinical trials
+Which main classes are represented in the DemCare ontology
+How are relationships between patients and healthcare providers modeled in DemCare
+Can DemCare distinguish between different types of medical procedures
+How does DemCare handle the representation of medications and their administration
+Can DemCare track and model disease progression and symptoms
+How does DemCare represent and differentiate various types of medical devices
+Can DemCare capture and organize information about healthcare facilities and their services
+How does DemCare handle the representation of medical records and their privacy
+Can DemCare model and track health insurance policies and claims
+How does DemCare handle the representation of medical research and clinical trials
+Which main classes are represented in the DemCare ontology
+How are relationships between patients and healthcare providers modeled in DemCare
+Can DemCare distinguish between different types of medical procedures
+How does DemCare handle the representation of medications and their administration
+Can DemCare track and model disease progression and symptoms
+How does DemCare represent and differentiate various types of medical devices
+Can DemCare capture and organize information about healthcare facilities and their services
+How does DemCare handle the representation of medical records and their privacy
+Can DemCare model and track health insurance policies and claims
+How does DemCare handle the representation of medical research and clinical trials
+Which main classes are represented in the DemCare ontology
+How are relationships between patients and healthcare providers modeled in DemCare
+Can DemCare distinguish between different types of medical procedures
+How does DemCare handle the representation of medications and their administration
+Can DemCare track and model disease progression and symptoms
+How does DemCare represent and differentiate various types of medical devices
+Can DemCare capture and organize information about healthcare facilities and their services
+How does DemCare handle the representation of medical records and their privacy
+Can DemCare model and track health insurance policies and claims
+How does DemCare handle the representation of medical research and clinical trials
+Which main classes are represented in the DemCare ontology
+How are relationships between patients and healthcare providers modeled in DemCare
+Can DemCare distinguish between different types of medical procedures
+How does DemCare handle the representation of medications and their administration
+Can DemCare track and model disease progression and symptoms
+How does DemCare represent and differentiate various types of medical devices
+Can DemCare capture and organize information about healthcare facilities and their services
+How does DemCare handle the representation of medical records and their privacy
+Can DemCare model and track health insurance policies and claims
+How does DemCare handle the representation of medical research and clinical trials
+Which main classes are represented in the DemCare ontology
+How are relationships between patients and healthcare providers modeled in DemCare
+Can DemCare distinguish between different types of medical procedures
+How does DemCare handle the representation of medications and their administration
+Can DemCare track and model disease progression and symptoms
+How does DemCare represent and differentiate various types of medical devices
+Can DemCare capture and organize information about healthcare facilities and their services
+How does DemCare handle the representation of medical records and their privacy
+Can DemCare model and track health insurance policies and claims
+How does DemCare handle the representation of medical research and clinical trials
+Which main classes are represented in the DemCare ontology
+How are relationships between patients and healthcare providers modeled in DemCare
+Can DemCare distinguish between different types of medical procedures
+How does DemCare handle the representation of medications and their administration
+Can DemCare track and model disease progression and symptoms
+How does DemCare represent and differentiate various types of medical devices
+Can DemCare capture and organize information about healthcare facilities and their services
+How does DemCare handle the representation of medical records and their privacy
+Can DemCare model and track health insurance policies and claims
+How does DemCare handle the representation of medical research and clinical trials
+Which main classes are represented in the DemCare ontology
+How are relationships between patients and healthcare providers modeled in DemCare
+Can DemCare distinguish between different types of medical procedures
+How does DemCare handle the representation of medications and their administration
+Can DemCare track and model disease progression and symptoms
+How does DemCare represent and differentiate various types of medical devices
+Can DemCare capture and organize information about healthcare facilities and their services
+How does DemCare handle the representation of medical records and their privacy
+Can DemCare model and track health insurance policies and claims
+How does DemCare handle the representation of medical research and clinical trials
+Which main classes are represented in the DemCare ontology
+How are relationships between patients and healthcare providers modeled in DemCare
+Can DemCare distinguish between different types of medical procedures
+How does DemCare handle the representation of medications and their administration
+Can DemCare track and model disease progression and symptoms
+How does DemCare represent and differentiate various types of medical devices
+Can DemCare capture and organize information about healthcare facilities and their services
+How does DemCare handle the representation of medical records and their privacy
+Can DemCare model and track health insurance policies and claims
+How does DemCare handle the representation of medical research and clinical trials
+Which main classes are represented in the DemCare ontology
+How are relationships between patients and healthcare providers modeled in DemCare
+Can DemCare distinguish between different types of medical procedures
+How does DemCare handle the representation of medications and their administration
+Can DemCare track and model disease progression and symptoms
+How does DemCare represent and differentiate various types of medical devices
+Can DemCare capture and organize information about healthcare facilities and their services
+How does DemCare handle the representation of medical records and their privacy
+Can DemCare model and track health insurance policies and claims
+How does DemCare handle the representation of medical research and clinical trials
+Which main classes are represented in the DemCare ontology
+How are relationships between patients and healthcare providers modeled in DemCare
+Can DemCare distinguish between different types of medical procedures
+How does DemCare handle the representation of medications and their administration
+Can DemCare track and model disease progression and symptoms
+How does DemCare represent and differentiate various types of medical devices
+Can DemCare capture and organize information about healthcare facilities and their services
+How does DemCare handle the representation of medical records and their privacy
+Can DemCare model and track health insurance policies and claims
+How does DemCare handle the representation of medical research and clinical trials
+Which main classes are represented in the DemCare ontology
+How are relationships between patients and healthcare providers modeled in DemCare
+Can DemCare distinguish between different types of medical procedures
+How does DemCare handle the representation of medications and their administration
+Can DemCare track and model disease progression and symptoms
+How does DemCare represent and differentiate various types of medical devices
+Can DemCare capture and organize information about healthcare facilities and their services
+How does DemCare handle the representation of medical records and their privacy
+Can DemCare model and track health insurance policies and claims
+How does DemCare handle the representation of medical research and clinical trials
+Which main classes are represented in the DemCare ontology
+How are relationships between patients and healthcare providers modeled in DemCare
+Can DemCare distinguish between different types of medical procedures
+How does DemCare handle the representation of medications and their administration
+Can DemCare track and model disease progression and symptoms
+How does DemCare represent and differentiate various types of medical devices
+Can DemCare capture and organize information about healthcare facilities and their services
+How does DemCare handle the representation of medical records and their privacy
+Can DemCare model and track health insurance policies and claims
+How does DemCare handle the representation of medical research and clinical trials
+Which main classes are represented in the DemCare ontology
+How are relationships between patients and healthcare providers modeled in DemCare
+Can DemCare distinguish between different types of medical procedures
+How does DemCare handle the representation of medications and their administration
+Can DemCare track and model disease progression and symptoms
+How does DemCare represent and differentiate various types of medical devices
+Can DemCare capture and organize information about healthcare facilities and their services
+How does DemCare handle the representation of medical records and their privacy
+Can DemCare model and track health insurance policies and claims
+How does DemCare handle the representation of medical research and clinical trials
+Which main classes are represented in the DemCare ontology
+How are relationships between patients and healthcare providers modeled in DemCare
+Can DemCare distinguish between different types of medical procedures
+How does DemCare handle the representation of medications and their administration
+Can DemCare track and model disease progression and symptoms
+How does DemCare represent and differentiate various types of medical devices
+Can DemCare capture and organize information about healthcare facilities and their services
+How does DemCare handle the representation of medical records and their privacy
+Can DemCare model and track health insurance policies and claims
+How does DemCare handle the representation of medical research and clinical trials
+Which main classes are represented in the DemCare ontology
+How are relationships between patients and healthcare providers modeled in DemCare
+Can DemCare distinguish between different types of medical procedures
+How does DemCare handle the representation of medications and their administration
+Can DemCare track and model disease progression and symptoms
+How does DemCare represent and differentiate various types of medical devices
+Can DemCare capture and organize information about healthcare facilities and their services
+How does DemCare handle the representation of medical records and their privacy
+Can DemCare model and track health insurance policies and claims
+How does DemCare handle the representation of medical research and clinical trials
+What types of events are represented in DemCare ontology
+How is the concept of highlighting defined for events in DemCare
+What data type is used to represent the 'highlight' attribute in DemCare
+Can an event in DemCare ontology have multiple highlight values
+What interpretation can be given to a 'true' value for the highlight attribute in DemCare
+Is there any restriction on the events that can be highlighted in DemCare
+How can one identify events with highlighted status in DemCare ontology
+Can the 'highlight' attribute be used to prioritize events in DemCare
+How does the DemCare ontology distinguish between highlighted and non-highlighted events
+Can the boolean value for 'highlight' attribute be modified for an event in DemCare ontology
+highlighted events
+Which main classes are represented in the DemCare ontology
+How are relationships between patients and healthcare providers modeled in DemCare
+Can DemCare distinguish between different types of medical procedures
+How does DemCare handle the representation of medications and their administration
+Can DemCare track and model disease progression and symptoms
+How does DemCare represent and differentiate various types of medical devices
+Can DemCare capture and organize information about healthcare facilities and their services
+How does DemCare handle the representation of medical records and their privacy
+Can DemCare model and track health insurance policies and claims
+How does DemCare handle the representation of medical research and clinical trials
+Can the eatingDuration attribute represent a valid time duration in the DemCare ontology
+Is it allowed for an EatingSummary to have multiple eatingLocation values
+How should the data type be specified for the eatingDuration attribute
+Can the eatingLocation attribute store only predefined location names or any textual values
+How should the relationship between an EatingSummary and its eatingDuration be represented in the ontology
+What constraints are applied to the values assigned to the eatingDuration attribute
+Can the eatingSummary class have additional attributes apart from eatingDuration and eatingLocation
+How can we query for all EatingSummary instances that occurred at a specific location
+What data type should be used for the literal values assigned to the eatingLocation attribute
+How can we ensure consistency and accuracy in the usage of the eatingDuration and eatingLocation attributes in the DemCare ontology
+Which main classes are represented in the DemCare ontology
+How are relationships between patients and healthcare providers modeled in DemCare
+Can DemCare distinguish between different types of medical procedures
+How does DemCare handle the representation of medications and their administration
+Can DemCare track and model disease progression and symptoms
+How does DemCare represent and differentiate various types of medical devices
+Can DemCare capture and organize information about healthcare facilities and their services
+How does DemCare handle the representation of medical records and their privacy
+Can DemCare model and track health insurance policies and claims
+How does DemCare handle the representation of medical research and clinical trials
+Which main classes are represented in the DemCare ontology
+How are relationships between patients and healthcare providers modeled in DemCare
+Can DemCare distinguish between different types of medical procedures
+How does DemCare handle the representation of medications and their administration
+Can DemCare track and model disease progression and symptoms
+How does DemCare represent and differentiate various types of medical devices
+Can DemCare capture and organize information about healthcare facilities and their services
+How does DemCare handle the representation of medical records and their privacy
+Can DemCare model and track health insurance policies and claims
+How does DemCare handle the representation of medical research and clinical trials
+Which main classes are represented in the DemCare ontology
+How are relationships between patients and healthcare providers modeled in DemCare
+Can DemCare distinguish between different types of medical procedures
+How does DemCare handle the representation of medications and their administration
+Can DemCare track and model disease progression and symptoms
+How does DemCare represent and differentiate various types of medical devices
+Can DemCare capture and organize information about healthcare facilities and their services
+How does DemCare handle the representation of medical records and their privacy
+Can DemCare model and track health insurance policies and claims
+How does DemCare handle the representation of medical research and clinical trials
+Which main classes are represented in the DemCare ontology
+How are relationships between patients and healthcare providers modeled in DemCare
+Can DemCare distinguish between different types of medical procedures
+How does DemCare handle the representation of medications and their administration
+Can DemCare track and model disease progression and symptoms
+How does DemCare represent and differentiate various types of medical devices
+Can DemCare capture and organize information about healthcare facilities and their services
+How does DemCare handle the representation of medical records and their privacy
+Can DemCare model and track health insurance policies and claims
+How does DemCare handle the representation of medical research and clinical trials
+Which main classes are represented in the DemCare ontology
+How are relationships between patients and healthcare providers modeled in DemCare
+Can DemCare distinguish between different types of medical procedures
+How does DemCare handle the representation of medications and their administration
+Can DemCare track and model disease progression and symptoms
+How does DemCare represent and differentiate various types of medical devices
+Can DemCare capture and organize information about healthcare facilities and their services
+How does DemCare handle the representation of medical records and their privacy
+Can DemCare model and track health insurance policies and claims
+How does DemCare handle the representation of medical research and clinical trials
+Which main classes are represented in the DemCare ontology
+How are relationships between patients and healthcare providers modeled in DemCare
+Can DemCare distinguish between different types of medical procedures
+How does DemCare handle the representation of medications and their administration
+Can DemCare track and model disease progression and symptoms
+How does DemCare represent and differentiate various types of medical devices
+Can DemCare capture and organize information about healthcare facilities and their services
+How does DemCare handle the representation of medical records and their privacy
+Can DemCare model and track health insurance policies and claims
+How does DemCare handle the representation of medical research and clinical trials
+Which main classes are represented in the DemCare ontology
+How are relationships between patients and healthcare providers modeled in DemCare
+Can DemCare distinguish between different types of medical procedures
+How does DemCare handle the representation of medications and their administration
+Can DemCare track and model disease progression and symptoms
+How does DemCare represent and differentiate various types of medical devices
+Can DemCare capture and organize information about healthcare facilities and their services
+How does DemCare handle the representation of medical records and their privacy
+Can DemCare model and track health insurance policies and claims
+How does DemCare handle the representation of medical research and clinical trials
+Which main classes are represented in the DemCare ontology
+How are relationships between patients and healthcare providers modeled in DemCare
+Can DemCare distinguish between different types of medical procedures
+How does DemCare handle the representation of medications and their administration
+Can DemCare track and model disease progression and symptoms
+How does DemCare represent and differentiate various types of medical devices
+Can DemCare capture and organize information about healthcare facilities and their services
+How does DemCare handle the representation of medical records and their privacy
+Can DemCare model and track health insurance policies and claims
+How does DemCare handle the representation of medical research and clinical trials
+Which main classes are represented in the DemCare ontology
+How are relationships between patients and healthcare providers modeled in DemCare
+Can DemCare distinguish between different types of medical procedures
+How does DemCare handle the representation of medications and their administration
+Can DemCare track and model disease progression and symptoms
+How does DemCare represent and differentiate various types of medical devices
+Can DemCare capture and organize information about healthcare facilities and their services
+How does DemCare handle the representation of medical records and their privacy
+Can DemCare model and track health insurance policies and claims
+How does DemCare handle the representation of medical research and clinical trials
+Which main classes are represented in the DemCare ontology
+How are relationships between patients and healthcare providers modeled in DemCare
+Can DemCare distinguish between different types of medical procedures
+How does DemCare handle the representation of medications and their administration
+Can DemCare track and model disease progression and symptoms
+How does DemCare represent and differentiate various types of medical devices
+Can DemCare capture and organize information about healthcare facilities and their services
+How does DemCare handle the representation of medical records and their privacy
+Can DemCare model and track health insurance policies and claims
+How does DemCare handle the representation of medical research and clinical trials
+Which main classes are represented in the DemCare ontology
+How are relationships between patients and healthcare providers modeled in DemCare
+Can DemCare distinguish between different types of medical procedures
+How does DemCare handle the representation of medications and their administration
+Can DemCare track and model disease progression and symptoms
+How does DemCare represent and differentiate various types of medical devices
+Can DemCare capture and organize information about healthcare facilities and their services
+How does DemCare handle the representation of medical records and their privacy
+Can DemCare model and track health insurance policies and claims
+How does DemCare handle the representation of medical research and clinical trials
+Which main classes are represented in the DemCare ontology
+How are relationships between patients and healthcare providers modeled in DemCare
+Can DemCare distinguish between different types of medical procedures
+How does DemCare handle the representation of medications and their administration
+Can DemCare track and model disease progression and symptoms
+How does DemCare represent and differentiate various types of medical devices
+Can DemCare capture and organize information about healthcare facilities and their services
+How does DemCare handle the representation of medical records and their privacy
+Can DemCare model and track health insurance policies and claims
+How does DemCare handle the representation of medical research and clinical trials
+Which main classes are represented in the DemCare ontology
+How are relationships between patients and healthcare providers modeled in DemCare
+Can DemCare distinguish between different types of medical procedures
+How does DemCare handle the representation of medications and their administration
+Can DemCare track and model disease progression and symptoms
+How does DemCare represent and differentiate various types of medical devices
+Can DemCare capture and organize information about healthcare facilities and their services
+How does DemCare handle the representation of medical records and their privacy
+Can DemCare model and track health insurance policies and claims
+How does DemCare handle the representation of medical research and clinical trials
+Which main classes are represented in the DemCare ontology
+How are relationships between patients and healthcare providers modeled in DemCare
+Can DemCare distinguish between different types of medical procedures
+How does DemCare handle the representation of medications and their administration
+Can DemCare track and model disease progression and symptoms
+How does DemCare represent and differentiate various types of medical devices
+Can DemCare capture and organize information about healthcare facilities and their services
+How does DemCare handle the representation of medical records and their privacy
+Can DemCare model and track health insurance policies and claims
+How does DemCare handle the representation of medical research and clinical trials
+Which main classes are represented in the DemCare ontology
+How are relationships between patients and healthcare providers modeled in DemCare
+Can DemCare distinguish between different types of medical procedures
+How does DemCare handle the representation of medications and their administration
+Can DemCare track and model disease progression and symptoms
+How does DemCare represent and differentiate various types of medical devices
+Can DemCare capture and organize information about healthcare facilities and their services
+How does DemCare handle the representation of medical records and their privacy
+Can DemCare model and track health insurance policies and claims
+How does DemCare handle the representation of medical research and clinical trials
+Which main classes are represented in the DemCare ontology
+How are relationships between patients and healthcare providers modeled in DemCare
+Can DemCare distinguish between different types of medical procedures
+How does DemCare handle the representation of medications and their administration
+Can DemCare track and model disease progression and symptoms
+How does DemCare represent and differentiate various types of medical devices
+Can DemCare capture and organize information about healthcare facilities and their services
+How does DemCare handle the representation of medical records and their privacy
+Can DemCare model and track health insurance policies and claims
+How does DemCare handle the representation of medical research and clinical trials
+Which main classes are represented in the DemCare ontology
+How are relationships between patients and healthcare providers modeled in DemCare
+Can DemCare distinguish between different types of medical procedures
+How does DemCare handle the representation of medications and their administration
+Can DemCare track and model disease progression and symptoms
+How does DemCare represent and differentiate various types of medical devices
+Can DemCare capture and organize information about healthcare facilities and their services
+How does DemCare handle the representation of medical records and their privacy
+Can DemCare model and track health insurance policies and claims
+How does DemCare handle the representation of medical research and clinical trials
+Which main classes are represented in the DemCare ontology
+How are relationships between patients and healthcare providers modeled in DemCare
+Can DemCare distinguish between different types of medical procedures
+How does DemCare handle the representation of medications and their administration
+Can DemCare track and model disease progression and symptoms
+How does DemCare represent and differentiate various types of medical devices
+Can DemCare capture and organize information about healthcare facilities and their services
+How does DemCare handle the representation of medical records and their privacy
+Can DemCare model and track health insurance policies and claims
+How does DemCare handle the representation of medical research and clinical trials
+Which main classes are represented in the DemCare ontology
+How are relationships between patients and healthcare providers modeled in DemCare
+Can DemCare distinguish between different types of medical procedures
+How does DemCare handle the representation of medications and their administration
+Can DemCare track and model disease progression and symptoms
+How does DemCare represent and differentiate various types of medical devices
+Can DemCare capture and organize information about healthcare facilities and their services
+How does DemCare handle the representation of medical records and their privacy
+Can DemCare model and track health insurance policies and claims
+How does DemCare handle the representation of medical research and clinical trials
+Which main classes are represented in the DemCare ontology
+How are relationships between patients and healthcare providers modeled in DemCare
+Can DemCare distinguish between different types of medical procedures
+How does DemCare handle the representation of medications and their administration
+Can DemCare track and model disease progression and symptoms
+How does DemCare represent and differentiate various types of medical devices
+Can DemCare capture and organize information about healthcare facilities and their services
+How does DemCare handle the representation of medical records and their privacy
+Can DemCare model and track health insurance policies and claims
+How does DemCare handle the representation of medical research and clinical trials
+Which main classes are represented in the DemCare ontology
+How are relationships between patients and healthcare providers modeled in DemCare
+Can DemCare distinguish between different types of medical procedures
+How does DemCare handle the representation of medications and their administration
+Can DemCare track and model disease progression and symptoms
+How does DemCare represent and differentiate various types of medical devices
+Can DemCare capture and organize information about healthcare facilities and their services
+How does DemCare handle the representation of medical records and their privacy
+Can DemCare model and track health insurance policies and claims
+How does DemCare handle the representation of medical research and clinical trials
+Which main classes are represented in the DemCare ontology
+How are relationships between patients and healthcare providers modeled in DemCare
+Can DemCare distinguish between different types of medical procedures
+How does DemCare handle the representation of medications and their administration
+Can DemCare track and model disease progression and symptoms
+How does DemCare represent and differentiate various types of medical devices
+Can DemCare capture and organize information about healthcare facilities and their services
+How does DemCare handle the representation of medical records and their privacy
+Can DemCare model and track health insurance policies and claims
+How does DemCare handle the representation of medical research and clinical trials
+Which main classes are represented in the DemCare ontology
+How are relationships between patients and healthcare providers modeled in DemCare
+Can DemCare distinguish between different types of medical procedures
+How does DemCare handle the representation of medications and their administration
+Can DemCare track and model disease progression and symptoms
+How does DemCare represent and differentiate various types of medical devices
+Can DemCare capture and organize information about healthcare facilities and their services
+How does DemCare handle the representation of medical records and their privacy
+Can DemCare model and track health insurance policies and claims
+How does DemCare handle the representation of medical research and clinical trials
+Which main classes are represented in the DemCare ontology
+How are relationships between patients and healthcare providers modeled in DemCare
+Can DemCare distinguish between different types of medical procedures
+How does DemCare handle the representation of medications and their administration
+Can DemCare track and model disease progression and symptoms
+How does DemCare represent and differentiate various types of medical devices
+Can DemCare capture and organize information about healthcare facilities and their services
+How does DemCare handle the representation of medical records and their privacy
+Can DemCare model and track health insurance policies and claims
+How does DemCare handle the representation of medical research and clinical trials
+Which main classes are represented in the DemCare ontology
+How are relationships between patients and healthcare providers modeled in DemCare
+Can DemCare distinguish between different types of medical procedures
+How does DemCare handle the representation of medications and their administration
+Can DemCare track and model disease progression and symptoms
+How does DemCare represent and differentiate various types of medical devices
+Can DemCare capture and organize information about healthcare facilities and their services
+How does DemCare handle the representation of medical records and their privacy
+Can DemCare model and track health insurance policies and claims
+How does DemCare handle the representation of medical research and clinical trials
+Which main classes are represented in the DemCare ontology
+How are relationships between patients and healthcare providers modeled in DemCare
+Can DemCare distinguish between different types of medical procedures
+How does DemCare handle the representation of medications and their administration
+Can DemCare track and model disease progression and symptoms
+How does DemCare represent and differentiate various types of medical devices
+Can DemCare capture and organize information about healthcare facilities and their services
+How does DemCare handle the representation of medical records and their privacy
+Can DemCare model and track health insurance policies and claims
+How does DemCare handle the representation of medical research and clinical trials
+Which main classes are represented in the DemCare ontology
+How are relationships between patients and healthcare providers modeled in DemCare
+Can DemCare distinguish between different types of medical procedures
+How does DemCare handle the representation of medications and their administration
+Can DemCare track and model disease progression and symptoms
+How does DemCare represent and differentiate various types of medical devices
+Can DemCare capture and organize information about healthcare facilities and their services
+How does DemCare handle the representation of medical records and their privacy
+Can DemCare model and track health insurance policies and claims
+How does DemCare handle the representation of medical research and clinical trials
+Which main classes are represented in the DemCare ontology
+How are relationships between patients and healthcare providers modeled in DemCare
+Can DemCare distinguish between different types of medical procedures
+How does DemCare handle the representation of medications and their administration
+Can DemCare track and model disease progression and symptoms
+How does DemCare represent and differentiate various types of medical devices
+Can DemCare capture and organize information about healthcare facilities and their services
+How does DemCare handle the representation of medical records and their privacy
+Can DemCare model and track health insurance policies and claims
+How does DemCare handle the representation of medical research and clinical trials
+Which main classes are represented in the DemCare ontology
+How are relationships between patients and healthcare providers modeled in DemCare
+Can DemCare distinguish between different types of medical procedures
+How does DemCare handle the representation of medications and their administration
+Can DemCare track and model disease progression and symptoms
+How does DemCare represent and differentiate various types of medical devices
+Can DemCare capture and organize information about healthcare facilities and their services
+How does DemCare handle the representation of medical records and their privacy
+Can DemCare model and track health insurance policies and claims
+How does DemCare handle the representation of medical research and clinical trials
+Which main classes are represented in the DemCare ontology
+How are relationships between patients and healthcare providers modeled in DemCare
+Can DemCare distinguish between different types of medical procedures
+How does DemCare handle the representation of medications and their administration
+Can DemCare track and model disease progression and symptoms
+How does DemCare represent and differentiate various types of medical devices
+Can DemCare capture and organize information about healthcare facilities and their services
+How does DemCare handle the representation of medical records and their privacy
+Can DemCare model and track health insurance policies and claims
+How does DemCare handle the representation of medical research and clinical trials
+Which main classes are represented in the DemCare ontology
+How are relationships between patients and healthcare providers modeled in DemCare
+Can DemCare distinguish between different types of medical procedures
+How does DemCare handle the representation of medications and their administration
+Can DemCare track and model disease progression and symptoms
+How does DemCare represent and differentiate various types of medical devices
+Can DemCare capture and organize information about healthcare facilities and their services
+How does DemCare handle the representation of medical records and their privacy
+Can DemCare model and track health insurance policies and claims
+How does DemCare handle the representation of medical research and clinical trials
+Which main classes are represented in the DemCare ontology
+How are relationships between patients and healthcare providers modeled in DemCare
+Can DemCare distinguish between different types of medical procedures
+How does DemCare handle the representation of medications and their administration
+Can DemCare track and model disease progression and symptoms
+How does DemCare represent and differentiate various types of medical devices
+Can DemCare capture and organize information about healthcare facilities and their services
+How does DemCare handle the representation of medical records and their privacy
+Can DemCare model and track health insurance policies and claims
+How does DemCare handle the representation of medical research and clinical trials
+Which main classes are represented in the DemCare ontology
+How are relationships between patients and healthcare providers modeled in DemCare
+Can DemCare distinguish between different types of medical procedures
+How does DemCare handle the representation of medications and their administration
+Can DemCare track and model disease progression and symptoms
+How does DemCare represent and differentiate various types of medical devices
+Can DemCare capture and organize information about healthcare facilities and their services
+How does DemCare handle the representation of medical records and their privacy
+Can DemCare model and track health insurance policies and claims
+How does DemCare handle the representation of medical research and clinical trials
+Which main classes are represented in the DemCare ontology
+How are relationships between patients and healthcare providers modeled in DemCare
+Can DemCare distinguish between different types of medical procedures
+How does DemCare handle the representation of medications and their administration
+Can DemCare track and model disease progression and symptoms
+How does DemCare represent and differentiate various types of medical devices
+Can DemCare capture and organize information about healthcare facilities and their services
+How does DemCare handle the representation of medical records and their privacy
+Can DemCare model and track health insurance policies and claims
+How does DemCare handle the representation of medical research and clinical trials
+Which main classes are represented in the DemCare ontology
+How are relationships between patients and healthcare providers modeled in DemCare
+Can DemCare distinguish between different types of medical procedures
+How does DemCare handle the representation of medications and their administration
+Can DemCare track and model disease progression and symptoms
+How does DemCare represent and differentiate various types of medical devices
+Can DemCare capture and organize information about healthcare facilities and their services
+How does DemCare handle the representation of medical records and their privacy
+Can DemCare model and track health insurance policies and claims
+How does DemCare handle the representation of medical research and clinical trials

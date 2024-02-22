@@ -142,7 +142,7 @@ def run(task, input_path, llm_model, ont_name, n_cqs=10, include_description=Fal
     res = chain.batch(input_batches, config=config)
 
     # parse output
-    patterns = [r'(\d+)\. (.+)[?.]', r'\s*-\s*(.*?)[?.]']
+    patterns = [r'(\d+)\. (.+)[?.]', r'\s*-\s*(.*?)[?.]', r'CQ\d+: (.+?)(?=\n\nCQ\d+|$)']
     cqs = []
 
     for batch in res:
