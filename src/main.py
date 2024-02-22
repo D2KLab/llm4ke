@@ -32,7 +32,7 @@ from rdflib import Graph, RDF, RDFS, OWL
 from transformers import AutoTokenizer, AutoModelForCausalLM, pipeline
 
 from LocalTemplate import LocalTemplate
-
+from utils import flatten
 # === Init ====================================================================
 
 os.environ["CUDA_VISIBLE_DEVICES"] = "3,2"  # Specify the GPU id
@@ -68,13 +68,6 @@ def simplify(uri):
     :return: a simpler URI as a string
     """
     return re.split(r'[#/]', uri)[-1].replace('_', ' ')
-
-
-def flatten(matrix):
-    flat_list = []
-    for row in matrix:
-        flat_list.extend(row)
-    return flat_list
 
 
 def select_in_batches(lst, batch_size=20):
