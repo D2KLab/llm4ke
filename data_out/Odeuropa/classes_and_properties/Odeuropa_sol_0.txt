@@ -1,0 +1,10 @@
+What competency is required to identify and describe the relationship between an instance of 'L11 Smell' and its corresponding 'F9 involved smell' property?
+How should an individual demonstrate their understanding of linking 'L12 Smell Emission' with 'L2 Stimulus Generation' through the 'F1 generated' property?
+Can you explain the skills needed to recognize and explain the 'L13 Olfactory Experience' class and its 'F2 perceived' property?
+How would you assess someone's ability to connect 'L14 Smell Transformation' with its related 'L4 Stimuli Transformation' class?
+How can we evaluate an individual's proficiency in understanding the 'L15 Smell Interaction' class and its relation to 'L5 Stimuli Interaction' through 'F3 had source' and 'F4 had carrier' properties?
+Can you describe the competency needed to recognize the role of 'L6 Animal' in the context of the Odeuropa ontology?
+How would you measure an individual's understanding of the relationship between 'L7 Gesture' and 'L16 Odorizing' through the 'F5 involved gesture' property?
+How can we assess someone's capability to link 'L1 Sensory Stimulus' and 'L11 Smell' while considering their 'F9 involved smell' property?
+Can you explain the skills required to recognize the hierarchy between 'L11 Smell' and 'L1 Sensory Stimulus' in the Odeuropa ontology?
+How would you evaluate an individual's competency in understanding the 'F7 has species' property in relation to 'L6 Animal' class?"

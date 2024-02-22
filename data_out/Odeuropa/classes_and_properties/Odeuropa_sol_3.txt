@@ -1,0 +1,10 @@
+How effectively can an individual identify and categorize various L11 Smell instances within the context of cultural heritage?
+CQ2: To what extent can an individual analyze and interpret L13 Olfactory Experience instances in relation to historical events or settings?
+CQ3: How proficiently can a person describe and explain L14 Smell Transformation processes in terms of their impact on cultural heritage?
+CQ4: Can an individual accurately assess and evaluate L15 Smell Interaction scenarios between different L11 Smell and L12 Smell Emission instances?
+CQ5: How well can a person recognize and differentiate between various L16 Odorizing activities in historical contexts?
+CQ6: Can an individual compare and contrast the relationships between L11 Smell, L1 Sensory Stimulus, and L2 Stimulus Generation in the Odeuropa ontology?
+CQ7: How adeptly can a person analyze the connections between L13 Olfactory Experience, L3 Sensory Experience, and F2 perceived property in the ontology?
+CQ8: Can an individual explain the significance of L6 Animal and F7 has species property in understanding historical smell experiences?
+CQ9: How effectively can a person identify and interpret the role of L7 Gesture and F5 involved gesture property in cultural heritage odour representations?
+CQ10: Can an individual efficiently evaluate the impact of L12 Smell Emission, F3 had source, and F4 had carrier properties on historical smell documentation and preservation?
