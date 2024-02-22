@@ -1,0 +1,52 @@
+What types of ADLProblems are associated with NightLivingRoomVisits
+Which types of ADLSummaries are related to ExcessiveNapProblems
+Which types of EatingSummaries are associated with FailureToPrepareMeal
+Which types of ExerciseProblems are related to InsufficientAccelerometerCounts
+Which types of ExerciseSummaries are associated with InappropriateMealLocation
+Which types of Instants are related to HighStressLevel
+Which types of NightKitchenVisits are associated with FragmentedSleepProblem
+Which types of Places are related to InappropriateMealDuration
+Which types of DaySummaries are associated with LongNap
+Which types of Events are related to NapAfterLunch
+Which classes in DemCare ontology represent types of sleep problems
+Which classes in DemCare ontology represent types of mood problems
+Which classes in DemCare ontology represent types of meal problems
+Which classes in DemCare ontology represent types of interaction problems
+Which classes in DemCare ontology represent types of questionnaires
+Which classes in DemCare ontology represent types of summary statements
+Which classes in DemCare ontology represent types of low mood
+Which classes in DemCare ontology represent types of stride length
+Which classes in DemCare ontology represent types of sleep duration problems
+Which classes in DemCare ontology represent types of sleep efficiency problems
+What types of sleep-related data are collected during medical and clinical consultations using the SleepQuestionnaire class
+What types of sleep-related data are summarized using the SleepSummary class
+What types of slow walking speed data are collected using the SlowWalkSpeed class
+What types of social problems are recorded using the SocialProblem class
+What types of social data are summarized using the SocialSummary class
+What types of physical activities are recorded using the Active class
+What types of physical activities are recorded using the Activity class
+What types of alarm clock data are recorded using the AlarmClock class
+What types of alarm clock ringing data are recorded using the AlarmClockRinging class
+What types of ambient measurement data are recorded using the AmbientMeasurement class
+related data are collected during medical and clinical consultations using the SleepQuestionnaire class
+related data are summarized using the SleepSummary class
+What types of data are collected during a FaceToFaceInteraction between a patient and a healthcare professional
+Which classes in the DemCare ontology are related to the consumption of food and drink
+Which classes in the DemCare ontology are related to physical activities that take place indoors
+Which classes in the DemCare ontology are related to the location of a patient
+Which classes in the DemCare ontology are related to the measurement of heart rate
+Which classes in the DemCare ontology are related to the consumption of breakfast
+Which classes in the DemCare ontology are related to the consumption of dinner
+Which classes in the DemCare ontology are related to the consumption of lunch
+Which classes in the DemCare ontology are related to the consumption of snacks
+Which classes in the DemCare ontology are related to the consumption of drinks
+What types of measurements are taken during a medical consultation
+Which demographic data are collected during a medical consultation
+Which objects are near during a medical consultation
+What types of noise levels are measured during a medical consultation
+Which body parts are moved during a medical consultation
+Which body parts are lying down during a medical consultation
+Which body parts are measured during a medical consultation
+Which body parts are mopped during a medical consultation
+Which body parts are moved during a medical consultation
+Which body parts are measured during a medical consultation in the living room
