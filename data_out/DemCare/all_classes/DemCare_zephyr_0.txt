@@ -1,0 +1,150 @@
+Can you provide a list of all patients who have undergone a ClinicalAssessment in the last 6 months
+Which Patients have been diagnosed with a DiagnosisType of Alzheimer's disease
+What is the ActivityStatusType of the ClinicalRecord with ID 123456789
+Which Person is responsible for organising the ApathyAssessment for Patient XYZ
+What is the CognitiveLoadAssessment for Patient XYZ
+Which CallPsychologistTask has been assigned to Patient XYZ
+What is the N4ad7a6e000b84f8389ee45da7ce380cb for Patient XYZ
+Which DemographicCharacteristicsRecord belongs to Patient XYZ
+What is the CountingType for the CognitiveAbilitiesAssessment of Patient XYZ
+Which AnswerPhoneTask has been completed by Patient XYZ
+What is the class for a task that involves establishing an account balance
+What is the class for a task that involves finding a bus line on a map
+What is the class for a type of functional ability assessment
+What is the class for a type of gait assessment
+What is the class for a type of discussion involvement data
+What is the class for a type of discussion task
+What is the class for a type of directed discussion task
+What is the class for a type of directed task
+What is the class for a type of experimental assessment
+What is the class for a type of experimental record
+How does the LeaveRoomTask class relate to the HealthyControlParticipant class in the DemCare ontology
+What is the relationship between the NeuropsychiatricAndMoodAssessment and the PersonWithDementia classes in the DemCare ontology
+How does the N27bee718447540adb63146f96536eb0c class relate to the MeasuredData class in the DemCare ontology
+What is the relationship between the Nfccaf6711eb04c2f8bf6939b2e28dcfc and the N3fed3217b91d4a2a89cb45ea95c67a5b classes in the DemCare ontology
+How does the N4d75e724dda5431b98a615dffb346648 class relate to the PersonWithDementia class in the DemCare ontology
+What is the relationship between the MemorySelfAppraisalAssessment and the PersonWithDementia classes in the DemCare ontology
+How does the PayBillTask class relate to the Person class in the DemCare ontology
+What is the relationship between the MotricityAbilitiesAssessment and the PersonWithDementia classes in the DemCare ontology
+How does the LateralityType class relate to the Ne522cd04a9a141ee843c68d98bc61fcf class in the DemCare ontology
+What is the relationship between the OrganisationEfficiencyData and the PersonWithDementia classes in the DemCare ontology
+Can you perform the PrepareHotTeaTask competently
+Can you execute the PrepareDrugBoxTask skillfully
+Are you capable of carrying out the S1 P11 WalkingTask proficiently
+Can you accomplish the S1 P12 CountingBackwardsTask skillfully
+Can you execute the S1 P13 WalkingCountingBackwardsTask competently
+Are you capable of performing the S1 DirectedActivitiesStep proficiently
+Can you execute the N5ff7493f33954ab89c68751c8bc6be1c skillfully
+Are you capable of carrying out the N5d7887ba21224b3c80c2284279bcc0dc skillfully
+Can you perform the N538aec8b9506434d96f543558482e959 skillfully
+Are you capable of executing the N6618cad809a94a92b6e3504abbb7d823 skillfully
+Can you perform a WaterPlantTask with a DurationDescription of "15 minutes"
+Can you execute a TurnOnTVTask
+Can you carry out a StressAssessment
+Can you accomplish a StressData task
+Can you perform a PictureDescriptionTask as part of a SemiDirectedTask
+Can you execute a PictureDiscussionTask as part of a SemiDirectedTask
+Can you perform an ArticulationControlTask as part of a SemiDirectedTask
+Can you execute a DirectedExpressionTask as part of a DiscussionWithClinicianStep
+Can you perform a DirectedExpressionTask as part of a SemiDirectedActivitiesStep
+Can you execute a DirectedExpressionTask as part of a P21 PictureDescriptionTask
+Given an Instant, can you determine if it is an ADLProblem
+Given an ADLProblem, can you determine if it is a FailureToPrepareMeal
+Given an ADLSummary, can you determine if it has an ExcessiveNapProblem
+Given an ExcessiveNapProblem, can you determine if it is related to a LongNap
+Given a LongNap, can you determine if it is related to a NightKitchenVisit
+Given a NightKitchenVisit, can you determine if it is related to a NightLivingRoomVisit
+Given a NightLivingRoomVisit, can you determine if it is related to a HighStressLevel
+Given a HighStressLevel, can you determine if it is related to an InappropriateMealDuration
+Given an InappropriateMealDuration, can you determine if it is related to an InappropriateMealLocation
+Given an InappropriateMealLocation, can you determine if it is related to an InsufficientAccelerometerCounts
+Given an individual x, is x a MealProblem
+Given an individual x, is x a MoodProblem
+Given an individual x, is x a SleepProblem
+Given an individual x, is x a PeriodicLimbMovement
+Given an individual x, is x a SleepDurationProblem
+Given an individual x, is x a SleepEfficiencyProblem
+Given an individual x, is x a SleepLatencyProblem
+Given an individual x, is x a MoodQuestionnaire
+Given an individual x, is x a MoodSummary
+Given an individual x, is x a SelfReportedLowMood
+Given the class SleepQuestionnaire, generate a CQ that tests the competency of the ontology to describe a SleepQuestionnaire
+Given the class SleepSummary, generate a CQ that tests the competency of the ontology to describe a SleepSummary
+Given the class SlowWalkSpeed, generate a CQ that tests the competency of the ontology to describe a SlowWalkSpeed
+Given the class SocialProblem, generate a CQ that tests the competency of the ontology to describe a SocialProblem
+Given the class SocialSummary, generate a CQ that tests the competency of the ontology to describe a SocialSummary
+Given the class Active, generate a CQ that tests the competency of the ontology to describe an Active
+Given the class Activity, generate a CQ that tests the competency of the ontology to describe an Activity
+Given the class AlarmClock, generate a CQ that tests the competency of the ontology to describe an AlarmClock
+Given the class AlarmClockRinging, generate a CQ that tests the competency of the ontology to describe an AlarmClockRinging
+Given the class AmbientMeasurement, generate a CQ that tests the competency of the ontology to describe an AmbientMeasurement
+What is the relationship between a Chair and a Clinician in the context of DemCare ontology
+How is a ChangePosture related to a Carer in the context of DemCare ontology
+What is the connection between a Cup and a ComplexActivity in the context of DemCare ontology
+How is a Couch related to a Bucket in the context of DemCare ontology
+What is the association between a Cycling and a Door in the context of DemCare ontology
+How is a DangerousBedExit related to a DoorBell in the context of DemCare ontology
+What is the connection between a Drink and a DialNumber in the context of DemCare ontology
+How is a DoorClosed related to a DoorOpen in the context of DemCare ontology
+What is the relationship between a Cutlery and a Cooker in the context of DemCare ontology
+How is a Closed related to a ComplexActivity in the context of DemCare ontology
+What is the relationship between an Entity and a FoodAndDrinkConsumption
+How is a Fall related to an InLocation
+What is the relationship between a Fridge and a FoodAndDrinkConsumption
+How is a Glass related to a FoodAndDrinkConsumption
+What is the relationship between a HeartRate and a FoodAndDrinkConsumption
+How is a HaveBreakfast related to a FoodAndDrinkConsumption
+What is the relationship between a HaveDinner and a FoodAndDrinkConsumption
+How is a HaveDrink related to a FoodAndDrinkConsumption
+What is the relationship between a HaveLunch and a FoodAndDrinkConsumption
+How is a HaveMeal related to a FoodAndDrinkConsumption
+Given the individual's activity of "Moving" and the class "LivingRoom", can you determine if the individual's movement took place in the living room
+Given the individual's activity of "MakePhoneCall" and the class "Object", can you identify the object used to make the phone call
+Given the individual's activity of "Lying" and the class "NightSleep", can you determine if the individual was sleeping at night while lying down
+Given the individual's activity of "Mop" and the class "NearObject", can you identify the object that was near the individual while mopping
+Given the individual's activity of "NightBathroomVisit" and the class "NoiseLevel", can you determine the noise level in the bathroom during the nighttime visit
+Given the individual's activity of "NightRoomVisit" and the class "LightLevel", can you determine the light level in the room during the nighttime visit
+Given the individual's activity of "LongTableExit" and the class "Moving", can you determine the location where the individual stopped moving after exiting the long table
+Given the individual's activity of "LongBedExit" and the class "Moving", can you determine the location where the individual stopped moving after exiting the long bed
+Given the individual's activity of "MoveLimb" and the class "LivingRoom", can you determine if the limb movement took place in the living room
+Given the individual's activity of "Measurement" and the class "KitchenPress", can you determine the measurement that was taken using the kitchen press
+Given the individual's PhysicalActivity, can you determine their OutdoorPhysicalActivity
+Given the individual's Room, can you determine their Posture
+Given the individual's Ringing, can you determine their PhoneRinging
+Given the individual's Plate, can you determine their PrepareMeal
+Given the individual's PrepareDrink, can you determine their PhysicalActivity
+Given the individual's Rest, can you determine their PhysicalQuality
+Given the individual's PickUpPhone, can you determine their RemoteControl
+Given the individual's Outdoors, can you determine their OutdoorPhysicalActivity
+Given the individual's PrepareHotTea, can you determine their PhysicalActivity
+Given the individual's Off, can you determine their On
+Given the ontology DemCare, how can we determine the relationship between the classes Walk and Running
+Can you provide an example of a situation where the classes SkinConductivity and Sleep are both present
+How can we identify the class State in the ontology DemCare
+Can you explain the difference between the classes Sitting and SittingToStanding in the ontology DemCare
+How can we determine the relationship between the classes SkinTemperature and SocialInteraction in the ontology DemCare
+Can you provide an example of a situation where the classes Telephone and TelephoneInteraction are both present
+How can we identify the class StepCounting in the ontology DemCare
+Can you explain the difference between the classes Walk and UseObject in the ontology DemCare
+How can we determine the relationship between the classes TV and WaterCan in the ontology DemCare
+Can you provide an example of a situation where the classes Table and TableExit are both present
+How does the N1d93810cbe384e019bde277d74e07b6c class contribute to the DemCare ontology
+What is the role of the N034a8099548541b5a78991eaf15ce71d class in the DemCare ontology
+How does the N51c66e87074a4ab2b35f5828ab2f7802 class relate to the DemCare ontology
+What is the significance of the N02c983fb220d48eda0171c04491b1f27 class in the DemCare ontology
+How does the ProcessingComponent class contribute to the DemCare ontology
+What is the function of the Recognition class in the DemCare ontology
+How does the N2cdd130a80aa40e58b988195777b6e67 class relate to the DemCare ontology
+What is the purpose of the Report class in the DemCare ontology
+How does the Ne18a46a11d764ed28a3b605daa7ba1d6 class contribute to the DemCare ontology
+What is the role of the Feedback class in the DemCare ontology
+What is the relationship between Result and Nad054be2cc0d43dd8ec1b3e556558235
+How is Necaf5cb259db4c3ea4fba9a921149bd9 related to WearableVideoCamera
+What is the connection between Ne344a3506f584bb0add9b3b28dab3513 and 3DVideoCamera
+How is Sensor related to WearableSensor
+What is the relationship between WearableMicrophone and WearableVideoCamera
+How is Nad054be2cc0d43dd8ec1b3e556558235 related to N7a498138959944ee8555f71bcf4232d
+What is the connection between Necaf5cb259db4c3ea4fba9a921149bd9 and Ne344a3506f584bb0add9b3b28dab3513
+How is Result related to WearableVideoCamera
+What is the relationship between Nad054be2cc0d43dd8ec1b3e556558235 and WearableMicrophone
+How is Ne344a3506f584bb0add9b3b28dab3513 related to N7a498138959944ee8555f71bcf4232d

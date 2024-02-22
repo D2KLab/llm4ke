@@ -219,7 +219,7 @@ def run(task, input_path, llm_model, ont_name,
     logging.info("PROMPT:CALL_LLM:%s:res=%s", 'DONE', res)
 
     # Parse output to extract Competency Questions
-    patterns = [r'(\d+)\. (.+)[?.]', r'\s*-\s*(.*?)[?.]', r'CQ\d+: (.+?)(?=\n\nCQ\d+|$)']
+    patterns = [r'(\d+)\. (.+)[?.]', r'\s*-\s*(.*?)[?.]',r'CQ\d+: (.+?)\n']
     cqs = []
 
     for batch in res:
