@@ -1,0 +1,129 @@
+What is the catalogue name associated with a Catalogue Statement
+What is the medium of performance used in an Individual Performance
+What is the label name under which a Publication Expression was issued
+What is the cast statement for a Self-Contained Expression
+What is the title statement for a Self-Contained Expression
+What is the edition statement for a Publication Expression
+What is the publication statement for a Publication Expression
+What is the series statement for a Publication Expression
+What is the music format statement for a Publication Expression
+What is the title proper of series for a Publication Expression
+Contained Expression
+Contained Expression
+What is the title proper of a multipart monograph
+What is the media type of a manifestation product
+What is the carrier type of a manifestation singleton
+What physical man-made thing is maintained
+What man-made object has been tuned
+What is the binding of a manifestation singleton
+What is the container of a manifestation singleton
+What is the colour content of a self-contained expression
+What is the playing speed of a manifestation product
+What is the music format of a self-contained expression
+made thing is maintained
+made object has been tuned
+contained expression
+contained expression
+What is the opus number of the given opus statement
+What is the highest pitch in the ambitus of a character
+In which context did the activity occur
+What is the metronome indication of the self-contained expression
+What editing technique was used for noise reduction
+What performer status does the foreseen performance have
+What type of recording equipment was used for mixing
+What is the scale of the music in the self-contained expression
+What is the award associated with the persistent item
+What is the rhythmic pattern of the self-contained expression
+contained expression
+contained expression
+contained expression
+What is the key of the self-contained expression
+What type of recording equipment was used for mastering in editing
+What equalization technique was used in editing
+What genre does the self-contained expression belong to
+What creation or performance mode is foreseen
+What is the performer status of the performance
+What is the relative key of the key
+What noise reduction technique was used in editing
+What condition of performance did the event occur in
+What work type does the work have
+contained expression
+contained expression belong to
+What hierarchical level does a Work have
+What casting detail is associated with a Casting
+What tempo is related to a Self-Contained Expression
+What is the derivation type of a Propositional Object
+What character is based on an Actor
+What dimension is associated with a Manifestation Product Type
+What unit is used for measuring a Dimension
+What type of Object is used in a Design or Procedure
+What type of Technique is used in an Activity
+What conditions are present during an Event
+Contained Expression
+What is the relation between a Nomen Use Statement and a Group in the DOREMUS ontology
+How is a Name Use Activity related to a Group in DOREMUS
+How can a Group have members added through joining in DOREMUS
+How does a Group lose a member in DOREMUS
+How is a Group formed in DOREMUS
+How can a Group dissolve according to the DOREMUS ontology
+What is the connection between an Activity and an Actor in DOREMUS
+How is an Activity influenced by a CRM Entity in DOREMUS
+How does an Activity use a specific object in DOREMUS
+How is a Propositional Object related to an Actor in DOREMUS
+What performance plans are foreseen for a specific activity in DOREMUS
+How is a performance work realized in DOREMUS
+What performer status is associated with a performance in DOREMUS
+What historical instruments are used in a performance in DOREMUS
+How is a recording work realized in DOREMUS
+What sound spatialization techniques are used in the creation of an expression in DOREMUS
+What actors are expressions created for in DOREMUS
+What manifestation product types are representative of an expression in DOREMUS
+What carrier types are associated with manifestation product types in DOREMUS
+What information carriers are reproduced in a reproduction event in DOREMUS
+What container does a F4 Manifestation Singleton have
+What media type is associated with a F4 Manifestation Singleton
+What playing speed is specified for a F4 Manifestation Singleton
+What is the pagination of a F4 Manifestation Singleton
+What type of event is a F32 Carrier Production Event
+Who has the right on a F3 Manifestation Product Type
+What actor is associated with a F28 Expression Creation
+What material is incorporated in a E18 Physical Thing
+What condition is a E18 Physical Thing in
+What spatial projection does a E92 Spacetime Volume have
+What physical things carry symbolic objects in the DOREMUS ontology
+Which man-made things carry symbolic objects in the DOREMUS ontology
+What activities were influenced by CRM entities in the DOREMUS ontology
+Which types were exemplified by CRM entities in the DOREMUS ontology
+What attributes were assigned to CRM entities in the DOREMUS ontology
+Which types were assigned by type assignments to CRM entities in the DOREMUS ontology
+What dimensions are found on things in the DOREMUS ontology
+What transformations resulted in persistent items in the DOREMUS ontology
+What types of things were used for specific activities in the DOREMUS ontology
+Which groups lost members through leaving events in the DOREMUS ontology
+made things carry symbolic objects in the DOREMUS ontology
+What physical features are found on a specific physical object
+Which physical objects bear a specific physical feature
+What sections are defined for a particular physical thing
+Which physical things have section definitions
+What identifiers were assigned by a specific identifier assignment
+What is the preferred identifier of a certain literal
+Which man-made things have been modified by a particular modification
+What materials were employed in a specific modification
+What is the title of a particular man-made thing
+What activities were intended for a specific man-made thing
+made things have been modified by a particular modification
+made thing
+made thing
+What physical things have condition states
+How are condition assessments linked to condition states
+What man-made things were augmented by part additions
+Which groups gained members through joining activities
+Who curated collections within the DOREMUS ontology
+What entities are listed in authority documents
+What places were associated with presence in spacetime volumes
+Which man-made objects have been tuned in maintenance activities
+How are titles related to man-made things in the ontology
+What dimensions were observed in measurements
+made things were augmented by part additions
+made objects have been tuned in maintenance activities
+made things in the ontology

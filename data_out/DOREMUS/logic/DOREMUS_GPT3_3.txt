@@ -1,0 +1,122 @@
+Which DOREMUS entities include a statement of responsibility relating to title
+Which DOREMUS expressions have a parallel cast statement
+Which DOREMUS publication expressions have a series statement
+Which DOREMUS self-contained expressions have a dedication statement
+Which DOREMUS publication expressions have a music format statement
+Which DOREMUS entities include a title and statement of responsibility
+Which DOREMUS expressions have an additional edition statement
+Which DOREMUS publication expressions have a distribution statement
+Which DOREMUS design or procedures involve the use of a medium of performance
+Which DOREMUS individual performances used a specific medium of performance
+contained expressions have a dedication statement
+What are the titles of multipart monographs in the DOREMUS ontology
+What are the media types associated with manifestation singletons
+What are the carrier types for manifestation products in DOREMUS
+Which physical man-made things have been maintained in the ontology
+Which man-made objects have been tuned in the ontology
+What bindings are associated with manifestation singletons
+What containers are linked to manifestation singletons
+What colour content is present in self-contained expressions
+What playing speeds are associated with manifestation singletons
+What music formats are present in self-contained expressions
+made things have been maintained in the ontology
+made objects have been tuned in the ontology
+contained expressions
+contained expressions
+Which activities are foreseen in the DOREMUS ontology
+What are the different performer statuses in the DOREMUS ontology
+What editing techniques are used in DOREMUS for mastering
+Which opus statements have an opus number in the DOREMUS ontology
+What is the ambitus of the characters in DOREMUS
+What awards are associated with persistent items in DOREMUS
+Which music scales are linked to self-contained expressions in DOREMUS
+In what contexts do activities occur in the DOREMUS ontology
+Which metronome indications are present in self-contained expressions in DOREMUS
+What cast details are included in performed expression creations in DOREMUS
+Which tracks are included in the set of tracks
+What performed expression is incorporated in the publication expression
+What performer status does the performance have
+Which key does the self-contained expression have
+What type of recording equipment is used for mastering in editing
+Which equalization technique is used in editing
+What condition of performance does the event occur in
+Which program is the programming work realized in
+What genre does the self-contained expression have
+What work type does the work have
+contained expression have
+contained expression have
+Which works have a hierarchical level in the DOREMUS ontology
+Which self-contained expressions have a casting detail in DOREMUS
+What is the tempo of the self-contained expressions in DOREMUS
+Which individual performances are associated with specific characters in DOREMUS
+What maintenance activities have been performed on physical man-made things in DOREMUS
+Which dimensions are associated with manifestation product types in DOREMUS
+What types are exemplified by CRM entities in DOREMUS
+Which activities used objects of a specific type in DOREMUS
+What type of objects were intended for specific purposes in DOREMUS
+Which events occurred in specific performance conditions in DOREMUS
+contained expressions have a casting detail in DOREMUS
+contained expressions in DOREMUS
+made things in DOREMUS
+Which groups have a current or former member named John Smith
+What activities occurred in a religious context
+Which works were influenced by Beethoven
+What are the components of the complex work titled "Symphony No. 5"
+Which activities were motivated by a specific entity
+What is the tempo of the self-contained expression "Piano Sonata No. 14"
+Which publication expressions were issued under a specific label name
+What is the original title of the propositional object "Romeo and Juliet"
+Which works were realized in a self-contained expression with a specific key
+What is the title of the publication expression that incorporates a performed expression
+contained expression "Piano Sonata No
+contained expression with a specific key
+Which performance plans involve the use of historical instruments
+Which manifestation products types should have pagination as a characteristic
+Which manifestation products types should consist of a specific material
+Which manifestation products types should have a specific playing speed
+Which manifestation products types should have a certain number of tape tracks
+Which manifestation products types should have a specific media type
+Which manifestation products types should have a particular number of parts
+Which manifestation products types should have a specific duration
+Which manifestation products types should have a certain carrier type
+Which manifestation products types should have a binding as a requirement
+Which manifestations have a container of type M171
+What is the playing speed of manifestation singletons
+Which person is identified by the actor appellation E82
+Which physical objects have a current location in a place
+What is the former location of the physical thing E18
+Which manifestation product type should consist of a material
+Which conceptual object was created by the creation E65
+Which material was employed in the modification E11
+Which spacetime volume has a spatial projection in a place
+What is the current permanent location of the physical object E19
+Which symbolic objects were used in the assignment of identifiers
+Which physical things carry symbolic objects
+Which physical man-made things carry symbolic objects
+Which actors have contact points that provide access to contact points
+Which places are identified by place appellations
+Which CRM entities were documented in documents
+Which type creations were based on CRM entities
+Which CRM entities have been influenced by activities
+Which CRM entities exemplify types
+Which CRM entities have been classified by type assignments
+Which physical features can be found on a physical object in the DOREMUS ontology
+What is the preferred identifier of a given literal in the DOREMUS ontology
+Which materials were employed in a modification according to DOREMUS
+What is the title of a man-made thing in the DOREMUS ontology
+What system requirements does a man-made thing have in the DOREMUS ontology
+Which activities were intended for a specific man-made thing in the DOREMUS ontology
+What technical features does a man-made thing possess in the DOREMUS ontology
+Which groups were dissolved according to the DOREMUS ontology
+What is the conceptual object appellation that identifies a conceptual object in the DOREMUS ontology
+What is the language of a linguistic object in the DOREMUS ontology
+Which physical things have a condition state of "good"
+What condition assessments have been conducted on Beethoven's compositions
+Which physical things have been augmented by a part addition
+What collections have been curated by a specific actor
+Which man-made objects have been tuned by maintenance activities
+What type creations have been based on specific CRM entities
+Which measurements have been observed in a specific dimension
+What works have a title in a specific language
+What dimensions have a specific measurement unit
+Which identifiers have been deassigned by an identifier assignment activity

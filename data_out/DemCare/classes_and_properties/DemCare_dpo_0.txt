@@ -1,0 +1,158 @@
+What are the distinct types of clinical assessments in DemCare ontology
+Which classes in DemCare are associated with patient-specific evaluations
+How are ActivityStatusType and CountingType differentiated in DemCare
+What are the core elements of a DemographicCharacteristicsRecord
+What tasks are related to communication in the DemCare ontology
+How is the concept of CognitiveAbilitiesAssessment linked to CognitiveAbilitiesData
+What are the primary classes in DemCare that represent various assessments
+What distinguishes DiagnosisAssessment from other assessment types in DemCare
+What is the relationship between the classes N4e716a128e0748bca26c2412e74ee262 and N4101069b0f4446298a92c8e990bd3f68 in DemCare
+In what way does the ontology differentiate between AbilityToOrganiseAssessment and autonomous assessments in general
+specific evaluations
+What are the distinct types of tasks in DemCare ontology and how do DirectedTask and FreeDiscussionTask differ
+How is DiscussionInvolvementData related to DiscussionTask
+What are the key elements in ExperimentalAssessment and how do they contrast with GaitAssessment
+How is FunctionalAbilitiesData associated with FunctionalAbilityAssessment
+What are the primary classes in DemCare related to navigation tasks and how does FindBusLineOnMapTask differ from them
+What are the properties of HandTrajectoryType and how do they contribute to the overall DemCare model
+How do EstablishAccountBalanceTask and ExperimentalRecord differ in their objectives and contexts
+What is the role of GenderType in the DemCare ontology
+How do the classes N2da9607802ca45ed80e490bd07566e77 and Ncaaf8293b53748f2b636d0e9d9c78189 relate to the broader DemCare structure
+In what ways do DiscussionTask and ExperimentalDiagnosisAssessment differ in their nature and purpose in the DemCare ontology
+What are the distinguishing characteristics between HealthyControlParticipant and PersonWithDementia
+How does NeuropsychiatricAndMoodAssessment relate to MemorySelfAppraisalAssessment within the DemCare ontology
+What tasks are associated with the class LeaveRoomTask
+What types of data are represented by the class LatencyData
+How do LateralityType and MotricityAbilitiesAssessment interconnect within the ontology
+What relationship exists between Person and PersonWithDementia in the DemCare ontology
+What data is generated in the context of MoodVoiceData
+How do MeasuredData and OrganisationEfficiencyData contrast in the DemCare ontology
+What is the connection between N4a494f8e0c4745cbb417441027912f51 and N7da73f460630482e8037e59fba196402
+What assessments are part of NeuropsychiatricAndMoodAssessment
+What are key abilities required when performing ProtocolStep tasks in DemCare
+How does PrepareDrugBoxTask differ from PrepareHotTeaTask in the context of DemCare
+What type of individuals are described by the class PersonWithPredementia in the ontology
+What activities are included in S1 P11 WalkingTask in DemCare
+What tasks in DemCare involve counting as a primary activity, such as S1 P12 CountingBackwardsTask
+What combination of actions is represented by S1 P13 WalkingCountingBackwardsTask in the ontology
+What is the relation between Protocol and its associated steps in the DemCare ontology
+How does ReadArticleTask differ from DirectedActivitiesStep in terms of their purpose in DemCare
+What distinguishes N8aa496f031ba4db9b9c3a4f0245f9e6e class from other classes in the DemCare ontology
+What are the primary activities in the task S1 P21 SentenceRepeatingTask in the context of DemCare
+What are the key steps involved in SemiDirectedTask activities
+How does ArticulationControlTask relate to Task class
+What are the distinct types of tasks in the DemCare ontology, and which one specifically is WaterPlantTask
+What properties are associated with StressAssessment
+What are the two main tasks in the S3 class related to pictures
+How is DiscussionWithClinicianStep differentiated from other steps in the DemCare ontology
+What is the connection between DurationDescription and the concept of time in DemCare tasks
+What are the classes related to stress-related data in the ontology
+How do DirectedExpressionTask and PictureDescriptionTask contrast in the S3 class
+What are the fundamental elements of the TurnOnTVTask class in the DemCare ontology
+related data in the ontology
+What properties are associated with the eatingDuration aspect in EatingSummary class
+Which ADL-related issues are modeled as problems in the DemCare ontology
+What types of events in DemCare involve a Place as a related entity
+How is the 'highlight' concept connected to the classes in DemCare
+Which classes in DemCare have a direct relation to sleep-related issues
+What properties are associated with the eatingLocation aspect in EatingSummary class
+In the context of DemCare ontology, what classes represent specific activities during a day
+What properties in the ontology are related to miscellaneous issues in tracking data, such as InsufficientAccelerometerCounts
+How are classes ExcessiveNapProblem and NapAfterLunch related in the DemCare ontology
+What properties in the ontology are associated with the concept of meal location in a more general manner, not limited to a specific class
+related issues are modeled as problems in the DemCare ontology
+related issues
+How is InsufficientFaceToFaceInteraction distinguished from other social interaction deficiencies in DemCare
+What properties are commonly associated with SleepProblem in the DemCare ontology
+Which classes in DemCare are directly related to sleep-related issues
+How does MealProblem contrast with MissedMeal in the context of DemCare
+What is the relationship between MoodQuestionnaire and MoodSummary in the DemCare ontology
+How is SelfReportedLowMood differentiated from other mood-related classes in DemCare
+In what way do PeriodicLimbMovement and Nocturia differ in the DemCare ontology
+What classes in DemCare represent issues related to daily routines and activities
+How do InterruptedMeal and InterruptedSleepProblem differ in terms of their impact on daily life in DemCare
+What are the key distinctions between Questionnaire and MoodQuestionnaire in the DemCare ontology
+related issues
+related classes in DemCare
+What classes in DemCare are related to sleep assessment
+Which activity class in DemCare can be associated with a slow walking speed
+What property connects a SleepQuestionnaire to a SleepSummary
+Which class in DemCare is a daily household appliance unrelated to health
+What class in DemCare represents a general state of being in motion or exertion
+Which class in DemCare is a common location for an AlarmClock to be placed in
+What class in DemCare can be a cause of disrupted sleep, specifically related to breathing
+What type of measurement is captured by the AmbientMeasurement class in DemCare
+Which class in DemCare is a common location for a Bed to be in, and is often associated with a Bedroom
+What class in DemCare, when performed, might result in an AnswerPhoneCall being missed
+What are typical roles involved in DemCare ontology
+Which classes in DemCare are related to furniture or equipment
+What activities in DemCare might a clinician not perform
+Which DemCare class represents a daily household task performer
+What properties in DemCare might be associated with a change in physical position
+What DemCare class is a dangerous situation related to bed movement
+Which DemCare class is a basic household item for consuming liquids
+What DemCare class is a common kitchen tool set
+What DemCare properties are related to door states
+What type of activity in DemCare is often an outdoor exercise
+What classes in DemCare are related to food consumption
+Which class represents an interaction in person
+What properties might be associated with an entity in the DemCare ontology
+Which classes in DemCare are related to physical activities in a home setting
+What classes in DemCare are associated with household items
+Which classes in DemCare are related to meal times
+What classes in DemCare might be involved in monitoring health
+What classes in DemCare are related to locations, either indoor or outdoor
+Which DemCare class represents the act of falling
+What classes in DemCare are related to consuming beverages
+What activities may occur in a LivingRoom class
+Which objects can be associated with a KitchenPress
+What properties are related to LightLevel
+In what contexts is Lying performed
+What actions are involved in MakePhoneCall
+How are Measurement instances relevant to the ontology
+What classes in DemCare may have a relation with NoiseLevel
+What are the contrasting states of Moving
+What are the daily life events related to NightSleep
+What objects might be found in a NearObject relationship
+How is PhysicalActivity related to OutdoorPhysicalActivity in DemCare
+Which event class connects PhoneRinging with PickUpPhone
+What are the two opposite states of the ObjectEvent 'Open'
+Which class represents an action related to preparing a hot beverage in DemCare
+What are the connections between PhysicalQuality and PhysiologicalMeasurement
+In what context does the class Posture exist in DemCare
+What are the classes in DemCare that are related to human actions in a room setting
+How do the classes Outdoors and Room contrast in the DemCare ontology
+What are the events in DemCare that involve a RemoteControl
+What are the relationships between classes that represent human activities and states in DemCare? (e.g
+What are the human activity counterparts in DemCare for classes Running and Walk
+Which DemCare classes are related to human resting or sedentary behavior
+What properties in DemCare might be associated with SkinConductivity class
+How are Sleep and TV-related classes in DemCare interconnected
+What DemCare classes represent interactions with common household objects
+In what ways are Speak and SocialInteraction different in the context of DemCare ontology
+How do the classes Sitting and SittingToStanding in DemCare relate to each other
+What classes in DemCare might be relevant when analyzing human health in terms of physical activity and rest
+What properties in DemCare could be related to the class State, and in what context
+How do the classes StepCounting and UseObject in DemCare differ in their focus
+related classes in DemCare interconnected
+What is the relationship between Detection, Alert, and Recognition in the DemCare ontology
+How do Window, Ambient2DVideoCamera, and DTI-2 relate to capturing data in the DemCare context
+What are the primary connections between Measurement, Observation, and Report
+In what ways do ProcessingComponent, Feedback, and FixedSensor interact within the DemCare ontology
+How do Accelerometer, N07738d1282434201adc02e383be4d3af, and N95994fe1b90f48d5aef8bed3049ba682 contribute to data collection
+What roles do N8134a8b2de2645fbbdf0fae29a485fa6, Na380e9ebe0214f38b6114f80c6fa0dfa, and N53e37dc3eb44422e93be2c0ed2583425 play in the DemCare ontology
+How might N40df2724689944edad1c361f67c898ba, Report, and Nf1b8d3b6e0eb48a9b123bcdd2e71c647 be interconnected in the DemCare ontology
+What are the key distinctions between classes in DemCare that deal with data acquisition and processing
+In what ways do classes in DemCare, such as Alert, Feedback, and Report, contribute to user interaction and communication
+How do the classes in DemCare, particularly those related to sensors, contribute to the overall monitoring system
+2 relate to capturing data in the DemCare context
+What types of sensors are associated with the DemCare ontology
+How does the Result class relate to the various wearable devices in DemCare
+What are the distinct classes of wearable devices in DemCare
+What properties are shared among the WearableMicrophone, WearableVideoCamera, and 3DVideoCamera classes
+How do the N963f307910534c0daa2992ff119ad507, Nbf664a03c8e34db19b86acdfcbae49b0, Ne4432661697d4221b8c15905c19f4051, and N0e2fabf02cd04d25a830cdf6a92b25d3 classes differ in the context of DemCare
+In what way do Sensor and WearableSensor classes in DemCare differ
+What is the role of the Result class in the context of DemCare ontology
+How do the classes 3DVideoCamera, WearableMicrophone, and WearableVideoCamera differ in terms of their data generation nature
+What are the key distinctions between the wearable devices and other sensor classes in DemCare
+How might one interpret the relationship between the classes in DemCare, considering the presence of identifiers as class names (e.g., N963f307910534c0daa2992ff119ad507)

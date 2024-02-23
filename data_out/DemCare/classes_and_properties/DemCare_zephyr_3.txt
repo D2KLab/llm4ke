@@ -1,0 +1,104 @@
+How does the DemCare ontology represent the types of data collected during medical and clinical consultations
+Which classes in the DemCare ontology are used to represent healthy control participants
+Which classes in the DemCare ontology are used to represent persons with dementia
+Which classes in the DemCare ontology are used to represent neuropsychiatric and mood assessments
+Which classes in the DemCare ontology are used to represent measured data
+Which classes in the DemCare ontology are used to represent laterality types
+Which classes in the DemCare ontology are used to represent leave room tasks
+Which classes in the DemCare ontology are used to represent memory self-appraisal assessments
+Which classes in the DemCare ontology are used to represent mood voice data
+Which classes in the DemCare ontology are used to represent motricity abilities assessments
+appraisal assessments
+Given the class ExcessiveNapProblem, what is the eatingDuration of an ExcessiveNapProblem
+Given the class ExerciseProblem, what is the eatingLocation of an ExerciseProblem
+Given the class FragmentedSleepProblem, what is the highlight of a FragmentedSleepProblem
+Given the class InappropriateMealLocation, what is the eatingDuration of an InappropriateMealLocation
+Given the class InsufficientAccelerometerCounts, what is the eatingLocation of an InsufficientAccelerometerCounts
+Given the class FailureToPrepareMeal, what is the highlight of a FailureToPrepareMeal
+Given the class HighStressLevel, what is the eatingDuration of a HighStressLevel
+Given the class InappropriateMealDuration, what is the eatingLocation of an InappropriateMealDuration
+Given the class ExerciseSummary, what is the eatingDuration of an ExerciseSummary
+Given the class EatingSummary, what is the highlight of an EatingSummary
+What types of sleep problems are recorded during medical and clinical consultations using the DemCare ontology
+Which classes in the DemCare ontology represent mood problems
+Which classes in the DemCare ontology represent meal problems
+Which classes in the DemCare ontology represent sleep duration problems
+Which classes in the DemCare ontology represent sleep efficiency problems
+Which classes in the DemCare ontology represent sleep latency problems
+Which classes in the DemCare ontology represent nocturia
+Which classes in the DemCare ontology represent periodic limb movement
+Which classes in the DemCare ontology represent self-reported low mood
+Which classes in the DemCare ontology represent mood questionnaires
+reported low mood
+What is the SleepQuestionnaire used for in DemCare ontology
+What types of data are collected during medical and clinical consultation in DemCare ontology
+What types of demographic data are collected in DemCare ontology
+What is the relationship between SleepQuestionnaire and SleepSummary in DemCare ontology
+What is the relationship between SlowWalkSpeed and Active in DemCare ontology
+What is the relationship between SocialProblem and SocialSummary in DemCare ontology
+What is the relationship between AlarmClock and AlarmClockRinging in DemCare ontology
+What is the relationship between AmbientMeasurement and Apnea in DemCare ontology
+What is the relationship between AnswerPhoneCall and Appliance in DemCare ontology
+What is the relationship between Bathroom and Bedroom in DemCare ontology
+What types of data are collected during medical and clinical consultation
+What are the protocol parts for medical and clinical consultation
+What types of demographic data are collected
+Which classes from the DemCare ontology are related to medical and clinical consultation
+Which properties from the DemCare ontology are related to medical and clinical consultation
+Which classes from the DemCare ontology are related to demographic data
+Which properties from the DemCare ontology are related to demographic data
+Which classes from the DemCare ontology are related to dangerous bed exit
+Which properties from the DemCare ontology are related to dangerous bed exit
+Which classes from the DemCare ontology are related to cycling
+What types of indoor physical activity are recorded during a meal
+Which furniture is typically used during a face-to-face interaction
+Which food and drink consumption is associated with a fall
+Which heart rate is measured during a meal
+Which demographic data are collected during a medical consultation
+Which types of data are collected during a fall
+Which types of data are collected during a heart rate measurement
+Which types of data are collected during a food and drink consumption
+Which types of data are collected during a face-to-face interaction
+Which types of data are collected during an indoor physical activity
+to-face interaction
+to-face interaction
+What types of measurements are taken during a medical consultation using the DemCare ontology
+Which classes in the DemCare ontology are related to sleeping activities
+Which classes in the DemCare ontology are related to moving activities
+Which classes in the DemCare ontology are related to noise levels
+Which classes in the DemCare ontology are related to light levels
+Which classes in the DemCare ontology are related to objects that are near to a person
+Which classes in the DemCare ontology are related to bathroom visits during the night
+Which classes in the DemCare ontology are related to phone calls made by a person
+Which classes in the DemCare ontology are related to mopping activities
+Which classes in the DemCare ontology are related to exits from a long table
+What types of object events are recorded during medical consultations
+Which physical activities are considered outdoor physical activities
+Which types of physiological measurements are collected during medical consultations
+Which types of data are collected during remote consultations
+Which types of data are collected during medical consultations for elderly patients
+Which types of data are collected during medical consultations for patients with chronic diseases
+Which types of data are collected during medical consultations for patients with cognitive impairments
+Which types of data are collected during medical consultations for patients with mobility impairments
+Which types of data are collected during medical consultations for patients with sensory impairments
+Which types of data are collected during medical consultations for patients with communication impairments
+What types of data are collected during a Running activity
+Which classes are related to the State class in the DemCare ontology
+Which classes are related to the Speak class in the DemCare ontology
+Which classes are related to the Sleep class in the DemCare ontology
+Which classes are related to the SkinConductivity class in the DemCare ontology
+Which classes are related to the SkinTemperature class in the DemCare ontology
+Which classes are related to the SocialInteraction class in the DemCare ontology
+Which classes are related to the StepCounting class in the DemCare ontology
+Which classes are related to the TableExit class in the DemCare ontology
+Which classes are related to the WaterCan class in the DemCare ontology
+What types of data are collected by a Detection
+What types of data are collected by a Feedback
+What types of data are collected by a Measurement
+What types of data are collected by a Report
+What types of data are collected by a Recognition
+What types of data are collected by a Window
+What types of data are collected by a ProcessingComponent
+What types of data are collected by a FixedSensor
+What types of data are collected by an Observation
+What types of data are collected by a N57ec55dfd3074d10ac2ec93c49137623
