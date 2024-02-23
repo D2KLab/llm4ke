@@ -21,6 +21,7 @@ from argparse import ArgumentParser
 from os import path
 from pathlib import Path
 import logging
+from langchain_openai import OpenAI
 
 import yaml
 from langchain.llms.huggingface_pipeline import HuggingFacePipeline
@@ -33,6 +34,7 @@ from transformers import AutoTokenizer, AutoModelForCausalLM, pipeline
 
 from LocalTemplate import LocalTemplate
 from utils import flatten
+from langchain_openai import ChatOpenAI
 # === Init ====================================================================
 
 os.environ["CUDA_VISIBLE_DEVICES"] = "3,2"  # Specify the GPU id
@@ -44,8 +46,16 @@ available_llms = {
     "solar": "bhavinjawade/SOLAR-10B-OrcaDPO-Jawade",
     "zephyr": "HuggingFaceH4/zephyr-7b-beta",
     "llama2": "local",
-    "mistral": "local"
+    "mistral": "local",
+    'GPT':"OpenAI"
 }
+
+api_key = os.getenv("OPENAI_API_KEY")
+
+
+
+
+
 
 
 # device = "cuda"
@@ -119,6 +129,8 @@ def run(task, input_path, llm_model, ont_name,
 
     # Loading the ontology
     g = Graph()
+
+
     for g_path in os.listdir(path.join(input_path, 'dm')):
         if not g_path.split('.')[-1] in ['rdf', 'ttl', 'owl']:
             continue
@@ -156,6 +168,7 @@ def run(task, input_path, llm_model, ont_name,
     property_batches = [flatten([select_props_by_class(schema, cl) for cl in batch]) for batch in classes_batches]
     schema_batches = [flatten([select_schema_by_class(schema, cl) for cl in batch]) for batch in classes_batches]
 
+
     # Get Competency Question examples from the dataset
     examples = ''
     if n_examples > 0:
@@ -187,6 +200,9 @@ def run(task, input_path, llm_model, ont_name,
     # Instanciate LLM
     if local_llm or available_llms[llm_model] == 'local':
         llm = Ollama(model=llm_model)
+    elif available_llms[llm_model]=="OpenAI":
+        llm= ChatOpenAI(model="gpt-3.5-turbo-0125"
+                              "",openai_api_key=api_key)
     else:
         tokenizer = AutoTokenizer.from_pretrained(available_llms[llm_model])
 
