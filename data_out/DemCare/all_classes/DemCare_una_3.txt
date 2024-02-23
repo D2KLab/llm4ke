@@ -1,0 +1,144 @@
+What abilities does a professional have in organizing clinical assessments
+What types of activity statuses are associated with patient care
+What are the key aspects of cognitive abilities assessments
+What demographic data is collected in a Demographic Characteristics Record
+What types of diagnoses are assessed in the DiagnosisAssessment class
+What are the differences between CognitiveLoadAssessment and CognitiveAbilitiesAssessment
+What tasks are included in the AnswerPhoneTask class
+What is the purpose of the CallPsychologistTask
+What types of data are stored in the CognitiveAbilitiesData class
+What are the main types of assessments in the DemCare ontology
+What aspects of DirectedDiscussionTask and DiscussionTask differ
+What data is involved in FunctionalAbilitiesData and GaitAssessment
+What types of tasks are included in ExperimentalAssessment
+What are the characteristics of GenderType
+What is the relationship between HandTrajectoryType and other types of data collection
+What are the key components of EstablishAccountBalanceTask
+How do ExperimentalRecord and FreeDiscussionTask differ
+What are the primary objectives of the ontology's classes
+What types of data are collected in ExperimentalDiagnosisAssessment
+What is the purpose of the DemCare ontology's classes related to tasks
+What characterizes HealthyControlParticipants in comparison to PersonWithDementia individuals
+What data is measured in LatencyData and how does it differ from MeasuredData
+What assessments are included in MemorySelfAppraisalAssessment and how do they differ from NeuropsychiatricAndMoodAssessment
+What is the purpose of OrganisationEfficiencyData and how does it relate to LeaveRoomTask and PayBillTask
+What is the significance of LateralityType in the context of MotricityAbilitiesAssessment
+How do the classes N8e2ab1fc647c4fbab90dcdedb53360dd and N430b14fe92bf4dd2846b2a9d6c1d1277 differ in their characteristics
+What types of data are collected in MoodVoiceData and how do they relate to Person and PersonWithDementia
+What is the role of Nfb07de1192254d2ea976937b8c995296 in the context of the ontology
+How do the classes N8d62e0bca1294825b8e86ce0724e4597 and Ne45b27db6abd41f8846d5f5064ce9a15 relate to each other in terms of their function
+What is the distinction between the classes N1dc36170c3c9476ea032931798d6d012 and Nee92913434924eaf9a0c20d2238f67ed
+What are the key steps in a Protocol
+What tasks are associated with PersonWithPredementia
+What are the DirectedActivitiesStep in S1
+What are the data types collected during medical and clinical consultation
+What demographic data is collected
+What are the tasks involved in PrepareDrugBoxTask and PrepareHotTeaTask
+What is the relationship between ProtocolStep and Protocol
+What are the main tasks in ReadArticleTask
+What are the differences between S1 P11 WalkingTask, S1 P12 CountingBackwardsTask, and S1 P13 WalkingCountingBackwardsTask
+What is the purpose of S1 P21 SentenceRepeatingTask
+What tasks belong to the SemiDirectedTask class
+What types of activities are part of the SemiDirectedActivitiesStep class
+What are the main components of the ArticulationControlTask class
+What are the data types collected in the StressData class
+What are the types of tasks included in the Task class
+What are the specific tasks related to the DirectedExpressionTask class
+What are the data collection methods in the PictureDescriptionTask class
+What are the data collection methods in the PictureDiscussionTask class
+What classes are directly related to the Step concept
+What is the primary focus of the DiscussionWithClinicianStep class
+What ADL issues are represented in the DemCare ontology
+Which types of events are included in the DemCare ontology
+What problems related to sleep are represented in the DemCare ontology
+What types of summaries are present in the DemCare ontology
+What data collection issues are represented in the DemCare ontology
+Which classes in the DemCare ontology are related to exercise
+What location-related issues are represented in the DemCare ontology
+What types of data are collected during meal-related activities in the DemCare ontology
+What stress-related issues are represented in the DemCare ontology
+What types of problems related to accelerometer data are represented in the DemCare ontology
+related issues are represented in the DemCare ontology
+related activities in the DemCare ontology
+related issues are represented in the DemCare ontology
+How are InsufficientFaceToFaceInteraction, InsufficientTelephoneInteraction, InterruptedMeal, etc. related as instances of Problem
+What are the common characteristics among MealProblem, MissedMeal, and MoodProblem
+What are the differences between SleepProblem, SleepDurationProblem, SleepEfficiencyProblem, and SleepLatencyProblem
+What are the connections between MoodQuestionnaire, MoodSummary, and SelfReportedLowMood
+How are Questionnaire and MoodQuestionnaire related
+What are the distinctions between PeriodicLimbMovement, Nocturia, and NappingProblem
+What are the relationships between ShortStrideLength and other classes in the ontology
+How are Problem, Questionnaire, and MoodSummary connected in the context of the DemCare ontology
+What are the similarities and differences between SleepProblem and MealProblem
+What are the possible interactions between SleepDurationProblem, SleepEfficiencyProblem, and SleepLatencyProblem
+What information is gathered from SleepQuestionnaire
+What data is included in a SleepSummary
+What is the relationship between SlowWalkSpeed and potential health issues
+What are common SocialProblems and how are they addressed in a SocialSummary
+What activities are considered Active and how are they measured
+What types of data are collected from Activities
+What is the purpose of an AlarmClock and how is its ringing relevant to sleep patterns
+What data is obtained from AmbientMeasurements and how is it used
+What actions are involved in AnswerPhoneCall and how do they affect sleep quality
+What is Apnea and how is it related to SleepQuestionnaire results
+What entities play a role in providing care within the DemCare ontology
+What are the different types of objects related to furniture in the DemCare ontology
+What actions are related to changing posture or orientation in the DemCare ontology
+What activities are considered complex in the DemCare ontology
+What objects or actions are related to food and drink in the DemCare ontology
+What are the door-related entities in the DemCare ontology
+What actions or events are related to safety in the DemCare ontology
+What entities in the DemCare ontology are related to medical professionals
+What objects or actions are related to cooking in the DemCare ontology
+What actions or events are related to communication in the DemCare ontology
+related entities in the DemCare ontology
+Which activities belong to the FoodAndDrinkConsumption class
+What are the related entities in FaceToFaceInteraction
+What are the indoor physical activities included in the IndoorPhysicalActivity class
+Which objects are part of the Furniture class
+What are the types of meal events in the HaveMeal class
+What are the types of interactions in the Eat class
+What are the items in the Fridge class
+What are the types of data collected in the HeartRate class
+What are the types of locations in the InLocation class
+What are the types of interactions in the FaceToFaceInteraction class involving entities
+What entities belong to the DemCare ontology
+What actions are associated with NightSleep
+Which classes have a spatial relationship with an object in the DemCare ontology
+What are the activities related to Moving in the DemCare ontology
+What are the measurement types in the DemCare ontology
+What classes in the DemCare ontology are related to a room or space
+What actions involve using an object in the DemCare ontology
+What are the sensory aspects (light and noise levels) in the DemCare ontology
+What activities are related to resting in the DemCare ontology
+What objects in the DemCare ontology are used for cleaning or maintenance
+What events relate to physical activities in the DemCare ontology
+Which classes in the ontology represent actions related to preparing food or drinks
+What classes in the ontology are related to physiological measurements
+Which classes in the ontology represent postures or positions
+What classes in the ontology are related to outdoor physical activities
+What classes in the ontology represent states or conditions (e.g. On, Off, Open)
+Which classes in the ontology are related to communication events (e.g. PhoneRinging, Ringing)
+What classes in the ontology represent objects or items (e.g. Plate, RemoteControl)
+Which classes in the ontology are related to rest or relaxation
+What classes in the ontology represent data collected during medical and clinical consultations
+What activities are represented in the DemCare ontology
+What types of interactions are associated with objects in the DemCare ontology
+What physiological data are collected in the DemCare ontology
+What types of movements are included in the DemCare ontology
+What are the states represented in the DemCare ontology
+What types of social interactions are present in the DemCare ontology
+What types of media are involved in the DemCare ontology
+What objects are used in the context of the DemCare ontology
+What types of data are collected during rest periods in the DemCare ontology
+What are the main categories of activities in the DemCare ontology
+What data sources are associated with the WearableSensor class
+What types of data are collected from the 3DVideoCamera
+What are the specific classes related to the Result concept in the DemCare ontology
+What are the primary data collection methods for the N3579b20124ed41649a62436d738fc4bb class
+What types of demographic data are collected within the context of the N6d80e74cadb8498ebccbcd68a981d4d1 class
+What are the differences between the classes N0ac69fa9d7734a059fe4b926041d0ea5 and N314c0ee7f7aa40e3b044f0d33e2a7cc1 in terms of data collection
+What types of data are collected during the use of a WearableMicrophone
+What are the main characteristics of the Sensor class in the DemCare ontology
+What are the primary data sources for the N3579b20124ed41649a62436d738fc4bb class
+What are the key differences between the WearableVideoCamera and the 3DVideoCamera classes in terms of data collection
