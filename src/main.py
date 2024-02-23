@@ -202,7 +202,7 @@ def run(task, input_path, llm_model, ont_name,
         llm = Ollama(model=llm_model)
     elif available_llms[llm_model]=="OpenAI":
         llm= ChatOpenAI(model="gpt-3.5-turbo-0125"
-                              "",openai_api_key='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')
+                              "",openai_api_key=api_key)
     else:
         tokenizer = AutoTokenizer.from_pretrained(available_llms[llm_model])
 
