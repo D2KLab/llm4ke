@@ -1,0 +1,10 @@
+How are smells represented in the Odeuropa ontology
+What classes are involved in the transformation of smells in Odeuropa
+How is olfactory experience defined within the Odeuropa ontology
+What role does stimuli generation play in the Odeuropa ontology
+How are sensory experiences categorized in Odeuropa
+What classes are involved in the interaction of smells in Odeuropa
+How are animals represented in the Odeuropa ontology
+What is the significance of gestures in the Odeuropa ontology
+How are sensory stimuli transformed within the Odeuropa ontology
+What classes are involved in odorizing processes in Odeuropa

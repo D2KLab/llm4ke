@@ -1,0 +1,153 @@
+How can a patient's cognitive abilities be assessed in DemCare
+What types of activities are included in the AutonomyAssessment class
+How is clinical information stored in DemCare's ClinicalRecord class
+What is the purpose of the CountingType class in DemCare
+How can demographic characteristics be recorded in DemCare
+What is the process for assessing Apathy in DemCare
+How are diagnoses categorized in the DiagnosisType class
+What tasks are associated with the AbilityToOrganiseAssessment class
+What data is included in the CognitiveAbilitiesData class in DemCare
+How can cognitive load be assessed in DemCare
+What are the different types of directed tasks in DemCare
+How is experimental diagnosis assessment related to experimental assessment in DemCare
+What data is included in functional abilities data in DemCare
+What is the purpose of the find bus line on map task in DemCare
+How is gait assessment conducted in DemCare
+What are the different gender types represented in DemCare
+How is hand trajectory type classified in DemCare
+What is the significance of discussion involvement data in DemCare
+How are directed discussion tasks different from free discussion tasks in DemCare
+How are experimental records managed within the DemCare ontology
+How is memory self-appraisal assessed in individuals with dementia
+Can healthy control participants perform the leave room task efficiently
+What type of data is measured in neuropsychiatric and mood assessments
+How are motricity abilities assessed in individuals with dementia
+What is the efficiency of organization data in DemCare ontology
+How is mood voice data collected and analyzed
+What tasks are involved in the pay bill task class
+What is the significance of laterality type in DemCare ontology
+How is latency data utilized in the assessment process
+What is the role of Ncc19ff3bca264800880cfee67abc646d class in DemCare ontology
+appraisal assessed in individuals with dementia
+Can you explain the role of a PersonWithPredementia in DemCare
+What are the key tasks associated with the PrepareDrugBoxTask class in DemCare
+How does the ProtocolStep class contribute to the overall functionality of DemCare
+Can you describe the purpose of the ReadArticleTask in the DemCare ontology
+What is the significance of the S1 DirectedActivitiesStep in DemCare
+How does the N3d04038675c241079d6780fd1dcf3ea6 class fit into the DemCare ontology
+What are the main objectives of the N8cfc34e737494bc18dd1fc87cc433ba2 class in DemCare
+How does the N16b61d32093243b98b566a62bc6555de class contribute to the functionalities of DemCare
+Can you elaborate on the tasks associated with the S1 P13 WalkingCountingBackwardsTask in DemCare
+What is the purpose of the S1 P21 SentenceRepeatingTask in the DemCare ontology
+What are the key components of the ArticulationControlTask class
+How is the SemiDirectedActivitiesStep class defined within the DemCare ontology
+What are the main characteristics of the DiscussionWithClinicianStep class
+How is the DirectedExpressionTask class distinguished in the DemCare ontology
+What tasks are included in the PictureDescriptionTask class
+How is the PictureDiscussionTask class described in the DemCare ontology
+What is the purpose of the StressAssessment class within DemCare
+How is the TurnOnTVTask class represented in the ontology
+What are the main attributes of the WaterPlantTask class
+How is the DurationDescription class utilized in the DemCare ontology
+What are the key features of the Accelerometer class
+How is Detection related to the FixedSensor class
+What type of data does the Ambient2DVideoCamera class capture
+What is the purpose of the ProcessingComponent class
+How does the Recognition class contribute to the ontology
+What kind of information does the Report class provide
+How does the Alert class interact with the Measurement class
+What role does the Observation class play in DemCare
+What are the functions of the Feedback class
+How is the Ncc90a692e48f4a5a90c99c52a560f96b class utilized in the ontology
+What are the different types of sensors in the DemCare ontology
+How is an activity represented in the DemCare ontology
+What is the relationship between AlarmClock and AlarmClockRinging in DemCare
+How is Appliance represented in the DemCare ontology
+What type of camera is WearableVideoCamera in DemCare
+What is the purpose of the Nac8b5e5951334611b8c4554e6f142f77 class in DemCare
+How is AmbientMeasurement defined in the DemCare ontology
+What is the role of AtomicActivity in DemCare
+How are Active and Activity related in the DemCare ontology
+What is the significance of Arousal in the DemCare ontology
+What are the different components of a Bedroom
+How can a Carer assist with daily activities
+What safety precautions should be taken to prevent DangerousBedExit
+How can a Clinician provide medical care to patients
+What are the common activities associated with Cooker
+How can a Bucket be used in a caregiving setting
+What are the potential risks associated with Cycling for elderly individuals
+How can a Chair be adjusted to promote better posture
+What tools are needed for a ComplexActivity
+How can a Cup be used for hydration monitoring
+What are the subclasses of Entity in the DemCare ontology
+How is the class Drink related to the classes HaveDrink and FoodAndDrinkConsumption
+What events are included in the DemCare ontology
+How are the classes DoorClosed and DoorOpen related to the class Door
+What actions are included in the classes HaveBreakfast, HaveLunch, HaveDinner, and HaveSnack
+How is the class FaceToFaceInteraction related to the other classes in the ontology
+What objects are typically found in the class Fridge
+How is the class Fall related to the other classes in the DemCare ontology
+How is the class Glass related to the classes Drink and FoodAndDrinkConsumption
+What types of furniture are included in the Furniture class of the DemCare ontology
+How can HeartRate be monitored
+What activities are included in IndoorPhysicalActivity
+How can Kettle be turned off
+What is the purpose of KitchenPress
+How can LightLevel be adjusted
+What actions are involved in MakePhoneCall
+How can Measurement be taken
+What tasks are associated with Mop
+How can MoveLimb be facilitated
+What does Moving entail in the context of DemCare ontology
+What are the different types of physical activities in DemCare
+How is the noise level represented in DemCare
+What events involve objects in DemCare
+What are the various physiological measurements captured in DemCare
+What actions are associated with the "On" class in DemCare
+How are outdoor physical activities represented in DemCare
+What classes are related to nighttime activities in DemCare
+What objects are typically found near individuals in DemCare
+What classes are associated with nighttime visits to different rooms in DemCare
+How are naps represented in DemCare
+Can you explain the process of preparing a meal in DemCare
+How would you describe the action of picking up the phone in DemCare
+What is the significance of skin temperature in the DemCare ontology
+Can you elaborate on the concept of social interaction in DemCare
+How does DemCare handle the action of speaking
+What does the class "PrepareDrink" entail in the DemCare ontology
+How is posture addressed in DemCare
+Can you discuss the importance of resting in the context of DemCare
+What is the role of skin conductivity in the DemCare ontology
+How is the process of sitting to standing captured in DemCare
+What are the key features of the State class in DemCare ontology
+How is StepCounting represented in the DemCare ontology
+What activities are associated with the TV class in DemCare
+How is TableExit defined in the DemCare ontology
+What types of interactions are captured under TelephoneInteraction in DemCare
+How is the concept of UseObject structured in the DemCare ontology
+What behaviors are captured under the Walk class in DemCare
+What appliances are included under WashingMachine in DemCare
+What functionalities are associated with the WaterCan class in DemCare
+How is the concept of ADLSummary represented in the DemCare ontology
+Can you identify the common causes of fragmented sleep problems in the DemCare ontology
+How do you differentiate between mood problems and mood questionnaires in DemCare
+What are the potential consequences of high stress levels according to the DemCare ontology
+Can you explain the significance of insufficient accelerometer counts in DemCare
+How does DemCare address the issue of inappropriate meal locations
+What strategies are suggested in DemCare for improving face-to-face interactions
+How are interrupted meals defined and managed in the DemCare ontology
+Can you list the various types of meal problems recorded in DemCare
+What role does self-reported low mood play in the DemCare ontology
+How does DemCare assess and address napping problems
+to-face interactions
+reported low mood play in the DemCare ontology
+Can the DemCare ontology identify individuals with ShortStrideLength
+How does the DemCare ontology assess SleepDurationProblem
+What criteria does the DemCare ontology use to determine SleepEfficiencyProblem
+How does the DemCare ontology measure SleepLatencyProblem
+Can the DemCare ontology address individuals with SleepProblem
+What information does the SleepQuestionnaire class capture in the DemCare ontology
+How does the DemCare ontology summarize SleepSummary data
+Can the DemCare ontology detect individuals with SlowWalkSpeed
+How does the DemCare ontology address SocialProblem
+What insights can the SocialSummary class provide in the DemCare ontology
