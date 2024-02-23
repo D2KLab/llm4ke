@@ -50,7 +50,7 @@ available_llms = {
     'GPT':"OpenAI"
 }
 
-api_key = os.getenv("OPENAI_API_KEY")
+API_KEY = os.getenv("OPENAI_API_KEY")
 
 
 
@@ -202,7 +202,7 @@ def run(task, input_path, llm_model, ont_name,
         llm = Ollama(model=llm_model)
     elif available_llms[llm_model]=="OpenAI":
         llm= ChatOpenAI(model="gpt-3.5-turbo-0125"
-                              "",openai_api_key=api_key)
+                              "",openai_api_key=API_KEY)
     else:
         tokenizer = AutoTokenizer.from_pretrained(available_llms[llm_model])
 
