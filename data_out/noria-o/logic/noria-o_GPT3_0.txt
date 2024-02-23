@@ -1,0 +1,30 @@
+What are the contact methods preferred by agents
+What is the business importance of applications
+What services are related to trouble tickets
+What is the severity of trouble tickets
+What is the planned restoration date and time for trouble tickets
+What is the category of change requests
+Who are the parties involved in change requests
+What is the impact of change requests on resources
+What is the status of current change requests
+What is the outage duration for change requests
+What is the severity of the trouble ticket
+What is the type of the trouble ticket
+What is the criticity of the trouble ticket
+What is the priority of the trouble ticket
+What is the origin of the trouble ticket
+What is the urgency of the trouble ticket
+What is the category of the trouble ticket
+What is the responsibility for the problem in the trouble ticket
+What is the current status of the trouble ticket
+What is the category of the change request
+What are the preconditions for a given OperationPlan to be executed
+What actions need to be completed before a specific OperationPlan can proceed
+What are the postconditions that must be met after executing an OperationPlan
+What are the conditions triggering a TroubleTicket creation
+What resources are required for a TroubleTicket resolution
+What is the severity level of a specific EventRecord's alarm
+What is the proposed repair action for a particular alarm event
+What is the administrative status of a NetworkInterface
+What is the operational status of a NetworkInterface
+What is the usage state of a specific Resource

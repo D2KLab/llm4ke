@@ -1,0 +1,32 @@
+What properties does a ManagedElement have
+How is a StructuralObservable related to a Property
+What functionalities are associated with a FunctionalElement
+How does a ProceduralElement differ from a DynamicElement
+What is the role of a CorporateUserIdentifier in the ontology
+How are n8a4047ceb7dc41e1911c5f8efbb3c64ab5 and n8a4047ceb7dc41e1911c5f8efbb3c64ab9 related
+What modules are part of an ApplicationModule
+How is a TroubleTicketNote connected to a TroubleTicket
+What changes can be requested in a ChangeRequest
+How are services linked to an Application
+What types of document attachments are associated with a specific operation plan
+How are anomaly patterns related to document attachments in the ontology
+What operations are planned for a particular entity in the ontology
+Which entities have the n8a4047ceb7dc41e1911c5f8efbb3c64ab77 class as a superclass
+What is the relationship between n8a4047ceb7dc41e1911c5f8efbb3c64ab61 and n8a4047ceb7dc41e1911c5f8efbb3c64ab65 in the ontology
+How are document attachments linked to n8a4047ceb7dc41e1911c5f8efbb3c64ab33 entities
+Which anomaly patterns are associated with a specific operation plan
+What kinds of resources are linked to n8a4047ceb7dc41e1911c5f8efbb3c64ab29 entities
+How are n8a4047ceb7dc41e1911c5f8efbb3c64ab81 entities connected to document attachments in the ontology
+What are the commonalities between operation plans and n8a4047ceb7dc41e1911c5f8efbb3c64ab53 entities in the ontology
+What preconditions are required for a specific action to occur
+What postconditions are expected after a specific action takes place
+Which rooms are associated with a particular event record
+What is the location (locus) of a certain resource
+What network interfaces are present in a given network link
+What product models are linked to a specific resource
+What actions are allowed by a certain pre-condition
+What resources are connected through a network link
+Which events are recorded for a particular locus
+What resources are impacted by a post-condition of an action
+condition
+condition of an action

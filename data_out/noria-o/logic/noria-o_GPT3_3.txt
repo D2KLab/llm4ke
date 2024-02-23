@@ -1,0 +1,31 @@
+What is the preferred contact method for a specific agent
+What is the business importance of a particular application
+What is the severity of a trouble ticket
+What is the type of service associated with a service entity
+Which agent is responsible for initiating a change request
+What is the current status of a trouble ticket
+What is the name of an application module
+What is the category of a change request
+What is the short identifier of an application
+What is the structural element related to a dynamic element
+What is the severity of a specific trouble ticket
+What is the priority of a particular trouble ticket
+What is the category of a given trouble ticket
+What is the current status of a certain trouble ticket
+What type of change request is associated with a specific change request
+What is the cause of a particular change request
+What is the current status of a certain change request
+What is the specification of a specific change request
+What is the correlated operation plan of a corrective maintenance action
+What are the pre-conditions of a particular operation plan
+conditions of a particular operation plan
+What is the impact of a change request on a specific resource
+Which network links are associated with a particular resource
+What is the administrative status of a network interface connected to a specific resource
+What is the operational status of a network interface connecting two specific resources
+What is the type of a network interface connected to a particular resource
+What is the product model of a specific resource
+What organization manufactured a particular product model
+What is the usage state of a specific resource
+What application is a specific resource designated for
+What is the installation date of a particular network link

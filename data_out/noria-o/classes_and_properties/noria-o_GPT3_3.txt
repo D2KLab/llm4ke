@@ -1,0 +1,32 @@
+What is the current status of a specific trouble ticket
+Which services are impacted by a particular incident
+What is the priority level of a specific change request
+What is the business importance of a certain application
+Who initiated a specific change request
+What is the planned restoration time for a particular trouble ticket
+Which party is responsible for a particular problem category
+What is the current outage duration for a specific change request
+Which application module is related to a certain application
+What is the preferred contact method for a specified agent
+What is the current status of a specific trouble ticket
+What is the priority of a particular trouble ticket
+What is the category of a given problem
+What is the responsibility associated with a specific problem
+What is the type of a change request
+What is the cause of a particular change request
+What are the pre-conditions of an operation plan
+What are the post-conditions of a specified operation plan
+What actions are correlated with a certain operation plan
+What is the severity of a trouble ticket
+conditions of an operation plan
+conditions of a specified operation plan
+What are the preconditions for a specific operation plan
+What is the status history of a particular document
+What is the trigger for a trouble ticket
+What is the proposed repair action for a given alarm
+What is the administrative status of a network interface
+What is the operational status of a virtual server
+What is the impact of a change request
+What is the installation date of a resource
+What is the type of a network interface
+What is the manufacturer of a product model

@@ -1,0 +1,115 @@
+What is the catalogue name of the resource
+Which medium of performance is used in the creation or performance mode
+Who is responsible for the title statement
+What is the edition statement of the resource
+Which label name issued the resource
+What is the dedication statement, if any
+Which series statement is associated with the resource
+What is the music format statement of the resource
+Which cast statement is parallel to the main cast statement
+What is the title proper of the series for the resource
+What is the title proper of the multipart monograph
+What is the media type of the publication expression fragment
+What is the carrier type of the item
+What is the maintenance status of the item
+What is the binding type of the item
+What is the container type of the item
+What is the playing speed of the item
+What is the music format of the item
+How is the item categorized
+What is the form of the item
+What is the foreseen performing plan for a specific activity
+Who is the foreseen performer for a particular performance
+What is the medium of performance used in a specific expression creation
+Which rhythmic pattern is associated with a particular individual performance
+What is the context in which a certain event occurred
+What is the religious context related to a specific award assignment
+Who had a particular responsibility in a given editing process
+What is the highest pitch in a music scale
+What is the geographical context of a representative publication assignment
+What metronome indication was used in a specific rhythmic pattern
+What is the genre of the performed work
+What is the key of the performed expression
+What recording equipment was used for the performance
+What performer status did the performer have during the performance
+What equalization technique was used in the recording
+What is the intended audience for the work
+What type of work is being programmed
+What is the condition of the performance
+What spatialization technique was used in the sound production
+What type of work is being performed
+What hierarchical levels are associated with a specific entity in the DOREMUS ontology
+What casting details are included in a particular casting in DOREMUS
+What linguistic appellations are assigned to a specific entity in DOREMUS
+What tempos are specified for a particular entity in the DOREMUS ontology
+What derivation types are linked to a certain entity in DOREMUS
+What characters are performed in a given scenario in DOREMUS
+What legal bodies are associated with a particular object in DOREMUS
+What dimensions are observed for a specific item in DOREMUS
+What events are linked to a particular creation in DOREMUS
+What rights are held by a specific entity in the DOREMUS ontology
+What is the hierarchical level of a work in DOREMUS
+How is a work influenced in DOREMUS
+What are the components of a specific work in DOREMUS
+What is the historical context of a performance work in DOREMUS
+How is a work realized in DOREMUS
+What is the purpose of a specific object used in DOREMUS
+What is the main series statement of a publication work in DOREMUS
+How is a person related to a group in DOREMUS
+What is the geographical context of a recording work in DOREMUS
+How is a corporate body motivated in DOREMUS
+What properties are associated with the class F25 Performance Plan
+How is the class F26 Recording related to other classes in the ontology
+What events are part of the class F29 Recording Event
+How is the class F33 Reproduction Event connected to other classes
+What properties are used in the creation of class F28 Expression Creation
+What roles does the class F31 Performance play in the ontology
+How are the classes F3 Manifestation Product Type and F35 Nomen Use Statement related
+What are the responsibilities detailed in class F39 Family
+How is the class F44 Bibliographic Agency used within the ontology
+What rules are applied in the class F43 Identifier Rule
+What is the current permanent location of a specific object in the DOREMUS ontology
+Which events was a particular actor involved in
+What material copy was used for a specific manifestation singleton
+Who is the current or former keeper of a certain item
+What is the former or current location of a particular concept
+Which actor has the right to a specific object in the ontology
+What is the former or current owner of a given object in the ontology
+Which actor participated in a particular event
+What is the former or current residence of a specific person in the ontology
+Which curator is currently responsible for a certain item in the DOREMUS ontology
+What are the types of entities in the DOREMUS ontology?
+How are spatial coordinates represented in DOREMUS?
+What is the relationship between E77 Persistent Item and E31 Document?
+How are temporal entities defined in DOREMUS?
+How are physical objects classified in DOREMUS?
+What properties are associated with the E9 Move class in DOREMUS?
+How is the beginning of existence denoted in DOREMUS?
+What transformations are specified by the E81 Transformation class in DOREMUS?
+How are entities identified in the DOREMUS ontology?
+What features are found on a man-made thing
+What are the system requirements for a linguistic object
+What section definition does a man-made feature have
+What language is used for a visual item
+What is the intended use of a conceptual object appellation
+What is the composition of material for a physical feature
+What custody was transferred through a modification
+What is the title of a site
+What is the maximum duration of a time-span
+What language is a translation of a linguistic object in
+made thing
+made feature have
+span
+What conditions are associated with the Man-Made Objects in the DOREMUS ontology
+What documents have been identified by specific conditions in the DOREMUS ontology
+Which activities involve the addition of parts to collections in DOREMUS
+What is the presence of E93 in the DOREMUS ontology related to
+Who is responsible for curating the collections in DOREMUS
+What measurements are observed for Man-Made Objects in DOREMUS
+What destruction activities have been undertaken on identified objects in DOREMUS
+What titles are assigned to the Man-Made Objects in DOREMUS
+Which objects have been assessed based on specific conditions in the DOREMUS ontology
+What types of creations are supported by specific units in DOREMUS
+Made Objects in the DOREMUS ontology
+Made Objects in DOREMUS
+Made Objects in DOREMUS

@@ -1,0 +1,31 @@
+What are the properties of a ManagedElement
+How is a TroubleTicket related to a Service
+What is the current status of a ChangeRequest
+What is the priority of a TroubleTicket
+Who initiated a ChangeRequest
+What is the application type of an Application
+What are the characteristics of a TroubleTicket
+What is the functional domain of an Application
+What is the structural element of a ManagedElement
+What is the urgency of a TroubleTicket
+What are the different properties associated with the class DocumentAttachment
+How is the class AnomalyPattern related to other classes in the ontology
+What are the possible values for the property troubleTicketUrgency
+How is the property problemResponsibility defined in the ontology
+What are the different categories of change requests in the ontology
+How is the property troubleTicketStatusCurrent used in the context of trouble tickets
+What are the pre-conditions for an operation plan according to the ontology
+How is the property troubleTicketNoteOperationType different from troubleTicketNoteCommentType
+How are the classes n5db33cdbd89e412ab0b23f53444581bab29 and n5db33cdbd89e412ab0b23f53444581bab33 related
+What is the significance of the property actionCorrelatedOperationPlan in the ontology
+conditions for an operation plan according to the ontology
+What are the preconditions for a specific action plan
+How can the location of a resource be determined within a locus
+What triggers a trouble ticket in the system
+What is the impact of a change request on a specific resource
+What is the operational status of a network interface
+How is a virtual server's status monitored
+What is the serial number of a specific resource
+Who manufactured a particular product model
+What attributes are monitored in an alarm event
+How is resource usage state classified in the system

@@ -1,0 +1,118 @@
+Which works in the DOREMUS ontology involve the use of a flute and two bassoons
+What is the opus number of the compositions by Mozart in the DOREMUS ontology
+Which compositions in the DOREMUS ontology were issued under a specific label name
+What are the title statements of the compositions in the DOREMUS ontology
+Which compositions in the DOREMUS ontology have a dedication statement
+What is the publication statement of the compositions in the DOREMUS ontology
+Which compositions in the DOREMUS ontology have a series statement
+What is the music format statement of the compositions in the DOREMUS ontology
+Which compositions in the DOREMUS ontology have a multipart monograph statement
+What is the title proper of the series in the DOREMUS ontology
+What are the title propers of multipart monographs in the DOREMUS ontology
+What are the different media types in the DOREMUS ontology
+What are the carrier types specified in the DOREMUS ontology
+What maintenance information is available in the DOREMUS ontology
+What bindings are associated with items in the DOREMUS ontology
+What containers are used for storing items in the DOREMUS ontology
+What are the various colour contents described in the DOREMUS ontology
+What playing speeds are identified for music items in the DOREMUS ontology
+What music formats are present in the DOREMUS ontology
+How are creators categorized in the DOREMUS ontology
+Which performances are foreseen in DOREMUS
+What is the opus statement for a specific work
+Which characters are associated with a particular performance
+What editing has been done on a specific performance
+Which awards have been assigned in DOREMUS
+What is the metronome indication for a particular performance
+Which cultural contexts are related to a specific performance
+What is the rhythmic pattern used in a particular performance
+Which individuals are foreseen to perform in DOREMUS
+What is the ambitus range for a specific performance
+Which M43 Performed Expressions incorporate a M44 Performed Work
+Which M46 Set of Tracks is related to a M47 WoO Number
+Which M49 Performer Status is associated with a M57 Vocal or Instrumental Technique
+Which M5 Genre is commonly found in M58 Programming Works
+Which M60 Intended Audience is targeted in M59 Programs
+Which U51 is partial or full recording of a specific U54 Performed Expression
+Which U11 Key is used in a U191 Equalization Technique
+Which U192 Noise Reduction Technique is commonly used in U218 Mastering
+Which U225 Sound Spatialization Technique is utilized in U219 Mixing
+Which U93 is realized in a specific U91 Creation or Performance Mode
+Which musical works include a flute and two bassoons
+What is the tempo of Beethoven's Symphony No
+Which characters are performed in Tchaikovsky's Swan Lake
+What is the derivation type of the opera "Carmen"
+Which legal bodies are associated with the production of "The Nutcracker" ballet
+What is the dimension of the Mona Lisa painting
+Which events are depicted in Picasso's Guernica
+What is the linguistic appellation of the musical piece "Für Elise"
+Which physical man-made things are exemplified by the Eiffel Tower
+What is the type of the attribute assigned to the film "The Godfather"
+Which works are classified under the category "E74 Group" in the DOREMUS ontology
+Which activities are associated with the class "E7 Activity" in DOREMUS
+What information carriers fall under the class "E84 Information Carrier" in DOREMUS
+What propositional objects are included in the class "E89 Propositional Object" in DOREMUS
+Which persons are part of the class "F10 Person" in DOREMUS
+What corporate bodies are categorized under the class "F11 Corporate Body" in DOREMUS
+Which nomen belong to the class "F12 Nomen" in DOREMUS
+What identifiers are linked to the class "F13 Identifier" in DOREMUS
+Which individual works are part of the class "F14 Individual Work" in DOREMUS
+What complex works are categorized under the class "F15 Complex Work" in DOREMUS
+Which performances are associated with the F25 Performance Plan class
+What recordings are classified under the F26 Recording class
+How are works conceived in the F27 Work Conception class
+Which expressions are created within the F28 Expression Creation class
+What publication events are linked to the F30 Publication Event class
+Which performances are part of the F31 Performance class
+What reproduction events are included in the F33 Reproduction Event class
+What identifiers are assigned in the F40 Identifier Assignment class
+Which representative manifestation products are assigned in the F41 Representative Manifestation Assignment class
+What carrier productions events are associated with the F32 Carrier Production Event class
+What are the different types of actors in the DOREMUS ontology
+Which events are associated with the concept of "love" in the DOREMUS ontology
+What materials are used for creating manifestations singletons in DOREMUS
+Which objects have been used for membership in a specific context in DOREMUS
+What is the current or former residence of a particular actor in DOREMUS
+Which places have a spatial projection in the DOREMUS ontology
+What are the different types of media carriers in DOREMUS
+Which events have a temporal projection in DOREMUS
+What are the different types of names used activities in DOREMUS
+Which spacetime volumes are identified by specific appellations in DOREMUS
+Which documents incorporate the E19 Physical Object class
+Which E90 Symbolic Objects have been influenced by Mozart
+Which E44 Place Appellations have been classified by researchers
+Which CRM Entities have been documented in the E31 Document class
+Which E66 Formations have been motivated by specific events
+Which E51 Contact Points have been identified by their unique features
+Which E70 Things have been used for specific purposes
+Which E47 Spatial Coordinates have been depicted in historical records
+Which E9 Moves have taken place on specific dates
+Which E17 Type Assignments have been transformed over time
+Which man-made features are found on a specific site
+What physical features are shown by a visual item
+What time-span was employed in the creation of a linguistic object
+Which section definitions were intended for a conceptual object appellation
+What language is used in the representation of a man-made thing
+Which place names were assigned to a specific man-made feature
+What technical features are identified in a composition of material
+What inscription was intended for a linguistic object
+What variant titles are identified by a preferred identifier
+Which dissolution was caused by a transfer of custody
+made features are found on a specific site
+span was employed in the creation of a linguistic object
+made thing
+made feature
+Which man-made objects have a condition state of "good"
+What authority documents are associated with the curation activity of a specific collection
+Which measurements have been observed for a particular man-made object
+What is the current or former curator of a specific collection
+Which titles are listed in a particular authority document
+What is the unit of measurement for a specific observation dimension
+Which man-made objects were destroyed in a specific time-span
+Which works were augmented by a specific addition
+Who was the father for a particular birth event
+Which presence events occurred during a specific time-span
+made objects have a condition state of "good"
+made object
+made objects were destroyed in a specific time-span
+span

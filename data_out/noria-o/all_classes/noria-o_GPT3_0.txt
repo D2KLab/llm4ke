@@ -1,0 +1,30 @@
+What properties does a ManagedElement have
+How is a StructuralElement related to a ManagedElement
+What distinguishes a DynamicElement from a FunctionalElement
+How is a CorporateUserIdentifier associated with an Application
+What is the purpose of a TroubleTicketNote in relation to a TroubleTicket
+How does a ChangeRequest impact a Service
+What are the key features of a ProceduralElement
+How is an n48167bad08eb49ac91caed78c5274d8fb5 connected to an ApplicationModule
+How can a StructuralObservable be utilized within an ApplicationModule
+What role does an n48167bad08eb49ac91caed78c5274d8fb13 play in a TroubleTicket
+What are the attributes of a DocumentAttachment
+How is AnomalyPattern related to OperationPlan
+What is the purpose of n48167bad08eb49ac91caed78c5274d8fb33
+How does n48167bad08eb49ac91caed78c5274d8fb69 differ from n48167bad08eb49ac91caed78c5274d8fb73
+What are the key features of n48167bad08eb49ac91caed78c5274d8fb57
+In what ways can n48167bad08eb49ac91caed78c5274d8fb85 be utilized
+How can n48167bad08eb49ac91caed78c5274d8fb41 be classified within the ontology
+What are the potential applications of n48167bad08eb49ac91caed78c5274d8fb61
+What distinguishes n48167bad08eb49ac91caed78c5274d8fb45 from n48167bad08eb49ac91caed78c5274d8fb49
+How does DocumentAttachment relate to the other classes in the ontology
+What are the preconditions for a specific action
+What are the postconditions for a specific action
+How is a room defined in the ontology
+What is the definition of a locus in the ontology
+How are event records represented in the ontology
+What is the role of a resource in the ontology
+How are network interfaces described in the ontology
+What is the relationship between network links and network interfaces
+How are product models structured in the ontology
+What is the purpose of the class n48167bad08eb49ac91caed78c5274d8fb113 in the ontology
