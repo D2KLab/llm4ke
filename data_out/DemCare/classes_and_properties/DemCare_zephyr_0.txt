@@ -1,0 +1,152 @@
+What is the type of diagnosis assessment for a specific patient
+What is the status of the clinical assessment for a specific patient
+What is the type of cognitive abilities assessment for a specific patient
+What is the type of apathy assessment for a specific patient
+What is the type of autonomy assessment for a specific patient
+What is the type of cognitive load assessment for a specific patient
+What is the type of counting type for a specific patient
+What is the type of diagnosis type for a specific patient
+What is the type of activity status type for a specific patient
+What is the type of answer phone task for a specific patient
+What is the class Ndae547120fee42828a4e539847f5a274 in the DemCare ontology
+What are the subclasses of DirectedTask in the DemCare ontology
+What is the data type of GenderType in the DemCare ontology
+What is the class that has the property EstablishAccountBalanceTask in the DemCare ontology
+What is the class that has the property FindBusLineOnMapTask in the DemCare ontology
+What is the class that has the property FunctionalAbilityAssessment in the DemCare ontology
+What is the class that has the property GaitAssessment in the DemCare ontology
+What is the class that has the property HandTrajectoryType in the DemCare ontology
+What is the class that has the property DiscussionInvolvementData in the DemCare ontology
+What is the class that has the property ExperimentalAssessment in the DemCare ontology
+What is the class of a participant who does not have dementia
+What is the class of a participant who has dementia
+What is the class of a participant who has latency data
+What is the class of a participant who has measured data
+What is the class of a participant who has leave room task data
+What is the class of a participant who has memory self appraisal assessment data
+What is the class of a participant who has mood voice data
+What is the class of a participant who has motricity abilities assessment data
+What is the class of a participant who has neuropsychiatric and mood assessment data
+What is the class of a participant who has organization efficiency data
+Given the class PrepareHotTeaTask, what is the purpose of this task in the context of DemCare ontology
+Given the class S1 DirectedActivitiesStep, what type of step is this in the context of DemCare ontology
+Given the class N3842d2648e374d9cb017a2cab506405d, what is the name of this step in the context of DemCare ontology
+Given the class N43f837265f254e2aaff5d0e13e71ef2a, what is the name of this step in the context of DemCare ontology
+Given the class N2b6269b01f88442393476c761fd24634, what is the name of this step in the context of DemCare ontology
+Given the class N54e05433eca844b2a921cdd0b9a65ce3, what is the name of this step in the context of DemCare ontology
+Given the class N26e96db182d84f469f018218670ffda8, what is the name of this step in the context of DemCare ontology
+Given the class S1 P13 WalkingCountingBackwardsTask, what is the name of this task in the context of DemCare ontology
+Given the class ReadArticleTask, what type of task is this in the context of DemCare ontology
+Given the class N34e7e633d20742f380578bb6e201310c, what is the name of this class in the context of DemCare ontology
+What is the class of the Ne277bf36e6be4a47886af5ababccd4e9 entity in the DemCare ontology
+What is the type of the WaterPlantTask entity in the DemCare ontology
+What is the class of the Nbbcc5ec44933448c9cd9cd556436f1cd entity in the DemCare ontology
+What is the class of the S1 P22 ArticulationControlTask entity in the DemCare ontology
+What is the class of the S3 P1 DirectedExpressionTask entity in the DemCare ontology
+What is the class of the S3 P21 PictureDescriptionTask entity in the DemCare ontology
+What is the class of the S3 P22 PictureDiscussionTask entity in the DemCare ontology
+What is the class of the SemiDirectedTask entity in the DemCare ontology
+What is the class of the StressAssessment entity in the DemCare ontology
+What is the class of the StressData entity in the DemCare ontology
+Given an Instant, can you determine if it is an Event
+Given an Event, can you determine if it is a LongNap
+Given a LongNap, can you determine if it is a NapAfterLunch
+Given a NapAfterLunch, can you determine if it is a NightKitchenVisit
+Given a NightKitchenVisit, can you determine if it is a Place
+Given an ADLProblem, can you determine if it is an ADLSummary
+Given an ADLSummary, can you determine if it is a DaySummary
+Given an EatingSummary, can you determine if it is an ExcessiveNapProblem
+Given an ExerciseProblem, can you determine if it is an ExerciseSummary
+Given a FailureToPrepareMeal, can you determine if it is an InappropriateMealLocation
+world scenarios or make complex decisions
+What is the relationship between a SleepProblem and a SleepDurationProblem
+How is a SleepProblem related to a SleepEfficiencyProblem
+What is the connection between a SleepProblem and a SleepLatencyProblem
+How is a SleepProblem related to a PeriodicLimbMovement
+What is the relationship between a SleepProblem and a Nocturia
+How is a SleepProblem related to a MoodProblem
+What is the connection between a SleepProblem and a MoodQuestionnaire
+How is a SleepProblem related to a MoodSummary
+What is the relationship between a SleepProblem and a SelfReportedLowMood
+How is a SleepProblem related to a ShortStrideLength
+What is the SleepQuestionnaire class in the DemCare ontology
+How is the SleepSummary class related to the SleepQuestionnaire class in the DemCare ontology
+What is the SlowWalkSpeed class in the DemCare ontology
+How is the SocialProblem class related to the SleepQuestionnaire class in the DemCare ontology
+What is the SocialSummary class in the DemCare ontology
+How is the Active class related to the SleepQuestionnaire class in the DemCare ontology
+What is the Activity class in the DemCare ontology
+How is the AlarmClock class related to the SleepQuestionnaire class in the DemCare ontology
+What is the AlarmClockRinging class in the DemCare ontology
+How is the AmbientMeasurement class related to the SleepQuestionnaire class in the DemCare ontology
+What is the relationship between a Chair and a Clinician in the DemCare ontology
+What is the relationship between a Cup and a Carer in the DemCare ontology
+What is the relationship between a ComplexActivity and a Chair in the DemCare ontology
+What is the relationship between a ComplexActivity and a Clinician in the DemCare ontology
+What is the relationship between a Couch and a Carer in the DemCare ontology
+What is the relationship between a Couch and a Clinician in the DemCare ontology
+What is the relationship between a Cycling and a Chair in the DemCare ontology
+What is the relationship between a Cycling and a Clinician in the DemCare ontology
+What is the relationship between a DangerousBedExit and a Chair in the DemCare ontology
+What is the relationship between a DangerousBedExit and a Clinician in the DemCare ontology
+What is the relationship between an Entity and a FoodAndDrinkConsumption
+What is the relationship between a FoodAndDrinkConsumption and a Glass
+What is the relationship between a FoodAndDrinkConsumption and a Fridge
+What is the relationship between a FoodAndDrinkConsumption and a HeartRate
+What is the relationship between a FoodAndDrinkConsumption and an IndoorPhysicalActivity
+What is the relationship between a FoodAndDrinkConsumption and an InLocation
+What is the relationship between a FoodAndDrinkConsumption and an InRoom
+What is the relationship between a FoodAndDrinkConsumption and an Eat
+What is the relationship between a FoodAndDrinkConsumption and a HaveBreakfast
+What is the relationship between a FoodAndDrinkConsumption and a HaveMeal
+Given the individual x, is x a Measurement
+Given the individual x, is x a NightRoomVisit
+Given the individual x, is x a LongTableExit
+Given the individual x, is x a Nap
+Given the individual x, is x a NightSleep
+Given the individual x, is x a Moving
+Given the individual x, is x a LivingRoom
+Given the individual x, is x a LongBedExit
+Given the individual x, is x a MoveLimb
+Given the individual x, is x a KitchenPress
+Given the individual's PhysicalActivity, can you determine if it is an OutdoorPhysicalActivity
+Given the individual's Posture, can you determine if it is Rest
+Given the individual's Ringing, can you determine if it is PhoneRinging
+Given the individual's Room, can you determine if it is Outdoors
+Given the individual's PrepareMeal, can you determine if it is PhysicalActivity
+Given the individual's Plate, can you determine if it is ObjectEvent
+Given the individual's PickUpPhone, can you determine if it is PhysicalActivity
+Given the individual's PrepareHotTea, can you determine if it is PhysicalQuality
+Given the individual's RemoteControl, can you determine if it is Off
+Given the individual's PrepareDrink, can you determine if it is OutdoorPhysicalActivity
+What is the relationship between the class Walk and the class State
+How is the class SkinConductivity related to the class Running
+What is the relationship between the class TelephoneInteraction and the class Telephone
+How is the class Sleep related to the class State
+What is the relationship between the class UseObject and the class Table
+How is the class SocialInteraction related to the class State
+What is the relationship between the class WashingMachine and the class State
+How is the class WaterCan related to the class State
+What is the relationship between the class TV and the class State
+How is the class StandingToSitting related to the class State
+How does the DemCare ontology represent the concept of a Window
+What types of sensors are represented in the DemCare ontology
+How is the concept of a Feedback represented in the DemCare ontology
+What is the relationship between the concepts of Measurement and Observation in the DemCare ontology
+How is the concept of a ProcessingComponent represented in the DemCare ontology
+What types of devices are represented in the DemCare ontology for capturing video footage
+How is the concept of a Report represented in the DemCare ontology
+What types of devices are represented in the DemCare ontology for capturing accelerometer data
+How is the concept of a Recognition represented in the DemCare ontology
+What types of devices are represented in the DemCare ontology for capturing DTI-2 data
+2 data
+What is the class of a result obtained from a 3DVideoCamera
+What is the class of a sensor that is a wearable microphone
+What is the class of a sensor that is a wearable video camera
+What is the class of a sensor that is a wearable sensor
+What is the class of a sensor that is a N00c5893d299c4aff8e0cd0f2c317851e
+What is the class of a sensor that is a Na5af65f929904b3daa73cb6ae1639f22
+What is the class of a sensor that is a Na66843492ea64facb79ca70a576af286
+What is the class of a sensor that is a N15920097719f4ea3b3e5b76c045d4f93
+What is the class of a result that is obtained from a wearable microphone
+What is the class of a result that is obtained from a wearable video camera
