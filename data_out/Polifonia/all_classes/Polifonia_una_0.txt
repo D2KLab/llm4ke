@@ -1,0 +1,131 @@
+What classes represent different types of entities in the Polifonia ontology
+Which class represents an abstract measure of quality in the Polifonia ontology
+What class represents the method used for annotating content in the Polifonia ontology
+Which class represents an award or recognition in the Polifonia ontology
+What class represents a broadcaster or media organization in the Polifonia ontology
+Which class represents a specific broadcasting situation in the Polifonia ontology
+What class represents a collection of related items in the Polifonia ontology
+Which class represents a conceptual representation of a collection in the Polifonia ontology
+What class represents a part of a composition in the Polifonia ontology
+Which class in the Polifonia ontology is related to the concept of annotations and broadcasting situations
+What CreativeProcesses are associated with a specific CreativeTask
+Which CreativeActions are related to a given CreativeProcess
+What FormTypes are commonly used in DigitalScores
+What Instrumentations are typically associated with a certain Key
+What are the common MediumOfPerformances for LivePerformances
+What MusicAnnotations exist within a MusicAlgorithm's time interval
+Which MusicArtists have contributed to a specific MusicEnsemble
+What License terms are applicable to a DigitalScore
+What Lyrics are included in a particular Movement
+What DedicationStatements are associated with a specific Libretto
+What are the associated MusicGenres of a given MusicEntity
+Which MusicSheets belong to a specific MusicGenre
+Which Musicians have performed in a particular MusicalPerformance
+What Notes are present in a ScorePart
+What OpusStatements are related to a specific MusicSheet
+What PublicationSituations are associated with a given Release
+Which Publishers have published a particular Score
+What RecordingEquipment was used in a specific Recording
+What RecordingProcess was followed in a StudioPerformance
+Which TextFragments are part of a specific Text
+What are the key classes in the Polifonia ontology and their relationships with each other in terms of analysis, annotation, and content
+How are AnnotatorType, Annotator, and Analyst related in the context of the Polifonia ontology
+What are the different types of annotations defined in the AnnotationType class
+What is the role of the Vocabulary class in the Polifonia ontology
+What are the main components of a ContentAnnotation and how do they relate to the other classes in the ontology
+What is the distinction between ContentType and ContentDescriptor in the context of the Polifonia ontology
+How does the MusicProjection class relate to the analysis and annotation processes in the Polifonia ontology
+What is the relationship between the API class and the other classes in the Polifonia ontology
+How are the classes N214f682336cf430cb36bd6035f51e82f and Nc31a0f4a0f7a4ea7982c8ba6c09f6ac2 connected in the Polifonia ontology
+What is the purpose of the Fragment class in the context of the Polifonia ontology
+What are the relevant data formats used in a Dataset
+What are the different types of data modalities in the context of a Dataset
+What are the available production methods associated with a Dataset
+What are the various content availabilities of a Dataset
+What are the common split types in a DatasetSplit
+What are the featured types of data elements in a DatasetContent
+What are the data accessibility levels for a DatasetRecord
+What are the Agent roles in the context of an Action
+What are the Address components in the context of an Address
+What are the classes related to entities with identifiers Ndaed907d567145368be9cb19179a79be and N7b725f64de5c46e2947b0ff6b857fc45
+What classes are related to membership strength in the Polifonia ontology
+Which classes in Polifonia represent geographical entities
+What are the classes that represent music-related datasets in Polifonia
+What classes in Polifonia are related to time intervals in music
+What classes in Polifonia represent information objects
+Which classes in Polifonia have a connection to events
+What classes in Polifonia are related to concepts
+What classes in Polifonia are associated with languages
+Which classes in Polifonia are related to descriptions
+What classes in Polifonia have a connection to collections
+related datasets in Polifonia
+What are the relevant MusicTimeValueType instances in a given context
+How are Name, TimeIndexedName, and Reference related in the Polifonia ontology
+What are the different types of roles associated with Person class
+What are the main classes related to spatial aspects in the Polifonia ontology
+How are Situation, TimeIndexedSituation, and Task related in the ontology
+What are the classes that represent temporal aspects in the Polifonia ontology
+What is the relationship between Organization, PhysicalSite, and Place classes
+How are Role, TimeIndexedRole, and Theory connected in the Polifonia ontology
+What are the classes that represent entities related to sources in the Polifonia ontology
+What are the classes that represent geographical divisions in the Polifonia ontology
+What are the related instruments to a specific Title or Type
+Which InstrumentPart is associated with a particular Instrument
+What are the different InstrumentRealizations of a specific Instrument
+What are the various Voices related to a given Tune or TuneFamily
+What LyricsFamily is connected to a specific Tune or TuneFamily
+What are the Parthood relationships between different classes in the Polifonia ontology
+Which Agents are involved in a particular Project
+What are the Roles played by Agents in a specific Task
+What Actions are associated with a specific Task
+What are the different Cases for a specific Bellow or BrustwerkCase
+What is the relationship between CaseSegment and other classes in Polifonia ontology
+What are the main components of an Organ in the Polifonia ontology
+What are the different types of cases found in the Polifonia ontology
+What is the connection between StopKnob and StopRank in the Polifonia ontology
+What are the elements that make up a WindSystem in the Polifonia ontology
+How are PlayingAids related to the other classes in the Polifonia ontology
+What is the role of a Console in the Polifonia ontology
+What are the differences between PedalTowerCase and OberwerkCase in the Polifonia ontology
+What is the function of a DivisionStop in the Polifonia ontology
+How are Pipes connected to the WindChannel in the Polifonia ontology
+What types of bells are associated with a BellTower
+What is the relationship between a SetOfBells and its constituent bells
+What are the common locations for BellTowers
+What are the purposes of Meetups related to Polifonia
+What roles do Participants play in Polifonia Meetups
+How are TimeExpressions related to TimePoints and TimeRanges in the Polifonia ontology
+What resources can be associated with a GeneralDateTimeExpression
+What is the connection between Operation and OperationSequence in the Polifonia ontology
+What parameters can be used in ComputationalAnalysis
+How are TimeEntities represented in the Polifonia ontology
+What are the relevant SourceTypes in Polifonia ontology
+Which AmbitusTypes are present in the Polifonia ontology
+What are the possible CadenceTypes in the Polifonia ontology
+What are the classes related to ContextOfProduction in Polifonia ontology
+What are the classes related to ContextOfUsage in Polifonia ontology
+What are the classes associated with Subject in the Polifonia ontology
+What are the MediumOfPublishing classes in the Polifonia ontology
+Which classes represent BibliographicalReference in the Polifonia ontology
+What are the classes related to SourceCredibility in the Polifonia ontology
+What are the classes related to Fragment in the Polifonia ontology
+What are the classes related to interval qualities in the Polifonia ontology
+Which class represents the concept of a specific musical scale degree in the Polifonia ontology
+What are the classes associated with pitch classes in the Polifonia ontology
+What are the classes related to pitch in the Polifonia ontology
+What are the classes related to key in the Polifonia ontology
+What are the classes related to enharmonic intervals in the Polifonia ontology
+What are the classes related to generic intervals in the Polifonia ontology
+What are the classes related to accidents (sharp, flat) in the Polifonia ontology
+What are the classes related to duration in the Polifonia ontology
+What are the classes related to mode and mode types in the Polifonia ontology
+What are the relationships between classes in the Polifonia ontology
+How are instances of different classes in Polifonia ontology related
+What are the key properties of each class in the Polifonia ontology
+What are the subclasses of the main classes in the Polifonia ontology
+How do the instances of the Polifonia ontology classes differ from each other
+What are the most common associations between classes in the Polifonia ontology
+What are the unique characteristics of each class in the Polifonia ontology
+How do the instances of the Polifonia ontology classes contribute to the overall structure of the ontology
+What are the most important relationships between instances of different classes in the Polifonia ontology
+What are the key attributes that distinguish the classes in the Polifonia ontology

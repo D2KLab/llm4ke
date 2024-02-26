@@ -1,0 +1,120 @@
+Which collections contain tunes with a similar geographic origin to tune X
+What are the most relevant annotation methods for determining the similarity between tunes, given similarity measure Y
+Which awards have been received by compositions in the collection of tune X
+What are the broadcasting situations of tunes in the collection of tune X
+Which tune parts are common between tune X and a set of tunes
+What are the relationships between tune X and other tunes in the context of the Polifonia ontology
+Which broadcasters have featured tunes from the collection of tune X
+What are the abstract scores of tunes in the collection of tune X
+How are the classes N75853d9a821b454b9aae037536a591f4 and N76fd4222b6084c99bf3b10da6dbca455 related to the collection of tune X
+What are the common characteristics of tunes in the collection concept of tune X
+Which CreativeProcesses are associated with a specific CreativeTask
+What FormTypes are commonly used in a CreativeAction
+What Instrumentations are used in a particular CreativeProcess
+What DedicationStatements are related to a specific DigitalScore
+What License terms apply to a given LivePerformance
+What Lyrics are associated with a specific Movement
+What MusicAnnotations exist within a MusicTimeInterval in a DigitalScore
+What MusicArtists have performed in a specific MusicEnsemble
+What MediumOfPerformances are used for a particular CreativeTask
+What Key signatures are common in a specific Mode
+Which MusicGenres are associated with a specific MusicEntity
+What MusicSheets belong to a particular MusicGenre
+Which Musicians have performed in a specific MusicalPerformance
+What Notes are present in a given ScorePart
+What OpusStatements are related to a specific Publisher
+Which PublicationSituations are associated with a specific Release
+What RecordingEquipment was used in a specific Recording
+What RecordingProcess was followed in a specific StudioPerformance
+Which TextFragments are part of a specific Text
+What ScoreParts belong to a particular Score
+Which analytical references are related to a specific annotation type of tune X
+What vocabulary terms are associated with the analysis of tune X
+Which analysts have annotated tune X
+What annotation types are used for the analysis of tune X
+What annotators have used annotation type Y for the analysis of tune X
+What fragments of music content are part of tune X's projection
+What observations have been made about the music content of tune X
+Which content descriptors are relevant for the annotation of tune X
+What content types are associated with the raw data content of tune X
+Which APIs provide access to the analysis of tune X
+Which datasets contain music with specific DataFormat and DataModality related to tune X
+What FeatureTypes are common among datasets with similar ProductionMethods
+What are the DataAccessibility and ContentAvailability of dataset Y
+Which AgentRole is responsible for the creation of a specific dataset
+What is the relationship between dataset splits in terms of SplitType
+What is the N50c4b8c69f284f0e86065e5cc6d27642 class's relevance to the ontology
+What are the common DataFormats among datasets with the same DatasetSplit
+What is the geographic connection between tunes in dataset Z
+What are the DataAvailability and DataAccessibility of the N57413be7ceab46dcaf86a9b6d4d4badb class
+What are the Agent's responsibilities related to the Action of curating a specific dataset
+Which collections have conceptual connections with tune X
+What languages are associated with collection Y
+What are the geographical features related to collection Z
+What events are related to music dataset A
+What time intervals are present in music time index B
+What are the music time durations of tune C
+What are the components of music time index D
+What collections have members with strong affiliation in city E
+What concepts are related to description F
+What collections have similarities with collection G based on music time index H
+Which organizations are associated with a specific Person in the context of a particular TimeInterval
+What theories are related to a specific Situation involving a TimeIndexedRole
+What tunes have been performed at a specific PhysicalSite during a TimeInterval
+Which Person has played a significant Role in the development of a Theory
+What tunes have been created in a specific Region during a TimeInterval
+What is the connection between a TimeIndexedName and a Reference in the context of a Task
+What tunes have similar geographic origin as another tune, considering a specific Measure of Similarity
+What tunes are part of a collection located in a specific Province
+What is the relationship between a TimeIndexedSituation and a TimeInterval in the context of a Task
+Which Person has played a Role in an Organization during a specific TimeInterval
+Which instruments are associated with tune X
+What are the related lyrics families of tune X
+What are the agents involved in the creation of project Y
+What are the tasks related to instrument Z
+What tunes belong to the same family as tune X, considering the TuneFamily class
+What are the parthood relations between instruments in collection C
+What places are associated with the performance of tune X
+What are the roles of agents in the realization of instrument Y
+What are the similar tunes based on instrument usage in collection D
+What are the actions related to the use of instrument W
+Which organ components are associated with a specific DivisionStop
+What types of cases are present in the Polifonia ontology
+What are the relationships between Console, ConsoleLocation, and WindSystem classes
+What are the different types of keyboards in the Polifonia ontology
+What is the connection between Pipe, StopRank, and WindChannel classes
+What are the main components of an Organ in the Polifonia ontology
+What are the differences between MainCase, OberwerkCase, and PositiveCase classes
+What are the playing aids available in the Polifonia ontology
+What are the relationships between StopKnob and its associated components
+How are ChoirCase and PlayingAids related in the Polifonia ontology
+Which BellTowers are associated with a specific SetOfBells in Location A
+What Meetups involve Participants with Role X in Purpose Y
+What TimeExpressions are related to Resource Z in Operation Sequence X
+What tunes have been performed during TimeRange A in Location B
+What are the GeneralDateTimeExpressions for Meetups with Participant X in Purpose Y
+What are the TimeEntities associated with BellTower A in Operation Sequence X
+What are the Parameters for ComputationalAnalysis of Resource Z in TimeRange A
+What BellTowers have a similar number of Bells as BellTower A
+What Meetups have Participants with Role X in TimeRange A
+What are the TimeReferences for BellTowers in Location B
+Which sources provide information about the context of production of a specific tune
+What are the credibility levels of the sources related to a particular subject in the Polifonia ontology
+What are the common source types for tunes belonging to a specific medium of publishing
+What are the typical ambitus types for tunes in a certain context of usage
+Which accidentals are commonly used in tunes with a specific cadence type
+What are the most frequent chords in tunes with a certain ambitus type
+What are the common clefs for tunes with a specific source credibility level
+What tunes have a similar geographic origin as a given tune, considering a specific similarity measure
+Given a set of tunes, from which contexts of production are these tunes originated
+What tunes are similar to a specific tune, based on a certain similarity measure, and belong to the same collection
+Which IntervalQualities are associated with specific GenericIntervals
+What are the PitchClasses of Notes belonging to a specific Key
+What are the EnharmonicPitchClasses of a given PitchClass
+What are the Duration types of Notes in a specific Mode
+What are the SpelledPitchClasses of a GenericPitchClass in a specific Mode
+What are the SpecificScaleDegrees of a GenericScaleDegree in a specific ModeType
+What are the Interval relationships between Notes with specific NaturalAccidentals
+What are the EnharmonicIntervals between Notes with specific FlatAccidentals
+What are the SharpAccidentals associated with a specific IntervalQuality
+What are the GenericIntervals with the same IntervalQuality as a SpecificInterval

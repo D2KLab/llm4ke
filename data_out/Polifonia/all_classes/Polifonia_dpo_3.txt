@@ -1,0 +1,130 @@
+In which Broadcaster's context was composition N437fe32f320b42a3a76f0095b8a8c2d9 aired
+What Award has been received by the creator of Collection N992cb798d9724d6192a9669aec0b3301
+For a given tune belonging to Collection N20006902657d4a7eaf43334f44ffce56, what is the associated AnnotationMethod
+What CollectionConcepts are related to the CompositionPart of tune in N1245f04eacd84cf4950c01433785466e
+In what BroadcastingSituation did the creator of N5be91441ef1a4cf7acd114eafc334087 receive their AnnotationMethod recognition
+For a given tune in Collection N44b5493125a64851bdec0b2436119281, what are the related AbstractScores
+What is the relationship between CompositionPart N480b5586f24c47b39c124ed0f762ddef and Award-winning tunes in Broadcaster N60236819bf9b45ef88ac44ce9d531c91
+In what context, a Collection or BroadcastingSituation, did the creator of N3a69ed758f53480a888f8ea29d2333c6 receive their AbstractScore
+For a given tune in Collection N78d213f1fca64919a0a357a002e2cf78, what are the associated CompositionParts and their respective AnnotationMethods
+Which CreativeProcess relates to a specific CreativeTask in Polifonia ontology
+What FormType is commonly associated with a DigitalScore
+How are License restrictions related to CreativeActions in Polifonia
+Which MusicArtist has been a part of a particular MusicEnsemble
+What Instrumentation is used in a given LivePerformance
+What Key signature is predominant in a specific Movement
+How does a MusicAnnotationTimeInterval relate to a CreativeProcess
+What are the main components of a Libretto
+How do MediumOfPerformance and MusicEnsemble intersect in Polifonia ontology
+What are the diverse modes of expression in the context of Polifonia's MusicAlgorithm class
+Which MusicGenre does a specific Musician primarily associate with during their career
+What MusicSheets are related to a particular OpusStatement
+For a given MusicalPerformance, what RecordingProcess and RecordingEquipment were involved
+Which Musicians have collaborated in multiple StudioPerformances
+What are the dominant PublicationSituations of a specific Score
+What are the ScoreParts of a specific Score, and in which Section do they belong
+For a given Publisher, which Release's Sales data is available
+What TextFragments, if any, are associated with a specific Note
+In what context, a Release or an OpusStatement, is a particular Nfad13294b0314e8e996017ab710144cf related
+What MusicEntities, in the context of a certain MusicGenre, have a similar Release timeline
+Which Analyst utilized specific AnnotationType while analyzing MusicContent related to N31c5456bc8b247cab1025c44079acd02
+Which Vocabulary terms are associated with ContentDescriptor of RawDataContent type in Analysis
+Which AnnotatorType typically generates ContentAnnotation related to N990bacea5f284a4f9a8bc7ec65c28a27 instances
+What MusicProjection is linked to a particular Observation in the context of Fragment belonging to MusicContent
+Which AnalyticalReference connects a specific Annotation to its relevant Annotator
+How are instances of Analysis related to instances of Vocabulary in Polifonia ontology
+What AnnotationTypes are commonly used in conjunction with RawDataContent in ContentAnnotation
+What API interacts with instances of Nb68681177f1c4351975072250ba41143 in the context of ContentType
+How do MusicContent and ContentDescriptor interrelate in the context of Annotation
+What are the primary responsibilities of an Analyst in the Polifonia ontology
+For a specific dataset, how are its DataAvailability, DataFormat, and DataModality related
+What are the common ProductionMethods among multiple DatasetRecords of the same FeatureType
+In what ContentAvailability and SplitType do DatasetSplits of a certain Agent typically fall
+What DataAccessibility standards are associated with a certain AgentRole
+How do the DatasetContent attributes of two different DatasetRecords in the same Dataset, but with different Alias labels, compare
+What DataFormat preferences are observed in DatasetSplits of a specific N-entity
+In what Address and AddressComponent do Agents of a specific AgentRole usually operate
+What are the common Action types in DatasetRecords of a certain Dataset, related to a specific N-entity
+How do the DataModality and FeatureType of different DatasetRecords in the same Dataset, but with varying AgentRole labels, contrast
+What are the typical DataAccessibility and AgentRole collaborations in the context of a certain N-entity
+entity
+entity
+entity
+Which collections in Polifonia have a significant portion of concepts related to a specific City
+What are the dominant languages in the described MusicDatasets
+For a given Collection, what are its associated GeographicalFeatures
+What MusicTimeDurations are commonly found in the Events of a particular Country
+In what Collections are the Concepts of a certain Language predominantly present
+What are the main CollectionConcepts in a specific District's MusicTimeIndex
+What are the MusicTimeInterval components of a certain MusicTimeDuration in a Collection
+For a given Collection, which City's Concepts are most frequently associated with its Events
+In what Collections do the majority of the InformationObjects have a common Description
+What are the typical MusicTimeIndexComponents of a MusicTimeInterval in a MusicDataset
+Which musicians or bands have collaborated in a specific Place during a certain TimeInterval related to Person X
+What theories or methodologies are associated with a particular Role in the context of Organization Y
+For a given TimeIndexedSituation, what are the related TimeIndexedRoles and TimeIndexedNames
+What are the main contributors (Person or Organization) in the development of a specific Theory, and in which PhysicalSite was it primarily established
+What are the significant Tasks or projects in which Person X has been involved, and in which Situation did they play a major Role
+In which Region has a significant number of tunes or compositions been created, related to a specific MusicTimeValueType
+What are the primary sources (Source class) of information for a specific Reference in the context of TimeIndexedSituation Z
+For a given Place, list the main PhysicalSites, Streets, and SpatialObjects, and their associated historical or cultural context
+What are the notable TimeIndexedNames, TimeIndexedRoles, and TimeIndexedSituations related to a particular Province in the context of a specific Theory
+In the context of a certain TimeInterval, which Situations, Roles, and People (Person or Organization) have been pivotal in the evolution of a specific Theory
+Which agents performed a specific task related to projects of the InstrumentPart class
+What projects involve multiple instruments from the BrustwerkCase domain
+For a given tune family, what other tune families have a similar lyrics structure
+What instruments in the InstrumentRealization class are commonly used in conjunction with the Bellow class
+What roles in the Agent class are associated with composing tunes in the TuneFamily class
+What projects have agents taking on various roles in relation to tasks of the Action class
+In which places have projects of the Polifonia ontology been primarily executed
+What titles are related to a specific type, and have been performed by a certain instrument in the InstrumentPart class
+For a given tune, what other tunes in the TuneFamily class have a similar melodic structure, but a different lyrics family
+What projects, in a specific place, have involved agents with expertise in multiple instrument parts, particularly in the Nda417074215944978e8d1f9464cbc9be class
+What are the main components of an organ instance in Polifonia ontology
+How are DivisionStop, StopRank and WindChannel related within an organ context
+What types of keyboards can be found in a PedalTowerCase
+What are the primary cases in an Organ, and how do they differ
+In what ways are ChoirCase and PositiveCase similar but distinct in their functionality
+How do Console, ConsoleLocation, and PlayingAids interact in an organ setup
+What are the connections between Pipe, StopKnob, and WindSystem in the Polifonia ontology
+How do the classes of Division, OberwerkCase, and WindChannel contribute to the overall organ structure
+What are the key differences between MainCase and OberwerkCase in terms of organ design
+In what ways do the classes of CaseSegment, PedalTowerCase, and Keyboard interrelate within the Polifonia ontology
+For a specific BellTower, what SetOfBells does it house
+What Meetups involve a particular Bell as a theme
+What is the Purpose of a given Meetup related to a BellTower
+In which Location does a specific SetOfBells reside
+What Participants attended a Meetup focused on a certain TimeRange of bells' ringing
+What Resource is associated with a specific Operation in Polifonia ontology
+What TimePoint marks the beginning of a certain OperationSequence
+What Role do a Participant and a Bell have in a Meetup
+For a given BellTower, what TimeEntity is related to its Meetups
+What Parameter is used in a ComputationalAnalysis of a SetOfBells' tunes
+For a specific tune, how related are its ContextOfProduction and ContextOfUsage
+In what MediumOfPublishing is a given Source of a particular Subject typically found
+What are the prevalent AmbitusTypes in a specific Source of a certain Subject
+How does the credibility of a Source influence the interpretation of a Fragment's Chord progression
+What Accidentals are commonly associated with a certain Cadence in a specific Source
+In what way do Subjects of varying SourceTypes differ in their BibliographicalReferences
+How do Clefs in a particular Ambitus impact the interpretation of a tune's Cadence
+For a given tune collection, in what proportion do tunes from different SourceCredibilities exist
+What is the typical relationship between Subjects in a Source and their associated ContextsOfUsage
+How do tunes with similar AmbitusType patterns in a Source differ in their SourceTypes
+What are the fundamental relations between Key, Mode, and Scale in a given musical context
+How do GenericPitchClass, PitchClass, and SpelledPitchClass differ in their representation of a musical note
+What are the primary distinctions between Interval, GenericInterval, and SpecificInterval
+In what ways do FlatAccidental, NaturalAccidental, and SharpAccidental modify a Pitch
+How is EnharmonicPitchClass related to PitchClass, and when is the distinction relevant
+What are the key characteristics of ModeType, and how do they influence the construction of a Mode
+What are the main properties of Duration, and how do they relate to musical rhythm
+How do EnharmonicInterval and IntervalQuality impact the perception of an Interval's size and function
+What are the primary functions of Note within the Polifonia ontology
+How do SpecificScaleDegree, GenericScaleDegree, and Scale interrelate within a musical context
+In which collections do tunes related to N5f5139e8899a42c08b10921e91d28360 originate
+What are the geographical connections among tunes of class N7e0d5347ec734bae9a311ee857dea8bc
+For a given similarity metric Z, which tunes in N4121b5f411fe4a829b28065842f177e0 are most similar to a selected tune
+How do the musical characteristics of Ndfbb03fcc951493f964f4e26a2a152a8 class tunes compare to those in N60fa2008bca94783b61451dc7871d80e
+For a set of tunes, which collections do the tunes in class N880397c975404c63b4da7f5e6b42dcd7 have in common
+In terms of stylistic similarity, which tunes in N9fcbcf2668a24af2a8873626600f3f59 are akin to a selected tune from another class
+What are the common musical attributes of tunes in N5f5139e8899a42c08b10921e91d28360 and N7e0d5347ec734bae9a311ee857dea8bc
+For a given tune from class N4121b5f411fe4a829b28065842f177e0, which tunes in Ndfbb03fcc951493f964f4e26a2a152a8 have the most similar rhythmic patterns

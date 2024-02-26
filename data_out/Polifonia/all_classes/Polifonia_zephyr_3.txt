@@ -1,0 +1,73 @@
+How can I find all CreativeActions that have a specific FormType
+Which CreativeProcesses involve a specific CreativeTask
+Which CreativeTasks are associated with a specific CreativeProcess
+Which CreativeActions have a specific DedicationStatement
+Which DigitalScores have a specific License
+Which LivePerformances have a specific MediumOfPerformance
+Which Movements have a specific Mode
+Which MusicAnnotationsTimeInterval have a specific MusicAlgorithm
+Which MusicArtists have a specific MusicEnsembleMembership
+Which MusicEnsembles have a specific MusicEnsembleMembership
+Which musical performances feature musicians who also performed in musical performances of genre X
+Which musical performances have a similar musical style to musical performance X
+Which musical performances were recorded using equipment of type X
+Which musical performances were recorded using the recording process X
+Which musical performances were released by publisher X
+Which musical performances were published in situation X
+Which musical performances have a score that is a part of score X
+Which musical performances have a section that is a part of section X
+Which musical performances have a text fragment that is a part of text fragment X
+Which musical performances have a recording that is a part of release X
+How can I find tunes with similar geographic origin to a given tune using the Polifonia ontology
+Which tunes are similar to a given tune based on a specific similarity measure in Polifonia
+Given a set of tunes, which collections do they belong to according to Polifonia
+How can I identify the analytical references associated with a specific analyst in Polifonia
+Which annotations were made by a particular annotator for a specific annotation type in Polifonia
+How can I retrieve the raw data content associated with a specific music projection in Polifonia
+Which APIs are available in Polifonia for accessing music projections and their associated content
+How can I identify the content descriptors associated with a specific content type in Polifonia
+Which fragments are associated with a specific music content in Polifonia
+How can I retrieve the observation associated with a specific content annotation in Polifonia
+Which datasets contain FeatureType X
+Which DatasetSplits have SplitType X
+Which DatasetRecords have DatasetContent X
+Which DatasetContents have DatasetRecord X
+Which DatasetContents have DatasetSplit X
+Which DatasetSplits have DatasetContent X
+Which DatasetSplits have DatasetRecord X
+Which DatasetRecords have DatasetSplit X
+Which DatasetContents have DatasetRecord X and DatasetSplit X
+Which DatasetContents have DatasetRecord X and DatasetSplit X and DatasetContent X
+Which organizations have published works by composer X
+Which provinces have been the birthplaces of musicians belonging to the Polifonia ontology
+Which regions have been the birthplaces of musicians belonging to the Polifonia ontology
+Which places have been the birthplaces of musicians belonging to the Polifonia ontology
+Which physical sites have been the birthplaces of musicians belonging to the Polifonia ontology
+Which streets have been the birthplaces of musicians belonging to the Polifonia ontology
+Which roles have been played by musicians belonging to the Polifonia ontology in situations belonging to the Polifonia ontology
+Which situations have been played by musicians belonging to the Polifonia ontology in roles belonging to the Polifonia ontology
+Which time intervals have been the time intervals of works by composer X
+Which theories have been associated with works by composer X
+Which divisions of organ X have similar stops as division Y of organ Z
+Which tunes have similar wind systems as tune X
+Which playing aids are available in console X
+Which stops of organ X have similar wind channels as stop Y of organ Z
+Which tunes have similar pedal towers as tune X
+Which consoles have similar locations as console X
+Which main cases have similar pipe collections as main case X
+Which stops of organ X have similar keyboards as stop Y of organ Z
+Which wind systems have similar wind channels as wind system X
+Which choir cases have similar pipe collections as choir case X
+What collections contain bells with similar sound profiles to the bells in the BellTower "St. Mary's Church, Waltham Abbey"
+Which Meetups have Participants with the Role "conductor" and the Purpose "performance" in the TimeRange "2019-01-01T00:00:00Z/2019-01-31T23:59:59Z"
+What is the Resource associated with the Operation "analyze" and the Parameter "spectrogram" in the TimePoint "2019-01-01T12:00:00Z"
+Which Meetups have Participants with the Role "ringer" and the Purpose "practice" in the TimeRange "2019-01-01T00:00:00Z/2019-01-31T23:59:59Z" and the Location "St. Mary's Church, Waltham Abbey"
+What is the TimeEntity associated with the Operation "play" and the Parameter "tune" in the TimePoint "2019-01-01T12:00:00Z" for the Bell "Tenor" in the BellTower "St. Mary's Church, Waltham Abbey"
+Which Meetups have Participants with the Role "ringer" and the Purpose "performance" in the TimeRange "2019-01-01T00:00:00Z/2019-01-31T23:59:59Z" and the Resource "audio recorder"
+What is the TimeReference associated with the Operation "compare" and the Parameter "spectrogram" in the TimePoint "2019-01-01T12:00:00Z" for the Bell "Treble" in the BellTower "St. Mary's Church, Waltham Abbey"
+01-01T00:00:00Z/2019-01-31T23:59:59Z"
+01-01T12:00:00Z"
+01-01T00:00:00Z/2019-01-31T23:59:59Z" and the Location "St
+01-01T12:00:00Z" for the Bell "Tenor" in the BellTower "St
+01-01T00:00:00Z/2019-01-31T23:59:59Z" and the Resource "audio recorder"
+01-01T12:00:00Z" for the Bell "Treble" in the BellTower "St

@@ -1,0 +1,126 @@
+How does the Polifonia ontology class N41d6544e4a854b8dbc42710dadc7c59b contribute to the representation of CompositionPart in the ontology
+How does the Polifonia ontology class N62e12c30564a4cda9c073a890367941a relate to the concept of BroadcastingSituation in the ontology
+How does the Polifonia ontology class Nbc8f06ecb948449c86239cd1be07f396 contribute to the representation of Award in the ontology
+How does the Polifonia ontology class N41122e0acfe3404c905f01e770621fac relate to the concept of CollectionConcept in the ontology
+How does the Polifonia ontology class N6b0ebc159deb4117ac16e981953f36a5 contribute to the representation of Broadcaster in the ontology
+How does the Polifonia ontology class Nc0c6004bf3d34fac84f2431d2d27d4ab relate to the concept of Collection in the ontology
+How does the Polifonia ontology class Nabf4275ed3a84e8e96f9a1e1ab1ad494 contribute to the representation of AnnotationMethod in the ontology
+How does the Polifonia ontology class Nec814b3138894f51acc62dbe8cec4ed0 relate to the concept of CompositionPart in the ontology
+How does the Polifonia ontology class AbstractScore contribute to the representation of Score in the ontology
+What is the CreativeAction of a specific musical piece
+How is the CreativeProcess of a specific musical piece described
+Which CreativeTasks were involved in the creation of a specific musical piece
+What is the DedicationStatement of a specific musical piece
+What is the DigitalScore of a specific musical piece
+Which FormType does a specific musical piece belong to
+What is the Instrumentation of a specific musical piece
+What is the Key of a specific musical piece
+What is the Libretto of a specific musical piece
+What is the License of a specific musical piece
+Implement a search functionality in the Polifonia ontology using the Elasticsearch search engine. The search functionality should allow users to search for musical pieces based on various criteria such as composer, genre, year of composition, and performer. The search results should display relevant information about the musical pieces, such as title, composer, year of composition, and performer. The search functionality should also allow users to filter the search results based on specific criteria, such as genre or performer. The search results should be presented in a user-friendly and intuitive interface, with clear and concise information about each musical piece. The search functionality should be fast and responsive, with minimal latency and quick response times. The search results should also be accurate and relevant, with a high degree of precision and recall. The search functionality should be integrated seamlessly into the Polifonia ontology, with a consistent and coherent user experience across all devices and platforms. The search functionality should also be scalable and flexible, with the ability to handle large volumes of data and complex queries. The search functionality should also be secure and reliable, with robust data protection and backup mechanisms. The search functionality should also be easy to use and maintain, with clear documentation and support resources. The search functionality should also be customizable and configurable, with the ability to add new criteria and refine the search algorithm. The search functionality should also be accessible and inclusive, with support for multiple languages and accessibility features. The search functionality should also be cost-effective and affordable, with a reasonable price point and transparent pricing model. The search functionality should also be innovative and cutting-edge, with the latest search technologies and techniques
+friendly and intuitive interface, with clear and concise information about each musical piece
+effective and affordable, with a reasonable price point and transparent pricing model
+edge, with the latest search technologies and techniques
+What is the genre of a given MusicEntity
+What MusicalPerformances are associated with a given Musician
+What ScoreParts are contained in a given Score
+What RecordingEquipment was used in a given RecordingProcess
+What Release is associated with a given OpusStatement
+What TextFragments are contained in a given Text
+What StudioPerformances are associated with a given MusicSheet
+What PublicationSituations are associated with a given Publisher
+What Notes are contained in a given ScorePart
+What RecordingProcesses were used in a given Recording
+What is the relationship between an Annotation and an AnnotatorType in the Polifonia ontology
+How is a ContentDescriptor related to a ContentType in the Polifonia ontology
+What is the connection between a RawDataContent and a ContentAnnotation in the Polifonia ontology
+How is a MusicContent related to a MusicProjection in the Polifonia ontology
+What is the relationship between an Analysis and an Analyst in the Polifonia ontology
+How is a Fragment related to a ContentAnnotation in the Polifonia ontology
+What is the connection between an API and a ContentDescriptor in the Polifonia ontology
+How is a ContentType related to an AnnotationType in the Polifonia ontology
+What is the relationship between a Vocabulary and an Analysis in the Polifonia ontology
+How is a ContentAnnotation related to a ContentType in the Polifonia ontology
+What is the DataFormat of a DatasetRecord
+What is the DatasetSplit of a DatasetRecord
+What is the FeatureType of a DatasetRecord
+What is the ProductionMethod of a DatasetRecord
+What is the DatasetContent of a DatasetRecord
+What is the DataModality of a DatasetRecord
+What is the DataAccessibility of a DatasetRecord
+What is the ContentAvailability of a DatasetRecord
+What is the Address of a DatasetRecord
+What is the AgentRole of a DatasetRecord
+What is the CellectionMembershipStrength of a CollectionConcept in a Collection
+Which City is associated with a Collection
+Which Collection contains a CollectionConcept
+Which CollectionMembership relates a CollectionConcept to a Collection
+Which Concept is related to a CollectionConcept through a CollectionMembership
+Which Country is associated with a Collection
+Which District is associated with a Collection
+Which Event is associated with a Collection
+Which Explanation is associated with a Collection
+Which GeographicalFeature is associated with a Collection
+What is the role of a specific person in a specific situation during a specific time interval
+What is the name of a specific organization during a specific time interval
+What is the theory of a specific person during a specific time interval
+What is the source of a specific reference during a specific time interval
+What is the spatial object of a specific place during a specific time interval
+What is the street of a specific physical site during a specific time interval
+What is the task of a specific person during a specific time interval
+What is the time indexed name of a specific person during a specific time interval
+What is the time indexed role of a specific person during a specific time interval
+What is the time indexed situation of a specific person during a specific time interval
+What is the type of the given Title
+Which Instrument is played by the given Agent
+Which Voice is used for the given Tune
+Which LyricsFamily is associated with the given Tune
+Which TuneFamily is associated with the given Tune
+Which Nd1f1358568344c22ad1630da7b6f0073 is associated with the given Project
+Which Role is played by the given Agent in the given Task
+Which Action is performed by the given Agent in the given Task
+Which Project is associated with the given Place
+Which Project is associated with the given Agent as the given Project's Agent
+What is the relationship between a Division and a DivisionStop
+How is a MainCase related to a ChoirCase
+What is the connection between a PlayingAid and a WindChannel
+How is a PedalTowerCase related to a PedalKeyboard
+What is the relationship between a StopRank and a StopKnob
+How is a ConsoleLocation related to a Console
+What is the connection between a PositiveCase and a WindSystem
+How is a WindChannel related to a WindSystem
+What is the relationship between a Keyboard and a ManualKeyboard
+How is a StopRank related to a StopRank
+Bell(x) and Resource(y) and x=y. What is the type of the resource
+Bell(x) and BellTower(y) and x is a member of y. What is the name of the bell tower
+Bell(x) and BellTower(y) and x is a member of y and y is located in Location(z). What is the location of the bell tower
+Bell(x) and BellTower(y) and x is a member of y and y is located in Location(z) and Meetup(a) and x rings at TimePoint(b) and Participant(c) and c participates in a(a) and c has Role(d) and d is a member of OperationSequence(e) and e has Operation(f) and f has Parameter(g) and g has ComputationalAnalysis(h) and h has Resource(i) and i=y. What is the purpose of the bell tower
+Bell(x) and BellTower(y) and x is a member of y and y is located in Location(z) and Meetup(a) and x rings at TimePoint(b) and Participant(c) and c participates in a(a) and c has Role(d) and d is a member of OperationSequence(e) and e has Operation(f) and f has Parameter(g) and g has ComputationalAnalysis(h) and h has Resource(i) and i=y and Resource(j) and j=y. What is the relationship between the bell and the resource
+Bell(x) and BellTower(y) and x is a member of y and y is located in Location(z) and Meetup(a) and x rings at TimePoint(b) and Participant(c) and c participates in a(a) and c has Role(d) and d is a member of OperationSequence(e) and e has Operation(f) and f has Parameter(g) and g has ComputationalAnalysis(h) and h has Resource(i) and i=y and Resource(j) and j=y and Resource(k) and k=y. What is the relationship between the bell tower and the resource
+What is the Accidental associated with a specific Chord in the Polifonia ontology
+What is the AmbitusType of a specific Ambitus in the Polifonia ontology
+What is the Cadence associated with a specific Fragment in the Polifonia ontology
+What is the CadenceType of a specific Cadence in the Polifonia ontology
+What is the Chord associated with a specific Fragment in the Polifonia ontology
+What is the Clef associated with a specific MediumOfPublishing in the Polifonia ontology
+What is the ContextOfProduction associated with a specific Source in the Polifonia ontology
+What is the ContextOfUsage associated with a specific Source in the Polifonia ontology
+What is the SourceCredibility associated with a specific Source in the Polifonia ontology
+What is the SourceType associated with a specific Source in the Polifonia ontology
+What is the difference between a SpecificInterval and a GenericInterval in the Polifonia ontology
+How is a SpelledPitchClass represented in the Polifonia ontology
+What is the relationship between a Mode and a Key in the Polifonia ontology
+How is a NaturalAccidental represented in the Polifonia ontology
+What is the difference between a FlatAccidental and a SharpAccidental in the Polifonia ontology
+How is a SpecificScaleDegree represented in the Polifonia ontology
+What is the relationship between a ModeType and a Mode in the Polifonia ontology
+How is an EnharmonicInterval represented in the Polifonia ontology
+What is the difference between an EnharmonicPitchClass and a SpelledPitchClass in the Polifonia ontology
+How is a GenericScaleDegree represented in the Polifonia ontology
+What is the relationship between N72670173c11e4570ad73297fc6cdc46d and N6700f6b3b2734a4b9296238f44c3c06b
+How is N14e095995b624b8d9f99cfdfc44a5e84 related to Nb9209357ee394c169abfeea25ea012a4
+What is the connection between Nb9209357ee394c169abfeea25ea012a4 and Nd4c13a4828254528a9d42bdb82680730
+How is Nd4c13a4828254528a9d42bdb82680730 related to N9bf1adf377504eddb5d88f5e31b389f7
+What is the relationship between N9bf1adf377504eddb5d88f5e31b389f7 and Ncb8889454f844698a90174c2e8bdbe41
+How is Ncb8889454f844698a90174c2e8bdbe41 related to N72670173c11e4570ad73297fc6cdc46d
+What is the connection between N72670173c11e4570ad73297fc6cdc46d and N14e095995b624b8d9f99cfdfc44a5e84
