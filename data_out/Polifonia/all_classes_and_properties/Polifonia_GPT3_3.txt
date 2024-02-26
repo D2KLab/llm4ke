@@ -1,0 +1,130 @@
+What is the tempo of composition X
+Which tunes have the same order number as tune Y
+What is the instrumentation of tune Z
+What is the key of composition W
+Which broadcaster broadcasted composition V
+What is the form type of tune U
+What text is part of music entity part T
+Which compositions are part of music entity part S
+What is the publication situation of composition R
+Which agent is involved in the recording process of composition Q
+What creative actions are involved in the creation of a specific composition
+Which collections involve a particular composition part
+What dedication statements are associated with a specific musical work
+What is the key of a particular musical composition
+What license is associated with a specific digital score
+What medium of performance is required for a particular musical piece
+What mode type is applicable to a given movement in a composition
+What music algorithms are involved in the annotation of music intervals
+What live performances have a particular instrumentation
+What lyrics are included in a specific libretto
+Which music artists have collaborated with Musician X
+What music ensembles has Musician X been a member of
+What genres is MusicEntity X associated with
+Which music ensembles has Musician X been involved in
+What recording equipment was used for Recording X
+What opus statements are associated with Score X
+Which publishers are associated with MusicEntity X
+What recording processes were involved in Recording X
+What awards has MusicArtist X been nominated for
+What musical performances has MusicEntity X been a part of
+What datasets contain records with specific feature type
+Which datasets have content annotated with particular data modality
+What text fragments are part of a specific dataset
+What is the split type used in a particular dataset
+Which datasets have content accessible via a specific API
+What content descriptors are associated with a specific dataset
+What data formats are used in a particular dataset
+Which datasets have data available for download
+What production methods are used in the creation of a specific dataset
+What operations are performed on a particular dataset
+What parameters are involved in the computational analysis of music content
+Which analysts are involved in the analysis of music projections
+What annotations are associated with a specific fragment of music content
+Who are the annotators of a particular observation
+What instruments are involved in the analysis of music fragments
+What is the confidence level of a specific annotation
+What analytical references are used in a computational analysis operation sequence
+Which annotator types are associated with a particular annotation type
+What music projections are involved in a specific observation
+What is the temporal location of a particular music fragment described in an annotation
+What instrument parts are used in the realization of a specific instrument
+Which agents were involved in the creation of a particular collection
+What is the geographic origin of a specific address component
+How are aliases related to specific concepts within the ontology
+What roles do agents play in the classification of collections
+Which tunes are classified under a specific collection concept
+How are address components related to specific addresses
+What is the membership strength of a particular collection within a concept
+In what regions are specific collections involved
+How are actions defined within the context of the ontology
+What events are associated with a specific geographical feature
+Which organizations have contributed to a particular music dataset
+What information objects are related to a specific language
+Who are the individuals involved in a particular explanation
+What physical sites are linked to a certain region
+Which music datasets have a specific music time duration
+What regions are associated with a particular province
+What explanations are based on a specific information realization
+What music time intervals are included in a certain music time index
+Which persons are related to a particular organization
+Which roles are associated with a specific situation
+What sources are related to a particular spatial object
+What tasks are executed by a certain role
+What theories are based on a specific time indexed situation
+What time intervals are linked to a particular title
+Which types are related to a specific location
+Which meetups involve a particular participant
+What purposes are aimed for in a given context of usage
+Which evidence texts are associated with a specific participant
+What roles are involved in a particular time reference
+Which resources have a similar time range as resource X
+What is the accidental of chord Y
+What is the duration of clef Z
+Which time entities have the same time reference as time entity A
+What is the enharmonic pitch class of accidental B
+What is the ambitus type of ambitus C
+Which chords are composed of enharmonic interval D
+What is the octave of flat accidental E
+Which cadence types are associated with cadence F
+What is the staff line of duration G
+What is the specific interval value of a given interval
+Which pitch class is the starting pitch class of a specific interval
+What quality is associated with a specific interval
+What key is related to a specific mode type
+What is the duration of a pitch in a musical piece
+Which pitch class does a pitch belong to
+What is the accidental of a pitch class
+What specific interval value is linked to a quality
+Which mode type is associated with a key
+What is the starting pitch class of a specific interval value
+What is the context of production of a specific fragment
+What sources are related to a particular subject
+Which agents are involved in a specific project
+What roles are executed in a particular task
+What is the medium of publishing for a given bibliographical reference
+What is the credibility of a certain source
+What is the temporal location of a specific fragment
+Who is the annotator of a particular annotation
+What is the birthplace of a specific agent
+What is the current parthood of a particular entity
+What are the different divisions in a given organ
+Which organ cases have a main case and a pedal tower case
+What are the different types of playing aids used in organs
+Which keyboards are typically found in a choir case
+What is the range of pipes in a specific division stop
+Which organs have a positive case and an oberwerk case
+What is the pitch of a specific pipe in an organ
+Which consoles have a console location property
+What is the foot height of a pedal keyboard
+What is the tuning of a specific rank in an organ
+Which tunes belong to the same LyricsFamily as tune X
+What is the wind system used for tune X
+How many stop knobs does tune X have
+What is the stop rank of tune X
+What tunes have the same wind channel as tune X
+Which tunes belong to the same TuneFamily as tune X
+What is the source of tune X
+What tunes have a similar number of bellows as tune X
+What tunes have a similar source as tune X
+How many tunes are in the same LyricsFamily as tune X

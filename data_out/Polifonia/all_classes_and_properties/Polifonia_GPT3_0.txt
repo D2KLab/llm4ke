@@ -1,0 +1,130 @@
+What are the properties of the Bell class
+What are the relationships of the SetOfBells class
+How is the N6d71aadca5124d4588c486e54e49634b class related to other classes
+What are the attributes of the AbstractScore class
+How is the AnnotationMethod class connected to other classes
+What is the role of the Broadcaster class in the ontology
+How is the BroadcastingSituation class linked to other classes
+What are the relationships of the Award class
+What properties are associated with the BellTower class
+How are the properties hasLicense and isLicenseOf utilized in the ontology
+What are the members of a Collection
+How is a CompositionPart defined
+What CreativeActions are involved in a CreativeTask
+Who is a DedicationStatement dedicated to
+What FormType does a CreativeProcess have
+What is the Instrumentation of a CompositionPart
+What License is associated with a DigitalScore
+What MediumOfPerformances are involved in a LivePerformance
+What ModeType is defined by a MusicAlgorithm
+What is the relationship between a MusicAnnotationTimeInterval and a MusicAlgorithm
+What genres is a MusicArtist involved in
+Which MusicEnsemble did a Musician perform with
+What MusicEntity does a MusicSheet belong to
+Which MusicEnsemble was involved in a MusicalPerformance
+What RecordingProcess was used to produce a Recording
+What RecordingEquipment was used in a StudioPerformance
+What Publisher is associated with a Score
+What OpusStatement belongs to a MusicEntity
+What Musician has collaborated with a MusicArtist
+Which MusicEnsemble has received an award
+What are the possible data formats in the Polifonia ontology
+How is a dataset split in the Polifonia ontology
+What production methods are associated with dataset records in Polifonia
+What is the accessibility level of the API in the Polifonia ontology
+How is text content annotated in Polifonia
+What is the modality of the data in the Polifonia ontology
+Which API is linked to content annotations in Polifonia
+What is the content type of dataset records in Polifonia
+How is data availability described in the Polifonia ontology
+What datasets are maintained by a specific entity in Polifonia
+What is the temporal location of a fragment
+Who is the annotator type of a given annotation
+What music content is involved in a computational analysis
+Which analyst was involved in a specific analysis
+What is the confidence level of a given annotation
+What is the annotation type of an annotation
+Who is the annotator of a specific annotation
+What is the observation associated with a subject
+What is the subject of a given observation
+When was a particular fragment invented
+What agents are involved in the classification process
+Who invented the concept described in a specific address component
+Which collection does a particular member belong to
+What is the role of a specific agent in a collection
+What concepts are used in a given classification
+What is the membership strength of a certain alias
+Who maintains a specific address
+What is the address of a particular collection
+What is the street number of a specific address component
+Which city is associated with a particular district
+What are the properties of the class Event
+How is the class Explanation related to other classes in the ontology
+What is the relationship between GeographicalFeature and InformationRealization
+How is Language connected to MusicDataset
+What properties are associated with the class Name
+What classes are related to the property hasCondition
+How is Person linked to Organization in the ontology
+What is the connection between PhysicalSite and Place
+How is Reference related to Region
+What properties are associated with MusicTimeDuration
+What roles are associated with a specific situation
+What sources have a high credibility level
+Which time intervals are related to a particular type
+What tasks are aimed for a specific purpose
+Which participants are involved in a particular meetup
+What theories are the explanations based on for a given situation
+Which spatial objects are included in a specific street
+What time expressions are related to a particular title
+What types of activities have a specific start time
+What locations does a particular street intersect with
+What properties does the class TimePoint have
+What properties does the class Resource have
+What properties does the class Chord have
+What properties does the class Clef have
+What is the relationship between the class Accidental and the class EnharmonicPitchClass
+What is the relationship between the class Ambitus and the class AmbitusType
+What is the relationship between the class Cadence and the class CadenceType
+What properties are associated with the class Ne6be5430d0064717a15596e78c2c49dc
+What properties are associated with the class N5522b63960f9473b929ba0ea6a11b89d
+What properties are associated with the class Nbe97fd61a1eb41bf910d02849f73eb0c
+What is the specific interval value of a given interval
+What is the starting pitch class of a specific interval
+What is the quality of a given interval
+What is the key associated with a specific pitch
+What is the mode type of a given mode
+What is the duration of a specific pitch
+What is the pitch class of a given pitch
+What is the accidental of a particular pitch
+What is the quality of a specific interval value
+What is the starting pitch class of a particular interval value
+What is the context of production of a specific entity
+What is the context of usage of a particular object
+What is the credibility of a given source
+What is the subject of a specific fragment
+What medium was used for publishing a certain work
+Who is the agent involved in a specific project
+What roles are associated with a particular task
+What is the birthplace of a specific person
+What projects was a particular agent involved in
+What tasks are executed within a specific project
+What are the properties of a Pipe
+What is the relationship between Organ and Division
+What are the characteristics of a ManualKeyboard
+How is a PedalTowerCase related to an Organ
+What are the playing aids associated with an Organ
+What is the range of a DivisionStop
+How is a PositiveCase connected to an Organ
+What is the tuning of a Pipe
+What are the attributes of a Bellow
+How is a MainCase related to a Console
+What are the properties of a StopKnob
+How is a StopRank related to other classes in the Polifonia ontology
+Can a WindChannel have multiple WindSystems associated with it
+What is the relationship between LyricsFamily and TuneFamily
+How many bellows does a Tune have according to the ontology
+What type of source does a TuneFamily typically have
+How are StopKnob and WindSystem connected in the ontology
+What is the significance of the hasNumberOfBellows property in the Polifonia ontology
+How does a StopRank differ from a WindSystem in terms of properties
+Can a Tune be associated with multiple LyricsFamilies

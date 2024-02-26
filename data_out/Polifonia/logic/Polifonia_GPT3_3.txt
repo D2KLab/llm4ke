@@ -1,0 +1,130 @@
+What licenses are associated with a specific music entity
+What publication situations are related to a particular publication
+Which music artists are involved in a certain music creation process
+What compositions are part of a specific abstract score
+Which music artists have been nominated for awards
+What broadcasters are involved in broadcasting a particular recording
+What instrumentation is associated with a specific abstract score
+What key is used in a particular abstract score
+Which broadcasting situations involve a specific recording
+What form type is assigned to a particular abstract score
+What creative actions are involved in the creation of a specific music entity
+What is the dedication statement for a particular music entity
+What form type is associated with a specific abstract score
+What instrumentation is used in a particular abstract score
+What key is a specific abstract score written in
+What medium of performance is associated with a score part
+What mode type is linked to a mode
+What license is associated with a specific entity
+What training dataset is used for a particular music algorithm
+What collections involve a given set of tunes
+Which music artists have collaborated with artist X
+What genres are associated with music artist X
+Which music artists are involved in the creative process
+What awards has music artist X been nominated for
+What ensembles is music artist X a member of
+What places are associated with the formation of music ensemble X
+Which music entities have Opus statements
+What publishers are associated with a specific publication situation
+What equipment is used in a specific recording process
+What medium of performance is associated with a score part
+What features describe the raw data content of a dataset
+How is a dataset split into subsets for analysis
+Which datasets are aimed for a specific task
+What is the accessibility of a dataset through its API
+What is the data modality of a raw data content
+Which datasets contain music entities as dataset records
+How is a dataset extended to include more data
+What content annotations are associated with a content descriptor
+What is the record count of a dataset
+Which datasets are maintained by a specific agent
+What annotations are associated with a specific music content
+Which analysts are involved in a particular analysis
+What is the confidence level of a certain analysis
+What type of annotations do annotators create
+Which agents are annotators of a specific annotation
+What temporal location is assigned to a fragment of music content
+Which music projections are subjects of observations
+When was a specific instrument invented
+What annotator types exist for agents in the ontology
+Which collections contain a given set of tunes
+What agents have built a specific instrument realization
+When was a particular instrument realization built
+In which place was a certain instrument realization constructed
+What is the value type of a specific entity
+What console locations are associated with a certain action
+What is the full address of a physical site
+Who maintains a particular dataset
+What annotator types are assigned to a specific agent
+Who invented a particular instrument
+What is the membership strength of a collection membership
+What theories explain a specific musical composition
+Which agents conceptualized a particular explanation
+What information objects are realized by a specific information realization
+What languages are associated with a particular thing
+Which music datasets were used to train a specific music algorithm
+What is the temporal location of a particular music fragment
+Which names are anagrams of a specific name
+What is the birthplace of a certain person
+What physical site has a particular address
+What province is associated with a specific address
+What is the role of Participant Y in the meetup
+What is the source credibility of Source X
+What is the context of production of Source Y
+What is the title of Thing Z
+What is the time indexed name of Thing W
+What is the type of Thing V
+What is the DBpedia entity of Location U
+What is the purpose of the Meetup T
+What is the evidence text of Meetup S
+What is the time reference of Meetup R
+What resources are associated with a specific location
+How can we determine the accidental of a pitch class
+What is the octave value of a particular resource
+What type of ambitus is associated with a specific ambitus type
+What cadence types are related to a cadence
+Which notes have a specific duration
+What is the staff line of a clef
+Which chords are composed of a specific entity
+How can we determine the accidental of a pitch class
+What is the duration of a note
+Which intervals have a specific interval value
+What is the starting pitch class of a given interval
+What is the quality of a specific interval
+What is the key of an abstract score
+What is the mode type of a mode
+What is the duration of a note
+What is the pitch of a note
+What is the pitch class of a given pitch
+What accidental is associated with a pitch class
+What interval quality is associated with a specific interval
+What are the contexts of production and usage of a specific source
+Which sources have a credibility rating above a certain threshold
+What are the subjects related to a particular source
+What are the medium of publishing and references for a given source
+What are the temporal locations of music fragments within a content
+Who are the agents involved in maintaining a dataset
+What is the role of a participant in a project
+Which places are associated with the formation of a music ensemble
+What tasks are datasets aimed for
+Which agents are annotators of a specific annotation
+What is the pitch of a specific organ
+Which division stops have a foot height greater than X
+What is the range of a specific keyboard
+How many ranks does a specific keyboard have
+What is the tuning of a specific organ
+Which organ has a pitch of X
+What is the foot height of a specific division stop
+How many keyboards have a range greater than X
+Which organs have a specific tuning
+How many division stops have a foot height within a certain range
+What are the geographic origins of tunes in collection X
+What is the source of tune X
+How many bellows does wind system X have
+What are the similarities between tunes X and Y
+What are the differences between wind systems X and Y
+Which collections contain tunes with a similar melody to tune X
+How many tunes in collection X have a specific source
+What is the average number of bellows in wind systems across all collections
+What is the most common source of tunes in the ontology
+How does the number of bellows in wind systems correlate with the geographic origin of tunes

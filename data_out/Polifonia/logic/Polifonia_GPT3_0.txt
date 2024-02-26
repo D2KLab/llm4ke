@@ -1,0 +1,130 @@
+What is the license associated with a specific entity
+What is the publication situation of a particular entity
+Which music artist is involved in a certain process
+What is the composition part of an abstract score
+What form type is associated with a specific abstract score
+What instrumentation is used in a particular abstract score
+What key is assigned to a specific abstract score
+Which awards has a music artist been nominated for
+Which broadcaster is associated with a particular broadcasting situation
+What is the order number of a specific abstract score
+What are the members of a specific collection
+How is a composition part related to an abstract score
+What creative actions are involved in a creative process
+Which music entities are created by a specific creative process
+What dedication statements are associated with a dedication statement
+What is the form type of a specific abstract score
+What instrumentation is associated with an abstract score
+What key is linked to an abstract score
+What license is connected to a specific entity
+What medium of performance is associated with a score part
+What genres is a specific MusicArtist associated with
+Which MusicArtist has collaborated with another specific MusicArtist
+What awards has a particular MusicArtist been nominated for
+What CreativeProcess is a MusicArtist involved in
+What MusicEnsemble is a MusicArtist a member of
+Which MusicArtist influenced a specific MusicArtist
+What MusicEnsemble was formed in a particular Place
+What MusicEntity has a specific OpusStatement
+What Publisher is associated with a particular PublicationSituation
+What RecordingProcess produced a specific Recording
+What is the relationship between Text and TextFragment in the Polifonia ontology
+How is ContentAnnotation related to ContentDescriptor in Polifonia
+What is the connection between RawDataContent and DataModality in Polifonia
+How are Dataset and DataAvailability linked in the Polifonia ontology
+What kind of entities does DatasetRecord include in Polifonia
+How is DatasetSplit related to DatasetRecord in Polifonia
+What is the role of FeatureType in the relationship between ContentDescriptor and Dataset in Polifonia
+How is AbstractScore connected to Text in Polifonia
+What is the significance of ContentType in the context of ContentAnnotation in Polifonia
+How are Dataset and Task related in the Polifonia ontology
+What is the confidence level of the analysis
+Which agents are involved in the analysis
+What is the annotation type of a specific annotation
+Who is the annotator of a particular annotation
+What is the temporal location of a fragment
+What is the subject of a specific observation
+Who invented a particular instrument
+What is the fragment described by a specific annotation
+Which music content is involved in the analysis
+What is the annotator type of a specific agent
+What Agent built the InstrumentRealization
+When was the InstrumentRealization built
+In which Place was the InstrumentRealization built
+What ConsoleLocation does the Action have
+What is the full address of the PhysicalSite
+What AddressComponent is part of the Address
+What Country is associated with the Address
+What City is linked to the Address
+What Collection is the Thing a member of
+What Concept is classified by the Thing
+What is the relationship between Explanation and Situation in Polifonia
+How is Theory related to Explanation in Polifonia
+What is the connection between InformationObject and InformationRealization in Polifonia
+How is Language related to Thing in Polifonia
+What is the relationship between MusicDataset and MusicAlgorithm in Polifonia
+How is Fragment connected to MusicTimeInterval in Polifonia
+What is the relationship between Name and Thing in Polifonia
+How is Person related to DedicationStatement in Polifonia
+What is the connection between Place and MusicEnsenble in Polifonia
+How is Region related to Address in Polifonia
+What roles does a Participant have in Polifonia
+How are Explanations related to Situations in Polifonia
+What sources are associated with Contexts of Production and Usage in Polifonia
+How are Time Intervals linked to Instruments in Polifonia
+What is the relationship between Titles and Things in Polifonia
+How are Locations represented in Polifonia through DBpedia and Wikidata entities
+What is the purpose of a Meetup in Polifonia
+How are Roles assigned to Participants in Polifonia Meetups
+What are the types of Things represented in Polifonia
+How are Tasks related to Datasets in Polifonia
+What DBpedia entity does a location have
+What Wikidata entity does a location have
+What accidental does a specific entity have
+What is a chord composed of
+What octave does a specific entity have
+What accidental is related to a pitch class
+What ambitus type does an ambitus have
+What cadence type does a cadence have
+What staff line is a clef on
+What duration does a note have
+What is the specific interval value associated with a given interval
+What pitch class is the starting pitch class of a specific interval
+What is the quality of a specific interval
+What key is associated with an abstract score
+What mode type is associated with a mode
+What duration is associated with a note
+What pitch is associated with a note
+What pitch class is associated with a pitch
+What accidental is associated with a pitch class
+What interval quality is associated with a specific interval
+What is the context of production for a specific source
+What is the context of usage for a particular source
+What is the credibility of a given source
+What is the subject of a specific source
+What is the medium of publishing for a source
+What is the reference for a particular source
+What is the wind pressure for a specific dataset
+What is the annotator type for a certain agent
+Who was the builder of a specific instrument realization
+What is the role of a participant in a dataset
+What is the console location of a given action
+What is the foot height of a division stop
+What is the range of a keyboard
+What is the rank of a keyboard
+What is the pitch of an organ
+What is the tuning of an organ
+Which console locations are associated with a specific action
+Which division stops have a certain foot height
+Which keyboards have a particular range
+Which organs have a specific tuning
+What is the number of bellows in a WindSystem
+What is the source of a Tune
+How many bellows does WindSystem A have
+What is the source of Tune B
+Which WindSystem has the highest number of bellows
+How many bellows does WindSystem C have
+What is the source of Tune D
+Which Tune has a specific source
+How many bellows does WindSystem B have
+What is the source of Tune E

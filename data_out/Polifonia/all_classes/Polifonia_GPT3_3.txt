@@ -1,0 +1,133 @@
+What bells are part of the set of bells X
+What bell towers contain bell Y
+What broadcaster broadcasted the performance of score Z
+What annotation methods were used to annotate score W
+What awards have been given to broadcaster V
+What broadcasting situations are associated with broadcaster U
+What tunes are included in collection T
+What is the geographic origin of tune S
+What similarities exist between tunes R and P based on similarity measure Q
+What collections contain the set of tunes O
+What compositions belong to a specific form type
+Which creative actions are associated with a particular collection concept
+What instrumentation is commonly used in live performances of a specific composition
+What creative processes are involved in creating a digital score
+Which movements are part of a specific composition
+What medium of performance is associated with a particular collection
+What lyrics are included in a given libretto
+What key is a specific composition written in
+What licenses are required for using a digital score in a live performance
+What music annotation time intervals are associated with a specific music algorithm
+What music genres are associated with MusicArtist X
+Which MusicEnsembles have performed MusicEntity Y
+What MusicSheets are available for MusicEntity Z
+What MusicGenres are typically associated with Musician W
+What Notes are included in Score X
+What OpusStatements are related to MusicArtist Y
+Which Recordings were made using RecordingEquipment A
+What Scores are part of ScorePart B
+What Sections are included in MusicalPerformance C
+What StudioPerformances have been released by Publisher D
+What text fragments are associated with content annotations in dataset X
+How can we determine the data availability of dataset Y
+What production methods are used in the creation of dataset Z
+What content descriptors are linked to text fragments in dataset W
+Which APIs can be used to access dataset V
+What data formats are compatible with dataset U
+What data modalities are present in dataset T
+How are dataset records organized in dataset S
+What split types are used in dataset R
+What operations can be performed on dataset Q
+What parameters are used in the computational analysis of music content
+How are music projections related to specific instruments
+What analytical references are associated with a particular analysis
+Who are the annotators involved in annotating music fragments
+What annotation types are used for music observations
+How are music fragments categorized within the ontology
+What is the relationship between music content and music projections
+How are operations sequenced in computational analyses
+Which vocabulary terms are commonly used in music annotations
+What are the roles of analysts in the analysis of music data
+What are the different types of InstrumentParts in the Polifonia ontology
+How are InstrumentRealizations related to Instruments in Polifonia
+What are the characteristics of a Voice in the Polifonia ontology
+How are Nf8dec5431ae34bde85a411c43ea508bb instances defined in Polifonia
+What actions are associated with musical performances in Polifonia
+How are Addresses structured in the Polifonia ontology
+What is the role of an Agent in the context of Polifonia
+How are Aliases used to represent entities in Polifonia
+What is the concept of CollectionMembershipStrength in Polifonia
+How are Concepts organized within Collections in Polifonia
+What events are associated with a specific geographical feature
+How can information objects be linked to music datasets
+What languages are commonly used in music information objects
+How are music time intervals represented in the ontology
+Which organizations are involved in the creation of music datasets
+What are the relationships between persons and music time indices
+How are physical sites related to music regions
+What provinces are linked to specific music time values
+What references are available for music information realization
+How are music regions classified within the ontology
+What roles are associated with a specific situation
+How are spatial objects related to specific tasks
+What theories are relevant to a particular time period
+Which time-indexed names are linked to a specific interval
+What types of locations are connected to a meetup event
+Who are the participants in a given purpose
+What is the significance of the class n4a20cce111b04f19a89808a5652ebe40b8
+How are roles and time expressions correlated
+What titles are associated with certain time-indexed roles
+Which streets are related to a particular source
+indexed names are linked to a specific interval
+indexed roles
+What are the different types of cadences in the Polifonia ontology
+How can the ambitus of a musical piece be represented in Polifonia
+What is the relationship between a chord and a clef in the Polifonia ontology
+How are accidental notes represented in Polifonia
+What is the significance of duration in the Polifonia ontology
+How can enharmonic intervals be defined in Polifonia
+What is the role of a flat accidental in representing musical notes
+How are time points and time ranges related in Polifonia
+What is the purpose of a general date-time expression in Polifonia
+How are resources categorized in the Polifonia ontology
+time expression in Polifonia
+What are the different types of intervals in the Polifonia ontology
+How are pitch classes represented in the Polifonia ontology
+What is the relationship between pitch and note in the Polifonia ontology
+How are key and mode related in the Polifonia ontology
+What is the significance of specific intervals in the Polifonia ontology
+How are spelled pitch classes represented in the Polifonia ontology
+What is the role of natural and sharp accidentals in the Polifonia ontology
+What are the different mode types defined in the Polifonia ontology
+How are generic scale degrees related to specific scale degrees in the Polifonia ontology
+What are the unique identifiers N43216521837c4b9e96dffa608af477c3, N2de6b6c8061b49ec81ad0d2fc2b6912e, Ndd08e118ec264de690081c35b87e4321, Ncbec7c4da74c411fa61dc62aa62f5f96 used for in the Polifonia ontology
+What are the different roles played by agents in the Polifonia ontology
+How can the credibility of a source in Polifonia be assessed
+What is the context of production for a given fragment in Polifonia
+How are subjects categorized in the Polifonia ontology
+What are the different types of sources included in Polifonia
+How is parthood defined in the Polifonia ontology
+What is the relationship between a project and a task in Polifonia
+How are places represented in the Polifonia ontology
+What mediums of publishing are considered in Polifonia
+How are bibliographical references structured in Polifonia
+What are the different types of keyboards used in the Polifonia ontology
+How are the cases categorized in the Polifonia ontology
+Which classes in the Polifonia ontology are related to playing aids
+What is the relationship between a Division and a DivisionStop in the Polifonia ontology
+How are the different types of cases connected to each other in the Polifonia ontology
+What are the different types of pipes included in the Polifonia ontology
+How are the actions represented in the Polifonia ontology
+What is the relationship between a Console and a ConsoleLocation in the Polifonia ontology
+How are the different types of cases classified in the Polifonia ontology
+What are the different types of organs included in the Polifonia ontology
+What stop knobs are associated with a specific wind system
+Which tunes belong to the same tune family as tune X
+What lyrics families are connected to a particular tune family
+How are stop ranks related to wind channels in the ontology
+What is the geographic origin of tunes in a specific tune family
+Which wind systems use a particular stop rank
+What stop knobs are commonly used in wind channels of a certain type
+How are lyrics families connected to tunes in the ontology
+Which tunes have the highest similarity measures to tune X
+What collections contain tunes from a specific geographic origin

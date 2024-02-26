@@ -1,0 +1,132 @@
+What are the characteristics of a BellTower
+How is a SetOfBells structured
+What is the purpose of Nd4224223ca6042d4876cdbfc4a31b648
+How is N7f18b8349b304c71aa56cf4a25254fb4 related to other classes in the ontology
+What is the function of AnnotationMethod in Polifonia
+What criteria are used to determine an Award in the ontology
+How does N773a9c9167694507a0621a597153ab41 relate to Broadcaster
+What is the role of N01ecab95825d47d28bc0be11db440ef7 in the ontology
+How is N0b93ccb0bc834bef96cc4164963d6c07 linked to BroadcastingSituation
+What is the significance of AbstractScore in Polifonia
+What are the properties of a CollectionConcept
+How is a CompositionPart related to a Collection
+What is the role of CreativeAction in the Polifonia ontology
+How is a CreativeTask defined within the ontology
+What information does a DedicationStatement provide
+How is a DigitalScore represented in the ontology
+What is the significance of FormType in Polifonia
+How is Instrumentation modeled in the ontology
+What does a Key represent in the context of Polifonia
+How is a Libretto related to a LivePerformance
+What are the attributes of a MusicArtist
+How are MusicEnsembleMembership and MusicEnsemble related
+What is the definition of MusicEntity
+How do MusicGenres differ from each other
+What information does a MusicSheet contain
+How is a MusicalPerformance defined
+What role does a Musician play in the music industry
+What is the significance of a Note in music theory
+How is a RecordingEquipment used in the recording process
+What is the purpose of a StudioPerformance in the music industry
+What are the different types of content descriptors in the Polifonia ontology
+How is data accessibility defined in the Polifonia ontology
+What classes are associated with dataset records in Polifonia
+What are the possible production methods for datasets in Polifonia
+How is data modality represented in the Polifonia ontology
+What is the relationship between text fragments and content annotations in Polifonia
+What are the different types of datasets found in the Polifonia ontology
+How is content availability defined in the Polifonia ontology
+What classes are associated with API in Polifonia
+What are the different types of data formats in the Polifonia ontology
+What are the key attributes of the OperationSequence class
+How is the Parameter class related to other classes in the ontology
+What types of analyses are included in the ComputationalAnalysis class
+What is the purpose of the N5f5f89a2f83e4c7daeabb0a15b5d1f56 class
+How is the Vocabulary class structured within the ontology
+What information is stored in the Analysis class
+How are Analysts represented in the ontology
+What is the role of the Annotation class in the ontology
+How are Fragments connected to other classes in the ontology
+What is the significance of the Instrument class in Polifonia ontology
+What are the properties of an InstrumentPart
+How is an InstrumentRealization defined
+What is the role of a Voice in the ontology
+How is an Action represented in Polifonia
+What information is captured in an Address
+How are Agents and AgentRoles related in the ontology
+What is the significance of a CollectionConcept
+How are CollectionMemberships represented
+What are the properties of a Concept in Polifonia
+How are Descriptions structured in the ontology
+What are the attributes of a MusicDataset
+How is a Person related to an Organization in Polifonia ontology
+What is the role of a GeographicalFeature in the context of Polifonia
+How is a PhysicalSite distinguished from a Place in Polifonia
+What are the characteristics of an Event in Polifonia
+How is a MusicTimeIndexComponent connected to a MusicTimeIndex
+What information does an InformationObject contain in Polifonia
+How is a Province related to a Region in Polifonia
+What types of References are included in the Polifonia ontology
+How is a Language represented in the Polifonia ontology
+What are the roles associated with a specific situation
+What sources are related to a particular theory
+How are spatial objects connected to time intervals
+What tasks are linked to a certain type of meetup
+What are the time expressions associated with a given title
+Which participants are involved in a particular purpose
+What locations are related to a specific street
+How are time-indexed names related to time-indexed roles
+What time-indexed situations occur within a certain time interval
+What is the purpose of the nfa0720c5d26a4eef848b2549f88709e4b8 class
+indexed names related to time-indexed roles
+indexed situations occur within a certain time interval
+What are the properties of a TimePoint
+How is a Chord defined in the Polifonia ontology
+What is the relationship between Cadence and CadenceType
+What is the role of Clef in musical notation
+How is Duration represented in the ontology
+What are the characteristics of an EnharmonicInterval
+How are resources defined in the Polifonia ontology
+What is the significance of Ambitus in music theory
+How are Accidental and FlatAccidental related
+What is the structure of a GeneralDateTimeExpression in the ontology
+What are the attributes of a specific interval in Polifonia
+How is a pitch class represented in Polifonia
+What defines the quality of an interval in Polifonia
+How are notes structured in Polifonia
+What are the characteristics of a key in Polifonia
+How is a mode type defined in Polifonia
+What distinguishes a natural accidental in Polifonia
+How are spelled pitch classes represented in Polifonia
+What is the significance of the class Ncd6e39153d4b4da489c6ef9a8e847742 in Polifonia
+How are intervals categorized in Polifonia
+What are the different types of sources in Polifonia
+How is the credibility of a source determined in Polifonia
+What is the role of an agent in Polifonia
+How are fragments categorized in Polifonia
+What is the relationship between context of production and context of usage in Polifonia
+How are subjects classified in Polifonia
+What is the significance of bibliographical references in Polifonia
+How are mediums of publishing defined in Polifonia
+What are the different roles that can be assigned to agents in Polifonia
+How are tasks organized within projects in Polifonia
+What are the different types of keyboards in the Polifonia ontology
+How are cases organized in the Polifonia ontology
+What are the different types of divisions in the Polifonia ontology
+How are pipes categorized in the Polifonia ontology
+What are the playing aids included in the Polifonia ontology
+How are actions represented in the Polifonia ontology
+What are the components of an organ in the Polifonia ontology
+How are bellows classified in the Polifonia ontology
+What are the different types of cases in the Polifonia ontology
+How are console locations defined in the Polifonia ontology
+How are StopKnob and StopRank related in the Polifonia ontology
+What is the role of WindSystem in the context of Polifonia
+How can WindChannel be classified within the Polifonia ontology
+What distinguishes LyricsFamily from other classes in Polifonia
+In what way are Tune and TuneFamily connected in the Polifonia ontology
+How do StopKnob and WindChannel interact within Polifonia
+What attributes define a Tune in the Polifonia ontology
+What relationships exist between LyricsFamily and TuneFamily in Polifonia
+How does WindSystem impact the composition of a Tune in Polifonia
+What functionalities does StopRank offer in the Polifonia ontology
