@@ -1,0 +1,40 @@
+Which managed element is associated with a specific agent in the noria-o ontology
+What is the relationship between an application module's SLA level and its status in the context of noria-o
+What is the connection between a trouble ticket's detection time and its planned restoration time in the noria-o ontology
+How is the trouble ticket category related to its problem category in the noria-o ontology
+What is the correlation between a change request's planned start time and its actual start time in the noria-o ontology
+How does the event related to a dynamic element in the noria-o ontology connect with a structural element
+What is the association between an application's model identifier and its numerical identifier in the noria-o ontology
+What is the connection between a trouble ticket's cause and its detection time in the noria-o ontology
+How does a change request's status current relate to its specification in the noria-o ontology
+What is the relationship between a trouble ticket's urgency and its priority in the noria-o ontology
+o ontology
+o
+o ontology
+o ontology
+o ontology
+o ontology connect with a structural element
+o ontology
+o ontology
+o ontology
+o ontology
+What is the severity level of a specific trouble ticket
+What is the type of a given trouble ticket
+What is the criticality of a particular trouble ticket
+What is the priority of a specific trouble ticket
+What is the origin of a given trouble ticket
+What is the urgency of a specific trouble ticket
+What category does a trouble ticket belong to
+What problem category is associated with a trouble ticket
+What is the responsibility for a particular problem in a trouble ticket
+What is the current status of a specific trouble ticket
+Which resource triggered a trouble ticket event
+What operation plan precondition is associated with a specific action
+What is the operational status of a network interface connected to a certain resource
+What is the logistic ID of a resource with a specific hostname
+What is the alarm severity of a given event record
+What procedure is proposed as a repair action for a particular alarm
+What resource is located at a specific locus
+What is the virtual server status of a resource
+What is the product model of a resource's product
+What is the log text of an event record with a certain logging time

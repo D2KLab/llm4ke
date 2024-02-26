@@ -1,0 +1,31 @@
+Which ManagedElements are associated with a given Service
+What Properties are defined for a specific StructuralElement
+How does a DynamicElement relate to a FunctionalElement within an Application
+What ProceduralElements are required for implementing a specific Service
+Can a CorporateUserIdentifier be linked to more than one TroubleTicket
+What are the StructuralObservables impacted by a ChangeRequest
+Which ApplicationModules are part of a given Application
+How is nf16649f77f9f4e638a01f88119e59337b17 classified within the ontology
+What TroubleTicketNotes are associated with a TroubleTicket
+Which Services have been affected by a specific ChangeRequest
+What DocumentAttachments are associated with a specific OperationPlan
+Which AnomalyPatterns are detected in nf16649f77f9f4e638a01f88119e59337b25 operations
+How does nf16649f77f9f4e638a01f88119e59337b73 relate to OperationPlan adjustments
+What are the characteristics of nf16649f77f9f4e638a01f88119e59337b81 that differentiate it from nf16649f77f9f4e638a01f88119e59337b85
+Can a specific AnomalyPattern be linked to more than one type of nf16649f class
+How do DocumentAttachments influence the modification of an OperationPlan
+What sequence of nf16649f classes is involved in the standard protocol defined by an OperationPlan
+Are there any correlations between specific AnomalyPatterns and the effectiveness of nf16649f77f9f4e638a01f88119e59337b57-based operations
+What modifications are required in nf16649f77f9f4e638a01f88119e59337b65 to accommodate a new AnomalyPattern
+How do changes in nf16649f77f9f4e638a01f88119e59337b89 impact the associated DocumentAttachments
+based operations
+What are the preconditions for a specific action to be performed in a room
+What postconditions are associated with the completion of an action within a locus
+Can a room be linked to more than one event record
+How do resources interact with network interfaces within a given network link
+What products are associated with a specific product model identifier
+Identify all network links connected to a given network interface
+What are the characteristics of a specific nf16649f77f9f4e638a01f88119e59337b93 class instance
+List all action postconditions that result from events recorded under nf16649f77f9f4e638a01f88119e59337b105
+What are the direct consequences of altering an action precondition in a specific room
+How does the nf16649f77f9f4e638a01f88119e59337b113 class impact the configuration of a network link

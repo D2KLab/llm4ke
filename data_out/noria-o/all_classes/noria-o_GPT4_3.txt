@@ -1,0 +1,31 @@
+What properties are associated with a specific ManagedElement
+Which StructuralElements support a given FunctionalElement
+How do DynamicElements interact with ProceduralElements in a specific process
+Can a CorporateUserIdentifier be linked to multiple ApplicationModules
+What services are affected by a specific TroubleTicket
+Which Application is responsible for generating a particular TroubleTicketNote
+How are ChangeRequests related to StructuralObservables in system maintenance
+What are the dependencies between a Service and its underlying Applications
+Which FunctionalElements are critical for the operation of a given Service
+How do TroubleTickets influence the management of DynamicElements
+What types of DocumentAttachments are associated with a specific OperationPlan
+Which AnomalyPatterns are identified within a specific n1ff19ec39305460c920dfdb77e832c4db25 instance
+How do n1ff19ec39305460c920dfdb77e832c4db33 entities relate to n1ff19ec39305460c920dfdb77e832c4db37 entities
+Can n1ff19ec39305460c920dfdb77e832c4db45 instances be linked to a specific AnomalyPattern
+What OperationPlan is impacted by a given n1ff19ec39305460c920dfdb77e832c4db53 anomaly
+Which DocumentAttachments are necessary for the completion of n1ff19ec39305460c920dfdb77e832c4db61 operations
+How do n1ff19ec39305460c920dfdb77e832c4db69 entities interact with n1ff19ec39305460c920dfdb77e832c4db73 instances
+What is the relationship between n1ff19ec39305460c920dfdb77e832c4db81 entities and specific OperationPlans
+Are there any n1ff19ec39305460c920dfdb77e832c4db89 instances that do not follow the expected AnomalyPattern
+Which entities are primarily responsible for generating n1ff19ec39305460c920dfdb77e832c4db77-related DocumentAttachments
+related DocumentAttachments
+What are the preconditions for a specific action within a room
+What postconditions result from performing an action in a given locus
+Which rooms are associated with a particular event record
+How is resource n1ff19ec39305460c920dfdb77e832c4db93 related to specific network interfaces
+What events are recorded for resource n1ff19ec39305460c920dfdb77e832c4db97
+Which resources are connected by a particular network link
+What is the product model for resource n1ff19ec39305460c920dfdb77e832c4db101
+How does the event record n1ff19ec39305460c920dfdb77e832c4db105 relate to action preconditions
+What network interfaces are part of network n1ff19ec39305460c920dfdb77e832c4db109
+Which product models are compatible with network link n1ff19ec39305460c920dfdb77e832c4db113

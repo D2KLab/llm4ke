@@ -1,0 +1,13 @@
+o/_/Describe asset chain sharing/_/List logs from a specific resource
+o/_/Examine operation plan
+o/_/Investigate asset interdependencies
+Which preconditions or postconditions are associated with a specific action
+What rooms or loci are involved in an event record
+What resources or network interfaces are part of a network link
+What product models are related to a given network interface
+What assets are connected within a specified asset chain
+Which logs are associated with a particular resource
+What resources or events are linked to a specific nf18ddef17bcb416a916169ed6d9798d9b* entity
+What are the preconditions or postconditions for an ActionPreCondition or ActionPostCondition class
+What resources or network links are connected to a given EventRecord
+Which resources or assets are shared among a set of nf18ddef17bcb416a916169ed6d9798d9b* entities

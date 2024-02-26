@@ -1,0 +1,152 @@
+What are the demographic characteristics of a specific patient in the DemCare ontology
+How is a patient's ability to organize assessed within the DemCare ontology
+What types of activities status are recorded in the DemCare ontology, and how do they relate to specific patients
+Which cognitive abilities assessments are available for patients in the DemCare ontology, and what data do they produce
+How does the DemCare ontology assess a patient's autonomy
+What clinical assessments are available for patients in the DemCare ontology, and what clinical records do they generate
+Can the DemCare ontology track the diagnosis type for a patient, and how is it related to the clinical assessments
+How is apathy assessed for patients in the DemCare ontology
+In the DemCare ontology, how are tasks like answering the phone or calling a psychologist categorized and linked to patient abilities
+What cognitive load assessments are available in the DemCare ontology, and how do they impact the management of a patient's condition
+What are the different tasks categorized under DirectedTask
+How does DiscussionInvolvementData relate to DiscussionTask
+What assessments are considered as ExperimentalAssessment
+Which tasks are designed to assess FunctionalAbilitiesData
+How is GaitData utilized in GaitAssessment
+What distinguishes a FreeDiscussionTask from a DirectedDiscussionTask
+What types of ExperimentalDiagnosisAssessment are available for different GenderTypes
+How are HandTrajectoryTypes evaluated in an ExperimentalRecord
+What is the relationship between FunctionalAbilityAssessment and FunctionalAbilitiesData
+What criteria define the inclusion of a task in FindBusLineOnMapTask
+What are the characteristics of a PersonWithDementia compared to a HealthyControlParticipant
+What types of MeasuredData can be collected from a LeaveRoomTask
+How does LatencyData contribute to the assessment of MotricityAbilities
+What LateralityType observations are crucial for a NeuropsychiatricAndMoodAssessment
+How is MoodVoiceData utilized in evaluating a PersonWithDementia's emotional state
+Can OrganisationEfficiencyData indicate the progression of dementia in a person
+What tasks are involved in a MemorySelfAppraisalAssessment
+How does the PayBillTask help in assessing cognitive decline in dementia patients
+What are the differentiating factors between N52951957fdff400c9ab57782979719e8 and N61c801a8b5a940c7937d2abc3ce504f3
+What criteria determine whether a person is categorized as a PersonWithDementia or a HealthyControlParticipant
+Which tasks are included in a specific Protocol
+What are the steps involved in the PrepareHotTeaTask
+How does the ProtocolStep relate to PersonWithPredementia
+What activities are directed by the S1 DirectedActivitiesStep
+Can a PersonWithPredementia independently complete the S1 P21 SentenceRepeatingTask
+What are the prerequisites for a PersonWithPredementia to be assigned the PrepareDrugBoxTask
+How does the S1 P13 WalkingCountingBackwardsTask contribute to the well-being of a PersonWithPredementia
+What protocols include the ReadArticleTask
+Are there any tasks specifically designed for improving cognitive abilities in PersonWithPredementia
+How is the performance of a PersonWithPredementia evaluated in the S1 P12 CountingBackwardsTask
+being of a PersonWithPredementia
+What types of tasks are categorized under SemiDirectedTask
+How is StressAssessment related to StressData in the context of the DemCare ontology
+What steps are involved in the execution of a TurnOnTVTask
+Which tasks require the articulation control as defined in S1 P22 ArticulationControlTask
+Can a DiscussionWithClinicianStep involve a PictureDescriptionTask
+What is the duration description for a WaterPlantTask
+How does the DemCare ontology classify different types of stress assessments
+What activities are included in SemiDirectedActivitiesStep
+Are there any tasks that directly contribute to stress assessment in patients
+What is the relationship between Task and Type within the DemCare ontology
+What instances of Accelerometer measurements are available for a given time period
+Which Alerts have been triggered by the Recognition of specific behaviors
+How does the Ambient2DVideoCamera contribute to the Observation of a patient's activities
+What types of Feedback are generated based on Detection from FixedSensors
+Can a Report include data from both DTI-2 and Accelerometer sources
+What ProcessingComponents are involved in the generation of a specific N924a08d99f5b49d0adc4597b19070eaf event
+How are Measurements from different sensors integrated to assess a patient's condition
+What Observations lead to the generation of an Alert for a patient's safety
+In what way does Nc6652af1f857412a8f2cfd2825f2d249 interact with other classes to support patient care
+How does the system ensure the accuracy of Recognition based on data from various sensors
+2 and Accelerometer sources
+What activities are detected by a WearableSensor
+Which sensors are capable of detecting Apnea
+What is the difference between an AlarmClock and an AlarmClockRinging in terms of the activities they are associated with
+How does a WearableVideoCamera contribute to the detection of an AtomicActivity
+Can a 3DVideoCamera be used to measure AmbientMeasurement, and if so, how
+What types of activities are categorized as Active within the DemCare ontology
+How do WearableMicrophones aid in the activity AnswerPhoneCall
+What specific results are obtained from using an Appliance in the context of DemCare
+In what scenarios is Arousal detected, and which sensors are involved in its detection
+How is the class N716e2705e120492e9b7c1d12e16c859c related to the concept of Activity within the DemCare ontology
+Which activities classify as ComplexActivity within the DemCare ontology
+How is the relation between Carer and Clinician defined in terms of responsibilities towards a patient
+What objects are involved in the ChangePosture activity and how are they classified in the DemCare ontology
+Can the BedExit activity be classified as DangerousBedExit under certain conditions, and what are those conditions
+How does the DemCare ontology differentiate between Closed and Open states for objects like Cup, Book, or Bucket
+What are the necessary conditions for an activity to be classified under Cycling, and which objects are associated with it
+How does the DemCare ontology model the relationship between Bed and Bedroom in terms of spatial and functional aspects
+In what scenarios does the activity ChangeOrientation occur, and which objects or classes are typically involved
+What criteria are used to determine whether an activity is considered complex when involving objects like Cooker, Cup, or Cuttlery
+How is the action of DialNumber classified and what prerequisites are defined for this action within the DemCare ontology
+Which events are classified as FoodAndDrinkConsumption
+What triggers a DoorOpen event
+How is a FaceToFaceInteraction detected in the context of the DemCare ontology
+What types of HaveMeal events are recognized by the DemCare ontology
+Can a Fall event occur simultaneously with any Furniture interaction
+How are Drink and Food entities differentiated within FoodAndDrinkConsumption events
+What conditions determine the transition from DoorClosed to DoorOpen
+In what scenarios is a Glass considered as part of a HaveDrink event
+How does the DemCare ontology distinguish between HaveBreakfast, HaveLunch, and HaveDinner events
+What entities are involved in a HaveSnack event according to the DemCare ontology
+What is the average HeartRate of a person while performing IndoorPhysicalActivity
+How many times does a person enter the Kitchen in a day
+What is the LightLevel in the LivingRoom during evening hours
+How often is the KettleOn in a week
+What duration does a LongBedExit typically last
+Which InRoom activities increase MoveLimb frequency
+How much time does a LongNap usually take
+At what times is the KettleOff after being used
+What is the frequency of MakePhoneCall events from the LivingRoom
+How does the HeartRate vary before and after using the Mop in the Kitchen
+What objects are typically involved in a NightBathroomVisit
+How does the NoiseLevel affect a NightSleep
+What are the characteristics of an OutdoorPhysicalActivity
+Can a NapAfterLunch influence the duration or quality of NightSleep
+What PhysicalQualities are measured during a PhysiologicalMeasurement event
+How is an ObjectEvent related to a PhoneRinging incident
+What activities are categorized under PhysicalActivity in the DemCare ontology
+During which outdoor activities is the NoiseLevel monitored
+How do NearObject events interact with PhysicalActivity instances
+What are the distinguishing features between On and Off states in the context of Object events
+What activities involve the use of a remote control
+How does the ontology categorize different types of social interactions
+Which activities are related to changes in skin temperature
+Can the ontology distinguish between different postures, such as sitting, standing, and resting
+How does the ontology define the transition from sitting to standing and vice versa
+What are the necessary steps involved in preparing a hot tea according to the ontology
+How does the ontology recognize and categorize different sleeping patterns
+In what ways does the ontology track or identify changes in skin conductivity
+What criteria does the ontology use to determine if a person is engaging in social interaction
+How does the ontology differentiate between various places within a room context
+What activities of daily living (ADL) problems are identified by the DemCare ontology
+How does the DemCare ontology classify and summarize the use of objects within a household environment
+What criteria does the DemCare ontology use to determine an excessive nap problem
+How does the DemCare ontology track and summarize exercise activities
+Can the DemCare ontology identify when a failure to prepare a meal occurs
+How does the DemCare ontology monitor and summarize eating habits
+What types of interactions with a telephone are captured by the DemCare ontology
+How is walking activity detected and summarized within the DemCare ontology
+What role does the 'State' class play in understanding the context of activities monitored by the DemCare ontology
+How does the DemCare ontology categorize and summarize television watching behavior
+What are the common symptoms associated with HighStressLevel in the DemCare ontology
+How does InsufficientFaceToFaceInteraction correlate with MoodProblem in the ontology
+What interventions are suggested for managing InterruptedSleepProblem according to DemCare
+Can Nocturia be a contributing factor to FragmentedSleepProblem in the ontology
+What types of MealProblem, such as MissedMeal or InterruptedMeal, are identified in DemCare
+How is InsufficientTelephoneInteraction measured or identified within the ontology
+What are the criteria for classifying a mood as SelfReportedLowMood in the DemCare ontology
+How does the ontology differentiate between a NappingProblem and a FragmentedSleepProblem
+What parameters are used to define InsufficientAccelerometerCounts in the context of physical activity
+How does InappropriateMealLocation impact overall wellbeing according to the DemCare ontology
+What are the characteristics of a ShortStrideLength
+How is SleepDurationProblem identified in an individual
+What factors contribute to SleepEfficiencyProblem
+What are the causes and effects of SleepLatencyProblem
+How is SleepProblem classified within the ontology
+What information is gathered through SleepQuestionnaire
+What metrics are included in SleepSummary
+How does SlowWalkSpeed correlate with other health issues
+What types of SocialProblem are addressed by the ontology
+What components are analyzed in a SocialSummary

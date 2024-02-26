@@ -1,0 +1,31 @@
+How are DynamicElements related to StructuralElements in managing incidents
+Which parties are involved in events related to DynamicElements
+How are Agents' preferred contact methods defined and managed
+How are Applications categorized based on their type
+What is the relationship between TroubleTickets and the services they relate to
+How are EventRecords linked to Applications in the logging process
+How are Applications associated with the resources they require
+What identifiers are used for Applications in the ontology
+How are ApplicationFunctionalDomains and ApplicationFunctionalSubDomains defined and related
+How are ApplicationModuleSLALevels and ApplicationModuleStatuses assigned and used
+How should an individual prioritize trouble tickets based on their severity, criticity, and priority
+Can you explain the relationship between trouble ticket categories and problem categories
+How should an operator handle trouble ticket notes with different comment types and operation types
+How can one identify the category and type of a change request to determine its appropriate handling process
+What factors contribute to the determination of a change request's change cause
+How does the current status of a trouble ticket or change request influence its management and resolution
+What information should an employee gather to accurately link a corrective maintenance action to its correlated operation plan
+Can you describe the role of operation plan pre-conditions and post-conditions in ensuring successful execution of an operation plan
+How can an individual analyze and interpret the relationship between assets involved in an incident through trouble ticket data
+How can an individual efficiently track and monitor logs from specific resources within the system
+conditions and post-conditions in ensuring successful execution of an operation plan
+How can one identify the preconditions for a specific OperationPlan
+How are ActionPostConditions related to OperationPlans in the ontology
+How can we determine the locus of a given Resource
+How are Locus lines and rows represented in the ontology
+How are TroubleTickets linked to EventRecords and what information do they provide
+What is the relationship between EventRecords and their logOriginatingManagedObjects
+How can we identify the severity of an alarm from an EventRecord
+What information can be derived from the relationship between EventRecords and proposed repair actions (Procedures)
+How are monitored attributes of alarms represented in the ontology
+How are alarms mitigated through the association between EventRecords and ProcedureExecutionContainers

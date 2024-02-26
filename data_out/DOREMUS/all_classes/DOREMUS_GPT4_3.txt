@@ -1,0 +1,124 @@
+What are the catalogue names and numbers for works composed by Beethoven
+Which works feature a dedication statement to a specific person or entity
+What medium of performance is required for pieces listed under a specific M10 Catalogue Name
+Can you list all works that have a specific M12 Opus Number and their corresponding composers
+Which works include a performance medium of flute and two bassoons
+For a given M154 Label Name, what are the associated music works and their publication statements
+Which works have a cast statement indicating a specific type of ensemble or solo performer
+What are the titles and responsibility statements for works published in a specific year
+How many works are part of a specific multipart monograph, and what are their titles
+Are there any works that have been distributed by a specific company, as indicated by the M161 Distribution Statement
+What are the media types available for a specific music work
+How many music works are available with a specific carrier type
+Which music works are categorized under a specific harmonic structure
+What is the playing speed of a certain music format
+Can you list the titles of multipart monographs related to a specific composer
+What are the colour contents available in the publication expression fragments of a specific music work
+How many music works have been categorized under a specific form
+Which music works include a casting detail for a specified instrument combination
+What is the maintenance history of a particular controlled access point creator
+How are music works bound in a specific binding type categorized
+Which performances are planned under the M26 Foreseen Performance class for a specific venue
+Can you list all individual performances (M27) by a specific actor
+What editing activities (M29) have been applied to a specific opus statement (M2)
+Which actor functions (M31) are associated with a particular foreseen individual performance (M27)
+What awards (M36) have been assigned to a specific performer or performance
+How is the ambitus (M30) defined for a particular opus statement (M2)
+What rhythmic patterns (M38) are associated with a specific performed expression creation (M42)
+Can you identify all works that include a specific set of characters (M33)
+What context (M40) is associated with a specific award assignment (M34)
+Which works involve a metronome indication (M41) within a specified tempo range
+Which performers have a status of principal player in a performed expression
+What types of recording equipment were used for performances in the Baroque period
+What performance has employed a noise reduction technique
+Can you list all performed works that use a specific sound spatialization technique
+What are the intended audiences for works composed in the Romantic era
+How many performed expressions include a specific genre and key
+Which vocal or instrumental techniques are predominant in performances of the Classical period
+What equalization techniques have been applied to jazz music recordings
+For a given performed work, what are the descriptive expression assignments associated with it
+Can you identify all performances that include a set of tracks with a specific condition of performance
+Which compositions involve a specific M62 Hierarchical Level
+What are the different M7 Linguistic Appellations used in a particular work
+Can you list all the musical pieces that have a specified M8 Tempo
+What are the E54 Dimensions of a specific E24 Physical Man-Made Thing related to music
+How many E5 Events are associated with the creation of a particular musical piece
+Which E40 Legal Body has rights over a specific E72 Legal Object in music
+What is the E55 Type of a given F38 Character in a musical work
+Can you find all musical works that fall under a specific M9 Derivation Type
+Who are the performers involved in the E12 Production of a certain musical piece
+What E73 Information Objects are related to a specific F50 Controlled Access Point in music ontology
+Made Thing related to music
+Which F14 Individual Works have been performed by a specific F10 Person
+What F19 Publication Works are available for a given F22 Self-Contained Expression
+How many F20 Performance Works have been recorded by a particular F11 Corporate Body
+Can you list all F23 Expression Fragments contained within a specific F16 Container Work
+Which F12 Nomen are associated with a given F10 Person in the context of F15 Complex Works
+What are the different F13 Identifiers used for a single F24 Publication Expression
+How many F21 Recording Works are attributed to a particular composer represented as F10 Person
+Are there any F17 Aggregation Works that include performances of a specific F18 Serial Work
+What is the relationship between F15 Complex Works and F20 Performance Works in terms of thematic content
+For a given F1 Work, can you identify all F22 Self-Contained Expressions and their respective F23 Expression Fragments
+Contained Expression
+Contained Expressions and their respective F23 Expression Fragments
+Which recordings feature a performance of Beethoven's 9th Symphony
+What performances took place in Carnegie Hall in 2020
+Who conducted the premiere performance of Stravinsky's "The Rite of Spring"
+What compositions have been adapted for solo piano and string quartet
+Which musical works were first published between 1950 and 1960
+How many performances has Lang Lang given of Chopin's piano concertos
+Which musical works utilize the oboe as the sole woodwind instrument
+What are the different expressions of Bach's "Brandenburg Concertos"
+Who are the composers associated with the Romantic era in the F27 Work Conception
+What events led to the first recording of Gershwin's "Rhapsody in Blue"
+Which events took place in Paris during the 18th century
+What materials are commonly used in the construction of violins
+Can you list all the musical compositions that involve a piano and a violin
+Who are the actors involved in the creation of a specific musical piece
+What are the names of musical pieces that were inspired by historical events
+Which musical works were performed at a specific event
+How many copies of a particular music album exist
+What are the different pursuits associated with a renowned musician
+Identify all places where a certain musical instrument was historically utilized
+Who were the contemporaries of Beethoven in the realm of classical music composition
+Which documents detail performances of compositions for flute and two bassoons
+Can you list all musical works composed during the Baroque period as defined in the DOREMUS ontology
+What are the spatial coordinates of places where Beethoven's symphonies were first performed
+Which composers have had their music transformed into symphonic poems
+How many musical compositions were created in the 20th century according to the DOREMUS ontology
+What contact points are available for orchestras specializing in Renaissance music
+Are there any records of music compositions that underwent significant changes in their formation or composition process
+Can you identify musical works that involve a move or transition in musical style or genre
+What is the earliest known document relating to the performance of opera in Italy
+Which musical compositions were specifically intended for performance in open-air spaces, according to their spatial coordinates or place appellations
+air spaces, according to their spatial coordinates or place appellations
+Which E27 Sites are associated with the creation of specific E71 Man-Made Things
+How can E42 Identifiers be used to track the history of an E8 Acquisition event
+What E52 Time-Span does the E68 Dissolution of a particular E25 Man-Made Feature fall into
+Can an E48 Place Name be linked to multiple E26 Physical Features
+Which E11 Modifications have been applied to a given E71 Man-Made Thing
+What languages (E56 Language) are represented in the E33 Linguistic Objects of a specific E75 Conceptual Object Appellation
+How are E34 Inscriptions related to the E69 Death of historical figures
+What is the relationship between E10 Transfer of Custody events and E80 Part Removal actions in the context of E71 Man-Made Things
+Are there any E46 Section Definitions that detail the parts of an E36 Visual Item
+Which E37 Marks are crucial for identifying the provenance of E71 Man-Made Things
+Made Things
+Span does the E68 Dissolution of a particular E25 Man-Made Feature fall into
+Made Thing
+Made Things
+Made Things
+Which collections include objects assessed in a specific condition state
+What are the titles of man-made objects that underwent a particular part addition
+How many items joined a collection during a specific curation activity
+Can you list the authority documents associated with a certain man-made object
+Which images depict objects before and after a specific destruction event
+What are the birthdates and places of artists who created a specified type of man-made object
+How is a particular man-made object identified within its collection
+What measurement units are used for the dimensions of a specific man-made object
+Can you provide details of the condition assessments conducted on items within a collection
+What are the dates of creation for all objects within a specified type creation category
+made objects that underwent a particular part addition
+made object
+made object
+made object identified within its collection
+made object

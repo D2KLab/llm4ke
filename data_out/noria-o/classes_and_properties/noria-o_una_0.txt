@@ -1,0 +1,44 @@
+What classes of elements are relevant in the context of managed elements, and how are they related through properties such as elementManagedBy
+How are application types and business importance associated with an application in the ontology
+What properties describe the relationship between a trouble ticket and its related service
+How are application module status, SLA level, and other related properties defined in the ontology
+What properties are used to represent the characteristics of a trouble ticket, such as severity, priority, and urgency
+How are problem categories and responsibility associated with a trouble ticket in the ontology
+What properties are used to describe the timeline of a trouble ticket, including detection, restoration, and planned times
+How are change request categories, types, and impacts related in the ontology
+What properties are used to define the relationships between trouble ticket notes and their operations, comments, and correlated executions
+How are document external IDs and hyperlinks (HRef) associated with documents in the ontology
+What are the key attributes of an OperationPlan related to trouble ticket management
+What are the different types of trouble tickets and their associated properties in the ontology
+How are change requests categorized in the noria-o ontology
+What is the relationship between an OperationPlan and a DocumentAttachment in the context of this ontology
+What are the distinct classes of AnomalyPattern in the noria-o ontology
+How are problem categories and responsibility defined in the ontology
+What properties are used to describe the status of a trouble ticket in the noria-o ontology
+What are the specific properties associated with change requests in the ontology
+How are operation plan pre- and post-conditions represented in the noria-o ontology
+What is the connection between actionCorrelatedOperationPlan and operationPlan in the context of this ontology
+o ontology
+o ontology
+o ontology
+and post-conditions represented in the noria-o ontology
+What properties are associated with ActionPreCondition and ActionPostCondition classes in the noria-o ontology
+Which class in the noria-o ontology has a property named 'locatedAtLocus'
+What properties are related to the class 'Resource' in the noria-o ontology
+What properties are associated with the class 'NetworkInterface' in the noria-o ontology
+Which class in the noria-o ontology has a property named'resourceProductModel'
+What properties are related to the class 'EventRecord' in the noria-o ontology
+Which class in the noria-o ontology has a property named 'logOriginatingManagedObject'
+What properties are associated with the class 'NetworkLink' in the noria-o ontology
+Which class in the noria-o ontology has a property named'resourceForApplication'
+What properties are related to the class 'ProductModel' in the noria-o ontology
+o ontology
+o ontology has a property named 'locatedAtLocus'
+o ontology
+o ontology
+o ontology has a property named'resourceProductModel'
+o ontology
+o ontology has a property named 'logOriginatingManagedObject'
+o ontology
+o ontology has a property named'resourceForApplication'
+o ontology

@@ -1,0 +1,50 @@
+How does an application's business importance impact its management and support
+What is the relationship between a managed element and the party responsible for managing it
+How is the status of a change request determined and what factors influence this decision
+What is the role of a trouble ticket's related service in resolving the issue
+How is the impact of a change request on other applications and services assessed
+What is the relationship between a trouble ticket's trigger and its origin
+How is the severity of a trouble ticket determined and what factors influence this decision
+What is the relationship between a change request's category and its type
+How is the priority of a trouble ticket determined and what factors influence this decision
+What is the relationship between a change request's status and its initiation
+How does the troubleTicketSeverity property relate to the DocumentAttachment class in the noria-o ontology
+Can you provide an example of a troubleTicketType value in the noria-o ontology
+How is the troubleTicketCriticity property different from the troubleTicketPriority property in the noria-o ontology
+What is the relationship between the AnomalyPattern and the OperationPlan classes in the noria-o ontology
+Can you explain the difference between the problemCategory and the problemResponsibility properties in the noria-o ontology
+How does the troubleTicketStatusCurrent property change over time for a specific trouble ticket in the noria-o ontology
+Can you provide an example of a troubleTicketNoteOperationType value in the noria-o ontology
+How is the changeRequestCategory property related to the changeRequestType property in the noria-o ontology
+Can you explain the difference between the actionCorrelatedOperationPlan and the operationPlanPreCondition properties in the noria-o ontology
+How does the operationPlanPostCondition property impact the overall outcome of an operation plan in the noria-o ontology
+o ontology
+o ontology
+o ontology
+o ontology
+o ontology
+o ontology
+o ontology
+o ontology
+o ontology
+o ontology
+How does the ActionPreCondition class relate to the ActionPostCondition class in the noria-o ontology
+What is the relationship between the Resource class and the ProductModel class in the noria-o ontology
+How is the Resource class related to the ResourceUsageState class in the noria-o ontology
+What is the connection between the NetworkInterface class and the NetworkLink class in the noria-o ontology
+How is the Resource class related to the ResourceLogisticId class in the noria-o ontology
+What is the relationship between the Resource class and the ResourceHostName class in the noria-o ontology
+How is the Resource class related to the ResourceSerialNumber class in the noria-o ontology
+What is the connection between the Resource class and the ResourceInstallationDate class in the noria-o ontology
+How is the Resource class related to the ResourceManagementIPAddress class in the noria-o ontology
+What is the relationship between the Resource class and the ResourceForApplication class in the noria-o ontology
+o ontology
+o ontology
+o ontology
+o ontology
+o ontology
+o ontology
+o ontology
+o ontology
+o ontology
+o ontology

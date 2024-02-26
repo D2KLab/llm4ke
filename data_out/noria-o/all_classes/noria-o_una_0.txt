@@ -1,0 +1,40 @@
+What are the distinguishing characteristics between a ManagedElement, StructuralElement, and FunctionalElement
+How do the classes of Property, StructuralObservable, and DynamicElement relate to each other in terms of observability and behavior
+What are the key differences between an Application, ApplicationModule, and Service
+What are the main types of user identifiers represented by the class CorporateUserIdentifier
+How do the classes TroubleTicket, TroubleTicketNote, and ChangeRequest differ in their purpose and usage
+What are the specific characteristics of the class nff79947472dc40fab5a8131fbcc6ab07b17 in comparison to other classes in the ontology
+What are the primary functions of the classes nff79947472dc40fab5a8131fbcc6ab07b13 and nff79947472dc40fab5a8131fbcc6ab07b21 in the context of the ontology
+How do the classes NamedIndividuals (represented by the identifiers nff79947472dc40fab5a8131fbcc6ab07b5, nff79947472dc40fab5a8131fbcc6ab07b7, and nff79947472dc40fab5a8131fbcc6ab07b9) differ from each other in the ontology
+What are the key differences between the classes of ProceduralElement and DynamicElement in terms of behavior and interaction
+How do the classes TroubleTicket, ChangeRequest, and Service relate to each other in the context of managing and resolving issues in the system
+What are the key characteristics of an AnomalyPattern in the context of noria-o ontology
+How are DocumentAttachment instances related to the classes in noria-o ontology
+What is the purpose of an OperationPlan in the noria-o ontology
+What distinguishes the different classes named with the prefix 'nff79947472dc40fab5a8131fbcc6ab07b' in the noria-o ontology
+What is the relationship between AnomalyPattern and other classes in the noria-o ontology
+How do the classes in the noria-o ontology contribute to the overall structure and organization of the knowledge base
+What are the main differences between the classes in the noria-o ontology and other similar ontologies
+How do the classes in the noria-o ontology represent real-world entities or concepts
+What are the commonalities and differences among the instances of the 'nff79947472dc40fab5a8131fbcc6ab07b'-prefixed classes in the noria-o ontology
+How do the classes in the noria-o ontology facilitate the retrieval and management of information related to the domain of interest
+o ontology
+o ontology
+o ontology
+o ontology
+o ontology
+o ontology contribute to the overall structure and organization of the knowledge base
+o ontology and other similar ontologies
+o ontology represent real-world entities or concepts
+prefixed classes in the noria-o ontology
+o ontology facilitate the retrieval and management of information related to the domain of interest
+What are the preconditions required for an action to occur in a Room or Locus context
+What are the postconditions that follow an action in a Room or Locus context
+What types of events are recorded in the EventRecord class
+What are the specific instances of the class nff79947472dc40fab5a8131fbcc6ab07b93
+What are the instances of the class Resource and how do they relate to NetworkInterface and NetworkLink
+What are the characteristics of the classes NetworkInterface and NetworkLink in the context of the ontology
+How are ProductModel instances related to the ontology's classes
+What are the unique instances of the class nff79947472dc40fab5a8131fbcc6ab07b101 and nff79947472dc40fab5a8131fbcc6ab07b105
+What are the differences between the classes nff79947472dc40fab5a8131fbcc6ab07b109 and nff79947472dc40fab5a8131fbcc6ab07b113
+How do the classes ActionPreCondition and ActionPostCondition interact with the other classes in the ontology

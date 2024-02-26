@@ -1,0 +1,39 @@
+o ontology
+o ontology
+o ontology
+o ontology
+o ontology
+o ontology and its implications
+o ontology
+o ontology
+o ontology
+o ontology
+What level of expertise is required for understanding the relationship between an Application and its related ApplicationModule in the noria-o ontology?
+How should an individual demonstrate competency in managing the connection between a ManagedElement and its Agent in the noria-o ontology?
+Can you explain the significance of the "eventRelatedElement" relationship between DynamicElement and StructuralElement in the noria-o ontology?
+How would you interpret the "applicationFunctionalDomain" attribute of an Application in the context of the noria-o ontology?
+What skills are necessary to effectively handle the "applicationModuleStatus" attribute of an ApplicationModule in the noria-o ontology?
+Can you describe the relationship between a Service and its "serviceType" in the noria-o ontology and its implications?
+How does an individual demonstrate proficiency in working with the "troubleTicketPriority" attribute of a TroubleTicket in the noria-o ontology?
+Can you explain the importance of understanding the connections between TroubleTicket, EventRecord, and Application in the noria-o ontology?
+How would you evaluate an individual's competency in handling the "changeRequestImpact" relationship between a ChangeRequest and Resource in the noria-o ontology?
+What does the attribute "troubleTicketSeverity" represent in the context of a TroubleTicket
+How does the "troubleTicketType" attribute contribute to categorizing TroubleTickets
+Can you explain the significance of the "troubleTicketCriticity" attribute in managing TroubleTickets
+How does the "troubleTicketPriority" attribute prioritize TroubleTickets
+What is the purpose of the "troubleTicketOrigin" attribute in tracking TroubleTickets
+How does the "troubleTicketUrgency" attribute influence the response time for TroubleTickets
+Can you elaborate on the role of the "troubleTicketCategory" attribute in organizing TroubleTickets
+What is the relationship between the "problemCategory" attribute and TroubleTickets
+How does the "problemResponsibility" attribute assign accountability for TroubleTickets
+What does the "troubleTicketStatusCurrent" attribute represent in managing the lifecycle of a TroubleTicket
+What are the conditions that must be met as a precondition for an OperationPlan's execution according to the (OperationPlan, operationPlanPreCondition, ActionPreCondition) relationship
+How are ActionPostConditions related to OperationPlans in the (OperationPlan, operationPlanPostCondition, ActionPostCondition) relationship
+How are Resources located at specific Loci through the (Resource, locatedAtLocus, Locus) relationship
+How does the (Locus, locusLine, literal) relationship represent the spatial coordinates of a Locus
+What events are recorded in a TroubleTicket's history through the (TroubleTicket, documentStatusHistory, EventRecord) relationship
+How are EventsRecords associated with the Resource that originated them through the (EventRecord, logOriginatingManagedObject, Resource) relationship
+How does the (EventRecord, logOriginatingManagementSystem, Application) relationship indicate the software system responsible for generating an EventRecord
+What severity levels are represented by na67c9d7ca05d48668e03d6c17234b06cb93 and how are they assigned to EventRecords through the (EventRecord, alarmSeverity, na67c9d7ca05d48668e03d6c17234b06cb93) relationship
+How are proposed repair actions for an alarm linked to EventRecords through the (EventRecord, alarmProposedRepairAction, Procedure) relationship
+How does the (EventRecord, alarmMonitoredAttribute, literal) relationship indicate the attribute being monitored that triggered the alarm event

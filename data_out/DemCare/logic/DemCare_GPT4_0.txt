@@ -1,0 +1,159 @@
+What activities of daily living (ADLs) are represented in the DemCare ontology
+Which cognitive functions are assessed within the DemCare ontology
+How does the DemCare ontology represent the relationship between cognitive impairments and ADLs
+What interventions are available for managing behavioral symptoms in dementia patients according to DemCare
+Can the DemCare ontology identify personalized care plans for individuals with dementia
+What environmental factors influencing dementia care are included in the DemCare ontology
+How does the DemCare ontology account for the progression of dementia symptoms over time
+What roles do caregivers have according to the DemCare ontology, and how are these roles supported
+Are there any tools or assessments for evaluating the effectiveness of dementia care interventions represented in DemCare
+How does the DemCare ontology incorporate patient preferences and values in care planning
+What types of activities does the DemCare ontology categorize for dementia patients
+How does the DemCare ontology describe the relationship between a caregiver and a dementia patient
+What are the different stages of dementia covered by the DemCare ontology
+Which interventions does the DemCare ontology recommend for managing dementia symptoms
+How does the DemCare ontology classify the living environments suitable for dementia patients
+What assessment tools are included in the DemCare ontology for evaluating the progression of dementia
+Which symptoms of dementia are recognized and categorized by the DemCare ontology
+How does the DemCare ontology support the planning of daily activities for dementia patients
+What strategies for communication with dementia patients are described in the DemCare ontology
+How does the DemCare ontology address the safety concerns of dementia patients living independently
+What are the different types of activities recognized in the DemCare ontology for patients with dementia
+How does the DemCare ontology represent the relationship between caregivers and patients
+What symptoms of dementia are recorded in the DemCare ontology
+Which interventions are available in the DemCare ontology for managing agitation in dementia patients
+How does the DemCare ontology categorize the stages of dementia
+What environmental factors affecting dementia patients are included in the DemCare ontology
+How are medication adherence and side effects tracked for dementia patients in the DemCare ontology
+What measures of cognitive function are utilized in the DemCare ontology
+How does the DemCare ontology model the impact of dementia on daily living activities
+What types of support services for caregivers are identified in the DemCare ontology
+What activities of daily living can a person with dementia perform independently
+Which caregiver interventions are effective for managing agitation in dementia patients
+What are the common symptoms observed in early-stage dementia
+How do environmental modifications influence the behavior of dementia patients
+What types of assistive technologies are available to support the daily living of dementia patients
+Can a specific diet or nutrition plan benefit individuals with dementia
+What are the risk factors associated with the progression of dementia
+How does social interaction affect the well-being of individuals with dementia
+What are the training requirements for caregivers of dementia patients
+Which medications are commonly prescribed for managing dementia symptoms, and what are their side effects
+stage dementia
+being of individuals with dementia
+What activities of daily living (ADLs) does a specific patient have difficulty with
+Which patients have been diagnosed with a specific stage of dementia
+What types of support services are available for patients with dementia
+Who are the primary caregivers for a specific patient, and what is their relationship to the patient
+What medication is a specific patient currently prescribed for dementia management
+How does the cognitive function of a specific patient change over time according to assessments
+What lifestyle recommendations are suggested for patients with dementia to improve their quality of life
+Which patients have experienced a decline in their ability to perform instrumental activities of daily living (IADLs)
+What emergency interventions have been employed for patients experiencing severe dementia symptoms
+How do environmental modifications in a patient's living space correlate with improvements in their dementia symptoms
+What types of activities does the DemCare ontology categorize for dementia patients
+How does the DemCare ontology define and categorize the stages of dementia
+What interventions does the DemCare ontology suggest for managing aggressive behavior in dementia patients
+Can the DemCare ontology identify and differentiate between symptoms of various dementia-related disorders
+What tools or methods does the DemCare ontology recommend for monitoring the cognitive decline in dementia patients
+How does the DemCare ontology support caregivers in planning daily activities for dementia patients
+What dietary recommendations does the DemCare ontology provide for individuals with dementia
+How does the DemCare ontology address the emotional and psychological needs of dementia patients
+What strategies does the DemCare ontology suggest for improving communication with dementia patients
+How does the DemCare ontology recommend managing sleep disturbances in dementia patients
+related disorders
+What activities are recommended for a patient with a specific stage of dementia
+Which care services are available for dementia patients within a specific location
+How does the severity of dementia affect the choice of care services
+What are the symptoms associated with different stages of dementia
+What are the qualifications of caregivers specialized in dementia care
+What dietary recommendations are provided for patients with dementia
+How do dementia patients' needs change as the disease progresses
+What are the common challenges faced by caregivers of dementia patients
+Are there any support groups available for families of dementia patients
+What types of therapies are effective for managing dementia symptoms
+What activities of daily living can a person with dementia perform independently
+Which environmental factors contribute to the well-being of dementia patients
+What types of support do caregivers provide to dementia patients
+How does the progression of dementia affect a patient's ability to communicate
+What are the most effective interventions for managing behavioral symptoms in dementia
+Can music therapy improve the quality of life for dementia patients? If so, how
+What are the common nutritional challenges faced by individuals with dementia
+How do social interactions impact the mental health of dementia patients
+What technologies are available to assist with the care of dementia patients
+What are the key indicators for evaluating the progression of dementia in a patient
+being of dementia patients
+Does the ontology capture events that are highlighted as significant
+Can an event be marked as not significant in the ontology
+How does the ontology differentiate between highlighted and non-highlighted events
+Is it possible to query for all events that are considered highlights
+Are there any events that cannot be considered as highlights according to the ontology
+Can the highlight status of an event change over time in the ontology
+Does the ontology support querying for events based on their highlight status
+How does the ontology manage the boolean attribute for event highlighting
+Are users able to add new events with a predefined highlight status
+Can the highlight attribute of an event be queried independently from the event itself
+highlighted events
+What activities does a specific patient with dementia engage in daily
+How does the severity of dementia affect a patient's ability to perform daily activities
+What are the common symptoms observed in patients with early-stage dementia
+Which healthcare professionals are involved in the care plan of a dementia patient
+What are the recommended interventions for managing agitation in dementia patients
+Can you list the medications prescribed to a specific patient and their respective dosages
+How does the family involvement in a patient's care plan impact the patient's quality of life
+What are the environmental modifications recommended for a patient with moderate dementia
+How do patients' dietary needs change as dementia progresses
+What are the outcomes of the latest care strategies implemented for dementia patients
+stage dementia
+What activities of daily living can a person with dementia perform independently
+Which healthcare professionals are involved in the care plan for an individual with dementia
+What are the common symptoms associated with the different stages of dementia
+How does the DemCare system track and monitor the behavior changes in dementia patients
+What interventions does the DemCare ontology recommend for managing agitation in dementia patients
+Which environmental factors are considered by DemCare to affect the well-being of individuals with dementia
+How does the DemCare ontology categorize the levels of support needed by dementia patients
+What are the safety measures recommended by DemCare for dementia patients living at home
+How does the DemCare system facilitate communication between caregivers and healthcare professionals
+What are the criteria used by DemCare to evaluate the effectiveness of a care plan for dementia patients
+being of individuals with dementia
+What activities of daily living (ADLs) does a specific patient with dementia have difficulty performing
+Which healthcare professionals are involved in the care plan of a dementia patient
+What are the common symptoms observed in patients with early-stage dementia according to DemCare ontology
+What interventions are recommended for managing behavioral symptoms in dementia patients
+How does the care plan change for a dementia patient transitioning from moderate to severe stage
+Which medications are associated with the treatment of cognitive symptoms in dementia patients
+What support services are available for family members of dementia patients
+How is patient progress monitored and assessed over time in the DemCare ontology
+What environmental modifications are suggested for improving the safety of dementia patients at home
+Are there any recommended dietary plans for patients with dementia to help manage their condition
+stage dementia according to DemCare ontology
+What is the eating duration recorded in a specific EatingSummary
+What is the eating location mentioned in a particular EatingSummary
+For a given patient, what are the eating durations recorded across different EatingSummaries
+For a given patient, what are the various eating locations mentioned across different EatingSummaries
+Can we identify any patterns in eating duration for a specific patient over a period
+Can we identify any patterns in eating locations for a specific patient over a period
+Is there a correlation between eating duration and the location of eating for a specific patient
+What is the average eating duration for a patient across all EatingSummaries
+What are the most common eating locations for a patient according to the EatingSummaries
+How does the eating duration vary between different locations for a specific patient
+What activities of daily living (ADLs) does a particular patient need assistance with
+Which patients have been diagnosed with a specific type of dementia
+What are the common symptoms associated with each type of dementia covered in DemCare
+Which caregivers are trained to manage patients with advanced stages of dementia
+What interventions have been effective for patients with a specific symptom of dementia
+How does the progression of dementia vary across different patients in the ontology
+What medication regimens are prescribed to patients with dementia, and what are their intended outcomes
+Which environmental modifications have been made to accommodate patients' needs within their living spaces
+How often do patients with dementia engage in social activities, and what types are most beneficial
+What emergency situations have occurred with dementia patients and how were they resolved
+What activities can improve the quality of life for a person with dementia
+How does the care requirement of a dementia patient change over time
+What are the recommended environmental adjustments for a dementia patient's living space
+Which medications are commonly prescribed for managing dementia symptoms
+What are the common symptoms observed in early-stage dementia patients
+How can caregivers monitor the progression of dementia in patients
+What support services are available for families of dementia patients
+What are the risk factors associated with the development of dementia
+How does dementia affect a person's ability to perform daily living activities
+What training do caregivers need to effectively support dementia patients
+stage dementia patients

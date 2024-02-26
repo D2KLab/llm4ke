@@ -1,0 +1,40 @@
+How does the managed element in noria-o ontology relate to the agent responsible for managing it
+What is the relationship between a dynamic element and an event it is related to in noria-o ontology
+How is a dynamic element related to a structural element in noria-o ontology
+What is the connection between a dynamic element and a party involved in it in noria-o ontology
+How is an agent's preferred contact method represented in noria-o ontology
+What is the relationship between an application and its type in noria-o ontology
+How is an application's business importance represented in noria-o ontology
+What is the connection between a trouble ticket and the service it is related to in noria-o ontology
+How is a service's type represented in noria-o ontology
+What is the relationship between a trouble ticket and its status in noria-o ontology
+o ontology relate to the agent responsible for managing it
+o ontology
+o ontology
+o ontology
+o ontology
+o ontology
+o ontology
+o ontology
+o ontology
+o ontology
+How does the severity of a trouble ticket impact its priority and urgency
+What is the relationship between the category and problem category of a trouble ticket
+How does the responsibility for a problem relate to a trouble ticket
+What is the current status of a trouble ticket and how does it change over time
+How does the comment type of a trouble ticket note relate to its operation type
+What is the difference between the category and type of a change request
+How does the change cause of a change request impact its status
+What is the relationship between the specification and status of a change request
+How does a correlated operation plan relate to an action in a corrective maintenance action
+What are the pre and post conditions of an operation plan and how do they impact its execution
+How does the resource's virtualServerStatus impact the operation plan's preconditions and postconditions
+What is the relationship between the resource's resourceForApplication and the application in the operation plan's preconditions and postconditions
+How does the resource's resourceLogisticId affect the operation plan's preconditions and postconditions
+What is the relationship between the resource's resourceManagementIPAddress and the operation plan's preconditions and postconditions
+How does the resource's resourceInstallationDate impact the operation plan's preconditions and postconditions
+What is the relationship between the resource's resourceHostName and the operation plan's preconditions and postconditions
+How does the resource's resourceSerialNumber affect the operation plan's preconditions and postconditions
+What is the relationship between the resource's resourceProductModel and the operation plan's preconditions and postconditions
+How does the resource's resourceUsageState impact the operation plan's preconditions and postconditions
+What is the relationship between the resource's resourceType and the operation plan's preconditions and postconditions

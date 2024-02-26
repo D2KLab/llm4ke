@@ -810,7 +810,8 @@ ontology:
     - ID: Keoma,1_RestorationAndSoundPractices,CQ4
       question: Is it a repertoire performed in the contemporary world?
       group: old
-    - ID: Keoma,1_RestorationAndSoundPractices,CQ5,Is it a repertoire in that place currently performed by hand or by electric means?
+    - ID: Keoma,1_RestorationAndSoundPractices,CQ5,
+      question: Is it a repertoire in that place currently performed by hand or by electric means?
       group: old
     - ID: Keoma,1_RestorationAndSoundPractices,CQ6
       question: Howmany people are generally employed for the performance of these sound practices?
@@ -842,7 +843,8 @@ ontology:
     - ID: Sethus,2_CreateRelevantCorpus,CQ1
       question: Search operations should be expressed on either raw-level features (eg melodic lines) or higher-level features (eg modes, cadences, triad patterns, etc.). The systm should retrieve efficiently all sources that match the search pattern, and identifiy pattern occurrences
       group: old
-    - ID: Sethus,2_CreateRelevantCorpus,CQ2,A subset can be hierarchically refined based on criteria independant from on another and independant from the initial search pattern. The user can navigate in this hierarchy and refine the search.
+    - ID: Sethus,2_CreateRelevantCorpus,CQ2,
+      question: A subset can be hierarchically refined based on criteria independant from on another and independant from the initial search pattern. The user can navigate in this hierarchy and refine the search.
       group: old
     - ID: Sethus,2_CreateRelevantCorpus,CQ3
       question: At each step, the result set takes the form of a subcorpus organized according to rich relationships, and enriched with user annotations

@@ -1,0 +1,10 @@
+What are the different types of smells (L11) identified by the Odeuropa ontology
+Which processes or activities are classified under smell emission (L12) in the Odeuropa ontology
+How is olfactory experience (L13) characterized and differentiated from other sensory experiences in the ontology
+What instances of smell transformation (L14) are recorded, and what triggers these transformations
+Can you list the interactions (L15) between different smells that are acknowledged by the ontology
+What methods or processes of odorizing (L16) are documented, and how do they differ from natural smell emissions
+How does the Odeuropa ontology categorize different sensory stimuli (L1) and their origins (L2)
+In what ways are sensory experiences (L3) influenced or altered by stimuli transformation (L4) and interaction (L5)
+What role do animals (L6) play in the context of smell and olfactory experiences as per the ontology
+How are gestures (L7) connected to smells and sensory experiences, and what types of gestures are involved in these processes

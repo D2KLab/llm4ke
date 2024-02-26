@@ -1,0 +1,121 @@
+Which works utilize the medium of performance specified as flute and two bassoons
+What are the catalogue names and numbers for works composed by Beethoven
+Can you list all works that include a dedication statement to a specific individual or entity
+Which works have a publication statement from the 20th century
+What are the titles and statements of responsibility for works in a specific music format
+How many works have been issued under a specific label name
+Are there any works that foresee a specific vocal or instrumental technique
+Can you identify works that are part of a multipart monograph series
+What edition statements are available for works by Bach
+Which works have a distribution statement for digital or physical formats
+Which publications have a multipart monograph titled "Symphony No. 5"
+What is the media type for the work "Four Seasons" by Vivaldi
+Which musical works are available in vinyl carrier type
+How many music formats are available for Beethoven's "Moonlight Sonata"
+Which musical compositions have a harmonic structure in the key of C major
+What is the form of the piece titled "Rhapsody in Blue"
+Which works feature a casting detail for flute and two bassoons
+What colour content is associated with the album cover of "Abbey Road" by The Beatles
+Which musical pieces were categorized under the baroque genre in 2020
+How many actors are foreseen in the casting detail for the opera "La Traviata"
+Which musical works foresee a performance with a specific actor function
+What editing techniques were used in a particular performed expression creation
+Which musical compositions were awarded a specific award
+How many characters are in the set of characters for a given foreseen individual performance
+What is the ambitus of a particular musical work
+Which musical works have a specific metronome indication
+What rhythmic patterns are used in a specific musical composition
+In which context was a particular musical work performed
+What is the derivation type assignment for a particular musical work
+Which performances have used a specific medium of performance
+Which performers have a Performer Status of "Principal" in a given Performed Work
+What are the Key characteristics of a specific Performed Expression
+Which Performed Works incorporate a Descriptive Expression Assignment related to a specific theme
+What Type Of Recording Equipment was used in the recording of a specific Performed Expression
+Which Performed Works were created using a specific Sound Spatialization Technique
+Can you identify Performances that occurred under a specific Condition of Performance
+What is the Genre of a specific Performed Work
+Which Vocal or Instrumental Technique is utilized in a specific Performed Expression
+What Intended Audience was a specific Program designed for
+Which Performed Expressions are part of a given Program
+Which musical works feature a specific combination of casting details, such as flute and two bassoons
+What is the hierarchical level of a given musical work within its genre or tradition
+How does the tempo of a particular piece compare to other works from the same period or composer
+Can you identify all characters performed in a specific opera or musical work
+What legal rights are associated with a particular musical recording
+Which musical events were produced by a specific legal body or organization
+What are the dimensions and physical characteristics of a specific musical instrument used in a production
+How does the derivation type of one musical work influence its relationship to other works
+What types of materials or objects were foreseen to be used in the production of a specific musical event
+Can you list all musical works that were intended for performance under specific conditions, such as outdoor venues or specific acoustic settings
+Which performances included a specific musical piece by Beethoven
+What are the titles of works that are intended for children's choir
+Which corporate bodies have been involved in the publication of jazz music works
+How many recording works were produced in France during the 20th century
+What are the key musical works that influenced the development of baroque music
+Who are the members of the ensemble that premiered a given work by Philip Glass
+Which musical works have a geographical context linked to Vienna
+What are the different expressions of a particular complex work
+Which works have been arranged for a specific instrumental setting, such as string quartet
+How many musical works by a given composer have been recorded by the Berlin Philharmonic
+Which performances included a specific sound spatialization technique
+What recordings capture performances of Beethoven's symphonies
+Who performed in the premiere of a particular work conception
+Which publication events involved the first edition of a musical score
+How many carrier production events were associated with a specific recording
+What is the duration of a given expression creation
+Which works conception used a specific historical instrument
+Who is responsible for the script conversion in a multilingual opera recording
+What are the related use statements for a given nomen in musical literature
+Which performance plans foresee a performance in a specific venue
+Which events took place in Paris during the 18th century
+What materials are used in the creation of Beethoven's Symphony No. 9
+Who are the members of the Beatles and what roles did they pursue
+What music scores are available for a trio consisting of a violin, cello, and piano
+Can you list all musical works that involve a F53 Material Copy and were created before 1900
+What are the names of all E39 Actors who have played the role of Hamlet in London
+Which E21 Persons have been assigned to the F52 Name Use Activity "Composer"
+How many F54 Utilised Information Carriers are associated with the opera "La Traviata"
+What are the conceptual objects (E28) related to the musical genre of jazz
+Which places (F9) are identified as significant in the history of baroque music
+What documents are associated with a specific E70 Thing
+Which E19 Physical Objects are depicted in a given E31 Document
+How many parts does a specific E19 Physical Object have according to P57 has number of parts
+What are the spatial coordinates (E47) of a particular E44 Place Appellation
+Can you list all E90 Symbolic Objects that incorporate a specific vocal or instrumental technique as foreseen by U96
+Which E4 Periods are identified by a specific E49 Time Appellation
+What type of transformation (E81) occurred to a specific E77 Persistent Item
+Who are the composers (E1 CRM Entity) that have works categorized under a specific genre (U19)
+What are the beginning (E63) and end (E64) of existence dates for a specific E77 Persistent Item
+Which E9 Move events occurred at a specified E45 Address
+Which man-made things were acquired through a specific acquisition event
+What language is used in a particular inscription
+Which places are identified by a specific place name
+What are the technical features of a certain man-made thing
+Which conceptual object appellations were assigned to a specific linguistic object
+How long was the time-span of a particular event or process
+Which visual items were intended for a specific audience or purpose
+What materials compose a certain man-made feature
+Who transferred the custody of a particular man-made thing and to whom
+What are the variant titles of a specific linguistic object
+made things were acquired through a specific acquisition event
+made thing
+span of a particular event or process
+made feature
+made thing and to whom
+Which objects have undergone a condition assessment by a specific authority
+What collections include man-made objects from the 18th century
+Which man-made objects have a title proper assigned in the French language
+How many pieces in the collection were curated by a particular curator in 2020
+What is the measurement unit used for the dimension of a specific man-made object
+Can you list all the births that occurred in a specific location during the 19th century
+Which man-made objects were destroyed in the 20th century and by whom
+What are the titles of works that were added to a collection through a specific part addition
+Who identified the condition of a particular man-made object last and what was the assessment
+Which authority documents list man-made objects that have been joined with a specific object
+made objects from the 18th century
+made objects have a title proper assigned in the French language
+made object
+made objects were destroyed in the 20th century and by whom
+made object last and what was the assessment
+made objects that have been joined with a specific object

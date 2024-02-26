@@ -1,0 +1,123 @@
+Which compositions are catalogued under a specific M10 Catalogue Name
+What is the M11 Catalogue Number of a given musical work
+How can one find all musical works with a particular M12 Opus Number
+Which musical pieces have a specific M14 Medium Of Performance
+What are the details provided in the M156 Title Statement for a particular composition
+Can we list all musical works dedicated to a person as per M15 Dedication Statement
+What information does the M160 Publication Statement provide for a certain musical piece
+How does the M163 Music Format Statement describe the format of a musical work
+Which musical series are identified by a specific M165 Title Proper of Series
+What are the distribution details provided in the M161 Distribution Statement for a specific music publication
+Which works are categorized under a specific M22 Form
+What are the M173 Playing Speed options available for a given M175 Music Format
+How does M19 Categorization influence the selection of M174 Content Type for a particular music piece
+Can a M17 Controlled Access Point Creator be associated with multiple M20 Music Group Formations
+What M168 Media Type is used for a specific M24 Track
+How is M23 Casting Detail related to the M21 Harmonic Structure in a performance
+What are the M169 Carrier Types available for a publication with a specific M166 Title Proper of Multipart Monograph
+Which M171 Containers are suitable for a given M170 Binding type
+How is M172 Colour Content determined for a specific M167 Publication Expression Fragment
+What maintenance (M16 Maintenance) activities are associated with preserving the quality of M175 Music Format recordings
+Which actors are involved in a specific M26 Foreseen Performance
+What is the M30 Ambitus of a particular M42 Performed Expression Creation
+How is a specific M35 Representative Publication Assignment related to an M2 Opus Statement
+What M33 Set of Characters is associated with a given M27 Foreseen Individual Performance
+Can a specific M34 Award Assignment be traced back to a particular M36 Award
+What are the M31 Actor Functions involved in an M28 Individual Performance
+Which M38 Rhythmic Pattern is used in a specific M42 Performed Expression Creation
+How does an M39 Derivation Type Assignment relate to the creation of an M42 Performed Expression Creation
+What M37 Music Scale is employed in a given M42 Performed Expression Creation
+Which M40 Contexts are associated with a specific M25 Foreseen Activity
+Which M43 Performed Expressions are associated with a specific M4 Key
+What M49 Performer Status types are linked to a given M43 Performed Expression
+How can M45 Descriptive Expression Assignments be related to M46 Set of Tracks
+Which M47 WoO Number and M48 WoO Subnumber are assigned to a particular M44 Performed Work
+What M50 Creation or Performance Modes are utilized in a specific M58 Programming Work
+Can a M51 Type Of Recording Equipment influence the M52 Equalization Technique used in a recording
+Which M53 Noise Reduction Techniques are applied to recordings of a certain M5 Genre
+How does the M54 Sound Spatialization Technique affect the M55 Condition of Performance in a concert setting
+What M57 Vocal or Instrumental Techniques are preferred for performances of a specific M61 Work Type
+How are M59 Programs designed to cater to a M60 Intended Audience's preferences
+What are the different hierarchical levels (M62) associated with a particular musical work
+Which castings (M6) are involved in the production (E12) of a specific opera
+How is a musical composition linguistically appelled (M7) in various languages
+What tempo (M8) markings are specified in a given musical score
+Can a musical work be derived (M9) from another, and if so, what is the derivation type
+What characters (F38) are represented in a specific theatrical piece
+How is a composer or performer represented by controlled access points (F50) in the ontology
+What are the legal rights (E30) associated with a particular recording (E24)
+In what events (E5) was a particular music piece (E73) first introduced or performed
+What types (E55) of dimensions (E54) are relevant for describing the physical attributes of musical instruments used in a performance (E12)
+Which F10 Persons have performed in a specific F20 Performance Work
+What are the F14 Individual Works composed by a given F10 Person
+Can a specific E84 Information Carrier be associated with more than one F19 Publication Work
+What F23 Expression Fragments are included in a certain F22 Self-Contained Expression
+How many F12 Nomen are linked to a particular F11 Corporate Body
+Which F15 Complex Works are part of a specific F16 Container Work
+What are the different F13 Identifiers used for a single F1 Work across various E89 Propositional Objects
+Are there any F21 Recording Works derived from a given F20 Performance Work
+How is a specific F17 Aggregation Work related to F18 Serial Works within the ontology
+What E74 Groups have contributed to the creation or performance of an F24 Publication Expression
+Contained Expression
+What are the different types of F26 Recordings associated with a specific F27 Work Conception
+How does a F28 Expression Creation relate to an F2 Expression in terms of its performers and date
+Can a F29 Recording Event be associated with multiple F26 Recordings, and if so, how
+What is the relationship between a F31 Performance and the F25 Performance Plan that preceded it
+How are F33 Reproduction Events linked to the F32 Carrier Production Events they originate from
+Which F34 KOS (Knowledge Organization System) classifications are applicable to a given F2 Expression
+What F35 Nomen Use Statements can be found for a particular F3 Manifestation Product Type
+How is a F40 Identifier Assignment determined for a F41 Representative Manifestation
+Can a F42 Representative Expression Assignment be traced back to a specific F28 Expression Creation
+What roles do F44 Bibliographic Agencies play in the F43 Identifier Rule assignment process
+Which E21 Person pursued a specific F51 Pursuit
+What F54 Utilised Information Carriers are related to a particular F4 Manifestation Singleton
+How is an F52 Name Use Activity connected to an E41 Appellation
+What materials (E57 Material) are associated with a given F53 Material Copy
+Can you list all F5 Items that are classified under a specific F6 Concept
+What E39 Actors participated in an F8 Event
+Which F9 Places are historically significant to a particular E20 Biological Object
+How does an E82 Actor Appellation uniquely identify an E39 Actor
+What are the spacetime volumes (E92 Spacetime Volume) associated with an E53 Place
+Which E28 Conceptual Objects are related to a specific F7 Object
+Which E90 Symbolic Objects are related to a specific E31 Document
+What E45 Address is associated with a given E51 Contact Point
+How can E44 Place Appellation be linked to E47 Spatial Coordinates
+Can an E17 Type Assignment determine the category of an E77 Persistent Item
+What are the E49 Time Appellations associated with an E4 Period
+How does an E19 Physical Object relate to an E70 Thing in terms of E9 Move
+What E2 Temporal Entity corresponds to the E63 Beginning of Existence of an E77 Persistent Item
+Which E81 Transformation is associated with the E64 End of Existence of an E19 Physical Object
+How does an E86 Leaving event affect the status of an E70 Thing
+Can the E66 Formation of an E1 CRM Entity be traced through an E17 Type Assignment
+Which E25 Man-Made Features are part of a given E27 Site
+How is an E42 Identifier associated with an E71 Man-Made Thing
+What E52 Time-Span covers the E68 Dissolution of a specific E71 Man-Made Thing
+Can an E11 Modification be linked to changes in E46 Section Definitions of an E71 Man-Made Thing
+What languages (E56 Language) are used in the E33 Linguistic Objects associated with a particular E27 Site
+Who was the previous custodian before an E10 Transfer of Custody of an E71 Man-Made Thing
+What E48 Place Names are associated with the creation of an E75 Conceptual Object Appellation
+Are there any E34 Inscriptions or E37 Marks on a specific E26 Physical Feature
+How is an E80 Part Removal related to the E69 Death of an entity represented in the ontology
+What visual items (E36 Visual Item) depict the E8 Acquisition of an E71 Man-Made Thing
+Made Features are part of a given E27 Site
+Made Thing
+Span covers the E68 Dissolution of a specific E71 Man-Made Thing
+Made Thing
+Made Thing
+Made Thing
+Which E79 Part Additions have been made to a specific E22 Man-Made Object
+How does a specific E14 Condition Assessment describe the E3 Condition State of an E22 Man-Made Object
+What E50 Date was an E67 Birth recorded in an E32 Authority Document
+Which E38 Images are associated with the E87 Curation Activity of an E78 Collection
+Can an E83 Type Creation be linked to a specific E35 Title within the ontology
+What are the E58 Measurement Units used in the E16 Measurement of an E22 Man-Made Object
+How is an E6 Destruction event documented for an E22 Man-Made Object within the ontology
+What E15 Identifier Assignments are associated with a specific E93 Presence of an E22 Man-Made Object
+How does an E85 Joining activity affect the E3 Condition State of an E22 Man-Made Object
+What E50 Date marks the E87 Curation Activity for a specific E78 Collection
+Made Object
+Made Object
+Made Object
+Made Object within the ontology
+Made Object
+Made Object

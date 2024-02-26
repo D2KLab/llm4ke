@@ -1,0 +1,31 @@
+Which ManagedElements are managed by a specific CorporateUserIdentifier
+Which Applications are of a specific applicationType
+What are the Properties of a given StructuralElement
+Which TroubleTickets have a severity higher than a specified threshold
+How does the troubleTicketRelatedService property associate TroubleTickets with Services
+What is the applicationBusinessImportance of a specific Application
+Which ChangeRequests have a changeRequestStatusCurrent of "pending"
+What are the troubleTicketNotes related to a specific TroubleTicket
+Which ApplicationModules are part of a given Application
+How is the serviceType property used to categorize Services
+What are the severity levels available for trouble tickets in the ontology
+Which types of trouble tickets are recognized by the ontology
+How are trouble tickets categorized according to their urgency in the ontology
+What are the possible statuses for a trouble ticket's current state in the ontology
+What categories of problem responsibility are defined within the ontology
+What operation plans are correlated with specific actions according to the ontology
+For a given operation plan, what are its pre-conditions and post-conditions as defined in the ontology
+How are change requests categorized and what types exist within the ontology
+What are the causes for change requests as recognized by the ontology
+Which document attachments are associated with specific anomaly patterns in the ontology
+conditions and post-conditions as defined in the ontology
+What are the preconditions for a specific action to be executed within a room
+What changes occur in the status of resources after a specific action's postconditions are met
+How is a specific event record related to the occurrence of actions and their conditions in a given locus
+Which resources are connected through a particular network link and what are their operational statuses
+What are the properties and operational status of network interfaces associated with a given resource
+Can the history of document status changes be traced back to a specific event or action
+What actions have been proposed to mitigate an alarm with a certain severity level
+How does the product model of a resource affect its usage state and type
+What resources are necessary for the application of a specific operation plan, considering its preconditions and postconditions
+What network interface characteristics (type, administrative status, operational status) are associated with a specific network link

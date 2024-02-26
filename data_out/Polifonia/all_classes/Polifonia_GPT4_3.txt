@@ -1,0 +1,130 @@
+Which bells are contained within a specific SetOfBells
+What is the historical period of a specific BellTower
+How many bells are in a given BellTower
+What annotations are available for a particular AbstractScore
+Which awards have been received by broadcasters featuring a specific Bell
+What broadcasting situations have featured a particular SetOfBells
+Through what AnnotationMethod was a specific Bell annotated
+What is the geographic location of a specific BellTower
+Which BellTowers have bells made by a specific manufacturer (assuming relevance to one of the unnamed classes)
+What is the relationship between a specific Bell and its corresponding BellTower
+Which compositions are associated with a specific CollectionConcept
+What are the CreativeProcesses involved in generating a DigitalScore
+Can a specific CreativeTask be linked to the creation of a Libretto
+What Instrumentation is required for a given CompositionPart
+How does the Key of a Movement influence its emotional expression
+Which LivePerformances feature a particular MediumOfPerformance
+In what Mode are compositions of a certain FormType primarily written
+Who is the recipient of a DedicationStatement in a MusicAnnotationTimeInterval
+What License types are associated with different DigitalScores
+Which MusicAlgorithms are applied to enhance the quality of a CreativeAction
+Which MusicArtists have performed a given MusicalPerformance
+What MusicGenres are associated with a specific MusicArtist
+Can you list all MusicSheets composed by a particular Musician
+Which Recordings feature a specific Note in their ScoreParts
+How many MusicalPerformances has a MusicEnsemble performed in a given year
+What is the geographical origin of a specific MusicGenre
+Who are the members of a MusicEnsemble and what instruments do they play
+What are the OpusStatements associated with a particular Composer's Score
+Which Publishers have released Recordings of a specific MusicArtist
+From which StudioPerformance was a particular Recording produced
+Which TextFragments are annotated with ContentDescriptor Y related to ContentType Z
+What DataFormats are supported by API X for accessing Dataset Y
+How many DatasetRecords in Dataset X are accessible through DataAccessibility Y
+Which Datasets contain DataAvailability status X for ContentDescriptor Y
+What is the DataModality of the RawDataContent in Dataset X
+Through which APIs can DatasetContent X be accessed, considering ContentAvailability Y
+What FeatureTypes are used in the ProductionMethod of Dataset X
+Can DatasetSplit X of Dataset Y be classified under SplitType Z
+What Operations are performed on Dataset X to produce DatasetContent Y
+Which Datasets are linked by a common DatasetRecord based on FeatureType X
+What parameters define the computational analysis of a specific music content
+Which operations are involved in the sequence to analyze a particular fragment of music
+What types of annotations are associated with a given music content by a specific annotator
+How does the analytical reference influence the outcome of music content analysis
+What are the characteristics of the instrument used in a particular music projection
+Through which analyst and analysis method was a certain observation about music content derived
+What vocabularies are utilized for annotating a specific type of music content
+Which annotation types are most frequently used for a given genre of music content
+How does the annotator type affect the annotation quality of music fragments
+What computational analyses are applied to understand the thematic elements of a music piece
+Which instruments are part of InstrumentRealization X
+What actions are associated with AgentRole Y in a musical context
+Can you list all the aliases for Agent Z within the Polifonia ontology
+What collections include InstrumentPart A, and what is their CollectionMembershipStrength
+Which Voice classifications are used in CollectionConcept B
+How do Address and AddressComponent entities relate to the origins of InstrumentRealization C
+In which City and Country was the Description D related to Concept E first identified
+What is the relationship between Collection F and CollectionConcept G in terms of musical themes
+Identify all Agent entities that have played a role in the preservation of District H's musical heritage
+How does the Alias I relate to different AgentRoles in the context of historical performances
+Which Events are associated with MusicDataset X
+What is the Explanation for the naming of GeographicalFeature Y
+How many InformationObjects are related to MusicTimeInterval Z
+In which Language is InformationRealization A described
+What is the duration of MusicTimeDuration B in MusicTimeValueType units
+Can you list all Names of Persons involved in Event C
+Which Organizations have contributed to MusicDataset D
+What PhysicalSites are linked to Place E within Province F
+How many References cite MusicDataset G in Region H
+What is the historical significance of PhysicalSite I as narrated in Explanation J
+What roles have participants played in a given meetup
+Can you list all meetups that occurred within a specific time interval
+What are the different types of tasks associated with a particular project
+How has the role of a specific participant evolved over time in a given context
+What theories have been applied to understand a specific situation
+Which spatial objects are associated with a particular street in a given time period
+What is the purpose of a certain meetup
+Can you provide the titles of sources that discuss a specific theory
+What locations have been the focus of studies on a particular type of music
+How do time indexed situations relate to changes in music genres over specific time intervals
+What is the duration of a specific musical piece
+Which musical pieces use a specific accidental in their composition
+What is the ambitus type of a given musical piece
+How are cadences classified within a particular composition
+Can a chord be identified within a specific time range in a musical piece
+What type of clef is used in a specific musical piece
+What are the enharmonic intervals found in a given composition
+Are there any specific musical resources associated with a particular time point
+Which musical pieces contain a specific enharmonic pitch class
+How do the durations of two specific musical pieces compare
+Which intervals are commonly found in tunes with key X
+What specific scale degrees define mode Y in the context of key Z
+How do pitch classes of tune X compare to those of tune Y in terms of interval quality
+What are the characteristic modes and their mode types for tunes from geographical region Z
+Can specific intervals be identified that differentiate tunes of mode type X from mode type Y
+What is the relationship between natural accidental occurrences and key signatures in a collection of tunes
+How do spelled pitch classes vary across tunes in different keys but similar mode types
+What are the common pitch classes in tunes that share a specific interval quality
+How does the use of sharp accidental influence the pitch range of tunes in a specific key
+In terms of pitch and interval quality, how do tunes from the same collection differ from those of a different collection
+What sources discuss the context of production for subject X
+Which agents have played a role in the context of usage of medium Y
+How credible are the sources that mention fragment Z
+What are the bibliographical references for the subject related to place A
+In which projects has agent B participated, and what roles did they play
+What is the relationship of parthood between fragments C and D
+Can you identify the different types of sources that mention task E
+What places are associated with the production or usage contexts of subject F
+How is medium of publishing G related to the subjects it covers
+What tasks are associated with the project titled H and who are the agents involved
+Which organs contain a specific type of Pipe
+What types of Keyboards are used in Organ X
+How many Divisions does a given Organ have, and what are their names
+Which Organ has the most complex Console configuration
+Can you list all Organs that include a PedalTowerCase
+What PlayingAids are available for a specific ManualKeyboard
+In which geographical locations are Organs with BrustwerkCases most commonly found
+What is the relationship between DivisionStop and Pipe in a specified Organ
+How many Cases does a specific Organ have, and what are their types
+Are there any Organs that employ both a ChoirCase and an OberwerkCase
+What StopKnobs are part of a given StopRank
+Which WindSystem is associated with a specific WindChannel
+Can a Tune belong to more than one TuneFamily
+What LyricsFamily does a particular Tune belong to
+How are TuneFamilies categorized based on their historical period
+What are the connecting WindChannels between two different WindSystems
+Are there StopKnobs that influence multiple StopRanks simultaneously
+What geographic regions are represented by the tunes in a given TuneFamily
+How do the materials of StopKnobs affect the sound quality of a StopRank
+Which TuneFamilies share similar thematic elements in their LyricsFamily

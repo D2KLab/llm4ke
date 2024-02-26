@@ -1,0 +1,122 @@
+Which compositions utilize a specific medium of performance as indicated by M14 Medium Of Performance
+What catalogue names and numbers are associated with a particular composition as per M10 Catalogue Name and M11 Catalogue Number
+How can one identify the vocal or instrumental technique foreseen for a performance according to U96 foresees vocal or instrumental technique
+What are the publication statements related to a specific musical work as defined by M160 Publication Statement
+Can a particular musical work be identified by its title statement and statement of responsibility as outlined in M156 Title Statement and M157 Statement of Responsibility
+Which musical works have a specific dedication as indicated by M15 Dedication Statement
+How are different editions of a musical work distinguished according to M159 Edition Statement
+What distribution statements are associated with a specific musical work as per M161 Distribution Statement
+How is the series information of a musical work captured, considering M162 Series Statement and U221 has title proper of series
+What are the criteria for classifying a musical work's format as stated in M163 Music Format Statement
+What are the title proper of multipart monographs associated with a specific publication expression fragment
+Which media types are specified for a certain music format
+What carrier types are utilized for a particular harmonic structure in music recordings
+How is a music group formation categorized in terms of its harmonic structure and form
+What are the maintenance activities recorded for a specific carrier type
+Can a music format have multiple playing speeds, and if so, what are they
+What binding types are associated with publication expression fragments that have a specific colour content
+For a given music piece, what are the casting details and the medium of performance sections
+What catalogue statements are associated with music pieces that have a specific form and casting detail
+How is the music group formation related to the controlled access point creator in terms of categorization
+Which actors have been assigned the function of a conductor in a foreseen performance
+What are the metronome indications associated with a particular performed expression creation
+How does the ambitus of a musical piece relate to its lowest and highest pitch
+What awards have been assigned to specific individual performances
+Can you list the musical compositions that have a specific opus number and have been edited under a certain editing process
+What are the different contexts (historical, cultural, geographical) associated with a particular performance
+Which actors have a foreseen responsibility in a foreseen individual performance
+What rhythmic patterns are used in performances that occur in a religious context
+How does the set of characters influence the performed character in an individual performance
+What are the used noise reduction techniques in the editing of musical pieces
+Which M43 Performed Expressions incorporate a specific M44 Performed Work
+What M49 Performer Status is associated with a given M43 Performed Expression
+Which M45 Descriptive Expression Assignments are linked to a particular M5 Genre
+What M50 Creation or Performance Modes are foreseen for a specific M58 Programming Work
+How does the M52 Equalization Technique impact the sound quality of an M46 Set of Tracks
+What M54 Sound Spatialization Techniques were used in the production of a specific M51 Type Of Recording Equipment
+Which M57 Vocal or Instrumental Techniques are employed in a given M43 Performed Expression
+What M60 Intended Audience is a specific M59 Program aimed at
+How is the M4 Key related to the musical structure of an M44 Performed Work
+What U92 foresees to put into effect in terms of M55 Condition of Performance for an upcoming concert
+Which E40 Legal Body has the right to produce a given E24 Physical Man-Made Thing
+What is the U14 tempo associated with a specific M6 Casting
+How does the P108 production event relate to the E65 Creation of an E73 Information Object
+What U95 hierarchical level is assigned to a particular E29 Design or Procedure
+Which F38 Character is performed in an E5 Event according to U27 performed character
+What are the specific U23 casting details for a given M6 Casting
+How is the P165 incorporates property used to associate E73 Information Objects with E24 Physical Man-Made Things
+What E55 Type is associated with an E54 Dimension through P2 has type
+Which E40 Legal Body holds P105 right on an E72 Legal Object
+What P127 has broader term relationships exist for a given E55 Type in the ontology
+Made Thing
+Made Things
+Which F10 Persons are current or former members of a specific E74 Group
+What U61 geographical context occurred for a particular F20 Performance Work
+How many F14 Individual Works have been influenced by a specific E7 Activity
+Which F19 Publication Works were intended for a specific U62 form
+What is the U71 uniform title of a F22 Self-Contained Expression
+Who are the F11 Corporate Bodies that participated in an F17 Aggregation Work
+What R40 representative expression is associated with a specific F15 Complex Work
+Which F12 Nomen has been stated as nomen by a particular F13 Identifier
+How many F21 Recording Works have a U58 full published recording
+What U12 genre is associated with a specific F23 Expression Fragment
+Contained Expression
+Which F26 Recordings are realised in a specific F28 Expression Creation
+What F25 Performance Plans foresee the performing plan of a particular F31 Performance
+How many F27 Work Conceptions have been created for a specific actor identified by U49
+What is the duration (U53) of a specific F29 Recording Event
+Which F34 KOS (Knowledge Organization System) does a particular F35 Nomen Use Statement specify (R35)
+Can you list all F32 Carrier Production Events that used a specific sound spatialization technique (U225)
+What are the titles and statements of responsibility (U220) associated with a given F3 Manifestation Product Type
+Which F36 Script Conversions are used by a specific F28 Expression Creation
+How many F40 Identifier Assignments have been made for a particular F26 Recording
+What historical instruments (U193) were used in a particular F31 Performance
+What events (F8) were created (R18) by a specific person (E21)
+Which physical things (E18) are associated with a particular material (E57) through the "consists of" property (P45)
+How many manifestation singletons (F4) represent a specific utilised information carrier (F54)
+Can you list all the actors (E39) who have a specific appellation (E41 Appellation) through the "used name" property (R64)
+What are the former or current locations (P53) of a given object (F7)
+Which concepts (F6) are identified by a specific appellation (P131 is identified by)
+What are the pursuits (F51) that have been carried out by a specific actor (E39)
+How is a specific place (F9) defined by its spatial projection (P161)
+What materials (E57) have been used in the production (R28) of a specific physical thing (E18)
+Which events (F8) took place at a specific place (F9 Place) and within a particular spacetime volume (E92)
+Which E90 Symbolic Objects are composed of a specific E70 Thing
+What E51 Contact Points are associated with a given E45 Address
+How does a specific E19 Physical Object incorporate E77 Persistent Items
+Which E4 Periods are documented in a given E31 Document
+What type of E17 Type Assignment has been attributed to a specific E70 Thing
+Can you identify all E49 Time Appellations that refer to the beginning of existence of an E63 Beginning of Existence
+What are the spatial coordinates (E47 Spatial Coordinates) of a specific E44 Place Appellation
+Which E19 Physical Objects were moved (E9 Move) to a certain E44 Place Appellation
+How many parts (P57 has number of parts) does a specific E70 Thing have
+What transformations (E81 Transformation) have been applied to a particular E90 Symbolic Object
+What are the identifiers (E42 Identifier) assigned to a specific man-made thing (E71 Man-Made Thing)
+Which language (E56 Language) is used in a particular linguistic object (E33 Linguistic Object)
+What are the material compositions (U211 has composition of material) of a given man-made feature (E25 Man-Made Feature)
+How has a specific physical feature (E26 Physical Feature) been modified (E11 Modification) over time
+Can you list the section definitions (E46 Section Definition) that define a particular site (E27 Site)
+What titles (E75 Conceptual Object Appellation) has a visual item (E36 Visual Item) been given
+Who transferred the title (P24 transferred title of) of a conceptual object appellation (E75 Conceptual Object Appellation) and to whom
+What are the technical features (U212 has technical features) of a man-made thing (E71 Man-Made Thing)
+During what time-span (E52 Time-Span) did the dissolution (E68 Dissolution) of an entity occur
+Which visual items (E36 Visual Item) represent a specific man-made feature (E25 Man-Made Feature)
+made thing (E71 Man-Made Thing)
+made feature (E25 Man-Made Feature)
+made thing (E71 Man-Made Thing)
+span (E52 Time-Span) did the dissolution (E68 Dissolution) of an entity occur
+made feature (E25 Man-Made Feature)
+Which E79 Part Addition has been identified (P35) by a specific E32 Authority Document
+What E58 Measurement Unit is used (P91) in the E16 Measurement of an E22 Man-Made Object
+Who is the current or former curator (P109) of a specific E78 Collection
+What are the E50 Date instances that mark the E67 Birth (P98) of individuals associated with a particular E35 Title
+How has a specific E3 Condition State been assessed (P34) in terms of its E14 Condition Assessment
+What objects have joined (P144) with a specific E22 Man-Made Object to form a new E85 Joining
+Which E87 Curation Activity instances have curated (P147) a particular E78 Collection
+What is the P40 observed dimension of an E22 Man-Made Object and what E58 Measurement Unit is used (P91)
+How many times has a specific E22 Man-Made Object been part of a E93 Presence (P166) at different events or locations (P167)
+What titles (U167 has title proper, U168 has parallel title) are associated with an E32 Authority Document that lists (P71) a specific E38 Image
+Made Object
+Made Object to form a new E85 Joining
+Made Object and what E58 Measurement Unit is used (P91)
+Made Object been part of a E93 Presence (P166) at different events or locations (P167)

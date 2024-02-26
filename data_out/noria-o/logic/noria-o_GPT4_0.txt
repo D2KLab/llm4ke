@@ -1,0 +1,31 @@
+Which agents are managing a specific ManagedElement
+What are the event-related elements of a given DynamicElement
+What contact methods are preferred by a specific agent
+For a given Application, what is its type and business importance
+What resources are allocated for a specific Application
+What is the current status of a specific TroubleTicket
+What applications are affected by a given TroubleTicket
+What is the planned start and end time for a specific ChangeRequest
+Are there any TroubleTickets with high urgency but low priority, and if so, what are they
+For a given ApplicationModule, what is its SLA level and status
+related elements of a given DynamicElement
+What is the severity of a specific trouble ticket
+What are the types of trouble tickets existing in the system
+How is trouble ticket criticity determined and categorized
+What prioritization criteria are used for trouble tickets
+From what origins can trouble tickets be generated
+What factors influence the urgency of a trouble ticket
+How are trouble tickets categorized into different categories
+What categories of problems are associated with trouble tickets
+Who is responsible for resolving a given problem category in trouble tickets
+What is the current status of a specific trouble ticket
+What are the preconditions for a specific Operation Plan
+What are the postconditions for a given Operation Plan
+Which resources are located at a specific Locus
+What is the document status history of a particular Trouble Ticket
+What triggers a specific Trouble Ticket
+What resources are affected by a specific Trouble Ticket
+What are the proposed repair actions for an alarm with a certain severity
+Which resources have a specific virtual server status
+What is the operational status of a given Network Interface
+What Product Model is associated with a specific Resource

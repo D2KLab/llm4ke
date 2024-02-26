@@ -1,0 +1,40 @@
+What are the key attributes of an Application module in the noria-o ontology, and how do they relate to the overall application context
+How are TroubleTickets and EventRecords associated in the noria-o ontology, and what information is shared between them
+What are the primary characteristics of a ChangeRequest in the noria-o ontology, and how do they differ from a TroubleTicket
+What are the various types of elements managed by an Agent in the noria-o ontology, and how does the managed element concept relate to the overall system
+How are DynamicElements related to StructuralElements and Resources in the noria-o ontology, and what impact does this relationship have on the system's functionality
+What are the key aspects of an Application's business importance in the noria-o ontology, and how does it influence the prioritization of trouble tickets and change requests
+How are TroubleTicket notes categorized based on their operation type and comment type in the noria-o ontology, and what is their purpose in the context of the system
+What are the main attributes of a Service in the noria-o ontology, and how do they contribute to the overall service management process
+How are TroubleTickets and Procedures linked through the concept of ProcedureExecutionContainer in the noria-o ontology, and what information does this relationship provide
+What are the primary differences between the concepts of TroubleTicket priority, urgency, and severity in the noria-o ontology, and how do they impact the system's response to incidents
+o ontology, and how do they relate to the overall application context
+o ontology, and what information is shared between them
+o ontology, and how do they differ from a TroubleTicket
+o ontology, and how does the managed element concept relate to the overall system
+o ontology, and what impact does this relationship have on the system's functionality
+o ontology, and how does it influence the prioritization of trouble tickets and change requests
+o ontology, and what is their purpose in the context of the system
+o ontology, and how do they contribute to the overall service management process
+o ontology, and what information does this relationship provide
+o ontology, and how do they impact the system's response to incidents
+Understand the severity level of a trouble ticket
+Determine the type of a trouble ticket
+Assess the criticality of a trouble ticket
+Prioritize a trouble ticket based on its priority
+Identify the origin of a trouble ticket
+Recognize the urgency of a trouble ticket
+Classify a trouble ticket based on its category
+Identify the problem category associated with a trouble ticket
+Determine the responsibility for a problem in a trouble ticket
+Recognize the current status of a trouble ticket
+What are the preconditions and postconditions associated with an OperationPlan and its related actions
+How are the locations of resources represented in the ontology, and what are the attributes of a Locus
+What information is recorded in an EventRecord, and how are its logOriginatingManagedObject, logOriginatingManagementSystem, and logOriginatingAgent related to resources, applications, and agents
+What are the severity levels and attributes associated with alarms in the ontology
+How are the statuses of virtual servers, network interfaces, and resources in general represented in the ontology
+What are the relationships between TroubleTickets, ChangeRequests, and Resources, and how are they connected to events and actions
+How are NetworkLinks and NetworkInterfaces connected in the ontology, and what are the attributes of a NetworkInterface
+What are the identifiers and descriptive attributes of Resources, and how are they related to their installation date, hostname, and serial number
+What are the types of resources and their roles in the context of applications
+How are the attributes of a NetworkLink represented, and what are the metrics related to network interfaces' performance

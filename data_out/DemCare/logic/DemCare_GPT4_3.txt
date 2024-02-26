@@ -1,0 +1,152 @@
+What activities of daily living (ADL) are monitored by DemCare
+How does DemCare classify the severity of cognitive impairments
+What interventions does DemCare suggest for patients with specific dementia symptoms
+Which healthcare professionals are involved in the patient's care plan within DemCare
+What are the different types of behavioral symptoms tracked by DemCare
+How does DemCare integrate family or caregiver feedback into patient care plans
+What are the privacy settings for sensitive patient data in DemCare
+How does DemCare support medication management for dementia patients
+What are the criteria for patient enrollment into the DemCare program
+How does DemCare evaluate the effectiveness of care plans over time
+What activities are monitored by the DemCare system
+How does DemCare classify different stages of dementia
+What interventions does DemCare recommend for managing dementia symptoms
+What are the criteria for a patient to be included in the DemCare program
+How does DemCare assess the effectiveness of care plans
+What types of support services does DemCare provide for caregivers
+How does DemCare integrate with existing healthcare systems
+What privacy measures does DemCare implement for patient data
+How are emergency situations handled within the DemCare framework
+What training programs does DemCare offer for healthcare professionals
+What activities are monitored by the DemCare ontology
+How does the DemCare ontology represent a patient's cognitive status
+What interventions are included in the DemCare ontology for managing dementia symptoms
+Which caregivers' roles are identified within the DemCare ontology
+How are medication adherence data represented in the DemCare ontology
+What environmental factors are considered in the DemCare ontology for patient care
+How does the DemCare ontology classify different stages of dementia
+What tools or assessments are used within the DemCare ontology to evaluate a patient's functional abilities
+Which symptoms of dementia are tracked in the DemCare ontology
+How does the DemCare ontology capture changes in a patient's condition over time
+What activities are monitored by the DemCare ontology
+How does the DemCare ontology categorize behavioral symptoms
+What interventions are available for patients in the DemCare ontology
+Which healthcare professionals are involved in the care plan according to the DemCare ontology
+How are medication regimens represented in the DemCare ontology
+What are the criteria for assessing the progression of dementia within the DemCare ontology
+What environmental factors are considered in patient assessments by the DemCare ontology
+How does the DemCare ontology incorporate patient preferences and values in care plans
+What are the mechanisms for updating patient information in the DemCare ontology
+How does the DemCare ontology support communication between caregivers and medical professionals
+What activities are monitored by the DemCare ontology
+How does the DemCare ontology classify different stages of dementia
+What interventions does the DemCare ontology recommend for patients at various stages of dementia
+What tools or technologies are integrated into the DemCare ontology for patient monitoring
+How does the DemCare ontology support caregivers in providing care
+What are the key indicators used by the DemCare ontology to assess the progression of dementia
+How does the DemCare ontology handle privacy and data security for sensitive patient information
+In what ways does the DemCare ontology facilitate communication between healthcare providers and families
+What guidelines does the DemCare ontology provide for adapting care plans as dementia progresses
+How does the DemCare ontology incorporate patient feedback and preferences into care planning
+Which activities are monitored for a patient with dementia using DemCare
+How does DemCare classify the stages of dementia in patients
+What interventions does DemCare recommend for managing aggressive behavior in dementia patients
+What are the indicators used by DemCare to assess a patient's quality of life
+How does DemCare integrate family or caregiver feedback into patient care plans
+What privacy measures does DemCare implement for patient data
+How are medication adherence and effects monitored in DemCare
+What are the criteria for a patient to be enrolled in the DemCare program
+How does DemCare facilitate communication between different healthcare providers involved in a patient's care
+What training or resources does DemCare provide for caregivers of dementia patients
+What activities are monitored by the DemCare ontology
+How does the DemCare ontology categorize patient behaviors
+What interventions does the DemCare ontology support for patients with dementia
+Which healthcare professionals are involved in the data collection process within the DemCare ontology
+How does the DemCare ontology track the progression of dementia in patients
+What types of environmental data does the DemCare ontology collect for patient care
+How are family members integrated into the care plan within the DemCare ontology
+What tools and technologies are recommended by the DemCare ontology for monitoring patient health
+How does the DemCare ontology support personalized care plans for patients
+What measures does the DemCare ontology use to evaluate the effectiveness of interventions
+What activities of daily living are monitored by DemCare
+How does DemCare classify the severity of dementia symptoms
+What interventions does DemCare recommend for patients with different stages of dementia
+Which healthcare professionals are involved in the DemCare management plan
+How does DemCare integrate family or caregiver feedback into patient care plans
+What are the criteria for enrolling a patient into the DemCare program
+What privacy measures does DemCare implement for patient data
+How does DemCare track and evaluate the progression of dementia over time
+What community resources does DemCare connect patients and families with
+How is medication management handled within the DemCare system
+Which events are highlighted as significant within the DemCare ontology
+How is the boolean value for the 'highlight' attribute determined for each event
+Are there specific criteria for an event to be considered a highlight within DemCare
+Can an event's 'highlight' status change over time in the DemCare ontology
+What types of events are typically marked as highlights in the DemCare ontology
+How does the 'highlight' attribute affect the processing or interpretation of events in DemCare
+Is there a correlation between event types and their likelihood to be highlighted in DemCare
+How are events without a 'highlight' boolean value treated differently from those with it in DemCare
+Are there any patterns in the occurrence of highlighted events within the DemCare ontology
+How does the DemCare ontology facilitate the identification and analysis of highlighted events
+What activities are monitored by the DemCare ontology
+How does the DemCare ontology classify different stages of dementia
+What interventions does the DemCare ontology support for dementia care
+What types of behavioral data are collected and analyzed
+How does the DemCare ontology model caregiver roles and responsibilities
+What environmental factors are considered in the DemCare ontology for patient care
+How are medication regimens represented in the DemCare ontology
+What types of communication patterns between patient and caregiver are recorded
+How does the DemCare ontology incorporate patient preferences and history in care plans
+What assessment tools are integrated into the DemCare ontology for evaluating patient progress
+What activities are monitored by the DemCare ontology
+How does the DemCare ontology classify behavioral symptoms in dementia patients
+What interventions does the DemCare ontology support for managing dementia
+What entities represent family or caregiver interactions within the DemCare ontology
+How are medication adherence and effects tracked in the DemCare ontology
+What environmental factors are considered in the DemCare ontology for patient well-being
+How does the DemCare ontology model the progression of dementia
+What tools or instruments are encoded within the DemCare ontology for assessing cognitive function
+In what ways does the DemCare ontology support personalized care plans for individuals with dementia
+What communication preferences or methods are captured for patients within the DemCare ontology
+being
+What activities are monitored by the DemCare ontology
+How does the DemCare ontology represent patient diagnoses
+What interventions does the DemCare ontology support for dementia patients
+Which healthcare professionals are involved in the data input process for the DemCare ontology
+What are the criteria for patient inclusion in the DemCare system
+How does the DemCare ontology track patient progress over time
+What types of behavior changes are monitored by the DemCare ontology
+How is medication information represented and tracked in the DemCare ontology
+What tools or methods does the DemCare ontology use to assess patient well-being
+How does the DemCare ontology integrate family or caregiver feedback into patient care plans
+being
+What is the duration of an eating event recorded in the DemCare ontology
+What are the different eating locations recorded in the DemCare ontology
+How is eating duration associated with eating summary in the DemCare ontology
+How is eating location associated with eating summary in the DemCare ontology
+Can multiple eating durations be recorded for a single eating summary in the DemCare ontology
+Can multiple eating locations be recorded for a single eating summary in the DemCare ontology
+What is the longest eating duration recorded in the DemCare ontology
+What is the most commonly recorded eating location in the DemCare ontology
+Are there any restrictions on the format of eating duration in the DemCare ontology
+Are there any restrictions on the values of eating location in the DemCare ontology
+Which activities are monitored by the DemCare ontology
+How does DemCare classify patient behavior patterns
+What interventions does DemCare suggest for managing challenging behaviors in dementia patients
+What criteria does DemCare use to evaluate the effectiveness of care plans
+How does DemCare support the communication between caregivers and healthcare professionals
+What tools does DemCare provide for tracking the progression of dementia
+In what ways does DemCare facilitate patient engagement in their care plan
+How does DemCare integrate environmental factors into patient care strategies
+What measures does DemCare take to ensure patient privacy and data security
+How does DemCare adapt to the changing needs of dementia patients over time
+What activities are monitored by the DemCare system
+How does DemCare classify the severity of symptoms observed
+Which healthcare professionals are involved in the patient's care plan within DemCare
+What interventions are available for managing specific symptoms in DemCare
+How does DemCare track the progression of a patient's condition over time
+What specific behavioral changes does DemCare monitor as indicators of health status
+How does DemCare integrate family or caregiver feedback into patient care plans
+What are the criteria for adjusting a patient's treatment plan in DemCare
+In what ways does DemCare facilitate communication between different care providers
+How does DemCare ensure data privacy and security for its users

@@ -1,0 +1,20 @@
+Which resources are related to a given trouble ticket
+Which applications are related to a given trouble ticket
+Which applications are related to a given event record
+Which resources are related to a given change request
+Which resources are related to a given application
+Which resources are related to a given application module
+Which resources are related to a given service
+Which resources are related to a given event record
+Which resources are related to a given application module status
+Which resources are related to a given application module sla level
+Which resources are related to a given trouble ticket
+Which resources have a specific resource usage state
+Which resources have a specific resource type
+Which resources have a specific resource product model
+Which resources have a specific resource management IP address
+Which resources have a specific resource host name
+Which resources have a specific resource serial number
+Which resources have a specific resource installation date
+Which resources have a specific network interface administrative status
+Which resources have a specific network interface operational status

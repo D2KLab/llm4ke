@@ -1,0 +1,30 @@
+Which managed element is associated with a specific trouble ticket
+What is the business importance of an application
+What service type is related to a given trouble ticket
+What is the current status of a change request
+What is the agent's preferred contact method for a given corporate user identifier
+What application module has a specific SLA level
+What is the trouble ticket priority for a certain incident
+What is the problem category for a given trouble ticket
+What is the impact of a trouble ticket on the system
+What is the planned restoration date for a specific trouble ticket
+Which trouble ticket category corresponds to an issue related to an OperationPlan
+What is the urgency level of a given trouble ticket
+What is the priority of a specific change request
+What is the status of a trouble ticket with a certain type
+What is the problem category associated with a given OperationPlan
+What is the trouble ticket severity for a specific incident
+What is the responsibility for a particular problem
+What is the current status of an OperationPlan
+What is the note comment type for a specific trouble ticket
+What is the change request type related to a given OperationPlan
+Which resource is associated with an operation plan's precondition or postcondition
+What network interfaces are connected to a specific network link
+What is the operational status of a network interface linked to a certain network link
+What resources have a specific product model
+What is the log history of a particular event record
+What resources are located at a specific locus
+What trouble tickets are related to a specific resource
+What change requests have an impact on a given resource
+What is the virtual server status of a resource
+What alarm severity is associated with a given log

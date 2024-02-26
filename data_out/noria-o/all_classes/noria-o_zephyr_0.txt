@@ -1,0 +1,50 @@
+How does a ManagedElement differ from a StructuralElement in the context of noria-o ontology
+What is the relationship between a Property and a StructuralObservable in the context of noria-o ontology
+How does a FunctionalElement differ from a DynamicElement in the context of noria-o ontology
+What is the relationship between a CorporateUserIdentifier and an Application in the context of noria-o ontology
+How does an ApplicationModule differ from a Service in the context of noria-o ontology
+What is the relationship between a TroubleTicket and a TroubleTicketNote in the context of noria-o ontology
+How does a nbb800b2cbf044a3eb04ad5bbbf223378b1 differ from a nbb800b2cbf044a3eb04ad5bbbf223378b5 in the context of noria-o ontology
+What is the relationship between a nbb800b2cbf044a3eb04ad5bbbf223378b9 and a nbb800b2cbf044a3eb04ad5bbbf223378b13 in the context of noria-o ontology
+How does a nbb800b2cbf044a3eb04ad5bbbf223378b17 differ from a Service in the context of noria-o ontology
+What is the relationship between a ChangeRequest and a TroubleTicket in the context of noria-o ontology
+o ontology
+o ontology
+o ontology
+o ontology
+o ontology
+o ontology
+o ontology
+o ontology
+o ontology
+o ontology
+What is the relationship between DocumentAttachment and AnomalyPattern in noria-o ontology
+How is OperationPlan related to nbb800b2cbf044a3eb04ad5bbbf223378b33 in noria-o ontology
+Can you provide an example of a class that is related to nbb800b2cbf044a3eb04ad5bbbf223378b41 in noria-o ontology
+How is nbb800b2cbf044a3eb04ad5bbbf223378b53 related to AnomalyPattern in noria-o ontology
+Can you provide an example of a class that is related to nbb800b2cbf044a3eb04ad5bbbf223378b61 in noria-o ontology
+How is nbb800b2cbf044a3eb04ad5bbbf223378b65 related to OperationPlan in noria-o ontology
+Can you provide an example of a class that is related to nbb800b2cbf044a3eb04ad5bbbf223378b73 in noria-o ontology
+How is nbb800b2cbf044a3eb04ad5bbbf223378b81 related to AnomalyPattern in noria-o ontology
+Can you provide an example of a class that is related to nbb800b2cbf044a3eb04ad5bbbf223378b85 in noria-o ontology
+How is nbb800b2cbf044a3eb04ad5bbbf223378b89 related to OperationPlan in noria-o ontology
+o ontology
+o ontology
+o ontology
+o ontology
+o ontology
+o ontology
+o ontology
+o ontology
+o ontology
+o ontology
+What is the ActionPreCondition for a specific Action
+What is the ActionPostCondition for a specific Action
+What is the Room for a specific EventRecord
+What is the Locus for a specific EventRecord
+What is the Resource for a specific NetworkInterface
+What is the NetworkLink for a specific NetworkInterface
+What is the ProductModel for a specific Resource
+What are the nbb800b2cbf044a3eb04ad5bbbf223378b93, nbb800b2cbf044a3eb04ad5bbbf223378b97, nbb800b2cbf044a3eb04ad5bbbf223378b101, nbb800b2cbf044a3eb04ad5bbbf223378b105, respectively
+What are the nbb800b2cbf044a3eb04ad5bbbf223378b109, nbb800b2cbf044a3eb04ad5bbbf223378b113, respectively
+What is the EventRecord for a specific Locus

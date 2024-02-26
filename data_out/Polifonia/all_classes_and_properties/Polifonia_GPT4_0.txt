@@ -1,0 +1,131 @@
+Which SetOfBells is part of a specific BellTower
+What Award has a specific Broadcaster received
+Which AbstractScore uses a specific AnnotationMethod
+What is the tempo of a specific AbstractScore
+Who is the Broadcaster that has broadcasted a specific BroadcastingSituation
+What Instrumentation does a specific AbstractScore have
+Which BellTower contains a Bell that has a specific orderNumber
+What is the key of a composition that is part of a specific AbstractScore
+Who is the agent involved in a specific AnnotationMethod
+Which BroadcastingSituation involves a specific Award
+Which Collections include a specific CompositionPart
+What CreativeActions are involved in a given CreativeProcess
+Who is the creator (hasAgentRole) of a specific DigitalScore
+What License is associated with a particular LivePerformance
+How is a Libretto dedicated to (hasDedicationStatement) a certain individual or entity
+What Instrumentation is required for a specific MediumOfPerformance
+Which Key and Mode are defined for a given CompositionPart
+What are the different FormTypes a CompositionPart can have
+Which MusicAlgorithm is trained on a particular MusicAnnotationTimeInterval
+What Collections are defined by a specific CollectionConcept
+Which MusicGenres has a MusicArtist been involved with through their career
+Can you list all MusicalPerformances that involved a specific Musician and the MusicEnsemble they were part of
+What RecordingEquipments were used in the RecordingProcess of a particular StudioPerformance
+Who are the Publishers associated with the PublicationSituation of a specific MusicSheet
+Which MusicEntities have been nominated for or received awards, and what were those awards
+How many Notes of a specific pitch are included in a given ScorePart
+What are the OpusStatements associated with a MusicEntity, and who created them
+Can you identify all Recordings that a MusicArtist has collaborated on with another MusicArtist
+What is the formation place and year of a specific MusicEnsemble
+Which MusicGenres have influenced a particular MusicEntity, and how is this reflected in their works
+Which TextFragments are part of a specific Text in the Polifonia ontology
+What ContentAnnotations are associated with a given RawDataContent
+Through which APIs can a particular Dataset be accessed according to the Polifonia ontology
+What types of ContentAvailability are defined for Content in the Polifonia ontology
+How does a specific DataAccessibility level affect the availability of Datasets in Polifonia
+Which DatasetRecords contain a specific FeatureType in their DataFormat according to Polifonia
+What DataModalities are supported by a Dataset containing a specific type of DatasetContent
+How are different DatasetSplits characterized by their SplitType in the Polifonia ontology
+What ProductionMethods are used for generating Datasets that have a particular ContentType
+Can a specific Operation be linked to a Dataset through a defined ProcessMethod in the Polifonia ontology
+Which Analyst is involved in the ComputationalAnalysis of a specific MusicContent
+What are the AnnotationTypes used by an Annotator in a given Analysis
+How does a specific OperationSequence describe a Fragment of MusicContent
+What Instruments were invented by a particular Analyst and at what time
+Which MusicContent has been annotated with a specific Observation
+Can a Fragment be associated with multiple Annotations of different AnnotationTypes
+What is the confidence level of Annotations made by a specific AnnotatorType
+Which Analysts have contributed to the AnalyticalReference of a given MusicProjection
+How is a specific MusicContent represented in different MusicProjections
+What are the temporal locations of Fragments involved in a particular ComputationalAnalysis
+Which instruments were built by a specific builder
+What are the components of a given address
+Which agents have played a role in the conceptualization of a specific concept
+Can you list all the collections that a certain item is a member of, along with the membership strength
+What actions are involved in the realization of a specific instrument
+Who invented a particular instrument, and where was it invented
+What are the aliases used by a particular agent
+Which collections are defined by a certain concept
+How is a specific district described, and which agents are associated with this description
+What are the roles an agent plays in the context of instrument realization
+Which Events have a specific MusicTimeDuration
+What InformationObject realizes a given MusicDataset
+Who is the Person dedicated to a specific MusicTimeInterval
+What is the birthplace of a certain Musician (Person)
+Which Organization was formed in a specific Region
+What Language is a specific MusicDataset conceptualized by
+Can you list all the GeographicalFeatures associated with a particular MusicTimeIndex
+What Explanation is based on a given MusicTimeIndexComponent
+Who are the Persons that have a Name including a specific string
+What MusicTimeValueType is associated with a particular MusicTimeInterval
+What roles can a participant have in a specific meetup
+Which sources are considered credible for a given historical event and why
+How does the context of production of a source influence its credibility
+What are the different situations where a specific role is crucial, and what tasks are executed in those situations
+Can you trace the evolution of a street's name over time through time-indexed names
+What theories explain the purpose behind a specific meetup's organization
+How is a participant's role in a meetup related to the task they execute
+What types of spatial objects are associated with specific historical events and their locations
+During what time interval did a significant historical event take place, and what evidence supports this
+How do the purposes of different meetups compare, and what types of participants typically attend them
+indexed names
+What TimePoint or TimeRange does a specific TimeReference refer to
+Which Resources are related to a specific GeneralDateTimeExpression
+How is N115acf8efb1e417fa8cad880c46ec1ae connected to Ne9a51c4e183e45799866f343537d7202 through TimeEntity relationships
+What Accidental is associated with a given EnharmonicPitchClass
+Can you list all Chords that are composed of a specific EnharmonicInterval
+Which CadenceType is associated with a particular Cadence
+What is the Duration of a specific Chord, and how does it relate to its underlying Durations
+How does the AmbitusType influence the Ambitus of a musical piece
+Which Clef and Octave combination is used for a specific EnharmonicPitchClass
+How are FlatAccidental entities related to Resources through the hasAccidental property
+What are the specific intervals associated with a given pitch class
+Which notes have a specific sharp accidental
+What is the mode type of a given key
+How does the interval quality affect the specific interval value
+What pitches are included in a certain scale degree
+Can a note have multiple natural accidentals, and how are they determined
+What is the relationship between a spelled pitch class and its corresponding generic pitch class
+How does the duration of a note relate to its pitch in a specific musical context
+What are the starting pitch classes for a given mode type
+How do specific scale degrees influence the construction of a melody within a certain key
+Which agents have played a role in the context of production for a specific subject
+What are the sources cited in the bibliographical references for a given project
+How does the source credibility affect the interpretation of a subject within its context of usage
+What fragments describe the temporal location of a particular historical event
+Which medium of publishing is most commonly used for topics related to a specific subject
+Can you identify all tasks executed by an agent within the first project they were involved in
+What roles have been associated with agents in the production of a specific fragment
+How is the birthplace of an agent related to their contributions to a project
+In what ways are subjects interrelated within the ontology, based on their contexts of usage and production
+Which agents have been conceptualized by or have conceptualized a specific project or subject
+What actions are associated with a specific organ
+Which organs have a Console located in a specific location
+What is the foot height of a specific Pipe
+How many ranks does a DivisionStop of a given organ have
+What is the pitch of a particular Pipe in an organ
+Can you list all the Playing Aids available for a given organ
+What is the range of a ManualKeyboard in a specific organ
+Which organs have a PedalTowerCase as part of their structure
+What tuning system is used for a specific organ's pipes
+How many keyboards are associated with a specific organ's console
+Which StopKnobs are part of a given StopRank
+How many bellows does a specific WindSystem have
+What are the sources of a particular Tune
+Which WindChannel is associated with a specific WindSystem
+Can a Tune belong to multiple TuneFamilies
+What LyricsFamily does a specific Tune belong to
+Are there any StopRanks that share the same WindChannel
+How is a TuneFamily related to its Tune members
+What is the relationship between StopKnob and WindChannel
+Which properties define the uniqueness of a LyricsFamily

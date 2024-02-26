@@ -1,0 +1,32 @@
+Which ManagedElements are impacted by a specific TroubleTicket
+What are the service types associated with a given Application
+How is a CorporateUserIdentifier related to TroubleTicket activities
+What ProceduralElements are required for a certain ApplicationModule
+What are the current statuses of ChangeRequests initiated by a specific CorporateUserIdentifier
+Which Applications are considered critical based on their applicationBusinessImportance property
+What TroubleTickets have a severity higher than a predefined threshold
+How are StructuralElements and FunctionalElements related within a specific ManagedElement
+What are the preferred contact methods for agents involved in high-priority TroubleTickets
+Which DynamicElements are associated with a given Service through the troubleTicketRelatedService property
+priority TroubleTickets
+What is the severity level of a specific trouble ticket
+Which trouble ticket types are associated with a particular problem category
+How do trouble ticket priorities correlate with their urgency levels
+Who is responsible for resolving issues within a given problem category
+What is the current status of a specified trouble ticket
+What operation plans are correlated with specific action requests
+Which change requests are caused by a particular change cause
+What are the pre-conditions and post-conditions for a specific operation plan
+How do trouble ticket categories influence the criticity of the tickets
+What types of comments and operations are noted in trouble ticket notes
+conditions and post-conditions for a specific operation plan
+What are the preconditions for a specific action to be executed in a given room
+What postconditions are expected after a specific action is performed in a particular locus
+Which resources are located at a specified locus
+What events are recorded related to a specific network interface
+How does a particular network link affect the operational status of connected network interfaces
+What product model is associated with a given resource
+Which resources are involved in a specific event record
+What are the administrative and operational statuses of a network interface connected to a given network link
+What actions are proposed to mitigate an alarm with a specific severity level
+What is the impact of a change request on the resources of a specified product model

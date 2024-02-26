@@ -1,0 +1,32 @@
+Which agents are responsible for managing a particular ManagedElement
+What are the preferred contact methods for a specific Agent
+What applications are impacted by a specific TroubleTicket
+What is the business importance of a given Application
+Which Service types are related to a specific Application
+What is the status current of a particular TroubleTicket
+What are the SLA levels and statuses for ApplicationModules within a given Application
+What events triggered the creation of specific TroubleTickets
+For a given ChangeRequest, who are the initiator, pilot, and actor parties involved
+Which TroubleTickets have a committed restoration time beyond their planned restoration time
+What is the severity level of a specific TroubleTicket
+Which TroubleTickets are classified under a particular TroubleTicketType
+How is the criticity of a TroubleTicket determined
+What are the priority levels available for TroubleTickets
+From what origin did a specific TroubleTicket arise
+What is the urgency level associated with a particular TroubleTicket
+Under which category does a given TroubleTicket fall
+What problem category is associated with a specific TroubleTicket
+Who is responsible for the problem addressed by a TroubleTicket
+What is the current status of a specific TroubleTicket
+What pre-conditions must be met for an operation plan to be initiated
+What are the post-conditions resulting from the completion of an operation plan
+Which locus is a specific resource located at, including its line and row
+How has the status of a trouble ticket changed over time through different events
+What event triggered a specific trouble ticket
+What resources are affected by a particular network interface's change in operational status
+What actions are proposed to mitigate an alarm of a certain severity in an event record
+Which resources are involved in a particular change request and what impact does it have on them
+What is the model and manufacturer of a resource involved in a network link termination
+What are the administrative and operational statuses of network interfaces connected to a specific resource
+conditions must be met for an operation plan to be initiated
+conditions resulting from the completion of an operation plan

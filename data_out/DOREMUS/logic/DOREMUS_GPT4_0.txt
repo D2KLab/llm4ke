@@ -1,0 +1,130 @@
+Which creation or performance modes are foreseen by a specific musical work
+What vocal or instrumental techniques are foreseen for a particular performance
+What catalogue names are associated with a specific catalogue statement
+Which medium of performance is used in an individual performance
+What mediums of performance are foreseen to be used in a specific design or procedure
+Under which label names were certain publication expressions issued
+What cast statements are associated with a self-contained expression
+What title statements and statements of responsibility are associated with a specific self-contained expression
+What edition statements are related to a publication expression, and who is responsible for them
+Which music format statements are associated with a particular publication expression
+contained expression
+contained expression
+What is the title proper of a multipart monograph for a given publication expression
+Which media types are associated with a specific manifestation product type
+What carrier type is used for a particular manifestation singleton
+How is a specific man-made object maintained and tuned according to the maintenance records
+What kind of binding does a specific manifestation product type have
+What container is associated with a given manifestation singleton
+What is the colour content of a certain self-contained expression
+What playing speed is specified for a particular manifestation product or singleton
+Can you list the catalogue statements, including catalogue name and number, for a given self-contained expression
+How many actors and what quantity of medium of performance are foreseen for a specific casting detail
+made object maintained and tuned according to the maintenance records
+contained expression
+contained expression
+What performance plans are foreseen for a specific foreseen activity
+Which performers have a specific foreseen performer status in a foreseen performance
+What medium of performance is used in an individual performance
+What editing techniques are used in a specific editing activity
+What opus number and subnumber are associated with a specific self-contained expression
+What is the ambitus of a character performed in an individual performance
+Which actor function is foreseen in a specific design or procedure
+What awards have been associated with a persistent item
+In what context did a specific activity occur
+What metronome indication is associated with a specific self-contained expression
+contained expression
+contained expression
+Which performed expressions are part of a specific set of tracks
+What key is associated with a given self-contained expression
+What type of recording equipment was used for mastering in a specific editing process
+Which performance had a specific performer status
+What genre is associated with a given self-contained expression
+What noise reduction technique was used in a particular editing process
+Which programming work is realised in a given program
+What are the performance conditions of a specific event
+What work type is associated with a given work
+What sound spatialization technique was used in a specific expression creation
+contained expression
+contained expression
+What hierarchical levels are associated with a specific work
+Which casting details are involved in a self-contained expression's casting
+What tempo is associated with a self-contained expression
+What derivation types are related to a propositional object
+Can you list the characters performed in an individual performance and their ambitus
+What materials are foreseen for use by a design or procedure
+What rights are associated with a specific manifestation product type
+What are the dimensions and measurement units of a manifestation product type's duration
+Who are the actors that participated in an event and what was the event's specific purpose
+What type of object is used in an activity and what general technique does it utilize
+contained expression's casting
+contained expression
+Which groups has a specific actor been a member of, both currently and historically
+Can you list the events that led to the formation and dissolution of a specific group
+What activities were carried out by a specific actor, and in what contexts did these activities occur
+What specific objects were used in a given activity, and for what purpose
+How has a specific propositional object influenced or referred to different CRM entities
+What are the hierarchical levels and work types associated with a given work
+For a specific self-contained expression, what are its key, genre, tempo, and casting details
+Can you trace the performance history of a self-contained expression, including its performed expressions and full or partial published recordings
+What specific techniques and general techniques were utilized in a given activity
+How has a specific publication expression incorporated performed expressions and what details are available about its publication, including sponsor and supplementary content
+contained expression, what are its key, genre, tempo, and casting details
+contained expression, including its performed expressions and full or partial published recordings
+Which performance plans foresee the use of a specific performing plan
+How is a specific performance work realized within a performance plan
+What are the historical instruments used in a specific performance
+Which sound spatialization techniques were used during the expression creation of a particular work
+Who are the actors created for in the expression creation of a particular work
+What are the details of responsibility associated with a specific expression creation
+Which media type should a specific manifestation product type have
+What are the dimensions of a specific manifestation product type's pagination
+Through which script conversion is a particular nomen use statement specified
+What are the rights held by actors over a specific manifestation product type
+Which media types are associated with a given F4 Manifestation Singleton
+What are the binding types for a specific F4 Manifestation Singleton
+For a given F4 Manifestation Singleton, what container does it have
+How many tape tracks does a particular F4 Manifestation Singleton have
+Who is the creator of a specific F28 Expression Creation
+What language was used in a particular F51 Pursuit activity
+In what kind of context did a specific F52 Name Use Activity occur
+What materials are supposed to consist of a given F3 Manifestation Product Type
+Who are the current or former members of a specified E74 Group
+What are the dimensions of pagination for a certain F4 Manifestation Singleton
+Which E90 Symbolic Objects are composed of other E90 Symbolic Objects
+How does a specific E18 Physical Thing carry an E90 Symbolic Object
+Which E24 Physical Man-Made Things carry a given E90 Symbolic Object
+What E51 Contact Points provide access to a specific E39 Actor
+Through which E44 Place Appellation is a given E53 Place identified
+What type of vocal or instrumental technique does a specific E1 CRM Entity foresee as per U96
+Which E55 Types are assigned to a specific E1 CRM Entity
+In which E31 Document is a particular E1 CRM Entity documented
+What awards (M36 Award) has a given E77 Persistent Item received according to U24
+How many parts does a specific E19 Physical Object have as per P57
+Made Things carry a given E90 Symbolic Object
+What physical features are found on a specific physical object
+Which section definitions apply to a particular physical thing
+How was a specific identifier assigned to an entity, and by whom
+What modifications were made to a physical man-made thing, and what materials were employed in those modifications
+What is the title of a man-made thing, and are there any variant titles or subtitles
+For what type of activity was a man-made thing intended, and what are its technical features
+When did the dissolution of a specific group occur
+What are the details of the acquisition transaction for a physical thing, including the previous and new owner
+How long did a particular design or procedure foresee its time span to be, and what was its minimum and maximum duration
+Which linguistic objects have translations, and in what languages are those translations
+made thing, and what materials were employed in those modifications
+made thing, and are there any variant titles or subtitles
+made thing intended, and what are its technical features
+Which E18 Physical Thing has a condition assessed as E3 Condition State by a specific E14 Condition Assessment
+What parts (E3 Condition State) form the complete condition of a given E18 Physical Thing
+How has the condition (E3 Condition State) of a specific E18 Physical Thing changed over time according to E14 Condition Assessments
+Which E79 Part Addition augmented a specific E24 Physical Man-Made Thing, and what was added
+Can you list the E74 Groups that gained members through specific E85 Joinings, along with the joining dates
+What are the current or former curators (E39 Actor) of a specific E78 Collection, and through which E87 Curation Activities were they associated
+Which E92 Spacetime Volume had presence (E93 Presence) at a given E53 Place during a specific E52 Time-Span
+What E22 Man-Made Objects have been tuned (U39 has tuned) as part of a specific M16 Maintenance activity
+Who are the parents (E21 Person) identified in the E67 Birth record of a specific individual, and what titles (E35 Title) are associated with their roles
+What E42 Identifier was assigned to a specific E18 Physical Thing by an E15 Identifier Assignment, and what was the reason for its deassignment
+Made Thing, and what was added
+Span
+Made Objects have been tuned (U39 has tuned) as part of a specific M16 Maintenance activity

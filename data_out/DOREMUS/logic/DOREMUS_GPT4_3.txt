@@ -1,0 +1,126 @@
+Which compositions utilize a specific vocal or instrumental technique
+What medium of performance was used in a specific individual performance
+Under what label name was a certain publication expression issued
+What catalogue names are associated with a specific catalogue statement
+Can you list all the works that have a specific dedication statement
+What are the title and statement of responsibility for a given expression
+Which publication expressions have a specific edition statement
+How many works foresee the use of a particular medium of performance
+What distribution statements are associated with a specific publication expression
+Which compositions have a music format statement for a specific format
+Which publications have a multipart monograph titled "Symphony No. 5"
+What is the media type of the "Brandenburg Concertos" manifestation product
+Which carrier type is used for the "Moonlight Sonata" manifestation singleton
+How is the "Stradivarius violin" maintained and tuned according to the DOREMUS ontology
+What binding does the "Well-Tempered Clavier" book have
+What container does the "Goldberg Variations" CD come in
+Which self-contained expressions have a red colour content
+What playing speed is recommended for the "Four Seasons" vinyl record
+Which music formats are associated with "West Side Story" according to the DOREMUS ontology
+How many actors are foreseen in the casting detail for the opera "Carmen"
+Tempered Clavier" book have
+contained expressions have a red colour content
+Which performances are planned to use a specific medium of performance
+What equalization techniques have been used in the editing of a specific self-contained expression
+For a given performance, what is the foreseen performer status
+What noise reduction techniques were applied in the production of a specific recorded music piece
+How many characters are foreseen in a specific set of characters for a musical work
+What awards have been associated with a specific musical work or performance
+Which performances have a specific character performed within their individual performances
+What is the ambitus of a character in a specific musical work
+In which cultural context was a specific musical work composed or performed
+What rhythmic patterns are identified in a specific self-contained musical expression
+contained expression
+contained musical expression
+Which performances involved a particular performer as a soloist
+What recording equipment was used in the editing of a specific album
+What genre does a specific musical work belong to
+What key is associated with a particular self-contained expression
+What performances were held under specific performance conditions
+What works are part of a specific program
+Which musical expressions have been recorded partially or fully on a specific set of tracks
+What noise reduction technique was used in the editing of a particular recording
+Which performances foresee the use of a specific type of recording equipment
+What sound spatialization technique was used in the creation of a specific expression
+contained expression
+Which hierarchical levels are associated with a specific work
+What casting details are specified for a given self-contained expression
+What tempo is assigned to a particular self-contained expression
+Which characters are performed in an individual performance
+What ambitus is specified for a certain character
+What type of derivation is associated with a propositional object
+How is a specific physical man-made thing maintained over time
+What are the dimensions of a manifestation product type
+Which actor functions are foreseen by a particular design or procedure
+What rights are possessed by a specific actor
+contained expression
+contained expression
+made thing maintained over time
+Which groups did a particular actor belong to historically
+What events led to the formation of a specific music group
+Can you list all members who have left a group since its formation
+What are the specific functions and responsibilities assigned to actors in a particular performance activity
+What cultural contexts influenced the creation of a specific work
+Which works have a particular actor as their subject
+How was a specific musical genre represented in compositions from the 19th century
+What publications include performed versions of a given propositional object
+Which musical works have been adapted into different expressions by the same composer
+What are the key characteristics of a specific publication expression, including its sponsor and illustrative content
+Which performances included the use of historical instruments
+What are the sound spatialization techniques used in the creation of a specific expression
+Who are the actors created for in a specific expression creation event
+What recordings were created from a specific recording event
+What publication events resulted in the realisation of a specific publication work
+Which works have a performance plan foreseeing a performance in Paris
+What are the titles and responsibilities associated with a specific expression
+Which expressions are derivatives of a given work
+What are the dimensions of the media type used in a manifestation product type
+Who are the performers with a specific performer status in a given performance
+What are the media types available for a specific work
+Which manifestations have a playing speed of 45 rpm
+Can you list all the works that have been assigned a specific representative manifestation
+What languages were used in the creation of a particular work
+Who are the parents of a specific composer
+Which actors have a right on a particular legal object
+What materials consist of a certain physical thing related to a work
+Which works involve a specific actor as a participant in their creation event
+How many tape tracks does a particular manifestation contain
+What is the carrier type for a given manifestation singleton
+Which documents contain information about a specific musical composition
+What type of vocal or instrumental technique is foreseen by a given work
+How many awards has a particular piece of music received
+Which activities were influenced by a specific music genre
+Can you list all actors with a specific contact point
+What are the dimensions of a specific physical thing related to a musical event
+Which physical man-made thing depicts a certain music composer
+What identifier has been assigned to a particular music composition
+During which period did a specific music performance take place
+What places are identified as the origin and destination of a musical instrument's move
+made thing depicts a certain music composer
+Which physical objects bear the feature of a specific material
+What section definitions are associated with a particular physical thing
+Who assigned the preferred identifier to a particular man-made thing
+What modifications were made to a specific physical man-made thing using a certain material
+What titles are associated with a specific man-made thing
+For what type was a certain man-made thing intended
+What are the system requirements of a specific man-made thing
+When was a particular group dissolved
+What is the time span foreseen by a specific design or procedure
+What languages does a particular linguistic object have
+made thing
+made thing using a certain material
+made thing
+made thing intended
+made thing
+What is the condition state of a specific Stradivarius violin
+Which physical man-made things were augmented by a specific part addition
+Who joined a specific music group in 1975
+What collections has a particular curator managed
+Which authority documents list the Eiffel Tower
+During which time-span was Mozart's presence in Vienna
+What maintenance activities have been performed on a specific grand piano
+Which design or procedure foresees the use of a specific type of flute
+Which artworks have a title in both English and French
+What dimension was observed in the measurement of the Mona Lisa's frame
+made things were augmented by a specific part addition
+span was Mozart's presence in Vienna

@@ -1,0 +1,130 @@
+Which licenses are associated with a specific music entity
+What are the parts of a given music entity
+Can you list the publication situations for a particular music piece
+Which music artists are involved in a specific music project
+For which music entities is a certain license applicable
+What are the various realisations of a musical work
+In which publications is a specific abstract score realized
+What are the composition parts of a specific abstract score
+Which awards has a specific music artist been nominated for
+What type of broadcasting situations involve a particular recording
+What are the members of a specific collection
+Which collections involve a particular CollectionMembership
+How is a given collection defined by a CollectionConcept
+What collections is a particular Thing a member of
+What composition parts does an AbstractScore have
+What creative actions are involved in a specific CreativeProcess
+Who are the agents involved in a CreativeProcess that creates a MusicEntity
+To whom is a MusicEntity dedicated, and what is the dedication statement
+What form type, key, and instrumentation does an AbstractScore have
+Which MusicDataset is used to train a specific MusicAlgorithm
+Which MusicArtists have collaborated with a given MusicArtist
+What genre is associated with a specific MusicArtist
+Which MusicArtists are members of a given MusicEnsemble
+What awards has a specific MusicArtist received
+In what place was a particular MusicEnsemble formed
+What CreativeProcesses are involved in the creation of a specific MusicEntity
+Which MusicEntities have a particular OpusStatement
+What is the duration and pitch of a specific Note in a MusicEntity
+Who is the publisher of a specific PublicationSituation associated with a MusicEntity
+What RecordingEquipment was used in the RecordingProcess of a specific Recording
+What sources are associated with a specific text in the ontology
+Which text fragments are part of a given text
+What content types are annotated by a specific content annotation
+What feature types are associated with a content descriptor
+How does a specific raw data content's modality get described
+What datasets are available through a specific API
+Which datasets have a specific data accessibility level
+What tasks is a dataset aimed for
+How many records does a specific dataset contain
+What agents maintain a particular dataset
+What annotations are associated with a specific music content
+Which analysts are involved in a particular analysis
+What type of annotations describe a given fragment
+Who invented a specific instrument and when
+What is the confidence level of a specific analysis
+Which music contents have been analyzed with a certain confidence level
+What are the temporal locations of fragments within a specific music content
+Who is the annotator of a specific annotation and what is their annotator type
+What observations are made about a specific music projection
+Which instruments were invented within a specific time interval
+Which agents have built a particular InstrumentRealization
+In which time interval was a specific InstrumentRealization built
+Where was a certain InstrumentRealization built
+Who maintains a given dataset
+What type of annotator is a specific agent
+Who invented a particular instrument
+What is the full address of a specified PhysicalSite
+Which agents have conceptualized a given explanation
+What are the alias names of a specific Thing
+What collections is a certain Thing a member of
+What explanations are conceptualized by a specific agent
+Which music algorithms are trained on a given music dataset
+What is the temporal location of a specified music fragment
+Can you list all the things that have a specific name or nickname
+What dedication statements are dedicated to a particular person
+Which music ensembles were formed in a specified place
+What are the birthplaces of a specific person
+Which instruments were built in a given place
+What is the address of a specific physical site
+Which explanations are based on a specific theory
+What roles do participants have in a given meetup
+Which situations satisfy a specific description within an explanation
+What sources have a context of production related to a specific time period
+Which instruments were invented within a certain time interval
+How does a tune's source credibility impact its context of usage
+What types of tasks are executed by specific things in the Polifonia ontology
+Can you list all meetups happening at a certain time expression with their purposes
+Which sources are related to a specific subject in the Polifonia ontology
+What are the addresses with streets where specific meetups take place
+What theories are explanations in the Polifonia ontology based on
+What DBpedia entities are associated with a given location
+Which Wikidata entities are connected to a specific location
+What type of accidental does a specific pitch class have
+What notes compose a given chord
+How is the octave specified for a particular note
+What is the ambitus type of a given ambitus
+What cadence types are associated with a particular cadence
+On which staff line is a specific clef located
+What is the duration of a given note
+What notes have a specific duration
+What is the specific interval value of a given interval
+What pitch class does a specific interval start with
+What is the quality of a given specific interval
+What key does a particular abstract score have
+What mode type is associated with a given mode
+What is the duration of a specific note
+What pitch does a particular note have
+What pitch class is associated with a given pitch
+What accidental is associated with a specific pitch class
+What intervals start with a given pitch class
+Which sources are related to a specific music piece identified by N6d55648205f8461c8a55de6eb25c8cdd
+What is the context of production for a given source
+How is the credibility of a certain source assessed
+What subject is associated with a specific source
+Which tunes are derived from a particular source
+Who is the builder of a specific instrument realization
+What type of roles do participants have in the ontology
+What is the temporal location of a music fragment within a piece
+Which agents have contributed to the annotation of a dataset
+Is a certain project identified as the first project within its context
+What console location is associated with a specific action
+How many division stops have a certain foot height
+What range does a specific keyboard have
+Which keyboards have a rank greater than a specified value
+What is the pitch of a specified organ
+Can you list all organs tuned to a specific tuning system
+Are there actions that occur at the same console location
+What is the highest rank among all keyboards
+Which organs have a pitch higher than a given value
+How many different tunings are used across all organs
+What is the number of bellows in a specific WindSystem
+Which Tune is associated with a given Source
+How many Tunes are linked to a particular Source
+For a given WindSystem, is there a maximum number of bellows specified
+Can a Tune have more than one Source associated with it
+What are the different Sources associated with a specific Tune
+Is there a minimum number of bellows required for a WindSystem to function
+How are Tunes categorized based on their Source
+Are there WindSystems with a specific number of bellows associated with certain types of Tunes
+What is the range of bellows numbers across all WindSystems documented in Polifonia
