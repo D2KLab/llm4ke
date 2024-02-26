@@ -1,0 +1,102 @@
+To assess an entity's licensing compliance, how can we determine its associated license using the 'hasLicense' property?
+How can we identify the realization process of a given music entity through the 'isRealisationOf' property?
+For evaluating the relationship between a composition part and its corresponding music entity, which property should be used?
+To find the form type of a composition, which property should be queried?
+How can we discover the instruments used in a specific music piece by using the 'Polifonia' ontology?
+Given a key, how can we find the music entities associated with that key using the 'isKeyOf' property?
+To determine the text associated with a composition part, which property should be queried?
+How can we identify the collection concept to which a given collection belongs?
+For finding the broadcasting situation of a given music entity, which property should be used?
+How can we identify the creative actions involved in a specific musical work
+Can we trace the creative processes leading to a particular composition
+Which tasks are considered as CreativeTasks in Polifonia ontology
+How do DedicationStatements relate to the musical works they are dedicated to
+How can DigitalScores be linked to their corresponding musical compositions
+How do we categorize FormType in the Polifonia ontology
+How can we represent the instrumentation details of a musical piece
+How does the Key property help in organizing musical works
+How are Librettos associated with their respective musical compositions
+How does the ontology handle the relationship between Licenses and musical works
+Can an Analyst effectively utilize the specified Analysis properties to accurately analyze and compare MusicContent instances?
+How well can an AnnotationType distinguish between different Annotation instances in terms of its descriptive capabilities?
+How does the confidence level assigned by an Annotator through the "hasConfidence" property impact the reliability of ContentAnnotation?
+Can a Fragment instance be accurately described by multiple Annotation instances using different AnnotationType properties?
+How do MusicProjection instances facilitate the correlation between MusicContent and Observation in the Polifonia ontology?
+How do AnalyticalReference instances aid in referencing and tracing the analysis process between MusicContent and Analysis?
+How do AnnotatorTypes contribute to the expertise and specialization of Annotator instances in the Polifonia ontology?
+Can the Polifonia ontology effectively capture temporal relationships between Fragments using the "hasTemporalLocation" property?
+How do ContentType instances facilitate the categorization and classification of RawDataContent and ContentAnnotation in the Polifonia ontology?
+To determine the appropriate DataFormat for a specific DatasetContent, which properties should be considered in the Polifonia ontology?
+How can we identify Datasets that have similar DataModality using the given properties in the Polifonia ontology?
+Which classes and properties should be used to determine the availability of Datasets through their respective APIs (hasAPI)?
+How can we find Datasets that are aimed for a specific AgentRole using the Polifonia ontology?
+Given a DatasetRecord, which properties can help us identify its ProductionMethod?
+How can we locate the addresses of Agents involved in Dataset creation using the properties in the Polifonia ontology?
+How can we find SplitTypes used in DatasetSplits and their relationships with DatasetContents?
+Which properties should be considered to determine the relationship between FeatureTypes and their ValueTypes?
+How can we identify Datasets that have ContentAvailability restrictions using the Polifonia ontology?
+How can we determine the strength of the relationship between a tune and its associated collection?
+Can we identify cities or geographical features that significantly influence a specific musical dataset?
+How can we classify concepts used in descriptions of information objects within the Polifonia ontology?
+How do languages impact the realization of information objects and their definitions?
+Can we find events related to tunes with specific temporal locations or intervals?
+How do explanations within the ontology connect to their explanandum and explanans?
+How can we find collections involving concepts defined in particular countries or districts?
+Can we measure the similarity between tunes based on their temporal properties, such as music time durations and indices?
+How can we determine the relationship between concepts used in definitions and their definitions in the ontology?
+How can we identify the MusicTimeValueType associated with a specific TimeInterval in the Polifonia ontology
+Can the ontology help us find Organizations related to a given Person through the isAddressOf property
+How do we determine the Place where a given Task was executed using the ontology
+How can we identify the Role played by a Person in an Organization within the Polifonia ontology
+How can we find Situations related to a specific TimeIndexedRole using the ontology
+How do we establish connections between a Source and its ContextOfProduction in Polifonia
+Can the ontology help us find Regions containing a given PhysicalSite
+How can we determine if two Names are isAnagramOf each other in the Polifonia ontology
+How do we identify the Street where a Person was born using the ontology
+Can the ontology help us find theories related to a specific TimeIndexedName through the isExplanationBasedOn property
+How can we identify the relationship between a specific title and its corresponding type
+Which instruments are commonly associated with a particular TuneFamily
+How can we determine the connection between an InstrumentRealization and its related InstrumentPart
+How do we find tunes conceptualized by a specific Agent
+Can we identify places where a particular Project took place
+How can we determine the roles involved in executing a specific Task
+Which LyricsFamily is associated with a given Voice
+How can we find tunes with similar geographic origins
+Can we measure the similarity between two tunes using a given similarity measure
+How can we categorize a set of tunes based on their associated TuneFamily or Project
+Can we determine the relationship between specific Stops and their corresponding Ranks within an Organ using the Polifonia ontology?
+Given a Pipe, how can we identify its associated WindChannel and WindSystem in the Polifonia ontology?
+Can the ontology help us identify which Cases (MainCase, ChoirCase, etc.) house specific Console locations?
+How can we find all Stops associated with a particular StopRank in a given Organ?
+Can the Polifonia ontology assist in determining the geographic origins of various Tunes and their relationships?
+Given a Keyboard, how can we identify its classification (Keyboard, ManualKeyboard, PedalKeyboard) using the ontology?
+Can we compare Tunings of different Tunes using the Polifonia ontology?
+How can we find all DivisionsStop related to a specific Division within an Organ?
+Can the ontology help us identify PlayingAids associated with a specific Console?
+Can we determine the relationship between specific bells and their corresponding bell towers within the Polifonia ontology?
+How can we identify the set of bells associated with a given location using the ontology classes and properties?
+Can the ontology help us find meetups involving participants with a particular role during a specific time range?
+How do we represent and query the purpose of a given operation sequence in the Polifonia ontology?
+Can we locate resources related to a given Wikidata entity within the ontology?
+How can we find time entities that occur at a specified TimePoint or TimeExpression?
+How do we model and query computational analysis operations involving parameters in the Polifonia ontology?
+Can we determine the geographic origin of tunes based on their associated locations using the ontology?
+How can we compare time references to assess similarity between time entities in the Polifonia ontology?
+How can we identify contextual relationships between a given production and its associated ContextOfProduction instances?
+How do SourceCredibility attributes influence the evaluation of a Source's reliability in Polifonia ontology?
+Can we determine the usage contexts shared by multiple Subject instances?
+How do we establish connections between BibliographicalReferences and their related Subjects?
+How do we categorize and compare Fragments based on their MediumOfPublishing properties?
+How can we assess the relationship between Accidentals and their associated Chords?
+How do AmbitusTypes contribute to the analysis of Ambitus variations within a given composition?
+Can we measure the correlation between CadenceTypes and their impact on the overall musical structure?
+How do we establish connections between Chords and their related Clefs?
+How can we identify and compare the cultural aspects between tunes belonging to different classes in Polifonia ontology?
+Can the Polifonia ontology accurately describe the relationships between tunes and their performers or musicians?
+How effective is the Polifonia ontology in categorizing and organizing various musical collections?
+Can the ontology determine the historical context and evolution of a specific tune based on its properties?
+How does the Polifonia ontology handle the representation of musical notation and its variations across different tunes?
+How can we use the ontology to analyze and quantify the similarity between two given tunes based on multiple criteria?
+Can the Polifonia ontology assist in tracing the geographic spread and influence of a particular tune or musical genre?
+How does the ontology handle the relationships between tunes and their associated texts or lyrics?
+How can the Polifonia ontology aid in the discovery of tunes with specific characteristics, such as instrumentation or rhythm?

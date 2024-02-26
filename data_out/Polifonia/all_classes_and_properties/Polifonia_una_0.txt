@@ -1,0 +1,132 @@
+What entities have a specific license associated with them in the Polifonia ontology
+Which compositions have a particular instrumentation in the Polifonia ontology
+Which collections involve a specific award in the Polifonia ontology
+What are the different forms of music entities in the Polifonia ontology
+Which broadcasting situations are related to a particular broadcaster in the Polifonia ontology
+What are the publication situations of a specific composition in the Polifonia ontology
+Which agents are involved in the realization of a music entity in the Polifonia ontology
+What are the key signatures of the compositions in the Polifonia ontology
+Which music entities are part of a collection concept in the Polifonia ontology
+What are the nominated and received awards in the Polifonia ontology
+Which CreativeAction creates a DigitalScore
+What is the relationship between CreativeProcess and CreativeTask in the Polifonia ontology
+What properties connect MusicEnsemble and MusicArtist in the Polifonia ontology
+How is the property 'hasLicense' related to the class 'DigitalScore'
+What is the connection between the classes CreativeTask and DedicationStatement
+What is the role of 'MediumOfPerformance' in the context of the Polifonia ontology
+How are the classes 'Key' and 'Mode' related to each other in the Polifonia ontology
+What is the significance of the property 'hasCollaboratedWith' in the Polifonia ontology
+What is the relationship between the properties 'involvesCreativeAction' and 'isCreatedBy' in the Polifonia ontology
+How does the property 'hasGenre' connect with the class 'MusicEnsemble' in the Polifonia ontology
+What music genre is associated with a specific MusicEntity
+Which MusicEntity does a particular ScorePart belong to
+What OpusStatement is related to a specific MusicSheet
+Which MusicalPerformance is part of a given Release
+What Publisher is responsible for a specific PublicationSituation
+Which Recording is associated with a certain RecordingEquipment
+What RecordingProcess produced a specific Recording
+Which Score is the medium for a given Text
+What TextFragment is part of a specific Text
+Which Musician created a particular OpusStatement
+Which Analyst is involved in an Analysis related to a specific Ndc9226382222436b82fe2077261299d0 instance
+What AnnotationType is used for annotating a Fragment described by a ContentDescriptor of type Nb023b8afce4c427eb565c096b3d414cb
+Which AnnotatorType is responsible for creating Annotations of type Vocabulary
+What is the hasConfidence value of an AnnotationType: N9b3b0597d84743bf833d04c6bcc58fe6, created by an Annotator of type AnnotatorType: X
+Which MusicProjection is analyzed in an Observation involving an Analyst of type Analyst: Y
+What is the ContentType of a RawDataContent annotated by an Annotation of type N9b3b0597d84743bf833d04c6bcc58fe6
+Which Annotator is responsible for creating ContentAnnotations of type AnnotationType: Z, involving a MusicContent of type Ndc9226382222436b82fe2077261299d0
+What is the temporal location of an Annotation describing a Fragment of type Nb023b8afce4c427eb565c096b3d414cb
+Which API is used for analyzing a MusicContent of type Ndc9226382222436b82fe2077261299d0, resulting in an Analysis involving an Analyst of type Analyst: A
+What is the modality of a ContentAnnotation of type Vocabulary, annotating a RawDataContent of type X
+What are the accessibility options for a dataset in Polifonia
+What data formats are available in the Polifonia ontology
+Which classes in Polifonia have a property related to data availability
+What are the different types of splits in a dataset according to Polifonia
+What properties describe the content of a dataset in Polifonia
+Which classes in Polifonia have a connection with an agent
+What types of actions can be associated with an agent in Polifonia
+What properties in Polifonia describe the location of an address
+How are address components related in Polifonia
+What properties in Polifonia are related to the concept of an alias
+What collections does a specific Concept classify or define
+Which Collection involves a particular Event
+What MusicTimeDuration is associated with a specific MusicTimeIndex
+What GeographicalFeatures are related to a specific City
+Which Concepts are used in a particular CollectionConcept
+What MusicTimeIndexComponents make up a MusicTimeIndex
+What InformationObjects describe a certain Description
+Which Languages are used in a MusicDataset
+What are the membership strengths of a CollectionMembership
+What Collections have a connection with a specific Country
+What time value type is associated with a musical work
+How is an anagram related to a name in the Polifonia ontology
+What is the connection between a role and a person in the context of the ontology
+How is a physical site linked to a place in the Polifonia ontology
+What is the relationship between a reference and a source in the ontology
+How is a time-indexed name related to a regular name in the Polifonia ontology
+What is the connection between a task and an activity in the ontology
+How is a theory linked to a context of production in the Polifonia ontology
+What is the relationship between a street and a physical site in the ontology
+How is a time interval associated with an event in the Polifonia ontology
+indexed name related to a regular name in the Polifonia ontology
+What is the connection between a Title and its associated Type
+Which Instrument is related to a specific InstrumentPart
+What is the relationship between an InstrumentRealization and its corresponding Instrument
+How is a Voice associated with LyricsFamily and TuneFamily
+What is the role of an Agent in the context of a Project
+What is the connection between an Action and its related Task
+How are Bellow and BrustwerkCase related to their respective instruments
+What properties define the Parthood relationship
+How are Place and Project linked in the ontology
+What properties describe the relationship between an Agent and a conceptualized entity
+What are the properties of a WindSystem associated with its pitch, tuning, and number of bellows
+Which class in Polifonia has the property 'hasRange'
+What is the relationship between the classes Console and ConsoleLocation
+What are the properties of a StopRank related to its rank and pipe
+What are the properties of a DivisionStop related to its division and stop
+What are the properties of a MainCase related to its console and manual keyboard
+What are the properties of a PlayingAids relevant to its connection with other classes
+What are the properties of a WindChannel associated with its pitch and pipe
+What are the properties of a Keyboard related to its range and tuning
+What are the properties of a Division related to its stops and wind system
+What is the connection between a BellTower, SetOfBells, and their associated Locations
+What is the purpose of linking a Meetup to its Participants, Roles, and TimeExpressions
+How does the class n7ebf98b4baff489caa957a18b016fe8bb8 relate to the other entities in the Polifonia ontology
+What information can be derived from the properties related to TimeEntity and GeneralDateTimeExpression
+How do the properties involving hasDBpediaEntity and hasWikidataEntity contribute to the ontology's knowledge representation
+What is the significance of the OperationSequence and Parameter properties in the context of the Polifonia ontology
+How do the properties related to evidenceText and hasEvidenceText contribute to the ontology's evidence-based nature
+What is the role of the hasPlace property in connecting different classes in the Polifonia ontology
+How do the properties related to TimeReference and TimeExpression help in organizing temporal information in the ontology
+What is the relationship between the classes ComputationalAnalysis and other entities in the Polifonia ontology
+based nature
+What is the relationship between a Source and its credibility in the context of Polifonia ontology
+How is the ContextOfProduction connected to the Subject in the Polifonia ontology
+What is the association between a Fragment and its describing annotation in the Polifonia ontology
+How does the property 'hasContextOfUsage' relate to the class ContextOfUsage in the Polifonia ontology
+What is the nature of the connection between the classes Source and SourceType in the Polifonia ontology
+How does the property 'hasCadenceType' relate to the class CadenceType in the Polifonia ontology
+What is the relationship between the properties 'hasSubject' and 'isSubjectOf' in the Polifonia ontology
+How does the property 'hasMediumOfPublishing' connect to the class MediumOfPublishing in the Polifonia ontology
+What is the role of the property 'isRelatedTo' in the Polifonia ontology
+How does the property 'hasAccidental' relate to the class Accidental in the Polifonia ontology
+What is the relationship between Key and ModeType in the Polifonia ontology
+How is the property 'hasQuality' connected to the class 'Interval'
+What is the distinction between 'GenericInterval' and 'SpecificInterval'
+What is the role of 'PitchClass' in the context of 'Note'
+What is the significance of 'Accidental' in the context of 'PitchClass'
+How does the property 'isDurationOf' relate to the class 'Duration'
+What is the difference between 'GenericScaleDegree' and 'SpecificScaleDegree'
+What is the relationship between 'Key' and 'Mode' in the Polifonia ontology
+How does the property 'hasStartingPitchClass' connect to the class 'Note'
+What is the connection between 'IntervalQuality' and 'Quality' in the context of 'Interval'
+Which classes belong to the Polifonia ontology
+What are the relationships between instances of different classes in Polifonia
+How are instances of a specific class in Polifonia related to other classes
+What properties are associated with instances of a particular class in Polifonia
+How do the properties of a class in Polifonia affect its instances
+What are the subclasses of a given class in Polifonia
+What are the superclasses of a given class in Polifonia
+How are instances of the same class in Polifonia distinguished
+What are the cardinality restrictions for properties in Polifonia
+What are the domain and range of a specific property in Polifonia

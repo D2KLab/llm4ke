@@ -1,0 +1,130 @@
+How does a CompositionPart relate to a MusicEntity through the isPartOfMusicEntity property
+How does a CompositionPart relate to a FormType through the isFormTypeOf property
+How does a CompositionPart relate to an Instrumentation through the isInstrumentationOf property
+How does a CompositionPart relate to a Key through the isKeyOf property
+How does a CompositionPart relate to a Text through the isTextOf property
+How does a CompositionPart relate to a MusicEntity through the hasCompositionPart property
+How does a CompositionPart relate to a BroadcastingSituation through the isRealisedIn property
+How does a CompositionPart relate to a RecordingProcess through the isRealisationOf property
+How does a CompositionPart relate to a MusicEntity through the orderNumber property
+How does a CompositionPart relate to a Tempo through the tempo property
+How does a CreativeAction relate to a CreativeProcess
+How does a CreativeTask relate to a CreativeProcess
+How does a DedicationStatement relate to a CreativeAction
+How does a DigitalScore relate to a CreativeAction
+How does a FormType relate to a CreativeAction
+How does a Key relate to a CreativeAction
+How does a Libretto relate to a CreativeAction
+How does a License relate to a CreativeAction
+How does a LivePerformance relate to a CreativeAction
+How does a Lyrics relate to a CreativeAction
+What is the genre of a given MusicSheet
+Who is the publisher of a given Release
+What is the duration of a given Recording
+What is the pitch of a given Note
+Who is the musician that creates a given MusicEntity
+What is the medium of a given ScorePart
+What is the text fragment of a given TextFragment
+What is the source of a given Annotation
+What is the recording process of a given Recording
+What is the score part of a given ScorePart
+How does an analyst describe a fragment using annotation type and annotator type
+How does an annotation relate to an analysis and an analyst
+How does an annotation describe a fragment and what is its confidence level
+How does an annotation relate to an annotator and an annotator type
+How does an annotation relate to an observation and a content descriptor
+How does a content descriptor relate to a content type and a raw data content
+How does a content descriptor relate to a music content and a music projection
+How does a content descriptor relate to an api and a temporal location
+How does a content descriptor relate to an api and a subject
+How does a content descriptor relate to an api and an observation
+Given the class Dataset, generate a CQ to assess the competency of an individual in managing datasets
+Given the property hasContent, generate a CQ to assess the competency of an individual in identifying the content of a dataset
+Given the class ContentAvailability, generate a CQ to assess the competency of an individual in determining the availability of content
+Given the property hasModality, generate a CQ to assess the competency of an individual in determining the modality of a dataset
+Given the class DatasetSplit, generate a CQ to assess the competency of an individual in managing dataset splits
+Given the property hasSplit, generate a CQ to assess the competency of an individual in identifying the splits of a dataset
+Given the class FeatureType, generate a CQ to assess the competency of an individual in identifying the feature types of a dataset
+Given the property hasFeatureType, generate a CQ to assess the competency of an individual in identifying the feature types of a dataset record
+Given the class ProductionMethod, generate a CQ to assess the competency of an individual in identifying the production methods of a dataset
+Given the property isMaintainedBy, generate a CQ to assess the competency of an individual in identifying the maintainers of a dataset
+How does the strength of a collection membership relate to the involvement of a collection in an event
+How does a concept used in a music time interval component relate to the music time duration it satisfies
+How does a concept used in a music time index component relate to the music time index it satisfies
+How does a concept used in a music time duration relate to the music time index it satisfies
+How does a concept used in a music time index component relate to the music time index it satisfies
+How does a concept used in a music time index component relate to the music time interval it satisfies
+How does a concept used in a music time index component relate to the music time duration it satisfies
+How does a concept used in a music time index component relate to the music time index it satisfies
+How does a concept used in a music time index component relate to the music time interval it satisfies
+How does a concept used in a music time index component relate to the music time duration it satisfies
+Given the ontology Polifonia, how would you describe the relationship between a Person and a Role using CQs
+Given the ontology Polifonia, how would you describe the relationship between a TimeInterval and a Situation using CQs
+Given the ontology Polifonia, how would you describe the relationship between a Place and a Province using CQs
+Given the ontology Polifonia, how would you describe the relationship between a Task and an Organization using CQs
+Given the ontology Polifonia, how would you describe the relationship between a SpatialObject and a Street using CQs
+Given the ontology Polifonia, how would you describe the relationship between a Theory and a Role using CQs
+Given the ontology Polifonia, how would you describe the relationship between a TimeIndexedName and a TimeInterval using CQs
+Given the ontology Polifonia, how would you describe the relationship between a Source and a ContextOfProduction using CQs
+Given the ontology Polifonia, how would you describe the relationship between a TimeIndexedRole and a Role using CQs
+Given the ontology Polifonia, how would you describe the relationship between a TimeIndexedSituation and a Situation using CQs
+What is the role of an agent in the Polifonia ontology
+What is the place where a project is first executed in the Polifonia ontology
+What is the place where a project is last executed in the Polifonia ontology
+What is the place where a project is aimed for in the Polifonia ontology
+What is the place where a project is executed in the Polifonia ontology
+What is the place where a project is formed in the Polifonia ontology
+What is the place where a project is maintained in the Polifonia ontology
+What is the place where a project is conceptualized in the Polifonia ontology
+What is the place where a project is built in the Polifonia ontology
+What is the place where a project is invented in the Polifonia ontology
+How does the property "hasRange" relate to the class "DivisionStop"
+Which class is related to the property "hasNumberOfBellows"
+Which class is related to the property "hasTuning"
+Which class is related to the property "hasPitch"
+Which class is related to the property "hasConsoleLocation"
+Which class is related to the property "hasFootHight"
+Which class is related to the property "hasRank"
+Which class is related to the property "hasPlayingAids"
+Which class is related to the property "hasWindSystem"
+Which class is related to the property "hasWindChannel"
+BellTower(x) and Resource(y) and x=y. What is the DBpediaEntity of y
+Bell(x) and Resource(y) and x=y. What is the WikidataEntity of y
+Bell(x) and Resource(y) and x=y. What is the Place of y
+BellTower(x) and Resource(y) and x=y. What is the Place of y
+Bell(x) and Resource(y) and x=y. What is the TimeReference of y
+BellTower(x) and Resource(y) and x=y. What is the TimeReference of y
+Bell(x) and Resource(y) and x=y. What is the TimeEntity of y
+BellTower(x) and Resource(y) and x=y. What is the TimeEntity of y
+Bell(x) and Resource(y) and x=y. What is the OperationSequence of y
+BellTower(x) and Resource(y) and x=y. What is the OperationSequence of y
+What is the Accidental of a Chord in Polifonia ontology
+What is the AmbitusType of a Chord in Polifonia ontology
+What is the CadenceType of a Chord in Polifonia ontology
+What is the ContextOfProduction of a Fragment in Polifonia ontology
+What is the ContextOfUsage of a Fragment in Polifonia ontology
+What is the Fragment of a MediumOfPublishing in Polifonia ontology
+What is the N2c6fcfaca4a1463c98775814f4ef4f2e of a Fragment in Polifonia ontology
+What is the SourceType of a Source in Polifonia ontology
+What is the SubjectRelatedTo of a Subject in Polifonia ontology
+What is the TemporalLocationOf a Fragment in Polifonia ontology
+How does the Polifonia ontology represent the duration of a musical piece or a musical event
+How can we determine the specific interval value of a musical event in the Polifonia ontology
+How can we identify the natural accidental of a pitch in the Polifonia ontology
+How can we identify the mode type of a key in the Polifonia ontology
+How can we represent the starting pitch class of an interval in the Polifonia ontology
+How can we represent the quality of an interval in the Polifonia ontology
+How can we represent the enharmonic pitch class of a pitch in the Polifonia ontology
+How can we represent the spelled pitch class of a pitch in the Polifonia ontology
+How can we represent the specific scale degree of a pitch in the Polifonia ontology
+How can we represent the flat accidental of a pitch in the Polifonia ontology
+What is the class N864a9d3958b64cc59cd52ef1be05e321 in the Polifonia ontology
+What are the subclasses of Nd75b85577454425ca4678de0a1bfebbe in the Polifonia ontology
+What is the range of the property of N7fd259dfb40d4398b090d466e862822a in the Polifonia ontology
+What is the domain of the property of N0fc5bc2ec3da48bdb8e0103cc4ee53c7 in the Polifonia ontology
+What is the class N0a79b333b01449eaa50841afd8b00726 in the Polifonia ontology
+What are the superclasses of N4f2015fefa694982b14a1c8b14a4147a in the Polifonia ontology
+What is the class Nb2eefc8a223d4463bcca85730697a621 in the Polifonia ontology
+What is the type of the property of Nb2eefc8a223d4463bcca85730697a621 in the Polifonia ontology
+What is the cardinality of the property of Nb2eefc8a223d4463bcca85730697a621 in the Polifonia ontology
+What is the value of the property of Nb2eefc8a223d4463bcca85730697a621 for the instance x in the Polifonia ontology

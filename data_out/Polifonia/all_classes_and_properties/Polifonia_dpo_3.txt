@@ -1,0 +1,134 @@
+Which award-winning compositions belong to a specific Broadcaster
+What are the instrumental variations in a particular CompositionPart
+What are the realisation details of a specific MusicEntity
+What are the common FormTypes among a set of Compositions
+What are the nominated works for a certain Award class
+What are the CollectionConcepts associated with a given Collection
+What are the key differences in Key signatures among a group of Compositions
+What are the textual elements in a specific Text-based Composition
+What are the common BroadcastingSituations for a set of Broadcasters
+What are the licensing terms for a specific MusicEntity
+winning compositions belong to a specific Broadcaster
+based Composition
+How does a CreativeProcess in Polifonia relate to its resulting CreativeAction
+Which FormType does a specific DigitalScore exemplify
+What agents are involved in a LivePerformance through MusicEnsemble membership
+How does a MusicArtist's involvement in a CreativeTask impact their MusicEnsemble
+What License governs the usage of a particular DigitalScore
+In what MediumOfPerformance is a specific Movement typically performed
+How do MusicAnnotationTimeIntervals relate to the structure of a DigitalScore
+What CreativeTasks are associated with generating a MusicAlgorithm
+How do DedicationStatements and their dedicatees influence a CreativeAction's reception
+What historical connections exist between a MusicEnsemble's formation and its genre
+Which musicians collaborated in a specific MusicalPerformance related to MusicGenre Z
+What MusicSheets, if any, are associated with a particular OpusStatement within a specific composer's body of work
+What Release connects a certain Recording with a specific Publisher
+For a given Score, what ScoreParts and their respective Notes are present in a certain Section
+What PublicationSituations, in a certain time period, led to the distribution of a specific Publisher's works
+Which RecordingProcesses, in a certain studio, were involved in the production of a specific Recording
+What MusicEntities, in a certain era, have a similar hasGenre association as MusicEntity X
+For a given Text, what TextFragments, in a specific language, are part of its content
+What Musicians, in a certain era, have a similar isCreatedBy relation as Musician Y but in a different genre
+In what context, such as a Release or Performance, is a specific Recording most commonly found
+Which analyst utilized a specific AnnotationType while analyzing MusicContent related to Fragment Z
+What ContentDescriptor characterizes the RawDataContent in an Analysis involving Analyst A
+Which AnnotatorType is associated with the expert annotating instances of ContentType X
+What Observations are linked to an Analysis conducted on MusicProjection Y through Analyst B
+What AnnotationTypes are commonly used in conjunction with Fragment-level ContentAnnotations
+Which Analyst primarily works on MusicContent of ContentType A, as an AnalyticalReference
+What AnnotationType is predominantly used in conjunction with AnnotatorType B when analyzing MusicContent
+What Confidence level is typically associated with annotations made by Annotator C when analyzing Fragment D
+For a given set of Annotations, which Fragments do they describe, and what AnnotationTypes are involved
+What temporal locations are associated with the Annotations made by Annotator E while analyzing MusicContent in Analysis F
+level ContentAnnotations
+What dataset records have DataModality related to Audio within a specific Dataset of musical content
+Which Agent is responsible for maintaining a Dataset with a particular DataFormat
+What FeatureType is commonly associated with DataRecords in a Dataset of scientific research
+For a given Dataset, what is the relationship between DatasetSplits and their SplitType
+What ProductionMethod is typically related to a Dataset with specific ContentAvailability
+In which Address components is an Agent's office likely to be located, given a certain city
+What DataAccessibility is provided for a Dataset with open licensing
+What DatasetRecords, in terms of DataModality, are most relevant for a Machine Learning model in a particular domain
+What AgentRole is involved in the creation of a Dataset with specific DataFormat and DataAvailability
+For a given Dataset, what is the distribution of RecordCount in its DatasetSplits
+How are CollectionConcepts related to specific Collections within Polifonia
+Which MusicTimeDurations are associated with a particular MusicTimeIndex in a given MusicDataset
+What Languages are predominantly used in defining Concepts within a certain Collection
+In what GeographicalFeatures and Cities are Events of a specific MusicTimeDuration primarily held
+How do MusicTimeIndexComponents contribute to the classification of MusicTimeIndices in a MusicDataset
+What Descriptions are linked to a particular CollectionMembership in terms of its CellectionMembershipStrength
+For a given Collection, which Districts and Countries are the primary locations of its associated Cities
+In what way do InformationObjects in Polifonia relate to their respective InformationRealizations
+How do MusicTimeIntervals and their components influence the temporal organization of a MusicDataset
+What are the key properties and relationships between Explanation components (Explanandum and Explanans) in Polifonia ontology
+Which musicians held a specific Role in a particular Situation during a certain TimeInterval related to a certain Organization or Place
+What TimeInterval marked the formation of a certain Person or Organization, and in which PhysicalSite or Region did it occur
+For a given Person, what are the associated Name variations, Nicknames, and the TimeIndexedRoles, and in which Situations did they occur
+What theories or Tasks are linked to a specific TimeInterval, and in which Reference material can they be found
+What tunes, Theories, or Tasks are associated with a certain Place, and in which TimeInterval did they emerge
+For a given Person or Organization, what are the related PhysicalSites, and in which TimeInterval were they connected
+What tunes, Theories, or Tasks have a common TimeIndexedSituation, and in which Place or Region did they take place
+In which TimeInterval, a certain Person or Organization was associated with a specific Role, and in which ContextOfProduction or ContextOfUsage did it occur
+What tunes, Theories, or Tasks are linked to a certain Street, and in which TimeInterval or TimeIndexedSituation did they exist
+For a given Person or Organization, in which Place, TimeInterval, or Situation, did they collaborate or interact with other Entities, and in which Role or Condition
+Which instruments have been associated with agents specialized in Role Z
+What projects involve both instruments of Type X and Task Y
+Which tune families have members with similar birth places to a given Tune X
+What agents have conceptualized instruments in the N5926017e0fe24432ac1be61637ac0010 class
+For a given tune family, what are the related tune instances and their respective tune families
+What projects have been executed by agents with expertise in Task X while using instruments of InstrumentPart Y
+Which tunes, annotated by a specific AnnotatorType, are part of the same tune family as Tune X
+In what places have instruments of InstrumentFamily X been primarily built or maintained
+What agents, having expertise in Role X, have been involved in projects related to instruments in the InstrumentPart class
+For a given tune family, what are the associated lyrics and their respective lyrics families
+What classes in Polifonia are directly related to organ components
+Which property connects a StopRank to a specific StopKnob
+What class represents the physical location of an organ console in Polifonia ontology
+Which property indicates the number of manuals in a ManualKeyboard
+How is the relationship between a Division and its associated DivisionStops described in Polifonia
+In what way are WindSystems and WindChannels interconnected in the Polifonia ontology
+What property in Polifonia represents the pitch range of a Keyboard
+How does the ontology differentiate between MainCase and OberwerkCase in terms of organ structure
+Which property connects a CaseSegment to its associated WindSystem
+What property in Polifonia relates a PlayingAids instance to a specific Console
+For a specific Meetup event, which Participants hold particular Roles and what is the associated Purpose
+What TimeRange encompasses a set of Bell-related Meetups in a given Location
+Which BellTowers in a certain Location have a common SetOfBells
+What OperationSequence leads to the ComputationalAnalysis of TimeExpressions in the Polifonia ontology
+In relation to a given Bell, what TimePoint marks its regular ringing
+What Resources are associated with a specific Operation in the ontology
+For a given Participant in a Meetup, what Role have they historically played in similar events
+What TimeEntity connects a set of TimeExpressions in the Polifonia ontology
+In the context of a BellTower's Meetups, which Purposes are most frequently associated with a certain Role
+What Location hosts a recurring Meetup series, involving a particular SetOfBells and a specific Purpose
+related Meetups in a given Location
+How are Polifonia sources ranked regarding credibility
+Which ContextOfProduction shares subjects with a given Fragment
+What MediumOfPublishing is commonly associated with a specific Subject
+What Accidentals are typical for a certain AmbitusType
+What Cadences, in a certain CadenceType context, are related to a specific Chord
+For a given tune, what BibliographicalReferences support its ContextOfUsage
+What SourceTypes are most relevant for a certain Subject
+In what temporal contexts are Fragments of a certain AmbitusType found
+How do SourceCredibility values vary among different SourceTypes
+What Subjects are interconnected in Polifonia through shared ContextOfProduction
+How is a specific interval related to its starting pitch class in Polifonia
+What is the distinction between GenericInterval and SpecificInterval classes
+In what manner does a Key connect to its associated Mode in Polifonia
+What properties are shared between Note and Pitch in the ontology
+How does the property hasDuration link classes in Polifonia
+What is the relationship between Interval, IntervalQuality, and GenericInterval classes
+How do classes such as FlatAccidental, NaturalAccidental, and SharpAccidental differ in their roles in Polifonia
+What is the role of PitchClass in connecting Note and SpelledPitchClass
+In what ways do classes such as EnharmonicPitchClass, Pitch, and PitchClass intersect in Polifonia
+How do classes Duration, Key, and Mode interrelate through their properties in Polifonia
+Which collections share common historical context with a specific given tune
+For a given tune, identify its related tunes based on a chosen similarity metric
+What geographical regions are associated with a certain set of tunes
+In what musical periods do the tunes of a selected collection primarily reside
+For a given tune collection, determine the prevalent musical genres
+How do the performance practices of a certain tune collection differ from another
+What are the predominant instruments in a specific tune collection
+For a given tune, suggest other tunes with similar rhythmic patterns
+What are the typical melodic features of a selected tune group
+In what ways do the lyrics of a certain tune collection reflect its cultural background

@@ -1,0 +1,120 @@
+Which compositions share the same instrumentation with a given composition
+What awards have been received by a specific collection
+Which collection does a particular composition belong to
+What are the common characteristics of tunes in a specific form type
+What are the most common license types for a set of compositions
+What are the broadcasting situations of a particular tune
+What are the realizations of a specific composition
+What are the common keys among a set of tunes
+What are the textual similarities among a set of tunes
+What are the most frequent tempo values for a collection of tunes
+Which CreativeAction influenced a specific CreativeProcess or CreativeTask
+What FormType does a DigitalScore belong to
+Which CreativeTask involves a specific Instrumentation
+What is the Key associated with a given tune
+What License is required for a LivePerformance
+What MediumOfPerformance is used for a particular CreativeAction
+What ModeType is common among a set of tunes
+Which MusicAlgorithm is trained on a specific CreativeAction
+What DedicationStatement is associated with a CreativeProcess
+Which MusicEnsemble has collaborated with a specific MusicArtist
+Which MusicGenres does a specific MusicEntity belong to
+What are the related OpusStatements of a given MusicEntity
+What MusicSheets are part of a specific Score
+Which Musicians have performed in a particular MusicalPerformance
+What are the PublicationSituations of a specific Publisher
+What RecordingEquipment was used in a specific RecordingProcess
+What Releases include a specific Recording
+What Scores have the same medium as a given Score
+What TextFragments are part of a specific Text
+Which MusicEntities have the same duration as a given MusicEntity
+Which datasets provide data in specific formats relevant to a certain DataFormat while maintaining a specific DataAvailability
+What are the accessibility options for a given Dataset in terms of DataModality and DataAccessibility
+What FeatureTypes are included in a DatasetRecord, and how does it relate to the DatasetContent
+What is the relationship between a DatasetSplit and its parent Dataset in terms of DataAvailability and SplitType
+What AgentRole is responsible for the creation or maintenance of a specific ContentAvailability
+What are the accessibility options for an Agent in terms of Action and AgentRole
+What is the full address of an Agent involved in the creation or maintenance of a Dataset
+What is the relationship between an Alias and its corresponding entity in terms of name and isAliasOf
+What are the properties of a Dataset's production method in terms of ProductionMethod and extends
+What are the accessibility options for a Dataset in terms of DataModality, DataAccessibility, and DataFormat
+Which collections involve a specific concept in their definition or classification
+What are the membership strengths of a particular collection
+Which city or country is a collection associated with
+What languages are used in a specific collection
+What temporal locations are associated with a music dataset
+What explanations or descriptions are related to a concept or collection
+What concepts are used in a particular explanation or description
+What collections or datasets are related to a specific event
+What are the conditions or requirements for a collection membership
+What music time durations or indices are associated with a tune or dataset
+Which musicians have performed in both places A and B, related to the context of a specific TimeInterval
+What theories are associated with a particular TimeIndexedRole in the Polifonia ontology
+What tunes have been published in a specific MediumOfPublishing and belong to a certain Organization
+Which Person has played a specific Role in a certain Situation, and what was the Task they executed
+What is the birthplace connection between a set of Persons and the Place X
+What tunes have been created within a specific TimeInterval and have a certain TimeIndexedSituation
+What is the formation history of a specific Organization, including its founding TimeInterval and Place
+What tunes have been dedicated to a specific Person and have a certain TimeIndexedName
+What tunes have been related to a specific Reference and have a certain hasValueType
+Which Persons have played a specific Role in a certain Task, and what was their associated TimeIndexedRole
+Which instruments are associated with a specific tune family X
+What are the annotators of type Y for a given project
+What are the first and last projects related to a certain agent
+What tunes have been built in a particular place Z
+Which tune families have a common lyrics family
+What are the tasks executed by a specific role
+What agents have been involved in the conceptualization of a certain instrument
+What projects involve a specific instrument and place
+What are the annotators of a specific tune X
+Which tunes have been formed in a specific time period and place
+Which Organ has a specific OberwerkCase and its associated WindSystem
+What DivisionStop belongs to which Division in a given Organ
+What is the tuning of a specific Pipe in the Polifonia ontology
+Which PlayingAids are available in a particular Console
+What is the range of a PedalKeyboard in a specific ConsoleLocation
+How many Bellows does a certain PositiveCase have
+What is the relationship between a CaseSegment and its associated WindChannel
+Which Stops are present in a given Division and their respective ranks
+What is the height of a Console in a specific ConsoleLocation
+What is the connection between a MainCase and its related Console
+Which BellTowers are associated with a specific SetOfBells in a Location
+What Meetups involve Participants with a certain Role in a BellTower context
+What Purposes are associated with a TimeRange in the context of a BellTower
+Which Resources have evidence text related to a TimePoint in a BellTower context
+What OperationSequences involve Parameters related to TimeExpressions in a BellTower context
+What TimeEntities are connected to a ComputationalAnalysis in a BellTower context
+Which BellTowers have a connection to a DBpediaEntity through the hasPlace property
+What Participants have a Role in a Meetup related to a TimeRange in a BellTower context
+What tunes have a similar TimeReference to tune X in the Polifonia ontology
+Which BellTowers have a TimeExpression associated with a WikidataEntity
+Which sources provide credibility for context of production or usage of tune X
+What subject matter is related to the context of production or usage of tune X
+What medium of publishing is associated with the context of production or usage of tune X
+What accidentals are present in the composition of tune X
+What ambitus type is used in tune X
+What cadence type is present in tune X
+What chords are part of tune X's composition
+What context of production or usage does tune X belong to
+What source type is related to the context of production or usage of tune X
+What context of usage does a specific tune have in relation to tune X
+What interval has a specific value and belongs to a certain generic interval class in a specific key
+What mode type is associated with a specific scale degree in a given key
+What enharmonic pitch class is equivalent to a given natural or sharp accidental
+What tunes have a specific duration in common with tune X
+What is the quality of a given interval in a specific key
+What tunes have a similar mode type in a specific key
+What is the starting pitch class of a note with a specific pitch and accidental
+What specific interval value is associated with a given generic interval class in a specific key
+What key has a specific mode type and is associated with a certain scale degree
+What tunes have a similar generic interval in a specific key
+Which collections share tunes with similar geographic origin to tune X
+What are the most similar tunes to tune X based on property Y
+What collections contain tunes with a similarity measure greater than Z to tune X
+What are the common properties among tunes from collections A, B, and C
+Which tunes from collection D have a geographic origin similar to tune X
+What are the top 5 collections with the highest number of tunes similar to tune X
+Which tunes from collection E have a similarity measure greater than F to tune X
+What are the collections that have the most overlapping tunes with collection G
+Which tunes from collection H have a similarity measure within the range of G to H for property Y
+What are the collections that have the most tunes with a similarity measure above I for property J to tune X

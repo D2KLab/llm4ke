@@ -1,0 +1,91 @@
+How does a CreativeAction relate to a CreativeProcess
+How does a CreativeTask relate to a CreativeProcess
+How does a DedicationStatement relate to a CreativeAction
+How does a DigitalScore relate to a CreativeAction
+How does a FormType relate to a CreativeAction
+How does a Key relate to a CreativeAction
+How does a Libretto relate to a CreativeAction
+How does a License relate to a CreativeAction
+How does a LivePerformance relate to a CreativeAction
+How does a Lyrics relate to a CreativeAction
+How does a MediumOfPerformance relate to a LivePerformance
+How does a Mode relate to a CreativeAction
+How does a Movement relate to a CreativeAction
+How does a MusicAlgorithm relate to a CreativeAction
+How does a MusicAnnotationTimeInterval relate to a CreativeAction
+How does a MusicArtist relate to a CreativeAction
+How does a MusicEnsembleMembership relate to a CreativeAction
+How does a MusicEnsemble relate to a CreativeAction
+How does a ModeType relate to a CreativeAction
+How does a MusicAnnotationTimeInterval relate to a CreativeAction
+How does a MusicAnnotationTimeInterval relate to a MusicAlgorithm
+How does a MusicAnnotationTimeInterval relate to a MusicArtist
+How does a MusicAnnotationTimeInterval relate to a MusicEnsembleMembership
+How does a MusicAnnotationTimeInterval relate to a MusicEnsemble
+How does a MusicAnnotationTimeInterval relate to a MusicAnnotationTimeInterval
+How does a MusicAnnotationTimeInterval relate to a Movement
+How does a MusicAnnotationTimeInterval relate to a CreativeAction
+How does a MusicAnnotationTimeInterval relate to a CreativeProcess
+How does a MusicAnnotationTimeInterval relate to a CreativeTask
+How does a MusicAnnotationTimeInterval relate to a DedicationStatement
+How does a MusicAnnotationTimeInterval relate to a DigitalScore
+Given a dataset, what is its DataFormat
+Given a dataset, what is its DataModality
+Given a dataset, what is its DatasetContent
+Given a dataset, what is its DatasetRecord
+Given a dataset, what is its DatasetSplit
+Given a dataset, what is its FeatureType
+Given a dataset, what is its ProductionMethod
+Given a dataset, what is its SplitType
+Given a dataset, what is its DatasetRecord count
+Given a dataset, what is its DatasetContent that is aimed for a specific Agent
+Which MainCase has a similar number of Bellows to MainCase X
+Which DivisionStop has a similar Tuning to DivisionStop Y
+Which WindSystem has a similar FootHeight to WindSystem X
+Which PlayingAids have a similar Range to PlayingAids Y
+Which StopsRank have a similar Pitch to StopsRank X
+Which ConsoleLocations have a similar HasConsoleLocation to ConsoleLocation X
+Which PedalTowersCases have a similar NumberOfBellows to PedalTowerCase X
+Which WindChannels have a similar HasRange to WindChannel X
+Which Keyboards have a similar HasTuning to Keyboard X
+Which Stops have a similar HasRank to Stops Y
+What bells have a similar sound to the bells of the Bell Tower X
+What Bell Towers have bells with a similar sound to the bells of the Bell Tower X
+What sets of bells have bells with a similar sound to the bells of the Bell Tower X
+What locations have bells with a similar sound to the bells of the Bell Tower X
+What Meetups have bells with a similar sound to the bells of the Bell Tower X
+What participants have played bells with a similar sound to the bells of the Bell Tower X
+What purposes have bells with a similar sound to the bells of the Bell Tower X
+What TimeExpressions have bells with a similar sound to the bells of the Bell Tower X
+What TimePoints have bells with a similar sound to the bells of the Bell Tower X
+What TimeRanges have bells with a similar sound to the bells of the Bell Tower X
+Which sources are credible for the context of production of tune X
+Which sources are credible for the context of usage of tune X
+Which sources are credible for the subject of tune X
+Which sources are credible for the source type of tune X
+Which sources are credible for the source of tune X
+Which sources are credible for the medium of publishing of tune X
+Which sources are credible for the context of production of tune X's subject
+Which sources are credible for the context of usage of tune X's subject
+Which sources are credible for the context of production of tune X's source type
+Which sources are credible for the context of usage of tune X's source type
+How does the ontology Polifonia represent the concept of duration in music
+How can I determine the specific interval value of a given interval in Polifonia
+How can I identify the pitch class of a specific note in Polifonia
+How can I find the starting pitch class of a specific interval in Polifonia
+How can I identify the quality of a given interval in Polifonia
+How can I determine the mode type of a given key in Polifonia
+How can I identify the enharmonic pitch class of a given pitch class in Polifonia
+How can I determine the natural accidental of a given pitch in Polifonia
+How can I identify the sharp accidental of a given pitch in Polifonia
+How can I find the spelled pitch class of a given pitch in Polifonia
+Which collections contain tunes that are similar to "The Banks of Lough Gowna" using the similarity measure of melodic similarity
+Which collections contain tunes that have a similar geographic origin to "The Banks of Lough Gowna"
+Which collections contain tunes that are similar to "The Banks of Lough Gowna" using the similarity measure of structural similarity
+Which collections contain tunes that have a similar geographic origin to "The Banks of Lough Gowna" and are also in the N799734c005aa4a508caf2b608776de8a class
+Which collections contain tunes that are similar to "The Banks of Lough Gowna" using the similarity measure of rhythmic similarity
+Which collections contain tunes that have a similar geographic origin to "The Banks of Lough Gowna" and are also in the Nc0f201c12d2243a595d668a7a36f8f11 class
+Which collections contain tunes that are similar to "The Banks of Lough Gowna" using the similarity measure of harmonic similarity
+Which collections contain tunes that have a similar geographic origin to "The Banks of Lough Gowna" and are also in the N4e8976a15f9c40d89c4f039334a3a748 class
+Which collections contain tunes that are similar to "The Banks of Lough Gowna" using the similarity measure of melodic similarity and are also in the N9cb258dd1c59475488f1f099ea1ffc6f class
+Which collections contain tunes that have a similar geographic origin to "The Banks of Lough Gowna" and are also in the Nc9f4cd436db449a1a5da3d18b5f2f3ce class
