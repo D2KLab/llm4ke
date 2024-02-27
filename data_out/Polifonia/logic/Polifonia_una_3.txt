@@ -1,0 +1,132 @@
+What licenses are associated with a specific music entity
+What music artists are involved in a particular music entity
+What are the publication situations of a given music entity
+What realizations does a specific music entity have
+What scores are part of a music entity
+What form types, instrumentations, keys, and texts are associated with a score
+What awards have music artists received or been nominated for
+What broadcasting situations involve a specific recording
+What collections do a set of tunes belong to
+What composition parts make up a specific abstract score
+What creative actions contribute to the generation of a specific music entity
+What music artists collaborated in the creative process that produced a certain music entity
+What genre does an artist involved in a specific creative process belong to
+What dedication statement is associated with a music entity
+What abstract score has a particular form type
+What instrumentation is used in a specific abstract score
+What key does an abstract score have
+What license is associated with a specific score
+What mode and mode type are present in a music entity
+What music ensemble was formed in a specific place and has a connection to a music artist
+What creative process led to the generation of a specific music entity
+What opus statement is associated with a music entity
+Which musical performance realized a music entity
+What genre does a music artist belong to
+What pitch and duration does a note have
+What is the opus number and sub-number of a music entity
+What publisher and publication situation are related to a publication
+What recording process produced a specific recording
+What score and score parts are part of an instrumentation
+What text fragments are associated with an abstract score
+number of a music entity
+What is the confidence level of an analysis performed on a specific music content
+What annotation type is used for describing a particular fragment of a music content
+What agent is responsible for annotating a specific observation
+What music projections are observed in a given analysis
+What annotator type is associated with an agent performing annotations
+What temporal location does a specific fragment have in a music content
+What music content is analyzed in a specific analysis
+What data modality is used for annotating a specific raw data content
+What API provides access to a specific data availability
+What feature type is associated with a specific content descriptor
+Which datasets provide access to data related to the availability and API of a specific musical content
+What are the data accessibility options for a given dataset
+What is the relationship between a dataset and its associated subsets or splits
+What are the annotators responsible for creating annotations in a particular dataset
+What are the geographical details of a physical site associated with a dataset's maintenance
+What types of music entities are included in a specific dataset
+What are the agent roles involved in the creation and maintenance of a dataset
+What are the different types of data modality present in a dataset's raw content
+What are the features and value types associated with a specific content descriptor
+What are the address components and location details of a dataset's creator or maintainer
+Which collections involve tunes with specific membership strengths
+What concepts classify the involved collections of a given tune
+What descriptions define the concepts used in a collection's definition
+What descriptions satisfy situations related to a tune's classification
+What explanations are based on theories for a given tune's description
+What information realizations are associated with a tune's information object
+What languages are used in the description of a tune
+What music datasets were used to train a specific music algorithm
+What music time index components define the temporal location of a tune fragment
+What music time intervals have similar durations to a given interval
+What are the associated places with a specific MusicEnsemble
+What roles do individuals have in a particular context or situation
+What are the birthplaces of notable persons related to a specific Thing
+What are the contexts of production and usage for a given Source
+What are the anagrammatic names related to a particular Name
+What is the time interval associated with a specific InstrumentRealization
+What are the nicknames of people or things related to a specific Thing
+What are the explanations based on a specific Theory
+What are the time-indexed names associated with a Thing
+What are the sources related to a specific Nceb76613a5f04ba1a34b8c36f956f11f
+indexed names associated with a Thing
+Which instruments were invented during a specific time period related to a given instrument
+Who were the agents involved in the creation of a particular instrument realization
+What types of things are associated with a specific title
+What annotators have contributed to a particular annotation
+What music ensembles were formed in a specific place related to a given ensemble
+What projects are the first or last projects for a specific agent
+What roles do participants have in a given context
+What datasets are aimed at solving a specific task
+What instruments have similar wind pressure levels
+What things have a connection to a particular place
+What is the console location of an action
+What is the foot height of a DivisionStop
+What is the range of a Keyboard
+What is the rank of a Keyboard
+What is the pitch of an Organ
+What is the tuning of an Organ
+What is the number of bellows in a WindSystem
+What tunes have similar pitch values to tune X
+What tunes have similar tuning values to tune X
+Given a set of tunes, from which ontological entities (Action, DivisionStop, Keyboard, Organ, WindSystem) are these tunes associated with
+What locations are associated with a specific Meetup event
+Which participants have taken a particular role in a Meetup
+What is the purpose of a specific Meetup
+What time expressions are related to a Meetup event
+What resources are linked to a location through DBpedia or Wikidata
+What is the connection between a participant's role and the thing they are associated with
+What are the places where a Meetup occurs
+What time references are associated with a Meetup event
+What evidence text is linked to a Meetup
+What tunes have common places or resources associated with them
+What sources are related to a specific context of production for a given source
+How does the context of usage influence the credibility of a source
+What subjects are related to a particular source
+What medium of publishing is associated with a specific source
+What annotations describe a specific fragment in a source
+What temporal locations are present in a fragment from a given source
+What accidentals are present in a pitch class from a specific source
+What ambitus types are associated with a specific ambitus
+What cadence types are related to a specific cadence
+What chords are composed of a particular set of notes in a source
+What are the durations of specific notes in a Polifonia score and how do they relate to the overall duration of the piece
+How does the starting pitch class of an interval in Polifonia affect the quality of the specific interval
+What is the key of an abstract score in Polifonia and how does it relate to the modes present in the score
+What are the pitch classes of notes in a Polifonia piece and how do they relate to the intervals between them
+How do specific intervals in Polifonia differ based on their quality and interval value
+What are the characteristics of a Polifonia score's key and how does it influence the modes and pitch classes used in the piece
+How do accidentals in Polifonia affect the pitch classes of notes and the intervals between them
+Given a set of Polifonia tunes, how can one determine the geographic origin of each tune based on the ontology's structure
+What are the relationships between the durations, pitches, and intervals in a Polifonia score, and how do they contribute to the overall musical experience
+How do the mode types in Polifonia influence the choice of intervals, pitch classes, and key in a given score
+Which composers share common musical styles with composer X
+What are the most popular performances of tune X
+What are the most influential collections that include tune X
+What are the most similar tunes to tune X based on tempo
+What are the most similar tunes to tune X based on melody
+What are the most similar tunes to tune X based on instrumentation
+What are the most common performance venues for tune X
+What are the most common performance eras for tune X
+What are the most common performance regions for tune X
+What are the most common performance styles for tune X

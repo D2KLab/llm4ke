@@ -1,0 +1,122 @@
+How can we identify the specific licenses associated with a given MusicEntity?
+Which MusicArtist(s) are involved in the realization of a particular Nefcd1b13667246a6ab5496e4833ee193 instance?
+Can we retrieve all FormTypes used in a given AbstractScore?
+How can we find BroadcastingSituations where a specific Recording was broadcasted?
+Given a Key, how can we locate all AbstractScores that use this Key?
+What Awards have been received or nominated by a specified MusicArtist?
+How can we compare the tempo values between two AbstractScores?
+Can we determine the MusicEntity to which a given CollectionMembership belongs?
+How can we identify all Collections that contain a particular Thing?
+related tasks
+How can CreativeActions be identified and analyzed within a CreativeProcess to understand their impact on the resulting MusicEntity?
+How can we determine the relationship between MusicArtists and CreativeProcesses to assess their involvement and contribution?
+How can we identify and categorize DedicationStatements to understand the dedication patterns among MusicEntities and Persons?
+How can FormTypes be recognized and utilized to classify AbstractScores and their relationships with other entities?
+How can Instrumentation, Score, and AbstractScore be linked to analyze the composition and performance aspects of music pieces?
+How can Keys be assigned and analyzed to understand their influence on AbstractScores?
+How can licensing information be extracted and interpreted from the ontology to ensure proper usage and attribution?
+How can MediumOfPerformance be determined for ScoreParts to understand the performance requirements of music pieces?
+How can ModeType and Mode be utilized to categorize and analyze musical modes in the Polifonia ontology?
+number for a given MusicEntity
+How can one identify the dedication statements associated with a specific MusicEntity?
+Can you explain the process of determining the opus number and sub-number for a given MusicEntity?
+How does one find MusicGenres related to a given MusicArtist?
+How can we locate the RecordingProcess responsible for producing a particular Recording?
+How can we retrieve all PublicationSituations involving a specific Publisher?
+Given a Note, how can we determine its associated Pitch and Duration?
+How can we identify all MusicEntities realized through a particular MusicalPerformance?
+Can you explain the relationship between a ScorePart, its MediumOfPerformance, and the Instrumentation it belongs to?
+How can we find TextFragments within an AbstractScore and their corresponding Text sources?
+How well can an analyst evaluate and interpret musical content using the Polifonia ontology?
+Can an individual identify and describe fragments within a given music piece using the provided ontology schema?
+How effectively can annotations be created, categorized, and associated with specific music content or observations?
+How confident can an analysis be regarding its involvement with both music content and analysts within the Polifonia ontology?
+How can an analyst's involvement in multiple analyses be managed and tracked using the ontology schema?
+How can the relationship between annotations, observations, and their respective annotated contents be understood within Polifonia?
+Can the ontology accurately represent and differentiate between agents, annotators, and their respective types in the context of annotation creation?
+How can temporal locations of fragments be established and maintained within the Polifonia ontology?
+How can the correlation between music projections and observations be established and utilized within the ontology?
+How can one determine the accessibility of datasets available through their respective APIs?
+Can you identify the data modalities associated with raw data content in a given dataset?
+How does the extension relationship between datasets impact their overall availability?
+How can we locate the download links for datasets with specific data availability conditions?
+How does the assignment of records in dataset splits contribute to dataset analysis?
+How can we identify tasks that a particular dataset is aimed at addressing?
+Can you provide information about agents responsible for maintaining specific datasets?
+How can we determine the relationship between dataset records and their included music entity content?
+Can you explain the role of console locations in actions performed by agents within the Polifonia ontology?
+How are strengths of CollectionMembership relationships determined and evaluated within the Polifonia ontology?
+How are concepts used to classify and organize things within the Polifonia ontology?
+How are addresses related to cities, districts, and countries within the Polifonia ontology?
+How are members associated with collections in the Polifonia ontology and what roles do CollectionMembership and CollectionConcept play in this association?
+How are descriptions utilized to define concepts, classify things, and describe situations in the Polifonia ontology?
+How are explanations created and linked to concepts, explananda, explanans, and theories within the Polifonia ontology?
+How are information objects realized and connected to information realizations in the Polifonia ontology?
+How are languages associated with things and music algorithms trained on datasets in the Polifonia ontology?
+How are temporal locations of fragments represented using MusicTimeInterval, MusicTimeDuration, and MusicTimeIndex components in the Polifonia ontology?
+How are time intervals associated with things in the Polifonia ontology?
+How are roles assigned to participants within the ontology?
+How are sources related to tunes and what contextual information do they provide?
+How are addresses structured within the ontology and what information do they contain?
+How are names and nicknames connected to things in the Polifonia ontology?
+How are places linked to birthplaces, formations, and settings in the ontology?
+How are MusicEnsembles formed and what places are involved in this process?
+How are descriptions satisfied by situations and how do these situations relate to things?
+How are contexts of production and usage associated with sources in the ontology?
+How can we identify instruments associated with specific time intervals of invention?
+Can we find MusicalEnsembles related to their formation places?
+How can we determine the agents responsible for building InstrumentRealizations?
+How can we locate tunes with particular sources?
+How can we analyze the wind pressure of N423e3d1882cf4a9eaa61668c7c373881?
+Which agents have annotator types associated with them?
+How do we find datasets maintained by specific agents?
+How can we connect things with their respective agents?
+How can we explore concepts conceptualized by agents?
+How can we identify the console locations associated with specific actions in Polifonia
+Can we retrieve DivisionStops with a particular foot height range
+How can we find Keyboards with a specific range and rank
+How do we compare Literal pitches between different Organs
+How can we determine the relationship between Organ tunings and their Literal values
+How to find WindSystems with a given number of bellows
+Can Polifonia help us find similar tunes based on geographic origin
+How do we measure similarity between tunes using different similarity measures
+How can we categorize a set of tunes based on their associated collections
+Can Polifonia assist in retrieving tunes with matching tuning characteristics
+defined similarity measures
+Can the Polifonia ontology accurately identify locations associated with specific resources from DBpedia and Wikidata?
+How effectively does Polifonia model the relationship between meetups and their designated places?
+Can Polifonia distinguish between different purposes assigned to meetups?
+How does the ontology handle evidence texts related to meetups, and how can they be accessed?
+How are participants associated with meetups within the Polifonia framework?
+Can Polifonia determine the temporal aspects of meetups through TimeExpressions and TimeReferences?
+How does the ontology facilitate searching for tunes with similar geographic origins?
+Can Polifonia compare tunes based on user-defined similarity measures?
+How can Polifonia assist in identifying the collections from which a given set of tunes originates?
+How can sources be related based on their context of production?
+How are subject concepts linked to specific sources within Polifonia?
+Can you identify the context of usage for a given source and its impact on tune analysis?
+How are MediumOfPublishing and BibliographicalReference connected in the Polifonia ontology?
+How are Accidentals associated with Nac402bd7689c47019abbd869ef9b9006 and what role do they play in music analysis?
+How are AmbitusTypes assigned to Ambitus and how do they contribute to music analysis?
+Can you explain the relationship between CadenceType and Cadence and its significance in music analysis?
+How are Chords composed using N77a2665f4d474885820b5c425094a8b4 and what is their relevance in music content analysis?
+How does the placement of Clef on StaffLine impact music notation and analysis?
+How can one identify and compare specific intervals between notes in different scores using the Polifonia ontology?
+Can the Polifonia ontology help in determining the duration of notes and their relationships with durations in given musical compositions?
+How can the Polifonia ontology assist in analyzing the key signatures and modes of various abstract scores?
+Can the ontology help in finding notes with specific pitch classes and their associated accidentals within a given interval?
+How can Polifonia ontology be used to determine similarities between tunes based on their duration, pitch, and interval properties?
+Can the ontology facilitate the process of identifying and categorizing musical scores based on their geographic origins?
+How can the Polifonia ontology be utilized to analyze and compare the quality of specific intervals within different musical compositions?
+Can the ontology help in determining the relationships between pitch classes, pitches, and notes for a given musical piece?
+How can the Polifonia ontology aid in the classification and organization of musical scores based on their key signatures and mode types?
+How can we identify and compare melodic patterns among different tunes within Polifonia
+Can Polifonia distinguish between tunes based on their cultural origins
+Which similarity metrics are supported for evaluating the similarity between tunes
+How can we retrieve all collections associated with a given set of tunes
+Can Polifonia determine if two tunes belong to the same genre or style
+How can we search for tunes with specific instrumentation attributes
+Can Polifonia provide information about the historical context or era of a given tune
+How can we analyze the relationship between tunes and their composers within Polifonia
+Can Polifonia assist in finding tunes with similar dance forms or rhythms
+How can we utilize Polifonia to explore the evolution of a particular musical theme across multiple tunes
