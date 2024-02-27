@@ -1,0 +1,120 @@
+What is the licensing status of a specific musical work in Polifonia ontology
+Which MusicEntities involve a particular MusicArtist
+What are the different PublicationSituations of a given MusicEntity
+What are the FormTypes, Instrumentations, and Keys associated with a specific AbstractScore
+What Awards, if any, have been received or nominated by a MusicArtist
+In what BroadcastingSituations has a specific Recording been aired
+What Collections, if any, do certain Thing(s) belong to
+What Realisations are linked to a particular Realisation's AbstractScore
+What is the relationship between a License and the associated MusicEntity in Polifonia ontology
+What are the primary components of a CompositionPart in AbstractScore
+Which creative processes involve a specific music artist in a notable role
+What are the key elements in the formation of a particular music ensemble
+How does the instrumentation of an abstract score influence its performance medium
+What music genres are associated with a given music artist's career evolution
+What creative actions contribute to the generation of a specific music entity
+How do dedication statements in music entities reflect the personal connections of their creators
+In what ways do music algorithms' training datasets impact their performance on unseen data
+What are the critical stages in a creative process that leads to a licensed musical work
+How do the modes and mode types in musical compositions affect their overall structure
+What creative collaborations and influences have shaped a music artist's distinctive style
+How do MusicGenre associations with various MusicArtists reflect diverse creative processes in Polifonia ontology
+What are the key stages in the realization of a MusicEntity, as described by the Polifonia ontology
+How are OpusStatements related to the structuring of MusicEntities within the Polifonia ontology
+In the context of Polifonia ontology, how do RecordingProcesses and their associated equipment influence the final Recording outcome
+How do AbstractScores and their parts (Score, ScorePart) contribute to the Instrumentation realization of a MusicEntity
+What roles do PublicationSituations, Publishers, and Ne560d62211724edea9b8b826492d935e play in the Polifonia ontology regarding music dissemination
+How are DedicationStatements linked to MusicEntities in the Polifonia ontology, and what insights do they provide
+In the Polifonia ontology, how do MusicalPerformances and their associated Notes contribute to the realization of a MusicEntity
+How do the interrelations between CreativeProcesses, MusicEntities, and OpusStatements in the Polifonia ontology reflect the evolution of musical works
+What are the key components of a Recording in the Polifonia ontology, and how do they interconnect
+Which analyst exhibits high confidence in their Polifonia analysis
+What MusicContent fragments, described by specific Annotations, are part of a certain MusicContent
+What AnnotationTypes are associated with particular Annotations in Polifonia
+Which Agent possesses a specific AnnotatorType while annotating a MusicContent
+What MusicProjections, as subjects of Observations, are involved in a certain Analysis
+In what temporal locations, as MusicTimeIntervals, do Fragments of a given MusicContent reside
+What ContentDescriptors, annotated by ContentAnnotations, describe RawDataContent of a certain ContentType
+For a given DataModality, what RawDataContent features, as described by FeatureTypes, are present in ContentDescriptors
+What DataAvailability APIs are related to specific Annotations in Polifonia ontology
+How are Annotations in Polifonia linked to the MusicContent they describe through Fragments and Analysis
+What data accessibility methods are associated with a specific dataset in Polifonia
+For a given dataset, which agents are involved in its maintenance
+What are the data modalities of raw content in a particular dataset
+What agents annotate the dataset records, and in what capacity
+What are the address components of a physical site's location in Polifonia
+What agents conceptualize explanations related to the ontology entities
+Which instruments have a common builder across different datasets
+What agents, in their respective roles, are associated with the creation of musical instruments
+What datasets, in terms of their availability, have similar accessibility as another specified dataset
+What are the common agent roles in relation to various things in the Polifonia ontology
+How are collections defined in relation to their conceptualizations
+What concepts classify the members of a specific collection
+In what ways are collection memberships associated with their involved collections
+How is a thing's involvement in a collection membership connected to its membership in a collection
+What describes the relationship between a concept's definition and its use in a description
+How do addresses' geographical components (city, district, country) relate to the collections they're associated with
+How do music time intervals, music time indices, and fragments interconnect in terms of temporal location
+How are music algorithms trained on datasets, and how does this affect their performance
+In what ways do descriptions, concepts, and situations interrelate in the Polifonia ontology
+How do languages and things associate within the ontology schema, and what role does the 'hasLanguage' property play
+What are the birthplaces of musicians involved in a specific MusicEnsemble
+For a given Person, what other Things have the same nickname
+What Place served as the formation location for a set of MusicEnsembles
+What are the roles of a particular Participant in various Thing contexts
+What are the contexts of production and usage for a specific Source
+What Tasks are associated with a certain Dataset
+What theories underpin a set of Explanations
+What TimeIntervals are related to the creation of a particular Instrument
+What Place acted as the address for a specific PhysicalSite
+What Names are anagrams of a given Name, and are also associated with a certain Thing
+Which agents contributed to the invention or realization of a specific instrument in Polifonia
+What types of things in Polifonia have a direct association with an annotator
+What historical time intervals are linked to the invention of various instruments in Polifonia
+For a given instrument realization, identify the related place, time interval, and builder agent
+Which music ensembles in Polifonia have a connection to a specific place of formation
+What agents in Polifonia are associated with the maintenance of datasets
+What roles do participants in Polifonia assume in relation to different things
+How are tunes in Polifonia linked to their respective sources
+What instruments in Polifonia have a known wind pressure value
+For a given dataset, which tasks are the targeted outcomes and which things in Polifonia are expected to execute them
+What is the average range of keyboards in specific historical eras within Polifonia
+How many bellows does an organ with particular wind system specifications have
+What keyboards have a specific rank value in the Polifonia ontology
+In what console locations are certain actions in the Polifonia ontology typically performed
+What literal values represent standard foot heights for a given division stop type
+What is the usual pitch and tuning for a specific organ model in Polifonia
+How do keyboard ranges and ranks vary across different historical periods in the ontology
+What are the minimum and maximum wind system configurations in the Polifonia ontology
+In what contexts or scenarios are the concepts of DivisionStop, Keyboard, Organ, and WindSystem interconnected in Polifonia
+How do historical changes in organ tuning affect the overall sound profile in the Polifonia ontology
+What is the primary location associated with a specific Meetup event and how does its corresponding Wikidata/DBpedia resource relate to the event's purpose
+What are the roles assumed by participants in a Meetup, and how do these roles connect to the event's central theme or Thing
+In what contexts, both in terms of time and place, does a given Meetup event take place, and what is its primary objective
+How do the participants' roles in a Meetup event, as well as their associated Thing entities, contribute to the event's overall purpose
+For a given Meetup, what are the interconnected TimeExpressions, and how do they relate to the event's occurrence at a specific Location
+In the Polifonia ontology, how do the interrelations between Location, Meetup, TimeExpression, and Purpose elements provide context and meaning to a Meetup event
+What are the key components of a Meetup event's evidence, and how do they support the assertions made about the event's participants and their roles
+How do the Resource entities, as linked through Wikidata/DBpedia, contribute to the understanding of a Meetup event's Location context
+In the context of Polifonia ontology, how do the interconnections between Meetup, Participant, Role, and Thing elements help elucidate the nature of a Meetup event
+How do the various temporal aspects, as represented by TimeExpressions, contribute to the overall understanding of a Meetup event's occurrence within a specific Location
+How are Source credibility and context of production related to the evaluation of a musical source
+What are the primary contexts of usage and production for a specific Source
+How do Ambitus and Cadence influence the musical structure within a Source
+In what ways do ContextOfProduction and ContextOfUsage differ in their impact on a Source's credibility
+How do BibliographicalReference and MediumOfPublishing contribute to the authenticity of a Source
+What Subjects and Tunes are associated with a particular Source, and how might they be interrelated
+How do Accidentals, PitchClass, and Chords interact within a musical composition
+What are the key factors in determining the relevance of a Source in a specific Nbf21fd39aa974ebd810bda84bbf4b254 context
+How do SubjectRelatedTo strings impact the categorization of a Source's Subject
+In what ways do Annotations, Fragments, and MusicContent contribute to the understanding of a musical work's structure
+How is the key relation established between an AbstractScore and a Key
+What is the connection between a Pitch and its PitchClass in a Note
+How does the duration of a Note relate to its Duration instance
+What role does a PitchClass play in defining an Interval's starting point
+How are Accidentals associated with PitchClasses in the ontology
+In what way does the ModeType attribute influence a Mode's characteristics
+How is the IntervalQuality related to the SpecificInterval it describes
+How is the relationship between a SpecificInterval and its parent Interval established
+What is the significance of the hasStartingPitchClass property in the Interval class
+How does the ontology represent the concept of a musical piece's temporal structure through Duration instances

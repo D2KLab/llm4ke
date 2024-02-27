@@ -1,0 +1,130 @@
+How does the Polifonia ontology represent the relationship between a music entity and its parts
+How is a license related to a resource in the Polifonia ontology
+How is a publication situation related to a resource in the Polifonia ontology
+How is an agent involved in a music entity in the Polifonia ontology
+How is a realization related to a resource in the Polifonia ontology
+How is a recording process related to a resource in the Polifonia ontology
+How is a text related to an abstract score in the Polifonia ontology
+How is a composition part related to an abstract score in the Polifonia ontology
+How is a form type related to an abstract score in the Polifonia ontology
+How is a music artist related to an award in the Polifonia ontology
+How does a CreativeProcess relate to a MusicEntity through the creates relationship
+How does a MusicArtist relate to a CreativeProcess through the isInvolvedIn relationship
+How does a MusicEntity relate to a CreativeProcess through the MusicEntity isCreatedBy relationship
+How does a CreativeAction relate to a CreativeProcess through the involvesCreativeAction relationship
+How does a CreativeAction relate to a CreativeProcess through the involvesCreativeAction relationship
+How does a DedicationStatement relate to a MusicEntity through the hasDedicationStatement relationship
+How does a Person relate to a DedicationStatement through the isDedicatedTo relationship
+How does a FormType relate to an AbstractScore through the isFormTypeOf relationship
+How does an Instrumentation relate to an AbstractScore through the isInstrumentationOf relationship
+How does a Score relate to an Instrumentation through the isScoreOf relationship
+How does the Polifonia ontology represent the relationship between a MusicEntity and its dedication statement
+How is a MusicEntity related to its opus statement in the Polifonia ontology
+How does the Polifonia ontology represent the relationship between a MusicEntity and its recording
+How is a MusicEntity created in the Polifonia ontology
+How does the Polifonia ontology represent the relationship between a MusicEntity and its musical performance
+How does the Polifonia ontology represent the relationship between a MusicEntity and its abstract score
+How does the Polifonia ontology represent the relationship between a MusicEntity and its duration
+How does the Polifonia ontology represent the relationship between a MusicEntity and its pitch
+How does the Polifonia ontology represent the relationship between a MusicEntity and its opus number
+How does the Polifonia ontology represent the relationship between a MusicEntity and its publisher
+How does an analyst's involvement in an analysis impact the confidence level of the analysis
+How does the involvement of a specific analyst in an analysis relate to the analyst's involvement in other analyses
+How does the involvement of a specific analyst in an analysis relate to the analyst's involvement in other analyses, considering the confidence level of the analyses
+How does the involvement of a specific analyst in an analysis relate to the analyst's involvement in other analyses, considering the music content being analyzed
+How does the involvement of a specific analyst in an analysis relate to the analyst's involvement in other analyses, considering the fragments being analyzed
+How does the involvement of a specific analyst in an analysis relate to the analyst's involvement in other analyses, considering the temporal location of the fragments being analyzed
+How does the involvement of a specific analyst in an analysis relate to the analyst's involvement in other analyses, considering the music projections being analyzed
+How does the involvement of a specific analyst in an analysis relate to the analyst's involvement in other analyses, considering the data modalities being analyzed
+How does the involvement of a specific analyst in an analysis relate to the analyst's involvement in other analyses, considering the availability of the data being analyzed
+How does the involvement of a specific analyst in an analysis relate to the analyst's involvement in other analyses, considering the confidence level of the analyses and the availability of the data being analyzed
+What is the DataModality of the RawDataContent in the Polifonia ontology
+Which Agent is responsible for maintaining the Dataset in the Polifonia ontology
+What is the ConsoleLocation of the Action in the Polifonia ontology
+Which AddressComponent is a part of the Address in the Polifonia ontology
+Which City is associated with the Address in the Polifonia ontology
+Which Country is associated with the Address in the Polifonia ontology
+Which District is associated with the Address in the Polifonia ontology
+Which Province is associated with the Address in the Polifonia ontology
+Which Region is associated with the Address in the Polifonia ontology
+Which Street is associated with the Address in the Polifonia ontology
+How does a Thing become a member of a Collection, and what is the strength of its membership
+How does a Collection define a Thing, and what is the concept used in this definition
+How does a Collection concept define a Collection, and what is the description used in this definition
+How does a Thing describe a Description, and what is the concept used in this description
+How does a Description define a Concept, and what is the description used in this definition
+How does a Description satisfy a Situation, and what is the condition of this satisfaction
+How does an Explanation explain a Thing, and what is the conceptualization used in this explanation
+How does an InformationObject realize an InformationRealization, and what is the language used in this realization
+How does a MusicAlgorithm train on a MusicDataset, and what is the duration of this training
+How does a Fragment have a temporal location in a MusicTimeInterval, and what is the index used in this location
+How does the Polifonia ontology represent the relationship between a person and their birthplace
+How can we find all the places associated with a specific instrument realization
+How does the Polifonia ontology represent the context of production and usage of a source
+How can we identify all the sources related to a specific needdee
+How does the Polifonia ontology represent the setting for a specific thing
+How can we find all the places where a specific music ensemble was formed
+How does the Polifonia ontology represent the relationship between a source and its subject
+How can we find all the sources that have a specific context of production
+How does the Polifonia ontology represent the relationship between a source and its medium of publishing
+How can we find all the sources that have a specific source credibility
+What is the type of the instrument used in the realization of a specific tune
+Who was the builder of a particular instrument realization
+What is the place where a specific instrument realization was built
+Who invented a specific type of instrument
+What is the title of a specific thing
+What is the role of a specific participant in a project
+What is the birth place of a specific person
+What is the place where a specific music ensemble was formed
+What is the console location of a specific action
+What is the aim of a specific dataset
+(Action, hasConsoleLocation, ConsoleLocation). What is the location of the console for a specific Action
+(DivisionStop, hasFootHight, Literal). What is the foot height value for a specific DivisionStop
+(Keyboard, hasRange, Literal). What is the range value for a specific Keyboard
+(Keyboard, hasRank, Literal). What is the rank value for a specific Keyboard
+(Organ, hasPitch, Literal). What is the pitch value for a specific Organ
+(Organ, hasTuning, Literal). What is the tuning value for a specific Organ
+(WindSystem, hasNumberOfBellows, integer). How many bellows does a specific WindSystem have
+(Action, hasConsoleLocation, ConsoleLocation). List all the console locations for all the Actions in the ontology
+(DivisionStop, hasFootHight, Literal). List all the foot height values for all the DivisionStops in the ontology
+(Keyboard, hasRange, Literal). List all the range values for all the Keyboards in the ontology
+What is the location of a specific meetup
+Which meetups have a specific participant as a role
+Which meetups have a specific purpose
+Which meetups have a specific time reference
+Which meetups have a specific time expression as a happensAt
+Which meetups have a specific role for a participant
+Which meetups have a specific role for a thing
+Which meetups have a specific resource as a location's dbpedia entity
+Which meetups have a specific resource as a location's wikidata entity
+Which meetups have a specific string as their evidence text
+How does the context of production of a source impact its credibility
+How does the context of usage of a source affect its relevance to a specific topic
+How does the subject of a source relate to its credibility
+How does the medium of publishing of a source influence its accessibility
+How does the source credibility of a source impact its reliability
+How does the subject of a source relate to its relevance to a specific topic
+How does the context of production of a source impact its reliability
+How does the context of usage of a source affect its credibility
+How does the source credibility of a source impact its accessibility
+How does the subject of a source relate to its accessibility
+Given the ontology Polifonia, how can we determine the duration of a specific note
+How can we identify the specific interval value of an interval in the Polifonia ontology
+How can we identify the quality of a specific interval in the Polifonia ontology
+How can we identify the pitch class of a specific pitch in the Polifonia ontology
+How can we identify the mode type of a specific mode in the Polifonia ontology
+How can we identify the key of a specific abstract score in the Polifonia ontology
+How can we identify the pitch class of the starting pitch class of a specific interval in the Polifonia ontology
+How can we identify the accidental of a specific pitch class in the Polifonia ontology
+How can we identify the specific interval value of an interval that is a part of a specific interval in the Polifonia ontology
+How can we identify the mode type of a specific mode that is a part of a specific mode in the Polifonia ontology
+What is the name of the ontology called Polifonia
+What is the schema of the ontology called Polifonia
+Which classes are defined in the ontology called Polifonia
+Which properties are defined in the ontology called Polifonia
+Which individuals are defined in the ontology called Polifonia
+Which relationships are defined in the ontology called Polifonia
+Which restrictions are defined in the ontology called Polifonia
+Which axioms are defined in the ontology called Polifonia
+Which imports are defined in the ontology called Polifonia
+Which prefixes are defined in the ontology called Polifonia

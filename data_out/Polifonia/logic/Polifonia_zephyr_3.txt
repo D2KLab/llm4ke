@@ -1,0 +1,50 @@
+How does the Polifonia ontology represent the relationship between a music entity and its dedication statement
+How can we retrieve all music entities that have a specific opus number using the Polifonia ontology
+How can we find all musical performances that realize a specific music entity using the Polifonia ontology
+How can we identify the publisher of a specific publication situation in the Polifonia ontology
+How can we retrieve all recordings that are part of a specific release using the Polifonia ontology
+How can we find all recording processes that produce a specific recording using the Polifonia ontology
+How can we identify the equipment used in a specific recording process in the Polifonia ontology
+How can we retrieve all scores that have a specific score part using the Polifonia ontology
+How can we find all text fragments that are part of a specific abstract score in the Polifonia ontology
+How can we identify the annotations associated with a specific tune in the Polifonia ontology
+Which organs have similar pitch values to organ X
+Which keyboards have similar rank values to keyboard X
+Which wind systems have similar numberOfBellows values to windSystem X
+Which divisions have similar footHight values to divisionX
+Which keyboards have similar range values to keyboard X
+Which organs have similar tuning values to organ X
+Which collections contain tunes with similar geographic origin as tune X
+Which tunes are similar to tune X, given similarity measure 0.8
+Which collections contain tunes with similar pitch values as organ X
+Which collections contain tunes with similar tuning values as organ X
+How does the context of production of a source relate to the context of production of another source, given the similarity measure Z
+Which sources have similar contexts of usage, based on the context of usage ontology
+How does the source credibility of a source relate to the source credibility of another source, given the similarity measure W
+Which sources have similar subjects, based on the subject ontology
+How does the medium of publishing of a source relate to the medium of publishing of another source, given the similarity measure X
+Which sources have similar references, based on the bibliographical reference ontology
+How does the source credibility of a source relate to the source credibility of another source, based on the source credibility ontology
+Which sources have similar subjects, based on the subject ontology and the similarity measure Y
+How does the context of production of a source relate to the context of usage of another source, given the similarity measure Z
+Which sources have similar contexts of usage, based on the context of usage ontology and the similarity measure W
+How does the ontology Polifonia represent the duration of a note
+How is the starting pitch class of an interval represented in the Polifonia ontology
+How is the quality of a specific interval represented in the Polifonia ontology
+How is the key of an abstract score represented in the Polifonia ontology
+How is the mode type of a mode represented in the Polifonia ontology
+How is the pitch of a note represented in the Polifonia ontology
+How is the pitch class of a pitch represented in the Polifonia ontology
+How is the specific interval value of an interval represented in the Polifonia ontology
+How is the accidental of a pitch class represented in the Polifonia ontology
+How is the geographic origin of a tune represented in the Polifonia ontology
+What tunes have a similar geographic origin to "The Banks of the Bann"
+Which tunes are similar to "The Banks of the Bann" based on the similarity measure of rhythmic complexity
+Given the set of tunes { "The Banks of the Bann", "The Galtee Races", "The Mountain Road" }, from which collections are these tunes
+Which collections contain tunes with a similar geographic origin to "The Banks of the Bann"
+Which collections contain tunes that are similar to "The Banks of the Bann" based on the similarity measure of tonality
+Given the set of collections { "The Sligo Champion", "The Kilkenny Champion", "The Galway Bay" }, which collections have tunes with a similar geographic origin to "The Banks of the Bann"
+Which collections have tunes that are similar to "The Banks of the Bann" based on the similarity measure of rhythmic complexity
+Given the set of collections { "The Sligo Champion", "The Kilkenny Champion", "The Galway Bay" }, which collections have tunes that are similar to "The Banks of the Bann" based on the similarity measure of tonality
+Which collections have tunes that are similar to "The Banks of the Bann" based on the similarity measure of melody
+Given the set of collections { "The Sligo Champion", "The Kilkenny Champion", "The Galway Bay" }, which collections have tunes that are similar to "The Banks of the Bann" based on the similarity measure of rhythmic complexity and tonality
