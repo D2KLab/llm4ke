@@ -1,0 +1,131 @@
+What licenses are associated with a specific MusicEntity
+What PublicationSituations are related to a MusicEntity
+Which MusicArtists are involved in a particular MusicEntity
+What are the licenses related to a specific publication situation
+What Realisations does a certain AbstractScore have
+What are the realized Instruments for a given MusicEntity
+What Awards have been received or nominated by a MusicArtist
+What BroadcastingSituations involve a specific Broadcaster
+What Collections include a certain Thing as a member
+What FormTypes, Instrumentations, Keys, and Texts are associated with an AbstractScore
+Which CreativeAction is involved in a specific CreativeProcess that resulted in a MusicEntity
+What agent role does a CreativeProcess have in relation to its involved CreativeAction
+What MusicEntity was created by a particular CreativeProcess
+Which MusicArtist participated in a specific CreativeProcess
+What text is included in the dedication statement of a MusicEntity
+What FormType does an AbstractScore have
+What Instrumentation is associated with a specific AbstractScore
+What Key is related to an AbstractScore
+What License is associated with a certain Ndaba88ab077847a68539e6b65ce26a6e
+What ScorePart has a specific MediumOfPerformance
+What creative process resulted in a specific MusicEntity
+What dedication statement is associated with a MusicEntity
+Which MusicEntity part is related to Na75521fb68d546929b07e4879f4392b8
+What opus statement is connected to a MusicEntity
+Which recording is linked to a MusicEntity
+What genre does a MusicArtist belong to
+What is the opus number and sub-number of a MusicEntity
+What publication situation is related to a specific Nf9d0218741d4494c834e802488bca976
+Which publisher is associated with the publication situation of a Nf9d0218741d4494c834e802488bca976
+What recording process produced a Recording
+number of a MusicEntity
+What analyst is involved in a specific analysis of a given MusicContent
+What confidence level is associated with an analysis of a particular MusicContent
+Which Annotation describes a specific Fragment of a MusicContent
+What AnnotationType is used for a particular Annotation
+Who is the annotator of a specific Annotation
+What AnnotationContent is observed in an Observation
+What MusicProjection is the subject of an Observation
+What ContentDescriptor is annotated by a ContentAnnotation
+What type of Content is described by a ContentDescriptor
+What DataModality is associated with a RawDataContent
+Which data accessibility methods are associated with a given DataAvailability
+What APIs are available for a specific DataAvailability
+What datasets have a particular DataAvailability
+What modality does a specific RawDataContent have
+Which dataset is an extension of another dataset
+What tasks are a dataset aimed for
+Which agents maintain a dataset
+How many records does a dataset contain
+What dataset records are assigned to a specific DatasetSplit
+What feature types are associated with a ContentDescriptor
+What collections have defined membership strengths in Polifonia
+Which collections involve specific cities in their address descriptions
+What concepts classify the members of a collection in Polifonia
+How are descriptions related to concepts in Polifonia
+What things are described based on situations in Polifonia
+Which algorithms are trained on music datasets in Polifonia
+How are music time intervals related to music time index components in Polifonia
+What information realizations realize information objects in Polifonia
+Which languages are associated with things in Polifonia
+How are music time intervals connected to fragments in Polifonia
+What are the associated names with a given TimeIndexedName in Polifonia
+Which Things have a specific Role in the ontology
+What are the places related to a given Person's birthplace in Polifonia
+What are the sources connected to a particular context of production or usage in Polifonia
+What are the tasks executed by a specific Thing in Polifonia
+What explanations are based on a specific Theory in Polifonia
+Which TimeIndexedNames are associated with a particular Thing and its time interval in Polifonia
+What are the addresses linked to a specific PhysicalSite in Polifonia
+What are the datasets aimed for specific tasks in Polifonia
+What TimeIntervals are related to an InstrumentRealization's building time in Polifonia
+What is the connection between a title and the thing it represents in Polifonia ontology
+How is the type of a thing related to the thing itself in the Polifonia ontology
+What agent or agent group is associated with the invention of an instrument in the Polifonia ontology
+What is the relationship between an instrument realization, its builder, and the time it was built in the Polifonia ontology
+How is the source of a tune linked to the tune in the Polifonia ontology
+What information is provided about wind pressure in the context of the N758d75847f844d0b8b5701af365cb877 class in the Polifonia ontology
+What role does an annotator have in the context of the Agent class in the Polifonia ontology
+How is the maintenance of a dataset connected to the agent responsible for it in the Polifonia ontology
+What is the relationship between a thing and the agent associated with it in the Polifonia ontology
+How are places related to music ensembles and their formation in the Polifonia ontology
+What is the console location of an action
+What is the foot height of a division stop
+What is the range of a keyboard
+What is the rank of a keyboard
+What is the pitch of an organ
+What is the tuning of an organ
+What is the number of bellows in a wind system
+Is the hasRange property of a keyboard a literal value or an integer
+Is the hasRank property of a keyboard a literal value or an integer
+Is the hasPitch property of an organ a literal value or an integer
+What locations are associated with Polifonia meetups through DBpedia or Wikidata entities
+What purposes do Polifonia meetups have
+Which participants have specific roles in Polifonia meetups
+What time expressions indicate when Polifonia meetups happen
+What types of entities are linked to Polifonia meetups through DBpedia or Wikidata resources
+What roles are assigned to participants or things in Polifonia meetups
+What time references are used to specify the occurrence of Polifonia meetups
+Which meetups have evidence texts associated with them in the Polifonia ontology
+What is the relationship between the role concept and the thing or participant in the Polifonia ontology
+How are locations related to Polifonia meetups in terms of their occurrence
+What is the relationship between a Source and its related entity in Polifonia ontology
+How is the context of production associated with a Source in the ontology
+What is the connection between a ContextOfUsage and a Source in the Polifonia ontology
+How is the credibility of a Source determined in the ontology
+What is the subject association with a Source in the Polifonia ontology
+How is the medium of publishing related to a Source in the ontology
+What is the role of a BibliographicalReference in the context of a Source
+How are Fragments related to the MusicContent in the Polifonia ontology
+What is the significance of MusicTimeInterval in the context of a Fragment
+How are Accidentals associated with PitchClasses in the Polifonia ontology
+What is the relationship between Duration and Note in the Polifonia ontology
+How is the starting pitch class related to an Interval in the Polifonia ontology
+What is the connection between SpecificInterval and Interval in the Polifonia ontology
+What is the role of PitchClass in the context of Pitch and Interval in the Polifonia ontology
+How is the quality of a SpecificInterval determined in the Polifonia ontology
+What is the significance of ModeType in the context of Mode in the Polifonia ontology
+How is the pitch of a Note related to its duration in the Polifonia ontology
+What is the relationship between AbstractScore and Key in the Polifonia ontology
+How is the pitch class of a Pitch related to its starting pitch class in the Polifonia ontology
+What is the connection between IntervalQuality and SpecificInterval in the Polifonia ontology
+What musical genres are associated with a Polifonia composition
+Which composers contributed to the Polifonia collection
+What is the instrumentation of a specific Polifonia piece
+What is the historical context of a Polifonia composition
+What is the structure of a Polifonia piece
+What are the key performers of a Polifonia work
+What is the thematic content of a Polifonia composition
+What is the geographical origin of a Polifonia piece
+What are the stylistic features of a Polifonia work
+What is the chronological period of a Polifonia composition
