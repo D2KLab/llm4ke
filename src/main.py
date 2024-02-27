@@ -14,14 +14,13 @@
 
 # === Import ==================================================================
 
+import logging
 import os
 import re
 import time
 from argparse import ArgumentParser
 from os import path
 from pathlib import Path
-import logging
-from langchain_openai import OpenAI
 
 import yaml
 from langchain.llms.huggingface_pipeline import HuggingFacePipeline
@@ -29,12 +28,13 @@ from langchain_community.llms import Ollama
 from langchain_core.callbacks.base import BaseCallbackHandler
 from langchain_core.output_parsers import StrOutputParser
 from langchain_core.prompts.prompt import PromptTemplate
+from langchain_openai import ChatOpenAI
 from rdflib import Graph, RDF, RDFS, OWL
 from transformers import AutoTokenizer, AutoModelForCausalLM, pipeline
 
 from LocalTemplate import LocalTemplate
 from utils import flatten
-from langchain_openai import ChatOpenAI
+
 # === Init ====================================================================
 
 os.environ["CUDA_VISIBLE_DEVICES"] = "3,2"  # Specify the GPU id
@@ -47,16 +47,10 @@ available_llms = {
     "zephyr": "HuggingFaceH4/zephyr-7b-beta",
     "llama2": "local",
     "mistral": "local",
-    'GPT':"OpenAI"
+    'GPT': "OpenAI"
 }
 
 API_KEY = os.getenv("OPENAI_API_KEY")
-
-
-
-
-
-
 
 # device = "cuda"
 
@@ -79,13 +73,6 @@ def simplify(uri):
     :return: a simpler URI as a string
     """
     return re.split(r'[#/]', uri)[-1].replace('_', ' ')
-
-
-def flatten(matrix):
-    flat_list = []
-    for row in matrix:
-        flat_list.extend(row)
-    return flat_list
 
 
 def select_in_batches(lst, batch_size=20):
@@ -130,7 +117,6 @@ def run(task, input_path, llm_model, ont_name,
     # Loading the ontology
     g = Graph()
 
-
     for g_path in os.listdir(path.join(input_path, 'dm')):
         if not g_path.split('.')[-1] in ['rdf', 'ttl', 'owl']:
             continue
@@ -145,7 +131,8 @@ def run(task, input_path, llm_model, ont_name,
 
     description = Path(path.join(input_path, 'description.txt')).read_text() if include_description else ''
 
-    logging.info("LOAD:ONTOLOGY:STATS:The %s ontology has %s classes and %s properties.", ont_name, len(cls), len(props))
+    logging.info("LOAD:ONTOLOGY:STATS:The %s ontology has %s classes and %s properties.", ont_name, len(cls),
+                 len(props))
     # print(f'The {ont_name} ontology has {len(cls)} classes and {len(props)} properties')
 
     schema = []
@@ -167,7 +154,6 @@ def run(task, input_path, llm_model, ont_name,
     classes_batches = [[simplify(elm) for elm in class_set] for class_set in select_in_batches(cls)]
     property_batches = [flatten([select_props_by_class(schema, cl) for cl in batch]) for batch in classes_batches]
     schema_batches = [flatten([select_schema_by_class(schema, cl) for cl in batch]) for batch in classes_batches]
-
 
     # Get Competency Question examples from the dataset
     examples = ''
@@ -200,9 +186,8 @@ def run(task, input_path, llm_model, ont_name,
     # Instanciate LLM
     if local_llm or available_llms[llm_model] == 'local':
         llm = Ollama(model=llm_model)
-    elif available_llms[llm_model]=="OpenAI":
-        llm= ChatOpenAI(model="gpt-3.5-turbo-0125"
-                              "",openai_api_key=API_KEY)
+    elif available_llms[llm_model] == "OpenAI":
+        llm = ChatOpenAI(model="gpt-3.5-turbo-0125", openai_api_key=API_KEY)
     else:
         tokenizer = AutoTokenizer.from_pretrained(available_llms[llm_model])
 
@@ -235,7 +220,7 @@ def run(task, input_path, llm_model, ont_name,
     logging.info("PROMPT:CALL_LLM:%s:res=%s", 'DONE', res)
 
     # Parse output to extract Competency Questions
-    patterns = [r'(\d+)\. (.+)[?.]', r'\s*-\s*(.*?)[?.]',r'CQ\d+: (.+?)\n']
+    patterns = [r'(\d+)\. (.+)[?.]', r'\s*-\s*(.*?)[?.]', r'CQ\d+: (.+?)\n']
     cqs = []
 
     for batch in res:

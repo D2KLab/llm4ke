@@ -1,0 +1,1262 @@
+[
+    {
+        "onto": "noria-o",
+        "llm": "GPT3",
+        "mode": "logic",
+        "examples": "0",
+        "score": 0.03333333333333333
+    },
+    {
+        "onto": "noria-o",
+        "llm": "una",
+        "mode": "logic",
+        "examples": "0",
+        "score": 0.0
+    },
+    {
+        "onto": "noria-o",
+        "llm": "GPT3",
+        "mode": "logic",
+        "examples": "3",
+        "score": 0.03225806451612903
+    },
+    {
+        "onto": "noria-o",
+        "llm": "una",
+        "mode": "logic",
+        "examples": "3",
+        "score": 0.0
+    },
+    {
+        "onto": "noria-o",
+        "llm": "GPT4",
+        "mode": "logic",
+        "examples": "3",
+        "score": 0.0
+    },
+    {
+        "onto": "noria-o",
+        "llm": "dpo",
+        "mode": "logic",
+        "examples": "3",
+        "score": 0.0
+    },
+    {
+        "onto": "noria-o",
+        "llm": "GPT4",
+        "mode": "logic",
+        "examples": "0",
+        "score": 0.0
+    },
+    {
+        "onto": "noria-o",
+        "llm": "dpo",
+        "mode": "logic",
+        "examples": "0",
+        "score": 0.0
+    },
+    {
+        "onto": "noria-o",
+        "llm": "zephyr",
+        "mode": "logic",
+        "examples": "0",
+        "score": 0.0
+    },
+    {
+        "onto": "noria-o",
+        "llm": "zephyr",
+        "mode": "logic",
+        "examples": "3",
+        "score": 0.2
+    },
+    {
+        "onto": "noria-o",
+        "llm": "solar",
+        "mode": "logic",
+        "examples": "3",
+        "score": 0.03225806451612903
+    },
+    {
+        "onto": "noria-o",
+        "llm": "solar",
+        "mode": "logic",
+        "examples": "0",
+        "score": 0.0
+    },
+    {
+        "onto": "noria-o",
+        "llm": "GPT3",
+        "mode": "classes_and_properties",
+        "examples": "0",
+        "score": 0.0
+    },
+    {
+        "onto": "noria-o",
+        "llm": "una",
+        "mode": "classes_and_properties",
+        "examples": "0",
+        "score": 0.0
+    },
+    {
+        "onto": "noria-o",
+        "llm": "GPT3",
+        "mode": "classes_and_properties",
+        "examples": "3",
+        "score": 0.03125
+    },
+    {
+        "onto": "noria-o",
+        "llm": "una",
+        "mode": "classes_and_properties",
+        "examples": "3",
+        "score": 0.06666666666666667
+    },
+    {
+        "onto": "noria-o",
+        "llm": "GPT4",
+        "mode": "classes_and_properties",
+        "examples": "3",
+        "score": 0.03125
+    },
+    {
+        "onto": "noria-o",
+        "llm": "dpo",
+        "mode": "classes_and_properties",
+        "examples": "3",
+        "score": 0.0625
+    },
+    {
+        "onto": "noria-o",
+        "llm": "GPT4",
+        "mode": "classes_and_properties",
+        "examples": "0",
+        "score": 0.03225806451612903
+    },
+    {
+        "onto": "noria-o",
+        "llm": "dpo",
+        "mode": "classes_and_properties",
+        "examples": "0",
+        "score": 0.0
+    },
+    {
+        "onto": "noria-o",
+        "llm": "zephyr",
+        "mode": "classes_and_properties",
+        "examples": "0",
+        "score": 0.0
+    },
+    {
+        "onto": "noria-o",
+        "llm": "zephyr",
+        "mode": "classes_and_properties",
+        "examples": "3",
+        "score": 0
+    },
+    {
+        "onto": "noria-o",
+        "llm": "solar",
+        "mode": "classes_and_properties",
+        "examples": "3",
+        "score": 0
+    },
+    {
+        "onto": "noria-o",
+        "llm": "solar",
+        "mode": "classes_and_properties",
+        "examples": "0",
+        "score": 0.02857142857142857
+    },
+    {
+        "onto": "noria-o",
+        "llm": "GPT3",
+        "mode": "all_classes",
+        "examples": "0",
+        "score": 0.0
+    },
+    {
+        "onto": "noria-o",
+        "llm": "una",
+        "mode": "all_classes",
+        "examples": "0",
+        "score": 0.025
+    },
+    {
+        "onto": "noria-o",
+        "llm": "GPT3",
+        "mode": "all_classes",
+        "examples": "3",
+        "score": 0.0
+    },
+    {
+        "onto": "noria-o",
+        "llm": "una",
+        "mode": "all_classes",
+        "examples": "3",
+        "score": 0.3076923076923077
+    },
+    {
+        "onto": "noria-o",
+        "llm": "GPT4",
+        "mode": "all_classes",
+        "examples": "3",
+        "score": 0.03225806451612903
+    },
+    {
+        "onto": "noria-o",
+        "llm": "dpo",
+        "mode": "all_classes",
+        "examples": "3",
+        "score": 0.04081632653061224
+    },
+    {
+        "onto": "noria-o",
+        "llm": "GPT4",
+        "mode": "all_classes",
+        "examples": "0",
+        "score": 0.0
+    },
+    {
+        "onto": "noria-o",
+        "llm": "dpo",
+        "mode": "all_classes",
+        "examples": "0",
+        "score": 0.0
+    },
+    {
+        "onto": "noria-o",
+        "llm": "zephyr",
+        "mode": "all_classes",
+        "examples": "0",
+        "score": 0.0
+    },
+    {
+        "onto": "noria-o",
+        "llm": "zephyr",
+        "mode": "all_classes",
+        "examples": "3",
+        "score": 0
+    },
+    {
+        "onto": "noria-o",
+        "llm": "solar",
+        "mode": "all_classes",
+        "examples": "3",
+        "score": 0.037037037037037035
+    },
+    {
+        "onto": "noria-o",
+        "llm": "solar",
+        "mode": "all_classes",
+        "examples": "0",
+        "score": 0.0
+    },
+    {
+        "onto": "Odeuropa",
+        "llm": "dpo",
+        "mode": "logic",
+        "examples": "0",
+        "score": 0.0
+    },
+    {
+        "onto": "Odeuropa",
+        "llm": "solar",
+        "mode": "logic",
+        "examples": "3",
+        "score": 0.3
+    },
+    {
+        "onto": "Odeuropa",
+        "llm": "una",
+        "mode": "logic",
+        "examples": "3",
+        "score": 1.0
+    },
+    {
+        "onto": "Odeuropa",
+        "llm": "zephyr",
+        "mode": "logic",
+        "examples": "3",
+        "score": 1.0
+    },
+    {
+        "onto": "Odeuropa",
+        "llm": "zephyr",
+        "mode": "logic",
+        "examples": "0",
+        "score": 0.0
+    },
+    {
+        "onto": "Odeuropa",
+        "llm": "una",
+        "mode": "logic",
+        "examples": "0",
+        "score": 0.6363636363636364
+    },
+    {
+        "onto": "Odeuropa",
+        "llm": "solar",
+        "mode": "logic",
+        "examples": "0",
+        "score": 0.2
+    },
+    {
+        "onto": "Odeuropa",
+        "llm": "dpo",
+        "mode": "logic",
+        "examples": "3",
+        "score": 1.0
+    },
+    {
+        "onto": "Odeuropa",
+        "llm": "GPT4",
+        "mode": "logic",
+        "examples": "0",
+        "score": 0.3
+    },
+    {
+        "onto": "Odeuropa",
+        "llm": "GPT4",
+        "mode": "logic",
+        "examples": "3",
+        "score": 0.9
+    },
+    {
+        "onto": "Odeuropa",
+        "llm": "GPT3",
+        "mode": "logic",
+        "examples": "3",
+        "score": 0.0
+    },
+    {
+        "onto": "Odeuropa",
+        "llm": "GPT3",
+        "mode": "logic",
+        "examples": "0",
+        "score": 0.1
+    },
+    {
+        "onto": "Odeuropa",
+        "llm": "dpo",
+        "mode": "classes_and_properties",
+        "examples": "3",
+        "score": 0.8181818181818182
+    },
+    {
+        "onto": "Odeuropa",
+        "llm": "dpo",
+        "mode": "classes_and_properties",
+        "examples": "0",
+        "score": 0.3
+    },
+    {
+        "onto": "Odeuropa",
+        "llm": "una",
+        "mode": "classes_and_properties",
+        "examples": "0",
+        "score": 0.0
+    },
+    {
+        "onto": "Odeuropa",
+        "llm": "solar",
+        "mode": "classes_and_properties",
+        "examples": "0",
+        "score": 0.0
+    },
+    {
+        "onto": "Odeuropa",
+        "llm": "solar",
+        "mode": "classes_and_properties",
+        "examples": "3",
+        "score": 0.3
+    },
+    {
+        "onto": "Odeuropa",
+        "llm": "una",
+        "mode": "classes_and_properties",
+        "examples": "3",
+        "score": 0.7
+    },
+    {
+        "onto": "Odeuropa",
+        "llm": "GPT4",
+        "mode": "classes_and_properties",
+        "examples": "0",
+        "score": 0.5
+    },
+    {
+        "onto": "Odeuropa",
+        "llm": "GPT4",
+        "mode": "classes_and_properties",
+        "examples": "3",
+        "score": 0.9
+    },
+    {
+        "onto": "Odeuropa",
+        "llm": "zephyr",
+        "mode": "classes_and_properties",
+        "examples": "0",
+        "score": 1.0
+    },
+    {
+        "onto": "Odeuropa",
+        "llm": "GPT3",
+        "mode": "classes_and_properties",
+        "examples": "3",
+        "score": 0.3
+    },
+    {
+        "onto": "Odeuropa",
+        "llm": "zephyr",
+        "mode": "classes_and_properties",
+        "examples": "3",
+        "score": 0
+    },
+    {
+        "onto": "Odeuropa",
+        "llm": "GPT3",
+        "mode": "classes_and_properties",
+        "examples": "0",
+        "score": 0.0
+    },
+    {
+        "onto": "Odeuropa",
+        "llm": "dpo",
+        "mode": "all_classes",
+        "examples": "0",
+        "score": 0.7
+    },
+    {
+        "onto": "Odeuropa",
+        "llm": "solar",
+        "mode": "all_classes",
+        "examples": "3",
+        "score": 0.3
+    },
+    {
+        "onto": "Odeuropa",
+        "llm": "una",
+        "mode": "all_classes",
+        "examples": "3",
+        "score": 1.0
+    },
+    {
+        "onto": "Odeuropa",
+        "llm": "zephyr",
+        "mode": "all_classes",
+        "examples": "3",
+        "score": 0.4
+    },
+    {
+        "onto": "Odeuropa",
+        "llm": "zephyr",
+        "mode": "all_classes",
+        "examples": "0",
+        "score": 0.9
+    },
+    {
+        "onto": "Odeuropa",
+        "llm": "una",
+        "mode": "all_classes",
+        "examples": "0",
+        "score": 0.5
+    },
+    {
+        "onto": "Odeuropa",
+        "llm": "solar",
+        "mode": "all_classes",
+        "examples": "0",
+        "score": 0.2
+    },
+    {
+        "onto": "Odeuropa",
+        "llm": "dpo",
+        "mode": "all_classes",
+        "examples": "3",
+        "score": 0.75
+    },
+    {
+        "onto": "Odeuropa",
+        "llm": "GPT4",
+        "mode": "all_classes",
+        "examples": "0",
+        "score": 0.2
+    },
+    {
+        "onto": "Odeuropa",
+        "llm": "GPT4",
+        "mode": "all_classes",
+        "examples": "3",
+        "score": 0.4
+    },
+    {
+        "onto": "Odeuropa",
+        "llm": "GPT3",
+        "mode": "all_classes",
+        "examples": "3",
+        "score": 0.9
+    },
+    {
+        "onto": "Odeuropa",
+        "llm": "GPT3",
+        "mode": "all_classes",
+        "examples": "0",
+        "score": 0.0
+    },
+    {
+        "onto": "DOREMUS",
+        "llm": "zephyr",
+        "mode": "logic",
+        "examples": "3",
+        "score": 0.5641025641025641
+    },
+    {
+        "onto": "DOREMUS",
+        "llm": "zephyr",
+        "mode": "logic",
+        "examples": "0",
+        "score": 0.0
+    },
+    {
+        "onto": "DOREMUS",
+        "llm": "solar",
+        "mode": "logic",
+        "examples": "0",
+        "score": 0.0
+    },
+    {
+        "onto": "DOREMUS",
+        "llm": "solar",
+        "mode": "logic",
+        "examples": "3",
+        "score": 0.07058823529411765
+    },
+    {
+        "onto": "DOREMUS",
+        "llm": "dpo",
+        "mode": "logic",
+        "examples": "0",
+        "score": 0.0
+    },
+    {
+        "onto": "DOREMUS",
+        "llm": "GPT4",
+        "mode": "logic",
+        "examples": "3",
+        "score": 0.1111111111111111
+    },
+    {
+        "onto": "DOREMUS",
+        "llm": "dpo",
+        "mode": "logic",
+        "examples": "3",
+        "score": 0.007547169811320755
+    },
+    {
+        "onto": "DOREMUS",
+        "llm": "una",
+        "mode": "logic",
+        "examples": "0",
+        "score": 0.046153846153846156
+    },
+    {
+        "onto": "DOREMUS",
+        "llm": "GPT4",
+        "mode": "logic",
+        "examples": "0",
+        "score": 0.015384615384615385
+    },
+    {
+        "onto": "DOREMUS",
+        "llm": "una",
+        "mode": "logic",
+        "examples": "3",
+        "score": 0.12396694214876033
+    },
+    {
+        "onto": "DOREMUS",
+        "llm": "GPT3",
+        "mode": "logic",
+        "examples": "0",
+        "score": 0.007751937984496124
+    },
+    {
+        "onto": "DOREMUS",
+        "llm": "GPT3",
+        "mode": "logic",
+        "examples": "3",
+        "score": 0.040983606557377046
+    },
+    {
+        "onto": "DOREMUS",
+        "llm": "zephyr",
+        "mode": "classes_and_properties",
+        "examples": "3",
+        "score": 0.58
+    },
+    {
+        "onto": "DOREMUS",
+        "llm": "zephyr",
+        "mode": "classes_and_properties",
+        "examples": "0",
+        "score": 0.009009009009009009
+    },
+    {
+        "onto": "DOREMUS",
+        "llm": "solar",
+        "mode": "classes_and_properties",
+        "examples": "0",
+        "score": 0.0
+    },
+    {
+        "onto": "DOREMUS",
+        "llm": "solar",
+        "mode": "classes_and_properties",
+        "examples": "3",
+        "score": 0.125
+    },
+    {
+        "onto": "DOREMUS",
+        "llm": "dpo",
+        "mode": "classes_and_properties",
+        "examples": "0",
+        "score": 0.0
+    },
+    {
+        "onto": "DOREMUS",
+        "llm": "GPT4",
+        "mode": "classes_and_properties",
+        "examples": "3",
+        "score": 0.10743801652892562
+    },
+    {
+        "onto": "DOREMUS",
+        "llm": "dpo",
+        "mode": "classes_and_properties",
+        "examples": "3",
+        "score": 0.04065040650406504
+    },
+    {
+        "onto": "DOREMUS",
+        "llm": "GPT4",
+        "mode": "classes_and_properties",
+        "examples": "0",
+        "score": 0.0
+    },
+    {
+        "onto": "DOREMUS",
+        "llm": "una",
+        "mode": "classes_and_properties",
+        "examples": "3",
+        "score": 0.15454545454545454
+    },
+    {
+        "onto": "DOREMUS",
+        "llm": "GPT3",
+        "mode": "classes_and_properties",
+        "examples": "0",
+        "score": 0.008695652173913044
+    },
+    {
+        "onto": "DOREMUS",
+        "llm": "una",
+        "mode": "classes_and_properties",
+        "examples": "0",
+        "score": 0.02608695652173913
+    },
+    {
+        "onto": "DOREMUS",
+        "llm": "GPT3",
+        "mode": "classes_and_properties",
+        "examples": "3",
+        "score": 0.00847457627118644
+    },
+    {
+        "onto": "DOREMUS",
+        "llm": "solar",
+        "mode": "all_classes",
+        "examples": "0",
+        "score": 0.0
+    },
+    {
+        "onto": "DOREMUS",
+        "llm": "solar",
+        "mode": "all_classes",
+        "examples": "3",
+        "score": 0.0
+    },
+    {
+        "onto": "DOREMUS",
+        "llm": "zephyr",
+        "mode": "all_classes",
+        "examples": "0",
+        "score": 0.009009009009009009
+    },
+    {
+        "onto": "DOREMUS",
+        "llm": "dpo",
+        "mode": "all_classes",
+        "examples": "3",
+        "score": 0.025423728813559324
+    },
+    {
+        "onto": "DOREMUS",
+        "llm": "GPT4",
+        "mode": "all_classes",
+        "examples": "3",
+        "score": 0.0967741935483871
+    },
+    {
+        "onto": "DOREMUS",
+        "llm": "una",
+        "mode": "all_classes",
+        "examples": "0",
+        "score": 0.0
+    },
+    {
+        "onto": "DOREMUS",
+        "llm": "GPT4",
+        "mode": "all_classes",
+        "examples": "0",
+        "score": 0.0
+    },
+    {
+        "onto": "DOREMUS",
+        "llm": "GPT",
+        "mode": "all_classes",
+        "examples": "3",
+        "score": 0.03508771929824561
+    },
+    {
+        "onto": "DOREMUS",
+        "llm": "GPT",
+        "mode": "all_classes",
+        "examples": "0",
+        "score": 0.017391304347826087
+    },
+    {
+        "onto": "DOREMUS",
+        "llm": "una",
+        "mode": "all_classes",
+        "examples": "3",
+        "score": 0.08849557522123894
+    },
+    {
+        "onto": "DOREMUS",
+        "llm": "dpo",
+        "mode": "all_classes",
+        "examples": "0",
+        "score": 0.0
+    },
+    {
+        "onto": "DOREMUS",
+        "llm": "zephyr",
+        "mode": "all_classes",
+        "examples": "3",
+        "score": 0.025423728813559324
+    },
+    {
+        "onto": "Polifonia",
+        "llm": "zephyr",
+        "mode": "logic",
+        "examples": "3",
+        "score": 0.34
+    },
+    {
+        "onto": "Polifonia",
+        "llm": "zephyr",
+        "mode": "logic",
+        "examples": "0",
+        "score": 0.14615384615384616
+    },
+    {
+        "onto": "Polifonia",
+        "llm": "una",
+        "mode": "logic",
+        "examples": "0",
+        "score": 0.09923664122137404
+    },
+    {
+        "onto": "Polifonia",
+        "llm": "una",
+        "mode": "logic",
+        "examples": "3",
+        "score": 0.3333333333333333
+    },
+    {
+        "onto": "Polifonia",
+        "llm": "GPT3",
+        "mode": "logic",
+        "examples": "0",
+        "score": 0.2
+    },
+    {
+        "onto": "Polifonia",
+        "llm": "GPT3",
+        "mode": "logic",
+        "examples": "3",
+        "score": 0.3230769230769231
+    },
+    {
+        "onto": "Polifonia",
+        "llm": "GPT4",
+        "mode": "logic",
+        "examples": "3",
+        "score": 0.3153846153846154
+    },
+    {
+        "onto": "Polifonia",
+        "llm": "GPT4",
+        "mode": "logic",
+        "examples": "0",
+        "score": 0.3
+    },
+    {
+        "onto": "Polifonia",
+        "llm": "solar",
+        "mode": "logic",
+        "examples": "3",
+        "score": 0.23770491803278687
+    },
+    {
+        "onto": "Polifonia",
+        "llm": "dpo",
+        "mode": "logic",
+        "examples": "3",
+        "score": 0.21666666666666667
+    },
+    {
+        "onto": "Polifonia",
+        "llm": "solar",
+        "mode": "logic",
+        "examples": "0",
+        "score": 0.12396694214876033
+    },
+    {
+        "onto": "Polifonia",
+        "llm": "dpo",
+        "mode": "logic",
+        "examples": "0",
+        "score": 0.10687022900763359
+    },
+    {
+        "onto": "Polifonia",
+        "llm": "zephyr",
+        "mode": "all_classes",
+        "examples": "3",
+        "score": 0.3561643835616438
+    },
+    {
+        "onto": "Polifonia",
+        "llm": "zephyr",
+        "mode": "all_classes",
+        "examples": "0",
+        "score": 0.15873015873015872
+    },
+    {
+        "onto": "Polifonia",
+        "llm": "una",
+        "mode": "all_classes",
+        "examples": "0",
+        "score": 0.08396946564885496
+    },
+    {
+        "onto": "Polifonia",
+        "llm": "una",
+        "mode": "all_classes",
+        "examples": "3",
+        "score": 0.3416666666666667
+    },
+    {
+        "onto": "Polifonia",
+        "llm": "GPT3",
+        "mode": "all_classes",
+        "examples": "0",
+        "score": 0.08333333333333333
+    },
+    {
+        "onto": "Polifonia",
+        "llm": "GPT3",
+        "mode": "all_classes",
+        "examples": "3",
+        "score": 0.20300751879699247
+    },
+    {
+        "onto": "Polifonia",
+        "llm": "GPT4",
+        "mode": "all_classes",
+        "examples": "3",
+        "score": 0.3153846153846154
+    },
+    {
+        "onto": "Polifonia",
+        "llm": "GPT4",
+        "mode": "all_classes",
+        "examples": "0",
+        "score": 0.208955223880597
+    },
+    {
+        "onto": "Polifonia",
+        "llm": "solar",
+        "mode": "all_classes",
+        "examples": "3",
+        "score": 0.1951219512195122
+    },
+    {
+        "onto": "Polifonia",
+        "llm": "dpo",
+        "mode": "all_classes",
+        "examples": "3",
+        "score": 0.2230769230769231
+    },
+    {
+        "onto": "Polifonia",
+        "llm": "solar",
+        "mode": "all_classes",
+        "examples": "0",
+        "score": 0.0703125
+    },
+    {
+        "onto": "Polifonia",
+        "llm": "dpo",
+        "mode": "all_classes",
+        "examples": "0",
+        "score": 0.05303030303030303
+    },
+    {
+        "onto": "Polifonia",
+        "llm": "zephyr",
+        "mode": "all_classes_and_properties",
+        "examples": "3",
+        "score": 0.38461538461538464
+    },
+    {
+        "onto": "Polifonia",
+        "llm": "zephyr",
+        "mode": "all_classes_and_properties",
+        "examples": "0",
+        "score": 0.07692307692307693
+    },
+    {
+        "onto": "Polifonia",
+        "llm": "una",
+        "mode": "all_classes_and_properties",
+        "examples": "0",
+        "score": 0.05303030303030303
+    },
+    {
+        "onto": "Polifonia",
+        "llm": "una",
+        "mode": "all_classes_and_properties",
+        "examples": "3",
+        "score": 0.38333333333333336
+    },
+    {
+        "onto": "Polifonia",
+        "llm": "GPT3",
+        "mode": "all_classes_and_properties",
+        "examples": "0",
+        "score": 0.08461538461538462
+    },
+    {
+        "onto": "Polifonia",
+        "llm": "GPT3",
+        "mode": "all_classes_and_properties",
+        "examples": "3",
+        "score": 0.3
+    },
+    {
+        "onto": "Polifonia",
+        "llm": "GPT4",
+        "mode": "all_classes_and_properties",
+        "examples": "3",
+        "score": 0.3181818181818182
+    },
+    {
+        "onto": "Polifonia",
+        "llm": "GPT4",
+        "mode": "all_classes_and_properties",
+        "examples": "0",
+        "score": 0.24427480916030533
+    },
+    {
+        "onto": "Polifonia",
+        "llm": "solar",
+        "mode": "all_classes_and_properties",
+        "examples": "3",
+        "score": 0.21568627450980393
+    },
+    {
+        "onto": "Polifonia",
+        "llm": "dpo",
+        "mode": "all_classes_and_properties",
+        "examples": "3",
+        "score": 0.21641791044776118
+    },
+    {
+        "onto": "Polifonia",
+        "llm": "solar",
+        "mode": "all_classes_and_properties",
+        "examples": "0",
+        "score": 0.041666666666666664
+    },
+    {
+        "onto": "Polifonia",
+        "llm": "dpo",
+        "mode": "all_classes_and_properties",
+        "examples": "0",
+        "score": 0.09022556390977443
+    },
+    {
+        "onto": "DemCare",
+        "llm": "zephyr",
+        "mode": "logic",
+        "examples": "0",
+        "score": 0.0
+    },
+    {
+        "onto": "DemCare",
+        "llm": "dpo",
+        "mode": "logic",
+        "examples": "0",
+        "score": 0.0
+    },
+    {
+        "onto": "DemCare",
+        "llm": "zephyr",
+        "mode": "logic",
+        "examples": "3",
+        "score": 0
+    },
+    {
+        "onto": "DemCare",
+        "llm": "dpo",
+        "mode": "logic",
+        "examples": "3",
+        "score": 0.039473684210526314
+    },
+    {
+        "onto": "DemCare",
+        "llm": "una",
+        "mode": "logic",
+        "examples": "3",
+        "score": 0.2688679245283019
+    },
+    {
+        "onto": "DemCare",
+        "llm": "una",
+        "mode": "logic",
+        "examples": "0",
+        "score": 0.0
+    },
+    {
+        "onto": "DemCare",
+        "llm": "solar",
+        "mode": "logic",
+        "examples": "0",
+        "score": 0.0
+    },
+    {
+        "onto": "DemCare",
+        "llm": "solar",
+        "mode": "logic",
+        "examples": "3",
+        "score": 0.0017211703958691911
+    },
+    {
+        "onto": "DemCare",
+        "llm": "GPT4",
+        "mode": "logic",
+        "examples": "3",
+        "score": 0.013157894736842105
+    },
+    {
+        "onto": "DemCare",
+        "llm": "GPT4",
+        "mode": "logic",
+        "examples": "0",
+        "score": 0.012578616352201259
+    },
+    {
+        "onto": "DemCare",
+        "llm": "GPT3",
+        "mode": "logic",
+        "examples": "0",
+        "score": 0.0
+    },
+    {
+        "onto": "DemCare",
+        "llm": "GPT3",
+        "mode": "logic",
+        "examples": "3",
+        "score": 0.0
+    },
+    {
+        "onto": "DemCare",
+        "llm": "zephyr",
+        "mode": "classes_and_properties",
+        "examples": "0",
+        "score": 0.09210526315789473
+    },
+    {
+        "onto": "DemCare",
+        "llm": "dpo",
+        "mode": "classes_and_properties",
+        "examples": "0",
+        "score": 0.08227848101265822
+    },
+    {
+        "onto": "DemCare",
+        "llm": "zephyr",
+        "mode": "classes_and_properties",
+        "examples": "3",
+        "score": 0.3269230769230769
+    },
+    {
+        "onto": "DemCare",
+        "llm": "dpo",
+        "mode": "classes_and_properties",
+        "examples": "3",
+        "score": 0.1320754716981132
+    },
+    {
+        "onto": "DemCare",
+        "llm": "una",
+        "mode": "classes_and_properties",
+        "examples": "3",
+        "score": 0.23776223776223776
+    },
+    {
+        "onto": "DemCare",
+        "llm": "una",
+        "mode": "classes_and_properties",
+        "examples": "0",
+        "score": 0.09615384615384616
+    },
+    {
+        "onto": "DemCare",
+        "llm": "solar",
+        "mode": "classes_and_properties",
+        "examples": "0",
+        "score": 0.05806451612903226
+    },
+    {
+        "onto": "DemCare",
+        "llm": "solar",
+        "mode": "classes_and_properties",
+        "examples": "3",
+        "score": 0.16778523489932887
+    },
+    {
+        "onto": "DemCare",
+        "llm": "GPT4",
+        "mode": "classes_and_properties",
+        "examples": "3",
+        "score": 0.17307692307692307
+    },
+    {
+        "onto": "DemCare",
+        "llm": "GPT4",
+        "mode": "classes_and_properties",
+        "examples": "0",
+        "score": 0.23178807947019867
+    },
+    {
+        "onto": "DemCare",
+        "llm": "GPT3",
+        "mode": "classes_and_properties",
+        "examples": "0",
+        "score": 0.1390728476821192
+    },
+    {
+        "onto": "DemCare",
+        "llm": "GPT3",
+        "mode": "classes_and_properties",
+        "examples": "3",
+        "score": 0.12582781456953643
+    },
+    {
+        "onto": "DemCare",
+        "llm": "zephyr",
+        "mode": "all_classes",
+        "examples": "0",
+        "score": 0.05333333333333334
+    },
+    {
+        "onto": "DemCare",
+        "llm": "dpo",
+        "mode": "all_classes",
+        "examples": "0",
+        "score": 0.04375
+    },
+    {
+        "onto": "DemCare",
+        "llm": "zephyr",
+        "mode": "all_classes",
+        "examples": "3",
+        "score": 0.21153846153846154
+    },
+    {
+        "onto": "DemCare",
+        "llm": "dpo",
+        "mode": "all_classes",
+        "examples": "3",
+        "score": 0.14792899408284024
+    },
+    {
+        "onto": "DemCare",
+        "llm": "una",
+        "mode": "all_classes",
+        "examples": "3",
+        "score": 0.2013888888888889
+    },
+    {
+        "onto": "DemCare",
+        "llm": "una",
+        "mode": "all_classes",
+        "examples": "0",
+        "score": 0.09740259740259741
+    },
+    {
+        "onto": "DemCare",
+        "llm": "solar",
+        "mode": "all_classes",
+        "examples": "0",
+        "score": 0.07692307692307693
+    },
+    {
+        "onto": "DemCare",
+        "llm": "solar",
+        "mode": "all_classes",
+        "examples": "3",
+        "score": 0.10967741935483871
+    },
+    {
+        "onto": "DemCare",
+        "llm": "GPT4",
+        "mode": "all_classes",
+        "examples": "3",
+        "score": 0.2064516129032258
+    },
+    {
+        "onto": "DemCare",
+        "llm": "GPT4",
+        "mode": "all_classes",
+        "examples": "0",
+        "score": 0.14473684210526316
+    },
+    {
+        "onto": "DemCare",
+        "llm": "GPT3",
+        "mode": "all_classes",
+        "examples": "0",
+        "score": 0.1503267973856209
+    },
+    {
+        "onto": "DemCare",
+        "llm": "GPT3",
+        "mode": "all_classes",
+        "examples": "3",
+        "score": 0.17307692307692307
+    }
+]
