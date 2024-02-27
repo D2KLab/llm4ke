@@ -1,0 +1,36 @@
+Which Application or Resource relates to a specific TroubleTicket
+What applications are associated with a given Agent through elementManagedBy
+For an incident, what Service type is primarily involved in TroubleTicket's related service
+What ApplicationModule status and SLA level are relevant to a certain Application
+What functional domains and sub-domains are associated with a given Application
+What Agent is in charge of a particular TroubleTicket's partyIntervention
+What ChangeRequest category and type are related to a specific incident's TroubleTicket cause
+What resources are impacted by a specific ChangeRequest
+What EventRecords are linked to a certain Application through logOriginatingManagementSystem
+What procedural actions are associated with a TroubleTicketNote's troubleTicketNoteCorrelatedExecution
+domains are associated with a given Application
+How is trouble ticket severity distinguished from its priority and urgency
+What categories of problems are typically associated with change requests
+How do trouble ticket note comment types and operation types differ in their purpose
+What are the key distinctions between trouble ticket statuses and change request statuses
+In the context of noria-o ontology, how is a trouble ticket's origin related to its associated problem's category
+What factors influence the determination of a corrective maintenance action's correlated operation plan
+How do operation plan pre- and post-conditions relate to action pre- and post-conditions
+In the event of a trouble ticket, how do the notions of criticality, severity, and priority interconnect
+What aspects of a change request's specification are most relevant to its associated category
+How do trouble ticket categories and problem categories in noria-o ontology differ in their scope and application
+o ontology, how is a trouble ticket's origin related to its associated problem's category
+and post-conditions relate to action pre- and post-conditions
+o ontology differ in their scope and application
+Which resource experiences an associated trouble ticket event
+What operation plan preconditions are linked to a specific action precondition
+What resource logistic ID corresponds to a given host name
+What network interfaces are associated with a certain network link
+What alarm-proposed repair action is related to a specific alarm severity
+What resource type is associated with a certain resource usage state
+What locus coordinates a given resource's location
+What event record's alarm-mitigated procedure execution pertains to a specific alarm-proposed repair action
+What network interface administrative and operational statuses are defined for a certain status code
+What change request impacts a specific resource, and what is the associated resource management IP address
+proposed repair action is related to a specific alarm severity
+mitigated procedure execution pertains to a specific alarm-proposed repair action

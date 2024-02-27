@@ -1,0 +1,50 @@
+Describe the relationship between ManagedElement and its managing agent via elementManagedBy property
+How do the properties applicationType, applicationBusinessImportance, and applicationModelIdentifier in Application class differentiate various applications
+What is the significance of Service's property serviceType in the context of noria-o ontology
+Explain the role of TroubleTicket's properties in capturing the nature of a technical issue
+How do the properties of ChangeRequest, such as category, type, and impact, help in understanding the scope of a proposed change
+What is the purpose of CorporateUserIdentifier class in the noria-o ontology
+How do the properties of StructuralElement, StructuralObservable, and FunctionalElement differentiate their roles in the system
+In the context of noria-o ontology, how do DynamicElement and ProceduralElement contrast in their behavior
+What is the relevance of TroubleTicketNote's properties, such as operationType, correlatedExecution, and commentType, in documenting the progress of a trouble ticket
+How do the properties of ApplicationModule, such as slaLevel, status, name, and identifier, aid in monitoring its performance and status in the system
+o ontology
+o ontology
+o ontology, how do DynamicElement and ProceduralElement contrast in their behavior
+Describe the relationship between OperationPlan and its associated properties, in the context of noria-o ontology
+What classes in noria-o ontology are directly related to trouble tickets
+How are AnomalyPattern and ProblemCategory interconnected within noria-o ontology
+Explain the role of DocumentAttachment in the noria-o ontology structure
+What properties in noria-o ontology are associated with the change request category
+In noria-o ontology, how do the properties of a trouble ticket differ from an operation plan's properties
+What distinguishes the classes n9d87f3c0a17a4335958cff4bdf3674a3b25 to n9d87f3c0a17a4335958cff4bdf3674a3b89, in terms of their roles in noria-o ontology
+How do the properties troubleTicketNoteOperationType and actionCorrelatedOperationPlan in noria-o ontology interrelate
+In noria-o ontology, what is the significance of the class ChangeRequestType
+What is the purpose of the properties associated with trouble ticket status in the noria-o ontology
+o ontology
+o ontology are directly related to trouble tickets
+o ontology
+o ontology structure
+o ontology are associated with the change request category
+o ontology, how do the properties of a trouble ticket differ from an operation plan's properties
+o ontology
+o ontology interrelate
+o ontology, what is the significance of the class ChangeRequestType
+o ontology
+What properties are associated with an instance of ActionPreCondition
+How is Resource related to ProductModel through the ontology
+What classes in noria-o have a direct connection to a physical location
+What properties in noria-o are specifically related to NetworkInterface's operational status
+What classes in noria-o have a documented history in EventRecord
+How are classes Locus and Room interconnected within the ontology
+Which properties in noria-o are associated with logging events and their timestamps
+What properties in noria-o are related to network links' installation details
+How do classes n9d87f3c0a17a4335958cff4bdf3674a3bXX in noria-o differ from the general resource class
+In what ways do classes in noria-o model alarm-related events and their attributes
+o have a direct connection to a physical location
+o are specifically related to NetworkInterface's operational status
+o have a documented history in EventRecord
+o are associated with logging events and their timestamps
+o are related to network links' installation details
+o differ from the general resource class
+o model alarm-related events and their attributes

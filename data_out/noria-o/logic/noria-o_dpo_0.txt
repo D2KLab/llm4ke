@@ -1,0 +1,54 @@
+How should an Agent be identified when associated with their preferred contact method in noria-o ontology
+What are the distinct classes related to a TroubleTicket in terms of their ontological connections
+What properties in noria-o describe an Application's business importance and its numerical identifier
+How are Service types represented in the noria-o ontology
+What are the key attributes of a ChangeRequest in terms of its lifecycle stages and associated parties
+How are the characteristics of a TroubleTicket incident differentiated in noria-o
+In noria-o ontology, how are the relationships between ManagedElement, Agent, and DynamicElement established
+What are the primary connections between ApplicationModule and its related status, sla level, and hotline-enabled attributes in noria-o
+How are ProblemResponsibility and ProblemCategory associated with a TroubleTicket in noria-o ontology
+What are the main classes and their relationships in noria-o that model an incident's detection, restoration planning, and communication aspects in a TroubleTicket
+o ontology
+o describe an Application's business importance and its numerical identifier
+o ontology
+o
+o ontology, how are the relationships between ManagedElement, Agent, and DynamicElement established
+enabled attributes in noria-o
+o ontology
+o that model an incident's detection, restoration planning, and communication aspects in a TroubleTicket
+Explain the relationship between TroubleTicket severity, criticality, and urgency in problem-solving contexts
+How do trouble ticket categories and problem categories differ in the noria-o ontology
+Describe the significance of trouble ticket status changes in managing IT support operations
+What factors influence the assignment of responsibility in a change request scenario
+How are trouble ticket notes classified based on their operation and comment types
+Compare the roles of change request categories and types in the noria-o ontology
+Discuss the relevance of pre- and post-conditions in operation plans
+In what ways do corrective maintenance actions correlate with operation plans in the noria-o ontology
+How do trouble ticket origins impact the overall IT support workflow
+Explain the interdependence of trouble ticket priority and trouble ticket status in the noria-o ontology
+solving contexts
+o ontology
+o ontology
+and post-conditions in operation plans
+o ontology
+o ontology
+How are OperationPlan's post-conditions related to ActionPostCondition within noria-o ontology
+What properties in noria-o describe a Resource's physical location
+What is the connection between EventRecord's logOriginatingManagedObject and Resource in noria-o
+How do TroubleTicket's related resources in noria-o influence its documentStatusHistory
+In noria-o, how do NetworkInterface's administrative and operational statuses differ
+What is the role of a Locus in defining a Resource's location within the noria-o ontology
+How are ChangeRequest's impacts in noria-o associated with the affected Resources
+What links the alarmSeverity in EventRecord to its specific numerical representation in noria-o
+How does the virtualServerStatus of a Resource in noria-o relate to its network-related properties
+In noria-o, how do Procedure and ProcedureExecutionContainer interact in the context of an EventRecord's alarmMitigatedBy
+conditions related to ActionPostCondition within noria-o ontology
+o describe a Resource's physical location
+o
+o influence its documentStatusHistory
+o, how do NetworkInterface's administrative and operational statuses differ
+o ontology
+o associated with the affected Resources
+o
+o relate to its network-related properties
+o, how do Procedure and ProcedureExecutionContainer interact in the context of an EventRecord's alarmMitigatedBy

@@ -1,0 +1,32 @@
+Which ManagedElement relates to a specific trouble ticket incident
+What Property indicates an Application's business importance
+What StructuralElement is associated with a given ChangeRequest
+What Service type is related to a certain TroubleTicket
+What ApplicationModuleStatus is currently active for a specified module
+Which agent's preferred contact method is associated with a CorporateUserIdentifier
+What TroubleTicketCategory aligns with a given problem's responsibility
+What ApplicationModuleName corresponds to a certain application numerical identifier
+What event triggers a TroubleTicket's creation, and what is its severity
+What DocumentStatusHistory is linked to a specific TroubleTicketNote
+Which resource relates to an assigned trouble ticket as problem responsibility
+What anomaly patterns are associated with a specific operation plan
+What change request category aligns with a given action correlated to an operation plan
+What is the current status of a change request with a certain type and specified cause
+What trouble ticket priority is set for a particular incident, considering its severity and urgency
+For a given asset chain, which intermediate assets are shared among its members
+What operation plan pre-conditions are in place for a certain post-condition
+In the context of a trouble ticket note, what operation type is related to a specific comment type
+What problem category is associated with a certain trouble ticket, considering its category, type, and origin
+For a given DocumentAttachment, which trouble ticket note comment type does it correspond to
+conditions are in place for a certain post-condition
+Which resource has a specific operation plan with related ActionPreCondition or ActionPostCondition
+What network interfaces are associated with a certain network link
+What is the resource's product model and installation date in an EventRecord scenario
+What alarm-related attributes are associated with a given network link
+What log entries, with a specified time range, are related to a certain resource
+What locus coordinates (row and line) are associated with a given room
+What change requests have an impact on a specific network link
+What resource's operational status is monitored by a certain alarm's severity level
+What virtual servers, in a network interface context, have a specific administrative or operational status
+Which trouble tickets are related to a specific resource's resourceLogisticId
+related attributes are associated with a given network link

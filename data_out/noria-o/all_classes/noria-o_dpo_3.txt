@@ -1,0 +1,49 @@
+Which class represents an identifiable unit within a managed environment, monitored or not
+What links a Property to a specific ManagedElement in the ontology
+How are FunctionalElement and DynamicElement differentiated in noria-o
+Which class in noria-o is a specialized form of StructuralElement, related to applications
+What connects a TroubleTicket to the associated ChangeRequest in noria-o
+What class in noria-o represents a unique identifier for a corporate user
+What class in noria-o is a specialized form of StructuralElement, related to services
+What class in noria-o is a specific type of Application, further divided into two other classes
+How are ApplicationModule and Service related within the Application class hierarchy
+What class in noria-o is a generic term for any element that undergoes changes or actions in a managed environment
+o
+o is a specialized form of StructuralElement, related to applications
+o
+o represents a unique identifier for a corporate user
+o is a specialized form of StructuralElement, related to services
+o is a specific type of Application, further divided into two other classes
+o is a generic term for any element that undergoes changes or actions in a managed environment
+How are classes DocumentAttachment and AnomalyPattern related within noria-o ontology
+What connects OperationPlan to the various n9608922619104efca760bf5dc2c6b46bbxx classes
+What is the purpose of the AnomalyPattern class in noria-o
+In what manner do classes AnomalyPattern and OperationPlan intersect within noria-o ontology
+How do DocumentAttachment instances relate to the overall noria-o ontology context
+What role do classes n9608922619104efca760bf5dc2c6b46bbxx play in noria-o
+In what way do instances of AnomalyPattern and n9608922619104efca760bf5dc2c6b46bbxx interact within noria-o ontology
+How do OperationPlan and DocumentAttachment classes complement each other in noria-o
+What is the significance of the class n9608922619104efca760bf5dc2c6b46bbxx in noria-o when compared to other similar classes
+How do classes AnomalyPattern and the various n9608922619104efca760bf5dc2c6b46bbxx-starting entities interrelate within noria-o ontology
+o ontology
+o
+o ontology
+o ontology context
+o
+o ontology
+o
+o when compared to other similar classes
+starting entities interrelate within noria-o ontology
+Which class connects an action to its necessary preconditions
+How are Room and Locus related in the ontology
+What events are recorded in an EventRecord class
+What entities in noria-o are related to network infrastructure
+What are the subclasses of Resource
+In what manner do ActionPreCondition and ActionPostCondition differ
+What data is associated with a specific Resource in terms of logging
+How do ProductModel instances relate to the network interfaces
+What links the various asset chains in noria-o ontology
+What classes in noria-o are not immediately associated with a real-world entity or concept
+o are related to network infrastructure
+o ontology
+o are not immediately associated with a real-world entity or concept
