@@ -46,10 +46,12 @@ loggingFormatString = (
 def run_single(
         input_path,
         prediction_path,
-        threshold=SIMILARITY_THRESHOLD):
+        threshold=SIMILARITY_THRESHOLD,
+        embeddings_gt=None):
     """
     Compute similarity score based on embeddings for a given set of Competency Questions.
 
+    :param embeddings_gt:
     :param input_path:
     :param prediction_path:
     :param threshold:
@@ -64,12 +66,16 @@ def run_single(
     if len(predictions) <= 0:
         return 0
 
-    with open(path.join(input_path, 'cqs', 'cqs.yml')) as f:
-        ground_truth = yaml.safe_load(f)
-    cqs = [c['question'] for c in ground_truth['ontology']['cqs']]
+    if embeddings_gt is not None:
+        gt_embeddings = embeddings_gt
+    else:
+        with open(path.join(input_path, 'cqs', 'cqs.yml')) as f:
+            ground_truth = yaml.safe_load(f)
+        cqs = [c['question'] for c in ground_truth['ontology']['cqs']]
 
-    # Compute embeddings
-    gt_embeddings = model.encode(cqs, convert_to_tensor=True)
+        # Compute embeddings
+        gt_embeddings = model.encode(cqs, convert_to_tensor=True)
+
     pred_embeddings = model.encode(predictions, convert_to_tensor=True)
 
     # Compute cosine-similarities for each sentence with each other sentence
@@ -91,12 +97,14 @@ def run_single(
             # print("{} \t\t {} \t\t Score: {:.4f}".format(
             #     cqs[i], predictions[j], pair["score"]
             # ))
-        logging.debug("PROCESS:RUN_PREDICTION:STATS:prediction_path=%s:pair_score(%s - %s)=%s", prediction_path, i, j, pair["score"])
+        logging.debug("PROCESS:RUN_PREDICTION:STATS:prediction_path=%s:pair_score(%s - %s)=%s", prediction_path, i, j,
+                      pair["score"])
 
     logging.debug("PROCESS:RUN_PREDICTION:STATS:prediction_path=%s:true_positive=%s", prediction_path, true_positive)
 
     precision = len(set(true_positive)) / len(predictions)
-    logging.debug("PROCESS:RUN_PREDICTION:STATS:prediction_path=%s:precision=%s", prediction_path, str(precision * 100) + '%')
+    logging.debug("PROCESS:RUN_PREDICTION:STATS:prediction_path=%s:precision=%s", prediction_path,
+                  str(precision * 100) + '%')
 
     return precision
 
@@ -115,28 +123,40 @@ def run_onto(
     logging.debug("PROCESS:SPECIFIC_ONTO:onto_name=%s", onto_name)
     scores = []
 
-    for mode in tqdm(os.listdir(path.join(ROOT_PRED, onto_name))):
+    input_path = path.join(ROOT_INPUT, onto_name)
+
+    with open(path.join(input_path, 'cqs', 'cqs.yml')) as f:
+        ground_truth = yaml.safe_load(f)
+    cqs = [c['question'] for c in ground_truth['ontology']['cqs']]
+
+    # Compute embeddings
+    gt_embeddings = model.encode(cqs, convert_to_tensor=True)
+
+    files_to_process = []
+    for mode in os.listdir(path.join(ROOT_PRED, onto_name)):
         if mode == 'archive' or not path.isdir(path.join(ROOT_PRED, onto_name, mode)):
             continue
         for file in os.listdir(path.join(ROOT_PRED, onto_name, mode)):
             if not file.endswith('.txt'):
                 continue
-            prediction_path = path.join(ROOT_PRED, onto_name, mode, file)
-            input_path = path.join(ROOT_INPUT, onto_name)
+            files_to_process.append((mode, file))
 
-            score = run_single(input_path, prediction_path, threshold)
+    for mode, file in tqdm(files_to_process, desc=onto_name):
+        prediction_path = path.join(ROOT_PRED, onto_name, mode, file)
 
-            parts = file.split('_')
-            llm = parts[1]
-            xpl = parts[2].replace('.txt', '')
+        score = run_single(input_path, prediction_path, threshold, gt_embeddings)
 
-            scores.append({
-                'onto': onto_name,
-                'llm': llm,
-                'mode': mode,
-                'examples': xpl,
-                'score': score
-            })
+        parts = file.split('_')
+        llm = parts[1]
+        xpl = parts[2].replace('.txt', '')
+
+        scores.append({
+            'onto': onto_name,
+            'llm': llm,
+            'mode': mode,
+            'examples': xpl,
+            'score': score
+        })
 
     return scores
 
@@ -149,7 +169,7 @@ def run_all(threshold=SIMILARITY_THRESHOLD):
     :return: a data structure with ontologies, LLMs and scores
     """
     res = [run_onto(onto, threshold)
-           for onto in os.listdir(ROOT_PRED)
+           for onto in sorted(os.listdir(ROOT_PRED))
            if path.isdir(path.join(ROOT_PRED, onto))]
     return flatten(res)
 
