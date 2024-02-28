@@ -1,0 +1,20 @@
+Which smell sources have the highest number of documentation in the Odeuropa ontology
+Which smell sources have the highest number of documentation in the 18th century in the Odeuropa ontology
+Which smell sources are the most frequent in London in the Odeuropa ontology during the 18th century
+Which smell sources have the highest number of documentation in the Odeuropa ontology for the F9 involved smell property
+Which smell sources have the highest number of documentation in the Odeuropa ontology for the L11 Smell class
+Which smell sources have the highest number of documentation in the Odeuropa ontology for the L16 Odorizing property
+Which smell sources have the highest number of documentation in the Odeuropa ontology for the F9 involved smell property in the 18th century
+Which smell sources are the most frequent in London in the Odeuropa ontology during the 18th century for the F9 involved smell property
+Which smell sources are the most frequent in London in the Odeuropa ontology during the 18th century for the L11 Smell class
+Which smell sources are the most frequent in London in the Odeuropa ontology during the 18th century for the L16 Odorizing property
+Which animal species were involved in the highest number of activities in the Odeuropa dataset
+Which species of animals were involved in the most frequent activities in London during the 18th century
+Which gestures were most frequently involved in activities related to animals in the Odeuropa dataset
+Which animal species were involved in the most frequent activities related to gestures in the Odeuropa dataset
+Which animal species were involved in the most frequent activities related to gestures in London during the 18th century
+Which smell sources were involved in the highest number of activities related to animals in the Odeuropa dataset
+Which smell sources were involved in the most frequent activities related to animals in London during the 18th century
+Which smell sources were involved in the most frequent activities related to gestures in the Odeuropa dataset
+Which smell sources were involved in the most frequent activities related to gestures in London during the 18th century
+Which smell sources were involved in the highest number of activities related to gestures in the Odeuropa dataset
