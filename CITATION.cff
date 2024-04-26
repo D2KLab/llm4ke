@@ -9,18 +9,22 @@ message: >-
   metadata from this file.
 type: software
 authors:
-  - orcid: 'https://orcid.org/0000-0003-0457-1436'
+  - orcid: 'https://orcid.org/0000-0003-3507-5646'
     affiliation: EURECOM
-    given-names: Raphaël
-    family-names: Troncy
-  - orcid: 'https://orcid.org/0000-0003-3094-5585'
-    affiliation: EURECOM
-    given-names: Pasquale
-    family-names: Lisena
+    given-names: Rebboud
+    family-names: Youssra
   - orcid: 'https://orcid.org/0000-0001-5887-899X'
     affiliation: Orange
     given-names: Lionel
     family-names: Tailhardat
+  - orcid: 'https://orcid.org/0000-0003-3094-5585'
+    affiliation: EURECOM
+    given-names: Pasquale
+    family-names: Lisena
+  - orcid: 'https://orcid.org/0000-0003-0457-1436'
+    affiliation: EURECOM
+    given-names: Raphaël
+    family-names: Troncy
 repository-code: 'https://github.com/D2KLab/llm4ke'
 url: 'https://semantics.eurecom.fr/'
 abstract: >-

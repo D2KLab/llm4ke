@@ -1,6 +1,6 @@
 # llm4ke
 
-Repository for Large Language Models for Knowledge Engineering
+Repository for *Large Language Models for Knowledge Engineering* (LLM4KE).
 
 ## Objectives
 
@@ -18,6 +18,17 @@ Set of questions we could investigate:
 5. Could a LLM write an authoring test (a SPARQL query) given the ontology and the CQ?
 6. Given a dataset and an ontology, is an LLM able to generate an adequate set of RML rules for data ingestion?
 7. Could a LLM take as input the CQ and extend an existing ontology?
+
+The content of this code repository accompanies the research project explained in the following paper:
+
+```bibtex
+@inproceedings{llm4ke-2024,
+  title     = {{Can LLMs Generate Competency Questions?}},
+  author    = {{Youssra Rebboud} and {Lionel Tailhardat} and {Pasquale Lisena} and {Rapha\"el Troncy}},
+  booktitle = {Semantic Web - 21st International Conference (ESWC), LLMs for KE track, Hersonissos, Crete, Greece, May 26 - 30, 2024},
+  year      = {2024}
+}
+```
 
 ## Usage
 
