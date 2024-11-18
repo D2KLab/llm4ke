@@ -19,13 +19,20 @@ Set of questions we could investigate:
 6. Given a dataset and an ontology, is an LLM able to generate an adequate set of RML rules for data ingestion?
 7. Could a LLM take as input the CQ and extend an existing ontology?
 
-The content of this code repository accompanies the research project explained in the following paper:
+The content of this code repository accompanies the research project explained in the following papers:
 
 ```bibtex
 @inproceedings{llm4ke-2024,
   title     = {{Can LLMs Generate Competency Questions?}},
   author    = {{Youssra Rebboud} and {Lionel Tailhardat} and {Pasquale Lisena} and {Rapha\"el Troncy}},
   booktitle = {Semantic Web - 21st International Conference (ESWC), LLMs for KE track, Hersonissos, Crete, Greece, May 26 - 30, 2024},
+  year      = {2024}
+}
+
+@inproceedings{llm4ke-bench-2024,
+  title     = {{Benchmarking LLM-based Ontology Conceptualization: A Proposal}},
+  author    = {{Youssra Rebboud} and {Pasquale Lisena} and {Lionel Tailhardat} and {Rapha\"el Troncy}},
+  booktitle = {ISWC 2024, 23rd International Semantic Web Conference, 11-15 November 2024, Baltimore, USA},
   year      = {2024}
 }
 ```
@@ -87,7 +94,7 @@ With the output data from the above *Generating Competency Questions* step,
 
 ## Copyright
 
-Copyright (c) 2023, EURECOM. All rights reserved.
+Copyright (c) 2023-2024, EURECOM. All rights reserved.
 
 ## License
 
